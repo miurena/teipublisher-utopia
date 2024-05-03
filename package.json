@@ -1,7 +1,7 @@
 {
-  "name" : "Utopia",
+  "name" : "demo-multilingual-utopia-january-2024",
   "version" : "1.0.0",
-  "description" : "Digital Edition Utopia",
+  "description" : "190124 Multilingual Utopia",
   "dependencies" : {
     "@teipublisher/pb-components" : "2.4.5"
   }

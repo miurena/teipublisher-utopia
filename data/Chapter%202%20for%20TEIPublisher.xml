@@ -1,0 +1,872 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- updated to 13/8/2023-->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Chapter 2</title>
+                <author>Thomas More (1478-1535)</author>
+                <author>Gerónimo de Medinilla y Porres (1590-c.1642)</author>
+                <!-- translator or @resp -->
+                <author>Ralph Robinson (1520-1577)</author>
+                <funder>This work has been developed thanks to a doctorate fellowship granted in
+                    2020 by the Spanish Ministry of Universities</funder>
+                <respStmt>
+                    <name>Inmaculada Ureña Asensio</name>
+                    <resp>transcription and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition xml:id="ed1" sameAs="#ed2">First edition <date>2023</date>
+                </edition>
+                <!-- Then connect it with the one of TEIPublisher -->
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Inma Ureña/Website's name</publisher>
+                <ref><!-- URL?--></ref>
+                <!-- point -->
+                <date>2023?</date>
+            </publicationStmt>
+            <notesStmt>
+                <note>This work was developed in a research visit at Northeastern University</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Utopia de Thomas Moro, traducida de latin en Caſtellano por Don Geronimo
+                        Antonio de Medinilla i Porres, Cauallero de la Orden de Santiago,
+                        Cavallerizo de ſu Mageſtad, Señor de las Villas de Bocos, Rozas, i Remolino,
+                        Corregidor, i Iuſticia mayor de la Ciudad de Cordova, i ſu tierra. </title>
+                    <author role="writer">Thomas More</author>
+                    <author role="translator">Gerónimo de Medinilla y Porres</author>
+                    <publisher>por Salvador de Cea Tesa</publisher>
+                    <date>1637</date>
+                    <pubPlace>Cordova</pubPlace>
+                </bibl>
+                <bibl>
+                    <title>The Utopia of Thomas More, in Latin from the edition of March 1518, and
+                        in English from the first edition of Ralph Robinson's translation in
+                        1551</title>
+                    <title/>
+                    <author role="writer">Thomas More</author>
+                    <author role="translator">Ralph Robinson</author>
+                    <editor>L. H. Lupton</editor>
+                    <publisher>Clarendon Press</publisher>
+                    <date>1895</date>
+                    <pubPlace>Oxford</pubPlace>
+                </bibl>
+                <!-- lists -->
+                <!-- WitList -->
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>This edition was developed as part of my thesis dissertation titled "A Digital
+                    Edition of the 1637 Spanish translation of Thomas More's Utopia". The processes
+                    of data modeling, encoding and publishing the edition was done during a research
+                    visit at Northeastern University.</p>
+            </projectDesc>
+            <editorialDecl>
+                <modernization>
+                    <p>The only text modernized is the translation. The elements modernized are the
+                        following: </p>
+                    <list>
+                        <item/>
+                    </list>
+                </modernization>
+                <punctuation>
+                    <p>The original punctuation system has been preserved in the 1637 Spanish
+                        translation, the 1551 English translation and the Latin original. The
+                        modifications concerning punctuation in the modernized version of the
+                        Spanish text have already been specified in the previous section.</p>
+                </punctuation>
+                <segmentation>
+                    <p>The texts have been segmented into sentences to facilitate alignment. The
+                        principle followed... </p>
+                </segmentation>
+                <tagsDecl>
+                    <namespace name="">
+                        <tagUsage gi="base"> explanation... </tagUsage>
+                        <tagUsage gi="modernization"> explanation... </tagUsage>
+                        <tagUsage gi="original"> explanation... </tagUsage>
+                        <tagUsage gi="translation"> explanation... </tagUsage>
+                    </namespace>
+                </tagsDecl>
+                <refDecl>
+                    <p> Explain here the reference system (linking?) use <gi/> to refer to elements
+                        and <attr/> to refer to attributes</p>
+                </refDecl>
+            </editorialDecl>
+            <classDecl>
+                <!-- Include information about categories marked up in the text -->
+                <taxonomy/>
+            </classDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="es">seventeenth-century Spanish</language>
+                <language ident="es-ES">Castilian Spanish</language>
+                <language ident="la">Latin</language>
+                <language ident="en">sixteenth-century English</language>
+            </langUsage>
+        </profileDesc>
+        <!-- copy of Spanish Library (ref) and where I took the copy from Lupton -->
+
+        <revisionDesc>
+            <change when="2023-08-31">Version 1.0 <!-- example --></change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="base" xml:lang="es">
+                <div type="Chapter" n="2">
+                    <head type="title">De las Ciudades, eſpecialmente de Amauroto.</head>
+                    <ab>
+                        <seg n="2.1" type="sentence">
+                            <s xml:id="es-2-1-1" n="es 2.1">EL que à viſto una de aquellas Ciudades
+                                las ha viſto todas, <app>
+                                    <lem>tanto ſon ſemejantes</lem>
+                                    <rdg wit="1790">tan semejantes son</rdg>
+                                    <rdg wit="1805">tan semejantes son</rdg>
+                                </app> las unas cõ las otras, donde la diſpoſiciõ del ſitio lo
+                                conſiẽte, hare relacion de una, bien que no importe mas deſcrebir
+                                eſta, que aquella; ſin embargo diferirrire de Amauroto, por ſer mas
+                                digna, i tener dentro de ſi el Senado, i de todas la mas
+                                ennoblecida, i de quien yo me hallo con mayores noticias, por aver
+                                morado en ella cinco años.</s>
+                        </seg>
+                        <seg n="2.2" type="sentence">
+                            <s xml:id="es-2-2-1" n="es 2.2">Tiene pues ſu aſsiento a la falda de un
+                                monte, ſu forma es quadrada, porque ſu latitud poco a poco ſe
+                                eſtiende, deſde la cima de un collado, diſtãcia de dos mil paſſos
+                                haſta llegar al rio Anidro, i paſſada la ribera ſe prolõga algo
+                                mas.<anchor n="3" xml:id="note-2-1"/>
+                            </s>
+                        </seg>
+                        <seg n="2.3" type="sentence">
+                            <s xml:id="es-2-3-1" n="es 2.3">Eſte rio nace ochẽta mil paſſos a la
+                                parte arriba de Amauroto de una pequeña fuente, pero cõ el concurſo
+                                de otros rios, i eſpecialmente el de otros dos medianos, que entran
+                                en el ſe aumentan fus aguas: antes de llegar a la Ciudad ſe eſtiende
+                                ſu corriente quinientos paſſos, luego ſe va enſanchãdo mas hasta ~q
+                                por el diſcurſo de ſeſenta mil paſſos entra en el Oceano.</s>
+                        </seg>
+                        <seg n="2.4" type="sentence">
+                            <s xml:id="es-2-4-1" n="es 2.4">En todo eſte eſpacio ~q ai de la Ciudad
+                                al mar, i algo mas arriba hazia el nacimiento, creciendo, i
+                                menguando el mar haze regolfos, con la velocidad del rio, por ſeis
+                                oras continuas.<anchor n="4" xml:id="note-2-2"/>
+                            </s>
+                        </seg>
+                        <seg n="2.5" type="sentence">
+                            <s xml:id="es-2-5-1" n="es 2.5">Quando entra en el pielago por diſtãcia
+                                de treinta mil paſſos ſe conoce ſu corriente, haziendo reflexion las
+                                aguas del Anidro, con el encuentro de las del mar.<anchor n="5" xml:id="note-2-3"/>
+                            </s>
+                        </seg>
+                        <seg n="2.6" type="sentence">
+                            <s xml:id="es-2-6-1" n="es 2.6">Entonces ſe ſalobran ſus aguas por algun
+                                eſpacio, ſi bien deſpues cobran ſu antiguo dulçor, paſſa por la
+                                Ciudad, ſin mezcla de ſalado, i en bajo mar a las vezes limpio, i
+                                ſin corromper, ſe, llega caſi a las entradas del.</s>
+                        </seg>
+                        <seg n="2.7" type="sentence">
+                            <s xml:id="es-2-7-1" n="es 2.7">Correſpondeſe la Ciudad a la ribera
+                                enfrente, no con barcos, ni otros inſtrumentos de madera, fino con
+                                una inſigne puente arqueada deſilleria, aſſentada hazia la parte mas
+                                remota del mar: porque las naves puedã arribar ſin daño aquel lado
+                                de la Ciudad.<anchor n="6" xml:id="note-2-4"/>
+                            </s>
+                        </seg>
+                        <seg n="2.8" type="sentence">
+                            <s xml:id="es-2-8-1" n="es 2.8">Tienen otro rio no grande, mas manſo, i
+                                apacible; nace en el miſmo monte, en que eſta fundado el Lugar, i
+                                vañandola la atravieſa por medio a la parte baja, i deſpues ſe junta
+                                con el Anidro.</s>
+                        </seg>
+                        <seg n="2.9" type="sentence">
+                            <s xml:id="es-2-9-1" n="es 2.9">Por nacer eſte rio tan cerca de la
+                                Ciudad, los Amauretanos juntaron con ella ſu nacimiento con
+                                valuartes, i pertrechos, porque ſi el enemigo acometieſſe, no les
+                                pudieſſe quitar, ni atoſigar el agua: la qual conducen por arcaduces
+                                de barro a diferentes parajes de lo vltimo de la Ciudad.</s>
+                        </seg>
+                        <seg n="2.10" type="sentence">
+                            <s xml:id="es-2-10-1" n="es 2.10">I ſi la naturaleza del ſitio en alguna
+                                parte no da lugar a eſto, el agua que ſe junta en grãdes albercas es
+                                del miſmo provecho.<anchor n="7" xml:id="note-2-5"/>
+                            </s>
+                        </seg>
+                        <seg n="2.11" type="sentence">
+                            <s xml:id="es-2-11-1" n="es 2.11">Cerca la Ciudad una muralla alta, i
+                                grueſa con muchas Torres, i Parapetos.</s>
+                        </seg>
+                        <seg n="2.12" type="sentence">
+                            <s xml:id="es-2-12-1" n="es 2.12">El foſo es ſeco, pero profundo, i
+                                ancho, mui intricado, defendido con çarzas, i cambroneras, por las
+                                tres vandas; por la otra el rio ſirve de reparo.</s>
+                        </seg>
+                        <seg n="2.13" type="sentence">
+                            <s xml:id="es-2-13-1" n="es 2.13">Las plaças eſtan fabricadas, aſsi para
+                                el comercio, como para el abrigo cõmodamente; los edificios no ſon
+                                deslucidos, antes en todos los varrios ſe continua un modelo, como
+                                ſe conoce en las fachadas de las caſas.</s>
+                        </seg>
+                        <seg n="2.14" type="sentence">
+                            <s xml:id="es-2-14-1" n="es 2.14">Las calles tienen veinte paſos de
+                                latitud, i a las eſpaldas dellas todo lo que tiene de ancho el
+                                varrio es jardin cercado en contorno.<anchor n="8" xml:id="note-2-6"/>
+                            </s>
+                        </seg>
+                        <seg n="2.15" type="sentence">
+                            <s xml:id="es-2-15-1" n="es 2.15">Todas las caſas uſan de puertas
+                                principal, i falſa: la una, i otra ſon faciles de abrir, i ellas ſin
+                                poner cuidado en ello, ſe cierran facilmente: de ſuerte, que a
+                                qualquiera ſe franquean para entrar, porque nadie poſſea coſa
+                                particular.</s>
+                        </seg>
+                        <seg n="2.16" type="sentence">
+                            <s xml:id="es-2-16-1" n="es 2.16">I por eſto cada diez años truecan
+                                caſas, echandolas por ſuerte.</s>
+                        </seg>
+                        <seg n="2.17" type="sentence">
+                            <s xml:id="es-2-17-1" n="es 2.17">Hazen eſtimaciõ deſtos jardines: en
+                                ellos plantan viñas, arboles frutales, ortalizas, i flores, con
+                                tanta hermoſura, i buena labor, que no me parece he viſto coſa mas
+                                util, i elegante.</s>
+                        </seg>
+                        <seg n="2.18" type="sentence">
+                            <s xml:id="es-2-18-1" n="es 2.18">En eſte cuidado no ſolo tienen
+                                deleite, pero atẽcion de manera, que compiten entre ellos, quien
+                                tiene eſtas poſſeſsiones con mas cultura, i mas buena labor.</s>
+                        </seg>
+                        <seg n="2.19" type="sentence">
+                            <s xml:id="es-2-19-1" n="es 2.19">I es cierto que no ſe hallara en toda
+                                la Ciudad otra ninguna coſa mas acomodada, ora ſea para prouecho,
+                                ora para deleite de los hombres: por que parece, que el que la
+                                fundò, en ninguna puſo mas cuidado, que en eſtos Iardines: i aun es
+                                fama, que Vtopo, deſde ſus primeros principios dejò el entero
+                                modelo, i traça deſta Ciudad, pero en quanto al adorno; i policia
+                                concediò a los venideros, que pudieſſen reformar lo que convinieſſe
+                                advirtiendo que para eſto no baſtava la edad ſola de un hombre.</s>
+                        </seg>
+                        <seg n="2.20" type="sentence">
+                            <s xml:id="es-2-20-1" n="es 2.20">Aſsi lo refierẽ <app>
+                                    <lem>ſus</lem>
+                                    <rdg wit="1790">sus</rdg>
+                                    <rdg wit="1805">los</rdg>
+                                </app> Anales (eſtos tienen guardados como eſcritos cuidadoſa, i
+                                religioſamente, deſde que ſe apoderò de la Isla, contienen la
+                                hiſtoria de mil i ſetecientos i ſeſenta años) que las caſas que oi
+                                ſon principales, fueron pagizas, como cabañas, i chozas fabricadas
+                                de toda madera, ſin diſtincion, las paredes de tapia, los techos
+                                cubiertos de carriços, retamas, i otras matas.<anchor n="9" xml:id="note-2-7"/>
+                            </s>
+                        </seg>
+                        <seg n="2.21" type="sentence">
+                            <s xml:id="es-2-21-1" n="es 2.21">Mas ahora toda fabrica de las caſas
+                                contiene tres altos: lo exterior de las paredes es de piedra viva, o
+                                labrada, o ladrillo, i lo interior de argamaſa: los terrados llanos,
+                                i deſcubiertos ſe hazen de cierto vetun de coſas molidas, i de poco
+                                gaſto; pero de tal temperamẽto, que no le emprende el fuego, i
+                                defiende de las injurias temporales, mas que el plomo. </s>
+                        </seg>
+                        <seg n="2.22" type="sentence">
+                            <s xml:id="es-2-22-1" n="es 2.22">Contra los vientos uſan de vidrieras
+                                en las ventanas (porque en aquella tierra ai mucho vidrio) i a vezes
+                                tambien ſe valen de encerados de lienço con azeite, o goma, que
+                                ſirben para dos uſos, para reſiſtir los vientos, i dar mas luz. </s>
+                        </seg>
+                    </ab>
+                </div>
+            </div>
+            <div type="modernization" xml:lang="es">
+                <div type="Chapter" n="2">
+                    <head type="title">De las ciudades, especialmente de Amauroto</head>
+                    <ab>
+                        <seg n="2.1" type="multisentence">
+                            <seg xml:id="em-2-1-1" n="em 2.1" corresp="#es-2-1-1">El que ha visto
+                                una de aquellas ciudades las ha visto todas.</seg>
+                            <seg xml:id="em-2-1-2" n="em 2.2" corresp="#es-2-1-1"> Tanto son
+                                semejantes las unas con las otras, donde la disposición del sitio lo
+                                consiente, haré relación de una, bien que no importe más describir
+                                esta que aquella.</seg>
+                            <seg xml:id="em-2-1-3" n="em 2.3" corresp="#es-2-1-1"> Sin embargo, diferiré de Amauroto, por ser más
+                                digna, y tener dentro de sí el senado, y de todas las más
+                                ennoblecida y de quien yo me hallo con mayores noticias por haber
+                                morado en ella cinco años.</seg>
+                        </seg>
+                        <seg n="2.2" type="singleSentence">
+                            <seg xml:id="em-2-2-1" n="em 2.4" corresp="#es-2-2-1">Tiene pues su
+                                asiento a la falda de un monte, su forma es cuadrada porque su
+                                latitud poco a poco se extiende desde la cima de un collado,
+                                distancia de dos mil pasos hasta llegar al río Anidro, y pasada la
+                                ribera se prolonga algo más.</seg>
+                        </seg>
+                        <seg n="2.3" type="multisentence">
+                            <seg xml:id="em-2-3-1" n="em 2.5" corresp="#es-2-3-1">Este río nace
+                                ochenta mil pasos a la parte arriba de Amauroto de una pequeña
+                                fuente, pero con el concurso de otros ríos y, especialmente, el de
+                                otros dos medianos que entran en él se aumentan sus aguas.</seg>
+                            <seg xml:id="em-2-3-2" n="em 2.6" corresp="#es-2-3-1"> Antes de llegar a
+                                la ciudad se extiende su corriente quinientos pasos, luego, se va
+                                ensanchando más hasta que por el discurso de sesenta mil pasos entra
+                                en el océano.</seg>
+                        </seg>
+                        <seg n="2.4" type="singleSentence">
+                            <seg xml:id="em-2-4-1" n="em 2.7" corresp="#es-2-4-1">En todo este
+                                espacio que hay de la ciudad al mar, y algo más arriba hacia el
+                                nacimiento, creciendo y menguando el mar hace regolfos con la
+                                velocidad del río por seis horas continuas.</seg>
+                        </seg>
+                        <seg n="2.5" type="singleSentence">
+                            <seg xml:id="em-2-5-1" n="em 2.8" corresp="#es-2-5-1">Cuando entra en el
+                                piélago por distancia de treinta mil pasos se conoce su corriente,
+                                haciendo reflexión las aguas del Anidro con el encuentro de las del
+                                mar.</seg>
+                        </seg>
+                        <seg n="2.6" type="multisentence">
+                            <seg xml:id="em-2-6-1" n="em 2.9" corresp="#es-2-6-1">Entonces se
+                                salobran sus aguas por algún espacio, si bien después cobran su
+                                antiguo dulzor.</seg>
+                            <seg xml:id="em-2-6-2" n="em 2.10" corresp="#es-2-6-1"> Pasa por la
+                                ciudad, sin mezcla de salado, y, en bajo mar a las veces limpio y
+                                sin corromper, se llega casi a las entradas del.</seg>
+                        </seg>
+                        <seg n="2.7" type="singleSentence">
+                            <seg xml:id="em-2-7-1" n="em 2.11" corresp="#es-2-7-1">Correspóndese la
+                                ciudad a la ribera enfrente, no con barcos ni otros instrumentos de
+                                madera, sino con un insigne puente arqueado de sillería asentado
+                                hacia la parte más remota del mar porque las naves puedan arribar
+                                sin daño a aquel lado de la ciudad.</seg>
+                        </seg>
+                        <seg n="2.8" type="singleSentence">
+                            <seg xml:id="em-2-8-1" n="em 2.12" corresp="#es-2-8-1">Tienen otro río
+                                no grande, mas manso y apacible; nace en el mismo monte en que está
+                                fundado el lugar y, bañándola, la atraviesa por medio a la parte
+                                baja, y después se junta con el Anidro.</seg>
+                        </seg>
+                        <seg n="2.9" type="singleSentence">
+                            <seg xml:id="em-2-9-1" n="em 2.13" corresp="#es-2-9-1">Por nacer este
+                                río tan cerca de la ciudad, los amauretanos juntaron con ella su
+                                nacimiento con baluartes y pertrechos, porque si el enemigo
+                                acometiese, no les pudiese quitar ni atosigar el agua, la cual
+                                conducen por arcaduces de barro a diferentes parajes de lo último de
+                                la ciudad.</seg>
+                        </seg>
+                        <seg n="2.10" type="singleSentence">
+                            <seg xml:id="em-2-10-1" n="em 2.14" corresp="#es-2-10-1">Y si la
+                                naturaleza del sitio en alguna parte no da lugar a esto, el agua que
+                                se junta en grandes albercas es del mismo provecho.</seg>
+                        </seg>
+                        <seg n="2.11" type="singleSentence">
+                            <seg xml:id="em-2-11-1" n="em 2.15" corresp="#es-2-11-1">Cerca de la
+                                ciudad una muralla alta y gruesa con muchas torres y
+                                parapetos.</seg>
+                        </seg>
+                        <seg n="2.12" type="multisentence">
+                            <seg xml:id="em-2-12-1" n="em 2.16" corresp="#es-2-12-1">El foso es
+                                seco, pero profundo y ancho, muy intricado, defendido con zarzas y
+                                cambroneras por las tres bandas.</seg>
+                            <seg xml:id="em-2-12-2" n="em 2.17" corresp="#es-2-12-1"> Por la otra,
+                                el río sirve de reparo.</seg>
+                        </seg>
+                        <seg n="2.13" type="multisentence">
+                            <seg xml:id="em-2-13-1" n="em 2.18" corresp="#es-2-13-1">Las plazas
+                                están fabricadas, así para el comercio como para el abrigo
+                                cómodamente.</seg>
+                            <seg xml:id="em-2-13-2" n="em 2.19" corresp="#es-2-13-1"> Los edificios
+                                no son deslucidos, antes en todos los barrios se continúa un modelo,
+                                como se conoce en las fachadas de las casas.</seg>
+                        </seg>
+                        <seg n="2.14" type="singleSentence">
+                            <seg xml:id="em-2-14-1" n="em 2.20" corresp="#es-2-14-1">Las calles
+                                tienen veinte pasos de latitud y a las espaldas dellas todo lo que
+                                tiene de ancho el barrio es jardín cercado en contorno.</seg>
+                        </seg>
+                        <seg n="2.15" type="multisentence">
+                            <seg xml:id="em-2-15-1" n="em 2.21" corresp="#es-2-15-1">Todas las casas
+                                usan de puertas principal y falsa.</seg>
+                            <seg xml:id="em-2-15-2" n="em 2.22" corresp="#es-2-15-1"> La una y otra
+                                son fáciles de abrir, y ellas, sin poner cuidado en ello, se cierran
+                                fácilmente.</seg>
+                            <seg xml:id="em-2-15-3" n="em 2.23" corresp="#es-2-15-1">De suerte, que
+                                a cualquiera se franquean para entrar, porque nadie posea cosa
+                                particular.</seg>
+                        </seg>
+                        <seg n="2.16" type="singleSentence">
+                            <seg xml:id="em-2-16-1" n="em 2.24" corresp="#es-2-16-1">Y por esto cada
+                                diez años truecan casas, echándolas por suerte.</seg>
+                        </seg>
+                        <seg n="2.17" type="multisentence">
+                            <seg xml:id="em-2-17-1" n="em 2.25" corresp="#es-2-17-1">Hacen
+                                estimación destos jardines.</seg>
+                            <seg xml:id="em-2-17-2" n="em 2.26" corresp="#es-2-17-1"> En ellos
+                                plantan viñas, árboles frutales, hortalizas y flores con tanta
+                                hermosura y buena labor, que no me parece he visto cosa más útil y
+                                elegante.</seg>
+                        </seg>
+                        <seg n="2.18" type="singleSentence">
+                            <seg xml:id="em-2-18-1" n="em 2.27" corresp="#es-2-18-1">En este cuidado
+                                no solo tienen deleite, pero atención, de manera que compiten entre
+                                ellos quien tiene estas posesiones con más cultura y más buena
+                                labor.</seg>
+                        </seg>
+                        <seg n="2.19" type="multisentence">
+                            <seg xml:id="em-2-19-1" n="em 2.28" corresp="#es-2-19-1">Y es cierto que
+                                no se hallara en toda la ciudad otra ninguna cosa más acomodada, ora
+                                sea para provecho, ora para deleite de los hombres, porque parece
+                                que el que la fundó en ninguna puso más cuidado que en estos
+                                jardines.</seg>
+                            <seg xml:id="em-2-19-2" n="em 2.29" corresp="#es-2-19-1"> Y aún es fama
+                                que Utopo desde sus primeros principios dejó el entero modelo y
+                                traza desta ciudad, pero en cuanto al adorno y policía concedió a
+                                los venideros que pudiesen reformar lo que conviniese advirtiendo
+                                que para esto no bastaba la edad sola de un hombre.</seg>
+                        </seg>
+                        <seg n="2.20" type="singleSentence">
+                            <seg xml:id="em-2-20-1" n="em 2.30" corresp="#es-2-20-1">Así lo refieren
+                                sus anales (estos tienen guardados como escritos cuidadosa y
+                                religiosamente desde que se apoderó de la isla, contienen la
+                                historia de mil setecientos y sesenta años) que las casas que hoy
+                                son principales, fueron pajizas como cabañas y chozas fabricadas de
+                                toda manera sin distinción las paredes de tapia, los techos
+                                cubiertos de carrizos, retamas y otras matas.</seg>
+                        </seg>
+                        <seg n="2.21" type="multisentence">
+                            <seg xml:id="em-2-21-1" n="em 2.30" corresp="#es-2-20-1">Mas ahora toda
+                                fábrica de las casas contiene tres altos: lo exterior de las paredes
+                                es de piedra viva o labrada o ladrillo, y lo interior de
+                                argamasa.</seg>
+                            <seg xml:id="em-2-21-2" n="em 2.30" corresp="#es-2-21-1">Los terrados
+                                llanos y descubiertos se hacen de cierto betún de cosas molidas y de
+                                poco gasto, pero de tal temperamento que no le emprende el fuego y
+                                defiende de las injurias temporales más que el plomo.</seg>
+                        </seg>
+                        <seg n="2.22" type="singleSentence">
+                            <seg xml:id="em-2-22-1" n="em 2.30" corresp="#es-2-22-1">Contra los
+                                vientos usan de vidrieras en las ventanas (porque en aquella tierra
+                                hay mucho vidrio) y a veces también se valen de encerados de lienzo
+                                con aceite o goma, que sirven para dos usos: para resistir los
+                                vientos y dar más luz.</seg>
+                        </seg>
+                    </ab>
+                </div>
+            </div>
+            <div type="original" xml:lang="la">
+                <div type="Chapter" n="2">
+                    <head type="title">DE VRBIBVS, AC NOMINATIM DE AMAVROTO</head>
+                    <ab>
+                        <seg n="2.1" type="multisentence">
+                            <seg xml:id="la-2-1-1" n="la 2.1" corresp="#es-2-1-1">VRBium qui unam
+                                norit, omnes nouerit: ita sunt inter se (qua­tenus loci natura non
+                                obstat) omnino similes.</seg>
+                            <seg xml:id="la-2-1-2" n="la 2.2" corresp="#es-2-1-1"> Depingam igitur
+                                unam quampiam (neque enim admodum refert quam).</seg>
+                            <seg xml:id="la-2-1-3" n="la 2.3" corresp="#es-2-1-1"> Sed quam potius
+                                quam Amaurotum qua nee ulla dignior est, quippe cui senatus gratia
+                                reliquae defe­runt, nec ulla mihi notior, ut in qua annos quinque
+                                perpetuo uixerim.</seg>
+                        </seg>
+                        <seg n="2.2" type="multisentence">
+                            <seg xml:id="la-2-2-1" n="la 2.4" corresp="#es-2-2-1">Situm est igitur
+                                Amaurotum in leni deiectu montis, figura fere quadrata.</seg>
+                            <seg xml:id="la-2-2-2" n="la 2.5" corresp="#es-2-2-1"> Nam latitude eius
+                                paulo infra collis incoepta uerticem, millibus passuum duobus ad
+                                flumen Anydrum pertinet, secundum ripam aliquanto longior.</seg>
+                        </seg>
+                        <seg n="2.3" type="multisentence">
+                            <seg xml:id="la-2-3-1" n="la 2.6" corresp="#es-2-3-1">Oritur Anydrus
+                                milibus octoginta supra Amaurotum, modico fonte, sed aliorum occursu
+                                fluminum, atque in his duorum etiam mediocrium, auctus, ante urbem
+                                ipsam quingentos in latum passus extenditur.</seg>
+                            <seg xml:id="la-2-3-2" n="la 2.7" corresp="#es-2-3-1"> Mox adhuc
+                                amplior, sexaginta milia prolapsus, excipitur oceano.</seg>
+                        </seg>
+                        <seg n="2.4" type="singleSentence">
+                            <seg xml:id="la-2-4-1" n="la 2.8" corresp="#es-2-4-1">Hoc toto spacio,
+                                quod urbem ac mare interiacet, ac supra urbem quoque aliquot milia,
+                                sex horas perpetuas influens aestus ac refluus alternat celeri
+                                flumine.</seg>
+                        </seg>
+                        <seg n="2.5" type="singleSentence">
+                            <seg xml:id="la-2-5-1" n="la 2.9" corresp="#es-2-5-1">Quum sese pelagus
+                                infert, triginta in longum milia, totum Anydri alueum suis occupat
+                                undis, profligate retrorsum fluuio.</seg>
+                        </seg>
+                        <seg n="2.6" type="singleSentence">
+                            <seg xml:id="la-2-6-1" n="la 2.10" corresp="#es-2-6-1">Tum aliquanto
+                                ultra liquorem eius salsugine corrumpit; dehinc paulatim dulcescens
+                                amnis syncerus urbem perlabitur, ac refugientem uicissim purus et
+                                incorruptus ad ipsas propre fauces insequitur.</seg>
+                        </seg>
+                        <seg n="2.7" type="singleSentence">
+                            <seg xml:id="la-2-7-1" n="la 2.11" corresp="#es-2-7-1">Vrbs aduersae
+                                fluminis ripae, non pilis ac sublicibus ligneis sed ex opere lapideo
+                                egregie arcuato ponte, commissa est, ab ea parte quae longissime
+                                distat a mari, quo naues totum id latus urbis possint inoffensae
+                                praeteruehi.</seg>
+                        </seg>
+                        <seg n="2.8" type="multisentence">
+                            <seg xml:id="la-2-8-1" n="la 2.12" corresp="#es-2-8-1">Habent alium
+                                praeterea fluuium, haud magnum quidem ilium, sed perquam placidum ac
+                                iucundum.</seg>
+                            <seg xml:id="la-2-8-2" n="la 2.13" corresp="#es-2-8-1"> Nam ex eodem
+                                caturiens monte, in quo ciuitas collocatur, mediam illam per deuexa
+                                perfluens Anydro miscetur.</seg>
+                        </seg>
+                        <seg n="2.9" type="multisentence">
+                            <seg xml:id="la-2-9-1" n="la 2.14" corresp="#es-2-9-1">Eius fluuii caput
+                                fontem­que, quod paulo extra urbem nascitur, munimentis amplexi
+                                Amaurotani iunxerunt oppido, ne si qua hostium ingruat, intercipi
+                                atque auerti aqua, neue corrumpi queat.</seg>
+                            <seg xml:id="la-2-9-2" n="la 2.15" corresp="#es-2-9-1"> Inde canalibus
+                                coctilibus diuersim ad inferiores urbis partes aqua diriuatur.</seg>
+                        </seg>
+                        <seg n="2.10" type="singleSentence">
+                            <seg xml:id="la-2-10-1" n="la 2.16" corresp="#es-2-10-1">id sicubi locus
+                                fieri uetat, cisternis capacibus collecta pluuia tantundem usus
+                                adfert.</seg>
+                        </seg>
+                        <seg n="2.11" type="singleSentence">
+                            <seg xml:id="la-2-11-1" n="la 2.17" type="partial" part="I" next="#en-2-12-1" corresp="#es-2-11-1">Murus altus ac latus oppidum
+                                cingit, turribus ac propugnaculis frequens, </seg>
+                        </seg>
+                        <seg n="2.12" type="multisentence">
+                            <seg xml:id="la-2-12-1" n="la 2.17" type="partial" part="F" prev="#en-2-11-1" corresp="#es-2-12-1">arida fossa, sed alta
+                                lataque, ac ueprium sepibus impedita, tribus ad lateribus circumdat
+                                moenia.</seg>
+                            <seg xml:id="la-2-12-2" n="la 2.18" corresp="#es-2-12-1"> quarto flumen
+                                ipsum pro fossa est.</seg>
+                        </seg>
+                        <seg n="2.13" type="multisentence">
+                            <seg xml:id="la-2-13-1" n="la 2.19" corresp="#es-2-13-1">Plateae cum ad
+                                uecturam, tum aduersus uentos, descriptae commode.</seg>
+                            <seg xml:id="la-2-13-2" n="la 2.20" corresp="#es-2-13-1"> aedificia
+                                neutiquam sordida, quorum longa et totum per uicum perpetua series
+                                aduersa domorum fronte conspicitur.</seg>
+                        </seg>
+                        <seg n="2.14" type="multisentence">
+                            <seg xml:id="la-2-14-1" n="la 2.21" corresp="#es-2-14-1">has uicorum
+                                frontes uia distinguit pedes uiginti lata.</seg>
+                            <seg xml:id="la-2-14-2" n="la 2.22" corresp="#es-2-14-1"> Posterioribus
+                                aedium partibus, quanta est uici longitudo, hortus adiacet, latus,
+                                et uicorum tergis undique circumseptus.</seg>
+                        </seg>
+                        <seg n="2.15" type="multisentence">
+                            <seg xml:id="la-2-15-1" n="la 2.23" corresp="#es-2-15-1">Nulla domus
+                                est, quae non, ut hostium in plateam, ita posticum in hortum
+                                habeat.</seg>
+                            <seg xml:id="la-2-15-2" n="la 2.24" corresp="#es-2-15-1"> Quin bifores
+                                quoque facili tractu manus apertiles, ac dein sua sponte coeuntes,
+                                quemuis intromittunt.</seg>
+                            <seg xml:id="la-2-15-3" n="la 2.25" corresp="#es-2-15-1"> ita nihil
+                                usquam priuati est.</seg>
+                        </seg>
+                        <seg n="2.16" type="singleSentence">
+                            <seg xml:id="la-2-16-1" n="la 2.26" corresp="#es-2-16-1">Nam domos ipsas
+                                uno quoque decennio sorte commutant.</seg>
+                        </seg>
+                        <seg n="2.17" type="multisentence">
+                            <seg xml:id="la-2-17-1" n="la 2.27" corresp="#es-2-17-1">Hos hortos
+                                magnifaciunt.</seg>
+                            <seg xml:id="la-2-17-2" n="la 2.28" corresp="#es-2-17-1"> in his uineas,
+                                fructus, herbas, flores, habent, tanto nitore cultuque, ut nihil
+                                fructuosius usquam ulderim, nihil elegantius.</seg>
+                        </seg>
+                        <seg n="2.18" type="singleSentence">
+                            <seg xml:id="la-2-18-1" n="la 2.29" corresp="#es-2-18-1">qua in re
+                                studium horum non ipsa uoluptas modo, sed uicorum quoque inuicem de
+                                suo cuiusque horti cultu certamen accendit.</seg>
+                        </seg>
+                        <seg n="2.19" type="multisentence">
+                            <seg xml:id="la-2-19-1" n="la 2.30" corresp="#es-2-19-1">et certe non
+                                aliud quicquam temere urbe tota reperias, sine ad usum ciuium, siue
+                                ad uoluptatem commodius.</seg>
+                            <seg xml:id="la-2-19-2" n="la 2.31" corresp="#es-2-19-1"> eoque nullius
+                                rei, quam huiusmodi hortorum, maiorem habuisse curam uidetur is qui
+                                condidit.</seg>
+                            <seg xml:id="la-2-19-3" n="la 2.32" corresp="#es-2-19-1"> Nam totam bane
+                                urbis figuram, iam inde ab initio descriptam ab ipso Vtopo
+                                ferunt.</seg>
+                            <seg xml:id="la-2-19-4" n="la 2.33" corresp="#es-2-19-1"> Sed ornatum,
+                                caeterumque cultum, qui bus unius aetatem hominis haud suffecturam
+                                uidit, posteris adiiciendum reliquit.</seg>
+                        </seg>
+                        <seg n="2.20" type="singleSentence">
+                            <seg xml:id="la-2-20-1" n="la 2.34" corresp="#es-2-20-1">Itaque scriptum
+                                in annalibus habent, quos ab capta usque insula mille septingentorum
+                                ac sexaginta annorum complectentes historiam diligenter et religiose
+                                perscriptos adseruant, aedes initio humiles, ac veluti casas et
+                                tuguria fuisse, e quolibet ligno temere factas, pa­rietes luto
+                                obductos, culmina in aciem fastigiata stramentis operue­rant.</seg>
+                        </seg>
+                        <seg n="2.21" type="multisentence">
+                            <seg xml:id="la-2-21-1" n="la 2.35" corresp="#es-2-21-1">At nunc omnis
+                                domus uisenda forma tabulatorum trium.</seg>
+                            <seg xml:id="la-2-21-2" n="la 2.36" corresp="#es-2-21-1"> parietum
+                                facies, aut silice, aut cementis aut latere coctili constructae, in
+                                aluum introrsus congesto rudere.</seg>
+                            <seg xml:id="la-2-21-3" n="la 2.37" corresp="#es-2-21-1"> Tecta in
+                                planum subducta, quae intritis quibusdam insternunt, nullius
+                                impendii, sed ea temperatura quae nec igni obnoxia sit, et
+                                tolerandis tempestatum iniuriis plumbum superet. </seg>
+                        </seg>
+                        <seg n="2.22" type="multisentence">
+                            <seg xml:id="la-2-22-1" n="la 2.38" corresp="#es-2-22-1">Ventos e
+                                fenestris uitro (nam eius ibi creberrimus usus est) expellunt;
+                                interim etiam lino tenui, quod perlucido oleo aut succino perlinunt,
+                                gemino nimirum commodo.</seg>
+                            <seg xml:id="la-2-22-2" n="la 2.39" corresp="#es-2-22-1"> Si quidem ad
+                                eum modum fit, ut et plus lucis transmittat, et uentorum minus
+                                admittat. </seg>
+                        </seg>
+                    </ab>
+                </div>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="Chapter" n="2">
+                    <head type="title">The cities, especially Amaurotum</head>
+                    <ab>
+                        <seg n="2.1" type="multisentence">
+                            <seg xml:id="en-2-1-1" n="en 2.1" corresp="#es-2-1-1">AS for their
+                                Cyties, he that knoweth one of them knoweth them all: they be all so
+                                lyke one to an other, as ferfurth as the nature of the place
+                                permytteth.</seg>
+                            <seg xml:id="en-2-1-2" n="en 2.2" corresp="#es-2-1-1"> I wyll descrybe
+                                therfore to yowe one or other of them, for it skylleth not greatly
+                                whych; but which rather then Amaurote?</seg>
+                            <seg xml:id="en-2-1-3" n="en 2.3" corresp="#es-2-1-1"> Of them all this
+                                is the worthiest and of moste dignitie.</seg>
+                            <seg xml:id="en-2-1-4" n="en 2.4" corresp="#es-2-1-1"> For the resydwe
+                                knowledge it for the head cytie, because there is the councell
+                                house.</seg>
+                            <seg xml:id="en-2-1-5" n="en 2.5" corresp="#es-2-1-1"> Nor to me any of
+                                them al is better beloued, as wherin I lyued fyue hole yeares
+                                together.</seg>
+                        </seg>
+                        <seg n="2.2" type="multisentence">
+                            <seg xml:id="en-2-2-1" n="en 2.6" corresp="#es-2-2-1">The cytie of
+                                Amaurote standeth vpon the syde of a low hill, in fashion almoste
+                                four square.</seg>
+                            <seg xml:id="en-2-2-2" n="en 2.7" corresp="#es-2-2-1"> For the bredeth
+                                of it begynneth a litle benethe the toppe of the hyll, and styli
+                                contyneweth by the space of twoo miles vntyll it cum to the ryuer of
+                                Anyder.</seg>
+                            <seg xml:id="en-2-2-3" n="en 2.8" corresp="#es-2-2-1"> The lenghte of it
+                                whiche lyeth by the ryuers syde is sumwhat more.</seg>
+                        </seg>
+                        <seg n="2.3" type="multisentence">
+                            <seg xml:id="en-2-3-1" n="en 2.9" corresp="#es-2-3-1">The ryuere of
+                                Anyder rysethe xxiii myles aboue Amaurote owte of a lytle
+                                sprynge.</seg>
+                            <seg xml:id="en-2-3-2" n="en 2.10" corresp="#es-2-3-1"> But beynge
+                                increasede by other small floodes and broukes that runne into yt,
+                                and amonge othere ii sumwhat bygge ons, before the cytye yt ys halfe
+                                a myle brode, and farther broder.</seg>
+                            <seg xml:id="en-2-3-3" n="en 2.11" corresp="#es-2-3-1"> And lx myles
+                                beyonde the citye yt falleth into the Ocean sea.</seg>
+                        </seg>
+                        <seg n="2.4" type="singleSentence">
+                            <seg xml:id="en-2-4-1" n="en 2.12" corresp="#es-2-4-1">By al that space
+                                that lyethe betwene the sea and the cytye, and a good sorte of myles
+                                also aboue the cytye, the water ebbethe and flowethe vi houres
+                                togethere wyth a swyfte tyde.</seg>
+                        </seg>
+                        <seg n="2.5" type="singleSentence">
+                            <seg xml:id="en-2-5-1" n="en 2.13" corresp="#es-2-5-1">Whan the sea
+                                flowethe in for the lenghte of xxx myles, yt fyllethe all the Anyder
+                                wyth salte water, and dryuethe backe the fresshe water of the
+                                ryuer.</seg>
+                        </seg>
+                        <seg n="2.6" type="multisentence">
+                            <seg xml:id="en-2-6-1" n="en 2.14" corresp="#es-2-6-1">And sumwhat
+                                furthere yt chaungethe the swetenes of the freshe water wyth
+                                saltnes.</seg>
+                            <seg xml:id="en-2-6-2" n="en 2.15" corresp="#es-2-6-1"> But a letell beyonde that, the ryuer waxeth swet, and runneth
+                                forby the city fresh and pleisaunt.</seg>
+                            <seg xml:id="en-2-6-3" n="en 2.16" corresp="#es-2-6-1"> And when the sea
+                                ebbeth, and goyth backe agayn, the freshe water followeth yt almoste
+                                euen to the verye falle in to the sea.</seg>
+                        </seg>
+                        <seg n="2.7" type="singleSentence">
+                            <seg xml:id="en-2-7-1" n="en 2.17" corresp="#es-2-7-1">There goeth a
+                                brydge ouer the ryuer made not of pyles or of tymber, but of
+                                stonewarke, with gorgious and substanciall archeis at that parte of
+                                the cytye that is farthest from the sea; to the intent that shyppes
+                                maye goo alonge forbie all the syde of the cytie without
+                                lette.</seg>
+                        </seg>
+                        <seg n="2.8" type="multisentence">
+                            <seg xml:id="en-2-8-1" n="en 2.18" corresp="#es-2-8-1">They haue also an
+                                other ryuere, whiche in dede is not very great.</seg>
+                            <seg xml:id="en-2-8-2" n="en 2.19" corresp="#es-2-8-1"> But it runneth
+                                gentelly and pleasauntlye.</seg>
+                            <seg xml:id="en-2-8-3" n="en 2.20" corresp="#es-2-8-1"> For it ryseth
+                                euen out of the same hyll that the cytie standeth vpon, and runneth
+                                downe a slope through the myddes of the citie into Anyder.</seg>
+                        </seg>
+                        <seg n="2.9" type="multisentence">
+                            <seg xml:id="en-2-9-1" n="en 2.21" corresp="#es-2-9-1">And bicause it
+                                ryseth a lytle without the citie, the Amaurotians haue inclosed the
+                                head sprynge of it with stronge fences and bulwarkes, and so haue
+                                ioyned it to the cytie.</seg>
+                            <seg xml:id="en-2-9-2" n="en 2.22" corresp="#es-2-9-1"> Thys is done to
+                                the intente that the water should not be stopped, nor turned a waye,
+                                or poysoned, if their enemyes should chaunce to come vpon
+                                them.</seg>
+                            <seg xml:id="en-2-9-3" n="en 2.23" corresp="#es-2-9-1"> From thence the
+                                water is deryued and brought downe in cannellis of brycke dyuers
+                                wayes into the lower partes of the cytie.</seg>
+                        </seg>
+                        <seg n="2.10" type="singleSentence">
+                            <seg xml:id="en-2-10-1" n="en 2.24" corresp="#es-2-10-1">Where that
+                                cannot be done, by reason that the place wyll not suffer it, there
+                                they gather the rayne water in greate cisternes, which doth them as
+                                good seruice.</seg>
+                        </seg>
+                        <seg n="2.11" type="singleSentence">
+                            <seg xml:id="en-2-11-1" n="en 2.25" corresp="#es-2-11-1">The cytie is
+                                compassed aboute wyth a highe and thycke walle, full of turrettes
+                                and bulwarkes.</seg>
+                        </seg>
+                        <seg n="2.12" type="multisentence">
+                            <seg xml:id="en-2-12-1" n="en 2.26" corresp="#es-2-12-1">A drye dyche,
+                                but deape and brode and overgrowen with busshes, briers, and
+                                thornes, goeth about iii sydes or quarters of the cytie.</seg>
+                            <seg xml:id="en-2-12-2" n="en 2.27" corresp="#es-2-12-1"> To the fowrth
+                                syde the ryuer it selfe serueth for a dytche.</seg>
+                        </seg>
+                        <seg n="2.13" type="multisentence">
+                            <seg xml:id="en-2-13-1" n="en 2.28" corresp="#es-2-13-1">The stretes be
+                                appoynted and set forth verye commodious and handsome, bothe for
+                                carriage and also agaynst the wyndes.</seg>
+                            <seg xml:id="en-2-13-2" n="en 2.29" corresp="#es-2-13-1"> The houses be
+                                of fayre and gorgious buyldyng, and in the streete syde they stonde
+                                ioyned together in a longe rowe throughe the hole streate without
+                                anye parti­tion or separacion.</seg>
+                        </seg>
+                        <seg n="2.14" type="multisentence">
+                            <seg xml:id="en-2-14-1" n="en 2.30" corresp="#es-2-14-1">The stretes be
+                                twenty fote brode.</seg>
+                            <seg xml:id="en-2-14-2" n="en 2.31" corresp="#es-2-14-1"> On the backe
+                                syde of the houses, through the hole lengthe of the strete, lye
+                                large gardeynes, whyche be closed in rounde about with the backe
+                                parte of the stretes.</seg>
+                        </seg>
+                        <seg n="2.15" type="multisentence">
+                            <seg xml:id="en-2-15-1" n="en 2.32" corresp="#es-2-15-1">Euery house
+                                hath two doores; one into the strete, and a posternne doore on the
+                                backsyde into the gardyne.</seg>
+                            <seg xml:id="en-2-15-2" n="en 2.33" corresp="#es-2-15-1"> Thyes doores
+                                be made with two leaues, neuer ocked nor bolted, so easye to be
+                                opened that they wil followe the least drawing of a fynger and
+                                shutte agayne by themselfes.</seg>
+                            <seg xml:id="en-2-15-3" n="en 2.34" corresp="#es-2-15-1"> Euerye man
+                                that wyll maye goo yn, for there is nothynge wythin the howses that
+                                ys pryuate, or annye mannes owne.</seg>
+                        </seg>
+                        <seg n="2.16" type="singleSentence">
+                            <seg xml:id="en-2-16-1" n="en 2.35" corresp="#es-2-16-1">And euerye x
+                                yeare they chaunge their howses by lotte.</seg>
+                        </seg>
+                        <seg n="2.17" type="multisentence">
+                            <seg xml:id="en-2-17-1" n="en 2.36" corresp="#es-2-17-1">They sett great
+                                stoore be theyr gardeins.</seg>
+                            <seg xml:id="en-2-17-2" n="en 2.37" corresp="#es-2-17-1"> In them they
+                                haue vyneyardes, all manner of frute, herbes, and flowres, so
+                                pleisaunte, so well furnished, and so fynelye kepte, that I neuer
+                                sawe thynge more frutefull nor better tryrnmed in anny place.</seg>
+                        </seg>
+                        <seg n="2.18" type="singleSentence">
+                            <seg xml:id="en-2-18-1" n="en 2.38" corresp="#es-2-18-1">Their studye
+                                and delygence herin cummeth not only of pleasure, but also of a
+                                certeyne stryffe and contentyon that is betwene strete and strete,
+                                concernynge the trymmynge, husbanding, and furnyshyng of their
+                                gardeyns, euery man for hys owne part.</seg>
+                        </seg>
+                        <seg n="2.19" type="multisentence">
+                            <seg xml:id="en-2-19-1" n="en 2.39" corresp="#es-2-19-1">And verily yow
+                                shall not lyghtly fynde in all the citye annye thynge that is more
+                                commodyous, other for the proffyte of the citizins, or for
+                                pleasure.</seg>
+                            <seg xml:id="en-2-19-2" n="en 2.40" corresp="#es-2-19-1"> And therfore
+                                it may seme that the first fownder of the city mynded nothynge so
+                                muche as he dyd thies gardeyns.</seg>
+                            <seg xml:id="en-2-19-3" n="en 2.41" corresp="#es-2-19-1"> For they say
+                                that kyng Vtopus himself, euen at the first begenning, appointed and
+                                drew furth the platte fourme of the city into this fasion and figure
+                                that it hath nowe; but the gallaunt garnishing, and the bewtiful
+                                setting furth of it, wherunto he sawe that one mans age wold not
+                                suffice, that he left to his posterity.</seg>
+                        </seg>
+                        <seg n="2.20" type="singleSentence">
+                            <seg xml:id="en-2-20-1" n="en 2.42" corresp="#es-2-20-1">For their
+                                Cronicles, which they kepe written with al deligent circumspection,
+                                contein­ing the history of viiclx years, euen from the fyrste
+                                conquest of the Iland, recorde and witnesse that the howses in the
+                                beginning were verye lowe, and lyke homelye cotages, or poore
+                                shepparde howses, made at all aduentures of euerye rude pyece of
+                                woode that came fyrste to handes, wyth mudde walles, and rydged
+                                rooffes thatched ouer with straw.</seg>
+                        </seg>
+                        <seg n="2.21" type="multisentence">
+                            <seg xml:id="en-2-21-1" n="en 2.43" corresp="#es-2-21-1"> But nowe the
+                                houses be curiously builded, after a gorgiouse and gallaunt sort,
+                                with iii storries one ouer another.</seg>
+                            <seg xml:id="en-2-21-2" n="en 2.44" corresp="#es-2-21-1"> The owte sydes of the walles be
+                                made other of harde Flynte or of plauster, or elles of brycke; and
+                                the ynner sydes be well strengthened with tymber woorke.</seg>
+                            <seg xml:id="en-2-21-3" n="en 2.45" corresp="#es-2-21-1"> The rooffes
+                                be playne and flatte, couered with a certayne kinde of plaster, that
+                                is of no coste, and yet so tempered that no fyre can hurte or
+                                peryshe it, and withstandeth the violence of the weether better then
+                                anye leade.</seg>
+                        </seg>
+                        <seg n="2.22" type="multisentence">
+                            <seg xml:id="en-2-22-1" n="en 2.46" corresp="#es-2-22-1"> They kepe the
+                                ynde out of their windowes with glasse, for it is there much vsed;
+                                and sumwhere also with fyne lynnen clothe dipped in oyle or ambre;
+                                and that for twoo commodities.</seg>
+                            <seg xml:id="en-2-22-2" n="en 2.47" corresp="#es-2-22-1"> For by thys meanes more lyght cummeth
+                                in, and the wynde is better kept out.</seg>
+                        </seg>
+                    </ab> 
+                </div>
+                    <div type="notes">
+                        <note n="3" xml:id="n-2-1" target="#note-2-1">Creo que Medinilla no entiende muy bien “Nam
+                            latitude eius paulo infra collis incoepta uerticem, millibus passuum
+                            duobus ad flumen Anydrum pertinet, secundum ripam aliquanto longior.” B:
+                            “porque ſu latitud poco a poco ſe eſtiende, deſde la cima de un collado,
+                            diſtãcia de dos mil paſſos haſta llegar al rio Anidro, i paſſada la
+                            ribera ſe prolõga algo mas” En inglés está más claro: E: For the bredeth
+                            of it begynneth a litle benethe the toppe of the hyll, and styli
+                            contyneweth by the space of twoo miles vntyll it cum to the ryuer of
+                            Anyder. The lenghte of it whiche lyeth by the ryuers syde is sumwhat
+                            more. Yale: Its breadth is about two miles starting just below the crest
+                            of the hill and running down to the river Anydrus; its length along the
+                            river is somewhat more than its breadth. ¿Tú qué entiendes? Otra cosa:
+                            creo que la equivalencia de unidades de distancia es: Lat. 1 milla;
+                            Medinilla: 1000 pasos; English: 1 milla. </note>
+                        <note n="4" xml:id="n-2-2" target="#note-2-2">5C Tampoco queda muy claro si Medinilla entiende el
+                            original.</note>
+                        <note n="5" xml:id="n-2-3" target="#note-2-3">6C Idem.</note>
+                        <note n="6" xml:id="n-2-4" target="#note-2-4">8B La traducción que hace Medinilla de ”Vrbs
+                            aduersae fluminis ripae, non pilis ac sublicibus ligneis sed ex opere
+                            lapideo egregie arcuato ponte, commissa est” es defectuosa. El original
+                            habla del material del que está hecho el puente –no de pilares o estacas
+                            de madera- sino de piedra. Medinilla dice: “no con barcos, ni otros
+                            inſtrumentos de madera”. Tampoco entiende la forma del puente, que el
+                            imagina en forma de arco y no con varios arcos.</note>
+                        <note n="7" xml:id="n-2-5" target="#note-2-5">11B Entiendo que Medinilla sabe que está hanblando
+                            de agua de lluvia ahora: “el agua [de lluvia] que se junta en grandes
+                            albercas es del mismo provecho”</note>
+                        <note n="8" xml:id="n-2-6" target="#note-2-6">15D “has”[SIC]</note>
+                        <note n="9" xml:id="n-2-7" target="#note-2-7">21B Hace una traducción con referencias culturale
+                            propias: “los techos cubiertos de carriços, retamas, i otras matas”. El
+                            original mes más parco: “culmina in aciem fastigiata stramentis”</note>
+                    </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -87,7 +87,7 @@ declare variable $config:default-view :="div";
  : The default HTML template used for viewing document content. This can be
  : overwritten by the teipublisher processing instruction inside a TEI document.
  :)
-declare variable $config:default-template :="utopia.html";
+declare variable $config:default-template :="vangogh.html";
 
 (:
  : The element to search by default, either 'tei:div' or 'tei:text'.

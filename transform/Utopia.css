@@ -41,20 +41,18 @@
 
 /* Model rendition styles */
 
+.tei-anchor { null }
 .tei-corr2:before { content: '['; }
 .tei-corr2:after { content: ']'; }
 .tei-del { text-decoration: line-through; }
-.tei-div1 { border: 1px solid black; padding: 5px; }
-.tei-div2 {  }
-.tei-docTitle { font-size: larger; }
+.tei-div { border: 1px solid black; padding: 5px; }
 .tei-edition:before { content: 'Edition: '; }
-.tei-floatingText { margin: 6pt; border: solid black 1pt; }
 .tei-foreign { font-style:italic; }
 .tei-head2 { font-style: italic; }
 .tei-head3 { font-style: italic; }
 .tei-head4 { font-style: italic; }
 .tei-head5 { font-weight: bold; }
-.tei-head6 { color: green }
+.tei-head6 { color: black; }
 .tei-hi { font-style: italic; }
 .tei-l { margin-left: 1em; }
 .tei-p2 { text-align: justify; }
@@ -70,9 +68,9 @@
 .tei-quote2 { margin-left: 10px; margin-right: 10px; }
 .tei-sic2:before { content: '{'; }
 .tei-sic2:after { content: '}'; }
-.tei-table { font-size: smaller; background-color: #F0F0F0; }
 .tei-title5 { font-style: italic; }
 .tei-title7 { font-style: italic; }
 .tei-title9 { font-style: italic; }
-.tei-title11 { font-style: italic; }
+.tei-title11 { font-style: italic; color: black; }
 .tei-titlePage { text-align: center; }
+.tei-lem { text-decoration: underline; }
