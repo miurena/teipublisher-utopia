@@ -1,0 +1,1537 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <!-- updated to 21/5/2024-->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Paratexts of <hi rend="italic">Utopia de Thomas Moro</hi></title>
+            <funder>This work has been developed thanks to a doctoral fellowship granted in 2020 by
+               the Spanish Ministry of Universities</funder>
+            <respStmt>
+               <name>Inmaculada Ureña Asensio</name>
+               <resp>transcription and encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1">First edition<date> March 2024</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>TEIPublisher</publisher>
+            <pubPlace><ref><!-- URL?--></ref></pubPlace>
+            <date>2024</date>
+         </publicationStmt>
+         <notesStmt>
+            <note>I especially want to thank the DSG at NU for the support during my research visit
+               at Northeastern University in 2023.</note>
+            <note>Thanks to my thesis supervisor...</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Utopia de Thomas Moro, traducida de latin en Caſtellano por Don Geronimo
+                  Antonio de Medinilla i Porres, Cauallero de la Orden de Santiago, Cavallerizo de
+                  ſu Mageſtad, Señor de las Villas de Bocos, Rozas, i Remolino, Corregidor, i
+                  Iuſticia mayor de la Ciudad de Cordova, i ſu tierra. </title>
+               <author role="writer" xml:id="person-1">Thomas More (1478-1535)</author>
+               <author role="translator" xml:id="person-2">Gerónimo de Medinilla y Porres
+                  (1590-c.1642)</author>
+               <publisher>por Salvador de Cea Tesa</publisher>
+               <date>1637</date>
+               <pubPlace>Córdoba</pubPlace>
+            </bibl>
+            <bibl>
+               <title>The Utopia of Thomas More, in Latin from the edition of March 1518, and in
+                  English from the first edition of Ralph Robinson's translation in 1551</title>
+               <title/>
+               <author role="writer" ref="#person-1">Thomas More (1478-1535)</author>
+               <author role="translator" xml:id="person-3">Ralph Robinson (1520-1577)</author>
+               <editor>L. H. Lupton</editor>
+               <publisher>Clarendon Press</publisher>
+               <date>1895</date>
+               <pubPlace>Oxford</pubPlace>
+            </bibl>
+            <!-- lists -->
+         </sourceDesc>
+      </fileDesc>
+
+      <encodingDesc>
+         <projectDesc>
+            <p>This edition was developed as part of my thesis dissertation titled "A Digital
+               Edition of the 1637 Spanish translation of Thomas More's Utopia". The processes of
+               data modeling, encoding and publishing the edition was done during a research visit
+               at Northeastern University.</p>
+         </projectDesc>
+         <samplingDecl>
+            <p>section to describe the rationale of the edition</p>
+         </samplingDecl>
+         <editorialDecl>
+            <normalization>
+               <p>The only text modernized is the translation. The elements modernized are the
+                  following: <list>
+                     <item/>
+                  </list>
+               </p>
+            </normalization>
+            <punctuation>
+               <p>The original punctuation system has been preserved in the 1637 Spanish
+                  translation, the 1551 English translation and the Latin original. The
+                  modifications concerning punctuation in the modernized version of the Spanish text
+                  have already been specified in the previous section.</p>
+            </punctuation>
+            <segmentation>
+               <p>The texts have been segmented into sentences to facilitate alignment. The
+                  principle followed... </p>
+            </segmentation>
+         </editorialDecl>
+         <refsDecl>
+            <p> Explain here the reference system (linking?) use gi to refer to elements and attr to
+               refer to attributes</p>
+         </refsDecl>
+         <classDecl>
+            <taxonomy>
+               <desc/>
+            </taxonomy>
+            <!-- Place names and identifiers 
+              
+              #place-1 -> London
+              #place-2 -> Amauroto
+              
+              People names and identifiers
+              
+              #person-1 -> Thomas More
+              #person-2 -> Raphael Hythloday
+              #person-3 -> Utopo
+              
+              (work?) positions list
+              #position-1 -> labrador
+              #position-2 -> magistrado
+              
+              Geographical names
+              #geogr-1 -> Isla de los Utopienses/Utopia (Abraxa)
+              #geogr-2 -> Utopia continente
+              
+              Numbers (maybe for the future)
+              #quant-1 -> 
+              
+              -->
+         </classDecl>
+         <schemaSpec ident="TEI"/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">seventeenth-century Spanish</language>
+            <language ident="es-ES">Castilian Spanish</language>
+            <language ident="la">Latin</language>
+            <language ident="en">sixteenth-century English</language>
+         </langUsage>
+      </profileDesc>
+      <!-- copy of Spanish Library (ref) and where I took the copy from Lupton -->
+
+      <revisionDesc>
+         <change when="2024-03-04">Version 1.0 <!-- example --></change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="base" xml:lang="es">
+            <pb n="I"/>
+            <front>
+               <titlePage>
+                  <!-- update data -->
+                  <docTitle>
+                     <titlePart type="main">VTOPIA De THOMAS MORO</titlePart>
+                     <titlePart type="sub">TRADVCIDA DE LATIN en en Castellano por Don Geronimo
+                        Antonio de Medinilla i Porres, Cauallero de la Orden de Santiago,
+                        Cavallerizo de ʃu Mageʃtad, Señor de las Villas de Bocos, Rozas, i Remolino,
+                        Corregidor, i Iuʃticia mayor de la Ciudad de Cordova, i ʃu tierra. A D. IVAN
+                        DE CHAVES I MENDOZA Cavallero de la Orden de Santiago, Preʃidente del Real
+                        Conʃejo de las Ordenes, del Conʃejo, i Camara de ʃu Mageʃtad, Conde de S.
+                        Cruz, i Señor de la Calçada, &amp;c. </titlePart>
+                  </docTitle>
+                  <docAuthor>Geronimo de Medinilla</docAuthor>
+                  <docImprint>
+                     <p>CON PRIVILEGIO</p>
+                     <publisher>Por Salvador de Cea</publisher>
+                     <pubPlace>Cordova</pubPlace>
+                  </docImprint>
+                  <docDate>1637</docDate>
+                  <figure>
+                     <p>Dileƈta ex his, &amp; coñʃtituta Reipublicę forma, laudari facilius, quàm
+                        evenire, vel ʃi evenit, haut diuturna eʃʃe poteʃt. C. Corn. T. Ann. lib. 4.
+                     </p>
+                  </figure>
+               </titlePage>
+            </front>
+            <div type="acknowledgement" n="1">
+               <pb n="IIr"/>
+               <head>A D. IVAN DE CHAVES i Mendoça, Cauallero de la Orden de Sanƈtiago, Preʃidente
+                  del Conʃejo de las Ordenes, del Conʃejo i Camara de ʃu Mageʃtad, Conde de Sanƈta
+                  Cruz, i Señor de la Calçada, &amp;c.</head>
+               <p> A D. IVAN DE CHAVES i Mendoça, Cauallero de la Orden de Sanƈtiago, Preʃidente del
+                  Conʃejo de las Ordenes, del Conʃejo i Camara de ʃu Mageʃtad, Conde de Sanƈta Cruz,
+                  i Señor de la Calçada, &amp;c. AVIENDO V.S. ʃido el primero, deʃpues del
+                  fallecimiẽ to de mi padre (que eʃte en el cielo) q~ con ʃu favor, i auto ridad me
+                  ha honrado, i ayudado mi ʃoledad, no cumpliera yo con las leyes de mi obligacion,
+                  ʃi deviendo tanto de amparo a V.S.<pb n="IIv"/> (como el mundo ʃabe) no confeʃʃarà
+                  públicamente la deuda, i moʃtrarà a V.S. el reconocimiento q~ puedo en toda
+                  ocaʃion. Elegi la de la verʃión de la Vtopia de Thomas Moro, idea haʃta ahora
+                  deʃʃeada en el ʃiglo, i por impoʃsible no conʃeguida. Autor de perpetua memoria,
+                  inʃigne por virtud, ʃabiduria, i fortuna. Conʃideraciones, i diʃcurʃos cōtiene el
+                  aʃʃunto, dignos de alabança, en nueʃstro tiempo de admiracion, imitación en todos.
+                  V.S. obra lo que eʃte eʃcrive, hallandoʃe en ʃu gran ʃujeto, erudicion,
+                  eʃperiencia, i prendas naturales aventajadas, en cuya ponderaciō no tiene parte el
+                     afe<pb n="IIIr"/>ƈto, ni la liʃonja. Los loores de V. S. hã llegado ya a no
+                  tener neceʃʃidad della, que es la mayor alabança. Eʃpero que en el animo de V.S.
+                  (que tanto ʃe lleva de la razon) hallarà la acogida que aguar da mi intento. Eʃte
+                  ʃerà perpetuamente manifeʃtar a V.S. i al mundo mi reconocimiento, en la merced
+                  que recibo de ʃu mano, que beʃo muchas vezes. Guarde Dios a V.S. como yo he
+                  meneʃter. Cordova 20.de Oƈtubre de 1637. Don Hieronimo Antonio de Medinilla i
+                  Porres. </p>
+               <!-- Palabra partida por número de página -->
+            </div>
+
+            <div type="preface" n="2">
+               <pb n="IIIv"/>
+               <head>AL LECTOR.</head>
+               <p>ENTRE los que forman Ideas, i Republicas deʃʃeadas, fue el mas acertado Thomas
+                  Moro (gran Canciller de Inglaterra( cuya conʃtancia en la Fê, junto con la
+                  prudencia del ʃiglo, hizo bienaventurada ʃu me moria. Es diverʃo el poner las Re
+                  publicas como ellas ʃon, o como debrian ʃer. I no baʃta ʃea bueno el que govierno,
+                  ʃino haze que ʃus ʃubditos lo ʃean. Por huir de la envidia que cauʃa la
+                  reprehenʃion, eʃscrivio mas como avian de ʃer los hombres, que como eran los de ʃu
+                  edad, dando inʃtitutos, i le<pb n="IIIIr"/>yes, que no alcançaron Lacedemonios,
+                  Ateniẽʃes, ni Romanos. Fundò la felicidad de un eʃtado perfeƈtamente dichoʃo,
+                  eʃtableciendo la virtud, deʃtruyendo el vicio, cortò la raíz de competencias entre
+                  los hombres, reducien dolas a vivir en comũ, ʃin poʃʃeer alguna coʃa en
+                  particular; de tal ʃuerte, que qualquiera accion publica, o privada, no ʃe
+                  encamine a la codicia de muchos, ni al antojo, i mal deʃʃeo de pocos. Antes toda
+                  eʃta ʃu imagen mira a la Iuʃticia, i conʃtante igualdad comũ, mejorando nueʃtra
+                  flaqueza, i deʃ cubriendo los rieʃgos de la ambicion. Es ʃu eʃtilo tan grave, i
+                  tan <pb n="IIIIv"/>cubierto el artificio, que haze cōpetir una materia eʃtrecha, i
+                  eʃteril en la apariencia, con las mas finas de Eʃtado, i con quãtos miʃterios
+                  ʃuele querer colegir el mas Politico de Tito Libio, i Cornelio Tacito: porque haze
+                  hiʃtoria de afeƈtos humanos, i no panegyrico de alabanças. Eʃta admiracion produxo
+                  humor curioʃo, i deʃʃeos de ʃervir a la Patria, haziẽdo comun eʃte tesoro.
+                  Comunique el intento con perʃonas ʃabias, i viʃtos algunos pedaços, ultimamente me
+                  alentaron a poner eʃta verʃion, en la opinion del mundo. E procurado en el
+                  traducir, dar mas el eʃpiritu del Autor, <pb n="Vr"/>que ʃus palabras. Ame la
+                  brevedad, decir mucho en poco: enchir no planas, ʃino ʃentencias: mas es tan
+                  delicado el faʃtidio de los hombres, que aun de no canʃsarʃe ʃe canʃan. Deʃʃeè
+                  hazer comun a todo ʃuerte de gentes, lo que en mayor volumẽ pudiera ʃer de pocos.
+                  El que lo cotejare con el original Latino, reconocerà el trabajo, que ha coʃtado.
+                  Eʃte tendrè por logrado, ʃi fuere recibida con agrado mi intencion, ofreciendo en
+                  recompenʃa deʃta aceptacion algunas obras no menos utiles, que han ʃervido de
+                  oneʃta diverʃion a diferentes ocupaciones. No propongo eʃtos exemplares. <pb
+                     n="Vv"/> como quien los ʃabe, ʃino como quien los deʃʃea aprender. </p>
+            </div>
+
+            <div type="note" n="3">
+               <pb n="VIr"/>
+               <head>NOTA AL CAPITVLO nono, i ultimo deʃta Obra, hecha por el Traductor.</head>
+               <p>COMO los Santos Doƈtores i felices Martyres tenían aʃʃentadas en ʃu coraçò las
+                  verdades comunes de nueʃtra Religion Catolica, ʃeguros de ʃu Fè, i de la de
+                  aquellos a quien eʃcribian; hablaron a las vezes tan conciʃa, i brevemente, que de
+                  ʃus palabras, i preciʃsion, ʃe valen los mal intencionados i contrarios a nueʃtra
+                  Religion, para ampliar, i eʃtender ʃus propoʃiciones, i doƈtrinas torcidas: i para
+                  eʃto traen la autoridad de los Santos, citandolos no como ellos hablaron, mas como
+                  quieren que hablen. En eʃta atẽcion los Prelados de la Igleʃia Cato<pb n="VIv"
+                  />lica, i las Inquiʃiciones della, a la malicia de los unos ʃe vieron en
+                  obligacion de prevenilles con cauciones, i limitaciones, i declaraciones en los
+                  libros de las Padres Santos de la Igleʃia, como ʃe reconoce en las que han pueʃto
+                  en los Expurgatorios de Eʃpaña, i Portugal, en los Tratados, i obras de muchos
+                  Martyres, i Doƈtores, como ʃon; San Ignacio, San VicTorino, San Zenon, San
+                  Prudencio, i otros en gran numero. Eʃto miʃmo ha acontecido al Martyr Santo Thomas
+                  Moro, que ʃegun ʃu fervoroʃa Fê, i de la de aquellos a quien eʃcrivia introdujo
+                  algunas clauʃulas, que en el ʃentido dellas, eran, i ʃon Catolicas: pero ʃegun el
+                  eʃtado que oi tiene el ʃiglo pueden dañar: por lo qual los Expurgatorios de
+                  Eʃpaña, <pb n="VIIr"/>ʃantamente ordenaron, no anduvieʃe eʃte libro ʃin
+                  reformarle. Al principio engañaron los enemigos inviʃibles al mundo, i a ʃus
+                  mayores ʃabios, introduciẽdo la pluridad de dioʃes para la Idolatria. eʃte error
+                  lo derribò el Salvador del mundo Chriʃto nueʃtro Señor con ʃu advenimiento, en tal
+                  manera, que no ai raʃtro del en gente de razon, i ya no permanece ʃino entre unos
+                  pocos barbaros, q~ avitan el fin de la tierra. A procurado el engaño ẽ lo ultimo
+                  de la edad per verter al mundo, quitandole el verdadero conocimiento de Dios, por
+                  medio del Ateiʃmo, eʃtableciẽdo en los animos eʃtraños, q~ el anima del hombre es
+                  mortal, i ʃe acaba con la muerte, como la de los brutos irracionales; i juntamẽte
+                  travaja en perʃuadir, <pb n="VIIv"/>que a cada qual es permitido honrar a Dios con
+                  la Religion que quiʃiere, aunque ʃea contra la union del Euãgelio. El piadoʃo
+                  martir Thomas Moro, diʃcurre en el capitulo de la Religion de los Vtopianos, a
+                  cerca de la variedad ~q permitian en la Republica: i aunque los Expurgatorios no
+                  limitan algo deʃte capitulo, como lo advierte el teʃtimonio del Maeʃtro Bartolome
+                  Ximenez Paton, a quien juʃtamente el S. Tribunal ha cometido limpiar obras, q~
+                  neceʃsitan de correccion; toda via ha parecido prevenir la ocaʃion, q~ puede tomar
+                  el Ateiʃta, i Politico; contra lo q~ el glorioʃo Martir procurò: i atendiendo a
+                  eʃto, diʃpuʃe eʃta nota, por no quitarle al teʃto, i guardar las leyes de
+                  tradutor, con que ʃe encamina el ʃentido Ca<pb n="VIIIr"/>tolico del Martir. I es
+                  cierto, que conviene que aya mucha variedad de Religiones, cultos, leyes,
+                  ceremonias dentro de la Religion Euãgelica, Catolica Romana, i aʃsi veemos q~ la
+                  ha avido, i ai para ʃiempre. Porque como dize el Apoʃtol S. Pablo, <hi
+                     rend="italic">Multi formis ʃapientia Dei</hi>. O como lee el texto Siriaco, <hi
+                     rend="italic">Sapientia Dei differentijs plena</hi>. I en los Cantares ʃe lee,
+                     <hi rend="italic">Mille Clypei pen dent ex ea</hi>. Vn modo de govierno, leyes,
+                  i ceremonias uvo en la Primitiva Igleʃia, guardando lo ʃuʃtancial, q~ aora no eʃta
+                  en platica, como ʃe veè en muchos Canones de los Apoʃtolos, i a cada Era le ha
+                  tocado varios uʃos. En el preʃente ai tanta diferẽcia de ceremonias en la Miʃʃa, i
+                  Breviarios de Griegos, con reliquias del Ritual Romano, tanta variedad, i di<pb
+                     n="VIIIv"/>verʃidad de Religiones Monaʃticas, Mendicantes, i Militares, con
+                  diverʃos abitos, e inʃtitutos, tãta variedad de leyes, i diverʃidad de decretos
+                  Canonicos, unos admitidos en unos pueblos, i no en otros. No es menos la
+                  diʃonancia de eʃpiritus, unos de vida Aƈtiva, otros de Contemplativa, unos
+                  ʃolitarios, i otros que viven en comunidad. Los que no ʃe contentã conʃeguir a los
+                  Santos, solo ʃe contẽtan cõ perʃeguirlos: i por no decir lo q~ dixeron, dizen lo
+                  que ellos mandaron, que no ʃe dixeʃʃe: por eʃto nueʃtro Religioʃo Autor, ceñido en
+                  ʃus doƈtrinas, i aʃʃegurado en el fundamento de la Fè, enʃeña cõ ʃeguridad de
+                  conciencia, la certeza de la ʃabiduria del mundo. </p>
+            </div>
+
+            <div type="dedication" n="4">
+               <pb n="IXr"/>
+               <head>EL MAESTRO BARTOLOME Ximenez Paton, Cathedratico de eloquẽcia de Villanueva de
+                  los Infantes, i ʃus partidos, i Notario del S. Oficio. A DON GERONIMO ANTONIO DE
+                  Medinilla i Porres, Cauallero del Abito de San tiago, Cauallerizo de ʃu Mageʃtad,
+                  Señor de las Villas de Bocos, Rocas, i Remolino, Corregidor, i Iuʃticia mayor de
+                  la Ciudad de Cordoua, i ʃu tierra.</head>
+               <p>Lo perfeƈto del arte, es evidente coʃa que conʃiʃte, en que a la execucion ʃe
+                  diʃimule. No de otra ʃuerte la excelencia, i elegancia de las traduciones de una
+                  en otra lengua, en que no lo parezcan: antes todos las juzguen invencion libre del
+                  Autor, en que declara los penʃamientos agenos, como propios, con dialeƈtos,
+                  idioma, i fraʃes tales. Eʃta eminencia eʃperimentamos en la que v. md. ha hecho de
+                  la Vtopia del inʃigne, i piadoʃo Thomas Moro de lengua Latina en Caʃtellana,
+                  ʃiguiendo la doƈtrina del Maximo Doƈtor Geronimo (agradecido a ʃu nombre)
+                  ponderãdo las ʃentencias, ʃin faltar a los ʃuʃtancial dellas, ʃin atender al
+                  numero de las palabras. E la viʃto, i conʃiderado con atención <pb n="IXv"/> mui
+                  de eʃpacio, i ʃiempre me parece mas bien. I no quiero negar el contento que revivo
+                  de ver en ella el lucimiento de mi doƈtrina, que v. md. con tanta aficion ʃe ha
+                  dignado de honrar, ʃiguiendola con tal efeƈto, i propenʃion; como las demas
+                  facultades que ha profeʃʃado, preciandoʃe no de la mediania, con que otros ʃe
+                  contenta; antes llegando a competir con ʃus maeʃtros, aviendolo ʃido los mas
+                  eminentes de la Europa, en el manejo de los Cavallos, en el uʃo de las armas, i en
+                  la contemplacion de la Aʃtronomia. Entre los quales (aunque ʃea el anʃar con los
+                  ciʃnes) no por eleccion, ʃino por buena ʃuerte mia (i deʃtos partidos) no
+                  merecido, alcance eʃte nombre en las buenas letras, que llaman de humanidad, (por
+                  la nobiliʃsima de v. md.) dando lugar a las pocas mias, i haziendo la mas, i
+                  mayores, con el grande aprovechamiento de ʃu eminente ingenio, como de aquellas
+                  primeras ocupaciones, tiene dados teʃtimonios en la patria comun (i propia de v.
+                  md. Madrid) mui notorios a todos, con aʃsiʃtencia, i aprobacion de nueʃtro
+                  Monarca, i de muchos Principes deʃta: bien es le dè a toda Eʃpaña con la traducion
+                  preʃente, tan fiel, tan elegante, i con lenguaje tan caʃto, natural, i propio,
+                  como ʃi en ella ʃe uviera engendrado, i nacido. I es bien, que deʃte goze nueʃtra
+                  patria; pues el primer autor Rafael Hithlodeo fue Eʃpañol. No dilate v.md. la
+                  publicacion, deʃʃeoʃo de darla mejo<pb n="Xr"/>rada (pues lo eʃta) ni ʃe le
+                  opongan temores del acierto (pues lo a conseguido) antes intrepidamente la
+                  comunique a todos, porque todos la eʃperan con la gran ʃatisfacion, que tienen de
+                  ʃu perʃpicidad, i talento; i eʃta v.md. ya tan empeñado, que a vozes la piden como
+                  de juʃticia (de cuya buena adminiʃtracion tãto v.md. ʃe precia) i no solo eʃta,
+                  pero las demas obras, que tiene en borrador, es juʃto que ʃe pongan en limpio, i
+                  ʃalgan a luz, obligandole lo de Marcial a Fauʃtino. <hi rend="italic">Post te
+                     viƈturae, per te quoque uiuere chartae Incipiant: cineri gloria ʃera
+                  uenit</hi>. Aʃsi Dios guarde a v.md. con los premios, i felicidad, que le deʃʃeo
+                  muchos años. Deʃte ʃu eʃtudio todo el de v.md. El Maeʃtro Bartolome Ximenez
+                  Paton.</p>
+            </div>
+
+            <div type="dedication" n="5">
+               <pb n="Xv"/>
+               <head>NOTICIA, IVICIO, I REcomẽdacion de la Vtopia, i de Thomas Moro. DON FRANCISCO
+                  DE QVE. vedo Villegas, Cauallero del Abito de S. Iacobo, Señor de las Villas de
+                  Cetina, i la Torre Iuan Abad.</head>
+               <p>La vida mortal de Thomas Moro eʃcrivio en nueʃtra habla Fernando de Herrera varon
+                  doƈto, i de juicio ʃevero; ʃu ʃegunda vida eʃcriviò con ʃu ʃangre ʃu muerte,
+                  coronada de viƈtorioʃo martirio, fue ʃu ingenio admirable, ʃu erudicion rara, ʃu
+                  conʃtancia ʃanta, ʃu vida exemplar, ʃu muerte glorioʃa, doƈto en la lengua Latina,
+                  i Griega. Celebraronle en ʃu tiempo Eraʃmo de Roteradamo, i Guillelmo Budeo, como
+                  ʃe lee en dos cartas ʃuyas, impreʃʃas en el texto deʃta obra, llamola Vtopia, voz
+                  Griega, cuyo ʃignificado es, no ai tal lugar. Vivio en tiempo, i en Reino, que le
+                  fue forçoʃo, para reprehender el govierno, que padecia, fingir el conveniente. Yo
+                  me perʃuado que fabricò aquella politica contra la tyrania de Inglaterra, i <pb
+                     n="XIr"/> por eʃʃo hizo Isla ʃu Idea, i juntamente reprehendio los deʃordenes
+                  de los mas Principes de ʃu edad, fuera me facil verificar eʃta opinion; empero no
+                  es dificil, que quien leyere eʃte libro la verifique con eʃta advertencia mia:
+                  quien dize que ʃe ha de hazer lo que nadie haze, a todos los reprehende: eʃto hizo
+                  por ʃatisfazer ʃu celo nueʃtro autor. Hurtos ʃon de clauʃulas de la Vtopia los mas
+                  Republicos Raguallos del Bocalino, precioʃo caudal es, el que obligo, a que fueʃʃe
+                  ladron a tan grande autor. No han faltado leƈtores de buẽ ʃeʃo, que han leido con
+                  ceño algunas propoʃiciones deʃte libro, juzgando, que ʃu libertad, no piʃava
+                  ʃegura los umbrales de la Religion, ʃiendo aʃsi, que ningunas ʃon mas vaʃallas de
+                  la Igleʃia Catolica, que aquellas entendida ʃu mente, que piadoʃa ʃe encaminò a la
+                  contradicion de las novedades, que en ʃu patria nacieron robuʃtas, para tan
+                  lloroʃos fines. Eʃcribio aquella alma eʃclarecida, con eʃpiritu de tan larga
+                  viʃta, que como yo moʃtrè en mi carta al Rei Chriʃtianiʃsimo antevio los ʃuceʃʃos
+                  preʃentes, aʃsiʃtiendo con ʃaludable conʃejo a las cabeças de los tumultos. El
+                  libro es corto, mas para atenderle como merece, ninguna vida ʃera larga, eʃcriviò
+                  poco, i dijo mucho: ʃi los que goviernan le obedecen, i los que obedecen ʃe
+                  goviernan por el, ni aquellos ʃera carga, ni a eʃtos cuidado. Por eʃto viendo yo a
+                  Don Geronimo Antonio de Medinilla i Porres, <pb n="XIv"/>q~ le llevava por
+                  compañia en los caminos, i el tenia por tarea en las pocas oras, que le dejava
+                  deʃcanʃar la obligacion de ʃu govierno de Montiel le importune, a que hizieʃʃe
+                  eʃta traducion: aʃʃegurandome el acierto della, lo cuidadoʃo de ʃu eʃtilo, i ʃin
+                  afeƈtacion; i las noticias politicas, q~ con larga leccion ha adquirido,
+                  executandolas en quanto del ʃervicio de ʃu Mageʃtad ʃe le ha ordenado, i con gran
+                  providencia, i deʃinteres, en el govierno que tuvo deʃtos partidos. Quien fuere
+                  tan liberal, que en parte quiera pagar algo de lo que ʃe deve a la ʃanta memoria
+                  de Thomas Moro, lea en la Celta Dilettere de Bartolome Zucchi de Monja, la carta
+                  que eʃcrivio el Cardenal de Capua a Monseñor Marino Cardenal i Governador de
+                  Milan, i vera quantos meritos tuvo ʃu muerte para canonizar las alabanças de ʃu
+                  vida, i de ʃu doƈtrina. En la Torre de Iuan Abad 28.de Septiembre de 1637. Don
+                  Franciʃco de Queuedo Villegas.</p>
+            </div>
+
+            <div type="dedication" n="6">
+               <pb n="XIIr"/>
+               <head>IVICIO, I SENTIR DE LA Vtopia, i ʃu Tradutor, por el P. Cypriano Gutierrez de
+                  la Compañia de IESVS. i Maeʃtro de Sagrada Eʃcritura en ʃu Collegio de Cordova. </head>
+               <p>AQVESTA glorioʃa Idea, ʃi vivo exemplar de bien ordenadas Republicas, tan
+                  airoʃamente copiò viveza, i valentia de ʃu peregrino original, eternizando a mucho
+                  ʃiglo dilatadas Politicas en compendioʃas dogmas de la ya deʃde oi famoʃa VTOPIA.
+                  Noble argumento del mayor Canciller de Monarquias, tres i quatro vezes de la
+                  Romana Igleʃia en la gran Bretaña eʃclarecido Martyr Thomas Moro, por Fè, letras,
+                  virtudes, i ʃanto celo a immortales aras conʃagrado: que pudiera mui bien el Apolo
+                  de aquellas Islas admirado de ʃi, invidiarʃe aʃsi, por ʃi meʃmo a nueʃtro vulgar
+                  felizmẽ te traducido; i aun inclinar ʃu pluma de oro a pluma tan ennoblecida,
+                  propria, veloz, conʃtante, breve, grave, i ʃentencioʃa: Elogios todos de nueʃtro
+                  conciudadano Epiʃt. 46. al ingenioʃo li- bro de ʃu Lucillo. <hi rend="italic">
+                     Librum tuum quem mihi promiʃeras accepi, quid ingenij iʃte babuit? quid
+                     impetus? tenor, compoʃitio uirilis, &amp; ʃanƈta nihilo <pb n="XIIv"/>minus
+                     interueniebat, dulce illud &amp; loco lene, grã dis &amp; reƈtus eʃt</hi>. I en
+                  duplicados aprecios reʃpetar tambien pudiera, erudicion no comun, conciʃa
+                  Mageʃtad, vivas, i efficaces razones con primores no pocos de eloquencia. Aplauʃo
+                  ʃingular deʃte mi ʃentir, la varia de Caʃiodoro 49. lib. I. a las traduciones de
+                  Euclydes, Nicomaʃtro, Ariʃtoteles, i Pytagoras por el generoʃo Heroe, e inclyto
+                  Patricio Boecio. <hi rend="italic">Quos tanta</hi> (dize el Sena- dor) <hi
+                     type="italic">verborum luculentia</hi>: (poco antes <hi rend="italic">
+                     Translationibus tuis) reddidiʃti claros, tanta linguae proprietate conʃpicuos,
+                     ut putuiʃʃent &amp; illi opus tuum proferre ʃi utrumque didiciʃsent</hi>.
+                  Gloria, que no aʃi facil ʃe alcança por ʃer lo dificil, i mucho, la corriente de
+                  un eʃtilo, i mas de una Traducion, cuyo tenor para ʃer intelligible, debe ʃer en
+                  ʃus clauʃulas conʃtante, i ʃi ʃe falta a ʃu orden, i quiebra el hilo de oro,
+                  preʃto ʃe da en obʃcura proligidad; interpretando unas palabras por otras con
+                  ʃuperʃticioʃo enfado, i canʃancio a pocos renglones; la union de los periodos
+                  terʃos i rodados, fermo rotatus, de quien Iuvenal Satyra 6. mas dulce, i regalada
+                  al guʃto, que todas las delicias del Ambroʃia, i Neƈtar. El Ticinenʃe Prelado, i
+                  culto S. Ennodio lindamente lo ponderava a la erudicion miliflua de ʃu Olibrio.
+                     <hi rend="italic">Dum fa uos loqueris, epiʃt. 10. &amp; per domos cereas
+                     eloquẽtiae neƈtare liquentis elementi mella componis, peregrinũ labijsmeis
+                     ʃaporẽ epuli diuitis infudiʃti</hi>. <pb n="XIIIr"/> [se Suave es el lenguaje,
+                  alto el aʃʃunto, la materia eʃclarecida, leyes, fueros, aviʃos de una Republica,
+                  que no fue, i ʃer debria. O tiempos todos ʃois unos! fiʃcalean vicios aʃperos, i
+                  picantes documentos, ocultandoʃe la pildora en ʃuperficies de plata, i
+                  enmaʃcarandoʃe en peregrinas vozes lo libre atrevido (mejor dixera) verdaderos, de
+                  una ʃatyra a los vicios. Prohivieronla antiguas leyes, es aʃsi, porque ya la
+                  licencioʃa demaʃia deʃcarada mente tocava a perʃonas, a quien no podia tocar por
+                  el ʃalvo conduƈto de la ʃanƈtidad de ʃus vidas con no poca gracia lo tocava el
+                  Lyrico, <hi rend="italic">Quin etiam lex Poenaque diƈta malo, quae nollect carmine
+                     quenquã Deʃcribi. uertere modum formidine ʃuʃtis, Ad benedicendum,
+                     deleƈtandumque redaƈti</hi>. Britanico a las Satyras de Iuvenal <hi
+                     type="italic">lege lata per Alcibiadem ʃiluerunt</hi>. I el Bado con mas
+                  claridad a las Satyras Perʃianas, <hi rend="italic">Prooemio, cumque boneʃtae
+                     perʃonae foedius notarentur, lata Romae lex, ut ʃiquis malum carmen, in
+                     quemquam ʃeripʃiʃʃet, eius rei ius, iuditiumque eʃʃet, ita meta paenae ʃcenici
+                     à mele dicendo deʃtiterunt</hi>. No duraron mucho las violencias de aqueʃte
+                  freno, i mordaza, antes artificiʃamente ʃe recataron de la pena, i con traza
+                  preʃto ʃe bolvieron a ʃus ingenios picantes, la culpa tenian las culpas, que a
+                  grandes vozes pedian atrozes reprehenʃiones, echaron velo de eʃtrangeras vozes al
+                  vituperio de ʃus exorbitancias. <pb n="XIIIr"/>Del mas erudito Romano Marco Varron
+                  me diò noticia en ʃus Adverʃarios lib. 18. cap. 28. Alexãdro Turnebo <hi
+                     type="italic">εωs ωετεπugιωμ, ideʃt liber detem poribus</hi>, de los tiempos de
+                  aora <hi rend="italic">τυgε μεyuπo</hi>, i deʃt <hi rend="italic">de
+                     ʃepultura</hi>, titulos Griegos, retiravan de la viʃta los aviʃos libres, que
+                  encerravan en ʃus libros. Tulio con nombre de ʃueños promulgò ʃeis libros de ʃu
+                  Republica, uno gozò nueʃtra era, el del Africano Scipion, deʃpues de aquellos
+                  incendios: el divino Platon diez libros de Republica, i Iuʃto regimen entre
+                  nombres varios de Dialogos, disfrazes de ʃu indignada Filoʃofia, a coʃtumbres,
+                  dedico al cedro: i con mas valiente eʃpiritu nueʃtro invencible Martir caʃtigò la
+                  contumaz rebeldia de ʃus Britanicas Regiones en voz de VTOPIA, retirandoʃe al
+                  nombre Griego de Prouincia que no fue <hi rend="italic">Tιμεομτα</hi>, Plato de
+                  legibus, <hi rend="italic">res quae nullae ʃunt</hi>, tierra, i Provincia, que no
+                  es, para que ʃea la que deve la que es, introduce la que ʃeria a merced, i
+                  beneficio de ʃus heroicas enʃeñanças. Iluʃtres Dialogos, grandioʃas politicas,
+                  divinos goviernos, ʃi confederados con la pratica, uʃo, i eʃperiencia de la
+                  agudeza de ʃus documentos: Socrates, i Platon juzgaron por imposʃible exercitarʃe
+                  aca en la tierra la ʃoberana idea de Republicas, que formavan verʃe ʃolo ʃu
+                  exemplar alla en el cielo. <hi rend="italic">Intelligo equidem, quod ea in
+                     Ciuitate dieis, quam nos condidimus in praeʃentia, <pb n="XIIIr"/>quae &amp;
+                     verbis ʃolum, in terris uero nunquam, ut arbitror extat; at forte in coelo,
+                     illius extat exemplar, conʃpieuum ei, qui ut intueri uoluerit, &amp; ʃe ipʃum
+                     ad illud, cum intuitus eʃt, inʃtituere. Nihil autem refert, ʃiue uʃpiam ʃit,
+                     ʃiue erit, quae enimillius officia ʃunt agere ʃolum, quae alterius ʃunt
+                     nequaquam conʃentaneuum est</hi>. Eʃta es la VTOPIA, i ʃu ʃagrada Filoʃofia,
+                  ʃutileza, i enʃeñança de coʃtumbres, praticada con felices aciertos, creditos, i
+                  fianças de multiplicados goviernos en los partidos de Murcia, Villanueua de los
+                  Infantes, i oi en nueʃtra Colonia Patricia, Cabeça, i Principado de toda la Eʃpaña
+                  Andaluz. Sydonio Apolinar lib. 1. Epiʃt. 7. <hi rend="italic">Priuilegjis geminae
+                     praefeƈturae per quinquennium repetitis faʃcibus rexerat</hi>. Conducenʃe pues
+                  glorias de acertados empleos a la ʃubtileza del genio, fortuna de la pluma,
+                  dandoʃe las manos praƈtica, i theorica, govierno, i ʃuvida, i agregandoʃe obras a
+                  ordenes de tan experto Magiʃtrado, a quien aʃsiʃtiendo la prudente Aʃtrea,
+                  alternando con deʃtreza de Marte, i de Mercurio, de la pluma el uʃo, exercicio de
+                  la eʃpada, ora del azero los azeros, ora del caduceo la eloquencia: eʃtos nuevos
+                  augmentos, i aun mayores haze, que le aʃsiʃtan al noble eʃcudo de eʃclarecidos
+                  progenitores, mucho fuera la generoʃa emulacion, viƈtoria de honor quien la
+                  preʃumiera? <hi rend="italic">Veteris decora proʃa<pb n="XIIIv"/>piae nobelli
+                     uincis nitore colloquij, ʃat fuerat paren tum tuorum deʃiderijs ʃenior a te
+                     familiae ornamenta aemulari, uincere poʃʃe, ʃicut nemo credidit ita nullus
+                     optauit</hi>. Epiʃt. I. S. Ennodio. Soliciten repetidos meritos, repetidos
+                  lauros, e inmortales trofeos de aqueʃta VTOPIA. Eʃte es mi ʃentir, en nueʃtro
+                  Colegio de Santa Catalina de la Compañia de Ieʃus de Cordova, Otubre 17. de 1637.
+                  Cypriano Gutierrez </p>
+            </div>
+
+            <div type="dedication" n="7">
+               <pb n="XVr"/>
+               <head>CARTA DE D. ANDRES de Morales i Padilla Gaualle- ro Veintiquatro de la Ciudad
+                  de Cordoua. A la Vtopia, i a ʃu Tradutor.</head>
+               <p>SIEMPRE honra Dios ʃus amigos, i les diʃpone lo mejor en ʃus obras, tanto que ʃi
+                  para las ʃuyas miʃmas que ʃe contienen en las divinas letras, proveyó de un
+                  Geronimo, que las tradujeʃʃe en nueʃtra lengua Latina. Aʃsi en la obra de ʃu amigo
+                  el inʃigne varon, i Martir Thomas Moro le proveyò de otro Geronymo, que con tanta
+                  eminencia nos ha dado ʃu Vtopia en nueʃtro vulgar Caʃtellano. I como el eʃcrivio
+                  aquella Republica en la forma, que deʃʃeava, que las demas ʃe governaʃʃen: aʃsi
+                  tambien le diò Dios a v.md. para que le tradujeʃʃe en la forma mejor, que pudo
+                  deʃʃear, i con tanto acierto en todo, que le tuvo haʃta en ʃacar a luz en eʃta
+                  Ciudad ʃu libro: porque ʃu Autor en la deʃcripcion de la Ciudad de Amauroto cabeça
+                  de aquella Isla, parece, que ʃacò a luz un retrato de algunas de las aventajadas
+                  partes, con <pb n="XVv"/>que dotò a la de Cordova el Autor de la naturaleza, que
+                  guarde a v.md. mui felizes años, como lo deʃʃeo. En 21. de Otubre de 1637. Don
+                  Andres de Morales i Padilla.</p>
+            </div>
+
+            <div type="dedication" n="8">
+               <pb n="XVIv"/>
+               <head>DE D. FRANCISCO ROCO Campo frio i Cordova, Cavallero Veintiquatro della, a la
+                  traducion de la Vtopia. </head>
+               <head>SONETO.</head>
+               <lg>
+                  <l>La que el Moro politico Britano</l>
+                  <l>Vtopia fabricò, ʃegundo Numa,</l>
+                  <l>Por no hurtar a el govierno alguna ʃuma,</l>
+                  <l>Oi la traduce vueʃtra culta mano;</l>
+                  <l>Por ella a un tiempo el Betis mira Hiʃpano,</l>
+                  <l>Vidriera clara ʃu rizada eʃpuma,</l>
+                  <l>Regir la vara, leyes dar la pluma,</l>
+                  <l>Inʃpiradas de vueʃtro Genio cano.</l>
+                  <l>Si esta i aquella, a Cordova govierna,</l>
+                  <l>Caduca de Marcelo ʃu memoria,</l>
+                  <l>Por vos Señor de Bocos ʃerà eterna:</l>
+                  <l>Que ʃi la inʃtruye la Vtopiana hiʃtoria,</l>
+                  <l>La reedifica vuestra vara alterna,</l>
+                  <l>Fabrica vivira de immortal gloria.</l>
+               </lg>
+            </div>
+
+            <div type="dedication" n="9">
+               <pb n="XVIIr"/>
+               <head>Del miʃmo Don Franciʃco de Cordoua.</head>
+               <head>DECIMAS.</head>
+               <lg>
+                  <l>EN el Anglia Thomas Moro</l>
+                  <l>en rojas cenizas yaze,</l>
+                  <l>y de ellas Fenix renace</l>
+                  <l>a Eʃpaña vivo teʃʃoro.</l>
+                  <l>Con pluma ʃi fiel de oro</l>
+                  <l>en ʃu Vtopia traducido</l>
+                  <l>oi por vos Señor ha ʃido;</l>
+                  <l>i en culto buelo ʃegundo,</l>
+                  <l>el ʃera inmortal a el mundo,</l>
+                  <l>i vos por el aplaudido.</l>
+               </lg>
+               <!-- espacio-->
+               <lg>
+                  <l>SI bien ʃu volumen breve,</l>
+                  <l>i de Moro diʃciplina</l>
+                  <l>grande, perfeƈta doƈtrina,</l>
+                  <l>en ʃus preceptos ʃe bebe.</l>
+                  <l>A ʃu novedad ʃe deve</l>
+                  <l>el deleitar enʃeñando,</l>
+                  <l>i a vos, Cordova, que obrando</l>
+                  <l>lo que erudito imprimis,</l>
+                  <l>govierne lo que eʃcrevis,</l>
+                  <l>i eʃcribais bien governando.</l>
+               </lg>
+            </div>
+
+            <div type="dedication" n="10">
+               <pb n="XVIIr"/>
+               <head>DE DON MELCHOR GVAjardo Fajardo, Cavallero Veintiquatro de Cordova, a la Vtopia
+                  traducida, i a ʃu Autor.</head>
+               <head>SONETO.</head>
+               <lg>
+                  <l>La antiguedad de Apeles celebrava,</l>
+                  <l>Quando obrando ʃu mano, conocia</l>
+                  <l>De ʃu pincel la mucha valentia,</l>
+                  <l>Que el cuerpo, i aun el alma, retratava,</l>
+                  <l>Deʃprecie ya lo meʃmo que admirava:</l>
+                  <l>Pues a ʃu copia no ʃe le devia,</l>
+                  <l>Del eʃpiritu ver la gallardia,</l>
+                  <l>Quando lo humano ʃolo trasladava.</l>
+                  <l>En el govierno, que prudente tratas,</l>
+                  <l>I en el que doƈto copias, i diʃpones</l>
+                  <l>Del Moro Ingles, cuya opinion dilatas;</l>
+                  <l>A devidos aplauʃos oir te expones:</l>
+                  <l>Pues con la vara el alma le retratas,</l>
+                  <l>I con la pluma el cuerpo le compones.</l>
+               </lg>
+            </div>
+
+            <div type="dedication" n="11">
+               <pb n="XVIIv"/>
+               <head>DE AGVSTIN DE GALARça Cõtador de Reʃultas de ʃu Mageʃtad, a la traducion de la
+                  Vtopia.</head>
+               <head>SONETO.</head>
+               <lg>
+                  <l>NO con buril, en bronce, la memoria</l>
+                  <l>De tu nombre eternize Medinilla,</l>
+                  <l>La Fama, pues por rara maravilla,</l>
+                  <l>Le deve a tu diʃcurʃo mayor gloria.</l>
+                  <l>En pedaços de cielo haga notoria</l>
+                  <l>La dicha, que por ti gana Caʃtilla;</l>
+                  <l>Pues ʃi tu pluma en paz ʃabe regilla,</l>
+                  <l>Flecha en la guerra, ofrece la viƈtoria.</l>
+                  <l>Siempre luce la ciencia en la nobleza,</l>
+                  <l>Como (mas q~ en ʃu Autor) ʃe mira eterno</l>
+                  <l>(Deʃte libro) en tu pluma eʃclarecida.</l>
+                  <l>Debante pues los Reinos ʃu firmeza,</l>
+                  <l>Que traducir preceptos de govierno</l>
+                  <l>Es deʃcrebir exemplos de tu vida.</l>
+               </lg>
+            </div>
+
+            <div type="dedication" n="12">
+               <pb n="XVIIIr"/>
+               <head>Del miʃmo Contador Aguʃtin Galarza. </head>
+               <head>DECIMAS.</head>
+               <lg>
+                  <l>PReceptos de governar</l>
+                  <l>un Ingles al mundo dio,</l>
+                  <l>(i aunque doƈtos) los dejò</l>
+                  <l>ruʃticos, i por labrar.</l>
+                  <l>Oi Medinilla acendrar</l>
+                  <l>has querido eʃte teʃʃoro,</l>
+                  <l>con que mas que a Thomas Moro</l>
+                  <l>te deve el mundo Eʃpañol</l>
+                  <l>pues quedò con tu criʃol</l>
+                  <l>puro, i acendrado el oro.</l>
+               </lg>
+               <lg>
+                  <l>BIen claros exemplos das,</l>
+                  <l>de que lo que dizes obras;</l>
+                  <l>pues ʃe adelanta en tus obras</l>
+                  <l>tu credito mucho mas.</l>
+                  <l>Al mundo glorias daras,</l>
+                  <l>ʃi en el con tal dicha vives,</l>
+                  <l>que dize, quando recibes</l>
+                  <l>aclamaciones eternas,</l>
+                  <l>que eʃcribes, como goviernas,</l>
+                  <l>y goviernas, como eʃcribes.</l>
+               </lg>
+            </div>
+
+            <div type="dedication" n="13">
+               <pb n="XVIIIv"/>
+               <head>DEL LICENCIADO IOSEPH de Rivas i Tafur, Capellan maior del Cabildo de la Ciudad
+                  de Cordova, a la Vtopia, i a ʃu Tradutor. </head>
+               <head>SONETO.</head>
+               <lg>
+                  <l>DE aquel Moro, de aquel Moral prudẽte,</l>
+                  <l>Que la Conʃular pupura ceñido;</l>
+                  <l>Donde la Fè, ʃi la mirò veʃtido;</l>
+                  <l>Aun mas glorioʃa, la admiró corriente.</l>
+                  <l>Deʃte pues el eʃpiritu excelente,</l>
+                  <l>Medinilla, Politico advertido,</l>
+                  <l>El govierno del mundo has reducido,</l>
+                  <l>A preceptos, a eʃtilo doƈtamente.</l>
+                  <l>Legislador, moderador famoʃo,</l>
+                  <l>El Thameʃis, ya Betico, tu gloria,</l>
+                  <l>I el Betis, ya Britanico, lo aclama.</l>
+                  <l>Sea ya Porres a el Orbe ʃu Coloʃo,</l>
+                  <l>Sea ya Bocos el templo a la memoria,</l>
+                  <l>I el mundo ʃea la trompa de tu fama.</l>
+               </lg>
+            </div>
+
+            <div type="dedication" n="14">
+               <pb n="XIXr"/>
+               <head>DEL P.M. Fr. HIERONIMO de Pancorvo, Reƈtor del Colegio de S. Roque de Cordova.
+                  A la traducion de la Vtopia, i a ʃu Tradutor.</head>
+               <head>OCTAVA.</head>
+               <lg>
+                  <l>TIene en la diestra la eloquente pluma,</l>
+                  <l>I en la otra mano la temida vara,</l>
+                  <l>El que Cordova admira, nuevo Numa,</l>
+                  <l>El de alto ingenio, ʃi de eʃtirpe clara;</l>
+                  <l>De Oliva coronado, i blanca eʃpuma</l>
+                  <l>Le canta el Betis, i ʃu curʃo para</l>
+                  <l>A ʃon armonioʃo, que retumba</l>
+                  <l>De la cuna del Sol, hasta la tumba.</l>
+               </lg>
+            </div>
+
+            <div type="dedication" n="15">
+               <pb n="XIXv"/>
+               <head>AD D. HIERONYMVM de Medinilla &amp; Porres Equeʃtris Ordinis Iacobei, Dominum
+                  Oppidorum de Bocos, Rozas, &amp; remolino, Cordubae eiusque Provinciae Praetorem. </head>
+               <head>Conʃalui Nauarri Caʃtellani I.V. ʃtudioʃi.</head>
+               <head>ELEGIACVM CARMEN.</head>
+               <lg>
+                  <l>Perʃonet Aonio Parnaʃsia carmina Phoebus</l>
+                  <l>Cantu, Calliope perʃonet Aonio.</l>
+                  <l>Terpʃichore dulci citharam modulamine pulʃet,</l>
+                  <l>Euterpe calamos inflet arundineos.</l>
+                  <l>Carmine geʃta canens, reʃonet vivacia, Clio,</l>
+                  <l>Pindaricos hymnos proferat, atque Erato,</l>
+                  <l>Geʃtibus harmonicis cantet Polymneia, pleƈtro</l>
+                  <l>Barbita Melpomene tendat Apollineo.</l>
+                  <l>Pʃallat laʃcivos numeros modulata Thalia,</l>
+                  <l>Vranieque poli pervigil aʃtra notans.</l>
+                  <l>Et tibi punicels felicia tempora circum</l>
+                  <pb n="XXr"/>
+                  <l>Floribus inneƈtant laurea ferta comas.</l>
+                  <l>Denique pro meritis donent tibi numina Pindi</l>
+                  <l>Sacra Medoʃaei flumina fontis equi.</l>
+                  <l>Sed te, quae poterunt, Hieronyme digna manere</l>
+                  <l>Praemia? quae poterunt nomine dona tuo?</l>
+                  <l>Non ʃi Mnemoʃidum dulciʃsima turba forerum</l>
+                  <l>Laudibus utque tuum tollat in aʃtra decus.</l>
+                  <l>Non tibi ʃi impediat crines Pataraea corona,</l>
+                  <l>Non tibi ʃi viridans neƈtat oliva caput.</l>
+                  <l>Nam tecum ingenio contendere ? nobilitate</l>
+                  <l>Quis poterit? tecum nullus utroque valet.</l>
+                  <l>Quid veterum memorem tantorum geʃta vitorũ</l>
+                  <l>Famoʃae ʃtirpi ʃtemmata clara tuę.</l>
+                  <l>Scilicet armipotens potis eʃt equitare Minerva,</l>
+                  <l>Scilicet, &amp; Mavors reddere iura poteʃt.</l>
+                  <l> O me felicem! tantas ʃi promere laudes</l>
+                  <l>Poʃʃem, ʃed tantas quis celebrare queat?</l>
+                  <l>Quis celebrare queat mortali corpore cretus</l>
+                  <l>Heroem tantum! quis celebrare queat?</l>
+                  <l>Quem propter terras habitat, quas fugerat olim</l>
+                  <l>Aʃtraea &amp; cunƈtis, iuʃque ʃnumque datur.</l>
+                  <l>Quondam iura dabas patrijs Infantibus, ehen</l>
+                  <l>Heu patria infelix hoc caritura patre.</l>
+                  <l>O felix (nec vana fides) nunc Corduba tanto</l>
+                  <l>Digna viro, ʃummum quem penes imperium.</l>
+                  <l>Muuere pro tali grates perʃolve Philippo,</l>
+                  <l>Miʃit qui mores in tua regna ʃuos.</l>
+                  <l>Vt tandem ingenio par fit tua fama ʃuperʃtes,</l>
+                  <l>Iam canit ingenium Morus in Orbe tuum.</l>
+                  <pb n="XXv"/>
+                  <l>Morus ab Auʃonijs nuper revocatus ad oras</l>
+                  <l>Heʃperias, cives inʃtruit arte pios.</l>
+                  <l>Non te More decus patriae fleviʃʃe decebit,</l>
+                  <l>Barbarus eripuit quod tua fata ferox.</l>
+                  <l>Gaude (ʃi quicquam gaud I caeleʃtia praeter)</l>
+                  <l>Quae dederas, populis dogmara cunƈta patẽt.</l>
+                  <l>Phoebus, Calliope, Euterpe, Polymneia, Clio,</l>
+                  <l>Terpʃicore, Vranie, Melpomene, atq; Erato,</l>
+                  <l>Culta Thalia ʃimul reddant diʃcrimine milie</l>
+                  <l>Vocis, ut Aonio concelebrare choro.</l>
+                  <l>Baetis Cecropia crines redimitus oliva,</l>
+                  <l>Naiades inter fundito dulce melos.</l>
+                  <l>Pierides tandem, iuʃte ʃi manera poʃco,</l>
+                  <l>Carmina dum famę, ferta parate comis.</l>
+               </lg>
+            </div>
+
+            <div type="dedication" n="16">
+               <pb n="XXIr"/>
+               <head>LIC. DIDACI DE CEA ET Zayas Theologi presbyteri, in Hiʃpanicam Vtopiam. D. D.
+                  Hieronimi Antonij de Medinilla &amp; Porres Equitis Iacobaei, Cordub. meritiʃs.
+                  Praetoris, Domini Oppidorum de Bocos, Roças, &amp; Remolino. &amp;c. </head>
+               <head>EPIGRAMMA.</head>
+               <lg>
+                  <l>Quiʃquis eris, Leƈtor, parvũ, ne ʃperne libellũ</l>
+                  <l>Maior nam parvis gratia ineʃʃe ʃolet.</l>
+                  <l>Anglia dat Morum latio ʃermone loquentem,</l>
+                  <l>Morumque Hiʃpano dat Medinilla loqui.</l>
+                  <l>Cernis inauditae gentis moderamina, mores</l>
+                  <l>Otia cum ʃstujis, cumq; toga arma vides.</l>
+                  <l>Certe opus excultũ, ʃapiẽti, ac Pallade dignũ,</l>
+                  <l>Luʃus, ac ingenij, quod Medinilla tui eʃt.</l>
+               </lg>
+            </div>
+
+            <div type="testimony" n="17">
+               <pb n="XXIv"/>
+               <head>TESTIMONIO DEL M. Bartolome Ximinez Paton Cathedratico de eloquencia de
+                  Villanueua de los Infantes, i ʃus partidos, i Notario del S. Oficio, por orden, i
+                  comiʃsion del Tribunal de la Inquiʃicion de Murcia.</head>
+               <p>EL Maeʃtro Bartolome Ximenez Paton, Notario del Santo Oficio, i con eʃpecial
+                  comiʃsion de los Señores Inquiʃidores, que reʃiden en el Tribunal Apoʃtolico de
+                  Murcia, para la expurgacion de los libros, certifico, i hago feè, a los que el
+                  preʃente vieren, que el texto de la Vtopia, que compuʃo Thomas Moro Ingles, i
+                  tradujo Don Geronimo Antonio de Medinilla i Porres en Caʃtellano: (Cavallero del
+                  Abito de Santiago, Governador que fue en eʃta Villa, i ʃus partidos, Cavallerizo
+                  del Rei Señor nueʃtro, i ʃu Corregidos en la Ciudad, i Provincia de Cordova, Señor
+                  de las Villas de Bocos, Rozas, i Remolino) no ʃolo no eʃta prohibido, pero ʃi en
+                  algun tiempo tuvo alguna margen, que expurgar en otras impreʃsiones, en la
+                  preʃente no la tiene; porque la he viʃto, i con<pb n="XXIIIr"/>ʃiderado una, i
+                  muchas vezes, no ʃolo por la expurgacion del mas moderno Catalogo, i Expurgatorio,
+                  mas aun por la censura de los Antiguos. I por eʃto, i por las nuevas cenʃuras, que
+                  dicha traducion tiene, puede i debe imprimirʃe, ʃin eʃcrupulo, ni ʃoʃpecha de mala
+                  doƈtrina: antes ʃu leccion es de curioʃidad Criʃtiana, i piadoʃa: i por ʃer aʃsi
+                  en teʃtimonio deʃta verdad lo firme, i ʃigne en Villanueua de los Infantes, en
+                  veinte i ʃiete de Setiembre de mil i ʃeiʃcientos i treinta ʃiete años. En
+                  teʃtimonio de uerdad vera fides. </p>
+            </div>
+
+            <div type="approval" n="18">
+               <pb n="XXIIv"/>
+               <head>Suma de la Aprobacion por el Ordinario de Madrid. </head>
+               <p>DIò ʃu Aprobacion por orden del Licenciado Lorenço de Iturrizara Vicario general
+                  de la Villa de Madrid el Padre Aguʃtin de Caʃtro de la Compañia de Ieʃus. Dada en
+                  ʃu Collegio Impe rial de Madrid en ueinte i nueue de Otubre de 1635. </p>
+            </div>
+
+            <div type="approval" n="19">
+               <pb n="XXIIIr"/>
+               <head>Suma de la Licencia del Or dinario de Madrid </head>
+               <p>Tiene licencia ʃu Autor del Licenc. Lorenço de Iturri zara Vicario general de la
+                  Villa de Madrid, por lo que a el toca, como conʃta de la licencia firmada de ʃu
+                  nombre, i refrendada de Gabriel de Rojas Notario. Dada en Madrid a veinte i nueve
+                  de Otubre de mil i ʃeiʃcientos i treinta i cinco años. </p>
+            </div>
+
+            <div type="approval" n="20">
+               <pb n="XXIIIv"/>
+               <head>Suma de la Aprobacion por mandado de los Señores del Conʃejo Real. </head>
+               <p>Aprobò eʃte libro por manda- do de los Señores del Conʃejo Real Don Iuʃepe An-
+                  tonio Gonzalez de Salas. Su fecha en Madrid, a ueinte i uno de No uiembre de mil i
+                  ʃeiʃcientos i treinta i cinco años. </p>
+            </div>
+
+            <div type="approval" n="21">
+               <pb n="XXIIIIr"/>
+               <head>SVMA DEL PRIVILEGIO.</head>
+               <p>TIENE Privilegio de ʃu Mageʃtad Don Geronimo Antonio de Medinilla i Porres
+                  Cavallero del Abito de Santiago, Cavallerizo de ʃu Mageʃtad, Señor de las Villas
+                  de Bocos, Roças, i Remolino, Corregidor de la Ciudad de Cordova, por diez años
+                  para imprimir eʃte Libro. Su fecha en Madrid, a tres de Diziẽbre de mil i
+                  ʃeiʃcientos i treinta i cinco años. Firmado del Rei N. Señor, i refrendado de
+                  Franciʃco Gomez de Laʃprilla ʃu Secretario </p>
+            </div>
+
+            <div type="index" n="22">
+               <pb n="XXIIIv"/>
+               <head/>
+               <list>
+                  <head>INDICE DE LOS Capitulos deʃte Libro de la Vtopia.</head>
+                  <label>Deʃcripcion de la Isla. Cap. I.</label>
+                  <item>Fol.I.</item>
+                  <label>De las Ciudades, eʃpecialmente de Amauroto. Cap.II.</label>
+                  <item>Fol. 3.</item>
+                  <label>De los Magiʃtrados. Cap.III.</label>
+                  <item>Fol.5.</item>
+                  <label>Ocupacion, Artes, i Exercicios.Cap. IIII.</label>
+                  <item>Fol.6.</item>
+                  <label>Del Comercio. Cap.V.</label>
+                  <item>Fol.10.</item>
+                  <label>Del modo de peregrinar. Cap. VI.</label>
+                  <item>Fol. 14.</item>
+                  <label>De los Eʃclavos. Cap. VII.</label>
+                  <item>Fol.29.</item>
+                  <label>De la Milicia. Cap. VIII.</label>
+                  <item>Fol. 33.</item>
+                  <label>De la Religion. Cap. IX.</label>
+                  <item>Fol. 41.</item>
+               </list>
+               <ab>FIN.</ab>
+            </div>
+         </div>
+         <div type="original" xml:lang="es">
+            <front>
+               <titlePage>
+                  <!-- update data -->
+                  <docTitle>
+                     <titlePart type="main">VTOPIA De THOMAS MORO</titlePart>
+                     <titlePart type="sub">TRADUCIDA DE LATÍN en Castellano por Don Gerónimo Antonio
+                        de Medinilla y Porres, Caballero de la Orden de Santiago, Caballerizo de su
+                        Majestad, Señor de las Villas de Bocos, Rozas, y Remolino, Corregidor, y
+                        Justicia mayor de la Ciudad de Cordoba, y su tierra. A D. IVAN DE CHAVES Y
+                        MENDOZA Caballero de la Orden de Santiago, Presidente del Real Consejo de
+                        las Órdenes, del Consejo, y Cámara de su Majestad, Conde de S. Cruz, y Señor
+                        de la Calzada, &amp;c. </titlePart>
+                  </docTitle>
+                  <docAuthor>Geronimo de Medinilla</docAuthor>
+                  <docImprint>
+                     <p>CON PRIVILEGIO</p>
+                     <publisher>Por Salvador de Cea</publisher>
+                     <pubPlace>Córdoba</pubPlace>
+                  </docImprint>
+                  <docDate>1637</docDate>
+                  <figure>
+                     <p>Dilecta ex his, &amp; constituta Reipublicae forma, laudari facilius, quam
+                        evenire, vel si evenit, haut diuturna esse potest. C. Corn. T. Ann. lib. 4.
+                     </p>
+                  </figure>
+               </titlePage>
+            </front>
+            <div type="acknowledgement" n="1">
+               <pb n="IIr"/>
+               <head>A D. IVAN DE CHAVES y Mendoza, Caballero de la Orden de Santiago, Presidente
+                  del Consejo de las Ordenes, del Consejo y Cámara de su Majestad, Conde de Sancta
+                  Cruz, y Señor de la Calzada, &amp;c. </head>
+               <p>HABIENDO V.S. sido el primero, después del fallecimiento de mi padre (que esté en
+                  el cielo) que con su favor, y autoridad me ha honrado, y ayudado mi soledad, no
+                  cumpliera yo con las leyes de mi obligación, si debiendo tanto de amparo a V.S.
+                     <pb n="IIv"/>(como el mundo sabe) no confesara públicamente la deuda, y
+                  mostrara a V.S. el reconocimiento que puedo en toda ocasión. Elegí la de la
+                  versión de la Utopía de Thomas Moro, idea hasta ahora deseada en el siglo, y por
+                  imposible no conseguida. Autor de perpetua memoria, insigne por virtud, sabiduría,
+                  y fortuna. Consideraciones, y discursos contiene el asunto, dignos de alabanza, en
+                  nuestro tiempo de admiración, imitación en todos. V.S. obra lo que este escribe,
+                  hallándose en su gran sujeto, erudición, experiencia, y prendas naturales
+                  aventajadas, en cuya ponderación no tiene parte el afe<pb n="IIIr"/>cto, ni la
+                  lisonja. Los loores de V. S. han llegado ya a no tener necesidad de ella, que es
+                  la mayor alabanza. Espero que en el ánimo de V.S. (que tanto se lleva de la razón)
+                  hallara la acogida que aguarda mi intento. Este será perpetuamente manifestar a
+                  V.S. y al mundo mi reconocimiento, en la merced que recibo de su mano, que beso
+                  muchas veces. Guarde Dios a V.S. como yo he menester. Córdoba 20 de Octubre de
+                  1637. Don Hieronimo Antonio de Medinilla y Porres.</p>
+            </div>
+            <div type="preface" n="2">
+               <pb n="IIIv"/>
+               <head>AL LECTOR.</head>
+               <p>ENTRE los que forman Ideas, y Repúblicas deseadas, fue el mas acertado Thomas Moro
+                  (gran Canciller de Inglaterra) cuya constancia en la Fé, junto con la prudencia
+                  del siglo, hizo bienaventurada su memoria. Es diverso el poner las Repúblicas como
+                  ellas son, o como deberían ser. Y no basta sea bueno el que gobierno, si no hace
+                  que sus súbditos lo sean. Por huir de la envidia que causa la reprehensión,
+                  escribió más como habían de ser los hombres, que como eran los de su edad, dando
+                  institutos, y le<pb n="IIIIr"/>yes, que no alcanzaron Lacedemonios, Atenienses, ni
+                  Romanos. Fundó la felicidad de un estado perfectamente dichoso, estableciendo la
+                  virtud, destruyendo el vicio, cortó la raíz de competencias entre los hombres,
+                  reduciéndolas a vivir en común, sin poseer alguna cosa en particular; de tal
+                  suerte, que cualquier acción pública, o privada, no se encamine a la codicia de
+                  muchos, ni al antojo, y mal deseo de pocos. Antes toda esta su imagen mira a la
+                  Justicia, y constante igualdad común, mejorando nuestra flaqueza, y descubriendo
+                  los riesgos de la ambición. Es su estilo tan grave, y tan <pb n="IIIIv"/>cubierto
+                  el artificio, que hace competir una materia estrecha, y estéril en la apariencia,
+                  con las mas finas de Estado, y con cuantos misterios suele querer colegir el mas
+                  Político de Tito Libio, y Cornelio Tácito: porque hace historia de afectos
+                  humanos, y no panegírico de alabanzas. Esta admiración produjo humor curioso, y
+                  deseos de servir a la Patria, haciendo común este tesoro. Comuniqué el intento con
+                  personas sabias, y vistos algunos pedazos, últimamente me alentaron a poner esta
+                  versión, en la opinion del mundo. He procurado en el traducir, dar mas el espíritu
+                  del Autor, <pb n="Vr"/>que sus palabras. Amé la brevedad, decir mucho en poco:
+                  enchir no planas, sino sentencias: mas es tan delicado el fastidio de los hombres,
+                  que aun de no cansarse se cansan. Deseé hacer común a toda suerte de gentes, lo
+                  que en mayor volumen pudiera ser de pocos. El que lo cotejare con el original
+                  Latino, reconocerá el trabajo, que ha costado. Este tendré por logrado, si fuere
+                  recibida con agrado mi intención, ofreciendo en recompensa desta aceptación
+                  algunas obras no menos útiles, que han servido de honesta diversión a diferentes
+                  ocupaciones. No propongo estos ejemplares <pb n="Vv"/>como quien los sabe, sino
+                  como quien los desea aprender. </p>
+            </div>
+
+            <div type="note" n="3">
+               <pb n="VIr"/>
+               <head>NOTA AL CAPITVLO nono, y ultimo desta Obra, hecha por el Traductor.</head>
+               <p>COMO los Santos Doctores y felices Mártires tenían asentadas en su corazón las
+                  verdades comunes de nuestra Religión Católica, seguros de su Fé, y de la de
+                  aquellos a quien escribían; hablaron a las veces tan concisa, y brevemente, que de
+                  sus palabras, y precisión, se valen los mal intencionados y contrarios a nuestra
+                  Religión, para ampliar, y extender sus proposiciones, y doctrinas torcidas: y para
+                  esto traen la autoridad de los Santos, citándolos no como ellos hablaron, mas como
+                  quieren que hablen. En esta atención los Prelados de la Iglesia Cató<pb n="VIv"
+                  />lica, y las Inquisiciones de ella, a la malicia de los unos se vieron en
+                  obligación de prevenirles con cauciones, y limitaciones, y declaraciones en los
+                  libros de las Padres Santos de la Iglesia, como se reconoce en las que han puesto
+                  en los Expurgatorios de España, y Portugal, en los Tratados, y obras de muchos
+                  Mártires, y Doctores, como son; San Ignacio, San VicTorino, San Zenón, San
+                  Prudencio, y otros en gran numero. Esto mismo ha acontecido al Mártir Santo Thomas
+                  Moro, que según su fervorosa Fé, y de la de aquellos a quien escribía introdujo
+                  algunas clausulas, que en el sentido de ellas, eran, y son Católicas: pero según
+                  el estado que hoy tiene el siglo pueden dañar: por lo cual los Expurgatorios de
+                  España, <pb n="VIIr"/>santamente ordenaron, no anduviese este libro sin
+                  reformarle. Al principio engañaron los enemigos invisibles al mundo, y a sus
+                  mayores sabios, introduciendo la pluridad de dioses para la idolatría. Este error
+                  lo derribó el Salvador del mundo Cristo nuestro Señor con su advenimiento, en tal
+                  manera, que no hay rastro de él en gente de razón, y ya no permanece sino entre
+                  unos pocos bárbaros, que habitan el fin de la tierra. Ha procurado el engaño en lo
+                  último de la edad perverter al mundo, quitándole el verdadero conocimiento de
+                  Dios, por medio del Ateísmo, estableciendo en los ánimos extraños, que el ánima
+                  del hombre es mortal, y se acaba con la muerte, como la de los brutos
+                  irracionales; y juntamente trabaja en persuadir, <pb n="VIIv"/>que a cada cual es
+                  permitido honrar a Dios con la religión que quisiere, aunque sea contra la unión
+                  del Evangelio. El piadoso mártir Thomas Moro, discurre en el capítulo de la
+                  religión de los utopianos, acerca de la variedad que permitían en la República: y
+                  aunque los Expurgatorios no limitan algo de este capítulo, como lo advierte el
+                  testimonio del Maestro Bartolome Jiménez Patón, a quien justamente el S. Tribunal
+                  ha cometido limpiar obras, que necesitan de corrección; todavía ha parecido
+                  prevenir la ocasión, que puede tomar el Ateista, y Político; contra lo que el
+                  glorioso Mártir procuró: y atendiendo a esto, dispuse esta nota, por no quitarle
+                  al texto, y guardar las leyes de traductor, con que se encamina el sentido Ca<pb
+                     n="VIIIr"/>tólico del Mártir. Y es cierto, que conviene que haya mucha variedad
+                  de religiones, cultos, leyes, ceremonias dentro de la Religión Evangélica,
+                  Católica Romana, y así vemos que la ha habido, y hay para siempre. Porque como
+                  dice el Apóstol S. Pablo, <hi rend="italic">Multi for mis sapientia Dei</hi>. O
+                  como lee el texto Siriaco, <hi rend="italic">Sapientia Dei differentijs
+                  plena</hi>. Y en los Cantares se lee, <hi rend="italic">Mille Clypei pen dent ex
+                     ea</hi>. Un modo de gobierno, leyes, y ceremonias hubo en la Primitiva Iglesia,
+                  guardando lo sustancial, que ahora no esta en plática, como se ve en muchos
+                  Cánones de los Apóstoles, y a cada era le ha tocado varios usos. En el presente
+                  hay tanta diferencia de ceremonias en la Misa, y Breviaríos de Griegos, con
+                  reliquias del Ritual Romano, tanta variedad, y di<pb n="VIIIv"/>versidad de
+                  Religiones Monásticas, Mendicantes, y Militares, con diversos hábitos, e
+                  institutos, tanta variedad de leyes, y diversidad de decretos Canónicos, unos
+                  admitidos en unos pueblos, y no en otros. No es menos la disonancia de espíritus,
+                  unos de vida Activa, otros de Contemplativa, unos solitarios, y otros que viven en
+                  comunidad. Los que no se contentan con seguir a los Santos, solo se contentan con
+                  perseguirlos: y por no decir lo que dijeron, dicen lo que ellos mandaron, que no
+                  se dijese: por esto nuestro Religioso Autor, ceñido en sus doctrinas, y asegurado
+                  en el fundamento de la Fe, enseña con seguridad de conciencia, la certeza de la
+                  sabiduría del mundo. </p>
+            </div>
+
+            <div type="dedication" n="4">
+               <pb n="IXr"/>
+               <head>EL MAESTRO BARTOLOMÉ Jiménez Paton, Catedrático de elocuencia de Villanueva de
+                  los Infantes, y sus parti- dos, y Notario del S. Oficio.</head>
+               <head>A DON GERÓNIMO ANTONIO DE Medinilla i Porres, Caballero del Hábito de Santiago,
+                  Caballerizo de su Magestad, Señor de las Villas de Bocos, Rocas, y Remolino,
+                  Corregidor, i Justicia mayor de la Ciudad de Córdoba, y su tierra.</head>
+               <p>Lo perfecto del arte, es evidente cosa que consiste, en que a la ejecución se
+                  disimule. No de otra suerte la excelencia, y elegancia de las traducciones de una
+                  en otra lengua, en que no lo parezcan: antes todos las juzguen invención libre del
+                  Autor, en que declara los pensamientos ajenos, como propios, con dialectos,
+                  idioma, y frases tales. Esta eminencia experimentamos en la que v. md. ha hecho de
+                  la Utopía del insigne, y piadoso Thomas Moro de lengua Latina en Castellana,
+                  siguiendo la doctrina del Máximo Doctor Gerónimo (agradecido a su nombre)
+                  ponderando las sentencias, sin faltar a los sustancial de ellas, sin atender al
+                  número de las palabras. He la visto, y considerado con atención <pb n="IXv"/>muy
+                  despacio, y siempre me parece más bien. Y no quiero negar el contento que revivo
+                  de ver en ella el lucimiento de mi doctrina, que v. md. con tanta afición se ha
+                  dignado de honrar, siguiendola con tal efecto, y propensión; como las demás
+                  facultades que ha profesado, preciándose no de la medianía, con que otros se
+                  contenta; antes llegando a competir con sus maestros, habiéndolo sido los mas
+                  eminentes de la Europa, en el manejo de los Caballos, en el uso de las armas, y en
+                  la contemplación de la Astronomía. Entre los quales (aunque sea el ánsar con los
+                  cisnes) no por elección, sino por buena suerte mía (y destos partidos) no
+                  merecido, alcance este nombre en las buenas letras, que llaman de humanidad, (por
+                  la nobilísima de v. md.) dando lugar a las pocas mías, y haciendo la más, y
+                  mayores, con el gran aprovechamiento de su eminente ingenio, como de aquellas
+                  primeras ocupaciones, tiene dados testimonios en la patria común (y propia de v.
+                  md. Madrid) muy notorios a todos, con asistencia, y aprobación de nuestro Monarca,
+                  y de muchos Príncipes de esta: bienes le dé a toda España con la traducción
+                  presente, tan fiel, tan elegante, y con lenguaje tan casto, natural, y propio,
+                  como si en ella se hubiera engendrado, y nacido. Y es bien, que de este goce
+                  nuestra patria; pues el primer autor Rafael Hithlodeo fue Español. No dilate v.md.
+                  la publicación, deseoso de dar la mejo<pb n="Xr"/>rada (pues lo está) ni se le
+                  opongan temores del acierto (pues lo ha conseguido) antes intrépidamente la
+                  comunique a todos, porque todos la esperan con la gran satisfacción, que tienen de
+                  su perspicuidad, y talento; y esta v.md. ya tan empeñado, que a voces la piden
+                  como de justicia (de cuya buena administración tanto v.md. se precia) y no solo
+                  esta, pero las demás obras, que tiene en borrador, es justo que se pongan en
+                  limpio, y salgan a luz, obligándole lo de Marcial a Faustino. <hi rend="italic"
+                     >Post te victurae, per te quoque uiuere chartae Incipiant: cineri gloria sera
+                     uenit</hi>. Así Dios guarde a v.md. con los premios, y felicidad, que le deseo
+                  muchos años. Deste su estudio todo el de v.md. El Maestro Bartolome Jiménez
+                  Patón.</p>
+            </div>
+
+            <div type="dedication" n="5">
+               <pb n="Xv"/>
+               <head>NOTICIA, JUICIO, Y REcomendación de la Utopía, y de Thomas Moro. DON FRANCISCO
+                  DE QUEvedo Villegas, Caballero del Habito de S. Jacobo, Señor de las Villas de
+                  Cetina, y la Torre Juan Abad. </head>
+               <p>La vida mortal de Thomas Moro escribió en nuestra habla Fernando de Herrera varón
+                  docto, y de juicio severo; su segunda vida escribió con su sangre su muerte,
+                  coronada de victorioso martirio, fue su ingenio admirable, su erudición rara, su
+                  constancia santa, su vida ejemplar, su muerte gloriosa, docto en la lengua Latina,
+                  y Griega. Celebráronle en su tiempo Erasmo de Róterdam, y Guillermo Budeo, como se
+                  lee en dos cartas suyas, impresas en el texto de esta obra, llamola Utopía, voz
+                  Griega, cuyo significado es, no hay tal lugar. Vivió en tiempo, y en reino, que le
+                  fue forzoso, para reprehender el gobierno, que padecía, fingir el conveniente. Yo
+                  me persuado que fabricó aquella política contra la tiranía de Inglaterra, y <pb
+                     n="XIr"/>por eso hizo isla su idea, y juntamente reprehendió los desórdenes de
+                  los más Príncipes de su edad, fuérame fácil verificar esta opinión; empero no es
+                  difícil, que quien leyere este libro la verifique con esta advertencia mía: quien
+                  dice que se ha de hacer lo que nadie hace, a todos los reprehende: esto hizo por
+                  satisfacer su celo nuestro autor. Hurtos son de clausulas de la Utopía los más
+                  Repúblicos Raguallos del Bocalino, precioso caudal es, el que obligó, a que fuese
+                  ladrón a tan grande autor. No han faltado lectores de buen seso, que han leído con
+                  ceño algunas proposiciones de este libro, juzgando, que su libertad, no pisaba
+                  segura los umbrales de la Religión, siendo así, que ningunas son más vasallas de
+                  la Iglesia Católica, que aquellas entendida su mente, que piadosa se encaminó a la
+                  contradicción de las novedades, que en su patria nacieron robustas, para tan
+                  llorosos fines. Escribió aquella alma esclare- cida, con espíritu de tan larga
+                  vista, que como yo mostré en mi carta al Rey Cristianísimo antevió los sucesos
+                  presentes, asistiendo con saludable consejo a las cabezas de los tumultos. El
+                  libro es corto, mas para atenderle como merece, ninguna vida será larga, escribió
+                  poco, y dijo mucho: si los que gobiernan le obedecen, y los que obedecen se
+                  gobiernan por él, ni aquellos será carga, ni a estos cuidado. Por esto viendo yo a
+                  Don Gerónimo Antonio de Medinilla y Porres, <pb n="XIv"/>que le llevaba por
+                  compañía en los caminos, y el tenía por tarea en las pocas horas, que le dejaba
+                  descansar la obligación de su gobierno de Montiel le importuné, a que hiciese esta
+                  traducción: asegurándome el acierto de ella, lo cuidadoso de su estilo, y sin
+                  afectación; y las noticias políticas, que con larga lección ha adquirido,
+                  ejecutándolas en cuanto del servicio de su Majestad se le ha ordenado, y con gran
+                  providencia, y desinterés, en el gobierno que tuvo de estos partidos. Quien fuere
+                  tan liberal, que en parte quiera pagar algo de lo que se debe a la santa memoria
+                  de Thomas Moro, lea en la Celta Dilettere de Bartolome Zucchi de Monja, la carta
+                  que escribió el Cardenal de Capua a Monseñor Marino Cardenal y Gobernador de
+                  Milan, y verá cuántos méritos tuvo su muerte para canonizar las alabanzas de su
+                  vida, y de su doctrina. En la Torre de Juan Abad 28 de Septiembre de 1637. Don
+                  Francisco de Quevedo Villegas.</p>
+            </div>
+
+            <div type="dedication" n="6">
+               <pb n="XIIr"/>
+               <head>JUICIO, Y SENTIR DE LA Utopía, y su Traductor, por el P. Cypriano Gutiérrez de
+                  la Compañía de JESÚS y Maestro de Sagrada Escritura en su Colegio de Córdoba. </head>
+               <p>AQUESTA gloriosa Idea, si vivo ejemplar de bien ordenadas Repúblicas, tan
+                  airosamente copió viveza, y valentía de su peregrino original, eternizando a mucho
+                  siglo dilatadas Políticas en compendiosas dogmas de la ya desde hoy famosa UTOPÍA.
+                  Noble argumento del mayor Canciller de Monarquías, tres y cuatro veces de la
+                  Romana Iglesia en la gran Bretaña esclarecido Mártir Thomas Moro, por Fé, letras,
+                  virtudes, y santo celo a immortales aras consagrado: que pudiera muy bien el Apolo
+                  de aquellas Islas admirado de si, invidiarse así, por si mismo a nuestro vulgar
+                  felizmente traducido; y aún inclinar su pluma de oro a pluma tan ennoblecida,
+                  propia, veloz, constante, breve, grave, y sentenciosa: Elogios todos de nuestro
+                  conciudadano Epist. 46. al ingenioso libro de su Lucillo. <hi rend="italic">
+                     Librum tuum quem mihi promiseras accepi, quid ingenij iste babuit? quid
+                     impetus? tenor, compositio uirilis, &amp; sancta nihilo <pb n="XIIv"/>minus
+                     interueniebat, dulce illud &amp; loco lene, gran dis &amp; rectus est.</hi>. Y
+                  en duplicados aprecios respetar también pudiera, erudición no común, concisa
+                  Majestad, vivas, y eficaces razones con primores no pocos de elocuencia. Aplauso
+                  singular de este mi sentir, la varia de Casiodoro 49. lib. I. a las traducciones
+                  de Euclydes, Nicomastro, Aristóteles, y Pitágoras por el generoso Héroe, e ínclito
+                  Patricio Boecio. <hi rend="italic">Quos tanta</hi> (dice el Senador)<hi
+                     rend="italic"> verborum luculentia</hi>: (poco antes <hi rend="italic">Transla-
+                     tionibus tuis) reddidisti claros, tanta linguae proprietate conspicuos, ut
+                     putuissent &amp; illi opus tuum proferre si utrumque didicissent.</hi> Gloria,
+                  que no así fácil se alcanza por ser lo difícil, y mucho, la corriente de un
+                  estilo, y mas de una traducción, cuyo tenor para ser inteligible, debe ser en sus
+                  clausulas constante, y si se falta a su orden, y quiebra el hilo de oro, presto se
+                  da en obscura prolijidad; interpretando unas palabras por otras con supersticioso
+                  enfado, y cansancio a pocos renglones; la unión de los periodos tersos y rodados,
+                  fermo rotatus, de quien Juvenal Sátira 6. más dulce, y regalada al gusto, que
+                  todas las delicias del Ambrosia, y Nectar. El Ticinense Prelado, y culto S. Enodio
+                  lindamente lo ponderaba a la erudición meliflua de su Olibrio. <hi rend="italic"
+                     >Dum fa uos loqueris,</hi> epist. 10. <hi>&amp; per domos cereas eloquentiae
+                     nectare liquentis elementi mella componis, peregrinun labijsmeis saporen epuli
+                     diuitis infudisti. </hi><pb n="XIIIr"/>Suave es el lenguaje, alto el asunto, la
+                  materia esclarecida, leyes, fueros, avisos de una República, que no fue, y ser
+                  debería. ¡O tiempos todos sois unos! fiscalean vicios ásperos, y picantes docu-
+                  mentos, ocultándose la píldora en superficies de plata, y enmascarándose en
+                  peregrinas voces lo libre atrevido (mejor dijera) verdaderos, de una sátira a los
+                  vicios. Prohibieronla antiguas leyes, es así, porque ya la licenciosa demasía
+                  descaradamente tocaba a personas, a quien no podía tocar por el salvo conducto de
+                  la santidad de sus vidas con no poca gracia lo tocaba el Lírico, <hi rend="italic"
+                     >Quin etiam lex Poenaque dicta malo, quae nollect carmine quenquan Describi.
+                     uertere modum formidine sustis, Ad benedicendum, delectandumque redacti </hi>.
+                  Britanico a las Sátiras de Juvenal <hi type="italic">lege lata per Alcibiadem
+                     siluerunt</hi>. Y el Bado con más claridad a las Sátiras Persianas, <hi
+                     rend="italic">Prooemio, cumque bonestae personae foedius notarentur, lata Romae
+                     lex, ut siquis malum carmen, in quemquam seripsisset, eius rei ius, iuditiumque
+                     esset, ita meta paenae scenici a mele dicendo destiterunt</hi>. No duraron
+                  mucho las violencias de aqueste freno, y mordaza, antes artifícisamente se
+                  recataron de la pena, y con traza presto se volvieron a sus ingenios picantes, la
+                  culpa tenían las culpas, que a grandes voces pedían atroces reprehensiones,
+                  echaron velo de extranjeras voces al vituperio de sus exorbitancias. <pb n="XIIIr"
+                  />Del más erudito Romano Marco Varron me dió noticia en sus Adversarios lib. 18.
+                  cap. 28. Alejandro Turnebo <hi rend="italic">εωs ωετεπugιωμ, idest liber detem
+                     poribus</hi>, de los tiempos de aora <hi rend="italic">τυgε μεyuπo</hi>, y dest
+                     <hi rend="italic">de sepultura</hi>, títulos Griegos, retiraban de la vista los
+                  avisos libres, que encerraban en sus libros. Tulio con nombre de sueños promulgó
+                  seis libros de su República, uno gozó nuestra era, el del Africano Escipión,
+                  después de aquellos incendios: el divino Platón diez libros de Republica, y justo
+                  régimen entre nombres varios de Diálogos, disfraces de su indignada Filosofía, a
+                  costumbres, dedicó al cedro: y con más valiente espíritu nuestro invencible Mártir
+                  castigó la contumaz rebeldía de sus Británicas Regiones en voz de VTOPIA,
+                  retirándose al nombre Griego de Provincia que no fue <hi rend="italic"
+                     >Tιμεομτα</hi>, Plato de legibus, <hi rend="italic">res quae nullae sunt</hi>,
+                  tierra, y Provincia, que no es, para que sea la que debe la que es, introduce la
+                  que sería a merced, y beneficio de sus heroicas enseñanzas. Ilustres diálogos,
+                  grandiosas políticas, divinos gobiernos, si confederados con la práctica, uso, y
+                  experiencia de la agudeza de sus documentos: Sócrates, y Platón juzgaron por
+                  imposible ejercitarse acá en la tierra la soberana idea de Repúblicas, que
+                  formaban verse solo su ejemplar allá en el cielo. <hi rend="italic">Intelligo
+                     equidem, quod ea in Ciuitate dieis, quam nos condidimus in praesentia, <pb
+                        n="XIIIr"/>quae &amp; verbis solum, in terris uero nunquam, ut arbitror
+                     extat; at forte in coelo, illius extat exem plar, conspieuum ei, qui ut intueri
+                     uoluerit, &amp; se ipsum ad illud, cum intuitus est, instituere. Nihil autem
+                     refert, siue uspiam sit, siue erit, quae enimillius officia sunt agere solum,
+                     quae alterius sunt nequaquam consentaneuum est </hi>. Esta es la UTOPÍA, y su
+                  sagrada Filosofía, sutileza, y enseñanza de costumbres, practicada con felices
+                  aciertos, créditos, y fianzas de multiplicados gobiernos en los partidos de
+                  Murcia, Villanueva de los Infantes, y hoy en nuestra Colonia Patricia, Cabeza, y
+                  Principado de toda la España Andaluza. Sydonio Apolinar lib. 1. Epist. 7. <hi
+                     rend="italic">Priuilegjis geminae praefecturae per quinquennium repetitis
+                     fascibus rexerat</hi>. Condúcense pues glorias de acertados empleos a la
+                  sutileza del genio, fortuna de la pluma, dándose las manos práctica, y teórica,
+                  gobierno, y subida, y agregándose obras a órdenes de tan experto Magistrado, a
+                  quien asistiendo la prudente Astrea, alternando con destreza de Marte, y de
+                  Mercurio, de la pluma el uso, ejercicio de la espada, ora del acero los aceros,
+                  ora del caduceo la elocuencia: estos nuevos aumentos, y aun mayores hace, que le
+                  asistan al noble escudo de esclarecidos progenitores, mucho fuera la generosa
+                  emulación, victoria de honor quien la presumiera. <hi rend="italic">Veteris decora
+                        prosa<pb n="XIIIv"/>piae nobelli uincis nitore colloquij, sat fuerat paren
+                     tum tuorum desiderijs senior a te familiae ornamenta aemulari, uincere posse,
+                     sicut nemo credidit ita nullus optauit </hi>. Epist. Y. S. Enodio. Soliciten
+                  repetidos méritos, repetidos lauros, e inmortales trofeos de esta UTOPÍA. Este es
+                  mi sentir, en nuestro Colegio de Santa Catalina de la Compañía de Jesús de
+                  Córdoba, Octubre 17 de 1637. Cypriano Gutierrez </p>
+            </div>
+
+            <div type="dedication" n="7">
+               <pb n="XVr"/>
+               <head>CARTA DE D. ANDRÉS de Morales y Padilla Caballero Veinticuatro de la Ciudad de
+                  Córdoba. A la Utopía, y a su Traductor. </head>
+               <p>SIEMPRE honra Dios sus amigos, y les dispone lo mejor en sus obras, tanto que si
+                  para las suyas mismas que se contienen en las divinas letras, proveyó de un
+                  Gerónimo, que las tradujese en nuestra lengua Latina. Así en la obra de su amigo
+                  el insigne varón, y Mártir Thomas Moro le proveyó de otro Gerónimo, que con tanta
+                  eminencia nos ha dado su Utopía en nuestro vulgar Castellano. Y como él escribió
+                  aquella República en la forma, que deseaba, que las demás se gobernasen: así
+                  también le dio Dios a v.md. para que le tradujese en la forma mejor, que pudo
+                  desear, y con tanto acierto en todo, que le tuvo hasta en sacar a luz en esta
+                  Ciudad su libro: porque su Autor en la descripción de la Ciudad de Amauroto cabeza
+                  de aquella Isla, parece, que sacó a luz un retrato de algunas de las aventajadas
+                  partes, con <pb n="XVv"/>que dotó a la de Córdoba el autor de la natu- raleza, que
+                  guarde a v.md. muy felices años, como lo deseo. En 21 de octubre de 1637. Don
+                  Andrés de Morales y Padilla. </p>
+            </div>
+
+            <div type="dedication" n="8">
+               <pb n="XVIv"/>
+               <head>DE D. FRANCISCO ROCO Campo frio y Córdoba, Caballero Veinticuatro della, a la
+                  traducción de la Utopía. </head>
+               <head>SONETO.</head>
+               <lg>
+                  <l>La que el Moro político Britano</l>
+                  <l>Utopía fabricó, segundo Numa,</l>
+                  <l>Por no hurtar a el gobierno alguna suma,</l>
+                  <l>Hoy la traduce vuestra culta mano;</l>
+                  <l>Por ella a un tiempo el Betis mira Hispano,</l>
+                  <l>Vidriera clara su rizada espuma,</l>
+                  <l>Regir la vara, leyes dar la pluma, </l>
+                  <l>Inspiradas de vuestro Genio cano.</l>
+                  <l>Si esta y aquella, a Córdoba gobierna,</l>
+                  <l>Caduca de Marcelo su memoria,</l>
+                  <l>Por vos Señor de Bocos será eterna:</l>
+                  <l>Que si la instruye la Utopiana historia,</l>
+                  <l>La reedifica vuestra vara alterna,</l>
+                  <l>Fabrica vivirá de inmortal gloria.</l>
+               </lg>
+            </div>
+
+            <div type="dedication" n="9">
+               <pb n="XVIIr"/>
+               <head>Del mismo Don Francisco de Córdoba.</head>
+               <head>DECIMAS.</head>
+               <lg>
+                  <l>En el Anglia Thomas Moro</l>
+                  <l>en rojas cenizas yace,</l>
+                  <l>y de ellas Fénix renace</l>
+                  <l>a España vivo tesoro.</l>
+                  <l>Con pluma si fiel de oro</l>
+                  <l>en su Utopía traducido</l>
+                  <l>hoy por vos Señor ha sido;</l>
+                  <l>y en culto vuelo segundo,</l>
+                  <l>el será inmortal a el mundo,</l>
+                  <l>y vos por el aplaudido.</l>
+               </lg>
+               <!-- espacio-->
+               <lg>
+                  <l>SI bien su volumen breve,</l>
+                  <l>y de Moro disciplina</l>
+                  <l>grande, perfecta doctrina,</l>
+                  <l>en sus preceptos se bebe.</l>
+                  <l>A su novedad se debe</l>
+                  <l>el deleitar enseñando,</l>
+                  <l>y a vos, Córdoba, que obrando</l>
+                  <l>lo que erudito imprimís,</l>
+                  <l>gobierne lo que escribís,</l>
+                  <l>y escribáis bien gobernando.</l>
+               </lg>
+            </div>
+
+            <div type="dedication" n="10">
+               <pb n="XVIIr"/>
+               <head>DE DON MELCHOR GUAjardo Fajardo, Caballero Veinticuatro de Córdoba, a la Utopía
+                  traducida, y a su Autor. </head>
+               <head>SONETO.</head>
+               <lg>
+                  <l>La antigüedad de Apeles celebraba,</l>
+                  <l>Cuando obrando su mano, conocía</l>
+                  <l>De su pincel la mucha valentía,</l>
+                  <l>Que el cuerpo, y aun el alma, retrataba,</l>
+                  <l>Desprecie ya lo mismo que admiraba:</l>
+                  <l>Pues a su copia no se le debía,</l>
+                  <l>Del espíritu ver la gallardía,</l>
+                  <l>Cuando lo humano solo trasladaba.</l>
+                  <l>En el gobierno, que prudente tratas,</l>
+                  <l>Y en el que docto copias, y dispones</l>
+                  <l>Del Moro Inglés, cuya opinión dilatas;</l>
+                  <l>A debidos aplausos oír te expones:</l>
+                  <l>Pues con la vara el alma le retratas,</l>
+                  <l>Y con la pluma el cuerpo le compones.</l>
+               </lg>
+            </div>
+
+            <div type="dedication" n="11">
+               <pb n="XVIIv"/>
+               <head>DE AGVSTIN DE GALARza Contador de Resultas de su Majestad, a la traducción de
+                  la Utopía. </head>
+               <head>SONETO.</head>
+               <lg>
+                  <l>NO con buril, en bronce, la memoria</l>
+                  <l>De tu nombre eternize Medinilla,</l>
+                  <l>La Fama, pues por rara maravilla,</l>
+                  <l>Le debe a tu discurso mayor gloria.</l>
+                  <l>En pedazos de cielo haga notoria</l>
+                  <l>La dicha, que por ti gana Castilla;</l>
+                  <l>Pues si tu pluma en paz sabe rejilla,</l>
+                  <l>Flecha en la guerra, ofrece la victoria.</l>
+                  <l>Siempre luce la ciencia en la nobleza,</l>
+                  <l>Como (más que en su Autor) se mira eterno</l>
+                  <l>(Deste libro) en tu pluma esclarecida.</l>
+                  <l>Debante pues los Reinos su firmeza,</l>
+                  <l>Que traducir preceptos de gobierno</l>
+                  <l>Es describir ejemplos de tu vida.</l>
+               </lg>
+            </div>
+
+            <div type="dedication" n="12">
+               <pb n="XVIIIr"/>
+               <head>Del mismo Contador Agustín Galarza. </head>
+               <head>DECIMAS.</head>
+               <lg>
+                  <l>PReceptos de gobernar</l>
+                  <l>un Inglés al mundo dio,</l>
+                  <l>(y aunque doctos) los dejó</l>
+                  <l>rústicos, y por labrar.</l>
+                  <l>Hoy Medinilla acendrar</l>
+                  <l>has querido este tesoro,</l>
+                  <l>con que mas que a Thomas Moro</l>
+                  <l>te debe el mundo Español</l>
+                  <l>pues quedó con tu crisol</l>
+                  <l>puro, y acendrado el oro.</l>
+               </lg>
+               <lg>
+                  <l>BIen claros ejemplos das,</l>
+                  <l>de que lo que dices obras;</l>
+                  <l>pues se adelanta en tus obras</l>
+                  <l>tu crédito mucho más.</l>
+                  <l>Al mundo glorias darás,</l>
+                  <l>si en el con tal dicha vives,</l>
+                  <l>que dice, cuando recibes</l>
+                  <l>aclamaciones eternas,</l>
+                  <l>que escribes, como gobiernas,</l>
+                  <l>y gobiernas, como escribes.</l>
+               </lg>
+            </div>
+
+            <div type="dedication" n="13">
+               <pb n="XVIIIv"/>
+               <head>DEL LICENCIADO IOSEPH de Rivas y Tafur, Capellán mayor del Cabildo de la Ciudad
+                  de Córdoba, a la Utopía, y a su Traductor. </head>
+               <head>SONETO.</head>
+               <lg>
+                  <l>DE aquel Moro, de aquel Moral prudente,</l>
+                  <l>Que la Consular púrpura ceñido;</l>
+                  <l>Donde la Fé, si la miró vestido;</l>
+                  <l>Aún mas gloriosa, la admiró corriente. </l>
+                  <l>Deste pues el espíritu excelente,</l>
+                  <l>Medinilla, Político advertido,</l>
+                  <l>El gobierno del mundo has reducido,</l>
+                  <l>A preceptos, a estilo doctamente.</l>
+                  <l>Legislador, moderador famoso,</l>
+                  <l>El Támesis, ya Bético, tu gloria,</l>
+                  <l>Y el Betis, ya Británico, lo aclama.</l>
+                  <l>Sea ya Porres a el Orbe su Coloso,</l>
+                  <l>Sea ya Bocos el templo a la memoria,</l>
+                  <l>Y el mundo sea la trompa de tu fama.</l>
+               </lg>
+            </div>
+
+            <div type="dedication" n="14">
+               <pb n="XIXr"/>
+               <head>DEL P.M. Fr. HIERONIMO de Pancorvo, Rector del Colegio de S. Roque de Córdoba.
+                  A la traducción de la Utopía, y a su Traductor. </head>
+               <head>OCTAVA.</head>
+               <lg>
+                  <l>TIene en la diestra la elocuente pluma,</l>
+                  <l>Y en la otra mano la temida vara,</l>
+                  <l>El que Córdoba admira, nuevo Numa,</l>
+                  <l>El de alto ingenio, si de estirpe clara;</l>
+                  <l>De Oliva coronado, y blanca espuma</l>
+                  <l>Le canta el Betis, y su curso para</l>
+                  <l>A son armonioso, que retumba</l>
+                  <l>De la cuna del Sol, hasta la tumba.</l>
+               </lg>
+            </div>
+
+            <div type="dedication" n="15">
+               <pb n="XIXv"/>
+               <head>AD D. HIERONYMVM de Medinilla &amp; Porres Equestris Ordinis Iacobei, Dominum
+                  Oppidorum de Bocos, Rozas, &amp; remolino, Cordubae eiusque Provinciae Praetorem. </head>
+               <head>Consalui Nauarri Castellani I.V. studiosi.</head>
+               <head>ELEGIACVM CARMEN.</head>
+               <lg>
+                  <l>Personet Aonio Parnassia carmina Phoebus</l>
+                  <l>Cantu, Calliope personet Aonio.</l>
+                  <l>Terpsichore dulci citharam modulamine pulset,</l>
+                  <l>Euterpe calamos inflet arundineos.</l>
+                  <l>Carmine gesta canens, resonet vivacia, Clio,</l>
+                  <l>Pindaricos hymnos proferat, atque Erato,</l>
+                  <l>Gestibus harmonicis cantet Polymneia, plectro</l>
+                  <l>Barbita Melpomene tendat Apollineo.</l>
+                  <l>Psallat lascivos numeros modulata Thalia,</l>
+                  <l>Vranieque poli pervigil astra notans.</l>
+                  <l>Et tibi punicels felicia tempora circum</l>
+                  <pb n="XXr"/>
+                  <l>Floribus innectant laurea ferta comas.</l>
+                  <l>Denique pro meritis donent tibi numina Pindi</l>
+                  <l>Sacra Medosaei flumina fontis equi.</l>
+                  <l>Sed te, quae poterunt, Hieronyme digna manere</l>
+                  <l>Praemia? quae poterunt nomine dona tuo?</l>
+                  <l>Non si Mnemosidum dulcissima turba forerum</l>
+                  <l>Laudibus utque tuum tollat in astra decus.</l>
+                  <l>Non tibi si impediat crines Pataraea corona,</l>
+                  <l>Non tibi si viridans neƈtat oliva caput.</l>
+                  <l>Nam tecum ingenio contendere? nobilitate</l>
+                  <l>Quis poterit? tecum nullus utroque valet.</l>
+                  <l>Quid veterum memorem tantorum gesta vitorum</l>
+                  <l>Famosae stirpi stemmata clara tuae.</l>
+                  <l>Scilicet armipotens potis est equitare Minerva,</l>
+                  <l>Scilicet, &amp; Mavors reddere iura potest.</l>
+                  <l>O me felicem! tantas si promere laudes</l>
+                  <l>Possem, sed tantas quis celebrare queat?</l>
+                  <l>Quis celebrare queat mortali corpore cretus</l>
+                  <l>Heroem tantum! quis celebrare queat?</l>
+                  <l>Quem propter terras habitat, quas fugerat olim</l>
+                  <l>Astraea &amp; cunctis, iusque snumque datur.</l>
+                  <l>Quondam iura dabas patrijs Infantibus, ehen</l>
+                  <l>Heu patria infelix hoc caritura patre.</l>
+                  <l>O felix (nec vana fides) nunc Corduba tanto</l>
+                  <l>Digna viro, summum quem penes imperium.</l>
+                  <l>Munere pro tali grates persolve Philippo,</l>
+                  <l>Misit qui mores in tua regna suos.</l>
+                  <l>Vt tandem ingenio par fit tua fama superstes,</l>
+                  <l>Iam canit ingenium Morus in Orbe tuum.</l>
+                  <pb n="XXv"/>
+                  <l>Morus ab Ausonijs nuper revocatus ad oras</l>
+                  <l>Hesperias, cives instruit arte pios.</l>
+                  <l>Non te More decus patriae flevisse decebit,</l>
+                  <l>Barbarus eripuit quod tua fata ferox.</l>
+                  <l>Gaude (si quicquam gaud i caelestia praeter)</l>
+                  <l>Quae dederas, populis dogmara cunƈta patent.</l>
+                  <l>Phoebus, Calliope, Euterpe, Polymneia, Clio,</l>
+                  <l>Terpsicore, Vranie, Melpomene, atq; Erato,</l>
+                  <l>Culta Thalia simul reddant discrimine milie</l>
+                  <l>Vocis, ut Aonio concelebrare choro.</l>
+                  <l>Baetis Cecropia crines redimitus oliva,</l>
+                  <l>Naiades inter fundito dulce melos.</l>
+                  <l>Pierides tandem, iuste si manera posco,</l>
+                  <l>Carmina dum famae, ferta parate comis.</l>
+               </lg>
+            </div>
+
+            <div type="dedication" n="16">
+               <pb n="XXIr"/>
+               <head>LIC. DIDACI DE CEA ET Zayas Theologi presbyteri, in Hispanicam Vtopiam. D. D.
+                  Hieronimi Antonij de Medinilla &amp; Porres Equitis Iacobaei, Cordub. meritiss.
+                  Praetoris, Domini Oppidorum de Bocos, Rozas, &amp; Remolino. &amp;c. </head>
+               <head>EPIGRAMMA.</head>
+               <lg>
+                  <l>Quisquis eris, Leƈtor, parvum, ne sperne libellum</l>
+                  <l>Maior nam parvis gratia inesse solet.</l>
+                  <l>Anglia dat Morum latio sermone loquentem,</l>
+                  <l>Morumque Hispano dat Medinilla loqui.</l>
+                  <l>Cernis inauditae gentis moderamina, mores</l>
+                  <l>Otia cum sstujis, cumque; toga arma vides.</l>
+                  <l>Certe opus excultum, sapienti, ac Pallade dignum,</l>
+                  <l>Lusus, ac ingenij, quod Medinilla tui est.</l>
+               </lg>
+            </div>
+
+            <div type="testimony" n="17">
+               <pb n="XXIv"/>
+               <head>TESTIMONIO DEL M. Bartolome Jiménez Patón Catedrático de elocuencia de
+                  Villanueva de los Infantes, y sus partidos, y Notario del S. Oficio, por orden, y
+                  comisión del Tribunal de la Inquisición de Murcia.</head>
+               <p>EL Maestro Bartolome Jiménez Patón, Notario del Santo Oficio, y con especial
+                  comisión de los Señores Inquisidores, que residen en el Tribunal Apostólico de
+                  Murcia, para la expurgación de los libros, certifico, y hago fé, a los que el
+                  presente vieren, que el texto de la Utopía, que compuso Thomas Moro Inglés, y
+                  tradujo Don Gerónimo Antonio de Medinilla y Porres en Castellano: (Caballero del
+                  Hábito de Santiago, Gobernador que fue en esta Villa, y sus partidos, Caballeriza
+                  del Rey Señor nuestro, y su Corregidos en la Ciudad, y Provincia de Córdoba, Señor
+                  de las Villas de Bocos, Rozas, y Remolino) no solo no esta prohibido, pero si en
+                  algún tiempo tuvo alguna margen, que expurgar en otras impresiones, en la presente
+                  no la tiene; porque la he visto, y con<pb n="XXIIr"/>siderado una, y muchas veces,
+                  no solo por la expurgación del más moderno Catálogo, y Expurgatorio, mas aún por
+                  la censura de los Antiguos. Y por esto, y por las nuevas censuras, que dicha
+                  traducción tiene, puede y debe imprimirse, sin escrúpulo, ni sospecha de mala
+                  doctrina: antes su lección es de curiosidad cristiana, y piadosa: y por ser así en
+                  testimonio de esta verdad lo firme, y signe en Villanueva de los Infantes, en
+                  veinte y siete de septiembre de mil y seiscientos y treinta siete años. En
+                  testimonio de verdad vera fides. </p>
+            </div>
+
+            <div type="approval" n="18">
+               <pb n="XXIIv"/>
+               <head>Suma de la Aprobacion por el Ordinario de Madrid.</head>
+               <p>DIó su Aprobación por orden del Licenciado Lorenzo de Iturrizara Vicario general
+                  de la Villa de Madrid el Padre Agustín de Castro de la Compañía de Jesús. Dada en
+                  su Colegio Imperial de Madrid en veinte y nueve de Octubre de 1635. </p>
+            </div>
+
+            <div type="approval" n="19">
+               <pb n="XXIIIr"/>
+               <head>Suma de la Licencia del Ordinario de Madrid.</head>
+               <p>Tiene licencia su Autor del Licenc. Lorenzo de Iturrizara Vicario general de la
+                  Villa de Madrid, por lo que a él toca, como consta de la licencia firmada de su
+                  nombre, y refrendada de Gabriel de Rojas Notario. Dada en Madrid a veinte y nueve
+                  de Octubre de mil y seiscientos y treinta y cinco años. </p>
+            </div>
+
+            <div type="approval" n="20">
+               <pb n="XXIIIv"/>
+               <head>Suma de la Aprobación por mandado de los Señores del Consejo Real. </head>
+               <p>Aprobó este libro por mandado de los Señores del Consejo Real Don Iusepe Antonio
+                  González de Salas. Su fecha en Madrid, a veinte y uno de Noviembre de mil y
+                  seiscientos y treinta y cinco años. </p>
+            </div>
+
+            <div type="approval" n="21">
+               <pb n="XXIIIIr"/>
+               <head>SVMA DEL PRIVILEGIO.</head>
+               <p>TIENE Privilegio de su Ma jestad Don Geronimo Antonio de Medinilla y Porres
+                  Caballero del Hábito de Santiago, caballerizo de su Majestad, Señor de las Villas
+                  de Bocos, Rozas, y Remolino, Corregidor de la Ciudad de Córdoba, por diez años
+                  para imprimir este Libro. Su fecha en Madrid, a tres de Diciembre de mil y
+                  seiscientos y treinta y cinco años. Firmado del Rey N. Señor, y refrendado de
+                  Francisco Gómez de Lasprilla su Secretario. </p>
+            </div>
+
+            <div type="index" n="22">
+               <pb n="XXIIIv"/>
+               <head/>
+               <list>
+                  <head>ÍNDICE DE LOS Capitulos de este Libro de la Vtopia.</head>
+                  <label>Descripcion de la Isla. Cap. I.</label>
+                  <item>Fol.I.</item>
+                  <label>De las Ciudades, especialmente de Amauroto. Cap.II.</label>
+                  <item>Fol. 3.</item>
+                  <label>De los Magistrados. Cap.III.</label>
+                  <item>Fol. 5.</item>
+                  <label>Ocupacion, Artes, y Exercicios. Cap. IIII.</label>
+                  <item>Fol. 6.</item>
+                  <label>Del Comercio. Cap.V.</label>
+                  <item>Fol. 10.</item>
+                  <label>Del modo de peregrinar. Cap. VI.</label>
+                  <item>Fol. 14.</item>
+                  <label>De los Esclavos. Cap. VII.</label>
+                  <item>Fol. 29.</item>
+                  <label>De la Milicia. Cap. VIII.</label>
+                  <item>Fol. 33.</item>
+                  <label>De la Religion. Cap. IX.</label>
+                  <item>Fol. 41.</item>
+               </list>
+               <ab>FIN.</ab>
+            </div>
+         </div>
+      </body>
+
+   </text>
+</TEI>
