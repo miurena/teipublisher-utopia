@@ -283,7 +283,7 @@
                         <param name="level" value="count(ancestor::div)"/>
                         <outputRendition xml:space="preserve">
             color: black;
-            font-size: 18pt;
+            font-size: 18px;
             </outputRendition>
                     </model>
                     <model behaviour="block"/>
