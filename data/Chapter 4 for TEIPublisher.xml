@@ -1,0 +1,1561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- updated to 08/03/2024-->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Digital Edition of the 1637 Spanish translation of Thomas More's
+                    Utopia</title>
+                <funder>This work has been developed thanks to a doctoral fellowship granted in 2020
+                    by the Spanish Ministry of Universities</funder>
+                <respStmt>
+                    <name>Inmaculada Ureña Asensio</name>
+                    <resp>transcription and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1">First edition<date>March 2024</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>TEIPublisher</publisher>
+                <pubPlace><ref><!-- URL?--></ref></pubPlace>
+                <date>2024</date>
+            </publicationStmt>
+            <notesStmt>
+                <note>I especially want to thank the DSG at NU for the support during my research
+                    visit at Northeastern University in 2023.</note>
+                <note>Thanks to my thesis director.</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Utopia de Thomas Moro, traducida de latin en Caſtellano por Don Geronimo
+                        Antonio de Medinilla i Porres, Cauallero de la Orden de Santiago,
+                        Cavallerizo de ſu Mageſtad, Señor de las Villas de Bocos, Rozas, i Remolino,
+                        Corregidor, i Iuſticia mayor de la Ciudad de Cordova, i ſu tierra. </title>
+                    <author role="writer" xml:id="person-1">Thomas More (1478-1535)</author>
+                    <author role="translator" xml:id="person-2">Gerónimo de Medinilla y Porres
+                        (1590-c.1642)</author>
+                    <publisher>por Salvador de Cea Tesa</publisher>
+                    <date>1637</date>
+                    <pubPlace>Córdoba</pubPlace>
+                </bibl>
+                <bibl>
+                    <title>The Utopia of Thomas More, in Latin from the edition of March 1518, and
+                        in English from the first edition of Ralph Robinson's translation in
+                        1551</title>
+                    <title/>
+                    <author role="writer" ref="#person-1">Thomas More (1478-1535)</author>
+                    <author role="translator" xml:id="person-3">Ralph Robinson (1520-1577)</author>
+                    <editor>L. H. Lupton</editor>
+                    <publisher>Clarendon Press</publisher>
+                    <date>1895</date>
+                    <pubPlace>Oxford</pubPlace>
+                </bibl>
+                <!-- lists -->
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>This edition was developed as part of my thesis dissertation titled "A Digital
+                    Edition of the 1637 Spanish translation of Thomas More's Utopia". The processes
+                    of data modeling, encoding and publishing the edition was done during a research
+                    visit at Northeastern University.</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>section to describe the rationale of the edition</p>
+            </samplingDecl>
+            <editorialDecl>
+                <normalization>
+                    <p>The only text modernized is the translation. The elements modernized are the
+                        following: <list>
+                            <item/>
+                        </list>
+                    </p>
+                </normalization>
+                <punctuation>
+                    <p>The original punctuation system has been preserved in the 1637 Spanish
+                        translation, the 1551 English translation and the Latin original. The
+                        modifications concerning punctuation in the modernized version of the
+                        Spanish text have already been specified in the previous section.</p>
+                </punctuation>
+                <segmentation>
+                    <p>The texts have been segmented into sentences to facilitate alignment. The
+                        principle followed... </p>
+                </segmentation>
+            </editorialDecl>
+            <refsDecl>
+                <p> Explain here the reference system (linking?) use gi to refer to elements and
+                    attr to refer to attributes</p>
+            </refsDecl>
+            <classDecl>
+                <taxonomy>
+                    <desc/>
+                </taxonomy>
+                <!-- Place names and identifiers 
+              
+              #place-1 -> London
+              #place-2 -> Amauroto
+              
+              People names and identifiers
+              
+              #person-1 -> Thomas More
+              #person-2 -> Raphael Hythloday
+              #person-3 -> Utopo
+              
+              (work?) positions list
+              #position-1 -> labrador
+              #position-2 -> magistrado
+              
+              Geographical names
+              #geogr-1 -> Isla de los Utopienses/Utopia (Abraxa)
+              #geogr-2 -> Utopia continente
+              
+              Numbers (maybe for the future)
+              #quant-1 -> 
+              
+              -->
+            </classDecl>
+            <schemaSpec ident="TEI"/>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="es">seventeenth-century Spanish</language>
+                <language ident="es-ES">Castilian Spanish</language>
+                <language ident="la">Latin</language>
+                <language ident="en">sixteenth-century English</language>
+            </langUsage>
+        </profileDesc>
+        <!-- copy of Spanish Library (ref) and where I took the copy from Lupton -->
+
+        <revisionDesc>
+            <change when="2024-03-04">Version 1.0 <!-- example --></change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="base" xml:lang="es">
+                <div type="chapter" n="4">
+                    <head type="chapter">Ocupacion, Artes, i Exercicios. Cap. IIII.</head>
+                    <ab>
+                        <seg type="sentence">
+                            <s xml:id="es-4-1-1" n="es 4.1">LA Agricultura es ocupaciõ comun a
+                                hembras, i varones, la qual ſaven i exercitan ſin diſtincion.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-2-1" n="es 4.2">Enſeñanſela deſde ſu menor edad por
+                                preceptos ẽ la eſcuela, i por exercicio en el campo, que eſta mas
+                                vezino a la Cíudad, como por entretenimiẽto, no ſolo mirando, pero
+                                manejãdolo, i empleando las fuerças del cuerpo.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-3-1" n="es 4.3">Fuera de la Agricultura (que como he
+                                dicho es comun atodos ) cada qual inſtruido en algun otro oficio
+                                diſtinto, como labrar lana, lino, canteria, herreria, carpinteria, u
+                                otro arte de manos.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-4-1" n="es 4.4">No ſe reconoce otro empleo mecanico, de
+                                que pueda hazer memoria.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-5-1" n="es 4.5">El traje es uniforme en toda la Isla, i
+                                en ningun tiempo ſe ha hecho novedad (ſolo ai diferencia en el ſexo,
+                                que de una ſuerte viſten los hombres, de otra las mugeres, i en los
+                                eſtados; porque diferente traje es el de los caſados, que el de los
+                                que no lo ſon) es agradable a la viſta, acomodado al uſo, a
+                                propoſito para defenſa del frio, i del calor.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-6-1" n="es 4.6">Cada familia fabrica ſu veſtuario a ſu
+                                guſto.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-7-1" n="es 4.7">Pero de las demas artes cada vno, aſsi
+                                hembra, como varon, aprende el que le agrada a ſu eleccion.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-8-1" n="es 4.8">Las mugeres ſe exercitan en las de menor
+                                trabajo, labrando lana, i lino: i los varones ſe encargan de las de
+                                maior afan.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-9-1" n="es 4.9">Por la mayor parte el hijo ſigue la
+                                profeſsion del padre; porque caſi ſiempre a ella ſe inclinan por
+                                naturaleza: i ſi alguno tiene propenſion inclinada a otro oficio,
+                                paſſa por adopcion a la familia, que trata de aquel miniſterio, a
+                                que es inclinado.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-10-1" n="es 4.10">El cuidado deſta enſeñança, no ſolamẽte le encarga el padre natural, pero tambien interviene el
+                                Magiſtrado, dandolo a padre adoptivo, honeſto, i grave.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-11-1" n="es 4.11">Si alguno deſpues de aver ſalido bien
+                                inſtruido, i enſeñado en la profeſsiõ deſſea ſaber otra, ſe le
+                                permite; i enterado bien de entrambas exercita la que mas le
+                                agrada, ſi ya otra Ciudad no neceſsita de alguna de las que
+                                deja.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-12-1" n="es 4.12">Eſta a cargo de los Magiſtrados
+                                Sifograntos cuidar, i reconocer, que no aya vagabundos, mas q̃ cada
+                                uno eſte cuidadoſamente ocupado en ſu miniſterio.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-13-1" n="es 4.13">No comiençan ſu labor mui de mañana,
+                                ni travajan continuamente, ni haſta mui noche, ni ſe fatigan con
+                                perpetua moleſtia, como las beſtias; porque es infelicidad mas que
+                                de eſclavos, la vida de los oficiales, que perpetuamente han de
+                                eſtar travajando, como travajan toda la vida fuera de Vtopia: donde
+                                dividen el dia, i la noche en veinte i quatro oras.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-14-1" n="es 4.14">Seis oras diputã para el travajo, tres
+                                antes del medio dia, dejando la labor van a comer.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-15-1" n="es 4.15">Tienen de ſieſta dos oras, deſpues de
+                                aver comido.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-16-1" n="es 4.16">Quando han repoſado buelven al
+                                trabajo por otras tres oras, las quales rematan con la cena.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-17-1" n="es 4.17">La primera ora de las veinte i quatro
+                                es la de medio dia.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-18-1" n="es 4.18">A las ocho ſe retiran a dormir ocho
+                                oras.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-19-1" n="es 4.19">En los intermedios de comer, cenar, i
+                                dormir, ſe les concede, que cada uno gaſte el tiempo en lo que
+                                tuviere guſto a ſu alvedrio; pero no de ſuerte, que le emplee mal en
+                                exceſos, ni holgazanerias: pero libre de ſu ocupaciõ ſe divierta en
+                                algun exercicio virtuoſo a ſu elección.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-20-1" n="es 4.20">Eſtas oras previlegiadas, los mas las
+                                gaſtan en el eſtudio de letras; porque ſe acoſtumbra tener lecciones
+                                publicas antes de amanecer, a las quales aſsiſten de neceſsidad
+                                ſolamente aquellos que eſtã ſeñalados, i elegidos para cuidado del
+                                eſtudio.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-21-1" n="es 4.21">A demas deſtos, voluntariamente de
+                                todos eſtados, aſsi hombres, como mugeres concurren en numero grande
+                                a oir los Maeſtros, cada uno ſegun ſu aficion, i lo que
+                                profeſſan.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-22-1" n="es 4.22">Eſte miſmo tiẽpo ſi alguno le quiere
+                                emplear en ſu arte (que a muchos acontece) cuyo genio no ſe aplica a
+                                la cõtemplacion de las ciencias, no ſe le prohibe, antes es
+                                alabado, porque es de utilidad a la Republica.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-23-1" n="es 4.23">Deſpues de cena tienen una ora de
+                                entretenimiento, en el Verano en los Iardines; i en el Ivierno en
+                                las ſalas, en que comen todos: alli exercitan la muſica, o paſſan en
+                                converſaciõ.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-24-1" n="es 4.24">Iuegos de dados, ni otros prohibidos,
+                                ni los tratan, ni los entienden.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-25-1" n="es 4.25">Los que uſan ſon dos juegos, parecidos
+                                a los del axedrez.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-26-1" n="es 4.26">El uno es una batalla de tãtos a
+                                tantos, en el qual los de una parte deſpojan i roban a los de la
+                                otra.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-27-1" n="es 4.27">El otro, en que formando un eſquadron,
+                                los vicios pelean contra las virtudes.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-28-1" n="es 4.28">En el qual juego mueſtran
+                                diſcretamente la opoſicion, que tienen a los vicios, i la concordia
+                                con las virtudes: i tambien que vicios ſe oponen a que virtudes, i
+                                les hazen guerra, i contradiciõ; con que pertechos acometen de la
+                                parte contraria, i con que armas defenſivas, las virtudes
+                                quebranten, i desbaraten las fuerças de los vicios, cõ q̃ ardides
+                                rebatã ſus acometimientos.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-29-1" n="es 4.29">Finalmente con que induſtria, i
+                                traças, la una de las partes alcance la viƈtoria.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-30-1" n="es 4.30">Pero porque en eſto no os dejeis
+                                llevar de algun engaño, es bien que lo advirtais con mas
+                                atencion.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-31-1" n="es 4.31">Porque como ſon ſeis oras no mas las
+                                ſeñaladas para el travajo, ſera poſſible, que imagineis, que eſto
+                                venga a hazer falta en las coſas forçoſas.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-32-1" n="es 4.32">Lo qual eſta mui lejos de ſuceder;
+                                porque eſte tiempo no ſolo baſta, pero aun ſobra, para procurar la
+                                abundancia de todas las coſas neceſſarias para paſſar la vida, i
+                                para la commodidad de ella.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-33-1" n="es 4.33">Primeramente, caſi todas las mugeres,
+                                que ſon la mitad del pueblo; i donde las hembras travajan, alli los
+                                hombres ſe dan al repoſo.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-34-1" n="es 4.34">Demas deſto gran numero de Sacerdotes,
+                                i Religioſos, que no ſe ocupan en la manifaƈtura; a los quales ſe
+                                llegan los ricos Señores de heredamientos (a quienes el vulgo llama
+                                nobles, i cavalleros.)</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-35-1" n="es 4.35">Poned en eſta cuenta toda la caterba
+                                de los que ſirben a eſtos de eſpadachines, truhanes; i deſpues
+                                deſtos los mẽdigos, que tienen ſalud, i fingen alguna enfermedad,
+                                para ſu holgazaneria: hallareis con certeza, q̃ ſon muchos menos los
+                                q̃ ſe ocupan en el travajo de las coſas neceſſarias; i conſiderad
+                                biẽ como eſtos miſmos ſon mui pocos los q̃ tratan de lo preciſamẽte
+                                neceſſario.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-36-1" n="es 4.36">Porq̃ dõde todo ſe compra por el
+                                dinero, es forçoſo, q̃ aya muchas artes totalmẽte vanas, i
+                                ſuperfluas, q̃ ſolo ſirven al antojo, i exceſo.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-37-1" n="es 4.37">Si eſlos pocos q̃ travajan ſe
+                                dividieran en tã pocas artes, quales ſolo sõ meneſteroſas a la vida
+                                humana, bajaran ſin duda los precios de las coſas: de manera, que
+                                los hombres alcançaran a vivir con cõmodidad.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-38-1" n="es 4.38">I ſi advertis que todos eſtos que ſe
+                                ocupan en artes inutiles, i la chuſma holgazana, q̃ paſſa en ocio, i
+                                flogedad, ſe ocuparã en obras de provecho para todos (de las quales
+                                qualquier artifice deſtas manifaƈturas, i holgazan q̃ ſe ſuſtenta
+                                con los trabajos de los otros, gaſtan tanto como dos oficiales de
+                                los utiles) aquel poco tiempo baſtara, i aun ſobrara para abundar
+                                de todas las coſas, que la neceſsidad de la vida, o la cõmodidad
+                                della pide, i aun tambien de los deleites verdaderos, i naturales:
+                                de lo qual la experiencia nos da verdadero teſtimonio en Vtopia:
+                                Porque alli en toda la Ciudad con ſus aldeas en contorno, apenas ſe
+                                les permite holgar a quinientas perſonas, aſsi hombres, como
+                                mugeres, cuya fuerça, i edad es abil para el trabajo.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-39-1" n="es 4.39">Entre eſtos los Sifograntos (ſi bien
+                                las leyes los hazen exentos) no ſe eſcuſan del obraje, por convidar
+                                a los demas, con el exemplo, a que travajen.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-40-1" n="es 4.40">Del miſmo previlegio gozan los
+                                eſtudiãtes, a quienes por acuerdo de los Sacerdotes el pueblo por
+                                votos ſecretos de los Magiſtrados les concede, que ſolo ſe ocupen en
+                                las buenas diciplinas, i artes.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-41-1" n="es 4.41">De los quales, ſi alguno no
+                                correſponde a las eſperanças que del ſe tenia, le ſacan de los
+                                eſtudios a lo mecanico: i por el contrario ſucede muchas vezes, que
+                                el mecanico en aquellas oras ſobradas aya aprovechado tanto en las
+                                letras, que ſacandolo de aquel oficio, lo promueven al de los
+                                eſtudios.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-42-1" n="es 4.42">Deſtas claſes de los eſtudioſos ſalen
+                                los Embajadores, los Ecleſiaſticos, i los Magiſtrados, Traniboros,
+                                i el miſmo Principe; al qual en ſu lẽgua antigua llamã Barzanes, i
+                                en la moderna Ademo.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-43-1" n="es 4.43">La demas muchedumbre, que ſiempre
+                                travaja, i eſta ocupada en artes utiles; facil es de juzgar quanto
+                                obran en pocas oras.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-44-1" n="es 4.44">Ademas deſtas coſas que he referido,
+                                añade facilidad ver, que en las artes vſuales, neceſsitan de menos
+                                travajo, que otras gẽtes.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-45-1" n="es 4.45">Porque viniendo lo primero a la
+                                fabrica de algun edificio obra, o reparo del en otras partes, es
+                                neceſſario en la continuacion del travajo aya muchos: porque lo que
+                                el padre edificò, el heredero prodigo, i ſin concierto, dejò por
+                                deſcuido, que poco a poco ſe arruinaſſe: de ſuerte que lo q̃ pudo
+                                repararſe, a poca coſta el ſuceſſor ſe halla deſpues obligado a
+                                edificar de nuevo: i aun ordinariamẽte la caſa, que el ponella en
+                                pie al primer dueño le coſtò mui gran gaſto, el otro no cuidando de
+                                ſu reparo, por ſu animo deſcaecido la deja arruinar, o por
+                                menoſprecio en breve tiempo ſe allana por el ſuelo, con que edifica
+                                otra en diferente parte, no a menor coſta.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-46-1" n="es 4.46">Pero en Vtopia no paſſa aſsi, porque
+                                compueſtas, i ordenadas de una vez las caſas todas, i fundadas las
+                                Republicas raras vezes acontece, que ſe elija nuevo ſitio para
+                                fundar edificios; i no ſolo acuden al reparo cõ brevedad, de lo que
+                                ſe va cayendo, pero previenen en tiempo, a lo que amenaza ruina.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-47-1" n="es 4.47">Por eſto ſucede, que con poco travajo,
+                                las fabricas duren mucho tiempo, i que los Maeſtros deſtas artes
+                                tengan poco en que entender, ſino es labrar con cepillos, i açuelas
+                                madera, i con pico, i eſcoda piedra, para que quando la neceſsidad
+                                lo pida, acudan con mas brevedad al reparo.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-48-1" n="es 4.48">En la obra de veſtidos, ya ſe ha
+                                viſto, quan poco tiempo hã meneſter; lo primero, porque quando
+                                travajan ſe viſten, con poco aſſeo, de pieles de animales, que duran
+                                ſiete años.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-49-1" n="es 4.49">Quando ſalen en publico ſe ponen
+                                encima otra ropa, que cubre aquellas groſeras pieles, i todas del
+                                color natural de la lana, ſin artificio; eſto en toda la Isla: i aun
+                                del paño, aſsi de lana gaſtan mucho menos, que en otras partes, i
+                                labrado a menor coſta, i el lino con menos travajo.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-50-1" n="es 4.50">Eſte ſe gaſta, i uſa mas.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-51-1" n="es 4.51">En lo que ſe labra de lienço, ſolo ſe
+                                procura la blancura, en lo que de lana la limpieça, ſin hazer
+                                aprecio, de que ſea mas, o menos delgado.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-52-1" n="es 4.52">De aqui procede que lo que en otras
+                                partes no baſtã para uno ſolo cinco veſtidos de diverſos colores,
+                                unos de lana, i otros de ſeda: i a los mas aſſeados, ni aun diez,
+                                los Vtopianos eſtan mui contentos con uno, i les dura dos años,
+                                pareciendoles que no tienen cauſa para codiciar otros que los que
+                                han hecho, porq̃ no con otros eſtã mas defendidos del frio, ni del
+                                calor, ni por lo ſutil les parecen mas aſſeados, i curioſos.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-53-1" n="es 4.53">Por lo qual exercitandoſe todos en
+                                artes provechoſas, i los efeƈtos que dellas reſultã, aunque ſea
+                                menos, baſtan para lo neceſſario, con abundancia, de donde procede,
+                                que aviẽdola de todas las coſas, ſobra gente, i a las vezes ſacan
+                                mucha para el reparo de las calles, i caminos publicos, ſi ai
+                                algunos mal adereçados, que neceſſitan de reſtaurarſe: i muchas
+                                vezes aunque no aya neceſsidad de alguna obra, les ordenã que por
+                                algunas pocas de oras travajen en las publicas.</s>
+                        </seg>
+                        <seg type="sentence">
+                            <s xml:id="es-4-54-1" n="es 4.54">Porque los Magiſtrados no ocupan a los
+                                Ciudadanos en travajos inutiles, i ſuperfluos, pues que la
+                                inſtitucion, i motivo deſta Republica principalmente atiende ſolo a
+                                eſte fin, a que ſatisfechas las neceſsidades publicas, en quanto
+                                ellas dieren lugar, lo mas del tiempo que ſobra de los empleos
+                                ſerviles, ſe reduzga a que los Ciudadanos gozẽ dela libertad, i
+                                cõtemplaciõ del anima, por q̃ en eſto juzgã conſiſte la verdadera
+                                felicidad.</s>
+                        </seg>
+                    </ab>
+                </div>
+            </div>
+            <div type="modernization" xml:lang="es">
+                <div type="Chapter" n="4">
+                    <head type="title">Ocupación, artes y ejercicios. Cap. IIII.</head>
+                    <ab>
+                        <seg n="4.1" type="single">
+                            <seg xml:id="em-4-1-1" n="em 4.1" corresp="#es-4-1-1">La agricultura es
+                                ocupación común a hembras y varones, la cual saben y ejercitan sin
+                                distinción.</seg>
+                        </seg>
+                        <seg n="4.2" type="single">
+                            <seg xml:id="em-4-2-1" n="em 4.2" corresp="#es-4-2-1">Enséñansela desde
+                                su menor edad por preceptos en la escuela y por ejercicio en el
+                                campo, que está más vecino a la ciudad, como por entretenimiento, no
+                                solo mirándolo, pero manejándolo y empleando las fuerzas del
+                                cuerpo.</seg>
+                        </seg>
+                        <seg n="4.3" type="single">
+                            <seg xml:id="em-4-3-1" n="em 4.3" corresp="#es-4-3-1">Fuera de la
+                                agricultura (que como he dicho es común a todos), cada cual
+                                instruido en algún otro oficio distinto, como labrar lana, lino,
+                                cantería, herrería, carpintería u otro arte de manos.</seg>
+                        </seg>
+                        <seg n="4.4" type="single">
+                            <seg xml:id="em-4-4-1" n="em 4.4" corresp="#es-4-4-1">No se reconoce
+                                otro empleo mecánico de que pueda hacer memoria.</seg>
+                        </seg>
+                        <seg n="4.5" type="single">
+                            <seg xml:id="em-4-5-1" n="em 4.5" corresp="#es-4-5-1">El traje es
+                                uniforme en toda la isla y en ningún tiempo se ha hecho novedad
+                                (solo hay diferencia en el sexo, que de una suerte visten los
+                                hombres, de otra las mujeres, y en los estados, porque diferente
+                                traje es el de los casados que el de los que no lo son) es agradable
+                                a la vista, acomodado al uso, a propósito para defensa del frío y
+                                del calor.</seg>
+                        </seg>
+                        <seg n="4.6" type="single">
+                            <seg xml:id="em-4-6-1" n="em 4.6" corresp="#es-4-6-1">Cada familia
+                                fabrica su vestuario a su gusto.</seg>
+                        </seg>
+                        <seg n="4.7" type="single">
+                            <seg xml:id="em-4-7-1" n="em 4.7" corresp="#es-4-7-1">Pero de las demás
+                                artes cada uno, así hembra como varón, aprende el que le agrada a su
+                                elección.</seg>
+                        </seg>
+                        <seg n="4.8" type="single">
+                            <seg xml:id="em-4-8-1" n="em 4.8" corresp="#es-4-8-1">Las mujeres se
+                                ejercitan en las de menor trabajo, labrando lana y lino, y los
+                                varones se encargan de las de mayor afán.</seg>
+                        </seg>
+                        <seg n="4.9" type="multisentence">
+                            <seg xml:id="em-4-9-1" n="em 4.9" corresp="#es-4-9-1">Por la mayor
+                                parte, el hijo sigue la profesión del padre, porque casi siempre a
+                                ella se inclinan por naturaleza. Y si alguno tiene propensión
+                                inclinada a otro oficio, pasa por adopción a la familia que trata de
+                                aquel ministerio a que es inclinado.</seg>
+                        </seg>
+                        <seg n="4.10" type="single">
+                            <seg xml:id="em-4-10-1" n="em 4.10" corresp="#es-4-10-1">El cuidado
+                                desta enseñanza no solamente le encarga el padre natural, pero
+                                también interviene el magistrado, dándolo a padre adoptivo, honesto
+                                y grave.</seg>
+                        </seg>
+                        <seg n="4.11" type="single">
+                            <seg xml:id="em-4-11-1" n="em 4.11" corresp="#es-4-11-1">Si alguno
+                                después de haber salido bien instruido y enseñado en la profesión
+                                desea saber otra, se le permite; y, enterado bien de entrambas,
+                                ejercita la que más le agrada, si ya otra ciudad no necesita de
+                                alguna de las que deja.</seg>
+                        </seg>
+                        <seg n="4.12" type="single">
+                            <seg xml:id="em-4-12-1" n="em 4.12" corresp="#es-4-12-1">Está a cargo de
+                                los magistrados sifograntos cuidar y reconocer que no haya
+                                vagabundos, mas que cada uno esté cuidadosamente ocupado en su
+                                ministerio.</seg>
+                        </seg>
+                        <seg n="4.13" type="single">
+                            <seg xml:id="em-4-13-1" n="em 4.13" corresp="#es-4-13-1">No comienzan su
+                                labor muy de mañana, ni trabajan continuamente, ni hasta muy noche,
+                                ni se fatigan con perpetua molestia como las bestias; porque es
+                                infelicidad más que de esclavos, la vida de los oficiales, que
+                                perpetuamente han de estar trabajando como trabajan toda la vida
+                                fuera de Utopía, donde dividen el día y la noche en veinticuatro
+                                horas.</seg>
+                        </seg>
+                        <seg n="4.14" type="multisentence">
+                            <seg xml:id="em-4-14-1" n="em 4.14" corresp="#es-4-14-1">Seis horas
+                                disputan para el trabajo, tres antes del medio día. Dejando la
+                                labor, van a comer.</seg>
+                        </seg>
+                        <seg n="4.15" type="single">
+                            <seg xml:id="em-4-15-1" n="em 4.15" corresp="#es-4-15-1">Tienen de
+                                siesta dos horas después de haber comido.</seg>
+                        </seg>
+                        <seg n="4.16" type="single">
+                            <seg xml:id="em-4-16-1" n="em 4.16" corresp="#es-4-16-1">Cuando han
+                                reposado, vuelven al trabajo por otras tres horas, las cuales
+                                rematan con la cena.</seg>
+                        </seg>
+                        <seg n="4.17" type="single">
+                            <seg xml:id="em-4-17-1" n="em 4.17" corresp="#es-4-17-1">La primera hora
+                                de las veinticuatro es la de medio día.</seg>
+                        </seg>
+                        <seg n="4.18" type="single">
+                            <seg xml:id="em-4-18-1" n="em 4.18" corresp="#es-4-18-1">A las ocho se
+                                retiran a dormir ocho horas.</seg>
+                        </seg>
+                        <seg n="4.19" type="single">
+                            <seg xml:id="em-4-19-1" n="em 4.19" corresp="#es-4-19-1">En los
+                                intermedios de comer, cenar y dormir se les concede que cada uno
+                                gaste el tiempo en lo que tuviere gusto a su albedrío, pero no de
+                                suerte que le emplee mal en excesos, ni holgazanerías, pero libre de
+                                su ocupación se divierta en algún ejercicio virtuoso a su
+                                elección.</seg>
+                        </seg>
+                        <seg n="4.20" type="single">
+                            <seg xml:id="em-4-20-1" n="em 4.20" corresp="#es-4-20-1">Estas horas
+                                privilegiadas, los más las gastan en el estudio de las letras,
+                                porque se acostumbra tener lecciones públicas antes de amanecer, a
+                                las cuales asisten de necesidad solamente aquellos que están
+                                señalados y elegidos para cuidado del estudio.</seg>
+                        </seg>
+                        <seg n="4.21" type="single">
+                            <seg xml:id="em-4-21-1" n="em 4.21" corresp="#es-4-21-1">Además destos,
+                                voluntariamente de todos estados, así hombres como mujeres concurren
+                                en número grande a oír los maestros, cada uno según su afición y lo
+                                que profesan. </seg>
+                        </seg>
+                        <seg n="4.22" type="single">
+                            <seg xml:id="em-4-22-1" n="em 4.22" corresp="#es-4-22-1">Este mismo
+                                tiempo si alguno le quiere emplear en su arte (que a muchos
+                                acontece), cuyo genio no se aplica a la contemplación de las
+                                ciencias, no se le prohíbe, antes es alabado, porque es de utilidad
+                                a la república.</seg>
+                        </seg>
+                        <seg n="4.23" type="multisentence">
+                            <seg xml:id="em-4-23-1" n="em 4.23" corresp="#es-4-23-1">Después de cena
+                                tienen una hora de entretenimiento en el verano en los jardines y en
+                                el invierno en las salas en que comen todos. Allí ejercitan la
+                                música o pasan en conversación.</seg>
+                        </seg>
+                        <seg n="4.24" type="single">
+                            <seg xml:id="em-4-24-1" n="em 4.24" corresp="#es-4-24-1">Juegos de
+                                dados, ni otros prohibidos, ni los tratan ni los entienden.</seg>
+                        </seg>
+                        <seg n="4.25" type="single">
+                            <seg xml:id="em-4-25-1" n="em 4.25" corresp="#es-4-25-1">Los que usan
+                                son dos juegos parecidos a los del ajedrez.</seg>
+                        </seg>
+                        <seg n="4.26" type="single">
+                            <seg xml:id="em-4-26-1" n="em 4.26" corresp="#es-4-26-1">El uno es una
+                                batalla de tantos a tantos en el cual los de una parte despojan y
+                                roban a los de la otra.</seg>
+                        </seg>
+                        <seg n="4.27" type="single">
+                            <seg xml:id="em-4-27-1" n="em 4.27" corresp="#es-4-27-1">El otro, en que
+                                formando un escuadrón, los vicios pelean contra las virtudes.</seg>
+                        </seg>
+                        <seg n="4.28" type="single">
+                            <seg xml:id="em-4-28-1" n="em 4.28" corresp="#es-4-28-1">En el cual
+                                juego muestran discretamente la oposición que tienen a los vicios y
+                                la concordia con las virtudes, y también qué vicios se oponen a qué
+                                virtudes, y les hacen guerra y contradicción con qué pertrechos
+                                acometen de la parte contraria y con qué armas defensivas las
+                                virtudes quebranten y desbaraten las fuerzas de los vicios, con qué
+                                ardides rebatan sus acometimientos.</seg>
+                        </seg>
+                        <seg n="4.29" type="single">
+                            <seg xml:id="em-4-29-1" n="em 4.29" corresp="#es-4-29-1">Finalmente, con
+                                qué industria y trazas la una de las partes alcance la
+                                victoria.</seg>
+                        </seg>
+                        <seg n="4.30" type="single">
+                            <seg xml:id="em-4-30-1" n="em 4.30" corresp="#es-4-30-1">Pero porque en
+                                esto no os dejéis llevar de algún engaño es bien que lo advirtáis
+                                con más atención.</seg>
+                        </seg>
+                        <seg n="4.31" type="single">
+                            <seg xml:id="em-4-31-1" n="em 4.31" corresp="#es-4-31-1">Porque como son
+                                seis horas, no mas, las señaladas para el trabajo, será posible que
+                                imaginéis que esto venga a hacer falta en las cosas forzosas, </seg>
+                        </seg>
+                        <seg n="4.32" type="single">
+                            <seg xml:id="em-4-32-1" n="em 4.32" corresp="#es-4-32-1">lo cual está
+                                muy lejos de suceder porque este tiempo no solo basta, pero aún
+                                sobra para procurar la abundancia de todas las cosas necesarias para
+                                pasar la vida y para la comodidad de ella.</seg>
+                        </seg>
+                        <seg n="4.33" type="single">
+                            <seg xml:id="em-4-33-1" n="em 4.33" corresp="#es-4-33-1">Primeramente,
+                                casi todas las mujeres, que son la mitad del pueblo, y donde las
+                                hembras trabajan, allí los hombres se dan al reposo.</seg>
+                        </seg>
+                        <seg n="4.34" type="single">
+                            <seg xml:id="em-4-34-1" n="em 4.34" corresp="#es-4-34-1">Además desto,
+                                gran número de sacerdotes y religiosos que no se ocupan en la
+                                manufactura, a los cuales se llegan los ricos señores de
+                                heredamientos (a quienes el vulgo llama nobles y caballeros).</seg>
+                        </seg>
+                        <seg n="4.35" type="single">
+                            <seg xml:id="em-4-35-1" n="em 4.35" corresp="#es-4-35-1">Poned en esta
+                                cuenta toda la caterva de los que sirven a estos de espadachines,
+                                truhanes; y, después destos, los mendigos que tienen salud y fingen
+                                alguna enfermedad para su holgazanería hallaréis con certeza que son
+                                muchos menos los que se ocupan en el trabajo de las cosas necesarias
+                                y considerad bien como estos mismos son muy pocos los que tratan de
+                                los precisamente necesario.</seg>
+                        </seg>
+                        <seg n="4.36" type="single">
+                            <seg xml:id="em-4-36-1" n="em 4.36" corresp="#es-4-36-1">Porque donde
+                                todo se compra por el dinero es forzoso que haya muchas artes
+                                totalmente vanas y superfluas, que solo sirven al antojo y
+                                exceso.</seg>
+                        </seg>
+                        <seg n="4.37" type="single">
+                            <seg xml:id="em-4-37-1" n="em 4.37" corresp="#es-4-37-1">Si estos pocos
+                                que trabajan se dividieran en tan pocas artes, cuales solo son
+                                menesterosas a la vida humana, bajaran sin duda los precios de las
+                                cosas de manera que los hombres alcanzaran a vivir con
+                                comodidad.</seg>
+                        </seg>
+                        <seg n="4.38" type="single">
+                            <seg xml:id="em-4-38-1" n="em 4.38" corresp="#es-4-38-1">Y si advertís
+                                que todos estos que se ocupan en artes inútiles y la chusma
+                                holgazana, que pasa en ocio y flojedad, se ocuparan en obras de
+                                provecho para todos (de las cuales cualquier artífice destas
+                                manufacturas y holgazán que se sustenta con los trabajos de los
+                                otros, gastan tanto como dos oficiales de los útiles) aquel poco
+                                tiempo bastara y aún sobrara para abundar de todas las cosas que la
+                                necesidad de la vida o la comodidad della pide, y aún también de los
+                                deleites verdaderos y naturales, de lo cual la experiencia nos da
+                                verdadero testimonio en Utopia, porque allí, toda la ciudad con sus
+                                aldeas en contorno, apenas se les permite holgar a quinientas
+                                personas, así hombres como mujeres, cuya fuerza y edad es hábil para
+                                el trabajo.</seg>
+                        </seg>
+                        <seg n="4.39" type="single">
+                            <seg xml:id="em-4-39-1" n="em 4.39" corresp="#es-4-39-1">Entre estos,
+                                los sifograntos (si bien las leyes los hacen exentos), no se escusan
+                                del obraje por convidar a los demás con el ejemplo a que
+                                trabajen.</seg>
+                        </seg>
+                        <seg n="4.40" type="single">
+                            <seg xml:id="em-4-40-1" n="em 4.40" corresp="#es-4-40-1">Del mismo
+                                privilegio gozan los estudiantes, a quienes por acuerdo de los
+                                sacerdotes el pueblo por votos secretos de los magistrados les
+                                concede que solo se ocupen en las buenas disciplinas y artes.</seg>
+                        </seg>
+                        <seg n="4.41" type="multisentence">
+                            <seg xml:id="em-4-41-1" n="em 4.41" corresp="#es-4-41-1">De los cuales,
+                                si alguno no corresponde a las esperanzas que del se tenía, le sacan
+                                de los estudios a lo mecánico. Y, por el contrario, sucede muchas
+                                veces que el mecánico en aquellas horas sobradas haya aprovechado
+                                tanto en las letras que, sacándolo de aquel oficio, lo promueven al
+                                de los estudios.</seg>
+                        </seg>
+                        <seg n="4.42" type="single">
+                            <seg xml:id="em-4-42-1" n="em 4.42" corresp="#es-4-42-1">Destas clases
+                                de los estudiosos salen los embajadores, los eclesiásticos y los
+                                magistrados, traniboros y el mismo príncipe, al cual en su lengua
+                                antigua llaman barzanes, y en la moderna, ademo.</seg>
+                        </seg>
+                        <seg n="4.43" type="single">
+                            <seg xml:id="em-4-43-1" n="em 4.43" corresp="#es-4-43-1">La demás
+                                muchedumbre, que siempre trabaja y está ocupada en artes útiles,
+                                fácil es de juzgar cuanto obran en pocas horas.</seg>
+                        </seg>
+                        <seg n="4.44" type="single">
+                            <seg xml:id="em-4-44-1" n="em 4.44" corresp="#es-4-44-1">Además destas
+                                cosas que he referido, añade facilidad ver que en las artes usuales
+                                necesitan de menos trabajos que otras gentes.</seg>
+                        </seg>
+                        <seg n="4.45" type="multisentence">
+                            <seg xml:id="em-4-45-1" n="em 4.45" corresp="#es-4-45-1">Porque viniendo
+                                lo primero a la fábrica de algún edificio obra o reparo del en otras
+                                partes, es necesario en la continuación del trabajo haya muchos,
+                                porque lo que el padre edificó, el heredero prodigo y sin concierto
+                                dejó por descuido que poco a poco se arruinase, de suerte que lo que
+                                pudo repararse, a poca costa el sucesor se halla después obligado a
+                                edificar de nuevo. Y aún ordinariamente la casa, que el ponella en
+                                pie al primer dueño le costó muy gran gasto, el otro, no cuidando de
+                                su reparo, por su ánimo descaecido la deja arruinar o por
+                                menosprecio en breve tiempo se allana por el suelo con que edifica
+                                otra en diferente parte, no a menor costa.</seg>
+                        </seg>
+                        <seg n="4.46" type="single">
+                            <seg xml:id="em-4-46-1" n="em 4.46" corresp="#es-4-46-1">Pero en Utopía
+                                no pasa así porque, compuestas y ordenadas de una vez las casas
+                                todas, y fundadas las repúblicas, raras veces acontece que se elija
+                                nuevo sitio para fundar edificios, y no solo acuden al reparo con
+                                brevedad de lo que se va cayendo, pero previenen en tiempo a lo que
+                                amenaza ruina.</seg>
+                        </seg>
+                        <seg n="4.47" type="single">
+                            <seg xml:id="em-4-47-1" n="em 4.47" corresp="#es-4-47-1">Por esto sucede
+                                que, con poco trabajo, las fábricas duren mucho tiempo y que los
+                                maestros destas artes tengan poco en que entender, sino es labrar
+                                con cepillos y azuelas madera, y con pico y escoda piedra para que
+                                cuando la necesidad lo pida, acudan con más brevedad al
+                                reparo.</seg>
+                        </seg>
+                        <seg n="4.48" type="multisentence">
+                            <seg xml:id="em-4-48-1" n="em 4.48" corresp="#es-4-48-1">En la obra de
+                                vestidos ya se ha visto cuan poco tiempo han menester. Lo primero,
+                                porque cuando trabajan se visten, con poco aseo, de pieles de
+                                animales que duran siete años.</seg>
+                        </seg>
+                        <seg n="4.49" type="multisentence">
+                            <seg xml:id="em-4-49-1" n="em 4.49" corresp="#es-4-49-1">Cuando salen en
+                                público, se ponen encima otra ropa que cubre aquellas groseras
+                                pieles, y todas del color natural de la lana, sin artificio. Esto en
+                                toda la isla, y aún del paño, así de lana gastan mucho menos que en
+                                otras partes, y labrado a menor costa y el lino con menos
+                                trabajo.</seg>
+                        </seg>
+                        <seg n="4.50" type="single">
+                            <seg xml:id="em-4-50-1" n="em 4.50" corresp="#es-4-50-1">Este se gasta y
+                                usa más.</seg>
+                        </seg>
+                        <seg n="4.51" type="single">
+                            <seg xml:id="em-4-51-1" n="em 4.51" corresp="#es-4-51-1">En lo que se
+                                labra de lienzo, solo se procura la blancura; en lo que de lana, la
+                                limpieza, sin hacer aprecio de que sea más o menos delgado.</seg>
+                        </seg>
+                        <seg n="4.52" type="single">
+                            <seg xml:id="em-4-52-1" n="em 4.52" corresp="#es-4-52-1">De aquí procede
+                                que lo que en otras partes no bastan para uno solo cinco vestidos de
+                                diversos colores, unos de lana y otros de seda, y a los más aseados,
+                                ni aún diez, los utopianos están muy contentos con uno y les dura
+                                dos años, pareciéndoles que no tienen causa para codiciar otros que
+                                los que han hecho, porque no con otros están más defendidos del frío
+                                ni del calor, ni por lo sutil les parecen más aseados y
+                                curiosos.</seg>
+                        </seg>
+                        <seg n="4.53" type="multisentence">
+                            <seg xml:id="em-4-53-1" n="em 4.53" corresp="#es-4-53-1">Por lo cual,
+                                ejercitándose todos en artes provechosas y los efectos que dellas
+                                resultan, aunque sea menos, bastan para lo necesario con abundancia,
+                                de donde procede que, habiéndola de todas las cosas, sobra gente, y
+                                a las veces sacan mucha para el reparo de las calles y caminos
+                                públicos. Si hay algunos mal aderezados que necesitan de
+                                restaurarse, y, muchas veces, aunque no haya necesidad de alguna
+                                obra, les ordenan que por algunas pocas de horas trabajen en las
+                                públicas.</seg>
+                        </seg>
+                        <seg n="4.54" type="single">
+                            <seg xml:id="em-4-54-1" n="em 4.54" corresp="#es-4-54-1">Porque los
+                                magistrados no ocupan a los ciudadanos en trabajos inútiles y
+                                superfluos, pues que la institución, y motivo desta república
+                                principalmente atiende solo a este fin a que, satisfechas las
+                                necesidades públicas, en cuanto a ellas dieren lugar, lo más del
+                                tiempo que sobra de los empleos serviles se reduzca a que los
+                                ciudadanos gocen de la libertad y contemplación del ánima, porque,
+                                en esto juzgan, consiste la verdadera felicidad.</seg>
+                        </seg>
+                    </ab>
+                </div>
+            </div>
+            <div type="original" xml:lang="la">
+                <div type="Chapter" n="4">
+                    <head type="title">***</head>
+                    <ab>
+                        <seg type="single">
+                            <seg xml:id="la-4-1-1" n="la 4.1" corresp="#es-4-1-1">ARs una est
+                                omnibus uiris mulieribusque promiscua agricultura, cuius nemo est
+                                expers.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-2-1" n="la 4.2" corresp="#es-4-2-1">Hac a pueritia
+                                erudiuntur omnes, partim in schola traditis praeceptis, partim in
+                                agros uiciniores urbi, quasi per in ceptis, ludum, educti; non
+                                intuentes modo, sed per exercitandi corporis occasionem tractantes
+                                etiam.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-3-1" n="la 4.3" corresp="#es-4-3-1">Praeter
+                                agriculturam (quae est omnibus, ut dixi, communis) quilibet unam
+                                quampiam, tanquam suam, docetur. ea est fere aut lanificium, aut
+                                operandi lini studium, aut cementariorum, aut fabri, seu ferrarii
+                                seu materiarii, artificium.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-4-1" n="la 4.4" corresp="#es-4-4-1">Neque enim aliud
+                                est opificium ullum, quod numerum aliquem dictu dignum occupet
+                                illic.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-5-1" n="la 4.5" corresp="#es-4-5-1">Nam uestes,
+                                quarum, nisi quod habitu sexus discernitur, et caelibatus a
+                                coniugio, una per totam insulam forma est, eademque per omne aeuum
+                                perpetua, nec ad oculum indecora, et ea corporis motum habilis, tum
+                                ad frigoris aestusque rationem appositas, </seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-6-1" n="la 4.6" corresp="#es-4-6-1">eas, inquam,
+                                quaeque sibi familia conficit.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-7-1" n="la 4.7" corresp="#es-4-7-1">Sed ex aliis illis
+                                artibus unus quisque aliquam discit, nec uiri modo, sed mulieres
+                                etiam.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="la-4-8-1" n="la 4.8" corresp="#es-4-8-1">Caeterum hae,
+                                uelut imbecil­liores, leuiora tractant. lanam fere linumque
+                                operantur. uiris artes reliquae magis laboriosae mandantur.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="la-4-9-1" n="la 4.9" corresp="#es-4-9-1">maxima ex parte
+                                quisque in patriis artibus educator, nam eo plerique natura
+                                feruntur. Quod si quem animus alio trahat, in eius opificii, cuius
+                                capitur studio, familiam quampiam adoptione traducitur, </seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-10-1" n="la 4.10" corresp="#es-4-10-1">cura non a
+                                patre modo eius, sed magistratibus etlam praestita, ut graui atque
+                                honesto patrifamilias mancipetur.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-11-1" n="la 4.11" corresp="#es-4-11-1">Quin si quis
+                                unam perdoctus artem aliam praeterea cupiuerit, eodem modo
+                                permittitur. Vtramque nactus, utram uelit exercet, nisi alterutra
+                                ciuitas magis egeat.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-12-1" n="la 4.12" corresp="#es-4-12-1">Syphograntorum
+                                praecipuum ac prope unicum negociu.m est, curare ac prospicere ne
+                                quisquam desideat ociosus, </seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="la-4-13-1" n="la 4.13" corresp="#es-4-13-1">sed uti suae
+                                quisque arti sedulo incumbat, nec ab summo mane tamen, ad multum
+                                usque noctem perpetuo labore, uelut iumenta, fatigatus. nam ea
+                                plusquam seruilis erumna est; quae tamen ubique fere opificium uita
+                                est, exceptis Vtopiensibus; qui cum in horas uiginti quatuor
+                                aequales diem connumerata nocte diuidant, </seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-14-1" n="la 4.14" corresp="#es-4-14-1">sex duntaxat
+                                operi deputant; tres ante meridiem, a quibus prandium ineunt; </seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-15-1" n="la 4.15" corresp="#es-4-15-1">atque a prandio
+                                duas pomeridianas horas quum interquie­uerint, </seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-16-1" n="la 4.16" corresp="#es-4-16-1">tres deinde
+                                rursus labori datas coena claudunt.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-17-1" n="la 4.17" corresp="#es-4-17-1">Quum primam
+                                horam ab meridie numerent,</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="la-4-18-1" n="la 4.18" corresp="#es-4-18-1"> sub octauam
+                                cubitum eunt. horas octo somnus uendicat.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-19-1" n="la 4.19" corresp="#es-4-19-1">Quicquid inter
+                                operis horas ac somni cibique medium esset, id suo cuiusque arbitrio
+                                permittitur; non quo per luxum aut segnitiem abutatur, sed quod ab
+                                opificio liberum ex animi sententia in aliud quippiam studii bene
+                                collocet.</seg>
+                        </seg>
+                        <seg type="null">
+                            <seg xml:id="la-4-20-1" n="la 4.20" corresp="#es-4-20-1">has
+                                intercapedines plerique impendunt literis. Solenne est enim publicas
+                                cotidie lectiones haberi antelucanis boris, quibus ut intersint ii
+                                dumtaxat adiguntur, qui ad literas nominatim selecti sunt.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-21-1" n="la 4.21" corresp="#es-4-21-1">Caeterum ex
+                                omni ordine mares simul ac foeminae, multitudo maxima, ad audiendas
+                                lectiones, alii alias, prout cuiusque fert natura, confluit.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-22-1" n="la 4.22" corresp="#es-4-22-1">Hoc ipsum
+                                tempus tamen, si quis arti suae malit insumere, quod multis usu
+                                uenit (quorum animus in nullius contem­platione disciplinae
+                                consurgit) haud prohibetur: quin laudatur quoque, ut utilis
+                                reipublicae.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="la-4-23-1" n="la 4.23" corresp="#es-4-23-1">Super coenam
+                                tum unam horam ludendo producunt, aestate in hortis, hyeme in aulis
+                                illis communibus, in quibus comedunt. Ibi aut musicen exercent, aut
+                                se sermone recreant.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-24-1" n="la 4.24" corresp="#es-4-24-1">Aleam atque id
+                                genus ineptos ac perniciosos ludos ne cognoscunt quidem.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-25-1" n="la 4.25" corresp="#es-4-25-1">caeterum duos
+                                habent in usu ludos, latrunculorum ludo non dissimiles: </seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-26-1" n="la 4.26" corresp="#es-4-26-1">alterum,
+                                numerorum pugnam, in qua numerus numerum praedatur: </seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-27-1" n="la 4.27" corresp="#es-4-27-1">alterum, in quo
+                                collata acie cum uirtutibus uitia confligunt.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-28-1" n="la 4.28" corresp="#es-4-28-1">Quo in ludo
+                                perquam scite ostenditur et uitiorum inter se dissidium, et aduersus
+                                uirtutes concordia; item quae uitia quibus se uirtutibus opponant,
+                                quibus uiribus aperte oppugnent, quibus machinamentis ab obliquo
+                                adoriantur, quo prae­sidio uirtutes uitiorum uires infringant,
+                                quibus artibus eorum conatus eludant, </seg>
+                        </seg>
+                        <seg type="  single">
+                            <seg xml:id="la-4-29-1" n="la 4.29" corresp="#es-4-29-1">quibus denique
+                                modis alterutra pars uictoriae compos fiat.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-30-1" n="la 4.30" corresp="#es-4-30-1">Sed hoc loco,
+                                ne quid erretis, quiddam pressius intuendum est.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-31-1" n="la 4.31" corresp="#es-4-31-1">Etenim quod sex
+                                dumtaxat horas in opere sunt, fieri fortasse potest ut inopiam
+                                aliquam putes necessariarum rerum sequi.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-32-1" n="la 4.32" corresp="#es-4-32-1">Quod tam longe
+                                abest ut accidat, ut id temporis ad omnium rerum copiam, quae
+                                qui­dem ad uitae uel necessitatem requirantur uel commoditatem, non
+                                sufficiat modo sed supersit etiam: </seg>
+                        </seg>
+                        <seg n="none" type="untranslated">
+                            <seg xml:id="la-4-33-1" n="la 4.33"></seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-33-1" n="la 4.33" corresp="#es-4-33-1">primum mulieres
+                                fere omnes, totius summae dimidium; aut, sicubi mulieres negociosae
+                                sunt, ibi ut plurimum earum uice uiri stertunt.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="la-4-34-1" n="la 4.34" corresp="#es-4-34-1">ad haec,
+                                sacer­dotum ac religiosorum, quos uocant, quanta quamque ociosa
+                                turba. adiice diuites omnes, maxime praediorum dominos, quos uulgo
+                                generosos appellant, ac nobiles: </seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="la-4-35-1" n="la 4.35" corresp="#es-4-35-1">his adnumera
+                                ipso­rum famulitium, totam uidelicet illam cetratorum nebulonum
+                                colluuiem: robustos denique ac ualentes mendicos adiunge, morbum
+                                quempiam praetexentes inertiae: multo certe pauciores esse quam
+                                putaras inuenies eos, quorum lahore con­stant haec omnia quibus
+                                mortales utuntur. Expende nunc tecum ex his ipsis quam pauci in
+                                necessariis opificiis uersantur; </seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-36-1" n="la 4.36" corresp="#es-4-36-1">siquidem ubi
+                                omnia pecuniis metimur, multas artes necesse est exerceri inanes
+                                prorsus ac superfluas, luxus tantum ac libidinis ministras.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-37-1" n="la 4.37" corresp="#es-4-37-1">nam haec ipsa
+                                multitudo, quae nunc operatur, si partiretur in tam paucas artes,
+                                quam paucas com­modus naturae usus postulat, in tanta rerum
+                                abundantia, quanta nunc esse necesse sit, precia nimirum uiliora
+                                forent quam ut artifices inde uitam tueri suam possent.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="la-4-38-1" n="la 4.38" corresp="#es-4-38-1">At si isti
+                                omnes quos nunc inertes artes distringunt, ac tota insuper ocio ac
+                                desidia languescens turba, quorum unus quiuis earum rerum quae
+                                aliorum laboribus suppeditantur, quantum duo earundem operatores
+                                consumit, in opera uniuersi atque eadem utilia collocarentur, facile
+                                animaduertis quantulum temporis ad suppeditanda omnia, quae uel
+                                necessitatis ratio uel commoditatis effiagitet (adde uoluptatis
+                                etiam quae quidem uera sit ac naturalis) abunde satis superque
+                                foret. Atque id ipsum in Vtopia res ipsa perspicuum facit. Nam illic
+                                in tota urbe cum adiacente uicinia uix homines quingenti ex omni
+                                uirorum ac mulierum numero, quorum aetas ac robur operi sufficit,
+                                uacatio permittitur.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-39-1" n="la 4.39" corresp="#es-4-39-1">In hiis
+                                syphogranti (quanquam leges eos Iabore soluerunt) ipsi tamen sese
+                                non eximunt, quo facilius exemplo suo reliquos ad labores
+                                inuitent.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-40-1" n="la 4.40" corresp="#es-4-40-1">Eadem
+                                immunitate gaudent hi, quos commen­datione sacerdotum persuasus
+                                populus occultis syphograntorum suffragiis ad perdiscendas
+                                disciplinas perpetua uacatione indulget.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="la-4-41-1" n="la 4.41" corresp="#es-4-41-1">Quorum si quis
+                                conceptam de se spem fefellerit, ad opifices retru­ditur. contraque
+                                non rarenter usu uenit, ut mechanicus quispiam subcisiuas illas
+                                horas tam gnauiter impendat literis, tantum diligentia proficiat, ut
+                                opificio suo exemptus in literatorum classem prouehatur.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-42-1" n="la 4.42" corresp="#es-4-42-1">Ex hoc
+                                literatorum ordine legati, sacerdotes, Tranibori, ac ipse denique
+                                deligitur princeps, quem illi prisca ipsorum lingua Barzanem,
+                                recentiore Ademum, appellant.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-43-1" n="la 4.43" corresp="#es-4-43-1">Reliqua fere
+                                multitudo omnis, quum neque ociosa sit, nec inutilibus opificiis
+                                occupata, procliuis aestimatio est quam paucae horae quantum boni
+                                operis pariant.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-44-1" n="la 4.44" corresp="#es-4-44-1">ad ea quae
+                                com­memoraui, hoc praeterea facilitatis accedit, quod in necessariis
+                                plerisque artibus minore opera quam aliae gentes opus habent.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="la-4-45-1" n="la 4.45" corresp="#es-4-45-1">Nam primum
+                                aedificiorum aut structura aut refectio ideo tam multorum assiduam
+                                ubique requirit operam, quod quae pater aedificauit, haeres parum
+                                frugi paulatim dilabi sinit: ita, quod minimo tueri potuit,
+                                successor eius de integro impendio magno cogitur instaurare. Quin
+                                frequenter etiam quae domus alii ingenti sumptu stetit, hanc alius
+                                delicato animo contemnit: eaque neglecta atque ideo breui collapsa,
+                                aliam alibi impensis non minoribus extruit.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-46-1" n="la 4.46" corresp="#es-4-46-1">At apud
+                                Vtopienses, compositis rebus omnibus et constituta republica,
+                                rarissime accidit uti noua collocandis aedibus area deligatur; et
+                                non modo remedium celeriter praesentibus uitiis adhibetur, sed etiam
+                                imminentibus occurritur.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-47-1" n="la 4.47" corresp="#es-4-47-1">Ita fit ut
+                                minimo labore diutissime perdurent aedificia, et id genus arti­fices
+                                uix habeant interdum quod agant; nisi quod materiam dolare domi et
+                                lapides interim quadrare atque aptare iubentur, quo (si quod opus
+                                incidat) maturius possit exurgere.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-48-1" n="la 4.48" corresp="#es-4-48-1">Iam in uestibus
+                                uide quam paucis operis egeant: primum, dum in opere sunt, corio
+                                neglectim aut pellibus amiciuntur, quae in septennium durent.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="la-4-49-1" n="la 4.49" corresp="#es-4-49-1">quum procedunt
+                                in pub­licum, superinducunt chlamydem uestem, quae rudiores illas
+                                uestes contegat. eius per totam insulam unus color est, atque is
+                                natiuus. Itaque lanei panni non modo multo minus quam usquam alibi
+                                sufficit, uerum is ipse quoque multo minoris impendii est. at lini
+                                minor est labor, </seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-50-1" n="la 4.50" corresp="#es-4-50-1">eoque usus
+                                crebrior.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-51-1" n="la 4.51" corresp="#es-4-51-1">sed in lineo
+                                solus candor, in laneo sola mundicies conspicitur: nullum tenuioris
+                                fili precium est.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="la-4-52-1" n="la 4.52" corresp="#es-4-52-1">Itaque fit ut,
+                                quum alibi nusquam uni homini quatuor aut quinque togae laneae
+                                diuersis coloribus, ac totidem sericiae tunicae suffi­ciant,
+                                delicatioribus paulo ne decem quidem, ibi una quisque contentus est,
+                                plerunque in biennium. Quippe nec causa est ulla cur plures
+                                affectet; quas consecutus neque aduersus frigus esset munitior,
+                                neque uestitu uideretur uel pilo cultior.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="la-4-53-1" n="la 4.53" corresp="#es-4-53-1">Quamobrem quum
+                                et omnes utilibus sese artibus exerceant, et ipsarum etiam opera
+                                pauciora sufficiant, fit nimirum ut abundante rerum omnium copia,
+                                interdum in reficiendas (si quae detritae sunt) uias publicas
+                                immensam multitudinem educant; persaepe etiam quum nec talis
+                                cuiuspiam operis usus occurrat, pauciores horas operandi publice
+                                denuntient.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="la-4-54-1" n="la 4.54" corresp="#es-4-54-1">neque enim
+                                superuacaneo labore ciues inuitos exercent magistratus, quandoquidem
+                                eius reipublicae institutio hunc unum scopum in primis respicit, ut,
+                                quoad per publicas necessitates licet, quamplurimum temporis ab
+                                seruitio corporis ad animi libertatem cultumque ciuibus uniuersis
+                                asseratur. In eo enim sitam uitae felicitatem putant.</seg>
+                        </seg>
+                    </ab>
+                </div>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="Chapter" n="4">
+                    <head type="title">The cities, especially Amaurotum</head>
+                    <ab>
+                        <seg type="single">
+                            <seg xml:id="en-4-1-1" n="en 4.1" corresp="#es-4-1-1">HUsbandrye is a
+                                scyence common to them all in­generall, both men and women, wherin
+                                they be all experte and cunnynge.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-2-1" n="en 4.2" corresp="#es-4-2-1">In thys they be
+                                all instructe euen from their youth; partely in scholes with
+                                traditions and preceptes, and partely in the contrey nighe the
+                                cytye, brought vp as it wer in playing, not onlye beholdynge the vse
+                                of it, but by occasyon of exercisinge their bodies practising it
+                                also.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="en-4-3-1" n="en 4.3" corresp="#es-4-3-1">Besides husbandry,
+                                which (as I sayde) is common to them all, euery one of them learneth
+                                one or other seuerall and particuler science, as hys owne proper
+                                crafte. That is most commonly other clotheworkinge in wolle or
+                                flaxe, or masonrie, or the smythes crafte, or the carpentes
+                                scyence.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-4-1" n="en 4.4" corresp="#es-4-4-1">For there is none
+                                other occupacyon that anye numbre to speke of doth vse there.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-5-1" n="en 4.5" corresp="#es-4-5-1">For their
+                                garmentes, whyche through owte all the Ilande be of one fassion,
+                                (sauynge that there is a difference betwene the mans garmente and
+                                the womans, betwene the maried and the unmaryed), and this one
+                                continueth for euer more un­chaunged, semely and comely to the eye,
+                                no let to the mouynge and weldynge of the bodie, also fitte bothe
+                                for winter and summer: </seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-6-1" n="en 4.6" corresp="#es-4-6-1">as for thies
+                                garmentes (I saye), euery familye maketh theire owne.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-7-1" n="en 4.7" corresp="#es-4-7-1">But of the other
+                                foreseyde craftes euerye man learneth one; and not only the men, but
+                                also the women.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="en-4-8-1" n="en 4.8" corresp="#es-4-8-1">But the women, as
+                                the weaker sorte, be put to the easere craftes. They worke wull and
+                                flaxe. The other more laborsome sciences be committed to the
+                                men.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="en-4-9-1" n="en 4.9" corresp="#es-4-9-1">For the moste
+                                parte euerye man is brought vp in his fathers craft. For moste
+                                commonly they be naturally therto bente and inclined. But yf a mans
+                                minde stonde to anny other, he is by adoption put into a famelye of
+                                that occupation which he doth most fantasy.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-10-1" n="en 4.10" corresp="#es-4-10-1">Whome not only
+                                his father, but also the magistrates do diligently looke to, that he
+                                be putt to a discrete and an honest householder.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-11-1" n="en 4.11" corresp="#es-4-11-1">Yea and if anny
+                                person, when he hath lerned one crafte, be desierous to lerne also
+                                another, he ys lykewyse suffrede and permytted. When he hathe
+                                learned bothe, he oc­cupyethe whether he wyll; onles the cytye haue
+                                more neade of the one then of the other.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-12-1" n="en 4.12" corresp="#es-4-12-1">The chyefe and
+                                almoste the onelye offyce of the Sypho­grauntes ys to see and take
+                                hede that no man sytte ydle, but that euerye one applye hys owne
+                                crafte wyth earneste delygence; </seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="en-4-13-1" n="en 4.13" corresp="#es-4-13-1">and yet for all
+                                that not to be weryed from earlye in the mornynge to late in the
+                                euennynge wyth contynuall woorke, lyke laborynge and toolynge
+                                beastes. For thys ys worse then the myserable and wretced con­dytyon
+                                of bondemen; whyche neuer the lesse is almoste euery where the of
+                                woorkemen and artyfycers, sauynge in vtopia. For they, dyuydinge the
+                                daye and the nyghte into xxiiii iust houres, </seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-14-1" n="en 4.14" corresp="#es-4-14-1">appoynte and
+                                assygne only vi of those houres to woorke; iii before none, vpon the
+                                whyche they goo streyghte to dyner; </seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-15-1" n="en 4.15" corresp="#es-4-15-1">and after
+                                dyner, when they haue rested ii houres, </seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-16-1" n="en 4.16" corresp="#es-4-16-1">then they
+                                woorke iii; and vpon that they goo to supper.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-17-1" n="en 4.17" corresp="#es-4-17-1">Aboute viii of
+                                the clocke in the euenynge (cowntynge one of the clocke at the
+                                fyrste houre after none) they go to bedde.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="en-4-18-1" n="en 4.18" corresp="#es-4-18-1">Aboute viii of
+                                the clocke in the euenynge (cowntynge one of the clocke at the
+                                fyrste houre after none) they go to bedde. viii houres they giue to
+                                sleape.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-19-1" n="en 4.19" corresp="#es-4-19-1">All the voide
+                                time, that is betwene the houres of woorke, slepe, and meate, that
+                                they be suffered to bestowe, euerye man as he lyketh beste hym
+                                selfe: not to thyntente they shoulde myspende thys tyme in ryote, or
+                                sloughfullenes; but, beynge then lycensed from the laboure of theyr
+                                owne occupacyons, to bestowe the time wel and thriftely vpon some
+                                other good science, as shall please them.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-20-1" n="en 4.20" corresp="#es-4-20-1">For yt ys a
+                                solempne custome there, to haue lectures daylye earlye in the
+                                morning; wher to be present they onlye be constreined that be
+                                namelye chosen and appoynted to learnynge.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-21-1" n="en 4.21" corresp="#es-4-21-1">Howe be yt a
+                                greate multy­tude of euerye sorte of people, bothe men and women,
+                                goo to heare lectures; some one and some an other, as euerye mans
+                                nature is inclyned.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-22-1" n="en 4.22" corresp="#es-4-22-1">Yet, this
+                                notwithstonding, yf any man had rathere bestowe thys tyme vpon hys
+                                owne occupatyon (as yt chaunceth in manye, whose myndes ryse not in
+                                the contemplatyon of annye scyence lyberal), he is not letted nor
+                                prohibited, but is also praysed and commended, as profitable to the
+                                common wealthe.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="en-4-23-1" n="en 4.23" corresp="#es-4-23-1">After supper
+                                they bestowe one houre in playe; in somer in their gardeynes, in
+                                winter in their commen halles, where they dyne and suppe. There they
+                                exercise them selfes in musyke, or els in honeste and holsome
+                                communicacion.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-24-1" n="en 4.24" corresp="#es-4-24-1">Diceplaye, and
+                                suche other folish and pernicious games, they knowe not; </seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-25-1" n="en 4.25" corresp="#es-4-25-1">but they vse ii
+                                games not muche vnlike the chesse.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-26-1" n="en 4.26" corresp="#es-4-26-1">The one is the
+                                battell of nombers, wherin one numbre stealethe awaye another.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-27-1" n="en 4.27" corresp="#es-4-27-1">The other is
+                                wherin vices fyghte wyth vertues, as it were in battell array, or a
+                                set fyld.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-28-1" n="en 4.28" corresp="#es-4-28-1">In the which
+                                game is verye properlye shewed bothe the striffe and discorde that
+                                vices haue amonge themselfes, and agayne theire unitye and concorde
+                                againste vertues; and also what vices be repugnaunt to what vertues;
+                                with what powre and strenght they assaile them openlye; by what
+                                wieles and subteltye they assaute them secretelye; with what helpe
+                                and aide the vertues resiste, and ouercome the puissaunce of the
+                                vices; by what craft they frustate their purposes; </seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-29-1" n="en 4.29" corresp="#es-4-29-1">and finally by
+                                what sleight or meanes the one getteth the victory.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-30-1" n="en 4.30" corresp="#es-4-30-1">But here, lease
+                                you be deceaued, one thinge you muste looke more narrowly
+                                vpon.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-31-1" n="en 4.31" corresp="#es-4-31-1">For seinge they
+                                bestowe but vi houres in woork, perchaunce you maye thinke that the
+                                lacke of some necessarye thinges herof may ensewe.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="en-4-32-1" n="en 4.32" corresp="#es-4-32-1">But this is
+                                nothinge so. For that small time is not only inough, but also to
+                                muche, for the stoore and abundaunce of all thinges that be
+                                requisite, other for the necessitie or commoditie of liffe. </seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-33-1" n="en 4.33" corresp="#es-4-33-1">First, almoost
+                                all women, which be the halfe of the hole numbre; or els, if the
+                                women be annye where occupied, their most comonlye in their steade
+                                the men be ydle.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="en-4-34-1" n="en 4.34" corresp="#es-4-34-1">Besydes thys,
+                                how great, and howe ydle a companye ys theyr of prystes, and
+                                relygyous men, as they call them? Put there to all ryche men,
+                                speciallye all landed men, whyche comonly be called gentylmen, and
+                                noble men.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="en-4-35-1" n="en 4.35" corresp="#es-4-35-1">Take into this
+                                numbre also their seruauntes; I meane, all that flocke of stout,
+                                bragging, russhe bucklers. Ioyne to them also sturdy and valiaunt
+                                beggers, clokinge their idle leffe vnder the colour of some disease
+                                or sickenes. And truely yow shall find them much fewer then yow
+                                thought, by whose labour all these thynges be gotten, that men vse
+                                and lyue bye. And truely yow shall find them much fewer then yow
+                                thought, by whose labour all these thynges be gotten, that men vse
+                                and lyue bye. Nowe consyder wyth youre selfe, of thies fewe that do
+                                woorke, how few be occupied in necessary woorkes.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-36-1" n="en 4.36" corresp="#es-4-36-1">For where money
+                                beareth all ye swing, ther many vayne and superfluous occupations
+                                must nedys be vsed, to serue only for ryotous superfluyte and
+                                vnhonest pleasure.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="en-4-37-1" n="en 4.37" corresp="#es-4-37-1">For the same
+                                multytude that now is occupied in woorke, if they were deuided into
+                                so few occupations as the necessary vse of nature requyreth, in so
+                                greate plentye of thinges, as then of necessity wolde. ensue,
+                                doubtles the prices wolde be to lytle for the artifycers to
+                                maynteyne theyre lyuynges.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="en-4-38-1" n="en 4.38" corresp="#es-4-38-1">But yf all
+                                thyes, that be nowe bisiede about vnprofitable occupations, with all
+                                the hole flocke of them that lyue ydellye and slouthfullye, whyche
+                                consume and waste euerye one of them more of thies thynges that come
+                                by other mens laboure, then ii of the work men themselfes doo; yf
+                                all thyes (I saye) were sette to profytable occupatyons, yowe
+                                easelye perceaue howe lytle tyme wolde be enoughe, yea and to muche,
+                                to stoore vs wyth all thynges that maye be requysyte other for
+                                necessytye, or for commodytye; yea, or for pleasure, so that the
+                                same pleasure be trewe and naturall. And thys in Vtopia the thynge
+                                yt selfe maketh manifeste and playne. For there in all the citye,
+                                wyth the hole contreye or shyere adioynynge to yt, scaselye soo
+                                persons of all the hole numbre of men and women, that be nother to
+                                olde nor to weake to woorke, be licensed from labour.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-39-1" n="en 4.39" corresp="#es-4-39-1">Amonge them be
+                                the Siphograuntes, which (though they be by the lawes exempte and
+                                pryuyleged from labour) yet they exempte not themselfes; to the
+                                intent they maye the rather by their example prouoke other to
+                                woorke.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-40-1" n="en 4.40" corresp="#es-4-40-1">The same
+                                vacation from labour do they also enioye, to whome the people,
+                                persuaded by the commendation of the priestes and secrete election
+                                of the Siphograntes, haue geuen a perpetual licence from labour to
+                                learnyng.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="en-4-41-1" n="en 4.41" corresp="#es-4-41-1">But if anny one
+                                of them proue nott accordinge to the expectation and hoope of him
+                                conceaued, he is furth with plucked backe to the company of
+                                artificers. And contrarye wise, often yt chaunceth that a
+                                handicraftes man doth so earnestly bestowe hys vacaunte and spare
+                                houres in learninge, and through dilygence so profytte therin, that
+                                he is taken frome hys handy occupation, and promoted to the company
+                                of the learned.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-42-1" n="en 4.42" corresp="#es-4-42-1">Owt of this
+                                ordre of the learned be chosen ambassadours, priestes, Tranibores,
+                                and finallye the prince him selfe; whome they in their olde tonge
+                                call Barzanes, and by a newer name, Adamus.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-43-1" n="en 4.43" corresp="#es-4-43-1">The residewe of
+                                the people being nother ydle, nother occupied about vnprofitable
+                                exercises, it may be easely iudged in how fewe howres how much good
+                                woorke by them maye be doone towardes those thinges that I haue
+                                spoken of.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-44-1" n="en 4.44" corresp="#es-4-44-1">This commodity
+                                they haue also aboue other, that in the most part of necessary
+                                occupations they neade nott so muche worke, as other nations
+                                doo.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="en-4-45-1" n="en 4.45" corresp="#es-4-45-1">For firste of
+                                all the buildinge or repayring of houses asketh euery where so manye
+                                mens continuall labour, bicause that the vnthyfty heyre suffreth the
+                                howses that hys father buylded, in contynewaunce of tyme to fall in
+                                decay. So that which he myghte haue vpholden wyth lytle coste, hys
+                                successoure is constreynede to buylde yt agayne a newe, to hys
+                                greate chardge. Yea, manye tymes also the howse that stoode one man
+                                in muche moneye, anothere ys of so nyce and soo delycate a mynde
+                                that he settethe nothynge by yt. And yt beynge neglected, and
+                                therefore shortelye fallynge into ruyne, he buyldethe vppe anothere
+                                in an othere place wyth no lesse coste and chardge.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="en-4-46-1" n="en 4.46" corresp="#es-4-46-1">But emonge the
+                                Vtopyans, where all thynges be sett in a good ordre, and the common
+                                wealthe in a good staye, yt very seldome chaunceth, that they chuse
+                                a new plotte to buylde an house vpon. And they doo not only finde
+                                spedy and quicke remedies for present fautes, but also preuente them
+                                that be like to fall.</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-47-1" n="en 4.47" corresp="#es-4-47-1">And by this
+                                meanes their houses continewe and laste very longe with litle labour
+                                and small reparacions; in so much that that kind of woorkemen sum
+                                times haue almost nothinge to doo; but that they be commaunded to
+                                hewe timbre at home, and to square and trime vp stones, to the
+                                intente that if annye woorke chaunce, it may the spedelier
+                                rise.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="en-4-48-1" n="en 4.48" corresp="#es-4-48-1">Now, Syre, in
+                                theire apparell marke, I praye yow, howe few woorkemen they neade.
+                                Fyrste of all, whyles they be at woorke, they be couered homely with
+                                leather or skinnes that will last vii yeares.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="en-4-49-1" n="en 4.49" corresp="#es-4-49-1">When they go
+                                furthe a brode, they caste vpon them a cloke, whyche hydeth the
+                                other homelye apparell. Thyes clookes thoroughe owte the hole Ilande
+                                be all of one coloure, and that is the naturall colour of the wul.
+                                They therfor do not only spende muche lesse wullen clothe then is
+                                spente in othere contreys, but also the same standeth them in muche
+                                lesse coste. But lynen clothe ys made wyth lesse laboure,</seg>
+                        </seg>
+                        <seg type="single">
+                            <seg xml:id="en-4-50-1" n="en 4.50" corresp="#es-4-50-1">and ys
+                                therefore hadde more in vse.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="en-4-51-1" n="en 4.51" corresp="#es-4-51-1">But in lynen
+                                clothe onlye whytenese, in wullen onlye clenlynes, ys regardede. As
+                                for the smalnese or fynesse of the threde, that ys no thynge passed
+                                for.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="en-4-52-1" n="en 4.52" corresp="#es-4-52-1">And thys ys the
+                                cause wherfore in other places iiii or v clothe gownes of dyuers
+                                colours, and as manye sylke cootes, be not enoughe for one man. Yea,
+                                and yf he be of the delycate and nyse sorte, x be to fewe; where as
+                                there one garmente wyll serue a man mooste commenlye ii yeares. For
+                                whie shoulde he desyre moo? seing if he had them, he should not be
+                                the better hapt or couered from colde, nother in his apparell any
+                                whyt the cumlyer.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="en-4-53-1" n="en 4.53" corresp="#es-4-53-1">Wherefore,
+                                seynge they be all exercysed in profytable occupatyons, and that
+                                fewe artyfycers in the same craftes be suffycyente, thys ys the
+                                cause that, plentye of all thynges beynge emonge them, they doo
+                                sumtymes bring furthe an innumerable companye of people to amende
+                                the hyghe wayes, yf annye be broken. Manye times also, when they
+                                haue no such woorke to be occupied about, an open proclamation is
+                                made that they shall bestowe fewer houres in woorke.</seg>
+                        </seg>
+                        <seg type="multisentence">
+                            <seg xml:id="en-4-54-1" n="en 4.54" corresp="#es-4-54-1">For the
+                                magistrates do not exercise their citizens againste theire willes in
+                                vnneadfull laboures. For whie? in the institution of that weale
+                                publique this ende is onlye and chiefely pretended and mynded, that
+                                what time maye possibly be spared from the necessary occupations and
+                                affayres of the commen wealthe, all that the cytizeins sholde
+                                withdrawe from the bodely seruice to the free liberty of the mind
+                                and garnisshing of the same. For herin they suppose the felicity of
+                                this liffe to consist.</seg>
+                        </seg>
+                    </ab>
+                </div>
+                <div type="notes">
+                    <note n="10" xml:id="n-3-1" target="#note-3-1">I do not know why E adds 300
+                        families</note>
+                    <note n="11" xml:id="n-3-2" target="#note-3-2">In B it is not clear that the 4
+                        candidates from which the Syphogrants chose one, are proposed by the city,
+                        one for each of its quarters; see Yale "The whole body of syphogrants, in
+                        number two hundred, having sworn to choose the man whom they judge most
+                        useful, by secret balloting appoint a governor, specifically one of the four
+                        candidates named to them by the people, for one is selected out of each of
+                        the four quarters of the city to be commended to the senate" .</note>
+                    <note n="12" xml:id="n-3-3" target="#note-3-3">B es confuso y contradictorio,
+                        tal y como está formulado.No es que los elijan sólo por un año, sino que son
+                        reelegidos anualmente. Así tiene sentido decir que no los cambian a la
+                        ligera. </note>
+                    <note n="13" xml:id="n-3-4" target="#note-3-4">B no recoge el matiz de "mature",
+                        rapidez en la resolución de los conflictos. </note>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
