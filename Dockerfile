@@ -54,7 +54,8 @@ RUN if [ "${PUBLISHER_LIB_VERSION}" = "master" ]; then \
     else \
         curl -L -o /tmp/tei-publisher-lib-${PUBLISHER_LIB_VERSION}.xar https://exist-db.org/exist/apps/public-repo/public/tei-publisher-lib-${PUBLISHER_LIB_VERSION}.xar; \
     fi
-
+    
+RUN echo $RANDOM > /tmp/.build-deps
 # Build the main app configured in the docker-compose.yml
 RUN  git clone ${APP_REPO} \
     # replace my-edition with name of your app
