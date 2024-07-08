@@ -40,7 +40,7 @@ ARG ROUTER_VERSION=1.8.0
 # replace with name of your edition repository and choose branch to build
 ARG APP_NAME=teipublisher-utopia
 ARG APP_REPO=https://github.com/miurena/teipublisher-utopia.git
-ARG TEIPUBLISHER_UTOPIA=main
+ARG APP_TEIPUBLISHER_UTOPIA=main
 
 # add key
 RUN  mkdir -p ~/.ssh && ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
@@ -59,8 +59,8 @@ RUN if [ "${PUBLISHER_LIB_VERSION}" = "master" ]; then \
 RUN  git clone ${APP_REPO} \
     # replace my-edition with name of your app
     && cd ${APP_NAME} \
-    && echo Checking out ${TEIPUBLISHER_UTOPIA} \
-    && git checkout ${TEIPUBLISHER_UTOPIA} \
+    && echo Checking out ${APP_TEIPUBLISHER_UTOPIA} \
+    && git checkout ${APP_TEIPUBLISHER_UTOPIA} \
     && ant
 
 RUN curl -L -o /tmp/roaster-${ROUTER_VERSION}.xar http://exist-db.org/exist/apps/public-repo/public/roaster-${ROUTER_VERSION}.xar
@@ -82,7 +82,7 @@ ARG HTTP_PORT=8080
 ARG HTTPS_PORT=8443
 
 ARG CONTEXT_PATH=auto
-ARG NER_ENDPOINT=http://localhost:8001
+ARG NER_ENDPOINT=http://localhost:8001 
 ARG PROXY_CACHING=false
 
 RUN ["busybox", "sed", "-i", "s/<lock-table disabled=\"false\"/<lock-table disabled=\"true\"/", "etc/conf.xml"]
