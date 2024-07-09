@@ -3,43 +3,43 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Paratexts of <hi rend="italic">Utopia de Thomas Moro</hi></title>
-            <funder>This work has been developed thanks to a doctoral fellowship granted in 2020 by
-               the Spanish Ministry of Universities</funder>
+            <title>Paratexts of Utopia de Thomas Moro</title>
+            <funder>This work has been developed thanks to a doctoral fellowship granted in 2020 by the Spanish Ministry of Universities</funder>
             <respStmt>
                <name>Inmaculada Ureña Asensio</name>
                <resp>transcription and encoding</resp>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition n="1">First edition<date> March 2024</date></edition>
+            <edition n="1">
+               First edition
+               <date>March 2024</date>
+            </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>TEIPublisher</publisher>
-            <pubPlace><ref><!-- URL?--></ref></pubPlace>
+            <pubPlace>
+               <ref>
+                  <!--  URL? -->
+               </ref>
+            </pubPlace>
             <date>2024</date>
          </publicationStmt>
          <notesStmt>
-            <note>I especially want to thank the DSG at NU for the support during my research visit
-               at Northeastern University in 2023.</note>
+            <note>I especially want to thank the DSG at NU for the support during my research visit at Northeastern University in 2023.</note>
             <note>Thanks to my thesis supervisor...</note>
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title>Utopia de Thomas Moro, traducida de latin en Caſtellano por Don Geronimo
-                  Antonio de Medinilla i Porres, Cauallero de la Orden de Santiago, Cavallerizo de
-                  ſu Mageſtad, Señor de las Villas de Bocos, Rozas, i Remolino, Corregidor, i
-                  Iuſticia mayor de la Ciudad de Cordova, i ſu tierra. </title>
+               <title>Utopia de Thomas Moro, traducida de latin en Caſtellano por Don Geronimo Antonio de Medinilla i Porres, Cauallero de la Orden de Santiago, Cavallerizo de ſu Mageſtad, Señor de las Villas de Bocos, Rozas, i Remolino, Corregidor, i Iuſticia mayor de la Ciudad de Cordova, i ſu tierra. </title>
                <author role="writer" xml:id="person-1">Thomas More (1478-1535)</author>
-               <author role="translator" xml:id="person-2">Gerónimo de Medinilla y Porres
-                  (1590-c.1642)</author>
+               <author role="translator" xml:id="person-2">Gerónimo de Medinilla y Porres (1590-c.1642)</author>
                <publisher>por Salvador de Cea Tesa</publisher>
                <date>1637</date>
                <pubPlace>Córdoba</pubPlace>
             </bibl>
             <bibl>
-               <title>The Utopia of Thomas More, in Latin from the edition of March 1518, and in
-                  English from the first edition of Ralph Robinson's translation in 1551</title>
+               <title>The Utopia of Thomas More, in Latin from the edition of March 1518, and in English from the first edition of Ralph Robinson's translation in 1551</title>
                <title/>
                <author role="writer" ref="#person-1">Thomas More (1478-1535)</author>
                <author role="translator" xml:id="person-3">Ralph Robinson (1520-1577)</author>
@@ -48,48 +48,40 @@
                <date>1895</date>
                <pubPlace>Oxford</pubPlace>
             </bibl>
-            <!-- lists -->
+            <!--  lists  -->
          </sourceDesc>
       </fileDesc>
-
       <encodingDesc>
          <projectDesc>
-            <p>This edition was developed as part of my thesis dissertation titled "A Digital
-               Edition of the 1637 Spanish translation of Thomas More's Utopia". The processes of
-               data modeling, encoding and publishing the edition was done during a research visit
-               at Northeastern University.</p>
+            <p>This edition was developed as part of my thesis dissertation titled "A Digital Edition of the 1637 Spanish translation of Thomas More's Utopia". The processes of data modeling, encoding and publishing the edition was done during a research visit at Northeastern University.</p>
          </projectDesc>
          <samplingDecl>
             <p>section to describe the rationale of the edition</p>
          </samplingDecl>
          <editorialDecl>
             <normalization>
-               <p>The only text modernized is the translation. The elements modernized are the
-                  following: <list>
+               <p>
+                  The only text modernized is the translation. The elements modernized are the following:
+                  <list>
                      <item/>
                   </list>
                </p>
             </normalization>
             <punctuation>
-               <p>The original punctuation system has been preserved in the 1637 Spanish
-                  translation, the 1551 English translation and the Latin original. The
-                  modifications concerning punctuation in the modernized version of the Spanish text
-                  have already been specified in the previous section.</p>
+               <p>The original punctuation system has been preserved in the 1637 Spanish translation, the 1551 English translation and the Latin original. The modifications concerning punctuation in the modernized version of the Spanish text have already been specified in the previous section.</p>
             </punctuation>
             <segmentation>
-               <p>The texts have been segmented into sentences to facilitate alignment. The
-                  principle followed... </p>
+               <p>The texts have been segmented into sentences to facilitate alignment. The principle followed... </p>
             </segmentation>
          </editorialDecl>
          <refsDecl>
-            <p> Explain here the reference system (linking?) use gi to refer to elements and attr to
-               refer to attributes</p>
+            <p> Explain here the reference system (linking?) use gi to refer to elements and attr to refer to attributes</p>
          </refsDecl>
          <classDecl>
             <taxonomy>
                <desc/>
             </taxonomy>
-            <!-- Place names and identifiers 
+            <!--  Place names and identifiers 
               
               #place-1 -> London
               #place-2 -> Amauroto
@@ -111,7 +103,7 @@
               Numbers (maybe for the future)
               #quant-1 -> 
               
-              -->
+               -->
          </classDecl>
          <schemaSpec ident="TEI"/>
       </encodingDesc>
@@ -123,18 +115,19 @@
             <language ident="en">sixteenth-century English</language>
          </langUsage>
       </profileDesc>
-      <!-- copy of Spanish Library (ref) and where I took the copy from Lupton -->
-
+      <!--  copy of Spanish Library (ref) and where I took the copy from Lupton  -->
       <revisionDesc>
-         <change when="2024-03-04">Version 1.0 <!-- example --></change>
+         <change when="2024-03-04">
+            Version 1.0
+            <!--  example  -->
+         </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="base" xml:lang="es">
             <pb n="I"/>
-            <front>
-               <titlePage>
+            <div type="titlepage">
                   <!-- update data -->
                   <docTitle>
                      <titlePart type="main">VTOPIA De THOMAS MORO</titlePart>
@@ -158,8 +151,7 @@
                         evenire, vel ʃi evenit, haut diuturna eʃʃe poteʃt. C. Corn. T. Ann. lib. 4.
                      </p>
                   </figure>
-               </titlePage>
-            </front>
+            </div>
             <div type="acknowledgement" n="1">
                <pb n="IIr"/>
                <head>A D. IVAN DE CHAVES i Mendoça, Cauallero de la Orden de Sanƈtiago, Preʃidente
@@ -835,8 +827,7 @@
             </div>
          </div>
          <div type="original" xml:lang="es">
-            <front>
-               <titlePage>
+            <div type="titlepage">
                   <!-- update data -->
                   <docTitle>
                      <titlePart type="main">VTOPIA De THOMAS MORO</titlePart>
@@ -859,9 +850,8 @@
                      <p>Dilecta ex his, &amp; constituta Reipublicae forma, laudari facilius, quam
                         evenire, vel si evenit, haut diuturna esse potest. C. Corn. T. Ann. lib. 4.
                      </p>
-                  </figure>
-               </titlePage>
-            </front>
+                  </figure>               
+            </div>
             <div type="acknowledgement" n="1">
                <pb n="IIr"/>
                <head>A D. IVAN DE CHAVES y Mendoza, Caballero de la Orden de Santiago, Presidente
