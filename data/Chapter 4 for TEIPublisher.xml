@@ -940,16 +940,23 @@
                                 prev="#la-4-15-1" corresp="#es-4-16-1">tres deinde rursus labori
                                 datas coena claudunt.</seg>
                         </seg>
-                        <seg n="4.17" type="singleSentence">
-                            <seg xml:id="la-4-17-1" n="la 4.19" type="partial" part="I"
-                                next="#la-4-18-1" corresp="#es-4-17-1">Quum primam horam ab meridie
-                                numerent,</seg>
-                        </seg>
+                        <!--<seg n="4.17" type="singleSentence">
+                            <seg xml:id="en-4-17-1" n="en 4.18" type="partial" part="M"
+                                prev="#en-4-18-1" next="#en-4-18-2" corresp="#es-4-17-1"> cowntynge
+                                one of the clocke at the fyrste houre after none)</seg>
+                        </seg>  -->
+                        <!-- sentences not in order -->
                         <seg n="4.18" type="multisentence">
-                            <seg xml:id="la-4-18-1" n="la 4.20" type="partial" part="F"
-                                prev="#la-4-17-1" corresp="#es-4-18-1"> sub octauam cubitum
-                                eunt.</seg><seg xml:id="la-4-18-2" n="la 4.21" corresp="#es-4-18-1">
-                                horas octo somnus uendicat.</seg>
+                            <seg xml:id="en-4-18-1" n="en 4.17" type="partial" part="I"
+                                next="#en-4-17-1" corresp="#es-4-18-1">Aboute viii of the clocke in
+                                the euenynge </seg>
+                            <seg n="17"><seg xml:id="en-4-17-1" n="en 4.18" type="partial" part="M"
+                                    prev="#en-4-18-1" next="#en-4-18-2" corresp="#es-4-17-1"
+                                    >(cowntynge one of the clocke at the fyrste houre after none)
+                                </seg></seg>
+                            <seg xml:id="en-4-18-2" n="en 4.17" type="partial" part="F"
+                                prev="#en-4-17-1" corresp="#es-4-18-1">viii houres they giue to
+                                sleape.</seg>
                         </seg>
                         <seg n="4.19" type="singleSentence">
                             <seg xml:id="la-4-19-1" n="la 4.22" corresp="#es-4-19-1">Quicquid inter
