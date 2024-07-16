@@ -135,6 +135,7 @@
         <body>
             <div type="base" xml:lang="es">
                 <div type="chapter" n="3">
+                    <pb n="5r"/>
                     <head type="chapter">De los Magiſtrados. Cap. III.</head>
                     <ab>
                         <seg n="3.1" type="sentence">
@@ -145,14 +146,14 @@
                         <seg n="3.2" type="sentence">
                             <s xml:id="es-3-2-1" n="es 3.2">A cada diez deſtos Sifograntos, i a ſus
                                 familias nombran otro Magiſtrado ſuperior, que llamaron Traniboro,
-                                ahora Protofilarco.<anchor n="30" xml:id="note-3-1"/></s>
+                                ahora Protofilarco.<anchor n="31" xml:id="note-3-1"/></s>
                         </seg>
                         <seg n="3.3" type="sentence">
                             <s xml:id="es-3-3-1" n="es 3.3">Finalmente todos los Sifograntos, que
-                                ſon en numero duciẽtos hazen juramẽto, q̃ eligiran por votos
-                                ſecretos por Cabeça, i Principe uno de quatro propueſtos por el
-                                pueblo, al que tuvieren por mas conveniente; i cada quarta parte de
-                                la Ciudad, propone uno al Senado.<anchor n="31" xml:id="note-3-2"
+                                ſon en numero duciẽtos hazen juramẽto, <pb n="5r"/>q̃ eligiran por
+                                votos ſecretos por Cabeça, i Principe uno de quatro propueſtos por
+                                el pueblo, al que tuvieren por mas conveniente; i cada quarta parte
+                                de la Ciudad, propone uno al Senado.<anchor n="32" xml:id="note-3-2"
                                 /></s>
                         </seg>
                         <seg n="3.4" type="sentence">
@@ -162,7 +163,7 @@
                         </seg>
                         <seg n="3.5" type="sentence">
                             <s xml:id="es-3-5-1" n="es 3.5">Los Traniboros los ſeñalan ſolo por un
-                                año, mas no los mudã ſin cauſa.<anchor n="32" xml:id="note-3-3"/>
+                                año, mas no los mudã ſin cauſa.<anchor n="33" xml:id="note-3-3"/>
                             </s>
                         </seg>
                         <seg n="3.6" type="sentence">
@@ -177,7 +178,7 @@
                         <seg n="3.8" type="sentence">
                             <s xml:id="es-3-8-1" n="es 3.8">En la conſulta tratã de las coſas de la
                                 Republica, procurando componer las diferẽcias de los particulares
-                                (ſi las ai, que ſiempre ſon pocas.)<anchor n="33" xml:id="note-3-4"
+                                (ſi las ai, que ſiempre ſon pocas.)<anchor n="34" xml:id="note-3-4"
                                 /></s>
                         </seg>
                         <seg n="3.9" type="sentence">
@@ -205,7 +206,7 @@
                         </seg>
                         <seg n="3.13" type="sentence">
                             <s xml:id="es-3-13-1" n="es 3.13">Tal vez ſe tratan los negocios en las
-                                juntas generales de toda la Isla.</s>
+                                juntas gene<pb n="6r"/>rales de toda la Isla.</s>
                         </seg>
                         <seg n="3.14" type="sentence">
                             <s xml:id="es-3-14-1" n="es 3.14">El Senado tambien tiene por eſtilo,
@@ -218,13 +219,14 @@
                                 principios fuerõ poco advertidos, i circũſpeƈtos, ſe inclinã mas a
                                 aventurar la ſalud comun, que ſu opinion particular, en aquello que
                                 debian tenello deſde luego bien mirado, para hablar con mas conſejo
-                                que arrojamiento.<anchor n="34" xml:id="note-3-5"/></s>
+                                que arrojamiento.<anchor n="35" xml:id="note-3-5"/></s>
                         </seg>
                     </ab>
                 </div>
             </div>
             <div type="modernization" xml:lang="es">
                 <div type="chapter" n="3">
+                    <pb n="5r"/>
                     <head type="chapter">De los magistrados</head>
                     <ab>
                         <seg n="3.1" type="singleSentence">
@@ -239,10 +241,11 @@
                         </seg>
                         <seg n="3.3" type="singleSentence">
                             <seg xml:id="em-3-3-1" n="em 3.3" corresp="#es-3-3-1">Finalmente, todos
-                                los sifograntos, que son en número doscientos, hacen juramento que
-                                elegirán por votos secretos por cabeza y príncipe uno de cuatro
-                                propuestos por el pueblo al que tuvieren por más conveniente, y cada
-                                cuarta parte de la ciudad propone uno al senado.</seg>
+                                los sifograntos, que son en número doscientos, hacen juramento <pb
+                                    n="5v"/>que elegirán por votos secretos por cabeza y príncipe
+                                uno de cuatro propuestos por el pueblo al que tuvieren por más
+                                conveniente, y cada cuarta parte de la ciudad propone uno al
+                                senado.</seg>
                         </seg>
                         <seg n="3.4" type="singleSentence">
                             <seg xml:id="em-3-4-1" n="em 3.4" corresp="#es-3-4-1">Esta dignidad del
@@ -294,7 +297,8 @@
                         </seg>
                         <seg n="3.13" type="singleSentence">
                             <seg xml:id="em-3-13-1" n="em 3.13" corresp="#es-3-13-1">Tal vez se
-                                tratan los negocios en las juntas generales de toda la isla.</seg>
+                                tratan los negocios en las juntas gene<pb n="6r"/>rales de toda la
+                                isla.</seg>
                         </seg>
                         <seg n="3.14" type="multisentence">
                             <seg xml:id="em-3-14-1" n="em 3.14" corresp="#es-3-14-1">El senado
@@ -506,20 +510,27 @@
                 </div>
             </div>
             <div type="notes">
-                <note n="10" xml:id="n-3-1" target="#note-3-1">I do not know why E adds 300
-                    families</note>
-                <note n="11" xml:id="n-3-2" target="#note-3-2">In B it is not clear that the 4
-                    candidates from which the Syphogrants chose one, are proposed by the city, one
-                    for each of its quarters; see Yale "The whole body of syphogrants, in number two
-                    hundred, having sworn to choose the man whom they judge most useful, by secret
-                    balloting appoint a governor, specifically one of the four candidates named to
-                    them by the people, for one is selected out of each of the four quarters of the
-                    city to be commended to the senate" .</note>
-                <note n="12" xml:id="n-3-3" target="#note-3-3">B es confuso y contradictorio, tal y
-                    como está formulado.No es que los elijan sólo por un año, sino que son
-                    reelegidos anualmente. Así tiene sentido decir que no los cambian a la ligera. </note>
-                <note n="13" xml:id="n-3-4" target="#note-3-4">B no recoge el matiz de "mature",
-                    rapidez en la resolución de los conflictos. </note>
+                <note n="31" xml:id="n-3-1" target="#note-3-1">Robinson introduces the number "three
+                    hundreds" (300) before "families" when the Latin origianal does not make
+                    reference to it. The quantity of families seems incorrect, as the previous
+                    sentence mentions only "thyrty".</note>
+                <note n="32" xml:id="n-3-2" target="#note-3-2">Medinilla obscures the meaning of the
+                    segment, making it less clear. The translator introduces "cabeza" and "príncipe"
+                    as synonyms to translate the Latin term "principem". He also alterns the order
+                    of elements appearing in the original, leaving "quem maxime censent utilem"
+                    almost at the end ("al que tuvieren por más conveniente").</note>
+                <note n="33" xml:id="n-3-3" target="#note-3-3">Again, the translator blurs the
+                    original meaning of the sentence. What the original text says is that
+                    trannibores are elected every year, not, as Medinilla indicates, that their
+                    governments last one single year ("Los traniboros los señalan solo por un año".</note>
+                <note n="34" xml:id="n-3-4" target="#note-3-4">Medinilla does not capture the nuance
+                    of the Latin term "mature", which means "quickly, briefly". Robinson grasps it
+                    in "by and by".</note>
+                <note n="35" xml:id="n-3-5" target="#note-3-4">Medinilla chooses "ayuntamiento" for
+                    the translation of the second instance of "senatum" --previously rendered as
+                    "senado". "Ayuntamiento" comes from the verb "ayuntar", meaning "to assemble".
+                    By 1637, "ayuntamiento" was already used to refer to the "council" or the group
+                    of people governing an area.</note>
             </div>
         </body>
     </text>
