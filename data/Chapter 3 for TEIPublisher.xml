@@ -211,10 +211,21 @@
                         <seg n="3.14" type="sentence">
                             <s xml:id="es-3-14-1" n="es 3.14">El Senado tambien tiene por eſtilo,
                                 que no ſe diſcurra ſobre ningun negocio, que ſe propone el primer
-                                dia, antes ſe difiera para el Ayuntamiento ſiguiente, por que
-                                ninguno a caſo, ſin precedente conſideracion, diga arrojadamente lo
+                                dia, <app>
+                                    <lem>antes</lem>
+                                    <rdg wit="1790">sino que</rdg>
+                                    <rdg wit="1805">sino que</rdg>
+                                </app> ſe difiera para el Ayuntamiento ſiguiente, <app>
+                                    <lem>por que ninguno a caſo, ſin</lem>
+                                    <rdg wit="1790">porque ninguno sin</rdg>
+                                    <rdg wit="1805">porque ninguno sin</rdg>
+                                </app> precedente conſideracion, diga arrojadamente lo
                                 primero, que le ocurre, i por ſuſtentarlo deſpues trate mas de
-                                defender ſu parecer, que de la utilidad, i cauſa publica; que muchos
+                                defender ſu parecer, que de la utilidad, i cauſa publica; <app>
+                                    <lem>que</lem>
+                                    <rdg wit="1790">pues</rdg>
+                                    <rdg wit="1805">pues</rdg>
+                                </app> muchos
                                 llevados de una verguença necia, porque no parezca que en ſus
                                 principios fuerõ poco advertidos, i circũſpeƈtos, ſe inclinã mas a
                                 aventurar la ſalud comun, que ſu opinion particular, en aquello que

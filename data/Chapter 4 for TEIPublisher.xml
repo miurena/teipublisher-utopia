@@ -4,8 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>A Digital Edition of the 1637 Spanish translation of Thomas More's
-                    Utopia</title>
+                <title>Chapter 4</title>
                 <funder>This work has been developed thanks to a doctoral fellowship granted in 2020
                     by the Spanish Ministry of Universities</funder>
                 <respStmt>
@@ -14,7 +13,7 @@
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition n="1">First edition<date>March 2024</date></edition>
+                <edition n="1">First edition<date> July 2024</date></edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>TEIPublisher</publisher>
@@ -184,8 +183,11 @@
                         </seg>
                         <seg n="4.9" type="sentence">
                             <s xml:id="es-4-9-1" n="es 4.9">Por la mayor parte el hijo ſigue la
-                                profeſsion del padre; porque caſi ſiempre a ella ſe inclinan por
-                                naturaleza: i ſi alguno tiene propenſion inclinada a otro oficio,
+                                profeſsion del padre; porque caſi ſiempre <app>
+                                    <lem>a ella ſe inclinan</lem>
+                                    <rdg wit="1790">se inclinan á ella</rdg>
+                                    <rdg wit="1805">se inclinan á ella</rdg>
+                                </app> por naturaleza: i ſi alguno tiene propenſion inclinada a otro oficio,
                                 paſſa por adopcion a la familia, que trata de aquel miniſterio, a
                                 que es inclinado.</s>
                         </seg>
@@ -204,7 +206,11 @@
                         </seg>
                         <seg n="4.12" type="sentence">
                             <s xml:id="es-4-12-1" n="es 4.12">Eſta a cargo de los Magiſtrados
-                                Sifograntos cuidar, i reconocer, que no aya vagabundos, mas q̃ cada
+                                Sifograntos cuidar, i reconocer, que no aya vagabundos, <app>
+                                    <lem>mas q̃</lem>
+                                    <rdg wit="1790">sino que</rdg>
+                                    <rdg wit="1805">sino que</rdg>
+                                </app> cada
                                 uno eſte cuidadoſamente ocupado en ſu miniſterio.<anchor n="41"
                                     xml:id="note-4-6"/></s>
                         </seg>
@@ -241,21 +247,31 @@
                             <s xml:id="es-4-19-1" n="es 4.19">En los intermedios de comer, cenar, i
                                 dormir, ſe les concede, que cada uno gaſte el tiempo en lo que
                                 tuviere guſto a ſu alvedrio; pero no de ſuerte, que le emplee mal en
-                                exceſos, ni holgazanerias: pero libre de ſu ocupaciõ ſe divierta en
+                                exceſos, ni holgazanerias: <app>
+                                    <lem>pero</lem>
+                                    <rdg wit="1790">sino que</rdg>
+                                    <rdg wit="1805">sino que</rdg>
+                                </app> libre de ſu ocupaciõ ſe divierta en
                                 algun exercicio virtuoſo a ſu elección.</s>
                         </seg>
                         <seg n="4.20" type="sentence">
                             <s xml:id="es-4-20-1" n="es 4.20">Eſtas oras previlegiadas, los mas las
-                                gaſtan en el eſtudio de letras; porque ſe acoſtumbra tener lecciones
+                                gaſtan en el eſtudio de <app>
+                                    <lem>letras</lem>
+                                    <rdg wit="1790">las letras</rdg>
+                                    <rdg wit="1805">las letras</rdg>
+                                </app>; porque ſe acoſtumbra tener lecciones
                                 publicas antes de amanecer, a las quales aſsiſten de neceſsidad
                                 ſolamente aquellos que eſtã ſeñalados, i elegidos para cuidado del
                                     eſtudio.<anchor n="44" xml:id="note-4-9"/></s>
                         </seg>
                         <seg n="4.21" type="sentence">
-                            <s xml:id="es-4-21-1" n="es 4.21"><pb n="7v"/>A demas deſtos,
-                                voluntariamente de todos eſtados, aſsi hombres, como mugeres
-                                concurren en numero grande a oir los Maeſtros, cada uno ſegun ſu
-                                aficion, i lo que profeſſan.<anchor n="45" xml:id="note-4-10"/></s>
+                            <s xml:id="es-4-21-1" n="es 4.21"><pb n="7v"/><app>
+                                <lem>A demas deſtos, voluntariamente de todos eſtados, aſsi hombres, como mugeres
+                                    concurren en numero grande a oir los Maeſtros</lem>
+                                <rdg wit="1790">Además de estos concurren voluntariamente de todos estados así hombres como mugeres á oír los Maestros</rdg>
+                                <rdg wit="1805">Además de estos concurren voluntariamente de todos estados así hombres como mugeres á oír los Maestros</rdg>
+                            </app>, cada uno ſegun ſu aficion, i lo que profeſſan.<anchor n="45" xml:id="note-4-10"/></s>
                         </seg>
                         <seg n="4.22" type="sentence">
                             <s xml:id="es-4-22-1" n="es 4.22">Eſte miſmo tiẽpo ſi alguno le quiere
@@ -284,7 +300,11 @@
                                     otra.<anchor n="49" xml:id="note-4-14"/></s>
                         </seg>
                         <seg n="4.27" type="sentence">
-                            <s xml:id="es-4-27-1" n="es 4.27">El otro, en que formando un eſquadron,
+                            <s xml:id="es-4-27-1" n="es 4.27"><app>
+                                <lem>El otro</lem>
+                                <rdg wit="1790">y el otro</rdg>
+                                <rdg wit="1805">y el otro</rdg>
+                            </app>, en que formando un eſquadron,
                                 los vicios pelean contra las virtudes.<anchor n="50"
                                     xml:id="note-4-15"/></s>
                         </seg>
@@ -307,7 +327,11 @@
                                 atencion.</s>
                         </seg>
                         <seg n="4.31" type="sentence">
-                            <s xml:id="es-4-31-1" n="es 4.31">Porque como ſon ſeis oras no mas las
+                            <s xml:id="es-4-31-1" n="es 4.31"><app>
+                                <lem>Porque</lem>
+                                <rdg wit="1790">pues</rdg>
+                                <rdg wit="1805">pues</rdg>
+                            </app> como ſon ſeis oras no mas las
                                 ſeñaladas para el travajo, ſera poſſible, que imagineis, que eſto
                                 venga a hazer falta en las coſas forçoſas.</s>
                         </seg>
@@ -319,27 +343,56 @@
                         </seg>
                         <seg n="4.33" type="untranslated"/>
                         <seg n="4.34" type="sentence">
-                            <s xml:id="es-4-33-1" n="es 4.33">Primeramente, caſi todas las mugeres,
-                                que ſon la mitad del pueblo; i donde las hembras travajan, alli los
-                                hombres ſe dan al repoſo.<anchor n="52" xml:id="note-4-17"/></s>
+                            <s xml:id="es-4-33-1" n="es 4.33"><app>
+                                <lem>Primeramente</lem>
+                                <rdg wit="1790">En donde</rdg>
+                                <rdg wit="1805">En donde</rdg>
+                            </app>, caſi todas las mugeres,
+                                que ſon la mitad del pueblo<app>
+                                    <lem>; i donde las hembras travajan, alli</lem>
+                                    <rdg wit="1790">, trabajan, y</rdg>
+                                    <rdg wit="1805">, trabajan, y</rdg>
+                                </app> los hombres ſe dan al repoſo.<anchor n="52" xml:id="note-4-17"/></s>
                         </seg>
                         <seg n="4.35" type="sentence">
-                            <s xml:id="es-4-34-1" n="es 4.34">Demas deſto gran numero de Sacerdotes,
-                                i Religioſos, que no ſe ocupan en la manifaƈtura; a los quales ſe
-                                llegan los ricos Señores de heredamientos (a quienes el vulgo llama
+                            <s xml:id="es-4-34-1" n="es 4.34"><app>
+                                <lem>Demas deſto</lem>
+                                <rdg wit="1790">igualmente</rdg>
+                                <rdg wit="1805">igualmente</rdg>
+                            </app> gran numero de Sacerdotes,
+                                i Religioſos, que no ſe ocupan en la <app>
+                                    <lem>manifactura; a los quales ſe llegan</lem>
+                                    <rdg wit="1790">manifactura, ni</rdg>
+                                    <rdg wit="1805">manufactura, ni</rdg>
+                                </app> los ricos Señores de heredamientos (a quienes el vulgo llama
                                 nobles, i cavalleros.)<anchor n="53" xml:id="note-4-18"/></s>
                         </seg>
                         <seg n="4.36" type="sentence">
-                            <s xml:id="es-4-35-1" n="es 4.35">Poned en eſta cuenta toda la caterba
-                                de los que ſirben a eſtos de eſpadachines, truhanes; i deſpues
+                            <s xml:id="es-4-35-1" n="es 4.35"><app>
+                                <lem>Poned</lem>
+                                <rdg wit="1790">incluyendose</rdg>
+                                <rdg wit="1805">incluyendose</rdg>
+                            </app> en eſta cuenta toda la caterba
+                                de los que ſirben a eſtos <app>
+                                    <lem>de eſpadachines</lem>
+                                    <rdg wit="1790">de espadachines</rdg>
+                                    <rdg wit="1805">espadachines</rdg>
+                                </app>, truhanes; i deſpues
                                 deſtos los mẽdigos, que tienen ſalud, i fingen alguna enfermedad,
                                 para ſu holgazaneria: hallareis con certeza, q̃ ſon muchos menos los
-                                q̃ ſe ocupan en el travajo de las coſas neceſſarias; i conſiderad
-                                biẽ como eſtos miſmos ſon mui pocos los q̃ tratan de lo preciſamẽte
-                                    neceſſario.<anchor n="54" xml:id="note-4-19"/></s>
+                                q̃ ſe ocupan en el travajo de las coſas neceſſarias;<app>
+                                    <lem> i conſiderad biẽ como eſtos miſmos ſon mui pocos los q̃ tratan de lo preciſamẽte
+                                        neceſſario</lem>
+                                    <rdg wit="1790">y que de estos son muy pocos los que tratan de los precisamente necesario</rdg>
+                                    <rdg wit="1805">y que de estos son muy pocos los que tratan de los precisamente necesario</rdg>
+                                </app>.<anchor n="54" xml:id="note-4-19"/></s>
                         </seg>
                         <seg n="4.37" type="sentence">
-                            <s xml:id="es-4-36-1" n="es 4.36">Porq̃ dõde todo ſe compra por el
+                            <s xml:id="es-4-36-1" n="es 4.36"><app>
+                                <lem>Porq̃</lem>
+                                <rdg wit="1790">y</rdg>
+                                <rdg wit="1805">y</rdg>
+                            </app> dõde todo ſe compra por el
                                 dinero, es forçoſo, q̃ aya muchas artes totalmẽte vanas, i
                                 ſuperfluas, q̃ ſolo ſirven al antojo, i exceſo.</s>
                         </seg>
@@ -350,23 +403,36 @@
                                 los hombres alcançaran a vivir <pb n="8v"/>con cõmodidad.</s>
                         </seg>
                         <seg n="4.39" type="sentence">
-                            <s xml:id="es-4-38-1" n="es 4.38">I ſi advertis que todos eſtos que ſe
+                            <s xml:id="es-4-38-1" n="es 4.38">I ſi <app>
+                                <lem>advertis que todos eſtos</lem>
+                                <rdg wit="1790">los</rdg>
+                                <rdg wit="1805">los</rdg>
+                            </app> que ſe
                                 ocupan en artes inutiles, i la chuſma holgazana, q̃ paſſa en ocio, i
                                 flogedad, ſe ocuparã en obras de provecho para todos (de las quales
                                 qualquier artifice deſtas manifaƈturas, i holgazan q̃ ſe ſuſtenta
                                 con los trabajos de los otros, gaſtan tanto como dos oficiales de
                                 los utiles) aquel poco tiempo baſtara, i aun ſobrara para abundar de
                                 todas las coſas, que la neceſsidad de la vida, o la cõmodidad della
-                                pide, i aun tambien de los deleites verdaderos, i naturales: de lo
-                                qual la experiencia nos da verdadero teſtimonio en Vtopia: Porque
-                                alli en toda la Ciudad con ſus aldeas en contorno, apenas ſe les
+                                pide, i aun tambien de los deleites verdaderos, i naturales: <app>
+                                    <lem>de lo qual la experiencia</lem>
+                                    <rdg wit="1790">la experiencia</rdg>
+                                    <rdg wit="1805">la experiencia</rdg>
+                                </app> nos da verdadero teſtimonio en Vtopia: <app>
+                                    <lem>Porque alli</lem>
+                                    <rdg wit="1790">allí</rdg>
+                                    <rdg wit="1805">allí</rdg>
+                                </app> en toda la Ciudad con ſus aldeas en contorno, apenas ſe les
                                 permite holgar a quinientas perſonas, aſsi hombres, como mugeres,
                                 cuya fuerça, i edad es abil para el trabajo.</s>
                         </seg>
                         <seg n="4.40" type="sentence">
                             <s xml:id="es-4-39-1" n="es 4.39">Entre eſtos los Sifograntos (ſi bien
-                                las leyes los hazen exentos) no ſe eſcuſan del obraje, por convidar
-                                a los demas, con el exemplo, a que travajen.</s>
+                                las leyes los hazen exentos) no ſe eſcuſan del obraje, <app>
+                                    <lem>por convidar</lem>
+                                    <rdg wit="1790">para estimular</rdg>
+                                    <rdg wit="1805">para estimular</rdg>
+                                </app> a los demas, con el exemplo, a que travajen.</s>
                         </seg>
                         <seg n="4.41" type="sentence">
                             <s xml:id="es-4-40-1" n="es 4.40">Del miſmo previlegio gozan los
@@ -379,8 +445,15 @@
                             <s xml:id="es-4-41-1" n="es 4.41">De los quales, ſi alguno no
                                 correſponde a las eſperanças que del ſe tenia, le ſacan de los
                                 eſtudios a lo mecanico: i por el contrario ſucede muchas vezes, que
-                                el mecanico en aquellas oras ſobradas aya aprovechado tanto en las
-                                letras, que ſacandolo de aquel oficio, lo promueven al de los
+                                <app>
+                                    <lem>el mecanico</lem>
+                                    <rdg wit="1790">al mecánico</rdg>
+                                    <rdg wit="1805">al mecánico</rdg>
+                                </app> en aquellas oras ſobradas aya aprovechado <app>
+                                    <lem>tanto en las letras</lem>
+                                    <rdg wit="1790">en las letras</rdg>
+                                    <rdg wit="1805">en las letras</rdg>
+                                </app>, que ſacandolo de aquel oficio, lo promueven al de los
                                 eſtudios.</s>
                         </seg>
                         <seg n="4.43" type="sentence">
@@ -403,7 +476,11 @@
                         <seg n="4.46" type="sentence">
                             <s xml:id="es-4-45-1" n="es 4.45">Porque viniendo lo primero a la
                                 fabrica de algun edificio obra, o reparo del en otras partes, es
-                                neceſſario en la continuacion del travajo aya muchos: porque lo que
+                                neceſſario <app>
+                                    <lem>en la continuacion</lem>
+                                    <rdg wit="1790">que en la continuación</rdg>
+                                    <rdg wit="1805">que en la continuación</rdg>
+                                </app> del travajo aya muchos: porque lo que
                                 el padre edificò, el heredero prodigo, i ſin concierto, dejò por
                                 deſcuido, que poco a poco ſe arruinaſſe: de ſuerte que lo q̃ pudo
                                 repararſe, a poca coſta el ſuceſſor ſe halla deſpues obligado a
@@ -416,8 +493,16 @@
                         <seg n="4.47" type="sentence">
                             <s xml:id="es-4-46-1" n="es 4.46">Pero en Vtopia no paſſa aſsi, porque
                                 compueſtas, i ordenadas de una vez las caſas todas, i fundadas las
-                                Republicas raras vezes acontece, que ſe elija nuevo ſitio para
-                                fundar edificios; i no ſolo acuden al reparo cõ brevedad, de lo que
+                                Republicas <app>
+                                    <lem>raras vezes</lem>
+                                    <rdg wit="1790">rara vez</rdg>
+                                    <rdg wit="1805">rara vez</rdg>
+                                </app> acontece, que ſe elija nuevo ſitio para
+                                fundar edificios; i no ſolo acuden <app>
+                                    <lem>al reparo cõ brevedad</lem>
+                                    <rdg wit="1790">con brevedad al reparo</rdg>
+                                    <rdg wit="1805">con brevedad al reparo</rdg>
+                                </app>, de lo que
                                 ſe va cayendo, pero previenen en tiempo, a lo que amenaza ruina.</s>
                         </seg>
                         <seg n="4.48" type="sentence">
@@ -450,8 +535,12 @@
                                 aprecio, de que ſea mas, o menos delgado.</s>
                         </seg>
                         <seg n="4.53" type="sentence">
-                            <s xml:id="es-4-52-1" n="es 4.52">De aqui procede que lo que en otras
-                                partes no baſtã para uno ſolo cinco veſtidos de diverſos colores,
+                            <s xml:id="es-4-52-1" n="es 4.52">De aqui procede que <app>
+                                <lem>lo que en otras
+                                partes no baſtã</lem>
+                                <rdg wit="1790">no bastando</rdg>
+                                <rdg wit="1805">no bastando</rdg>
+                            </app> para uno ſolo cinco veſtidos de diverſos colores,
                                 unos de lana, i otros de ſeda: i a los mas aſſeados, ni aun diez,
                                 los Vtopianos eſtan mui contentos con uno, i les dura dos años,
                                 pareciendoles que no tienen cauſa para codiciar otros que los que
@@ -464,15 +553,22 @@
                                 />aunque ſea menos, baſtan para lo neceſſario, con abundancia, de
                                 donde procede, que aviẽdola de todas las coſas, ſobra gente, i a las
                                 vezes ſacan mucha para el reparo de las calles, i caminos publicos,
-                                ſi ai algunos mal adereçados, que neceſſitan de reſtaurarſe: i
-                                muchas vezes aunque no aya neceſsidad de alguna obra, les ordenã que
+                                ſi ai algunos mal adereçados, que neceſſitan de reſtaurarſe: <app>
+                                    <lem>i muchas vezes aunque</lem>
+                                    <rdg wit="1790">y aunque</rdg>
+                                    <rdg wit="1805">y aunque</rdg>
+                                </app> no aya neceſsidad de alguna obra, les ordenã que
                                 por algunas pocas de oras travajen en las publicas.</s>
                         </seg>
                         <seg n="4.55" type="sentence">
                             <s xml:id="es-4-54-1" n="es 4.54">Porque los Magiſtrados no ocupan a los
                                 Ciudadanos en travajos inutiles, i ſuperfluos, pues que la
                                 inſtitucion, i motivo deſta Republica principalmente atiende ſolo a
-                                eſte fin, a que ſatisfechas las neceſsidades publicas, en quanto
+                                eſte fin<app>
+                                    <lem>, a que</lem>
+                                    <rdg wit="1790"> de que,</rdg>
+                                    <rdg wit="1805"> de que,</rdg>
+                                </app> ſatisfechas las neceſsidades publicas, en quanto
                                 ellas dieren lugar, lo mas del tiempo que ſobra de los empleos
                                 ſerviles, ſe reduzga a que los Ciudadanos gozẽ de la libertad, i
                                 cõtemplaciõ del anima, por q̃ en eſto juzgã conſiſte la verdadera
