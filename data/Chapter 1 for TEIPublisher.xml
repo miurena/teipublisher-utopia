@@ -4,8 +4,8 @@
       <fileDesc>
          <titleStmt>
             <title>Chapter 1</title>
-            <funder>This work has been developed thanks to a doctoral fellowship granted in 2020
-               by the Spanish Ministry of Universities</funder>
+            <funder>This work has been developed thanks to a doctoral fellowship granted in 2020 by
+               the Spanish Ministry of Universities</funder>
             <respStmt>
                <name>Inmaculada Ureña Asensio</name>
                <resp>transcription and encoding</resp>
@@ -20,16 +20,16 @@
             <date>2024</date>
          </publicationStmt>
          <notesStmt>
-            <note>I especially want to thank the DSG at NU for the support during my research
-               visit at Northeastern University in 2023.</note>
+            <note>I especially want to thank the DSG at NU for the support during my research visit
+               at Northeastern University in 2023.</note>
             <note>Thanks to my thesis supervisor...</note>
          </notesStmt>
          <sourceDesc>
             <bibl>
                <title>Utopia de Thomas Moro, traducida de latin en Caſtellano por Don Geronimo
-                  Antonio de Medinilla i Porres, Cauallero de la Orden de Santiago,
-                  Cavallerizo de ſu Mageſtad, Señor de las Villas de Bocos, Rozas, i Remolino,
-                  Corregidor, i Iuſticia mayor de la Ciudad de Cordova, i ſu tierra. </title>
+                  Antonio de Medinilla i Porres, Cauallero de la Orden de Santiago, Cavallerizo de
+                  ſu Mageſtad, Señor de las Villas de Bocos, Rozas, i Remolino, Corregidor, i
+                  Iuſticia mayor de la Ciudad de Cordova, i ſu tierra. </title>
                <author role="writer" xml:id="person-1">Thomas More (1478-1535)</author>
                <author role="translator" xml:id="person-2">Gerónimo de Medinilla y Porres
                   (1590-c.1642)</author>
@@ -38,9 +38,8 @@
                <pubPlace>Córdoba</pubPlace>
             </bibl>
             <bibl>
-               <title>The Utopia of Thomas More, in Latin from the edition of March 1518, and
-                  in English from the first edition of Ralph Robinson's translation in
-                  1551</title>
+               <title>The Utopia of Thomas More, in Latin from the edition of March 1518, and in
+                  English from the first edition of Ralph Robinson's translation in 1551</title>
                <title/>
                <author role="writer" ref="#person-1">Thomas More (1478-1535)</author>
                <author role="translator" xml:id="person-3">Ralph Robinson (1520-1577)</author>
@@ -52,13 +51,13 @@
             <!-- lists -->
          </sourceDesc>
       </fileDesc>
-      
+
       <encodingDesc>
          <projectDesc>
             <p>This edition was developed as part of my thesis dissertation titled "A Digital
-               Edition of the 1637 Spanish translation of Thomas More's Utopia". The processes
-               of data modeling, encoding and publishing the edition was done during a research
-               visit at Northeastern University.</p>
+               Edition of the 1637 Spanish translation of Thomas More's Utopia". The processes of
+               data modeling, encoding and publishing the edition was done during a research visit
+               at Northeastern University.</p>
          </projectDesc>
          <samplingDecl>
             <p>section to describe the rationale of the edition</p>
@@ -74,8 +73,8 @@
             <punctuation>
                <p>The original punctuation system has been preserved in the 1637 Spanish
                   translation, the 1551 English translation and the Latin original. The
-                  modifications concerning punctuation in the modernized version of the
-                  Spanish text have already been specified in the previous section.</p>
+                  modifications concerning punctuation in the modernized version of the Spanish text
+                  have already been specified in the previous section.</p>
             </punctuation>
             <segmentation>
                <p>The texts have been segmented into sentences to facilitate alignment. The
@@ -83,8 +82,8 @@
             </segmentation>
          </editorialDecl>
          <refsDecl>
-            <p> Explain here the reference system (linking?) use gi to refer to elements and
-               attr to refer to attributes</p>
+            <p> Explain here the reference system (linking?) use gi to refer to elements and attr to
+               refer to attributes</p>
          </refsDecl>
          <classDecl>
             <taxonomy>
@@ -125,819 +124,897 @@
          </langUsage>
       </profileDesc>
       <!-- copy of Spanish Library (ref) and where I took the copy from Lupton -->
-      
+
       <revisionDesc>
          <change when="2024-03-04">Version 1.0 <!-- example --></change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <!-- Revise partial sentences (there is information missing) -->
          <div type="base" xml:lang="es">
-            <head type="title">RELACION, QVE HIZO Rafael Hithlodeo, excelẽte varõ, del felice
-               eſtado dela republica de VTOPIA, ordenada por Thomas Moro, Vizcõde,
-               Ciudadano de la inſigne Ciudad de Londres en Inglaterra. </head>
-            <div type="Chapter" n="1"> 
-            <ab>
-               <seg n="1.1" type="sentence">
-                  <s xml:id="es-1-01-1" n="es 1.1">La Isla de los Vtopienſes, en el medio ſe
-                     eſtiẽnde a docientos mil paſſos, i por larguiſsimo eſpacio no ſe eſtrecha
-                     conſiderablement; mas alfin de entrambos aidos cabos ſe va enſangoſtando: i
-                     eſtas puntas en circunferẽcia de cinquenta mil paſſos, dexan la Isla en forma
-                     de Luna nueva.<anchor n="1" xml:id="note-1"/></s>
-               </seg>
-               <seg n="1.2" type="sentence">
-                  <s xml:id="es-1-02-1" n="es 1.2">Eſtas extremidades convatidas del mar ſe hallan
-                     diſtantes la una dela otra otros onze mil; i el mar defendido de los
-                     vientos.</s>
-               </seg>
-               <seg n="1.3" type="sentence">
-                  <s xml:id="es-1-03-1" n="es 1.3">Entre eſtos braços forma un apacible lago,
-                     dexando un puerto acomodado, deſde donde por ſu oportunidad embian ſus flotas
-                     a otras Provincias, i Paiſes.</s>
-               </seg>
-               <seg n="1.4" type="sentence">
-                  <s xml:id="es-1-04-1" n="es 1.4">Las gargantas de las entradas de la una parte con
-                     los bancos, i bados; i de la otra con diſsimulados eſcollos ponen eſpanto al
-                     que pretẽde entrar, como enemigo.</s>
-               </seg>
-               <seg n="1.5" type="sentence">
-                  <s xml:id="es-1-05-1" n="es 1.5">Casi en el medio deſte eſpacio ſe vee otra roca,
-                     notan peligroſa: en cuya eminencia han fabricado un fuerte, donde tienen
-                     preſidio.<anchor n="2" xml:id="note-2"/></s>
-               </seg>
-               <seg n="1.6" type="sentence">
-                  <s xml:id="es-1-06-1" n="es 1.6">Hallanſe otros muchos eſcollos ocultos, i por
-                     eſto dañoſos: ellos ſolamente tienen conocimiento de aquellos canales: de donde
-                     procede que raras vezes el eſtrangero, que no ſea aviſado de alguno de la
-                     Vtopia, pueda penetrallos, i quando con afan entre ſin rieſgo, no governandoſe
-                     por ciertasguias pueſtas en la ribera, vendra qualquiera grãde enemiga armada a
-                     dar al trabes.</s>
-               </seg>
-               <seg n="1.7" type="sentence">
-                  <s xml:id="es-1-07-1" n="es 1.7">De la otra parte ai un puerto baſtantemẽte
-                     frequentado; i el deſembarcadero fortificado por arte, i naturaleza: de manera,
-                     que poca gente de guerra pondrã en retirada i rebatiran el impetu de copioſo
-                     exercito.<anchor n="3" xml:id="note-3"/></s>
-               </seg>
-               <seg n="1.8" type="sentence">
-                  <s xml:id="es-1-08-1" n="es 1.8">Ai opinion (i la apariencia del lugar lo mueſtra)
-                     que aquella tierra en lo antiguo eſtava rodeada del mar.<anchor n="4" xml:id="note-4"/></s>
-               </seg>
-               <seg n="1.9" type="sentence">
-                  <s xml:id="es-1-09-1" n="es 1.9">Mas Vtopo, de quien tomò nombre la Isla, por
-                     averla conquiſtado (porque primero ſe llamava Abraxa) reduxo aquella muche
-                     dumbre ruſtica, i groſſera a eſta manera de vivir humana, i civil, qual ſigue
-                     todo el linaje de los hõbres.<anchor n="5" xml:id="note-5"/></s>
-               </seg>
-               <seg n="1.10" type="sentence">
-                  <s xml:id="es-1-10-1" n="es 1.10">Cortò un Iſthmo de diez mil paſſos, porel qual
-                     eſtava Vtopia continente con la tierra firme, con que quedò hecha Isla.<anchor n="6" xml:id="note-6"/></s>
-               </seg>
-               <seg n="1.11" type="sentence">
-                  <s xml:id="es-1-11-1" n="es 1.11">Aviendo conſtriñido, no ſolo a los moradores
-                     antiguos, mas tambien a ſus ſoldados, por no cauſar afrenta a aquellos: i con
-                     tanto numero de operarios en breviſſimo tiempo acabò el trabajo, dexando
-                     admirados los pueblos vezinos, que al principio burlavan del intento.<anchor n="7" xml:id="note-7"/></s>
-               </seg>
-               <seg n="1.12" type="sentence">
-                  <s xml:id="es-1-12-1" n="es 1.12">Ai en eſta Isla cinquenta i quatro Ciudades,
-                     conformes en lengua, inſtitutos,i leyes, i caſi a un modelo fabricadas, en
-                     quanto el ſitio lo permite.<anchor n="8" xml:id="note-8"/></s>
-               </seg>
-               <seg n="1.13" type="sentence">
-                  <s xml:id="es-1-13-1" n="es 1.13">Las mas cercanas eſtan deſviadas veinte i quatro
-                     mil paſſos; mas ninguna ſe halla tã apartada una de otra, que en un dia no
-                     pueda hazer jornada a ellas un peon.<anchor n="9" xml:id="note-9"/></s>
-               </seg>
-               <seg n="1.14" type="sentence">
-                  <s xml:id="es-1-14-1" n="es 1.14">Tres Ciudadanos expertos, i ancianos de cada una
-                     deſtas Ciudades <app>
-                                    <lem>todos los años concurren</lem>
-                                    <rdg wit="1790">concurren todos los años</rdg>
-                                    <rdg wit="1805">concurren todos los años</rdg>
-                                </app> en Amauroto, la qual por eſtar
-                     aſſentada en medio de la Isla, es a todos cōmoda, i tenida por principal, i
-                     Cabeça, donde tratan de la cauſa comun i publica de toda la Vtopia.<anchor n="10" xml:id="note-10"/></s>
-               </seg>
-               <seg n="1.15" type="sentence">
-                  <s xml:id="es-1-15-1" n="es 1.15">Las Ciudades no tienen de termino paſſados de
-                     veinte mil paſſos en contorno, algunas mas, conforme eſtan deſviadas, i
-                     apartadas mas, o menos entre ſi, ninguna dellas deſſea eſtender, o dilatar ſu
-                     diſtrito, juzgandoſe antes vſufrutuarios labradores de los campos, que ſeñores
-                     dellos.<anchor n="11" xml:id="note-11"/></s>
-               </seg>
-               <seg n="1.16" type="sentence">
-                  <s xml:id="es-1-16-1" n="es 1.16">Tienen alquerias mui prevenidas de todos los
-                     inſtrumentos para la labor, i agricultura; i a eſtos cortijos van a poblar los
-                     Ciudadanos.<anchor n="12" xml:id="note-12"/></s>
-               </seg>
-               <seg n="1.17" type="sentence">
-                  <s xml:id="es-1-17-1" n="es 1.17">Ninguna familia ruſtica deſtas tiene menos de
-                     quarenta perſonas, excepto dos hombres del campo.<anchor n="13" xml:id="note-13"/></s>
-               </seg>
-               <seg n="1.18" type="sentence">
-                  <s xml:id="es-1-18-1" n="es 1.18">A todo eſle numero ſe le feñala padre, i madre
-                     de familias, por edad, i coftumbres venerables; i a cada treinta Cortijos ſe le
-                     propone Cabeça.<anchor n="14" xml:id="note-14"/></s>
-               </seg>
-               <seg n="1.19" type="sentence">
-                  <s xml:id="es-1-19-1" n="es 1.19">Buelven a la Ciudad en cada un año veinte de los
-                     deſtas familias, de los que han reſidido dos en las alquerias.</s>
-               </seg>
-               <seg n="1.20" type="sentence">
-                  <s xml:id="es-1-20-1" n="es 1.20">Suceden a eſtos otros tantos de la Ciudad, para
-                     que ſean exercitados en la agricultura, por los que quedan expertos, con la
-                     reſidencia de vn año, i que el venidero enſeñen a otros, <app>
-                                    <lem>a intento</lem>
-                                    <rdg wit="1790">con el fin de</rdg>
-                                    <rdg wit="1805">con el fin de</rdg>
-                                </app> que no falte
-                     en todos la experiẽcia de la labranca; para que al tiempo de recogerlos frutos
-                     ſe hallen abiles.<anchor n="15" xml:id="note-15"/></s>
-               </seg>
-               <seg n="1.21" type="sentence">
-                  <s xml:id="es-1-21-1" n="es 1.21">I aunque eſta manerade renovar la agricultura ſe
-                     acoſtumbra; porqueninguno ſe halle obligado a continuar la vida ruſtica mas
-                     tiempo, no por eſto muchos que ſe deleitaſſen en la agricultura dejaſſen de
-                     eſtar alli mas años.</s>
-               </seg>
-               <seg n="1.22" type="sentence">
-                  <s xml:id="es-1-22-1" n="es 1.22">Los labradores cultivan el terreno, ſuſtentan
-                     los animales, aperciben leña, i la conducen a la Ciudad por tierra, o por mar,
-                     como les viene mas a propoſito.</s>
-               </seg>
-               <seg n="1.23" type="sentence">
-                  <s xml:id="es-1-23-1" n="es 1.23">Sacan con admirable artificio una infinidad de
-                     pollos; porque ſin empollarlas gallinas, con un calor proporcionado los dan
-                     vida, i deſpues los hombres los abrigan, i goviernan.<anchor n="16" xml:id="note-16"/></s>
-               </seg>
-               <seg n="1.24" type="sentence">
-                  <s xml:id="es-1-24-1" n="es 1.24">Suſtentan pocos Cavallos, i ferozes, de los
-                     quales ſe ſirben ſolamente en las empreſas de guerra: porque las demas labores
-                     de cultivar, i conduzir, las executan con los bueyes, los quales bien que ſean
-                     mas lentos, que los cauallos, toda via en el exercicio ſon mas ſufridos, i
-                     menos ſujetos a enfermedades, fuera de que ſon de menos gaſto: i quando no ſe
-                     puede por la vejez uſar dellos ſe pueden comer.</s>
-               </seg>
-               <seg n="1.25" type="sentence">
-                  <s xml:id="es-1-25-1" n="es 1.25">Siembran ſolamente trigo, beben vino de ubas, i
-                     gaſtan ſidra, o agua pura, o cocida con regaliz, de que tienen mucha
-                     abundancia.</s>
-               </seg>
-               <seg n="1.26" type="sentence">
-                  <s xml:id="es-1-26-1" n="es 1.26">I aunque tantean quanta vitualla ſe conſuma en
-                     la Ciudad, i el contorno, ſin embargo ſiembran mas para dar a los vezinos.<anchor n="17" xml:id="note-17"/></s>
-               </seg>
-               <seg n="1.27" type="sentence">
-                  <s xml:id="es-1-27-1" n="es 1.27">Todo inſtrumento de la labrança, ſe toma de la
-                     Ciudad, por mano del Magiſtrado, ſincoſta alguna: i muchos concurren todos los
-                     meſes en los pueblos a las fieſtas ſolemnes: quando es tiempo de ſegar los
-                     panes, los que gobiernan la labrança aviſan a los Magiſtrados, quanto numero de
-                     Ciudadanos deban embiar a la ſiega; i concurriendo todos aun tiempo en dia
-                     ſereno, caſi ponen en cobro todo el grano.<anchor n="18" xml:id="note-18"/></s>
-               </seg>
-            </ab>
-            </div>   
+            <pb n="1r"/>
+            <head type="chapter">RELACION, QVE HIZO Rafael Hithlodeo, excelẽte varõ, del felice
+               eſtado dela republica de VTOPIA, ordenada por Thomas Moro, Vizcõde, Ciudadano de la
+               inſigne Ciudad de Londres en Inglaterra. </head>
+            <div type="chapter" n="1">
+               <ab>
+                  <seg n="1.1" type="sentence">
+                     <s xml:id="es-1-01-1" n="es 1.1">La Isla de los Vtopienſes, en el medio ſe
+                        eſtiẽnde a docientos mil paſſos, i por larguiſsimo eſpacio no ſe eſtrecha
+                        conſiderablement; mas alfin de entrambos aidos cabos ſe va enſangoſtando: i
+                        eſtas puntas en circunferẽcia de cinquenta mil paſſos, dexan la Isla en
+                        forma de Luna nueva.<anchor n="1" xml:id="note-1-1"/></s>
+                  </seg>
+                  <seg n="1.2" type="sentence">
+                     <s xml:id="es-1-02-1" n="es 1.2">Eſtas extremidades <pb n="1v"/>convatidas del mar ſe
+                        hallan diſtantes la una dela otra otros onze mil; i el mar defendido de los
+                        vientos.</s>
+                  </seg>
+                  <seg n="1.3" type="sentence">
+                     <s xml:id="es-1-03-1" n="es 1.3">Entre eſtos braços forma un apacible lago,
+                        dexando un puerto acomodado, deſde donde por ſu oportunidad embian ſus
+                        flotas a otras Provincias, i Paiſes.</s>
+                  </seg>
+                  <seg n="1.4" type="sentence">
+                     <s xml:id="es-1-04-1" n="es 1.4">Las gargantas de las entradas de la una parte
+                        con los bancos, i bados; i de la otra con diſsimulados eſcollos ponen
+                        eſpanto al que pretẽde entrar, como enemigo.</s>
+                  </seg>
+                  <seg n="1.5" type="sentence">
+                     <s xml:id="es-1-05-1" n="es 1.5">Casi en el medio deſte eſpacio ſe vee otra
+                        roca, notan peligroſa: en cuya eminencia han fabricado un fuerte, donde
+                        tienen preſidio.<anchor n="2" xml:id="note-1-2"/></s>
+                  </seg>
+                  <seg n="1.6" type="sentence">
+                     <s xml:id="es-1-06-1" n="es 1.6">Hallanſe otros muchos eſcollos ocultos, i por
+                        eſto dañoſos: ellos ſolamente tienen conocimiento de aquellos canales: de
+                        donde procede que raras vezes el eſtrangero, que no ſea aviſado de alguno de
+                        la Vtopia, pueda penetrallos, i quando con afan entre ſin rieſgo, no
+                        governandoſe por ciertasguias pueſtas en la ribera, vendra qualquiera grãde
+                        enemiga armada a dar al trabes.</s>
+                  </seg>
+                  <seg n="1.7" type="sentence">
+                     <s xml:id="es-1-07-1" n="es 1.7">De la otra parte ai un puerto baſtantemẽte
+                        frequentado; i el deſembarcadero fortificado por arte, i naturaleza: de
+                        manera, que poca gente de guerra pondrã en retirada i rebatiran el impetu de
+                        copioſo exercito.<anchor n="3" xml:id="note-1-3"/></s>
+                  </seg>
+                  <seg n="1.8" type="sentence">
+                     <s xml:id="es-1-08-1" n="es 1.8">Ai opinion (i la apariencia del lugar lo
+                        mueſtra) que aquella tierra en lo antiguo eſtava rodeada del mar.<anchor
+                           n="4" xml:id="note-1-4"/></s>
+                  </seg>
+                  <seg n="1.9" type="sentence">
+                     <s xml:id="es-1-09-1" n="es 1.9">Mas Vtopo, de quien tomò nombre la Isla, por
+                        averla conquiſtado (porque primero ſe llamava Abraxa) reduxo aquella 
+                        muche<pb n="2r"/>dumbre ruſtica, i groſſera a eſta manera de vivir humana, i civil, qual
+                        ſigue todo el linaje de los hõbres.<anchor n="5" xml:id="note-1-5"/></s>
+                  </seg>
+                  <seg n="1.10" type="sentence">
+                     <s xml:id="es-1-10-1" n="es 1.10">Cortò un Iſthmo de diez mil paſſos, porel
+                        qual eſtava Vtopia continente con la tierra firme, con que quedò hecha
+                           Isla.<anchor n="6" xml:id="note-1-6"/></s>
+                  </seg>
+                  <seg n="1.11" type="sentence">
+                     <s xml:id="es-1-11-1" n="es 1.11">Aviendo conſtriñido, no ſolo a los moradores
+                        antiguos, mas tambien a ſus ſoldados, por no cauſar afrenta a aquellos: i
+                        con tanto numero de operarios en breviſſimo tiempo acabò el trabajo, dexando
+                        admirados los pueblos vezinos, que al principio burlavan del intento.<anchor
+                           n="7" xml:id="note-1-7"/></s>
+                  </seg>
+                  <seg n="1.12" type="sentence">
+                     <s xml:id="es-1-12-1" n="es 1.12">Ai en eſta Isla cinquenta i quatro Ciudades,
+                        conformes en lengua, inſtitutos,i leyes, i caſi a un modelo fabricadas, en
+                        quanto el ſitio lo permite.<anchor n="8" xml:id="note-1-8"/></s>
+                  </seg>
+                  <seg n="1.13" type="sentence">
+                     <s xml:id="es-1-13-1" n="es 1.13">Las mas cercanas eſtan deſviadas veinte i
+                        quatro mil paſſos; mas ninguna ſe halla tã apartada una de otra, que en un
+                        dia no pueda hazer jornada a ellas un peon.<anchor n="9" xml:id="note-1-9"
+                        /></s>
+                  </seg>
+                  <seg n="1.14" type="sentence">
+                     <s xml:id="es-1-14-1" n="es 1.14">Tres Ciudadanos expertos, i ancianos de cada
+                        una deſtas Ciudades <app>
+                           <lem>todos los años concurren</lem>
+                           <rdg wit="1790">concurren todos los años</rdg>
+                           <rdg wit="1805">concurren todos los años</rdg>
+                        </app> en Amauroto, la qual por eſtar aſſentada en medio de la Isla, es a
+                        todos cōmoda, i tenida por principal, i Cabeça, donde tratan de la cauſa
+                        comun i publica de toda la Vtopia.<anchor n="10" xml:id="note-1-10"/></s>
+                  </seg>
+                  <seg n="1.15" type="sentence">
+                     <s xml:id="es-1-15-1" n="es 1.15">Las Ciudades no tienen de termino paſſados de
+                        veinte mil paſſos en contorno, algunas mas, conforme eſtan deſviadas, i
+                        apartadas mas, o menos entre ſi, ninguna dellas deſſea eſtender, o dilatar
+                        ſu diſtrito, juzgandoſe antes vſufrutuarios labradores de los campos, que
+                        ſeñores dellos.<anchor n="11" xml:id="note-1-11"/></s>
+                  </seg>
+                  <seg n="1.16" type="sentence">
+                     <s xml:id="es-1-16-1" n="es 1.16">Tienen alquerias mui prevenidas <pb n="2v"/>de todos los
+                        inſtrumentos para la labor, i agricultura; i a eſtos cortijos van a poblar
+                        los Ciudadanos.<anchor n="12" xml:id="note-1-12"/></s>
+                  </seg>
+                  <seg n="1.17" type="sentence">
+                     <s xml:id="es-1-17-1" n="es 1.17">Ninguna familia ruſtica deſtas tiene menos de
+                        quarenta perſonas, excepto dos hombres del campo.<anchor n="13"
+                           xml:id="note-1-13"/></s>
+                  </seg>
+                  <seg n="1.18" type="sentence">
+                     <s xml:id="es-1-18-1" n="es 1.18">A todo eſle numero ſe le feñala padre, i
+                        madre de familias, por edad, i coftumbres venerables; i a cada treinta
+                        Cortijos ſe le propone Cabeça.<anchor n="14" xml:id="note-1-14"/></s>
+                  </seg>
+                  <seg n="1.19" type="sentence">
+                     <s xml:id="es-1-19-1" n="es 1.19">Buelven a la Ciudad en cada un año veinte de
+                        los deſtas familias, de los que han reſidido dos en las alquerias.</s>
+                  </seg>
+                  <seg n="1.20" type="sentence">
+                     <s xml:id="es-1-20-1" n="es 1.20">Suceden a eſtos otros tantos de la Ciudad,
+                        para que ſean exercitados en la agricultura, por los que quedan expertos,
+                        con la reſidencia de vn año, i que el venidero enſeñen a otros, <app>
+                           <lem>a intento</lem>
+                           <rdg wit="1790">con el fin de</rdg>
+                           <rdg wit="1805">con el fin de</rdg>
+                        </app> que no falte en todos la experiẽcia de la labranca; para que al
+                        tiempo de recogerlos frutos ſe hallen abiles.<anchor n="15"
+                           xml:id="note-1-15"/></s>
+                  </seg>
+                  <seg n="1.21" type="sentence">
+                     <s xml:id="es-1-21-1" n="es 1.21">I aunque eſta manerade renovar la agricultura
+                        ſe acoſtumbra; porqueninguno ſe halle obligado a continuar la vida ruſtica
+                        mas tiempo, no por eſto muchos que ſe deleitaſſen en la agricultura dejaſſen
+                        de eſtar alli mas años.</s>
+                  </seg>
+                  <seg n="1.22" type="sentence">
+                     <s xml:id="es-1-22-1" n="es 1.22">Los labradores cultivan el terreno, ſuſtentan
+                        los animales, aperciben leña, i la conducen a la Ciudad por tierra, o por
+                        mar, como les viene mas a propoſito.</s>
+                  </seg>
+                  <seg n="1.23" type="sentence">
+                     <s xml:id="es-1-23-1" n="es 1.23">Sacan con admirable artificio una infinidad
+                        de pollos; porque ſin empollarlas gallinas, con un calor proporcionado los
+                        dan vida, i deſpues los hombres los abrigan, i goviernan.<anchor n="16"
+                           xml:id="note-1-16"/></s>
+                  </seg>
+                  <seg n="1.24" type="sentence">
+                     <s xml:id="es-1-24-1" n="es 1.24">Suſtentan pocos Cavallos, i ferozes, de los
+                        quales ſe ſirben ſolamente en las empreſas de <pb n="3r"/>guerra: porque las demas
+                        labores de cultivar, i conduzir, las executan con los bueyes, los quales
+                        bien que ſean mas lentos, que los cauallos, toda via en el exercicio ſon mas
+                        ſufridos, i menos ſujetos a enfermedades, fuera de que ſon de menos gaſto: i
+                        quando no ſe puede por la vejez uſar dellos ſe pueden comer.</s>
+                  </seg>
+                  <seg n="1.25" type="sentence">
+                     <s xml:id="es-1-25-1" n="es 1.25">Siembran ſolamente trigo, beben vino de ubas,
+                        i gaſtan ſidra, o agua pura, o cocida con regaliz, de que tienen mucha
+                        abundancia.</s>
+                  </seg>
+                  <seg n="1.26" type="sentence">
+                     <s xml:id="es-1-26-1" n="es 1.26">I aunque tantean quanta vitualla ſe conſuma
+                        en la Ciudad, i el contorno, ſin embargo ſiembran mas para dar a los
+                           vezinos.<anchor n="17" xml:id="note-1-17"/></s>
+                  </seg>
+                  <seg n="1.27" type="sentence">
+                     <s xml:id="es-1-27-1" n="es 1.27">Todo inſtrumento de la labrança, ſe toma de
+                        la Ciudad, por mano del Magiſtrado, ſincoſta alguna: i muchos concurren
+                        todos los meſes en los pueblos a las fieſtas ſolemnes: quando es tiempo de
+                        ſegar los panes, los que gobiernan la labrança aviſan a los Magiſtrados,
+                        quanto numero de Ciudadanos deban embiar a la ſiega; i concurriendo todos
+                        aun tiempo en dia ſereno, caſi ponen en cobro todo el grano.<anchor n="18"
+                           xml:id="note-1-18"/></s>
+                  </seg>
+               </ab>
+            </div>
          </div>
          <div type="modernization" xml:lang="es">
-            <head type="title">
-               Relación que hizo Rafael Hithlodeo, excelente varón, del feliz estado de la república de Utopia,
-               ordenada por Thomas Moro, vizconde, ciudadano de la insigne ciudad de Londres en Inglaterra.
-            </head>
-            <div type="Chapter" n="1">
+            <pb n="1r"/>
+            <head type="title"> Relación que hizo Rafael Hithlodeo, excelente varón, del feliz
+               estado de la república de Utopia, ordenada por Thomas Moro, vizconde, ciudadano de la
+               insigne ciudad de Londres en Inglaterra.</head>
+            <div type="chapter" n="1">
+               <head type="chapter">Descripción de la isla. Capítulo 1.</head>
                <ab>
-                        <seg n="1.1" type="sentence">
-                  <seg xml:id="em-1-01-1" n="em 1.1" corresp="#es-1-01-1" type="single">La Isla de
-                     los Utopienses en el medio se extiende a doscientos mil pasos, y por larguísimo
-                     espacio no se estrecha considerablemente; mas al fin de entre ambos cabos se va
-                     ensangostando, y estas puntas en circunferencia de cincuenta mil pasos dejan la
-                     Isla en forma de Luna nueva.</seg>
-               </seg>
-               <seg n="1.2" type="sentence">
-                  <seg xml:id="em-1-02-01" n="em 1.2" corresp="#es-1-02-1" type="single">Estas
-                     extremidades combatidas del mar se hallan distantes la una de la otra otros
-                     once mil y el mar defendido de los vientos.</seg>
-               </seg>
-               <seg n="1.3" type="sentence">
-                  <seg xml:id="em-1-03-1" n="em 1.3" corresp="#es-1-03-1" type="single">Entre estos
-                     brazos forma un apacible lago, dejando un puerto acomodado desde donde, por su
-                     oportunidad, envían sus flotas a otras provincias y países.</seg>
-               </seg>
-               <seg n="1.4" type="sentence">
-                  <seg xml:id="em-1-04-1" n="em 1.4" corresp="#es-1-04-1" type="single">Las
-                     gargantas de las entradas de la una parte con los bancos y bados y de la otra,
-                     con disimulados escollos, ponen espanto al que pretende entrar como
-                     enemigo.</seg>
-               </seg>
-               <seg n="1.5" type="sentence">
-                  <seg xml:id="em-1-05-1" n="em 1.5" corresp="#es-1-05-1" type="single">Casi en el
-                     medio de este espacio se ve otra roca no tan peligrosa, en cuya eminencia han
-                     fabricado un fuerte, donde tienen presidio.</seg>
-               </seg>
-               <seg n="1.6" type="sentence">
-                  <seg xml:id="em-1-06-1" n="em 1.6" corresp="#es-1-06-1" type="multisentence">Hállanse otros muchos escollos ocultos, y por esto dañosos.</seg>                  <seg xml:id="em-1-06-2" n="em 1.7" corresp="#es-1-06-1" type="multisentence">
-                        Ellos solamente tienen conocimiento de aquellos canales de donde procede que
-                        raras veces el extranjero que no sea avisado de alguno de la Utopía pueda
-                        penetrallos, y cuando con afán entre sin riesgo, no gobernándose por ciertas
-                        guías puestas en la ribera, vendrá cualquier gran enemiga armada a dar al
-                        través.</seg>
-               </seg>
-               <seg n="1.7" type="sentence">
-                  <seg xml:id="em-1-07-1" n="em 1.8" corresp="#es-1-7-1" type="single">De la otra
-                     parte, hay un puerto bastantemente frecuentado y el desembarcadero fortificado
-                     por arte y naturaleza, de manera que poca gente de guerra pondrán en retirada y
-                     rebatirán el ímpetu de copioso ejército.</seg>
-               </seg>
-               <seg n="1.8" type="sentence">
-                  <seg xml:id="em-1-08-1" n="em 1.9" corresp="#es-1-8-1" type="single">Hay opinión
-                     (y la apariencia del lugar lo muestra) que aquella tierra en lo antiguo estaba
-                     rodeada del mar.</seg>
-               </seg>
-               <seg n="1.9" type="sentence">
-                  <seg xml:id="em-1-09-1" n="em 1.10" corresp="#es-1-9-1" type="single">Mas Utopo,
-                     de quien tomó nombre la Isla por haberla conquistado (porque primero se llamaba
-                     Abraxa), redujo aquella muchedumbre rústica y grosera a esta manera de vivir
-                     humana y civil, cual sigue todo el linaje de los hombres.</seg>
-               </seg>
-               <seg n="1.10" type="sentence">
-                  <seg xml:id="em-1-10-1" n="em 1.11" corresp="#es-1-10-1" type="single">Cortó un
-                     istmo de diez mil pasos por el cual estaba Utopía continente con la tierra
-                     firme, con que quedó hecha Isla.</seg>
-               </seg>
-               <seg n="1.11" type="sentence">
-                  <seg xml:id="em-1-11-1" n="em 1.11" corresp="#es-1-11-1" type="multisentence">Habiendo constreñido no solo a los moradores antiguos, mas también a sus
-                     soldados, por no causar afrenta a aquellos.</seg>
-                            <seg xml:id="em-1-11-2" n="em 1.12" corresp="#es-1-11-1" type="multisentence"> Y
-                        con tanto número de operarios en brevísimo tiempo acabó el trabajo, dejando
-                        admirados los pueblos vecinos, que al principio <app>
-                                    <lem>burlaban</lem>
-                                    <rdg wit="#1790">se burlaban</rdg>
-                                    <rdg wit="1805">se burlaban</rdg>
-                                </app> del intento.</seg>
-               </seg>
-               <seg n="1.12" type="sentence">
-                  <seg xml:id="em-1-12-1" n="em 1.13" corresp="#es-1-12-1" type="single">Hay en esta
-                     Isla cincuenta y cuatro ciudades, conformes en lengua, institutos, y leyes, y
-                     casi a un modelo fabricadas, en cuanto el sitio lo permite.</seg>
-               </seg>
-               <seg n="1.13" type="sentence">
-                  <seg xml:id="em-1-13-1" n="em 1.15" corresp="#es-1-13-1" type="single">Las más
-                     cercanas están desviadas veinticuatro mil pasos, mas ninguna se halla tan
-                     apartada una de otra, que en un día no pueda hacer jornada a ellas un
-                     peón.</seg>
-               </seg>
-               <seg n="1.14" type="sentence">
-                  <seg xml:id="em-1-14-1" n="em 1.16" corresp="#es-1-14-1" type="single">Tres
-                     ciudadanos expertos y ancianos de cada una destas ciudades todos los años
-                     concurren en Amauroto, la cual, por estar asentada en medio de la Isla, es a
-                     todos cómoda y tenida por principal y cabeza, donde tratan de la causa común y
-                     pública de toda la Utopía.</seg>
-               </seg>
-               <seg n="1.15" type="sentence">
-                  <seg xml:id="em-1-15-1" n="em 1.17" corresp="#es-1-15-1" type="single">Las
-                     ciudades no tienen de término pasados de veinte mil pasos en contorno, algunas
-                     más, conforme están desviadas y apartadas más o menos entre sí, ninguna dellas
-                     desea extender, o dilatar su distrito, juzgándose antes usufructuarios
-                     labradores de los campos que señores dellos.</seg>
-               </seg>
-               <seg n="1.16" type="sentence">
-                  <seg xml:id="em-1-16-1" n="em 1.18" corresp="#es-1-16-1" type="single">Tienen
-                     alquerías muy prevenidas de todos los instrumentos para la labor y agricultura;
-                     y a estos cortijos van a poblar los ciudadanos.</seg>
-               </seg>
-               <seg n="null" type="sentence">
-                  <seg xml:id="null" n="null" corresp="#es-1-16-1" type="null">.</seg>
-               </seg>
-               <seg n="1.17" type="sentence">
-                  <seg xml:id="em-1-17-1" n="em 1.19" corresp="#es-1-17-1" type="single">Ninguna
-                     familia rústica destas tiene menos de cuarenta personas, excepto dos hombres
-                     del campo.</seg>
-               </seg>
-               <seg n="1.18" type="sentence">
-                  <seg xml:id="em-1-18-1" n="em 1.20" corresp="#es-1-18-1" type="single">A todo este
-                     número se le señala padre y madre de familias, por edad y costumbres
-                     venerables, y a cada treinta cortijos se le propone cabeza.</seg>
-               </seg>
-               <seg n="1.19" type="sentence">
-                  <seg xml:id="em-1-19-1" n="em 1.21" corresp="#es-1-19-1" type="single">Vuelven a
-                     la ciudad en cada un año veinte de los de estas familias de los que han
-                     residido dos en las alquerías.</seg>
-               </seg>
-               <seg n="1.20" type="sentence">
-                  <seg xml:id="em-1-20-1" n="em 1.22" corresp="#es-1-20-1" type="single">Suceden a
-                     estos otros tantos de la ciudad para que sean ejercitados en la agricultura,
-                     por los que quedan expertos con la residencia de un año, y que el venidero
-                     enseñen a otros, a intento que no falte en todos la experiencia de la labranza, <app>
-                                    <lem>para</lem>
-                                    <rdg wit="1790">y</rdg>
-                                    <rdg wit="1805">y</rdg>
-                                </app> que al tiempo de recoger los frutos se hallen hábiles.</seg>
-               </seg>
-               <seg n="1.21" type="sentence">
-                  <seg xml:id="em-1-21-1" n="em 1.23" corresp="#es-1-21-1" type="single">Y aunque
-                     esta manera de renovar la agricultura se acostumbra, porque ninguno se halle
-                     obligado a continuar la vida rústica más tiempo, no por esto muchos que se
-                     deleitasen en la agricultura dejasen de estar allí más años.</seg>
-               </seg>
-               <seg n="1.22" type="sentence">
-                  <seg xml:id="em-1-22-1" n="em 1.24" corresp="#es-1-22-1" type="single">Los
-                     labradores cultivan el terreno, sustentan los animales, aperciben leña y la
-                     conducen a la ciudad por tierra o por mar, como les viene más a
-                     propósito.</seg>
-               </seg>
-               <seg n="1.23" type="sentence">
-                  <seg xml:id="em-1-23-1" n="em 1.25" corresp="#es-1-23-1" type="single">Sacan con
-                     admirable artificio una infinidad de pollos, porque sin empollar las gallinas
-                     con un calor proporcionado los dan vida y después los hombres los abrigan y
-                     gobiernan.</seg>
-               </seg>
-               <seg n="1.24" type="sentence">
-                  <seg xml:id="em-1-24-1" n="em 1.26" corresp="#es-1-24-1" type="single">Sustentan
-                     pocos caballos y feroces, de los cuales se sirven solamente en las empresas de
-                     guerra, porque las demás labores de cultivar y conducir las ejecutan con los
-                     bueyes, los cuales bien que sean más lentos que los caballos todavía en el
-                     ejercicio son más sufridos y menos sujetos a enfermedades fuera de que son de
-                     menos gasto y, cuando no se puede por la vejez usar dellos, se pueden
-                     comer.</seg>
-               </seg>
-               <seg n="1.25" type="sentence">
-                  <seg xml:id="em-1-25-1" n="em 1.27" corresp="#es-1-25-1" type="single">Siembran
-                     solamente trigo, beben vino de uvas y gastan sidra, o agua pura, o cocida con
-                     regaliz, de que tienen mucha abundancia.</seg>
-               </seg>
-               <seg n="1.26" type="sentence">
-                  <seg xml:id="em-1-26-1" n="em 1.28" corresp="#es-1-26-1" type="single">Y aunque
-                     tantean cuanta vitualla se consuma en la ciudad y el contorno, sin embargo,
-                     siembran más para dar a los vecinos.</seg>
-               </seg>
-               <seg n="1.27" type="sentence">
-                  <seg xml:id="em-1-27-1" n="em 1.29" corresp="#es-1-27-1" type="multisentence">Todo
-                     instrumento de la labranza se toma de la ciudad por mano del magistrado sin
-                     costa alguna, y muchos concurren todos los meses en los pueblos a las fiestas
-                     solemnes.</seg>
-                            <seg xml:id="em-1-27-2" n="em 1.30" corresp="#es-1-27-1" type="multisentence">
-                        Cuando es tiempo de segar los panes, los que gobiernan la labranza avisan a los
-                        magistrados cuanto número de ciudadanos deban enviar a la siega; y,
-                        concurriendo todos a un tiempo en día sereno, casi ponen en cobro todo el
-                        grano.</seg>
-               </seg>
-            </ab>
-            </div>   
+                  <seg n="1.1" type="singleSentence">
+                     <seg xml:id="em-1-01-1" n="em 1.1" corresp="#es-1-01-1">La Isla de los
+                        Utopienses en el medio se extiende a doscientos mil pasos, y por larguísimo
+                        espacio no se estrecha considerablemente; mas al fin de entre ambos cabos se
+                        va ensangostando, y estas puntas en circunferencia de cincuenta mil pasos
+                        dejan la Isla en forma de Luna nueva.</seg>
+                  </seg>
+                  <seg n="1.2" type="singleSentence">
+                     <seg xml:id="em-1-02-01" n="em 1.2" corresp="#es-1-02-1">Estas extremidades
+                        <pb n="1v"/>combatidas del mar se hallan distantes la una de la otra otros once mil y el
+                        mar defendido de los vientos.</seg>
+                  </seg>
+                  <seg n="1.3" type="singleSentence">
+                     <seg xml:id="em-1-03-1" n="em 1.3" corresp="#es-1-03-1">Entre estos brazos
+                        forma un apacible lago, dejando un puerto acomodado desde donde, por su
+                        oportunidad, envían sus flotas a otras provincias y países.</seg>
+                  </seg>
+                  <seg n="1.4" type="singleSentence">
+                     <seg xml:id="em-1-04-1" n="em 1.4" corresp="#es-1-04-1">Las gargantas de las
+                        entradas de la una parte con los bancos y bados y de la otra, con
+                        disimulados escollos, ponen espanto al que pretende entrar como
+                        enemigo.</seg>
+                  </seg>
+                  <seg n="1.5" type="singleSentence">
+                     <seg xml:id="em-1-05-1" n="em 1.5" corresp="#es-1-05-1">Casi en el medio de
+                        este espacio se ve otra roca no tan peligrosa, en cuya eminencia han
+                        fabricado un fuerte, donde tienen presidio.</seg>
+                  </seg>
+                  <seg n="1.6" type="multisentence">
+                     <seg xml:id="em-1-06-1" n="em 1.6" corresp="#es-1-06-1"> Hállanse otros muchos
+                        escollos ocultos, y por esto dañosos.</seg>
+                     <seg xml:id="em-1-06-2" n="em 1.7" corresp="#es-1-06-1"> Ellos solamente tienen
+                        conocimiento de aquellos canales de donde procede que raras veces el
+                        extranjero que no sea avisado de alguno de la Utopía pueda penetrallos, y
+                        cuando con afán entre sin riesgo, no gobernándose por ciertas guías puestas
+                        en la ribera, vendrá cualquier gran enemiga armada a dar al través.</seg>
+                  </seg>
+                  <seg n="1.7" type="singleSentence">
+                     <seg xml:id="em-1-07-1" n="em 1.8" corresp="#es-1-7-1">De la otra parte, hay un
+                        puerto bastantemente frecuentado y el desembarcadero fortificado por arte y
+                        naturaleza, de manera que poca gente de guerra pondrán en retirada y
+                        rebatirán el ímpetu de copioso ejército.</seg>
+                  </seg>
+                  <seg n="1.8" type="singleSentence">
+                     <seg xml:id="em-1-08-1" n="em 1.9" corresp="#es-1-8-1">Hay opinión (y la
+                        apariencia del lugar lo muestra) que aquella tierra en lo antiguo estaba
+                        rodeada del mar.</seg>
+                  </seg>
+                  <seg n="1.9" type="singleSentence">
+                     <seg xml:id="em-1-09-1" n="em 1.10" corresp="#es-1-9-1">Mas Utopo, de quien
+                        tomó nombre la Isla por haberla conquistado (porque primero se llamaba
+                        Abraxa), redujo aquella muche<pb n="2r"/>dumbre rústica y grosera a esta manera de vivir
+                        humana y civil, cual sigue todo el linaje de los hombres.</seg>
+                  </seg>
+                  <seg n="1.10" type="singleSentence">
+                     <seg xml:id="em-1-10-1" n="em 1.11" corresp="#es-1-10-1">Cortó un istmo de diez
+                        mil pasos por el cual estaba Utopía continente con la tierra firme, con que
+                        quedó hecha Isla.</seg>
+                  </seg>
+                  <seg n="1.11" type="multisentence">
+                     <seg xml:id="em-1-11-1" n="em 1.12" corresp="#es-1-11-1">Habiendo constreñido
+                        no solo a los moradores antiguos, mas también a sus soldados, por no causar
+                        afrenta a aquellos.</seg>
+                     <seg xml:id="em-1-11-2" n="em 1.13" corresp="#es-1-11-1"> Y con tanto número de
+                        operarios en brevísimo tiempo acabó el trabajo, dejando admirados los
+                        pueblos vecinos, que al principio del intento.</seg>
+                  </seg>
+                  <seg n="1.12" type="singleSentence">
+                     <seg xml:id="em-1-12-1" n="em 1.14" corresp="#es-1-12-1">Hay en esta Isla
+                        cincuenta y cuatro ciudades, conformes en lengua, institutos, y leyes, y
+                        casi a un modelo fabricadas, en cuanto el sitio lo permite.</seg>
+                  </seg>
+                  <seg n="1.13" type="singleSentence">
+                     <seg xml:id="em-1-13-1" n="em 1.15" corresp="#es-1-13-1">Las más cercanas están
+                        desviadas veinticuatro mil pasos, mas ninguna se halla tan apartada una de
+                        otra, que en un día no pueda hacer jornada a ellas un peón.</seg>
+                  </seg>
+                  <seg n="1.14" type="singleSentence">
+                     <seg xml:id="em-1-14-1" n="em 1.16" corresp="#es-1-14-1">Tres ciudadanos
+                        expertos y ancianos de cada una destas ciudades todos los años concurren en
+                        Amauroto, la cual, por estar asentada en medio de la Isla, es a todos cómoda
+                        y tenida por principal y cabeza, donde tratan de la causa común y pública de
+                        toda la Utopía.</seg>
+                  </seg>
+                  <seg n="1.15" type="multisentence">
+                     <seg xml:id="em-1-15-1" n="em 1.17" corresp="#es-1-15-1">Las ciudades no tienen
+                        de término pasados de veinte mil pasos en contorno, algunas más.</seg>
+                     <seg xml:id="em-1-15-2" n="em 1.18" corresp="#es-1-15-1">Conforme están
+                        desviadas y apartadas más o menos entre sí, ninguna dellas desea extender, o
+                        dilatar su distrito, juzgándose antes usufructuarios labradores de los
+                        campos que señores dellos.</seg>
+                  </seg>
+                  <seg n="1.16" type="singleSentence">
+                     <seg xml:id="em-1-16-1" n="em 1.19" corresp="#es-1-16-1">Tienen alquerías muy
+                        prevenidas <pb n="2v"/>de todos los instrumentos para la labor y agricultura; y a estos
+                        cortijos van a poblar los ciudadanos.</seg></seg>
+                  <seg n="1.17" type="singleSentence">
+                     <seg xml:id="em-1-17-1" n="em 1.20" corresp="#es-1-17-1">Ninguna familia
+                        rústica destas tiene menos de cuarenta personas, excepto dos hombres del
+                        campo.</seg>
+                  </seg>
+                  <seg n="1.18" type="singleSentence">
+                     <seg xml:id="em-1-18-1" n="em 1.21" corresp="#es-1-18-1">A todo este número se
+                        le señala padre y madre de familias, por edad y costumbres venerables, y a
+                        cada treinta cortijos se le propone cabeza.</seg>
+                  </seg>
+                  <seg n="1.19" type="singleSentence">
+                     <seg xml:id="em-1-19-1" n="em 1.22" corresp="#es-1-19-1">Vuelven a la ciudad en
+                        cada un año veinte de los de estas familias de los que han residido dos en
+                        las alquerías.</seg>
+                  </seg>
+                  <seg n="1.20" type="singleSentence">
+                     <seg xml:id="em-1-20-1" n="em 1.23" corresp="#es-1-20-1">Suceden a estos otros
+                        tantos de la ciudad para que sean ejercitados en la agricultura, por los que
+                        quedan expertos con la residencia de un año, y que el venidero enseñen a
+                        otros, a intento que no falte en todos la experiencia de la labranza, que al
+                        tiempo de recoger los frutos se hallen hábiles.</seg>
+                  </seg>
+                  <seg n="1.21" type="singleSentence">
+                     <seg xml:id="em-1-21-1" n="em 1.24" corresp="#es-1-21-1">Y aunque esta manera
+                        de renovar la agricultura se acostumbra, porque ninguno se halle obligado a
+                        continuar la vida rústica más tiempo, no por esto muchos que se deleitasen
+                        en la agricultura dejasen de estar allí más años.</seg>
+                  </seg>
+                  <seg n="1.22" type="singleSentence">
+                     <seg xml:id="em-1-22-1" n="em 1.25" corresp="#es-1-22-1">Los labradores
+                        cultivan el terreno, sustentan los animales, aperciben leña y la conducen a
+                        la ciudad por tierra o por mar, como les viene más a propósito.</seg>
+                  </seg>
+                  <seg n="1.23" type="singleSentence">
+                     <seg xml:id="em-1-23-1" n="em 1.26" corresp="#es-1-23-1">Sacan con admirable
+                        artificio una infinidad de pollos, porque sin empollar las gallinas con un
+                        calor proporcionado los dan vida y después los hombres los abrigan y
+                        gobiernan.</seg>
+                  </seg>
+                  <seg n="1.24" type="singleSentence">
+                     <seg xml:id="em-1-24-1" n="em 1.27" corresp="#es-1-24-1">Sustentan pocos
+                        caballos y feroces, de los cuales se sirven solamente en las empresas de
+                        <pb n="3r"/>guerra, porque las demás labores de cultivar y conducir las ejecutan con los
+                        bueyes, los cuales bien que sean más lentos que los caballos todavía en el
+                        ejercicio son más sufridos y menos sujetos a enfermedades fuera de que son
+                        de menos gasto y, cuando no se puede por la vejez usar dellos, se pueden
+                        comer.</seg>
+                  </seg>
+                  <seg n="1.25" type="singleSentence">
+                     <seg xml:id="em-1-25-1" n="em 1.28" corresp="#es-1-25-1">Siembran solamente
+                        trigo, beben vino de uvas y gastan sidra, o agua pura, o cocida con regaliz,
+                        de que tienen mucha abundancia.</seg>
+                  </seg>
+                  <seg n="1.26" type="singleSentence">
+                     <seg xml:id="em-1-26-1" n="em 1.29" corresp="#es-1-26-1">Y aunque tantean
+                        cuanta vitualla se consuma en la ciudad y el contorno, sin embargo, siembran
+                        más para dar a los vecinos.</seg>
+                  </seg>
+                  <seg n="1.27" type="multisentence">
+                     <seg xml:id="em-1-27-1" n="em 1.30" corresp="#es-1-27-1">Todo instrumento de la
+                        labranza se toma de la ciudad por mano del magistrado sin costa alguna, y
+                        muchos concurren todos los meses en los pueblos a las fiestas
+                        solemnes.</seg>
+                     <seg xml:id="em-1-27-2" n="em 1.31" corresp="#es-1-27-1">Cuando es tiempo de
+                        segar los panes, los que gobiernan la labranza avisan a los magistrados
+                        cuanto número de ciudadanos deban enviar a la siega; y, concurriendo todos a
+                        un tiempo en día sereno, casi ponen en cobro todo el grano.</seg>
+                  </seg>
+               </ab>
+            </div>
          </div>
          <div type="original" xml:lang="es">
-            <head type="title">Sermonis quem Raphael Hythlodaeus de optimo reipublicae statu habuit, liber secundus,
-               per Thomam Morum ciuem et uicecomitem londinensem.</head>
-            <div type="Chapter" n="1">
-            <ab>
-                        <seg n="1.1" type="sentence">
-                  <seg xml:id="la-1-01-1" n="la 1.1" corresp="#es-1-01-1" type="multisentence">Vtopiensium insula in media sui parte (nam hac latissima est) millia passuum
-                     ducenta porrigitur, magnumque per insulae spatium non multo angustior, fines
-                     uersus paulatim utrinque tenuatur.</seg>
-                            <seg xml:id="la-1-01-2" n="la 1.2" corresp="#es-1-01-1" type="multisentence"> hi
-                        uelut circunducti circino quingentorum ambitu millium, insulam totam in lunae
-                        speciem renascentis effigiant.</seg>
-               </seg>
-               <seg n="1.2" type="sentence">
-                  <seg xml:id="la-1-02-1" n="la 1.3" corresp="#es-1-02-1" type="partial">Cuius
-                     cornua fretum interfluens millibus passuum plus minus undecim dirimit, ac per
-                     ingens inane diffusum, circumiectu undique terrae prohibitis uentis, </seg>
-               </seg>
-               <seg n="1.3" type="sentence">
-                  <seg xml:id="la-1-03-1" n="la 1.3" corresp="#es-1-03-1" type="partial">uasti in
-                     morem lacus, stagnans magis quam saeuiens, omnem prope eius terrae aluum pro
-                     portu facit, magnoque hominum usu naues quaqua uersus transmittit.</seg>
-               </seg>
-               <seg n="1.4" type="sentence">
-                  <seg xml:id="la-1-04-1" n="la 1.4" corresp="#es-1-04-1" type="single">fauces hinc
-                     uadis inde saxis formidolosae.</seg>
-               </seg>
-               <seg n="1.5" type="sentence">
-                  <seg xml:id="la-1-05-1" n="la 1.5" corresp="#es-1-05-1" type="single">In medio
-                     ferme interstitio una rupes eminet, eoque innoxia, cui inaedificatam turrim
-                     praesidio tenent: caeterae latentes et insidiosae.</seg>
-               </seg>
-               <seg n="1.6" type="sentence">
-                  <seg xml:id="la-1-06-1" n="la 1.6" corresp="#es-1-06-1" type="multisentence">Canales solis ipsis noti; atque ideo non temere accidit ut exterus quisquam
-                     hunc in sinum, nisi Vtopiano duce, penetret; ut in quern uix ipsis tutus
-                     ingressus est, nisi signis quibusdam e litore uiam regentibus.</seg>
-                            <seg xml:id="la-1-06-2" n="la 1.7" corresp="#es-1-06-1" type="multisentence"> His
-                        in diuersa translatis loca, hostium quamlibet numerosam classem facile in
-                        pemiciem traherent.</seg>
-               </seg>
-               <seg n="1.7" type="sentence">
-                  <seg xml:id="la-1-07-1" n="la 1.8" corresp="#es-1-7-1" type="multisentence">Ab
-                     altera parte non infrequentes portus.</seg>
-                            <seg xml:id="la-1-07-2" n="la 1.9" corresp="#es-1-7-1" type="multisentence"> At
-                        ubique descensus in terram ita natura munitus, aut arte, ut ingentes copiae
-                        paucis inde queant propugnatoribus arceri.</seg>
-               </seg>
-               <seg n="1.8" type="sentence">
-                  <seg xml:id="la-1-08-1" n="la 1.10" corresp="#es-1-8-1" type="single">Caeterum,
-                     uti fertur, utique ipsa loci facies prae se fert, ea tellus olim non ambiebatur
-                     mari.</seg>
-               </seg>
-               <seg n="1.9" type="sentence">
-                  <seg xml:id="la-1-09-1" n="la 1.11" corresp="#es-1-9-1" type="partial">Sed Vtopus,
-                     cuius utpote uictoris nomen refert insula (nam ante id tempus Abraxa dicebatur)
-                     quique rudem atque agrestem turbam ad id, quo nunc caeteros prope mortales
-                     antecellit, cultus humanitatisque perduxit, </seg>
-               </seg>
-               <seg n="1.10" type="sentence">
-                  <seg xml:id="la-1-10-1" n="la 1.11" corresp="#es-1-10-1" type="single">primo
-                     protinus appulsu uictoria potitus, passuum milia quindecim, qua parte tellus
-                     continenti adhaesit, exscindendum curauit, ac mare circum terram duxit.</seg>
-               </seg>
-               <seg n="1.11" type="sentence">
-                  <seg xml:id="la-1-11-1" n="la 1.12" corresp="#es-1-11-1" type="single">Quumque ad
-                     id operis non incolas modo coegisset (ne contumeliae loco laborem ducerent) sed
-                     suos praeterea milites omnes adiungeret, in tantam hominuni multitudinem opere
-                     distributo, incredibili celeritate res perfecta; finitimosque (qui initio
-                     uanitatem incoepti riserant) admiratione successus ac terrore perculerit.</seg>
-               </seg>
-               <seg n="1.12" type="sentence">
-                  <seg xml:id="la-1-12-1" n="la 1.13" corresp="#es-1-12-1" type="multisentence">Insula ciuitates habet quatuor et quinquaginta, spatiosas omnes ac magnificas,
-                     lingua, moribus, institutis, legibus prorsus iisdem.</seg>
-                            <seg xml:id="la-1-12-2" n="la 1.14" corresp="#es-1-12-1" type="multisentence">
-                        idem situs omnium, eadem ubique quatenusper locum licet rerum facies.</seg>
-               </seg>
-               <seg n="1.13" type="sentence">
-                  <seg xml:id="la-1-13-1" n="la 1.15" corresp="#es-1-13-1" type="multisentence">Harum quae proximae inter sunt, millia quatuor ac uiginti separant.</seg>
-                            <seg xml:id="la-1-13-2" n="la 1.16" corresp="#es-1-13-1" type="multisentence">
-                        Nulla rursus est tam deserta, e qua non ad aliam urbem pedibus queat unius
-                        itinere diei perueniri.</seg>
-               </seg>
-               <seg n="1.14" type="sentence">
-                  <seg xml:id="la-1-14-1" n="la 1.17" corresp="#es-1-14-1" type="multisentence">Ciues quaque ex urbe terni senes ac rerum periti tractatum de rebus insulae
-                     communibus quotannis conueniunt Amaurotum.</seg>
-                            <seg xml:id="la-1-14-2" n="la 1.18" corresp="#es-1-14-1" type="multisentence"> Nam
-                        ea urbs (quod tanquam in umbilico terrae sita maxime iacet omnium partium
-                        legatis opportuna) prima princepsque habetur.</seg>
-               </seg>
-               <seg n="1.15" type="sentence">
-                  <seg xml:id="la-1-15-1" n="la 1.19" corresp="#es-1-15-1" type="multisentence">Agri
-                     ita commode ciuitatibus assignati sunt, ut ab nulla parte minus soli quam XX
-                     passuum millia una quaeuis habeat, ab aliqua multo etiam amplius; uidelicet qua
-                     parte longius urbes inter se disiunguntur.</seg>
-                            <seg xml:id="la-1-15-2" n="la 1.20" corresp="#es-1-15-1" type="multisentence">
-                        Nulli urbi cupido promouendorum finium.</seg>
-                            <seg xml:id="la-1-15-3" n="la 1.21" corresp="#es-1-15-1" type="multisentence">
-                           Quippe quos habent, agricolas magis eorum se, quam dominos, putant.</seg>
-               </seg>
-               <seg n="1.16" type="sentence">
-                  <seg xml:id="la-1-16-1" n="la 1.22" corresp="#es-1-16-1" type="multisentence">Habent ruri per omnes agros commode dispositas domos, rusticis instrumentis
-                     instructas.</seg>
-                            <seg xml:id="la-1-16-2" n="la 1.23" corresp="#es-1-16-1" type="multisentence"> Hae
-                        habitantur ciuibus per uices eo commigrantibus.</seg>
-               </seg>
-               <seg n="1.17" type="sentence">
-                  <seg xml:id="la-1-17-1" n="la 1.24" corresp="#es-1-17-1" type="partial">Nulla
-                     familia rustica in uiris mulieribusque pauciores habet quam quadraginta,
-                     praeter duos asscriptitios seruos, .</seg>
-               </seg>
-               <seg n="1.18" type="sentence">
-                  <seg xml:id="la-1-18-1" n="la 1.24" corresp="#es-1-18-1" type="partial">quibus
-                     pater materque familias graues ac maturi praeficiuntur; et singulis tricenis
-                     familiis philarchus unus.</seg>
-               </seg>
-               <seg n="1.19" type="sentence">
-                  <seg xml:id="la-1-19-1" n="la 1.25" corresp="#es-1-19-1" type="single">E quaque
-                     familia uiginti quotannis in urbem remigrant, hi qui biennium ruri
-                     compleuere.</seg>
-               </seg>
-               <seg n="1.20" type="sentence">
-                  <seg xml:id="la-1-20-1" n="la 1.26" corresp="#es-1-20-1" type="single">In horum
-                     locum totidem recentes ex urbe subrogantur, ut ab his qui annum ibi fuere,
-                     atque ideo rusticarum peritiores rerum, instituantur ; alios anno sequente
-                     docturi: ne, si pariter omnes ibi noui agricolationisque rudes essent, aliquid
-                     in annona per imperitiam peccaretur.</seg>
-               </seg>
-               <seg n="1.21" type="sentence">
-                  <seg xml:id="la-1-21-1" n="la 1.27" corresp="#es-1-21-1" type="single">Is
-                     innouandorum agricolarum mos etsi solemnis sit, n quisquam inuitus asperiorem
-                     uitam cogatur continuare diutius ; multi tamen, quos rusticae rei studium
-                     natura delectat, plures sibi annos impetrant.</seg>
-               </seg>
-               <seg n="1.22" type="sentence">
-                  <seg xml:id="la-1-22-1" n="la 1.28" corresp="#es-1-22-1" type="single">Agricolae
-                     terram colunt, nutriunt animalia, ligna comparant, atque in urbem qua commodum
-                     est terra mariue conuehunt.</seg>
-               </seg>
-               <seg n="1.23" type="sentence">
-                  <seg xml:id="la-1-23-1" n="la 1.29" corresp="#es-1-23-1" type="multisentence">Pullorum infinitam educant multitudinem, mirabili artificio.</seg>
-                            <seg xml:id="la-1-23-2" n="la 1.30" corresp="#es-1-23-1" type="multisentence">
-                        Neque enim incubant oua gallinae; sed magnum eorum numerum calore quodam
-                        aequabili fouentes animant educantque.</seg>
-                            <seg xml:id="la-1-23-3" n="la 1.31" corresp="#es-1-23-1" type="multisentence"> Hi
-                           simul atque e testa prodiere, homines uice matrum comitantur et
-                           agnoscunt.</seg>
-               </seg>
-               <seg n="1.24" type="sentence">
-                  <seg xml:id="la-1-24-1" n="la 1.32" corresp="#es-1-24-1" type="multisentence">Equos alunt perquam paucos, nee nisi ferocientes, neque alium in usum quam
-                     exercendae rebus equestribus iuuentuti.</seg>
-                            <seg xml:id="la-1-24-2" n="la 1.33" corresp="#es-1-24-1" type="multisentence"> Nam
-                        omnem seu colendi sed uehendi laborem boues obeunt; quos, ut fatentur equis
-                        impetu cedere, sic patientia uincere, nec tot obnoxios morbis putant; ad haec
-                        minore impendio et operae et sumptus ali, ac denique laboribus emeritos in
-                        cibum tandem usui esse.</seg>
-               </seg>
-               <seg n="1.25" type="sentence">
-                  <seg xml:id="la-1-25-1" n="la 1.34" corresp="#es-1-25-1" type="multisentence">Semente in solum panem utuntur.</seg>
-                            <seg xml:id="la-1-25-2" n="la 1.35" corresp="#es-1-25-1" type="multisentence"> Nam
-                        aut uuarum uinum bibunt, aut pomorum pirorumue, aut denique aquam nonnunquam
-                        meram; saepe etiam qua mel aut glycyrizam incoxerint, cuius baud exiguam habent
+            <head type="title">Sermonis quem Raphael Hythlodaeus de optimo reipublicae statu habuit,
+               liber secundus, per Thomam Morum ciuem et uicecomitem londinensem.</head>
+            <div type="chapter" n="1">
+               <head type="chapter"/>
+               <ab>
+                  <seg n="1.1" type="multisentence">
+                     <seg xml:id="la-1-01-1" n="la 1.1" corresp="#es-1-01-1"> Vtopiensium insula in
+                        media sui parte (nam hac latissima est) millia passuum ducenta porrigitur,
+                        magnumque per insulae spatium non multo angustior, fines uersus paulatim
+                        utrinque tenuatur.</seg>
+                     <seg xml:id="la-1-01-2" n="la 1.2" corresp="#es-1-01-1">hi uelut circunducti
+                        circino quingentorum ambitu millium, insulam totam in lunae speciem
+                        renascentis effigiant.</seg>
+                  </seg>
+                  <seg n="1.2" type="singleSentence">
+                     <seg xml:id="la-1-02-1" n="la 1.3" type="partial" part="I" next="#la-1-03-1"
+                        corresp="#es-1-02-1">Cuius cornua fretum interfluens millibus passuum plus
+                        minus undecim dirimit, ac per ingens inane diffusum, circumiectu undique
+                        terrae prohibitis uentis, </seg>
+                  </seg>
+                  <seg n="1.3" type="singleSentence">
+                     <seg xml:id="la-1-03-1" n="la 1.3" type="partial" part="F" prev="#la-1-02-1"
+                        corresp="#es-1-03-1">uasti in morem lacus, stagnans magis quam saeuiens,
+                        omnem prope eius terrae aluum pro portu facit, magnoque hominum usu naues
+                        quaqua uersus transmittit.</seg>
+                  </seg>
+                  <seg n="1.4" type="singleSentence">
+                     <seg xml:id="la-1-04-1" n="la 1.4" corresp="#es-1-04-1">fauces hinc uadis inde
+                        saxis formidolosae.</seg>
+                  </seg>
+                  <seg n="1.5" type="singleSentence">
+                     <seg xml:id="la-1-05-1" n="la 1.5" corresp="#es-1-05-1">In medio ferme
+                        interstitio una rupes eminet, eoque innoxia, cui inaedificatam turrim
+                        praesidio tenent: caeterae latentes et insidiosae.</seg>
+                  </seg>
+                  <seg n="1.6" type="multisentence">
+                     <seg xml:id="la-1-06-1" n="la 1.6" corresp="#es-1-06-1"> Canales solis ipsis
+                        noti; atque ideo non temere accidit ut exterus quisquam hunc in sinum, nisi
+                        Vtopiano duce, penetret; ut in quern uix ipsis tutus ingressus est, nisi
+                        signis quibusdam e litore uiam regentibus.</seg>
+                     <seg xml:id="la-1-06-2" n="la 1.7" corresp="#es-1-06-1"> His in diuersa
+                        translatis loca, hostium quamlibet numerosam classem facile in pemiciem
+                        traherent.</seg>
+                  </seg>
+                  <seg n="1.7" type="multisentence">
+                     <seg xml:id="la-1-07-1" n="la 1.8" corresp="#es-1-7-1">Ab altera parte non
+                        infrequentes portus.</seg>
+                     <seg xml:id="la-1-07-2" n="la 1.9" corresp="#es-1-7-1"> At ubique descensus in
+                        terram ita natura munitus, aut arte, ut ingentes copiae paucis inde queant
+                        propugnatoribus arceri.</seg>
+                  </seg>
+                  <seg n="1.8" type="singleSentence">
+                     <seg xml:id="la-1-08-1" n="la 1.10" corresp="#es-1-8-1">Caeterum, uti fertur,
+                        utique ipsa loci facies prae se fert, ea tellus olim non ambiebatur
+                        mari.</seg>
+                  </seg>
+                  <seg n="1.9" type="singleSentence">
+                     <seg xml:id="la-1-09-1" n="la 1.11" type="partial" part="I" next="#la-10-1"
+                        corresp="#es-1-9-1">Sed Vtopus, cuius utpote uictoris nomen refert insula
+                        (nam ante id tempus Abraxa dicebatur) quique rudem atque agrestem turbam ad
+                        id, quo nunc caeteros prope mortales antecellit, cultus humanitatisque
+                        perduxit, </seg>
+                  </seg>
+                  <seg n="1.10" type="singleSentence">
+                     <seg xml:id="la-1-10-1" n="la 1.11" type="partial" part="F" next="#la-09-1"
+                        corresp="#es-1-10-1">primo protinus appulsu uictoria potitus, passuum milia
+                        quindecim, qua parte tellus continenti adhaesit, exscindendum curauit, ac
+                        mare circum terram duxit.</seg>
+                  </seg>
+                  <seg n="1.11" type="singleSentence">
+                     <seg xml:id="la-1-11-1" n="la 1.12" corresp="#es-1-11-1">Quumque ad id operis
+                        non incolas modo coegisset (ne contumeliae loco laborem ducerent) sed suos
+                        praeterea milites omnes adiungeret, in tantam hominuni multitudinem opere
+                        distributo, incredibili celeritate res perfecta; finitimosque (qui initio
+                        uanitatem incoepti riserant) admiratione successus ac terrore
+                        perculerit.</seg>
+                  </seg>
+                  <seg n="1.12" type="multisentence">
+                     <seg xml:id="la-1-12-1" n="la 1.13" corresp="#es-1-12-1">Insula ciuitates habet
+                        quatuor et quinquaginta, spatiosas omnes ac magnificas, lingua, moribus,
+                        institutis, legibus prorsus iisdem.</seg>
+                     <seg xml:id="la-1-12-2" n="la 1.14" corresp="#es-1-12-1">idem situs omnium,
+                        eadem ubique quatenusper locum licet rerum facies.</seg>
+                  </seg>
+                  <seg n="1.13" type="multisentence">
+                     <seg xml:id="la-1-13-1" n="la 1.15" corresp="#es-1-13-1">Harum quae proximae
+                        inter sunt, millia quatuor ac uiginti separant.</seg>
+                     <seg xml:id="la-1-13-2" n="la 1.16" corresp="#es-1-13-1">Nulla rursus est tam
+                        deserta, e qua non ad aliam urbem pedibus queat unius itinere diei
+                        perueniri.</seg>
+                  </seg>
+                  <seg n="1.14" type="multisentence">
+                     <seg xml:id="la-1-14-1" n="la 1.17" corresp="#es-1-14-1">Ciues quaque ex urbe
+                        terni senes ac rerum periti tractatum de rebus insulae communibus quotannis
+                        conueniunt Amaurotum.</seg>
+                     <seg xml:id="la-1-14-2" n="la 1.18" corresp="#es-1-14-1">Nam ea urbs (quod
+                        tanquam in umbilico terrae sita maxime iacet omnium partium legatis
+                        opportuna) prima princepsque habetur.</seg>
+                  </seg>
+                  <seg n="1.15" type="multisentence">
+                     <seg xml:id="la-1-15-1" n="la 1.19" corresp="#es-1-15-1">Agri ita commode
+                        ciuitatibus assignati sunt, ut ab nulla parte minus soli quam XX passuum
+                        millia una quaeuis habeat, ab aliqua multo etiam amplius; uidelicet qua
+                        parte longius urbes inter se disiunguntur.</seg>
+                     <seg xml:id="la-1-15-2" n="la 1.20" corresp="#es-1-15-1">Nulli urbi cupido
+                        promouendorum finium.</seg>
+                     <seg xml:id="la-1-15-3" n="la 1.21" corresp="#es-1-15-1">Quippe quos habent,
+                        agricolas magis eorum se, quam dominos, putant.</seg>
+                  </seg>
+                  <seg n="1.16" type="multisentence">
+                     <seg xml:id="la-1-16-1" n="la 1.22" corresp="#es-1-16-1">Habent ruri per omnes
+                        agros commode dispositas domos, rusticis instrumentis instructas.</seg>
+                     <seg xml:id="la-1-16-2" n="la 1.23" corresp="#es-1-16-1">Hae habitantur ciuibus
+                        per uices eo commigrantibus.</seg>
+                  </seg>
+                  <seg n="1.17" type="singleSentence">
+                     <seg xml:id="la-1-17-1" n="la 1.24" type="partial" part="I" next="#la-1-18-1"
+                        corresp="#es-1-17-1">Nulla familia rustica in uiris mulieribusque pauciores
+                        habet quam quadraginta, praeter duos asscriptitios seruos, .</seg>
+                  </seg>
+                  <seg n="1.18" type="singleSentence">
+                     <seg xml:id="la-1-18-1" n="la 1.24" type="partial" part="F" prev="#la-1-17-1"
+                        corresp="#es-1-18-1">quibus pater materque familias graues ac maturi
+                        praeficiuntur; et singulis tricenis familiis philarchus unus.</seg>
+                  </seg>
+                  <seg n="1.19" type="singleSentence">
+                     <seg xml:id="la-1-19-1" n="la 1.25" corresp="#es-1-19-1">E quaque familia
+                        uiginti quotannis in urbem remigrant, hi qui biennium ruri compleuere.</seg>
+                  </seg>
+                  <seg n="1.20" type="singleSentence">
+                     <seg xml:id="la-1-20-1" n="la 1.26" corresp="#es-1-20-1">In horum locum totidem
+                        recentes ex urbe subrogantur, ut ab his qui annum ibi fuere, atque ideo
+                        rusticarum peritiores rerum, instituantur ; alios anno sequente docturi: ne,
+                        si pariter omnes ibi noui agricolationisque rudes essent, aliquid in annona
+                        per imperitiam peccaretur.</seg>
+                  </seg>
+                  <seg n="1.21" type="singleSentence">
+                     <seg xml:id="la-1-21-1" n="la 1.27" corresp="#es-1-21-1">Is innouandorum
+                        agricolarum mos etsi solemnis sit, n quisquam inuitus asperiorem uitam
+                        cogatur continuare diutius ; multi tamen, quos rusticae rei studium natura
+                        delectat, plures sibi annos impetrant.</seg>
+                  </seg>
+                  <seg n="1.22" type="singleSentence">
+                     <seg xml:id="la-1-22-1" n="la 1.28" corresp="#es-1-22-1"> Agricolae terram
+                        colunt, nutriunt animalia, ligna comparant, atque in urbem qua commodum est
+                        terra mariue conuehunt.</seg>
+                  </seg>
+                  <seg n="1.23" type="multisentence">
+                     <seg xml:id="la-1-23-1" n="la 1.29" corresp="#es-1-23-1"> Pullorum infinitam
+                        educant multitudinem, mirabili artificio.</seg>
+                     <seg xml:id="la-1-23-2" n="la 1.30" corresp="#es-1-23-1"> Neque enim incubant
+                        oua gallinae; sed magnum eorum numerum calore quodam aequabili fouentes
+                        animant educantque.</seg>
+                     <seg xml:id="la-1-23-3" n="la 1.31" corresp="#es-1-23-1"> Hi simul atque e
+                        testa prodiere, homines uice matrum comitantur et agnoscunt.</seg>
+                  </seg>
+                  <seg n="1.24" type="multisentence">
+                     <seg xml:id="la-1-24-1" n="la 1.32" corresp="#es-1-24-1"> Equos alunt perquam
+                        paucos, nee nisi ferocientes, neque alium in usum quam exercendae rebus
+                        equestribus iuuentuti.</seg>
+                     <seg xml:id="la-1-24-2" n="la 1.33" corresp="#es-1-24-1"> Nam omnem seu colendi
+                        sed uehendi laborem boues obeunt; quos, ut fatentur equis impetu cedere, sic
+                        patientia uincere, nec tot obnoxios morbis putant; ad haec minore impendio
+                        et operae et sumptus ali, ac denique laboribus emeritos in cibum tandem usui
+                        esse.</seg>
+                  </seg>
+                  <seg n="1.25" type="multisentence">
+                     <seg xml:id="la-1-25-1" n="la 1.34" corresp="#es-1-25-1"> Semente in solum
+                        panem utuntur.</seg>
+                     <seg xml:id="la-1-25-2" n="la 1.35" corresp="#es-1-25-1"> Nam aut uuarum uinum
+                        bibunt, aut pomorum pirorumue, aut denique aquam nonnunquam meram; saepe
+                        etiam qua mel aut glycyrizam incoxerint, cuius baud exiguam habent
                         copiam.</seg>
-               </seg>
-               <seg n="1.26" type="sentence">
-                  <seg xml:id="la-1-26-1" n="la 1.36" corresp="#es-1-26-1" type="single">Quum
-                     exploratum habeant (habent enim certissimum) quantum annonae consumat urbs, et
-                     circumiectus urbi conuentus, tamen multo amplius et sementis faciunt et pecudum
-                     educant, quam quod in -suos usus sufficiat, reliquum impartituri
-                     finitimis.</seg>
-               </seg>            
-               <seg n="1.27" type="sentence">
-                  <seg xml:id="la-1-27-1" n="la 1.37" corresp="#es-1-27-1" type="multisentence">Quibuscunque rebus opus est, quae res ruri non habentur, eam supellectilem
-                     omnem ab urbe petunt, et sine ulla rerum cemmutatione a magistratibus urbanis
-                     nullo negocio consequuntur.</seg>
-                  <seg xml:id="la-1-27-2" n="la 1.38" corresp="#es-1-27-1" type="multisentence"> Nam
-                     illo singulo quoque mense plerique ad festum diem conueniunt.</seg>
-               </seg>
-            </ab>
-            </div>   
+                  </seg>
+                  <seg n="1.26" type="singleSentence">
+                     <seg xml:id="la-1-26-1" n="la 1.36" corresp="#es-1-26-1">Quum exploratum
+                        habeant (habent enim certissimum) quantum annonae consumat urbs, et
+                        circumiectus urbi conuentus, tamen multo amplius et sementis faciunt et
+                        pecudum educant, quam quod in -suos usus sufficiat, reliquum impartituri
+                        finitimis.</seg>
+                  </seg>
+                  <seg n="1.27" type="multisentence">
+                     <seg xml:id="la-1-27-1" n="la 1.37" corresp="#es-1-27-1"> Quibuscunque rebus
+                        opus est, quae res ruri non habentur, eam supellectilem omnem ab urbe
+                        petunt, et sine ulla rerum cemmutatione a magistratibus urbanis nullo
+                        negocio consequuntur.</seg>
+                     <seg xml:id="la-1-27-2" n="la 1.38" corresp="#es-1-27-1">Nam illo singulo
+                        quoque mense plerique ad festum diem conueniunt.</seg>
+                     <seg xml:id="la-1-27-3" n="la 1.39" corresp="#es-1-27-1">Quum frumentandi dies
+                        instat, magistratibus urbanis agricolarum phylarchi denunciant, quantum
+                        ciuium numerum ad se mitti conueniat; quae multitudo frumentatorum, quum ad
+                        ipsum diem opportune adsit, uno prope sereno die tota frumentatione
+                        defungutur.</seg>
+                  </seg>
+               </ab>
+            </div>
          </div>
          <div type="translation" xml:lang="en">
-            <head type="title">The second Boke of the communication of Raphael
-               Hythlodaye, concernyng the best state of a common wealthe: conteynyng the discription of Vtopia, with a large declaration of the
-               Godly gouernement, and of all the good lawes and orders of the same Ilande.</head>
-            <div type="Chapter" n="1">
-            <ab>
-                        <seg n="1.1" type="sentence">
-                  <seg xml:id="en-1-01-1" n="en 1.1" corresp="#es-1-01-1" type="multisentence">The
-                     Ilande of Vtopia conteyneth in breadthe in the myddell part of it (for there it
-                     is brodest) CC miles.</seg>
-                            <seg xml:id="en-1-01-2" n="en 1.2" corresp="#es-1-01-1" type="multisentence">
-                        Whiche bredthe continueth through the moste parte of the lande, sauyng that by
-                        lytle and lytle it commeth in and waxeth narrower towardes both the
-                        endes.</seg>
-                            <seg xml:id="en-1-01-3" n="en 1.3" corresp="#es-1-01-1" type="multisentence">
-                           Whiche fetchynge about a circuite or compasse of vc myles, do fassion the hole
-                           Ilande lyke to the newe mone.</seg>
-               </seg>
-                  <seg n="1.2" type="sentence">
-                  <seg xml:id="en-1-02-1" n="en 1.4" corresp="#es-1-02-1" type="partial">Betwene
-                     thys two corners the sea runneth in, diuydyng them a sonder by the distaunce of
-                     xi miles or there aboutes, and there surmounteth into a large and wyde sea,
-                     which, by reason that the lande of euery syde compasseth it about, and
-                     shiltreth it from the windes,</seg>
-               </seg>
-                        <seg n="1.3" type="sentence">
-                  <seg xml:id="en-1-03-1" n="en 1.4" corresp="#es-1-03-1" type="partial"> is not
-                     rough nor mountith not with great waues, but almost floweth quietlye, not muche
-                     vnlike a great standing powle; and maketh almoste al the space within the
-                     bellye of the lande in maner of a hauen; and to the great commoditie of the
-                     lnhabitauntes receaueth in shyppes towardes euery parte of the lande.</seg>
-               </seg>
-                        <seg n="1.4" type="sentence">
-                  <seg xml:id="en-1-04-1" n="en 1.5" corresp="#es-1-04-1" type="single">The
-                     forefrontes or frontiers of the ii corners, what wythe fordys and shelues, and
-                     what with rockes, be very ieoperdous and daungerous.</seg>
-               </seg>
-                        <seg n="1.5" type="sentence">
-                  <seg xml:id="en-1-05-1" n="en 1.6" corresp="#es-1-05-1" type="multisentence">In
-                     the middel distaunce between them both standeth vp aboue the water a great
-                     rocke, which therfore is nothing perillous bicause it is in sight.</seg>
-               </seg>
-                        <seg n="null" type="sentence">
-                  <seg xml:id="en-1-05-2" n="en 1.7" corresp="#es-1-05-1" type="multisentence"> Vpon
-                     the top of this rocke is a faire and a strong towre builded, which thei holde
-                     with a garison of men.</seg>
-               </seg>
-                        <seg n="1.6" type="sentence">
-                  <seg xml:id="en-1-06-1" n="en 1.8" corresp="#es-1-06-1" type="multisentence">Other
-                     rockes ther be, that lye hidde vnder the water, and therefore be
-                     daungerous.</seg>
-                            <seg xml:id="en-1-06-2" n="en 1.9" corresp="#es-1-06-1" type="multisentence"> The
-                        channelles be knowen onely to themselfes.</seg>
-                            <seg xml:id="en-1-06-3" n="en 1.10" corresp="#es-1-06-1" type="multisentence"> An
-                           therfore it seldome chaunceth that any straunger, oneles he be guided by a
-                           Vtopian, can come in to this hauen.</seg>
-                            <seg xml:id="en-1-06-4" n="en 1.11" corresp="#es-1-06-1" type="multisentence"> In
-                              so muche that they themselfes could skaselie entre without ieoperdie, but that
-                              their way is directed and ruled by certaine lande markes standing on the
-                              shore.</seg>
-                            <seg xml:id="en-1-06-5" n="en 1.12" corresp="#es-1-06-1" type="multisentence"> By
-                                 turning, translatynge, and remouinge this markes into other places, they maye
-                                 destroye their enemies nauies, be thei neuer so many.</seg>
-               </seg>
-                        <seg n="1.7" type="sentence">
-                  <seg xml:id="en-1-07-1" n="en 1.13" corresp="#es-1-7-1" type="single">The out
-                     side of the lande is also full of hauens; but the landing is so surely
-                     defenced, what by nature and what by workmanshyp of mans hande, that a fewe
-                     defenders maye dryue backe many armies.</seg>
-               </seg>
-                        <seg n="1.8" type="sentence">
-                  <seg xml:id="en-1-08-1" n="en 1.14" corresp="#es-1-8-1" type="single">Howbeit, as
-                     they saye, and as the fassion of the place it selfe doth partely shewe, it was
-                     not euer compassed about with the sea.</seg>
-               </seg>
-                        <seg n="1.9" type="sentence">
-                  <seg xml:id="en-1-09-1" n="en 1.15" corresp="#es-1-9-1" type="partial">But kyng
-                     Vtopus, whose name as conquerour the Iland beereth (for before that tyme it
-                     was called Abraxa), which also brought the rude and wild people to that
-                     excellent perfection, in al good fassions, humanitie, and ciuile gentilnes,
-                     wherin they now go beyond al the people of the world; .</seg>
-               </seg>
-                        <seg n="1.10" type="sentence">
-                  <seg xml:id="en-1-10-1" n="en 1.15" corresp="#es-1-10-1" type="partial">euen at
-                     his first arriuinge and enteringe vpon the lande, furth with obteynynge the
-                     victory caused xv myles space of vplandyshe grounde, where the sea had no
-                     passage, to be cut and dygged vp; and so brought the sea rounde aboute the
-                     lande.</seg>
-               </seg>
-                        <seg n="1.11" type="sentence">
-                  <seg xml:id="en-1-11-1" n="en 1.16" corresp="#es-1-11-1" type="multisentence">He
-                     set to thys worke not only the inhabitauntes of the Ilande (because they should
-                     not thynke it done in contumelye and despyte), but also all hys owne
-                     soldiours.</seg>
-                            <seg xml:id="en-1-11-2" n="en 1.17" corresp="#es-1-11-1" type="multisentence">
-                        Thus the worke, beyng diuyded into so great a numbre of workemen, was with
-                        exceding maruelous spede dyspatched.</seg>
-                            <seg xml:id="en-1-11-3" n="en 1.18" corresp="#es-1-11-1" type="multisentence"> In
-                           so muche that the borderers, whiche at the fyrst began to mocke and to gieste
-                           at thys vayne enterpryse, then turned theyr laughter to marueyle at the
-                           successe, and to feare.</seg>
-               </seg>
-                        <seg n="1.12" type="sentence">
-                  <seg xml:id="en-1-12-1" n="en 1.19" corresp="#es-1-12-1" type="multisentence">There be in the Ilande liiii large and faire cities or shiere townes, agreyng
-                     all together in one tonge, in lyke maners, institucions, and lawes.</seg>
-                            <seg xml:id="en-1-12-2" n="en 1.20" corresp="#es-1-12-1" type="multisentence">
-                        They be all set and situate a lyke, and in all poyntes fashioned a lyke, as
-                        farfurth as the place or plotte suffereth.</seg>
-               </seg>
-                        <seg n="1.13" type="sentence">
-                  <seg xml:id="en-1-13-1" n="en 1.21" corresp="#es-1-13-1" type="multisentence">Of
-                     thies cyties they that be nighest together be xxiiii myles a sonder.</seg>
-                            <seg xml:id="en-1-13-2" n="en 1.22" corresp="#es-1-13-1" type="multisentence">
-                        Again there is none of them distaunt from the next aboue one dayes iorneye a
-                        fote.</seg>
-               </seg>
-                        <seg n="1.14" type="sentence">
-                  <seg xml:id="en-1-14-1" n="en 1.23" corresp="#es-1-14-1" type="multisentence">There cum yearly to Amaurote out of euery cytie iii olde men, wyse and well
-                     experienced, there to entreate and debate of the common matters of the
-                     lande.</seg>
-                            <seg xml:id="en-1-14-2" n="en 1.24" corresp="#es-1-14-1" type="multisentence"> For
-                        thys cytie (because it standeth iust in the myddes of the Ilande, and is
-                        therfore moste mete for the embassadours of all partes of the realme) is taken
-                        for the chiefe and head cytie.</seg>
-               </seg>
-                        <seg n="1.15" type="sentence">
-                  <seg xml:id="en-1-15-1" n="en 1.25" corresp="#es-1-15-1" type="multisentence">The
-                     precinctes and boundes of the shieres be so commodiously appoynted out, and set
-                     furth for the cyties, that neuer a one of them all hath of anye syde lesse then
-                     xx myles of grounde, and of som syde also muche more, as of that part where the
-                     cyties be of farther distaunce a sonder.</seg>
-                            <seg xml:id="en-1-15-2" n="en 1.26" corresp="#es-1-15-1" type="multisentence">
-                        None of the cities desire to enlarge the boundes and lymites of their
-                        shieres.</seg>
-                            <seg xml:id="en-1-15-3" n="en 1.27" corresp="#es-1-15-1" type="multisentence"> For
-                           they count them selfes rather the good husbandes, then the owners of their
-                           landes.</seg>
-               </seg>
-                        <seg n="1.16" type="sentence">
-                  <seg xml:id="en-1-16-1" n="en 1.28" corresp="#es-1-16-1" type="multisentence">They
-                     haue in the countrey in all partes of the shiere howses or fermes buylded, wel
-                     appointed and furnyshed with all sortes of instrumentes and tooles belongyng to
-                     husbandrie.</seg>
-                            <seg xml:id="en-1-16-2" n="en 1.29" corresp="#es-1-16-1" type="multisentence">
-                        Thies houses be inhabited of the cytezens, whiche cum thyther to dwel by
-                        course.</seg>
-               </seg>
-                        <seg n="1.17" type="sentence">
-                  <seg xml:id="en-1-17-1" n="en 1.30" corresp="#es-1-17-1" type="partial">No
-                     howsholde or ferme in the countrey hath fewer then xl persones, men and women,
-                     besydes two bonden men, .</seg>
-               </seg>
-                        <seg n="1.18" type="sentence">
-                  <seg xml:id="en-1-18-1" n="en 1.30" corresp="#es-1-18-1" type="partialmultisentence">whiche be all vnder the rule and order of the
-                     good man and the good wyfe of the house, beynge bothe very sage and discrete
-                     persones.</seg>
-                            <seg xml:id="en-1-18-2" n="en 1.31" corresp="#es-1-18-1" type="multisentence"> And
-                        euery xxx fermes or famelies haue one heade ruler, whiche is called a
-                        Phylarche, being as it were a hed baylyffe.</seg>
-               </seg>
-                        <seg n="1.19" type="sentence">
-                  <seg xml:id="en-1-19-1" n="en 1.32" corresp="#es-1-19-1" type="single">Out of
-                     euery one of thies famelies or fermes cummeth euery yeare into the cytie xx
-                     persones whiche haue contynewed ii yeres before in the countrey.</seg>
-               </seg>
-                        <seg n="1.20" type="sentence">
-                  <seg xml:id="en-1-20-1" n="en 1.33" corresp="#es-1-20-1" type="multisentence">In
-                     their place so manye freshe be sent thither out of the citie, whiche of them
-                     that haue bene there a yeare all ready, and be therfore expert and conninge in
-                     husbandry, shalbe instructed and taught; and they the next yeare shall teache
-                     other.</seg>
-                            <seg xml:id="en-1-20-2" n="en 1.34" corresp="#es-1-20-1" type="multisentence">
-                        This order is vsed, for feare that other skarsenes of victualles or some other
-                        like incommoditie shuld chaunce through lacke of knowledge, yf they should be
-                        al together newe and fresh and vnexperte in husbandrie.</seg>
-               </seg>
-                        <seg n="1.21" type="sentence">
-                  <seg xml:id="en-1-21-1" n="en 1.35" corresp="#es-1-21-1" type="single">This maner
-                     and fassion of yearlye chaunginge and renewinge the occupiers of husbandrie,
-                     though it be solempne and customablie vsed, to thintent that no man shall be
-                     constrayned against his wil to contynewe longe in that harde and sharpe kynde
-                     of lyfe, yet manye of them haue suche a pleasure and delete in husbandrye, that
-                     they obteyne a longer space of yeares.</seg>
-               </seg>
-                        <seg n="1.22" type="sentence">
-                  <seg xml:id="en-1-22-1" n="en 1.36" corresp="#es-1-22-1" type="single">Thies
-                     husbandmen plowe and till the grounde, and bryde vp cattell, and make readye
-                     woode, whiche they carrye to the cytie, other by lande or by water, as they
-                     maye moste conuenyently.</seg>
-               </seg>
-                        <seg n="1.23" type="sentence">
-                  <seg xml:id="en-1-23-1" n="en 1.37" corresp="#es-1-23-1" type="multisentence">They
-                     brynge vp a greate multytude of pulleyne, and that by a meruelous
-                     policie.</seg>
-                            <seg xml:id="en-1-23-2" n="en 1.38" corresp="#es-1-23-1" type="multisentence"> For
-                        the hennes doo not syt vpon the egges: but by kepynge them in a certayne equall
-                        heate, they brynge lyfe into them, and hatche them.</seg>
-                            <seg xml:id="en-1-23-3" n="en 1.39" corresp="#es-1-23-1" type="multisentence"> The
-                           chykens, assone as they be come owte of the shell, followe men and women in
-                           steade of the hennes.</seg>
-               </seg>
-                        <seg n="1.24" type="sentence">
-                  <seg xml:id="en-1-24-1" n="en 1.40" corresp="#es-1-24-1" type="multisentence">They
-                     bryng vp very fewe horses; nor non, but very fearce ones; and for none other
-                     vse or purpose, but only to exercyse their youthe in rydynge and feates of
-                     armes.</seg>
-                            <seg xml:id="en-1-24-2" n="en 1.41" corresp="#es-1-24-1" type="multisentence"> For
-                        oxen be put to all the labour of plowynge and drawyng.</seg>
-                            <seg xml:id="en-1-24-3" n="en 1.42" corresp="#es-1-24-1" type="multisentence">
-                           Whiche they graunte to be not so good as horses as sodeyne brunt, and (as we
-                           saye) at a dead lifte;  but yet they holde opinion, that oxen wyll abyde and
-                           suffre much more laboure and payne then horses wyl.</seg>
-                            <seg xml:id="en-1-24-4" n="en 1.43" corresp="#es-1-24-1" type="multisentence">And
-                              they thinke that they be not in daunger and subiecte vnto so manye dysseases,
-                              and that they bee kepte and maynteyned wyth muche lesse coste and charge; and
-                              fynally that they be good for meate when they be past labour.</seg>
-               </seg>
-                        <seg n="1.25" type="sentence">
-                  <seg xml:id="en-1-25-1" n="en 1.44" corresp="#es-1-25-1" type="multisentence">They
-                     sowe corne onlye for bread.</seg>
-                            <seg xml:id="en-1-25-2" n="en 1.45" corresp="#es-1-25-1" type="multisentence"> For
-                        their drynke is other wyne made of grapes, or els of apples or peares, or els
-                        it is cleane water; and many tymes methe made of honey or liqueresse sodde in
-                        water, for therof they haue great store.</seg>
-               </seg>
-                        <seg n="1.26" type="sentence">
-                  <seg xml:id="en-1-26-1" n="en 1.46" corresp="#es-1-26-1" type="multisentence">And
-                     though they knowe certeynlye (for they knowe it perfetly in dede), how much
-                     victayles the cytie with the hole countrey or shiere rounde a boute it dothe
-                     spende; yet they sowe much more corne, and bryed vp muche more cattell, then
-                     serueth for their own vse.</seg>
-                            <seg xml:id="en-1-26-2" n="en 1.47" corresp="#es-1-26-1" type="multisentence"> And
-                        the ouerplus they parte amonge their borderers.</seg>
-               </seg>
-                        <seg n="1.27" type="sentence">
-                  <seg xml:id="en-1-27-1" n="en 1.48" corresp="#es-1-27-1" type="multisentence">What
-                     soeuer necessary thynges be lackynge in the countrey, all suche stuffe they
-                     fetche out of the citie; where without anye exchaunge they easelye obteyne it
-                     of the magistrates of the citie.</seg>
-                            <seg xml:id="en-1-27-2" n="en 1.49" corresp="#es-1-27-1" type="multisentence"> For
-                        euerye moneth manye of them goo into the cytie on the hollye daye.</seg>
-                            <seg xml:id="en-1-27-3" n="en 1.50" corresp="#es-1-27-1" type="multisentence">
-                        When theyr haruest daye draweth nere and is at hande, then the Philarches,
-                        whiche be the hed officers and bayliffes of husbandrye, sende woorde to the
-                        magistrates of the citie, what numbre of haruest men is nedefull to bee sente
-                        to them out of the cytie.</seg>
-                            <seg xml:id="en-1-27-4" n="en 1.51" corresp="#es-1-27-1" type="multisentence"> The
-                        whiche companye of haruest men, beyng there readye at the daye appoynted,
-                        almoste in one fayre daye dispatcheth all the haruest woorke.</seg>                 
-               </seg>
-                    </ab>
-            </div>
-            <div type="notes">
-               <note n="1" xml:id="n-1" target="#note-1">Medinilla translates  "quingentorum" as "cincuenta" ("fifty") instead of "quinientos" ("five hundreds"). López Estrada already mentioned Medinilla's mistranslations of numbers (1965, 308).</note>
-               <note n="2" xml:id="n-2" target="#note-2">Medinilla translates the Latin word "praesidium" as "presidio". According to Covarrubias (1611, fol. 595v), this is the place where soldiers keep guard. In today's Spanish the meaning shifts to penitentiary institution.</note>
-               <note n="3" xml:id="n-3" target="#note-3">Medinilla seems to miss the agreement between the Latin adjective "infrequentes" and the fourth-declension noun "portus". That is why he translates it as "On the other side, there is a frequently visited port" instead of "On the other side, the port is frequently visited". Also, Thomas More indicates that some ports are fortified by nature ("natura") and other by works ("arte") and Medinilla, on the contrary, renders it as fortified by both ("por arte i naturaleza" (in English, "by art and nature").</note>
-               <note n="4" xml:id="n-4" target="#note-4">This is one of the examples where Medinilla uses the verb "haber" instead of "tener". Besides, the translator makes an incorrect translation of "ea tellus olim non ambiebatur mari". Medinilla opts for "aquella tierra en lo antiguo estaba rodeada del mar" instead of "esa tierra alguna vez no estuvo rodeada por el mar" ("that land was surrounded by the sea in ancient times" vs. "that land was not surrounded by the sea at some point".</note>
-               <note n="5" xml:id="n-5" target="#note-5">He translates "perduxit" into "redujo". The Latin word "perduco" means "conduct, guide", whereas the Spanish "reducir" implies some control or power, forcing. Darcy Kern agrees on this, commenting on the Tacitist influence of this decision (2024, 226).</note>
-               <note n="6" xml:id="n-6" target="#note-6">Medinilla does not translate "primo protinus appulsu uictoria potitus". It is likely that he find this information redundant with what has previously been said.</note>
-               <note n="7" xml:id="n-7" target="#note-7">Medinilla translates "ne contumeliae loco laboren ducerent" very freely and in a different sense: "por no causar afrenta a aquellos" (my translation: "so as not to make them feel dishonoured"): The English translation in Yale reads "to prevent them from thinking the labor a disgrace" (page 112 l. 15). Also, the translator misses the fear overtone at the end, presented in Latin as "terrore".</note>
-               <note n="8" xml:id="n-8" target="#note-8">Medinilla omits "spatiosas omnes ac magnificas". Also, he removes "moribus" from the list of elements.</note>
-               <note n="9" xml:id="n-9" target="#note-9">Medinilla introduces the word "peón" to refer to the person who walks certain distance on foot.  In fact, the Diccionario de Autoridades defines "peon" as "the person who walks or goes on foot". The Tesoro de la lengua introduces this entry and indicates "peón" also means "the person who works in the work to receive a daily wage" ["el que en las obras mercenarias trabaja por su jornal [...]"] (1611, fol. 584r).</note>
-               <note n="10" xml:id="n-10" target="#note-10">Medinilla does not translate "legatis", which appears as "ambassadors" in Robinson (ref.) and "representatives" in the Yale edition (112 l. 25).</note>
-               <note n="11" xml:id="n-11" target="#note-11">Medinilla translates "XX passuum millia" ("twenty") as "veinte", which means that he used a 1518 edition of Utopia. In the 1516 and 1517 editions the number is "duodecim" ("twelve").</note>
-               <note n="12" xml:id="n-12" target="#note-12">The terms Medinilla choses to translate "domos"  is "alquería y cortijos". "Alqueria" appears in the Tesoro de la lengua ["casa en el campo", tengo la definición en otro documento]]. However, according to the diccionario de Autoridades, "cortijo" was commonly used in areas of Castille and Andalusia [maybe that is why it is not present in the Tesoro de la Lengua]. Medinilla, following Jiménez Patón's theory, uses local words, which set the translation into a context. For further examples, see López Estrada (1965, page).</note>
-               <note n="13" xml:id="n-13" target="#note-13">The 1637 translation preserves the expression "familia rústica" for the Latin "familia rustica". Robinson opts for "howsholde or ferme in the countrey". Medinilla translates "praeter" as "except" ["excepto"]. This removes the sense of addition "praeter" conveys.</note>
-               <note n="14" xml:id="n-14" target="#note-14">Whereas Medinilla finds the Spanish word "cabeza" ["head"] for the Latin "philarchus", Robinson transfers the Latin word (originally in Greek φύλαρχος ) into English with "Phylarche". This is the first time, according to the OED, this word is used in this language. Hexter and Surtz comment on the ironic connection between the Greek terms φύλαρχος and φ́ιλαρχος, the first meaning "the head of a tribe" and the second, "fond of rule and power" (114/7 page 389).  The introduction of this neologism in Robinson's requests a explicative sentence later ("being as it were a hed baylyffe"), which does not appear in the original Latin.</note>
-               <note n="15" xml:id="n-15" target="#note-15">There is an ellipsis of the word "año" ("year") at the end the sentence.</note>
-               <note n="16" xml:id="n-16" target="#note-16">The translator does not keep the humorous idea that chickens follow men as if they were hens ("homines uice matrum comitantur et agnoscunt").</note>
-               <note n="17" xml:id="n-17" target="#note-17">Medinilla seems to summarize the content, omitting ideas like "tamen multo amplius et sementis faciunt et peducum educant" ("they produce far more grain and cattle than they require for their own use" (117 ll. 10-11)).</note>
-               <note n="18" xml:id="n-18" target="#note-18">Medinilla opts to render "urbs" once as "ciudad" (city) and "pueblo" (town) in this segment. It seems he establishes a difference between the city, which is the main town, and the rest of them. This could lead to confusion, as "pueblos" are today deemed as cities with smaller number of inhabitants and services available and, as seen in later examples, the translator generally uses "pueblo" to translate the Latin word "populus". There is another relevant example in Chapter VI. This displays a sense of locality and adjustment to the reality in Spain, maybe influenced after Jiménez Patón.</note>
-            </div>            
-         </div>    
+            <head type="title">The second Boke of the communication of Raphael Hythlodaye,
+               concernyng the best state of a common wealthe: conteynyng the discription of Vtopia,
+               with a large declaration of the Godly gouernement, and of all the good lawes and
+               orders of the same Ilande.</head>
+            <div type="chapter" n="1">
+               <head type="chapter"/>
+               <ab>
+                  <seg n="1.1" type="multisentence">
+                     <seg xml:id="en-1-01-1" n="en 1.1" corresp="#es-1-01-1"> The Ilande of Vtopia
+                        conteyneth in breadthe in the myddell part of it (for there it is brodest)
+                        CC miles.</seg>
+                     <seg xml:id="en-1-01-2" n="en 1.2" corresp="#es-1-01-1"> Whiche bredthe
+                        continueth through the moste parte of the lande, sauyng that by lytle and
+                        lytle it commeth in and waxeth narrower towardes both the endes.</seg>
+                     <seg xml:id="en-1-01-3" n="en 1.3" corresp="#es-1-01-1"> Whiche fetchynge about
+                        a circuite or compasse of vc myles, do fassion the hole Ilande lyke to the
+                        newe mone.</seg>
+                  </seg>
+                  <seg n="1.2" type="singleSentence">
+                     <seg xml:id="en-1-02-1" n="en 1.4" type="partial" part="I" next="#en-1-03-1"
+                        corresp="#es-1-02-1">Betwene thys two corners the sea runneth in, diuydyng
+                        them a sonder by the distaunce of xi miles or there aboutes, and there
+                        surmounteth into a large and wyde sea, which, by reason that the lande of
+                        euery syde compasseth it about, and shiltreth it from the windes,</seg>
+                  </seg>
+                  <seg n="1.3" type="singleSentence">
+                     <seg xml:id="en-1-03-1" n="en 1.4" type="partial" part="F" prev="#en-1-02-1"
+                        corresp="#es-1-03-1"> is not rough nor mountith not with great waues, but
+                        almost floweth quietlye, not muche vnlike a great standing powle; and maketh
+                        almoste al the space within the bellye of the lande in maner of a hauen; and
+                        to the great commoditie of the lnhabitauntes receaueth in shyppes towardes
+                        euery parte of the lande.</seg>
+                  </seg>
+                  <seg n="1.4" type="singleSentence">
+                     <seg xml:id="en-1-04-1" n="en 1.5" corresp="#es-1-04-1">The forefrontes or
+                        frontiers of the ii corners, what wythe fordys and shelues, and what with
+                        rockes, be very ieoperdous and daungerous.</seg>
+                  </seg>
+                  <seg n="1.5" type="multisentence">
+                     <seg xml:id="en-1-05-1" n="en 1.6" corresp="#es-1-05-1">In the middel distaunce
+                        between them both standeth vp aboue the water a great rocke, which therfore
+                        is nothing perillous bicause it is in sight.</seg>
+                     <seg xml:id="en-1-05-2" n="en 1.7" corresp="#es-1-05-1"> Vpon the top of this
+                        rocke is a faire and a strong towre builded, which thei holde with a garison
+                        of men.</seg>
+                  </seg>
+                  <seg n="1.6" type="multisentence">
+                     <seg xml:id="en-1-06-1" n="en 1.8" corresp="#es-1-06-1"> Other rockes ther be,
+                        that lye hidde vnder the water, and therefore be daungerous.</seg>
+                     <seg xml:id="en-1-06-2" n="en 1.9" corresp="#es-1-06-1"> The channelles be
+                        knowen onely to themselfes.</seg>
+                     <seg xml:id="en-1-06-3" n="en 1.10" corresp="#es-1-06-1"> An therfore it
+                        seldome chaunceth that any straunger, oneles he be guided by a Vtopian, can
+                        come in to this hauen.</seg>
+                     <seg xml:id="en-1-06-4" n="en 1.11" corresp="#es-1-06-1"> In so muche that they
+                        themselfes could skaselie entre without ieoperdie, but that their way is
+                        directed and ruled by certaine lande markes standing on the shore.</seg>
+                     <seg xml:id="en-1-06-5" n="en 1.12" corresp="#es-1-06-1"> By turning,
+                        translatynge, and remouinge this markes into other places, they maye
+                        destroye their enemies nauies, be thei neuer so many.</seg>
+                  </seg>
+                  <seg n="1.7" type="singleSentence">
+                     <seg xml:id="en-1-07-1" n="en 1.13" corresp="#es-1-7-1">The out side of the
+                        lande is also full of hauens; but the landing is so surely defenced, what by
+                        nature and what by workmanshyp of mans hande, that a fewe defenders maye
+                        dryue backe many armies.</seg>
+                  </seg>
+                  <seg n="1.8" type="singleSentence">
+                     <seg xml:id="en-1-08-1" n="en 1.14" corresp="#es-1-8-1">Howbeit, as they saye,
+                        and as the fassion of the place it selfe doth partely shewe, it was not euer
+                        compassed about with the sea.</seg>
+                  </seg>
+                  <seg n="1.9" type="singleSentence">
+                     <seg xml:id="en-1-09-1" n="en 1.15" type="partial" part="I" next="#en-1-10-1"
+                        corresp="#es-1-9-1">But kyng Vtopus, whose name as conquerour the Iland
+                        beereth (for before that tyme it was called Abraxa), which also brought the
+                        rude and wild people to that excellent perfection, in al good fassions,
+                        humanitie, and ciuile gentilnes, wherin they now go beyond al the people of
+                        the world; .</seg>
+                  </seg>
+                  <seg n="1.10" type="singleSentence">
+                     <seg xml:id="en-1-10-1" n="en 1.15" type="partial" part="F" prev="#en-1-09-1"
+                        corresp="#es-1-10-1">euen at his first arriuinge and enteringe vpon the
+                        lande, furth with obteynynge the victory caused xv myles space of vplandyshe
+                        grounde, where the sea had no passage, to be cut and dygged vp; and so
+                        brought the sea rounde aboute the lande.</seg>
+                  </seg>
+                  <seg n="1.11" type="multisentence">
+                     <seg xml:id="en-1-11-1" n="en 1.16" corresp="#es-1-11-1"> He set to thys worke
+                        not only the inhabitauntes of the Ilande (because they should not thynke it
+                        done in contumelye and despyte), but also all hys owne soldiours.</seg>
+                     <seg xml:id="en-1-11-2" n="en 1.17" corresp="#es-1-11-1"> Thus the worke, beyng
+                        diuyded into so great a numbre of workemen, was with exceding maruelous
+                        spede dyspatched.</seg>
+                     <seg xml:id="en-1-11-3" n="en 1.18" corresp="#es-1-11-1"> In so muche that the
+                        borderers, whiche at the fyrst began to mocke and to gieste at thys vayne
+                        enterpryse, then turned theyr laughter to marueyle at the successe, and to
+                        feare.</seg>
+                  </seg>
+                  <seg n="1.12" type="multisentence">
+                     <seg xml:id="en-1-12-1" n="en 1.19" corresp="#es-1-12-1"> There be in the
+                        Ilande liiii large and faire cities or shiere townes, agreyng all together
+                        in one tonge, in lyke maners, institucions, and lawes.</seg>
+                     <seg xml:id="en-1-12-2" n="en 1.20" corresp="#es-1-12-1"> They be all set and
+                        situate a lyke, and in all poyntes fashioned a lyke, as farfurth as the
+                        place or plotte suffereth.</seg>
+                  </seg>
+                  <seg n="1.13" type="multisentence">
+                     <seg xml:id="en-1-13-1" n="en 1.21" corresp="#es-1-13-1"> Of thies cyties they
+                        that be nighest together be xxiiii myles a sonder.</seg>
+                     <seg xml:id="en-1-13-2" n="en 1.22" corresp="#es-1-13-1"> Again there is none
+                        of them distaunt from the next aboue one dayes iorneye a fote.</seg>
+                  </seg>
+                  <seg n="1.14" type="multisentence">
+                     <seg xml:id="en-1-14-1" n="en 1.23" corresp="#es-1-14-1"> There cum yearly to
+                        Amaurote out of euery cytie iii olde men, wyse and well experienced, there
+                        to entreate and debate of the common matters of the lande.</seg>
+                     <seg xml:id="en-1-14-2" n="en 1.24" corresp="#es-1-14-1"> For thys cytie
+                        (because it standeth iust in the myddes of the Ilande, and is therfore moste
+                        mete for the embassadours of all partes of the realme) is taken for the
+                        chiefe and head cytie.</seg>
+                  </seg>
+                  <seg n="1.15" type="multisentence">
+                     <seg xml:id="en-1-15-1" n="en 1.25" corresp="#es-1-15-1"> The precinctes and
+                        boundes of the shieres be so commodiously appoynted out, and set furth for
+                        the cyties, that neuer a one of them all hath of anye syde lesse then xx
+                        myles of grounde, and of som syde also muche more, as of that part where the
+                        cyties be of farther distaunce a sonder.</seg>
+                     <seg xml:id="en-1-15-2" n="en 1.26" corresp="#es-1-15-1"> None of the cities
+                        desire to enlarge the boundes and lymites of their shieres.</seg>
+                     <seg xml:id="en-1-15-3" n="en 1.27" corresp="#es-1-15-1"> For they count them
+                        selfes rather the good husbandes, then the owners of their landes.</seg>
+                  </seg>
+                  <seg n="1.16" type="multisentence">
+                     <seg xml:id="en-1-16-1" n="en 1.28" corresp="#es-1-16-1"> They haue in the
+                        countrey in all partes of the shiere howses or fermes buylded, wel appointed
+                        and furnyshed with all sortes of instrumentes and tooles belongyng to
+                        husbandrie.</seg>
+                     <seg xml:id="en-1-16-2" n="en 1.29" corresp="#es-1-16-1"> Thies houses be
+                        inhabited of the cytezens, whiche cum thyther to dwel by course.</seg>
+                  </seg>
+                  <seg n="1.17" type="singleSentence">
+                     <seg xml:id="en-1-17-1" n="en 1.30" type="partial" part="I" next="#en-1-18-1"
+                        corresp="#es-1-17-1">No howsholde or ferme in the countrey hath fewer then
+                        xl persones, men and women, besydes two bonden men, .</seg>
+                  </seg>
+                  <seg n="1.18" type="multisentence">
+                     <seg xml:id="en-1-18-1" n="en 1.30" type="partial" part="F" prev="#en-1-17-1"
+                        corresp="#es-1-18-1"> whiche be all vnder the rule and order of the good man
+                        and the good wyfe of the house, beynge bothe very sage and discrete
+                        persones.</seg>
+                     <seg xml:id="en-1-18-2" n="en 1.31" corresp="#es-1-18-1"> And euery xxx fermes
+                        or famelies haue one heade ruler, whiche is called a Phylarche, being as it
+                        were a hed baylyffe.</seg>
+                  </seg>
+                  <seg n="1.19" type="singleSentence">
+                     <seg xml:id="en-1-19-1" n="en 1.32" corresp="#es-1-19-1">Out of euery one of
+                        thies famelies or fermes cummeth euery yeare into the cytie xx persones
+                        whiche haue contynewed ii yeres before in the countrey.</seg>
+                  </seg>
+                  <seg n="1.20" type="multisentence">
+                     <seg xml:id="en-1-20-1" n="en 1.33" corresp="#es-1-20-1"> In their place so
+                        manye freshe be sent thither out of the citie, whiche of them that haue bene
+                        there a yeare all ready, and be therfore expert and conninge in husbandry,
+                        shalbe instructed and taught; and they the next yeare shall teache
+                        other.</seg>
+                     <seg xml:id="en-1-20-2" n="en 1.34" corresp="#es-1-20-1"> This order is vsed,
+                        for feare that other skarsenes of victualles or some other like incommoditie
+                        shuld chaunce through lacke of knowledge, yf they should be al together newe
+                        and fresh and vnexperte in husbandrie.</seg>
+                  </seg>
+                  <seg n="1.21" type="singleSentence">
+                     <seg xml:id="en-1-21-1" n="en 1.35" corresp="#es-1-21-1">This maner and fassion
+                        of yearlye chaunginge and renewinge the occupiers of husbandrie, though it
+                        be solempne and customablie vsed, to thintent that no man shall be
+                        constrayned against his wil to contynewe longe in that harde and sharpe
+                        kynde of lyfe, yet manye of them haue suche a pleasure and delete in
+                        husbandrye, that they obteyne a longer space of yeares.</seg>
+                  </seg>
+                  <seg n="1.22" type="singleSentence">
+                     <seg xml:id="en-1-22-1" n="en 1.36" corresp="#es-1-22-1">Thies husbandmen plowe
+                        and till the grounde, and bryde vp cattell, and make readye woode, whiche
+                        they carrye to the cytie, other by lande or by water, as they maye moste
+                        conuenyently.</seg>
+                  </seg>
+                  <seg n="1.23" type="multisentence">
+                     <seg xml:id="en-1-23-1" n="en 1.37" corresp="#es-1-23-1"> They brynge vp a
+                        greate multytude of pulleyne, and that by a meruelous policie.</seg>
+                     <seg xml:id="en-1-23-2" n="en 1.38" corresp="#es-1-23-1"> For the hennes doo
+                        not syt vpon the egges: but by kepynge them in a certayne equall heate, they
+                        brynge lyfe into them, and hatche them.</seg>
+                     <seg xml:id="en-1-23-3" n="en 1.39" corresp="#es-1-23-1"> The chykens, assone
+                        as they be come owte of the shell, followe men and women in steade of the
+                        hennes.</seg>
+                  </seg>
+                  <seg n="1.24" type="multisentence">
+                     <seg xml:id="en-1-24-1" n="en 1.40" corresp="#es-1-24-1"> They bryng vp very
+                        fewe horses; nor non, but very fearce ones; and for none other vse or
+                        purpose, but only to exercyse their youthe in rydynge and feates of
+                        armes.</seg>
+                     <seg xml:id="en-1-24-2" n="en 1.41" corresp="#es-1-24-1"> For oxen be put to
+                        all the labour of plowynge and drawyng.</seg>
+                     <seg xml:id="en-1-24-3" n="en 1.42" corresp="#es-1-24-1"> Whiche they graunte
+                        to be not so good as horses as sodeyne brunt, and (as we saye) at a dead
+                        lifte;  but yet they holde opinion, that oxen wyll abyde and suffre much
+                        more laboure and payne then horses wyl.</seg>
+                     <seg xml:id="en-1-24-4" n="en 1.43" corresp="#es-1-24-1"> And they thinke that
+                        they be not in daunger and subiecte vnto so manye dysseases, and that they
+                        bee kepte and maynteyned wyth muche lesse coste and charge; and fynally that
+                        they be good for meate when they be past labour.</seg>
+                  </seg>
+                  <seg n="1.25" type="multisentence">
+                     <seg xml:id="en-1-25-1" n="en 1.44" corresp="#es-1-25-1"> They sowe corne onlye
+                        for bread.</seg>
+                     <seg xml:id="en-1-25-2" n="en 1.45" corresp="#es-1-25-1"> For their drynke is
+                        other wyne made of grapes, or els of apples or peares, or els it is cleane
+                        water; and many tymes methe made of honey or liqueresse sodde in water, for
+                        therof they haue great store.</seg>
+                  </seg>
+                  <seg n="1.26" type="multisentence">
+                     <seg xml:id="en-1-26-1" n="en 1.46" corresp="#es-1-26-1"> And though they knowe
+                        certeynlye (for they knowe it perfetly in dede), how much victayles the
+                        cytie with the hole countrey or shiere rounde a boute it dothe spende; yet
+                        they sowe much more corne, and bryed vp muche more cattell, then serueth for
+                        their own vse.</seg>
+                     <seg xml:id="en-1-26-2" n="en 1.47" corresp="#es-1-26-1"> And the ouerplus they
+                        parte amonge their borderers.</seg>
+                  </seg>
+                  <seg n="1.27" type="multisentence">
+                     <seg xml:id="en-1-27-1" n="en 1.48" corresp="#es-1-27-1"> What soeuer necessary
+                        thynges be lackynge in the countrey, all suche stuffe they fetche out of the
+                        citie; where without anye exchaunge they easelye obteyne it of the
+                        magistrates of the citie.</seg>
+                     <seg xml:id="en-1-27-2" n="en 1.49" corresp="#es-1-27-1"> For euerye moneth
+                        manye of them goo into the cytie on the hollye daye.</seg>
+                     <seg xml:id="en-1-27-3" n="en 1.50" corresp="#es-1-27-1"> When theyr haruest
+                        daye draweth nere and is at hande, then the Philarches, whiche be the hed
+                        officers and bayliffes of husbandrye, sende woorde to the magistrates of the
+                        citie, what numbre of haruest men is nedefull to bee sente to them out of
+                        the cytie.</seg>
+                     <seg xml:id="en-1-27-4" n="en 1.51" corresp="#es-1-27-1"> The whiche companye
+                        of haruest men, beyng there readye at the daye appoynted, almoste in one
+                        fayre daye dispatcheth all the haruest woorke.</seg>
+                  </seg>
+               </ab>
+            </div>        
+         </div>
+         <div type="notes">
+            <note n="1" xml:id="n-1-1" target="#note-1-1">Medinilla translates "quingentorum" as
+               "cincuenta" ("fifty") instead of "quinientos" ("five hundreds"). López Estrada
+               already mentioned Medinilla's mistranslations of numbers (1965, 308).</note>
+            <note n="2" xml:id="n-1-2" target="#note-1-2">Medinilla translates the Latin word
+               "praesidium" as "presidio". According to Covarrubias (1611, fol. 595v), this is the
+               place where soldiers keep guard. In today's Spanish the meaning shifts to
+               penitentiary institution.</note>
+            <note n="3" xml:id="n-1-3" target="#note-1-3">Medinilla seems to miss the agreement
+               between the Latin adjective "infrequentes" and the fourth-declension noun "portus".
+               That is why he translates it as "On the other side, there is a frequently visited
+               port" instead of "On the other side, the port is frequently visited". Also, Thomas
+               More indicates that some ports are fortified by nature ("natura") and other by works
+               ("arte") and Medinilla, on the contrary, renders it as fortified by both ("por arte i
+               naturaleza" (in English, "by art and nature").</note>
+            <note n="4" xml:id="n-1-4" target="#note-1-4">This is one of the examples where
+               Medinilla uses the verb "haber" instead of "tener". Besides, the translator makes an
+               incorrect translation of "ea tellus olim non ambiebatur mari". Medinilla opts for
+               "aquella tierra en lo antiguo estaba rodeada del mar" instead of "esa tierra alguna
+               vez no estuvo rodeada por el mar" ("that land was surrounded by the sea in ancient
+               times" vs. "that land was not surrounded by the sea at some point".</note>
+            <note n="5" xml:id="n-1-5" target="#note-1-5">He translates "perduxit" into "redujo".
+               The Latin word "perduco" means "conduct, guide", whereas the Spanish "reducir"
+               implies some control or power, forcing. Darcy Kern agrees on this, commenting on the
+               Tacitist influence of this decision (2024, 226).</note>
+            <note n="6" xml:id="n-1-6" target="#note-1-6">Medinilla does not translate "primo
+               protinus appulsu uictoria potitus". It is likely that he find this information
+               redundant with what has previously been said.</note>
+            <note n="7" xml:id="n-1-7" target="#note-1-7">Medinilla translates "ne contumeliae loco
+               laboren ducerent" very freely and in a different sense: "por no causar afrenta a
+               aquellos" (my translation: "so as not to make them feel dishonoured"): The English
+               translation in Yale reads "to prevent them from thinking the labor a disgrace" (page
+               112 l. 15). Also, the translator misses the fear overtone at the end, presented in
+               Latin as "terrore".</note>
+            <note n="8" xml:id="n-1-8" target="#note-1-8">Medinilla omits "spatiosas omnes ac
+               magnificas". Also, he removes "moribus" from the list of elements.</note>
+            <note n="9" xml:id="n-1-9" target="#note-1-9">Medinilla introduces the word "peón" to
+               refer to the person who walks certain distance on foot. In fact, the Diccionario de
+               Autoridades defines "peon" as "the person who walks or goes on foot". The Tesoro de
+               la lengua introduces this entry and indicates "peón" also means "the person who works
+               in the work to receive a daily wage" ["el que en las obras mercenarias trabaja por su
+               jornal [...]"] (1611, fol. 584r).</note>
+            <note n="10" xml:id="n-1-10" target="#note-1-10">Medinilla does not translate "legatis",
+               which appears as "ambassadors" in Robinson (ref.) and "representatives" in the Yale
+               edition (112 l. 25).</note>
+            <note n="11" xml:id="n-1-11" target="#note-1-11">Medinilla translates "XX passuum
+               millia" ("twenty") as "veinte", which means that he used a 1518 edition of Utopia. In
+               the 1516 and 1517 editions the number is "duodecim" ("twelve").</note>
+            <note n="12" xml:id="n-1-12" target="#note-1-12">The terms Medinilla choses to translate
+               "domos" is "alquería y cortijos". "Alqueria" appears in the Tesoro de la lengua
+               ["casa en el campo", tengo la definición en otro documento]]. However, according to
+               the diccionario de Autoridades, "cortijo" was commonly used in areas of Castille and
+               Andalusia [maybe that is why it is not present in the Tesoro de la Lengua].
+               Medinilla, following Jiménez Patón's theory, uses local words, which set the
+               translation into a context. For further examples, see López Estrada (1965,
+               page).</note>
+            <note n="13" xml:id="n-1-13" target="#note-1-13">The 1637 translation preserves the
+               expression "familia rústica" for the Latin "familia rustica". Robinson opts for
+               "howsholde or ferme in the countrey". Medinilla translates "praeter" as "except"
+               ["excepto"]. This removes the sense of addition "praeter" conveys.</note>
+            <note n="14" xml:id="n-1-14" target="#note-1-14">Whereas Medinilla finds the Spanish
+               word "cabeza" ["head"] for the Latin "philarchus", Robinson transfers the Latin word
+               (originally in Greek φύλαρχος ) into English with "Phylarche". This is the first
+               time, according to the OED, this word is used in this language. Hexter and Surtz
+               comment on the ironic connection between the Greek terms φύλαρχος and φ́ιλαρχος, the
+               first meaning "the head of a tribe" and the second, "fond of rule and power" (114/7
+               page 389). The introduction of this neologism in Robinson's requests a explicative
+               sentence later ("being as it were a hed baylyffe"), which does not appear in the
+               original Latin.</note>
+            <note n="15" xml:id="n-1-15" target="#note-1-15">There is an ellipsis of the word "año"
+               ("year") at the end the sentence.</note>
+            <note n="16" xml:id="n-1-16" target="#note-1-16">The translator does not keep the
+               humorous idea that chickens follow men as if they were hens ("homines uice matrum
+               comitantur et agnoscunt").</note>
+            <note n="17" xml:id="n-1-17" target="#note-1-17">Medinilla seems to summarize the
+               content, omitting ideas like "tamen multo amplius et sementis faciunt et peducum
+               educant" ("they produce far more grain and cattle than they require for their own
+               use" (117 ll. 10-11)).</note>
+            <note n="18" xml:id="n-1-18" target="#note-1-18">Medinilla opts to render "urbs" once as
+               "ciudad" (city) and "pueblo" (town) in this segment. It seems he establishes a
+               difference between the city, which is the main town, and the rest of them. This could
+               lead to confusion, as "pueblos" are today deemed as cities with smaller number of
+               inhabitants and services available and, as seen in later examples, the translator
+               generally uses "pueblo" to translate the Latin word "populus". There is another
+               relevant example in Chapter VI. This displays a sense of locality and adjustment to
+               the reality in Spain, maybe influenced after Jiménez Patón.</note>
+         </div>
       </body>
    </text>
 </TEI>

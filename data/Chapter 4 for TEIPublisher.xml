@@ -135,11 +135,13 @@
         <body>
             <div type="base" xml:lang="es">
                 <div type="chapter" n="4">
+                    <pb n="6r"/>
                     <head type="chapter">Ocupacion, Artes, i Exercicios. Cap. IIII.</head>
                     <ab>
                         <seg n="4.1" type="sentence">
                             <s xml:id="es-4-1-1" n="es 4.1">LA Agricultura es ocupaciõ comun a
-                                hembras, i varones, la qual ſaven i exercitan ſin diſtincion.</s>
+                                hembras, i varones, la qual ſaven i exercitan ſin diſtincion.<anchor
+                                    n="36" xml:id="note-4-1"/></s>
                         </seg>
                         <seg n="4.2" type="sentence">
                             <s xml:id="es-4-2-1" n="es 4.2">Enſeñanſela deſde ſu menor edad por
@@ -151,7 +153,7 @@
                             <s xml:id="es-4-3-1" n="es 4.3">Fuera de la Agricultura (que como he
                                 dicho es comun atodos ) cada qual inſtruido en algun otro oficio
                                 diſtinto, como labrar lana, lino, canteria, herreria, carpinteria, u
-                                otro arte de manos.</s>
+                                otro arte de manos.<anchor n="37" xml:id="note-4-2"/></s>
                         </seg>
                         <seg n="4.4" type="sentence">
                             <s xml:id="es-4-4-1" n="es 4.4">No ſe reconoce otro empleo mecanico, de
@@ -171,35 +173,46 @@
                         </seg>
                         <seg n="4.7" type="sentence">
                             <s xml:id="es-4-7-1" n="es 4.7">Pero de las demas artes cada vno, aſsi
-                                hembra, como varon, aprende el que le agrada a ſu eleccion.</s>
+                                hembra, como varon, aprende el que le agrada a ſu eleccion.<anchor
+                                    n="38" xml:id="note-4-3"/></s>
                         </seg>
                         <seg n="4.8" type="sentence">
                             <s xml:id="es-4-8-1" n="es 4.8">Las mugeres ſe exercitan en las de menor
                                 trabajo, labrando lana, i lino: i los varones ſe encargan de las de
-                                maior afan.</s>
+                                maior afan.<anchor n="39" xml:id="note-4-4"/></s>
                         </seg>
                         <seg n="4.9" type="sentence">
                             <s xml:id="es-4-9-1" n="es 4.9">Por la mayor parte el hijo ſigue la
-                                profeſsion del padre; porque caſi ſiempre a ella ſe inclinan por
-                                naturaleza: i ſi alguno tiene propenſion inclinada a otro oficio,
+                                profeſsion del padre; porque caſi ſiempre <app>
+                                    <lem>a ella ſe inclinan</lem>
+                                    <rdg wit="1790">se inclinan á ella</rdg>
+                                    <rdg wit="1805">se inclinan á ella</rdg>
+                                </app> por naturaleza: i ſi alguno tiene propenſion inclinada a otro oficio,
                                 paſſa por adopcion a la familia, que trata de aquel miniſterio, a
                                 que es inclinado.</s>
                         </seg>
                         <seg n="4.10" type="sentence">
                             <s xml:id="es-4-10-1" n="es 4.10">El cuidado deſta enſeñança, no
                                 ſolamẽte le encarga el padre natural, pero tambien interviene el
-                                Magiſtrado, dandolo a padre adoptivo, honeſto, i grave.</s>
+                                Magiſtrado, dandolo a padre adoptivo, honeſto, i grave.<anchor
+                                    n="40" xml:id="note-4-5"/></s>
                         </seg>
                         <seg n="4.11" type="sentence">
                             <s xml:id="es-4-11-1" n="es 4.11">Si alguno deſpues de aver ſalido bien
                                 inſtruido, i enſeñado en la profeſsiõ deſſea ſaber otra, ſe le
                                 permite; i enterado bien de entrambas exercita la que mas le agrada,
-                                ſi ya otra Ciudad no neceſsita de alguna de las que deja.</s>
+                                ſi ya otra <pb n="7r"/>Ciudad no neceſsita de alguna de las que
+                                deja.</s>
                         </seg>
                         <seg n="4.12" type="sentence">
                             <s xml:id="es-4-12-1" n="es 4.12">Eſta a cargo de los Magiſtrados
-                                Sifograntos cuidar, i reconocer, que no aya vagabundos, mas q̃ cada
-                                uno eſte cuidadoſamente ocupado en ſu miniſterio.</s>
+                                Sifograntos cuidar, i reconocer, que no aya vagabundos, <app>
+                                    <lem>mas q̃</lem>
+                                    <rdg wit="1790">sino que</rdg>
+                                    <rdg wit="1805">sino que</rdg>
+                                </app> cada
+                                uno eſte cuidadoſamente ocupado en ſu miniſterio.<anchor n="41"
+                                    xml:id="note-4-6"/></s>
                         </seg>
                         <seg n="4.13" type="sentence">
                             <s xml:id="es-4-13-1" n="es 4.13">No comiençan ſu labor mui de mañana,
@@ -207,7 +220,8 @@
                                 perpetua moleſtia, como las beſtias; porque es infelicidad mas que
                                 de eſclavos, la vida de los oficiales, que perpetuamente han de
                                 eſtar travajando, como travajan toda la vida fuera de Vtopia: donde
-                                dividen el dia, i la noche en veinte i quatro oras.</s>
+                                dividen el dia, i la noche en veinte i quatro oras.<anchor n="42"
+                                    xml:id="note-4-7"/></s>
                         </seg>
                         <seg n="4.14" type="sentence">
                             <s xml:id="es-4-14-1" n="es 4.14">Seis oras diputã para el travajo, tres
@@ -223,7 +237,7 @@
                         </seg>
                         <seg n="4.17" type="sentence">
                             <s xml:id="es-4-17-1" n="es 4.17">La primera ora de las veinte i quatro
-                                es la de medio dia.</s>
+                                es la de medio dia.<anchor n="43" xml:id="note-4-8"/></s>
                         </seg>
                         <seg n="4.18" type="sentence">
                             <s xml:id="es-4-18-1" n="es 4.18">A las ocho ſe retiran a dormir ocho
@@ -233,21 +247,31 @@
                             <s xml:id="es-4-19-1" n="es 4.19">En los intermedios de comer, cenar, i
                                 dormir, ſe les concede, que cada uno gaſte el tiempo en lo que
                                 tuviere guſto a ſu alvedrio; pero no de ſuerte, que le emplee mal en
-                                exceſos, ni holgazanerias: pero libre de ſu ocupaciõ ſe divierta en
+                                exceſos, ni holgazanerias: <app>
+                                    <lem>pero</lem>
+                                    <rdg wit="1790">sino que</rdg>
+                                    <rdg wit="1805">sino que</rdg>
+                                </app> libre de ſu ocupaciõ ſe divierta en
                                 algun exercicio virtuoſo a ſu elección.</s>
                         </seg>
                         <seg n="4.20" type="sentence">
                             <s xml:id="es-4-20-1" n="es 4.20">Eſtas oras previlegiadas, los mas las
-                                gaſtan en el eſtudio de letras; porque ſe acoſtumbra tener lecciones
+                                gaſtan en el eſtudio de <app>
+                                    <lem>letras</lem>
+                                    <rdg wit="1790">las letras</rdg>
+                                    <rdg wit="1805">las letras</rdg>
+                                </app>; porque ſe acoſtumbra tener lecciones
                                 publicas antes de amanecer, a las quales aſsiſten de neceſsidad
                                 ſolamente aquellos que eſtã ſeñalados, i elegidos para cuidado del
-                                eſtudio.</s>
+                                    eſtudio.<anchor n="44" xml:id="note-4-9"/></s>
                         </seg>
                         <seg n="4.21" type="sentence">
-                            <s xml:id="es-4-21-1" n="es 4.21">A demas deſtos, voluntariamente de
-                                todos eſtados, aſsi hombres, como mugeres concurren en numero grande
-                                a oir los Maeſtros, cada uno ſegun ſu aficion, i lo que
-                                profeſſan.</s>
+                            <s xml:id="es-4-21-1" n="es 4.21"><pb n="7v"/><app>
+                                <lem>A demas deſtos, voluntariamente de todos eſtados, aſsi hombres, como mugeres
+                                    concurren en numero grande a oir los Maeſtros</lem>
+                                <rdg wit="1790">Además de estos concurren voluntariamente de todos estados así hombres como mugeres á oír los Maestros</rdg>
+                                <rdg wit="1805">Además de estos concurren voluntariamente de todos estados así hombres como mugeres á oír los Maestros</rdg>
+                            </app>, cada uno ſegun ſu aficion, i lo que profeſſan.<anchor n="45" xml:id="note-4-10"/></s>
                         </seg>
                         <seg n="4.22" type="sentence">
                             <s xml:id="es-4-22-1" n="es 4.22">Eſte miſmo tiẽpo ſi alguno le quiere
@@ -259,24 +283,30 @@
                             <s xml:id="es-4-23-1" n="es 4.23">Deſpues de cena tienen una ora de
                                 entretenimiento, en el Verano en los Iardines; i en el Ivierno en
                                 las ſalas, en que comen todos: alli exercitan la muſica, o paſſan en
-                                converſaciõ.</s>
+                                    converſaciõ.<anchor n="46" xml:id="note-4-11"/></s>
                         </seg>
                         <seg n="4.24" type="sentence">
                             <s xml:id="es-4-24-1" n="es 4.24">Iuegos de dados, ni otros prohibidos,
-                                ni los tratan, ni los entienden.</s>
+                                ni los tratan, ni los entienden.<anchor n="47" xml:id="note-4-12"
+                                /></s>
                         </seg>
                         <seg n="4.25" type="sentence">
                             <s xml:id="es-4-25-1" n="es 4.25">Los que uſan ſon dos juegos, parecidos
-                                a los del axedrez.</s>
+                                a los del axedrez.<anchor n="48" xml:id="note-4-13"/></s>
                         </seg>
                         <seg n="4.26" type="sentence">
                             <s xml:id="es-4-26-1" n="es 4.26">El uno es una batalla de tãtos a
                                 tantos, en el qual los de una parte deſpojan i roban a los de la
-                                otra.</s>
+                                    otra.<anchor n="49" xml:id="note-4-14"/></s>
                         </seg>
                         <seg n="4.27" type="sentence">
-                            <s xml:id="es-4-27-1" n="es 4.27">El otro, en que formando un eſquadron,
-                                los vicios pelean contra las virtudes.</s>
+                            <s xml:id="es-4-27-1" n="es 4.27"><app>
+                                <lem>El otro</lem>
+                                <rdg wit="1790">y el otro</rdg>
+                                <rdg wit="1805">y el otro</rdg>
+                            </app>, en que formando un eſquadron,
+                                los vicios pelean contra las virtudes.<anchor n="50"
+                                    xml:id="note-4-15"/></s>
                         </seg>
                         <seg n="4.28" type="sentence">
                             <s xml:id="es-4-28-1" n="es 4.28">En el qual juego mueſtran
@@ -293,11 +323,15 @@
                         </seg>
                         <seg n="4.30" type="sentence">
                             <s xml:id="es-4-30-1" n="es 4.30">Pero porque en eſto no os dejeis
-                                llevar de algun engaño, es bien que lo advirtais con mas
+                                llevar de algun engaño, es bien que lo ad<pb n="8r"/>virtais con mas
                                 atencion.</s>
                         </seg>
                         <seg n="4.31" type="sentence">
-                            <s xml:id="es-4-31-1" n="es 4.31">Porque como ſon ſeis oras no mas las
+                            <s xml:id="es-4-31-1" n="es 4.31"><app>
+                                <lem>Porque</lem>
+                                <rdg wit="1790">pues</rdg>
+                                <rdg wit="1805">pues</rdg>
+                            </app> como ſon ſeis oras no mas las
                                 ſeñaladas para el travajo, ſera poſſible, que imagineis, que eſto
                                 venga a hazer falta en las coſas forçoſas.</s>
                         </seg>
@@ -305,31 +339,60 @@
                             <s xml:id="es-4-32-1" n="es 4.32">Lo qual eſta mui lejos de ſuceder;
                                 porque eſte tiempo no ſolo baſta, pero aun ſobra, para procurar la
                                 abundancia de todas las coſas neceſſarias para paſſar la vida, i
-                                para la commodidad de ella.</s>
+                                para la commodidad de ella.<anchor n="51" xml:id="note-4-16"/></s>
                         </seg>
                         <seg n="4.33" type="untranslated"/>
                         <seg n="4.34" type="sentence">
-                            <s xml:id="es-4-33-1" n="es 4.33">Primeramente, caſi todas las mugeres,
-                                que ſon la mitad del pueblo; i donde las hembras travajan, alli los
-                                hombres ſe dan al repoſo.</s>
+                            <s xml:id="es-4-33-1" n="es 4.33"><app>
+                                <lem>Primeramente</lem>
+                                <rdg wit="1790">En donde</rdg>
+                                <rdg wit="1805">En donde</rdg>
+                            </app>, caſi todas las mugeres,
+                                que ſon la mitad del pueblo<app>
+                                    <lem>; i donde las hembras travajan, alli</lem>
+                                    <rdg wit="1790">, trabajan, y</rdg>
+                                    <rdg wit="1805">, trabajan, y</rdg>
+                                </app> los hombres ſe dan al repoſo.<anchor n="52" xml:id="note-4-17"/></s>
                         </seg>
                         <seg n="4.35" type="sentence">
-                            <s xml:id="es-4-34-1" n="es 4.34">Demas deſto gran numero de Sacerdotes,
-                                i Religioſos, que no ſe ocupan en la manifaƈtura; a los quales ſe
-                                llegan los ricos Señores de heredamientos (a quienes el vulgo llama
-                                nobles, i cavalleros.)</s>
+                            <s xml:id="es-4-34-1" n="es 4.34"><app>
+                                <lem>Demas deſto</lem>
+                                <rdg wit="1790">igualmente</rdg>
+                                <rdg wit="1805">igualmente</rdg>
+                            </app> gran numero de Sacerdotes,
+                                i Religioſos, que no ſe ocupan en la <app>
+                                    <lem>manifactura; a los quales ſe llegan</lem>
+                                    <rdg wit="1790">manifactura, ni</rdg>
+                                    <rdg wit="1805">manufactura, ni</rdg>
+                                </app> los ricos Señores de heredamientos (a quienes el vulgo llama
+                                nobles, i cavalleros.)<anchor n="53" xml:id="note-4-18"/></s>
                         </seg>
                         <seg n="4.36" type="sentence">
-                            <s xml:id="es-4-35-1" n="es 4.35">Poned en eſta cuenta toda la caterba
-                                de los que ſirben a eſtos de eſpadachines, truhanes; i deſpues
+                            <s xml:id="es-4-35-1" n="es 4.35"><app>
+                                <lem>Poned</lem>
+                                <rdg wit="1790">incluyendose</rdg>
+                                <rdg wit="1805">incluyendose</rdg>
+                            </app> en eſta cuenta toda la caterba
+                                de los que ſirben a eſtos <app>
+                                    <lem>de eſpadachines</lem>
+                                    <rdg wit="1790">de espadachines</rdg>
+                                    <rdg wit="1805">espadachines</rdg>
+                                </app>, truhanes; i deſpues
                                 deſtos los mẽdigos, que tienen ſalud, i fingen alguna enfermedad,
                                 para ſu holgazaneria: hallareis con certeza, q̃ ſon muchos menos los
-                                q̃ ſe ocupan en el travajo de las coſas neceſſarias; i conſiderad
-                                biẽ como eſtos miſmos ſon mui pocos los q̃ tratan de lo preciſamẽte
-                                neceſſario.</s>
+                                q̃ ſe ocupan en el travajo de las coſas neceſſarias;<app>
+                                    <lem> i conſiderad biẽ como eſtos miſmos ſon mui pocos los q̃ tratan de lo preciſamẽte
+                                        neceſſario</lem>
+                                    <rdg wit="1790">y que de estos son muy pocos los que tratan de los precisamente necesario</rdg>
+                                    <rdg wit="1805">y que de estos son muy pocos los que tratan de los precisamente necesario</rdg>
+                                </app>.<anchor n="54" xml:id="note-4-19"/></s>
                         </seg>
                         <seg n="4.37" type="sentence">
-                            <s xml:id="es-4-36-1" n="es 4.36">Porq̃ dõde todo ſe compra por el
+                            <s xml:id="es-4-36-1" n="es 4.36"><app>
+                                <lem>Porq̃</lem>
+                                <rdg wit="1790">y</rdg>
+                                <rdg wit="1805">y</rdg>
+                            </app> dõde todo ſe compra por el
                                 dinero, es forçoſo, q̃ aya muchas artes totalmẽte vanas, i
                                 ſuperfluas, q̃ ſolo ſirven al antojo, i exceſo.</s>
                         </seg>
@@ -337,46 +400,68 @@
                             <s xml:id="es-4-37-1" n="es 4.37">Si eſlos pocos q̃ travajan ſe
                                 dividieran en tã pocas artes, quales ſolo sõ meneſteroſas a la vida
                                 humana, bajaran ſin duda los precios de las coſas: de manera, que
-                                los hombres alcançaran a vivir con cõmodidad.</s>
+                                los hombres alcançaran a vivir <pb n="8v"/>con cõmodidad.</s>
                         </seg>
                         <seg n="4.39" type="sentence">
-                            <s xml:id="es-4-38-1" n="es 4.38">I ſi advertis que todos eſtos que ſe
+                            <s xml:id="es-4-38-1" n="es 4.38">I ſi <app>
+                                <lem>advertis que todos eſtos</lem>
+                                <rdg wit="1790">los</rdg>
+                                <rdg wit="1805">los</rdg>
+                            </app> que ſe
                                 ocupan en artes inutiles, i la chuſma holgazana, q̃ paſſa en ocio, i
                                 flogedad, ſe ocuparã en obras de provecho para todos (de las quales
                                 qualquier artifice deſtas manifaƈturas, i holgazan q̃ ſe ſuſtenta
                                 con los trabajos de los otros, gaſtan tanto como dos oficiales de
                                 los utiles) aquel poco tiempo baſtara, i aun ſobrara para abundar de
                                 todas las coſas, que la neceſsidad de la vida, o la cõmodidad della
-                                pide, i aun tambien de los deleites verdaderos, i naturales: de lo
-                                qual la experiencia nos da verdadero teſtimonio en Vtopia: Porque
-                                alli en toda la Ciudad con ſus aldeas en contorno, apenas ſe les
+                                pide, i aun tambien de los deleites verdaderos, i naturales: <app>
+                                    <lem>de lo qual la experiencia</lem>
+                                    <rdg wit="1790">la experiencia</rdg>
+                                    <rdg wit="1805">la experiencia</rdg>
+                                </app> nos da verdadero teſtimonio en Vtopia: <app>
+                                    <lem>Porque alli</lem>
+                                    <rdg wit="1790">allí</rdg>
+                                    <rdg wit="1805">allí</rdg>
+                                </app> en toda la Ciudad con ſus aldeas en contorno, apenas ſe les
                                 permite holgar a quinientas perſonas, aſsi hombres, como mugeres,
                                 cuya fuerça, i edad es abil para el trabajo.</s>
                         </seg>
                         <seg n="4.40" type="sentence">
                             <s xml:id="es-4-39-1" n="es 4.39">Entre eſtos los Sifograntos (ſi bien
-                                las leyes los hazen exentos) no ſe eſcuſan del obraje, por convidar
-                                a los demas, con el exemplo, a que travajen.</s>
+                                las leyes los hazen exentos) no ſe eſcuſan del obraje, <app>
+                                    <lem>por convidar</lem>
+                                    <rdg wit="1790">para estimular</rdg>
+                                    <rdg wit="1805">para estimular</rdg>
+                                </app> a los demas, con el exemplo, a que travajen.</s>
                         </seg>
                         <seg n="4.41" type="sentence">
                             <s xml:id="es-4-40-1" n="es 4.40">Del miſmo previlegio gozan los
                                 eſtudiãtes, a quienes por acuerdo de los Sacerdotes el pueblo por
                                 votos ſecretos de los Magiſtrados les concede, que ſolo ſe ocupen en
-                                las buenas diciplinas, i artes.</s>
+                                las buenas diciplinas, i artes.<anchor n="55" xml:id="note-4-20"
+                                /></s>
                         </seg>
                         <seg n="4.42" type="sentence">
                             <s xml:id="es-4-41-1" n="es 4.41">De los quales, ſi alguno no
                                 correſponde a las eſperanças que del ſe tenia, le ſacan de los
                                 eſtudios a lo mecanico: i por el contrario ſucede muchas vezes, que
-                                el mecanico en aquellas oras ſobradas aya aprovechado tanto en las
-                                letras, que ſacandolo de aquel oficio, lo promueven al de los
+                                <app>
+                                    <lem>el mecanico</lem>
+                                    <rdg wit="1790">al mecánico</rdg>
+                                    <rdg wit="1805">al mecánico</rdg>
+                                </app> en aquellas oras ſobradas aya aprovechado <app>
+                                    <lem>tanto en las letras</lem>
+                                    <rdg wit="1790">en las letras</rdg>
+                                    <rdg wit="1805">en las letras</rdg>
+                                </app>, que ſacandolo de aquel oficio, lo promueven al de los
                                 eſtudios.</s>
                         </seg>
                         <seg n="4.43" type="sentence">
-                            <s xml:id="es-4-42-1" n="es 4.42">Deſtas claſes de los eſtudioſos ſalen
-                                los Embajadores, los Ecleſiaſticos, i los Magiſtrados, Traniboros, i
-                                el miſmo Principe; al qual en ſu lẽgua antigua llamã Barzanes, i en
-                                la moderna Ademo.</s>
+                            <s xml:id="es-4-42-1" n="es 4.42"><pb n="9r"/>Deſtas claſes de los
+                                eſtudioſos ſalen los Embajadores, los Ecleſiaſticos, i los
+                                Magiſtrados, Traniboros, i el miſmo Principe; al qual en ſu lẽgua
+                                antigua llamã Barzanes, i en la moderna Ademo.<anchor n="56"
+                                    xml:id="note-4-21"/></s>
                         </seg>
                         <seg n="4.44" type="sentence">
                             <s xml:id="es-4-43-1" n="es 4.43">La demas muchedumbre, que ſiempre
@@ -391,7 +476,11 @@
                         <seg n="4.46" type="sentence">
                             <s xml:id="es-4-45-1" n="es 4.45">Porque viniendo lo primero a la
                                 fabrica de algun edificio obra, o reparo del en otras partes, es
-                                neceſſario en la continuacion del travajo aya muchos: porque lo que
+                                neceſſario <app>
+                                    <lem>en la continuacion</lem>
+                                    <rdg wit="1790">que en la continuación</rdg>
+                                    <rdg wit="1805">que en la continuación</rdg>
+                                </app> del travajo aya muchos: porque lo que
                                 el padre edificò, el heredero prodigo, i ſin concierto, dejò por
                                 deſcuido, que poco a poco ſe arruinaſſe: de ſuerte que lo q̃ pudo
                                 repararſe, a poca coſta el ſuceſſor ſe halla deſpues obligado a
@@ -404,16 +493,25 @@
                         <seg n="4.47" type="sentence">
                             <s xml:id="es-4-46-1" n="es 4.46">Pero en Vtopia no paſſa aſsi, porque
                                 compueſtas, i ordenadas de una vez las caſas todas, i fundadas las
-                                Republicas raras vezes acontece, que ſe elija nuevo ſitio para
-                                fundar edificios; i no ſolo acuden al reparo cõ brevedad, de lo que
+                                Republicas <app>
+                                    <lem>raras vezes</lem>
+                                    <rdg wit="1790">rara vez</rdg>
+                                    <rdg wit="1805">rara vez</rdg>
+                                </app> acontece, que ſe elija nuevo ſitio para
+                                fundar edificios; i no ſolo acuden <app>
+                                    <lem>al reparo cõ brevedad</lem>
+                                    <rdg wit="1790">con brevedad al reparo</rdg>
+                                    <rdg wit="1805">con brevedad al reparo</rdg>
+                                </app>, de lo que
                                 ſe va cayendo, pero previenen en tiempo, a lo que amenaza ruina.</s>
                         </seg>
                         <seg n="4.48" type="sentence">
-                            <s xml:id="es-4-47-1" n="es 4.47">Por eſto ſucede, que con poco travajo,
-                                las fabricas duren mucho tiempo, i que los Maeſtros deſtas artes
-                                tengan poco en que entender, ſino es labrar con cepillos, i açuelas
-                                madera, i con pico, i eſcoda piedra, para que quando la neceſsidad
-                                lo pida, acudan con mas brevedad al reparo.</s>
+                            <s xml:id="es-4-47-1" n="es 4.47">Por eſto <pb n="9v"/>ſucede, que con
+                                poco travajo, las fabricas duren mucho tiempo, i que los Maeſtros
+                                deſtas artes tengan poco en que entender, ſino es labrar con
+                                cepillos, i açuelas madera, i con pico, i eſcoda piedra, para que
+                                quando la neceſsidad lo pida, acudan con mas brevedad al
+                                    reparo.<anchor n="57" xml:id="note-4-22"/></s>
                         </seg>
                         <seg n="4.49" type="sentence">
                             <s xml:id="es-4-48-1" n="es 4.48">En la obra de veſtidos, ya ſe ha
@@ -437,8 +535,12 @@
                                 aprecio, de que ſea mas, o menos delgado.</s>
                         </seg>
                         <seg n="4.53" type="sentence">
-                            <s xml:id="es-4-52-1" n="es 4.52">De aqui procede que lo que en otras
-                                partes no baſtã para uno ſolo cinco veſtidos de diverſos colores,
+                            <s xml:id="es-4-52-1" n="es 4.52">De aqui procede que <app>
+                                <lem>lo que en otras
+                                partes no baſtã</lem>
+                                <rdg wit="1790">no bastando</rdg>
+                                <rdg wit="1805">no bastando</rdg>
+                            </app> para uno ſolo cinco veſtidos de diverſos colores,
                                 unos de lana, i otros de ſeda: i a los mas aſſeados, ni aun diez,
                                 los Vtopianos eſtan mui contentos con uno, i les dura dos años,
                                 pareciendoles que no tienen cauſa para codiciar otros que los que
@@ -447,29 +549,37 @@
                         </seg>
                         <seg n="4.54" type="sentence">
                             <s xml:id="es-4-53-1" n="es 4.53">Por lo qual exercitandoſe todos en
-                                artes provechoſas, i los efeƈtos que dellas reſultã, aunque ſea
-                                menos, baſtan para lo neceſſario, con abundancia, de donde procede,
-                                que aviẽdola de todas las coſas, ſobra gente, i a las vezes ſacan
-                                mucha para el reparo de las calles, i caminos publicos, ſi ai
-                                algunos mal adereçados, que neceſſitan de reſtaurarſe: i muchas
-                                vezes aunque no aya neceſsidad de alguna obra, les ordenã que por
-                                algunas pocas de oras travajen en las publicas.</s>
+                                artes provechoſas, i los efeƈtos que dellas reſultã, <pb n="10r"
+                                />aunque ſea menos, baſtan para lo neceſſario, con abundancia, de
+                                donde procede, que aviẽdola de todas las coſas, ſobra gente, i a las
+                                vezes ſacan mucha para el reparo de las calles, i caminos publicos,
+                                ſi ai algunos mal adereçados, que neceſſitan de reſtaurarſe: <app>
+                                    <lem>i muchas vezes aunque</lem>
+                                    <rdg wit="1790">y aunque</rdg>
+                                    <rdg wit="1805">y aunque</rdg>
+                                </app> no aya neceſsidad de alguna obra, les ordenã que
+                                por algunas pocas de oras travajen en las publicas.</s>
                         </seg>
                         <seg n="4.55" type="sentence">
                             <s xml:id="es-4-54-1" n="es 4.54">Porque los Magiſtrados no ocupan a los
                                 Ciudadanos en travajos inutiles, i ſuperfluos, pues que la
                                 inſtitucion, i motivo deſta Republica principalmente atiende ſolo a
-                                eſte fin, a que ſatisfechas las neceſsidades publicas, en quanto
+                                eſte fin<app>
+                                    <lem>, a que</lem>
+                                    <rdg wit="1790"> de que,</rdg>
+                                    <rdg wit="1805"> de que,</rdg>
+                                </app> ſatisfechas las neceſsidades publicas, en quanto
                                 ellas dieren lugar, lo mas del tiempo que ſobra de los empleos
                                 ſerviles, ſe reduzga a que los Ciudadanos gozẽ de la libertad, i
                                 cõtemplaciõ del anima, por q̃ en eſto juzgã conſiſte la verdadera
-                                felicidad.</s>
+                                    felicidad.<anchor n="58" xml:id="note-4-23"/></s>
                         </seg>
                     </ab>
                 </div>
             </div>
             <div type="modernization" xml:lang="es">
                 <div type="chapter" n="4">
+                    <pb n="6r"/>
                     <head type="chapter">Ocupación, artes y ejercicios. Cap. IIII.</head>
                     <ab>
                         <seg n="4.1" type="singleSentence">
@@ -486,8 +596,8 @@
                         </seg>
                         <seg n="4.3" type="singleSentence">
                             <seg xml:id="em-4-3-1" n="em 4.3" corresp="#es-4-3-1">Fuera de la
-                                agricultura (que como he dicho es común a todos), cada cual
-                                instruido en algún otro oficio distinto como labrar lana, lino,
+                                agricultura (que como <pb n="6v"/>he dicho es común a todos), cada
+                                cual instruido en algún otro oficio distinto como labrar lana, lino,
                                 cantería, herrería, carpintería u otro arte de manos.</seg>
                         </seg>
                         <seg n="4.4" type="singleSentence">
@@ -536,8 +646,8 @@
                             <seg xml:id="em-4-11-1" n="em 4.13" corresp="#es-4-11-1">Si alguno
                                 después de haber salido bien instruido y enseñado en la profesión
                                 desea saber otra, se le permite; y, enterado bien de entrambas,
-                                ejercita la que más le agrada, si ya otra ciudad no necesita de
-                                alguna de las que deja.</seg>
+                                ejercita la que más le agrada, si ya otra <pb n="7r"/>ciudad no
+                                necesita de alguna de las que deja.</seg>
                         </seg>
                         <seg n="4.12" type="singleSentence">
                             <seg xml:id="em-4-12-1" n="em 4.14" corresp="#es-4-12-1">Está a cargo de
@@ -593,10 +703,10 @@
                                 señalados y elegidos para cuidado del estudio.</seg>
                         </seg>
                         <seg n="4.21" type="singleSentence">
-                            <seg xml:id="em-4-21-1" n="em 4.24" corresp="#es-4-21-1">Además de
-                                estos, voluntariamente de todos estados, así hombres como mujeres
-                                concurren en número grande a oír los maestros, cada uno según su
-                                afición y lo que profesan.</seg>
+                            <seg xml:id="em-4-21-1" n="em 4.24" corresp="#es-4-21-1"><pb n="7v"
+                                />Además de estos, voluntariamente de todos estados, así hombres
+                                como mujeres concurren en número grande a oír los maestros, cada uno
+                                según su afición y lo que profesan.</seg>
                         </seg>
                         <seg n="4.22" type="singleSentence">
                             <seg xml:id="em-4-22-1" n="em 4.25" corresp="#es-4-22-1">Este mismo
@@ -645,8 +755,8 @@
                         </seg>
                         <seg n="4.30" type="singleSentence">
                             <seg xml:id="em-4-30-1" n="em 4.34" corresp="#es-4-30-1">Pero, porque en
-                                esto no os dejéis llevar de algún engaño, es bien que lo advirtáis
-                                con más atención.</seg>
+                                esto no os dejéis llevar de algún engaño, es bien que lo ad<pb
+                                    n="8r"/>virtáis con más atención.</seg>
                         </seg>
                         <seg n="4.31" type="singleSentence">
                             <seg xml:id="em-4-31-1" n="em 4.35" type="partial" part="I"
@@ -655,7 +765,7 @@
                                 esto venga a hacer falta en las cosas forzosas, </seg>
                         </seg>
                         <seg n="4.32" type="singleSentence">
-                            <seg xml:id="em-4-32-1" n="em 4.36" type="partial" part="F"
+                            <seg xml:id="em-4-32-1" n="em 4.35" type="partial" part="F"
                                 prev="em-4-31-1" corresp="#es-4-32-1">lo cual está muy lejos de
                                 suceder porque este tiempo no solo basta, pero aún sobra para
                                 procurar la abundancia de todas las cosas necesarias para pasar la
@@ -663,18 +773,18 @@
                         </seg>
                         <seg n="4.33" type="untranslated"/>
                         <seg n="4.34" type="singleSentence">
-                            <seg xml:id="em-4-33-1" n="em 4.37" corresp="#es-4-33-1">Primeramente,
+                            <seg xml:id="em-4-33-1" n="em 4.36" corresp="#es-4-33-1">Primeramente,
                                 casi todas las mujeres, que son la mitad del pueblo, y donde las
                                 hembras trabajan, allí los hombres se dan al reposo.</seg>
                         </seg>
                         <seg n="4.35" type="singleSentence">
-                            <seg xml:id="em-4-34-1" n="em 4.38" corresp="#es-4-34-1">Además de esto,
+                            <seg xml:id="em-4-34-1" n="em 4.37" corresp="#es-4-34-1">Además de esto,
                                 gran número de sacerdotes y religiosos que no se ocupan en la
                                 manufactura, a los cuales se llegan los ricos señores de
                                 heredamientos (a quienes el vulgo llama nobles y caballeros).</seg>
                         </seg>
                         <seg n="4.36" type="singleSentence">
-                            <seg xml:id="em-4-35-1" n="em 4.39" corresp="#es-4-35-1">Poned en esta
+                            <seg xml:id="em-4-35-1" n="em 4.38" corresp="#es-4-35-1">Poned en esta
                                 cuenta toda la caterva de los que sirven a estos de espadachines,
                                 truhanes; y, después de estos, los mendigos que tienen salud y
                                 fingen alguna enfermedad para su holgazanería hallaréis con certeza
@@ -683,20 +793,20 @@
                                 tratan de los precisamente necesario.</seg>
                         </seg>
                         <seg n="4.37" type="singleSentence">
-                            <seg xml:id="em-4-36-1" n="em 4.40" corresp="#es-4-36-1">Porque donde
+                            <seg xml:id="em-4-36-1" n="em 4.39" corresp="#es-4-36-1">Porque donde
                                 todo se compra por el dinero, es forzoso que haya muchas artes
                                 totalmente vanas y superfluas que solo sirven al antojo y
                                 exceso.</seg>
                         </seg>
                         <seg n="4.38" type="singleSentence">
-                            <seg xml:id="em-4-37-1" n="em 4.41" corresp="#es-4-37-1">Si estos pocos
+                            <seg xml:id="em-4-37-1" n="em 4.40" corresp="#es-4-37-1">Si estos pocos
                                 que trabajan se dividieran en tan pocas artes, cuales solo son
                                 menesterosas a la vida humana bajaran sin duda los precios de las
-                                cosas de manera que los hombres alcanzaran a vivir con
+                                cosas de manera que los hombres alcanzaran a vivir <pb n="8v"/>con
                                 comodidad.</seg>
                         </seg>
                         <seg n="4.39" type="singleSentence">
-                            <seg xml:id="em-4-38-1" n="em 4.42" corresp="#es-4-38-1">Y si advertís
+                            <seg xml:id="em-4-38-1" n="em 4.41" corresp="#es-4-38-1">Y si advertís
                                 que todos estos que se ocupan en artes inútiles y la chusma
                                 holgazana, que pasa en ocio y flojedad, se ocuparan en obras de
                                 provecho para todos (de las cuales cualquier artífice de estas
@@ -711,58 +821,59 @@
                                 el trabajo.</seg>
                         </seg>
                         <seg n="4.40" type="singleSentence">
-                            <seg xml:id="em-4-39-1" n="em 4.43" corresp="#es-4-39-1">Entre estos,
+                            <seg xml:id="em-4-39-1" n="em 4.42" corresp="#es-4-39-1">Entre estos,
                                 los sifograntos (si bien las leyes los hacen exentos) no se escusan
                                 del obraje por convidar a los demás con el ejemplo a que
                                 trabajen.</seg>
                         </seg>
                         <seg n="4.41" type="singleSentence">
-                            <seg xml:id="em-4-40-1" n="em 4.44" corresp="#es-4-40-1">Del mismo
+                            <seg xml:id="em-4-40-1" n="em 4.43" corresp="#es-4-40-1">Del mismo
                                 privilegio gozan los estudiantes, a quienes por acuerdo de los
                                 sacerdotes el pueblo por votos secretos de los magistrados les
                                 concede que solo se ocupen en las buenas disciplinas y artes.</seg>
                         </seg>
                         <seg n="4.42" type="multisentence">
-                            <seg xml:id="em-4-41-1" n="em 4.45" corresp="#es-4-41-1">De los cuales,
+                            <seg xml:id="em-4-41-1" n="em 4.44" corresp="#es-4-41-1">De los cuales,
                                 si alguno no corresponde a las esperanzas que del se tenía, le sacan
                                 de los estudios a lo mecánico.</seg>
-                            <seg xml:id="em-4-41-2" n="em 4.46" corresp="#es-4-41-1">Y, por el
+                            <seg xml:id="em-4-41-2" n="em 4.45" corresp="#es-4-41-1">Y, por el
                                 contrario, sucede muchas veces que el mecánico en aquellas horas
                                 sobradas haya aprovechado tanto en las letras que, sacándolo de
                                 aquel oficio, lo promueven al de los estudios.</seg>
                         </seg>
                         <seg n="4.43" type="singleSentence">
-                            <seg xml:id="em-4-42-1" n="em 4.47" corresp="#es-4-42-1">De estas clases
-                                de los estudiosos salen los embajadores, los eclesiásticos y los
-                                magistrados, traniboros y el mismo príncipe, al cual en su lengua
-                                antigua llaman barzanes y en la moderna, ademo.</seg>
+                            <seg xml:id="em-4-42-1" n="em 4.46" corresp="#es-4-42-1"><pb n="9r"/>De
+                                estas clases de los estudiosos salen los embajadores, los
+                                eclesiásticos y los magistrados, traniboros y el mismo príncipe, al
+                                cual en su lengua antigua llaman barzanes y en la moderna,
+                                ademo.</seg>
                         </seg>
                         <seg n="4.44" type="singleSentence">
-                            <seg xml:id="em-4-43-1" n="em 4.48" corresp="#es-4-43-1">La demás
+                            <seg xml:id="em-4-43-1" n="em 4.47" corresp="#es-4-43-1">La demás
                                 muchedumbre, que siempre trabaja y está ocupada en artes útiles,
                                 fácil es de juzgar cuanto obran en pocas horas.</seg>
                         </seg>
                         <seg n="4.45" type="singleSentence">
-                            <seg xml:id="em-4-44-1" n="em 4.49" corresp="#es-4-44-1">Además de estas
+                            <seg xml:id="em-4-44-1" n="em 4.48" corresp="#es-4-44-1">Además de estas
                                 cosas que he referido, añade facilidad ver que en las artes usuales
                                 necesitan de menos trabajos que otras gentes.</seg>
                         </seg>
                         <seg n="4.46" type="multisentence">
-                            <seg xml:id="em-4-45-1" n="em 4.50" corresp="#es-4-45-1">Porque,
+                            <seg xml:id="em-4-45-1" n="em 4.49" corresp="#es-4-45-1">Porque,
                                 viniendo lo primero a la fábrica de algún edificio obra o reparo del
                                 en otras partes, es necesario en la continuación del trabajo haya
                                 muchos, porque lo que el padre edificó, el heredero prodigo y sin
                                 concierto dejó por descuido que poco a poco se arruinase, de suerte
                                 que lo que pudo repararse, a poca costa el sucesor se halla después
                                 obligado a edificar de nuevo.</seg><seg xml:id="em-4-45-2"
-                                n="em 4.51" corresp="#es-4-45-1"> Y aún ordinariamente la casa, que
+                                n="em 4.50" corresp="#es-4-45-1"> Y aún ordinariamente la casa, que
                                 el ponerla en pie al primer dueño le costó muy gran gasto, el otro,
                                 no cuidando de su reparo, por su ánimo descaecido la deja arruinar o
                                 por menosprecio en breve tiempo se allana por el suelo con que
                                 edifica otra en diferente parte, no a menor costa.</seg>
                         </seg>
                         <seg n="4.47" type="singleSentence">
-                            <seg xml:id="em-4-46-1" n="em 4.52" corresp="#es-4-46-1">Pero en Utopía
+                            <seg xml:id="em-4-46-1" n="em 4.51" corresp="#es-4-46-1">Pero en Utopía
                                 no pasa así porque, compuestas y ordenadas de una vez las casas
                                 todas y fundadas las repúblicas, raras veces acontece que se elija
                                 nuevo sitio para fundar edificios, y no solo acuden al reparo con
@@ -770,39 +881,39 @@
                                 amenaza ruina.</seg>
                         </seg>
                         <seg n="4.48" type="singleSentence">
-                            <seg xml:id="em-4-47-1" n="em 4.53" corresp="#es-4-47-1">Por esto sucede
-                                que, con poco trabajo, las fábricas duren mucho tiempo y que los
-                                maestros de estas artes tengan poco en que entender, si no es labrar
-                                con cepillos y azuelas madera y con pico y escoda piedra para que,
-                                cuando la necesidad lo pida, acudan con más brevedad al
-                                reparo.</seg>
+                            <seg xml:id="em-4-47-1" n="em 4.52" corresp="#es-4-47-1">Por esto <pb
+                                    n="9v"/>sucede que, con poco trabajo, las fábricas duren mucho
+                                tiempo y que los maestros de estas artes tengan poco en que
+                                entender, si no es labrar con cepillos y azuelas madera y con pico y
+                                escoda piedra para que, cuando la necesidad lo pida, acudan con más
+                                brevedad al reparo.</seg>
                         </seg>
                         <seg n="4.49" type="multisentence">
-                            <seg xml:id="em-4-48-1" n="em 4.54" corresp="#es-4-48-1">En la obra de
+                            <seg xml:id="em-4-48-1" n="em 4.53" corresp="#es-4-48-1">En la obra de
                                 vestidos ya se ha visto cuan poco tiempo han menester.</seg>
-                            <seg xml:id="em-4-48-2" n="em 4.55" corresp="#es-4-48-1">Lo primero,
+                            <seg xml:id="em-4-48-2" n="em 4.54" corresp="#es-4-48-1">Lo primero,
                                 porque cuando trabajan se visten, con poco aseo, de pieles de
                                 animales que duran siete años.</seg>
                         </seg>
                         <seg n="4.50" type="multisentence">
-                            <seg xml:id="em-4-49-1" n="em 4.56" corresp="#es-4-49-1">Cuando salen en
+                            <seg xml:id="em-4-49-1" n="em 4.55" corresp="#es-4-49-1">Cuando salen en
                                 público se ponen encima otra ropa que cubre aquellas groseras pieles
                                 y todas del color natural de la lana, sin artificio.</seg>
-                            <seg xml:id="em-4-49-2" n="em 4.57" corresp="#es-4-49-1"> Esto en toda
+                            <seg xml:id="em-4-49-2" n="em 4.56" corresp="#es-4-49-1"> Esto en toda
                                 la isla y aún del paño, así de lana, gastan mucho menos que en otras
                                 partes, y labrado a menor costa y el lino con menos trabajo.</seg>
                         </seg>
                         <seg n="4.51" type="singleSentence">
-                            <seg xml:id="em-4-50-1" n="em 4.58" corresp="#es-4-50-1">Este se gasta y
+                            <seg xml:id="em-4-50-1" n="em 4.57" corresp="#es-4-50-1">Este se gasta y
                                 usa más.</seg>
                         </seg>
                         <seg n="4.52" type="singleSentence">
-                            <seg xml:id="em-4-51-1" n="em 4.59" corresp="#es-4-51-1">En lo que se
+                            <seg xml:id="em-4-51-1" n="em 4.58" corresp="#es-4-51-1">En lo que se
                                 labra de lienzo, solo se procura la blancura; en lo que de lana, la
                                 limpieza, sin hacer aprecio de que sea más o menos delgado.</seg>
                         </seg>
                         <seg n="4.53" type="singleSentence">
-                            <seg xml:id="em-4-52-1" n="em 4.60" corresp="#es-4-52-1">De aquí procede
+                            <seg xml:id="em-4-52-1" n="em 4.59" corresp="#es-4-52-1">De aquí procede
                                 que lo que en otras partes no bastan para uno solo cinco vestidos de
                                 diversos colores, unos de lana y otros de seda, y a los más aseados,
                                 ni aun diez, los utopianos están muy contentos con uno y les dura
@@ -812,19 +923,19 @@
                                 curiosos.</seg>
                         </seg>
                         <seg n="4.54" type="multisentence">
-                            <seg xml:id="em-4-53-1" n="em 4.61" corresp="#es-4-53-1">Por lo cual,
+                            <seg xml:id="em-4-53-1" n="em 4.60" corresp="#es-4-53-1">Por lo cual,
                                 ejercitándose todos en artes provechosas y los efectos que de ellas
-                                resultan, aunque sea menos, bastan para lo necesario con abundancia,
-                                de donde procede que, habiéndola de todas las cosas, sobra gente y a
-                                las veces sacan mucha para el reparo de las calles y caminos
-                                públicos.</seg><seg xml:id="em-4-53-2" n="em 4.62"
+                                resultan, <pb n="10r"/>aunque sea menos, bastan para lo necesario
+                                con abundancia, de donde procede que, habiéndola de todas las cosas,
+                                sobra gente y a las veces sacan mucha para el reparo de las calles y
+                                caminos públicos.</seg><seg xml:id="em-4-53-2" n="em 4.61"
                                 corresp="#es-4-53-1"> Si hay algunos mal aderezados que necesitan de
                                 restaurarse y, muchas veces, aunque no haya necesidad de alguna
                                 obra, les ordenan que por algunas pocas de horas trabajen en las
                                 públicas.</seg>
                         </seg>
                         <seg n="4.55" type="singleSentence">
-                            <seg xml:id="em-4-54-1" n="em 4.63" corresp="#es-4-54-1">Porque los
+                            <seg xml:id="em-4-54-1" n="em 4.62" corresp="#es-4-54-1">Porque los
                                 magistrados no ocupan a los ciudadanos en trabajos inútiles y
                                 superfluos, pues que la institución y motivo de esta república
                                 principalmente atiende solo a este fin a que, satisfechas las
@@ -838,7 +949,7 @@
             </div>
             <div type="original" xml:lang="la">
                 <div type="chapter" n="4">
-                    <head type="chapter">De articifiis</head>
+                    <head type="chapter">De articifiis.</head>
                     <ab>
                         <seg n="4.1" type="singleSentence">
                             <seg xml:id="la-4-1-1" n="la 4.1" corresp="#es-4-1-1">ARs una est
@@ -852,20 +963,21 @@
                                 intuentes modo, sed per exercitandi corporis occasionem tractantes
                                 etiam.</seg>
                         </seg>
-                        <seg n="4.3" type="singleSentence">
+                        <seg n="4.3" type="multisentence">
                             <seg xml:id="la-4-3-1" n="la 4.3" corresp="#es-4-3-1">Praeter
                                 agriculturam (quae est omnibus, ut dixi, communis) quilibet unam
-                                quampiam, tanquam suam, docetur. ea est fere aut lanificium, aut
-                                operandi lini studium, aut cementariorum, aut fabri, seu ferrarii
-                                seu materiarii, artificium.</seg>
+                                quampiam, tanquam suam, docetur.</seg>
+                            <seg xml:id="la-4-3-2" n="la 4.4" corresp="#es-4-3-1">ea est fere aut
+                                lanificium, aut operandi lini studium, aut cementariorum, aut fabri,
+                                seu ferrarii seu materiarii, artificium.</seg>
                         </seg>
                         <seg n="4.4" type="singleSentence">
-                            <seg xml:id="la-4-4-1" n="la 4.4" corresp="#es-4-4-1">Neque enim aliud
+                            <seg xml:id="la-4-4-1" n="la 4.5" corresp="#es-4-4-1">Neque enim aliud
                                 est opificium ullum, quod numerum aliquem dictu dignum occupet
                                 illic.</seg>
                         </seg>
                         <seg n="4.5" type="singleSentence">
-                            <seg xml:id="la-4-5-1" n="la 4.5" type="partial" part="I"
+                            <seg xml:id="la-4-5-1" n="la 4.6" type="partial" part="I"
                                 next="#la-4-6-1" corresp="#es-4-5-1">Nam uestes, quarum, nisi quod
                                 habitu sexus discernitur, et caelibatus a coniugio, una per totam
                                 insulam forma est, eademque per omne aeuum perpetua, nec ad oculum
@@ -884,42 +996,47 @@
                         </seg>
                         <seg n="4.8" type="multisentence">
                             <seg xml:id="la-4-8-1" n="la 4.8" corresp="#es-4-8-1">Caeterum hae,
-                                uelut imbecil­liores, leuiora tractant.</seg><seg xml:id="la-4-8-2"
-                                n="la 4.9" corresp="#es-4-8-1"> lanam fere linumque operantur. uiris
-                                artes reliquae magis laboriosae mandantur.</seg>
+                                uelut imbecil­liores, leuiora tractant.</seg>
+                            <seg xml:id="la-4-8-2" n="la 4.9" corresp="#es-4-8-1">lanam fere
+                                linumque operantur.</seg>
+                            <seg xml:id="la-4-8-3" n="la 4.10" corresp="#es-4-8-1">uiris artes
+                                reliquae magis laboriosae mandantur.</seg>
                         </seg>
                         <seg n="4.9" type="multisentence">
-                            <seg xml:id="la-4-9-1" n="la 4.10" corresp="#es-4-9-1">maxima ex parte
+                            <seg xml:id="la-4-9-1" n="la 4.11" corresp="#es-4-9-1">maxima ex parte
                                 quisque in patriis artibus educator, nam eo plerique natura
-                                feruntur.</seg><seg xml:id="la-4-9-2" n="la 4.11" type="partial"
-                                part="I" next="#la-4-10-1" corresp="#es-4-9-1"> Quod si quem animus
-                                alio trahat, in eius opificii, cuius capitur studio, familiam
-                                quampiam adoptione traducitur, </seg>
+                                feruntur.</seg>
+                            <seg xml:id="la-4-9-2" n="la 4.12" type="partial" part="I"
+                                next="#la-4-10-1" corresp="#es-4-9-1"> Quod si quem animus alio
+                                trahat, in eius opificii, cuius capitur studio, familiam quampiam
+                                adoptione traducitur, </seg>
                         </seg>
                         <seg n="4.10" type="singleSentence">
-                            <seg xml:id="la-4-10-1" n="la 4.11" type="partial" part="F"
+                            <seg xml:id="la-4-10-1" n="la 4.12" type="partial" part="F"
                                 prev="#la-4-9-2" corresp="#es-4-10-1">cura non a patre modo eius,
                                 sed magistratibus etlam praestita, ut graui atque honesto
                                 patrifamilias mancipetur.</seg>
                         </seg>
-                        <seg n="4.11" type="singleSentence">
-                            <seg xml:id="la-4-11-1" n="la 4.12" corresp="#es-4-11-1">Quin si quis
+                        <seg n="4.11" type="multisentence">
+                            <seg xml:id="la-4-11-1" n="la 4.13" corresp="#es-4-11-1">Quin si quis
                                 unam perdoctus artem aliam praeterea cupiuerit, eodem modo
-                                permittitur. Vtramque nactus, utram uelit exercet, nisi alterutra
-                                ciuitas magis egeat.</seg>
+                                permittitur.</seg>
+                            <seg xml:id="la-4-11-2" n="la 4.14" corresp="#es-4-11-1">Vtramque
+                                nactus, utram uelit exercet, nisi alterutra ciuitas magis
+                                egeat.</seg>
                         </seg>
                         <seg n="4.12" type="singleSentence">
-                            <seg xml:id="la-4-12-1" n="la 4.13" type="partial" part="I"
+                            <seg xml:id="la-4-12-1" n="la 4.15" type="partial" part="I"
                                 next="#la-4-13-1" corresp="#es-4-12-1">Syphograntorum praecipuum ac
                                 prope unicum negocium est, curare ac prospicere ne quisquam desideat
                                 ociosus, </seg>
                         </seg>
                         <seg n="4.13" type="multisentence">
-                            <seg xml:id="la-4-13-1" n="la 4.14" type="partial" part="F"
+                            <seg xml:id="la-4-13-1" n="la 4.15" type="partial" part="F"
                                 prev="#la-4-12-1" corresp="#es-4-13-1">sed uti suae quisque arti
                                 sedulo incumbat, nec ab summo mane tamen, ad multum usque noctem
                                 perpetuo labore, uelut iumenta, fatigatus.</seg><seg
-                                xml:id="la-4-13-2" n="la 4.15" type="partial" part="I"
+                                xml:id="la-4-13-2" n="la 4.16" type="partial" part="I"
                                 next="#la-4-14-1" corresp="#es-4-13-1"> nam ea plusquam seruilis
                                 erumna est; quae tamen ubique fere opificium uita est, exceptis
                                 Vtopiensibus; qui cum in horas uiginti quatuor aequales diem
@@ -931,28 +1048,29 @@
                                 operi deputant; tres ante meridiem, a quibus prandium ineunt; </seg>
                         </seg>
                         <seg n="4.15" type="singleSentence">
-                            <seg xml:id="la-4-15-1" n="la 4.17" type="partial" part="M"
+                            <seg xml:id="la-4-15-1" n="la 4.16" type="partial" part="M"
                                 prev="#la-14-1" next="#la-4-16-1" corresp="#es-4-15-1">atque a
                                 prandio duas pomeridianas horas quum interquie­uerint, </seg>
                         </seg>
                         <seg n="4.16" type="singleSentence">
-                            <seg xml:id="la-4-16-1" n="la 4.18" type="partial" part="F"
+                            <seg xml:id="la-4-16-1" n="la 4.16" type="partial" part="F"
                                 prev="#la-4-15-1" corresp="#es-4-16-1">tres deinde rursus labori
                                 datas coena claudunt.</seg>
                         </seg>
                         <seg n="4.17" type="singleSentence">
-                            <seg xml:id="la-4-17-1" n="la 4.19" type="partial" part="I"
+                            <seg xml:id="la-4-17-1" n="la 4.17" type="partial" part="I"
                                 next="#la-4-18-1" corresp="#es-4-17-1">Quum primam horam ab meridie
                                 numerent,</seg>
                         </seg>
-                        <seg n="4.18" type="multisentence">
-                            <seg xml:id="la-4-18-1" n="la 4.20" type="partial" part="F"
+                        <seg n="4.18" type="singleSentence">
+                            <seg xml:id="la-4-18-1" n="la 4.17" type="partial" part="F"
                                 prev="#la-4-17-1" corresp="#es-4-18-1"> sub octauam cubitum
-                                eunt.</seg><seg xml:id="la-4-18-2" n="la 4.21" corresp="#es-4-18-1">
-                                    horas octo somnus uendicat.</seg>
+                                eunt.</seg>
+                            <seg xml:id="la-4-18-2" n="la 4.18" corresp="#es-4-18-1">horas octo
+                                somnus uendicat.</seg>
                         </seg>
                         <seg n="4.19" type="singleSentence">
-                            <seg xml:id="la-4-19-1" n="la 4.22" corresp="#es-4-19-1">Quicquid inter
+                            <seg xml:id="la-4-19-1" n="la 4.19" corresp="#es-4-19-1">Quicquid inter
                                 operis horas ac somni cibique medium esset, id suo cuiusque arbitrio
                                 permittitur; non quo per luxum aut segnitiem abutatur, sed quod ab
                                 opificio liberum ex animi sententia in aliud quippiam studii bene
@@ -960,40 +1078,42 @@
                         </seg>
                         <seg n="4.20" type="multisentence">
                             <seg xml:id="la-4-20-1" n="la 4.20" corresp="#es-4-20-1">has
-                                intercapedines plerique impendunt literis. Solenne est enim publicas
-                                cotidie lectiones haberi antelucanis boris, quibus ut intersint ii
-                                dumtaxat adiguntur, qui ad literas nominatim selecti sunt.</seg>
+                                intercapedines plerique impendunt literis.</seg>
+                            <seg xml:id="la-4-20-2" n="la 4.21" corresp="#es-4-20-1">Solenne est
+                                enim publicas cotidie lectiones haberi antelucanis boris, quibus ut
+                                intersint ii dumtaxat adiguntur, qui ad literas nominatim selecti
+                                sunt.</seg>
                         </seg>
                         <seg n="4.21" type="singleSentence">
-                            <seg xml:id="la-4-21-1" n="la 4.21" corresp="#es-4-21-1">Caeterum ex
+                            <seg xml:id="la-4-21-1" n="la 4.22" corresp="#es-4-21-1">Caeterum ex
                                 omni ordine mares simul ac foeminae, multitudo maxima, ad audiendas
                                 lectiones, alii alias, prout cuiusque fert natura, confluit.</seg>
                         </seg>
                         <seg n="4.22" type="singleSentence">
-                            <seg xml:id="la-4-22-1" n="la 4.22" corresp="#es-4-22-1">Hoc ipsum
+                            <seg xml:id="la-4-22-1" n="la 4.23" corresp="#es-4-22-1">Hoc ipsum
                                 tempus tamen, si quis arti suae malit insumere, quod multis usu
                                 uenit (quorum animus in nullius contem­platione disciplinae
                                 consurgit) haud prohibetur: quin laudatur quoque, ut utilis
                                 reipublicae.</seg>
                         </seg>
                         <seg n="4.23" type="multisentence">
-                            <seg xml:id="la-4-23-1" n="la 4.23" corresp="#es-4-23-1">Super coenam
+                            <seg xml:id="la-4-23-1" n="la 4.24" corresp="#es-4-23-1">Super coenam
                                 tum unam horam ludendo producunt, aestate in hortis, hyeme in aulis
-                                illis communibus, in quibus comedunt.</seg><seg xml:id="la-4-23-2"
-                                    n="la 4.23" corresp="#es-4-23-1"> Ibi aut musicen exercent, aut se
-                                    sermone recreant.</seg>
+                                illis communibus, in quibus comedunt.</seg>
+                            <seg xml:id="la-4-23-2" n="la 4.25" corresp="#es-4-23-1"> Ibi aut
+                                musicen exercent, aut se sermone recreant.</seg>
                         </seg>
                         <seg n="4.24" type="singleSentence">
-                            <seg xml:id="la-4-24-1" n="la 4.24" corresp="#es-4-24-1">Aleam atque id
+                            <seg xml:id="la-4-24-1" n="la 4.26" corresp="#es-4-24-1">Aleam atque id
                                 genus ineptos ac perniciosos ludos ne cognoscunt quidem.</seg>
                         </seg>
                         <seg n="4.25" type="singleSentence">
-                            <seg xml:id="la-4-25-1" n="la 4.25" type="partial" part="I"
+                            <seg xml:id="la-4-25-1" n="la 4.27" type="partial" part="I"
                                 next="#la-4-26-1" corresp="#es-4-25-1">caeterum duos habent in usu
                                 ludos, latrunculorum ludo non dissimiles: </seg>
                         </seg>
                         <seg n="4.26" type="singleSentence">
-                            <seg xml:id="la-4-26-1" n="la 4.26" type="partial" part="M"
+                            <seg xml:id="la-4-26-1" n="la 4.27" type="partial" part="M"
                                 prev="#la-25-1" next="#la-4-27-1" corresp="#es-4-26-1">alterum,
                                 numerorum pugnam, in qua numerus numerum praedatur: </seg>
                         </seg>
@@ -1012,40 +1132,40 @@
                                 quibus artibus eorum conatus eludant, </seg>
                         </seg>
                         <seg n="4.29" type="singleSentence">
-                            <seg xml:id="la-4-29-1" n="la 4.29" type="partial" part="F"
+                            <seg xml:id="la-4-29-1" n="la 4.28" type="partial" part="F"
                                 prev="#la-28-1" corresp="#es-4-29-1">quibus denique modis alterutra
                                 pars uictoriae compos fiat.</seg>
                         </seg>
                         <seg n="4.30" type="singleSentence">
-                            <seg xml:id="la-4-30-1" n="la 4.30" corresp="#es-4-30-1">Sed hoc loco,
+                            <seg xml:id="la-4-30-1" n="la 4.29" corresp="#es-4-30-1">Sed hoc loco,
                                 ne quid erretis, quiddam pressius intuendum est.</seg>
                         </seg>
                         <seg n="4.31" type="singleSentence">
-                            <seg xml:id="la-4-31-1" n="la 4.31" corresp="#es-4-31-1">Etenim quod sex
+                            <seg xml:id="la-4-31-1" n="la 4.30" corresp="#es-4-31-1">Etenim quod sex
                                 dumtaxat horas in opere sunt, fieri fortasse potest ut inopiam
                                 aliquam putes necessariarum rerum sequi.</seg>
                         </seg>
                         <seg n="4.32" type="singleSentence">
-                            <seg xml:id="la-4-32-1" n="la 4.32" type="partial" part="I"
+                            <seg xml:id="la-4-32-1" n="la 4.31" type="partial" part="I"
                                 next="#la-4-33-1" corresp="#es-4-32-1">Quod tam longe abest ut
                                 accidat, ut id temporis ad omnium rerum copiam, quae qui­dem ad
                                 uitae uel necessitatem requirantur uel commoditatem, non sufficiat
                                 modo sed supersit etiam: </seg>
                         </seg>
                         <!-- untranslated segment -->
-                        <seg n="4.33" type="untranslated">
-                            <seg xml:id="la-4-33-1" n="la 4.33" type="partial" part="F"
+                        <seg n="4.33" type="singleSentence" subtype="untranslated">
+                            <seg xml:id="la-4-33-1" n="la 4.31" type="partial" part="F"
                                 prev="#la-32-1">id quos uos quoque intelligentis, si uobiscum
                                 reputetis apud alias gentes quam magna populi pars iners
                                 degit.</seg>
                         </seg>
                         <seg n="4.34" type="singleSentence">
-                            <seg xml:id="la-4-34-1" n="la 4.33" corresp="#es-4-33-1">primum mulieres
+                            <seg xml:id="la-4-34-1" n="la 4.32" corresp="#es-4-33-1">primum mulieres
                                 fere omnes, totius summae dimidium; aut, sicubi mulieres negociosae
                                 sunt, ibi ut plurimum earum uice uiri stertunt.</seg>
                         </seg>
                         <seg n="4.35" type="multisentence">
-                            <seg xml:id="la-4-35-1" n="la 4.34" corresp="#es-4-34-1">ad haec,
+                            <seg xml:id="la-4-35-1" n="la 4.33" corresp="#es-4-34-1">ad haec,
                                 sacer­dotum ac religiosorum, quos uocant, quanta quamque ociosa
                                 turba. </seg><seg xml:id="la-4-35-2" n="la 4.34" type="partial"
                                 part="I" next="#la-36-1" corresp="#es-4-34-1">adiice diuites omnes,
@@ -1053,7 +1173,7 @@
                                 nobiles: </seg>
                         </seg>
                         <seg n="4.36" type="multisentence">
-                            <seg xml:id="la-4-36-1" n="la 4.35" type="partial" part="F"
+                            <seg xml:id="la-4-36-1" n="la 4.34" type="partial" part="F"
                                 prev="#la-35-2" corresp="#es-4-35-1">his adnumera ipso­rum
                                 famulitium, totam uidelicet illam cetratorum nebulonum colluuiem:
                                 robustos denique ac ualentes mendicos adiunge, morbum quempiam
@@ -1065,20 +1185,20 @@
                                 quam pauci in necessariis opificiis uersantur; </seg>
                         </seg>
                         <seg n="4.37" type="singleSentence">
-                            <seg xml:id="la-4-37-1" n="la 4.36" type="partial" part="F"
+                            <seg xml:id="la-4-37-1" n="la 4.35" type="partial" part="F"
                                 prev="#la-36-2" corresp="#es-4-36-1">siquidem ubi omnia pecuniis
                                 metimur, multas artes necesse est exerceri inanes prorsus ac
                                 superfluas, luxus tantum ac libidinis ministras.</seg>
                         </seg>
                         <seg n="4.38" type="singleSentence">
-                            <seg xml:id="la-4-38-1" n="la 4.37" corresp="#es-4-37-1">nam haec ipsa
+                            <seg xml:id="la-4-38-1" n="la 4.36" corresp="#es-4-37-1">nam haec ipsa
                                 multitudo, quae nunc operatur, si partiretur in tam paucas artes,
                                 quam paucas com­modus naturae usus postulat, in tanta rerum
                                 abundantia, quanta nunc esse necesse sit, precia nimirum uiliora
                                 forent quam ut artifices inde uitam tueri suam possent.</seg>
                         </seg>
                         <seg n="4.39" type="multisentence">
-                            <seg xml:id="la-4-39-1" n="la 4.38" corresp="#es-4-38-1">At si isti
+                            <seg xml:id="la-4-39-1" n="la 4.37" corresp="#es-4-38-1">At si isti
                                 omnes quos nunc inertes artes distringunt, ac tota insuper ocio ac
                                 desidia languescens turba, quorum unus quiuis earum rerum quae
                                 aliorum laboribus suppeditantur, quantum duo earundem operatores
@@ -1089,112 +1209,113 @@
                                 foret. </seg>
                             <seg xml:id="la-4-39-2" n="la 4.38" corresp="#es-4-38-1">Atque id ipsum
                                 in Vtopia res ipsa perspicuum facit. </seg>
-                            <seg xml:id="la-4-39-3" n="la 4.38" corresp="#es-4-38-1">Nam illic in
+                            <seg xml:id="la-4-39-3" n="la 4.39" corresp="#es-4-38-1">Nam illic in
                                 tota urbe cum adiacente uicinia uix homines quingenti ex omni
                                 uirorum ac mulierum numero, quorum aetas ac robur operi sufficit,
                                 uacatio permittitur.</seg>
                         </seg>
                         <seg n="4.40" type="singleSentence">
-                            <seg xml:id="la-4-40-1" n="la 4.39" corresp="#es-4-39-1">In hiis
+                            <seg xml:id="la-4-40-1" n="la 4.40" corresp="#es-4-39-1">In hiis
                                 syphogranti (quanquam leges eos Iabore soluerunt) ipsi tamen sese
                                 non eximunt, quo facilius exemplo suo reliquos ad labores
                                 inuitent.</seg>
                         </seg>
                         <seg n="4.41" type="singleSentence">
-                            <seg xml:id="la-4-41-1" n="la 4.40" corresp="#es-4-40-1">Eadem
+                            <seg xml:id="la-4-41-1" n="la 4.41" corresp="#es-4-40-1">Eadem
                                 immunitate gaudent hi, quos commen­datione sacerdotum persuasus
                                 populus occultis syphograntorum suffragiis ad perdiscendas
                                 disciplinas perpetua uacatione indulget.</seg>
                         </seg>
                         <seg n="4.42" type="multisentence">
-                            <seg xml:id="la-4-42-1" n="la 4.41" corresp="#es-4-41-1">Quorum si quis
+                            <seg xml:id="la-4-42-1" n="la 4.42" corresp="#es-4-41-1">Quorum si quis
                                 conceptam de se spem fefellerit, ad opifices retru­ditur. </seg>
-                            <seg xml:id="la-4-42-2" n="la 4.41" corresp="#es-4-41-1">contraque non
+                            <seg xml:id="la-4-42-2" n="la 4.43" corresp="#es-4-41-1">contraque non
                                 rarenter usu uenit, ut mechanicus quispiam subcisiuas illas horas
                                 tam gnauiter impendat literis, tantum diligentia proficiat, ut
                                 opificio suo exemptus in literatorum classem prouehatur.</seg>
                         </seg>
                         <seg n="4.43" type="singleSentence">
-                            <seg xml:id="la-4-43-1" n="la 4.42" corresp="#es-4-42-1">Ex hoc
+                            <seg xml:id="la-4-43-1" n="la 4.44" corresp="#es-4-42-1">Ex hoc
                                 literatorum ordine legati, sacerdotes, Tranibori, ac ipse denique
                                 deligitur princeps, quem illi prisca ipsorum lingua Barzanem,
                                 recentiore Ademum, appellant.</seg>
                         </seg>
                         <seg n="4.44" type="singleSentence">
-                            <seg xml:id="la-4-44-1" n="la 4.43" corresp="#es-4-43-1">Reliqua fere
+                            <seg xml:id="la-4-44-1" n="la 4.45" corresp="#es-4-43-1">Reliqua fere
                                 multitudo omnis, quum neque ociosa sit, nec inutilibus opificiis
                                 occupata, procliuis aestimatio est quam paucae horae quantum boni
                                 operis pariant.</seg>
                         </seg>
                         <seg n="4.45" type="singleSentence">
-                            <seg xml:id="la-4-45-1" n="la 4.44" corresp="#es-4-44-1">ad ea quae
+                            <seg xml:id="la-4-45-1" n="la 4.46" corresp="#es-4-44-1">ad ea quae
                                 com­memoraui, hoc praeterea facilitatis accedit, quod in necessariis
                                 plerisque artibus minore opera quam aliae gentes opus habent.</seg>
                         </seg>
                         <seg n="4.46" type="multisentence">
-                            <seg xml:id="la-4-46-1" n="la 4.45" corresp="#es-4-45-1">Nam primum
+                            <seg xml:id="la-4-46-1" n="la 4.47" corresp="#es-4-45-1">Nam primum
                                 aedificiorum aut structura aut refectio ideo tam multorum assiduam
                                 ubique requirit operam, quod quae pater aedificauit, haeres parum
                                 frugi paulatim dilabi sinit: ita, quod minimo tueri potuit,
-                                successor eius de integro impendio magno cogitur instaurare. Quin
-                                frequenter etiam quae domus alii ingenti sumptu stetit, hanc alius
-                                delicato animo contemnit: eaque neglecta atque ideo breui collapsa,
-                                aliam alibi impensis non minoribus extruit.</seg>
+                                successor eius de integro impendio magno cogitur instaurare.</seg>
+                            <seg xml:id="la-4-46-2" n="la 4.48" corresp="#es-4-45-1">Quin frequenter
+                                etiam quae domus alii ingenti sumptu stetit, hanc alius delicato
+                                animo contemnit: eaque neglecta atque ideo breui collapsa, aliam
+                                alibi impensis non minoribus extruit.</seg>
                         </seg>
                         <seg n="4.47" type="singleSentence">
-                            <seg xml:id="la-4-47-1" n="la 4.46" corresp="#es-4-46-1">At apud
+                            <seg xml:id="la-4-47-1" n="la 4.49" corresp="#es-4-46-1">At apud
                                 Vtopienses, compositis rebus omnibus et constituta republica,
                                 rarissime accidit uti noua collocandis aedibus area deligatur; et
                                 non modo remedium celeriter praesentibus uitiis adhibetur, sed etiam
                                 imminentibus occurritur.</seg>
                         </seg>
                         <seg n="4.48" type="singleSentence">
-                            <seg xml:id="la-4-48-1" n="la 4.47" corresp="#es-4-47-1">Ita fit ut
+                            <seg xml:id="la-4-48-1" n="la 4.50" corresp="#es-4-47-1">Ita fit ut
                                 minimo labore diutissime perdurent aedificia, et id genus arti­fices
                                 uix habeant interdum quod agant; nisi quod materiam dolare domi et
                                 lapides interim quadrare atque aptare iubentur, quo (si quod opus
                                 incidat) maturius possit exurgere.</seg>
                         </seg>
                         <seg n="4.49" type="singleSentence">
-                            <seg xml:id="la-4-49-1" n="la 4.48" corresp="#es-4-48-1">Iam in uestibus
+                            <seg xml:id="la-4-49-1" n="la 4.51" corresp="#es-4-48-1">Iam in uestibus
                                 uide quam paucis operis egeant: primum, dum in opere sunt, corio
                                 neglectim aut pellibus amiciuntur, quae in septennium durent.</seg>
                         </seg>
                         <seg n="4.50" type="multisentence">
-                            <seg xml:id="la-4-50-1" n="la 4.49" corresp="#es-4-49-1">quum procedunt
+                            <seg xml:id="la-4-50-1" n="la 4.52" corresp="#es-4-49-1">quum procedunt
                                 in pub­licum, superinducunt chlamydem uestem, quae rudiores illas
                                 uestes contegat. </seg>
-                            <seg xml:id="la-4-50-2" n="la 4.49" corresp="#es-4-49-1">eius per totam
+                            <seg xml:id="la-4-50-2" n="la 4.53" corresp="#es-4-49-1">eius per totam
                                 insulam unus color est, atque is natiuus. </seg>
-                            <seg xml:id="la-4-50-3" n="la 4.49" corresp="#es-4-49-1">Itaque lanei
+                            <seg xml:id="la-4-50-3" n="la 4.54" corresp="#es-4-49-1">Itaque lanei
                                 panni non modo multo minus quam usquam alibi sufficit, uerum is ipse
                                 quoque multo minoris impendii est. </seg>
-                            <seg xml:id="la-4-50-4" n="la 4.49" type="partial" part="I"
+                            <seg xml:id="la-4-50-4" n="la 4.55" type="partial" part="I"
                                 next="#la-4-51-1" corresp="#es-4-49-1">at lini minor est labor,
                             </seg>
                         </seg>
                         <seg n="4.51" type="singleSentence">
-                            <seg xml:id="la-4-51-1" n="la 4.50" type="partial" part="F"
+                            <seg xml:id="la-4-51-1" n="la 4.55" type="partial" part="F"
                                 prev="#la-4-50-4" corresp="#es-4-50-1">eoque usus crebrior.</seg>
                         </seg>
                         <seg n="4.52" type="singleSentence">
-                            <seg xml:id="la-4-52-1" n="la 4.51" corresp="#es-4-51-1">sed in lineo
+                            <seg xml:id="la-4-52-1" n="la 4.56" corresp="#es-4-51-1">sed in lineo
                                 solus candor, in laneo sola mundicies conspicitur: nullum tenuioris
                                 fili precium est.</seg>
                         </seg>
                         <seg n="4.53" type="multisentence">
-                            <seg xml:id="la-4-53-1" n="la 4.52" corresp="#es-4-52-1">Itaque fit ut,
+                            <seg xml:id="la-4-53-1" n="la 4.57" corresp="#es-4-52-1">Itaque fit ut,
                                 quum alibi nusquam uni homini quatuor aut quinque togae laneae
                                 diuersis coloribus, ac totidem sericiae tunicae suffi­ciant,
                                 delicatioribus paulo ne decem quidem, ibi una quisque contentus est,
                                 plerunque in biennium. </seg>
-                            <seg xml:id="la-4-53-2" n="la 4.52" corresp="#es-4-52-1">Quippe nec
+                            <seg xml:id="la-4-53-2" n="la 4.58" corresp="#es-4-52-1">Quippe nec
                                 causa est ulla cur plures affectet; quas consecutus neque aduersus
                                 frigus esset munitior, neque uestitu uideretur uel pilo
                                 cultior.</seg>
                         </seg>
                         <seg n="4.54" type="singleSentence">
-                            <seg xml:id="la-4-54-1" n="la 4.53" corresp="#es-4-53-1">Quamobrem quum
+                            <seg xml:id="la-4-54-1" n="la 4.59" corresp="#es-4-53-1">Quamobrem quum
                                 et omnes utilibus sese artibus exerceant, et ipsarum etiam opera
                                 pauciora sufficiant, fit nimirum ut abundante rerum omnium copia,
                                 interdum in reficiendas (si quae detritae sunt) uias publicas
@@ -1203,13 +1324,13 @@
                                 denuntient.</seg>
                         </seg>
                         <seg n="4.55" type="multisentence">
-                            <seg xml:id="la-4-55-1" n="la 4.54" corresp="#es-4-54-1">neque enim
+                            <seg xml:id="la-4-55-1" n="la 4.60" corresp="#es-4-54-1">neque enim
                                 superuacaneo labore ciues inuitos exercent magistratus, quandoquidem
                                 eius reipublicae institutio hunc unum scopum in primis respicit, ut,
                                 quoad per publicas necessitates licet, quamplurimum temporis ab
                                 seruitio corporis ad animi libertatem cultumque ciuibus uniuersis
                                 asseratur. </seg>
-                            <seg xml:id="la-4-55-2" n="la 4.54" corresp="#es-4-54-1">In eo enim
+                            <seg xml:id="la-4-55-2" n="la 4.61" corresp="#es-4-54-1">In eo enim
                                 sitam uitae felicitatem putant.</seg>
                         </seg>
                     </ab>
@@ -1217,7 +1338,7 @@
             </div>
             <div type="translation" xml:lang="en">
                 <div type="chapter" n="4">
-                    <head type="chapter">Of Scyences Craftes and Occupatyons</head>
+                    <head type="chapter">Of Scyences Craftes and Occupatyons.</head>
                     <ab>
                         <seg n="4.1" type="singleSentence">
                             <seg xml:id="en-4-1-1" n="en 4.1" corresp="#es-4-1-1">HUsbandrye is a
@@ -1237,16 +1358,16 @@
                                 which (as I sayde) is common to them all, euery one of them learneth
                                 one or other seuerall and particuler science, as hys owne proper
                                 crafte. </seg>
-                            <seg xml:id="en-4-3-2" n="en 4.3" corresp="#es-4-3-1">That is most
+                            <seg xml:id="en-4-3-2" n="en 4.4" corresp="#es-4-3-1">That is most
                                 commonly other clotheworkinge in wolle or flaxe, or masonrie, or the
                                 smythes crafte, or the carpentes scyence.</seg>
                         </seg>
                         <seg n="4.4" type="singleSentence">
-                            <seg xml:id="en-4-4-1" n="en 4.4" corresp="#es-4-4-1">For there is none
+                            <seg xml:id="en-4-4-1" n="en 4.5" corresp="#es-4-4-1">For there is none
                                 other occupacyon that anye numbre to speke of doth vse there.</seg>
                         </seg>
                         <seg n="4.5" type="singleSentence">
-                            <seg xml:id="en-4-5-1" n="en 4.5" type="partial" part="I"
+                            <seg xml:id="en-4-5-1" n="en 4.6" type="partial" part="I"
                                 next="#en-4-6-1" corresp="#es-4-5-1">For their garmentes, whyche
                                 through owte all the Ilande be of one fassion, (sauynge that there
                                 is a difference betwene the mans garmente and the womans, betwene
@@ -1268,90 +1389,88 @@
                         <seg n="4.8" type="multisentence">
                             <seg xml:id="en-4-8-1" n="en 4.8" corresp="#es-4-8-1">But the women, as
                                 the weaker sorte, be put to the easere craftes. </seg>
-                            <seg xml:id="en-4-8-2" n="en 4.8" corresp="#es-4-8-1">They worke wull
+                            <seg xml:id="en-4-8-2" n="en 4.9" corresp="#es-4-8-1">They worke wull
                                 and flaxe. </seg>
-                            <seg xml:id="en-4-8-3" n="en 4.8" corresp="#es-4-8-1">The other more
+                            <seg xml:id="en-4-8-3" n="en 4.10" corresp="#es-4-8-1">The other more
                                 laborsome sciences be committed to the men.</seg>
                         </seg>
                         <seg n="4.9" type="multisentence">
-                            <seg xml:id="en-4-9-1" n="en 4.9" corresp="#es-4-9-1">For the moste
+                            <seg xml:id="en-4-9-1" n="en 4.11" corresp="#es-4-9-1">For the moste
                                 parte euerye man is brought vp in his fathers craft. </seg>
-                            <seg xml:id="en-4-9-2" n="en 4.9" corresp="#es-4-9-1">For moste commonly
-                                they be naturally therto bente and inclined. </seg>
-                            <seg xml:id="en-4-9-3" n="en 4.9" corresp="#es-4-9-1">But yf a mans
+                            <seg xml:id="en-4-9-2" n="en 4.12" corresp="#es-4-9-1">For moste
+                                commonly they be naturally therto bente and inclined. </seg>
+                            <seg xml:id="en-4-9-3" n="en 4.13" corresp="#es-4-9-1">But yf a mans
                                 minde stonde to anny other, he is by adoption put into a famelye of
                                 that occupation which he doth most fantasy.</seg>
                         </seg>
                         <seg n="4.10" type="singleSentence">
-                            <seg xml:id="en-4-10-1" n="en 4.10" corresp="#es-4-10-1">Whome not only
+                            <seg xml:id="en-4-10-1" n="en 4.14" corresp="#es-4-10-1">Whome not only
                                 his father, but also the magistrates do diligently looke to, that he
                                 be putt to a discrete and an honest householder.</seg>
                         </seg>
                         <seg n="4.11" type="multisentence">
-                            <seg xml:id="en-4-11-1" n="en 4.11" corresp="#es-4-11-1">Yea and if anny
+                            <seg xml:id="en-4-11-1" n="en 4.15" corresp="#es-4-11-1">Yea and if anny
                                 person, when he hath lerned one crafte, be desierous to lerne also
                                 another, he ys lykewyse suffrede and permytted. </seg>
-                            <seg xml:id="en-4-11-2" n="en 4.11" corresp="#es-4-11-1">When he hathe
+                            <seg xml:id="en-4-11-2" n="en 4.16" corresp="#es-4-11-1">When he hathe
                                 learned bothe, he oc­cupyethe whether he wyll; onles the cytye haue
                                 more neade of the one then of the other.</seg>
                         </seg>
                         <seg n="4.12" type="singleSentence">
-                            <seg xml:id="en-4-12-1" n="en 4.12" type="partial" part="I"
+                            <seg xml:id="en-4-12-1" n="en 4.17" type="partial" part="I"
                                 next="#en-4-13-1" corresp="#es-4-12-1">The chyefe and almoste the
                                 onelye offyce of the Sypho­grauntes ys to see and take hede that no
                                 man sytte ydle, but that euerye one applye hys owne crafte wyth
                                 earneste delygence; </seg>
                         </seg>
                         <seg n="4.13" type="multisentence">
-                            <seg xml:id="en-4-13-1" n="en 4.13" type="partial" part="F"
+                            <seg xml:id="en-4-13-1" n="en 4.17" type="partial" part="F"
                                 prev="#en-4-12-1" corresp="#es-4-13-1">and yet for all that not to
                                 be weryed from earlye in the mornynge to late in the euennynge wyth
                                 contynuall woorke, lyke laborynge and toolynge beastes. </seg>
-                            <seg xml:id="en-4-13-2" n="en 4.13" corresp="#es-4-13-1">For thys ys
+                            <seg xml:id="en-4-13-2" n="en 4.18" corresp="#es-4-13-1">For thys ys
                                 worse then the myserable and wretced con­dytyon of bondemen; whyche
                                 neuer the lesse is almoste euery where the of woorkemen and
                                 artyfycers, sauynge in vtopia. </seg>
-                            <seg xml:id="en-4-13-3" n="en 4.13" type="partial" part="I"
+                            <seg xml:id="en-4-13-3" n="en 4.19" type="partial" part="I"
                                 next="#en-4-14-1" corresp="#es-4-13-1">For they, dyuydinge the daye
                                 and the nyghte into xxiiii iust houres, </seg>
                         </seg>
                         <seg n="4.14" type="singleSentence">
-                            <seg xml:id="en-4-14-1" n="en 4.14" type="partial" part="M"
+                            <seg xml:id="en-4-14-1" n="en 4.19" type="partial" part="M"
                                 prev="#en-4-13-3" next="#en-4-15-1" corresp="#es-4-14-1">appoynte
                                 and assygne only vi of those houres to woorke; iii before none, vpon
                                 the whyche they goo streyghte to dyner; </seg>
                         </seg>
                         <seg n="4.15" type="singleSentence">
-                            <seg xml:id="en-4-15-1" n="en 4.15" type="partial" part="M"
+                            <seg xml:id="en-4-15-1" n="en 4.19" type="partial" part="M"
                                 prev="#en-4-14-1" next="#en-4-16-1" corresp="#es-4-15-1">and after
                                 dyner, when they haue rested ii houres, </seg>
                         </seg>
                         <seg n="4.16" type="singleSentence">
-                            <seg xml:id="en-4-16-1" n="en 4.16" type="partial" part="F"
+                            <seg xml:id="en-4-16-1" n="en 4.19" type="partial" part="F"
                                 prev="#en-4-15-1" corresp="#es-4-16-1">then they woorke iii; and
                                 vpon that they goo to supper.</seg>
                         </seg>
-                        <!--<seg n="4.17" type="singleSentence">
-                            <seg xml:id="en-4-17-1" n="en 4.18" type="partial" part="M"
-                                prev="#en-4-18-1" next="#en-4-18-2" corresp="#es-4-17-1"> cowntynge
-                                one of the clocke at the fyrste houre after none)</seg>
-                        </seg>  -->
                         <!-- sentences not in order -->
                         <seg n="4.18" type="multisentence">
-                            <seg xml:id="en-4-18-1" n="en 4.17" type="partial" part="I"
+                            <seg xml:id="en-4-18-1" n="en 4.20" type="partial" part="I"
                                 next="#en-4-17-1" corresp="#es-4-18-1">Aboute viii of the clocke in
                                 the euenynge </seg>
                         </seg>
-                        <seg n="4.17"><seg xml:id="en-4-17-1" n="en 4.18" type="partial" part="M"
-                            prev="#en-4-18-1" next="#en-4-18-2" corresp="#es-4-17-1"
-                            >(cowntynge one of the clocke at the fyrste houre after none)
-                        </seg></seg>
+                        <seg n="4.17" type="singleSentence">
+                            <seg xml:id="en-4-17-1" n="en 4.20" type="partial" part="M"
+                                prev="#en-4-18-1" next="#en-4-18-2" corresp="#es-4-17-1">(cowntynge
+                                one of the clocke at the fyrste houre after none) </seg>
+                        </seg>
                         <seg n="4.18" type="multisentence">
-                            <seg xml:id="en-4-18-2" n="en 4.17" type="partial" part="F"
-                                prev="#en-4-17-1" corresp="#es-4-18-1">viii houres they giue to
-                                sleape.</seg></seg>
+                            <seg xml:id="en-4-18-2" n="en 4.20" type="partial" part="F"
+                                prev="#en-4-17-1" corresp="#es-4-18-1">they go to bedde.</seg>
+                            <seg xml:id="en-4-18-3" n="en 4.21" corresp="#es-4-18-1">viii houres
+                                they giue to sleape.</seg>
+                        </seg>
                         <seg n="4.19" type="singleSentence">
-                            <seg xml:id="en-4-19-1" n="en 4.19" corresp="#es-4-19-1">All the voide
+                            <seg xml:id="en-4-19-1" n="en 4.22" corresp="#es-4-19-1">All the voide
                                 time, that is betwene the houres of woorke, slepe, and meate, that
                                 they be suffered to bestowe, euerye man as he lyketh beste hym
                                 selfe: not to thyntente they shoulde myspende thys tyme in ryote, or
@@ -1360,19 +1479,19 @@
                                 other good science, as shall please them.</seg>
                         </seg>
                         <seg n="4.20" type="singleSentence">
-                            <seg xml:id="en-4-20-1" n="en 4.20" corresp="#es-4-20-1">For yt ys a
+                            <seg xml:id="en-4-20-1" n="en 4.23" corresp="#es-4-20-1">For yt ys a
                                 solempne custome there, to haue lectures daylye earlye in the
                                 morning; wher to be present they onlye be constreined that be
                                 namelye chosen and appoynted to learnynge.</seg>
                         </seg>
                         <seg n="4.21" type="singleSentence">
-                            <seg xml:id="en-4-21-1" n="en 4.21" corresp="#es-4-21-1">Howe be yt a
+                            <seg xml:id="en-4-21-1" n="en 4.24" corresp="#es-4-21-1">Howe be yt a
                                 greate multy­tude of euerye sorte of people, bothe men and women,
                                 goo to heare lectures; some one and some an other, as euerye mans
                                 nature is inclyned.</seg>
                         </seg>
                         <seg n="4.22" type="singleSentence">
-                            <seg xml:id="en-4-22-1" n="en 4.22" corresp="#es-4-22-1">Yet, this
+                            <seg xml:id="en-4-22-1" n="en 4.25" corresp="#es-4-22-1">Yet, this
                                 notwithstonding, yf any man had rathere bestowe thys tyme vpon hys
                                 owne occupatyon (as yt chaunceth in manye, whose myndes ryse not in
                                 the contemplatyon of annye scyence lyberal), he is not letted nor
@@ -1380,34 +1499,34 @@
                                 common wealthe.</seg>
                         </seg>
                         <seg n="4.23" type="multisentence">
-                            <seg xml:id="en-4-23-1" n="en 4.23" corresp="#es-4-23-1">After supper
+                            <seg xml:id="en-4-23-1" n="en 4.26" corresp="#es-4-23-1">After supper
                                 they bestowe one houre in playe; in somer in their gardeynes, in
                                 winter in their commen halles, where they dyne and suppe. </seg>
-                            <seg xml:id="en-4-23-2" n="en 4.23" corresp="#es-4-23-1">There they
+                            <seg xml:id="en-4-23-2" n="en 4.27" corresp="#es-4-23-1">There they
                                 exercise them selfes in musyke, or els in honeste and holsome
                                 communicacion.</seg>
                         </seg>
                         <seg n="4.24" type="singleSentence">
-                            <seg xml:id="en-4-24-1" n="en 4.24" type="partial" part="I"
+                            <seg xml:id="en-4-24-1" n="en 4.28" type="partial" part="I"
                                 next="#en-4-25-1" corresp="#es-4-24-1">Diceplaye, and suche other
                                 folish and pernicious games, they knowe not; </seg>
                         </seg>
                         <seg n="4.25" type="singleSentence">
-                            <seg xml:id="en-4-25-1" n="en 4.25" type="partial" part="F"
+                            <seg xml:id="en-4-25-1" n="en 4.28" type="partial" part="F"
                                 prev="#en-4-24-1" corresp="#es-4-25-1">but they vse ii games not
                                 muche vnlike the chesse.</seg>
                         </seg>
                         <seg n="4.26" type="singleSentence">
-                            <seg xml:id="en-4-26-1" n="en 4.26" corresp="#es-4-26-1">The one is the
+                            <seg xml:id="en-4-26-1" n="en 4.29" corresp="#es-4-26-1">The one is the
                                 battell of nombers, wherin one numbre stealethe awaye another.</seg>
                         </seg>
                         <seg n="4.27" type="singleSentence">
-                            <seg xml:id="en-4-27-1" n="en 4.27" corresp="#es-4-27-1">The other is
+                            <seg xml:id="en-4-27-1" n="en 4.30" corresp="#es-4-27-1">The other is
                                 wherin vices fyghte wyth vertues, as it were in battell array, or a
                                 set fyld.</seg>
                         </seg>
                         <seg n="4.28" type="singleSentence">
-                            <seg xml:id="en-4-28-1" n="en 4.28" type="partial" part="I"
+                            <seg xml:id="en-4-28-1" n="en 4.31" type="partial" part="I"
                                 next="#en-4-29-1" corresp="#es-4-28-1">In the which game is verye
                                 properlye shewed bothe the striffe and discorde that vices haue
                                 amonge themselfes, and agayne theire unitye and concorde againste
@@ -1418,68 +1537,71 @@
                                 what craft they frustate their purposes; </seg>
                         </seg>
                         <seg n="4.29" type="singleSentence">
-                            <seg xml:id="en-4-29-1" n="en 4.29" type="partial" part="F"
+                            <seg xml:id="en-4-29-1" n="en 4.31" type="partial" part="F"
                                 prev="#en-4-28-1" corresp="#es-4-29-1">and finally by what sleight
                                 or meanes the one getteth the victory.</seg>
                         </seg>
                         <seg n="4.30" type="singleSentence">
-                            <seg xml:id="en-4-30-1" n="en 4.30" corresp="#es-4-30-1">But here, lease
+                            <seg xml:id="en-4-30-1" n="en 4.32" corresp="#es-4-30-1">But here, lease
                                 you be deceaued, one thinge you muste looke more narrowly
                                 vpon.</seg>
                         </seg>
                         <seg n="4.31" type="singleSentence">
-                            <seg xml:id="en-4-31-1" n="en 4.31" corresp="#es-4-31-1">For seinge they
+                            <seg xml:id="en-4-31-1" n="en 4.33" corresp="#es-4-31-1">For seinge they
                                 bestowe but vi houres in woork, perchaunce you maye thinke that the
                                 lacke of some necessarye thinges herof may ensewe.</seg>
                         </seg>
                         <seg n="4.32" type="multisentence">
-                            <seg xml:id="en-4-32-1" n="en 4.32" corresp="#es-4-32-1">But this is
-                                nothinge so. For that small time is not only inough, but also to
-                                muche, for the stoore and abundaunce of all thinges that be
-                                requisite, other for the necessitie or commoditie of liffe. </seg>
+                            <seg xml:id="en-4-32-1" n="en 4.34" corresp="#es-4-32-1">But this is
+                                nothinge so.</seg>
+                            <seg xml:id="en-4-32-2" n="en 4.35" corresp="#es-4-32-1">For that small
+                                time is not only inough, but also to muche, for the stoore and
+                                abundaunce of all thinges that be requisite, other for the
+                                necessitie or commoditie of liffe. </seg>
                         </seg>
                         <!-- untraslated segment -->
-                        <seg n="4.33" type="untranslated">
-                            <seg xml:id="en-4-33-1" n="en 4.32" corresp="#es-4-32-1">The whiche
+                        <seg n="4.33" type="singleSentence" subtype="untranslated">
+                            <seg xml:id="en-4-33-1" n="en 4.36" corresp="#es-4-32-1">The whiche
                                 thing yow also shall perceaue, if you weye and consider with your
                                 selfes how great a parte of the people in other contreis lyeth
                                 ydle.</seg>
                         </seg>
                         <seg n="4.34" type="singleSentence">
-                            <seg xml:id="en-4-34-1" n="en 4.33" corresp="#es-4-33-1">First, almoost
+                            <seg xml:id="en-4-34-1" n="en 4.37" corresp="#es-4-33-1">First, almoost
                                 all women, which be the halfe of the hole numbre; or els, if the
                                 women be annye where occupied, their most comonlye in their steade
                                 the men be ydle.</seg>
-                        </seg>                        <seg n="4.35" type="multisentence">
-                            <seg xml:id="en-4-35-1" n="en 4.34" corresp="#es-4-34-1">Besydes thys,
+                        </seg>
+                        <seg n="4.35" type="multisentence">
+                            <seg xml:id="en-4-35-1" n="en 4.38" corresp="#es-4-34-1">Besydes thys,
                                 how great, and howe ydle a companye ys theyr of prystes, and
                                 relygyous men, as they call them? </seg>
-                            <seg xml:id="en-4-35-2" n="en 4.34" corresp="#es-4-34-1">Put there to
+                            <seg xml:id="en-4-35-2" n="en 4.39" corresp="#es-4-34-1">Put there to
                                 all ryche men, speciallye all landed men, whyche comonly be called
                                 gentylmen, and noble men.</seg>
                         </seg>
                         <seg n="4.36" type="multisentence">
-                            <seg xml:id="en-4-36-1" n="en 4.35" corresp="#es-4-35-1">Take into this
+                            <seg xml:id="en-4-36-1" n="en 4.40" corresp="#es-4-35-1">Take into this
                                 numbre also their seruauntes; I meane, all that flocke of stout,
                                 bragging, russhe bucklers. </seg>
-                            <seg xml:id="en-4-36-2" n="en 4.35" corresp="#es-4-35-1">Ioyne to them
+                            <seg xml:id="en-4-36-2" n="en 4.41" corresp="#es-4-35-1">Ioyne to them
                                 also sturdy and valiaunt beggers, clokinge their idle leffe vnder
                                 the colour of some disease or sickenes. </seg>
-                            <seg xml:id="en-4-36-3" n="en 4.35" corresp="#es-4-35-1">And truely yow
+                            <seg xml:id="en-4-36-3" n="en 4.42" corresp="#es-4-35-1">And truely yow
                                 shall find them much fewer then yow thought, by whose labour all
                                 these thynges be gotten, that men vse and lyue bye. </seg>
-                            <seg xml:id="en-4-36-4" n="en 4.35" corresp="#es-4-35-1">Nowe consyder
+                            <seg xml:id="en-4-36-4" n="en 4.43" corresp="#es-4-35-1">Nowe consyder
                                 wyth youre selfe, of thies fewe that do woorke, how few be occupied
                                 in necessary woorkes.</seg>
                         </seg>
                         <seg n="4.37" type="singleSentence">
-                            <seg xml:id="en-4-37-1" n="en 4.36" corresp="#es-4-36-1">For where money
+                            <seg xml:id="en-4-37-1" n="en 4.44" corresp="#es-4-36-1">For where money
                                 beareth all ye swing, ther many vayne and superfluous occupations
                                 must nedys be vsed, to serue only for ryotous superfluyte and
                                 vnhonest pleasure.</seg>
                         </seg>
                         <seg n="4.38" type="singleSentence">
-                            <seg xml:id="en-4-38-1" n="en 4.37" corresp="#es-4-37-1">For the same
+                            <seg xml:id="en-4-38-1" n="en 4.45" corresp="#es-4-37-1">For the same
                                 multytude that now is occupied in woorke, if they were deuided into
                                 so few occupations as the necessary vse of nature requyreth, in so
                                 greate plentye of thinges, as then of necessity wolde ensue,
@@ -1487,7 +1609,7 @@
                                 maynteyne theyre lyuynges.</seg>
                         </seg>
                         <seg n="4.39" type="multisentence">
-                            <seg xml:id="en-4-39-1" n="en 4.38" corresp="#es-4-38-1">But yf all
+                            <seg xml:id="en-4-39-1" n="en 4.46" corresp="#es-4-38-1">But yf all
                                 thyes, that be nowe bisiede about vnprofitable occupations, with all
                                 the hole flocke of them that lyue ydellye and slouthfullye, whyche
                                 consume and waste euerye one of them more of thies thynges that come
@@ -1497,87 +1619,87 @@
                                 to stoore vs wyth all thynges that maye be requysyte other for
                                 necessytye, or for commodytye; yea, or for pleasure, so that the
                                 same pleasure be trewe and naturall. </seg>
-                            <seg xml:id="en-4-39-2" n="en 4.38" corresp="#es-4-38-1">And thys in
+                            <seg xml:id="en-4-39-2" n="en 4.47" corresp="#es-4-38-1">And thys in
                                 Vtopia the thynge yt selfe maketh manifeste and playne. </seg>
-                            <seg xml:id="en-4-39-3" n="en 4.38" corresp="#es-4-38-1">For there in
+                            <seg xml:id="en-4-39-3" n="en 4.48" corresp="#es-4-38-1">For there in
                                 all the citye, wyth the hole contreye or shyere adioynynge to yt,
                                 scaselye soo persons of all the hole numbre of men and women, that
                                 be nother to olde nor to weake to woorke, be licensed from
                                 labour.</seg>
                         </seg>
                         <seg n="4.40" type="singleSentence">
-                            <seg xml:id="en-4-40-1" n="en 4.39" corresp="#es-4-39-1">Amonge them be
+                            <seg xml:id="en-4-40-1" n="en 4.49" corresp="#es-4-39-1">Amonge them be
                                 the Siphograuntes, which (though they be by the lawes exempte and
                                 pryuyleged from labour) yet they exempte not themselfes; to the
                                 intent they maye the rather by their example prouoke other to
                                 woorke.</seg>
                         </seg>
                         <seg n="4.41" type="singleSentence">
-                            <seg xml:id="en-4-41-1" n="en 4.40" corresp="#es-4-40-1">The same
+                            <seg xml:id="en-4-41-1" n="en 4.50" corresp="#es-4-40-1">The same
                                 vacation from labour do they also enioye, to whome the people,
                                 persuaded by the commendation of the priestes and secrete election
                                 of the Siphograntes, haue geuen a perpetual licence from labour to
                                 learnyng.</seg>
                         </seg>
                         <seg n="4.42" type="multisentence">
-                            <seg xml:id="en-4-42-1" n="en 4.41" corresp="#es-4-41-1">But if anny one
+                            <seg xml:id="en-4-42-1" n="en 4.51" corresp="#es-4-41-1">But if anny one
                                 of them proue nott accordinge to the expectation and hoope of him
                                 conceaued, he is furth with plucked backe to the company of
                                 artificers. </seg>
-                            <seg xml:id="en-4-42-2" n="en 4.41" corresp="#es-4-41-1">And contrarye
+                            <seg xml:id="en-4-42-2" n="en 4.52" corresp="#es-4-41-1">And contrarye
                                 wise, often yt chaunceth that a handicraftes man doth so earnestly
                                 bestowe hys vacaunte and spare houres in learninge, and through
                                 dilygence so profytte therin, that he is taken frome hys handy
                                 occupation, and promoted to the company of the learned.</seg>
                         </seg>
                         <seg n="4.43" type="singleSentence">
-                            <seg xml:id="en-4-43-1" n="en 4.42" corresp="#es-4-42-1">Owt of this
+                            <seg xml:id="en-4-43-1" n="en 4.53" corresp="#es-4-42-1">Owt of this
                                 ordre of the learned be chosen ambassadours, priestes, Tranibores,
                                 and finallye the prince him selfe; whome they in their olde tonge
                                 call Barzanes, and by a newer name, Adamus.</seg>
                         </seg>
                         <seg n="4.44" type="singleSentence">
-                            <seg xml:id="en-4-44-1" n="en 4.43" corresp="#es-4-43-1">The residewe of
+                            <seg xml:id="en-4-44-1" n="en 4.54" corresp="#es-4-43-1">The residewe of
                                 the people being nother ydle, nother occupied about vnprofitable
                                 exercises, it may be easely iudged in how fewe howres how much good
                                 woorke by them maye be doone towardes those thinges that I haue
                                 spoken of.</seg>
                         </seg>
                         <seg n="4.45" type="singleSentence">
-                            <seg xml:id="en-4-45-1" n="en 4.44" corresp="#es-4-44-1">This commodity
+                            <seg xml:id="en-4-45-1" n="en 4.55" corresp="#es-4-44-1">This commodity
                                 they haue also aboue other, that in the most part of necessary
                                 occupations they neade nott so muche worke, as other nations
                                 doo.</seg>
                         </seg>
                         <seg n="4.46" type="multisentence">
-                            <seg xml:id="en-4-46-1" n="en 4.45" corresp="#es-4-45-1">For firste of
+                            <seg xml:id="en-4-46-1" n="en 4.56" corresp="#es-4-45-1">For firste of
                                 all the buildinge or repayring of houses asketh euery where so manye
                                 mens continuall labour, bicause that the vnthyfty heyre suffreth the
                                 howses that hys father buylded, in contynewaunce of tyme to fall in
                                 decay. </seg>
-                            <seg xml:id="en-4-46-2" n="en 4.45" corresp="#es-4-45-1">So that which
+                            <seg xml:id="en-4-46-2" n="en 4.57" corresp="#es-4-45-1">So that which
                                 he myghte haue vpholden wyth lytle coste, hys successoure is
                                 constreynede to buylde yt agayne a newe, to hys greate chardge. </seg>
-                            <seg xml:id="en-4-46-3" n="en 4.45" corresp="#es-4-45-1">Yea, manye
+                            <seg xml:id="en-4-46-3" n="en 4.58" corresp="#es-4-45-1">Yea, manye
                                 tymes also the howse that stoode one man in muche moneye, anothere
                                 ys of so nyce and soo delycate a mynde that he settethe nothynge by
                                 yt. </seg>
-                            <seg xml:id="en-4-46-4" n="en 4.45" corresp="#es-4-45-1">And yt beynge
+                            <seg xml:id="en-4-46-4" n="en 4.59" corresp="#es-4-45-1">And yt beynge
                                 neglected, and therefore shortelye fallynge into ruyne, he buyldethe
                                 vppe anothere in an othere place wyth no lesse coste and
                                 chardge.</seg>
                         </seg>
                         <seg n="4.47" type="multisentence">
-                            <seg xml:id="en-4-47-1" n="en 4.46" corresp="#es-4-46-1">But emonge the
+                            <seg xml:id="en-4-47-1" n="en 4.60" corresp="#es-4-46-1">But emonge the
                                 Vtopyans, where all thynges be sett in a good ordre, and the common
                                 wealthe in a good staye, yt very seldome chaunceth, that they chuse
                                 a new plotte to buylde an house vpon. </seg>
-                            <seg xml:id="en-4-47-2" n="en 4.46" corresp="#es-4-46-1">And they doo
+                            <seg xml:id="en-4-47-2" n="en 4.61" corresp="#es-4-46-1">And they doo
                                 not only finde spedy and quicke remedies for present fautes, but
                                 also preuente them that be like to fall.</seg>
                         </seg>
                         <seg n="4.48" type="singleSentence">
-                            <seg xml:id="en-4-48-1" n="en 4.47" corresp="#es-4-47-1">And by this
+                            <seg xml:id="en-4-48-1" n="en 4.62" corresp="#es-4-47-1">And by this
                                 meanes their houses continewe and laste very longe with litle labour
                                 and small reparacions; in so much that that kind of woorkemen sum
                                 times haue almost nothinge to doo; but that they be commaunded to
@@ -1586,95 +1708,164 @@
                                 rise.</seg>
                         </seg>
                         <seg n="4.49" type="multisentence">
-                            <seg xml:id="en-4-49-1" n="en 4.48" corresp="#es-4-48-1">Now, Syre, in
+                            <seg xml:id="en-4-49-1" n="en 4.63" corresp="#es-4-48-1">Now, Syre, in
                                 theire apparell marke, I praye yow, howe few woorkemen they neade. </seg>
-                            <seg xml:id="en-4-49-2" n="en 4.48" corresp="#es-4-48-1">Fyrste of all,
+                            <seg xml:id="en-4-49-2" n="en 4.64" corresp="#es-4-48-1">Fyrste of all,
                                 whyles they be at woorke, they be couered homely with leather or
                                 skinnes that will last vii yeares.</seg>
                         </seg>
                         <seg n="4.50" type="multisentence">
-                            <seg xml:id="en-4-50-1" n="en 4.49" corresp="#es-4-49-1">When they go
+                            <seg xml:id="en-4-50-1" n="en 4.65" corresp="#es-4-49-1">When they go
                                 furthe a brode, they caste vpon them a cloke, whyche hydeth the
                                 other homelye apparell. </seg>
-                            <seg xml:id="en-4-50-2" n="en 4.49" corresp="#es-4-49-1">Thyes clookes
+                            <seg xml:id="en-4-50-2" n="en 4.66" corresp="#es-4-49-1">Thyes clookes
                                 thoroughe owte the hole Ilande be all of one coloure, and that is
                                 the naturall colour of the wul. </seg>
-                            <seg xml:id="en-4-50-3" n="en 4.49" corresp="#es-4-49-1">They therfor do
+                            <seg xml:id="en-4-50-3" n="en 4.67" corresp="#es-4-49-1">They therfor do
                                 not only spende muche lesse wullen clothe then is spente in othere
                                 contreys, but also the same standeth them in muche lesse coste. </seg>
-                            <seg xml:id="en-4-50-4" n="en 4.49" type="partial" part="I"
+                            <seg xml:id="en-4-50-4" n="en 4.68" type="partial" part="I"
                                 next="#en-4-50-1" corresp="#es-4-49-1">But lynen clothe ys made wyth
                                 lesse laboure,</seg>
                         </seg>
                         <seg n="4.51" type="singleSentence">
-                            <seg xml:id="en-4-51-1" n="en 4.50" type="partial" part="F"
+                            <seg xml:id="en-4-51-1" n="en 4.68" type="partial" part="F"
                                 prev="#en-4-49-4" corresp="#es-4-50-1">and ys therefore hadde more
                                 in vse.</seg>
                         </seg>
                         <seg n="4.52" type="multisentence">
-                            <seg xml:id="en-4-52-1" n="en 4.51" corresp="#es-4-51-1">But in lynen
+                            <seg xml:id="en-4-52-1" n="en 4.69" corresp="#es-4-51-1">But in lynen
                                 clothe onlye whytenese, in wullen onlye clenlynes, ys regardede. </seg>
-                            <seg xml:id="en-4-52-2" n="en 4.51" corresp="#es-4-51-1">As for the
+                            <seg xml:id="en-4-52-2" n="en 4.70" corresp="#es-4-51-1">As for the
                                 smalnese or fynesse of the threde, that ys no thynge passed
                                 for.</seg>
                         </seg>
                         <seg n="4.53" type="multisentence">
-                            <seg xml:id="en-4-53-1" n="en 4.52" corresp="#es-4-52-1">And thys ys the
+                            <seg xml:id="en-4-53-1" n="en 4.71" corresp="#es-4-52-1">And thys ys the
                                 cause wherfore in other places iiii or v clothe gownes of dyuers
                                 colours, and as manye sylke cootes, be not enoughe for one man. </seg>
-                            <seg xml:id="en-4-53-2" n="en 4.52" corresp="#es-4-52-1">Yea, and yf he
+                            <seg xml:id="en-4-53-2" n="en 4.72" corresp="#es-4-52-1">Yea, and yf he
                                 be of the delycate and nyse sorte, x be to fewe; where as there one
                                 garmente wyll serue a man mooste commenlye ii yeares. </seg>
-                            <seg xml:id="en-4-53-3" n="en 4.52" corresp="#es-4-52-1">For whie
+                            <seg xml:id="en-4-53-3" n="en 4.73" corresp="#es-4-52-1">For whie
                                 shoulde he desyre moo? </seg>
-                            <seg xml:id="en-4-53-4" n="en 4.52" corresp="#es-4-52-1">seing if he had
+                            <seg xml:id="en-4-53-4" n="en 4.74" corresp="#es-4-52-1">seing if he had
                                 them, he should not be the better hapt or couered from colde, nother
                                 in his apparell any whyt the cumlyer.</seg>
                         </seg>
                         <seg n="4.54" type="multisentence">
-                            <seg xml:id="en-4-54-1" n="en 4.53" corresp="#es-4-53-1">Wherefore,
+                            <seg xml:id="en-4-54-1" n="en 4.75" corresp="#es-4-53-1">Wherefore,
                                 seynge they be all exercysed in profytable occupatyons, and that
                                 fewe artyfycers in the same craftes be suffycyente, thys ys the
                                 cause that, plentye of all thynges beynge emonge them, they doo
                                 sumtymes bring furthe an innumerable companye of people to amende
                                 the hyghe wayes, yf annye be broken. </seg>
-                            <seg xml:id="en-4-54-2" n="en 4.53" corresp="#es-4-53-1">Manye times
+                            <seg xml:id="en-4-54-2" n="en 4.76" corresp="#es-4-53-1">Manye times
                                 also, when they haue no such woorke to be occupied about, an open
                                 proclamation is made that they shall bestowe fewer houres in
                                 woorke.</seg>
                         </seg>
                         <seg n="4.55" type="multisentence">
-                            <seg xml:id="en-4-55-1" n="en 4.54" corresp="#es-4-54-1">For the
+                            <seg xml:id="en-4-55-1" n="en 4.77" corresp="#es-4-54-1">For the
                                 magistrates do not exercise their citizens againste theire willes in
                                 vnneadfull laboures. </seg>
-                            <seg xml:id="en-4-55-2" n="en 4.54" corresp="#es-4-54-1">For whie? in
-                                the institution of that weale publique this ende is onlye and
-                                chiefely pretended and mynded, that what time maye possibly be
-                                spared from the necessary occupations and affayres of the commen
-                                wealthe, all that the cytizeins sholde withdrawe from the bodely
-                                seruice to the free liberty of the mind and garnisshing of the same. </seg>
-                            <seg xml:id="en-4-55-3" n="en 4.54" corresp="#es-4-54-1">For herin they
+                            <seg xml:id="en-4-55-2" n="en 4.78" corresp="#es-4-54-1">For whie?</seg>
+                            <seg xml:id="en-4-55-3" n="en 4.79" corresp="#es-4-54-1"> in the
+                                institution of that weale publique this ende is onlye and chiefely
+                                pretended and mynded, that what time maye possibly be spared from
+                                the necessary occupations and affayres of the commen wealthe, all
+                                that the cytizeins sholde withdrawe from the bodely seruice to the
+                                free liberty of the mind and garnisshing of the same.</seg>
+                            <seg xml:id="en-4-55-4" n="en 4.80" corresp="#es-4-54-1">For herin they
                                 suppose the felicity of this liffe to consist.</seg>
                         </seg>
                     </ab>
                 </div>
-                <div type="notes">
-                    <note n="10" xml:id="n-3-1" target="#note-3-1">I do not know why E adds 300
-                        families</note>
-                    <note n="11" xml:id="n-3-2" target="#note-3-2">In B it is not clear that the 4
-                        candidates from which the Syphogrants chose one, are proposed by the city,
-                        one for each of its quarters; see Yale "The whole body of syphogrants, in
-                        number two hundred, having sworn to choose the man whom they judge most
-                        useful, by secret balloting appoint a governor, specifically one of the four
-                        candidates named to them by the people, for one is selected out of each of
-                        the four quarters of the city to be commended to the senate" .</note>
-                    <note n="12" xml:id="n-3-3" target="#note-3-3">B es confuso y contradictorio,
-                        tal y como está formulado.No es que los elijan sólo por un año, sino que son
-                        reelegidos anualmente. Así tiene sentido decir que no los cambian a la
-                        ligera. </note>
-                    <note n="13" xml:id="n-3-4" target="#note-3-4">B no recoge el matiz de "mature",
-                        rapidez en la resolución de los conflictos. </note>
-                </div>
+            </div>
+            <div type="notes">
+                <note n="36" xml:id="n-4-1" target="#note-4-1">"Hysbandry" is the word Robinson
+                    chooses to translate "Agriculture". It is interesting that, despite the implicit
+                    sex differentiation between the words "Husbandy" and "Housewifery", he opts for
+                    this word when the Latin original says both men and women are equally expert in
+                    this type of work.</note>
+                <note n="37" xml:id="n-4-2" target="#note-4-2">Medinilla could have opted to
+                    translate "lanificium" as "lanificio". The Diccionario de Autoridades defines
+                    "lanificio" as the art of working with wool (ref). </note>
+                <note n="38" xml:id="n-4-3" target="#note-4-3">The meaning of "artes" here refers to
+                    the ability or capacity to do something. The Diccionario de Autoridades defines
+                    it as "la maña, destreza, sagacidad y astucia de alguna persona, y la habilidad
+                    con que dispone las cosas" (in English, "the skill, dexterity, sagacity and
+                    cunning of some person, and the skill to arrange things").</note>
+                <note n="39" xml:id="n-4-4" target="#note-4-4">Medinilla omits "uelut
+                    imbecilliores", meaning "as the weaker sex" (Yale 127 l. 10).</note>
+                <note n="40" xml:id="n-4-5" target="#note-4-5">Magistrate is rendered by Medinilla
+                    in singural instead of plural, as appears in the Latin version "magistratibus". </note>
+                <note n="41" xml:id="n-4-6" target="#note-4-6">The Spanish translator does not
+                    literally translate the first part of the sentence. He removes "praecipuum ac
+                    prope unicum". "Vagabundo" is the term selected to render "ne quisquam desideat
+                    ociosus" (in English, "no one sit idle" (Yale 127 l. 21). </note>
+                <note n="42" xml:id="n-4-7" target="#note-4-7">The translation freely translate "nam
+                    ea plusquam seruilis erumna est; quae tamen ubique fere opificium uita est,
+                    exceptis Vtopiensibus". [Darcy Kern] Medinilla translates "seruilis" as
+                    "esclavos"; Robinson, as "bondemen". </note>
+                <note n="43" xml:id="n-4-8" target="#note-4-8">Medinilla makes a straightforward
+                    translation of this sentence, whereas Robison flourishes the fragment by
+                    altering the order of elements and introducing round brackets. </note>
+                <note n="44" xml:id="n-4-9" target="#note-4-9">Medinilla introduces "horas
+                    privilegiadas" as translation of the pronoun "has". Robinson omits "has
+                    intercapedines plerique impedunt literis". The Spanish governor translates
+                    "dumtaxat adiguntur" as "asisten de necesidad solamente" (in English,
+                    "necessarily uniquely attend"), complicating the original meaning. </note>
+                <note n="45" xml:id="n-4-10" target="#note-4-10">The last part of the Latin segment
+                    "prout cuiusque fert natura" is less literaly translated by Medinilla. Instead
+                    of the sense of "according to their natural inclination" (Yale 129, l. 8),
+                    Medinilla indicates "según su afición y lo que profesan" (in English, "according
+                    to their interest and what they profess"), leaving behind the nuances of nature
+                    and feelings". </note>
+                <note n="46" xml:id="n-4-11" target="#note-4-11">Robison adds "in honeste and
+                    holsome" to the translation of "aut se sermone recreant". </note>
+                <note n="47" xml:id="n-4-12" target="#note-4-12">The Spanish translator adds "ni los
+                    tratan" to complement the translation of the verb "cognosco", "ni los entienden"
+                    (in English, "they are not acquainted with [game]" (Yale 129 l. 18)).</note>
+                <note n="48" xml:id="n-4-13" target="#note-4-13">Medinilla translates "non
+                    dissimiles" as "parecidos" (in English, "similar"). The translator seems to
+                    simplify the double negative meaning of the "non"particle and the prefix "di-".
+                    Robinson keeps it in "not [...] unlike". Both Robinson and Medinilla translate
+                    "latrunculorum ludo" as today's "chess" ("ajedrez" in Spanish). </note>
+                <note n="49" xml:id="n-4-14" target="#note-4-14">Medinilla render "numerorum" as
+                    "tantos de tantos". He does not preserve the title of the game "batlle of
+                    numbers" and the original meaning gets blurred. The English translation is much
+                    more literal. </note>
+                <note n="50" xml:id="n-4-15" target="#note-4-15">Robinson amplifies the Latin
+                    sentence adding "as it were in battell array, or a set fyld". </note>
+                <note n="51" xml:id="n-4-16" target="#note-4-16">Untranslated segments. Please,
+                    complete with the Latin and English texts.</note>
+                <note n="52" xml:id="n-4-17" target="#note-4-17">This segment loses part of its
+                    sense after removing the previous sentence.</note>
+                <note n="53" xml:id="n-4-18" target="#note-4-18">Medinilla does not make a literal
+                    translation of this fragment. He omits "quos vocant" ("so-called" (Yale 131 l.
+                    2)) and removes the negative comment on priests and religious men. </note>
+                <note n="54" xml:id="n-4-19" target="#note-4-19">"The translator chooses ""caterva""
+                    to render the Latin word ""nebulonum"", defined by the Diccionario de
+                    Autoridades as ""crowd of people who gather together in some place, without
+                    order or concert"". Although ""nebulis"" means ""an idle fellow"", Robinson
+                    associates it with ""servant"" (""seruauntes"").</note>
+                <note n="55" xml:id="n-4-20" target="#note-4-20">Medinilla translates
+                    "syphograntorum" as magistrates. </note>
+                <note n="56" xml:id="n-4-21" target="#note-4-21">The translator adds
+                    "magistrados".</note>
+                <note n="57" xml:id="n-4-22" target="#note-4-22">The name "azuela" belongs to the
+                    carpentry semantic field. The Diccionario de Autoridades defines it as "Short
+                    instrument, not very large, made of wood, which has at the end a double iron,
+                    extended, steely and sharp, used for carving and grinding wood". Medinillas
+                    renders "materiam" as "cepillos y azuelas madera", then broadening the meaning
+                    of the Latin original. </note>
+                <note n="58" xml:id="n-4-23" target="#note-4-23">Medinilla selects the verb "ocupar"
+                    to translate "exerceo". Robinson interestingly modifies the meaning of
+                    "exercise" with "againste theire willes", which implies a consideration for the
+                    citizens' wellfare. According to the Diccionario de Autoridades, "ocupar" was
+                    used with the meaning of "dar que hacer, o en que trabajar, especialmente en
+                    algún oficio o arte" ("give something to do, or work on"). </note>
             </div>
         </body>
     </text>

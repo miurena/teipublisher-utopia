@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- updated to 08/03/2024-->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Chapter 3</title>
+                <funder>This work has been developed thanks to a doctoral fellowship granted in 2020
+                    by the Spanish Ministry of Universities</funder>
+                <respStmt>
+                    <name>Inmaculada Ureña Asensio</name>
+                    <resp>transcription and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1">First edition<date> July 2024</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>TEIPublisher</publisher>
+                <pubPlace><ref><!-- URL?--></ref></pubPlace>
+                <date>2024</date>
+            </publicationStmt>
+            <notesStmt>
+                <note>I especially want to thank the DSG at NU for the support during my research
+                    visit at Northeastern University in 2023.</note>
+                <note>Thanks to my thesis director.</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Utopia de Thomas Moro, traducida de latin en Caſtellano por Don Geronimo
+                        Antonio de Medinilla i Porres, Cauallero de la Orden de Santiago,
+                        Cavallerizo de ſu Mageſtad, Señor de las Villas de Bocos, Rozas, i Remolino,
+                        Corregidor, i Iuſticia mayor de la Ciudad de Cordova, i ſu tierra. </title>
+                    <author role="writer" xml:id="person-1">Thomas More (1478-1535)</author>
+                    <author role="translator" xml:id="person-2">Gerónimo de Medinilla y Porres
+                        (1590-c.1642)</author>
+                    <publisher>por Salvador de Cea Tesa</publisher>
+                    <date>1637</date>
+                    <pubPlace>Córdoba</pubPlace>
+                </bibl>
+                <bibl>
+                    <title>The Utopia of Thomas More, in Latin from the edition of March 1518, and
+                        in English from the first edition of Ralph Robinson's translation in
+                        1551</title>
+                    <title/>
+                    <author role="writer" ref="#person-1">Thomas More (1478-1535)</author>
+                    <author role="translator" xml:id="person-3">Ralph Robinson (1520-1577)</author>
+                    <editor>L. H. Lupton</editor>
+                    <publisher>Clarendon Press</publisher>
+                    <date>1895</date>
+                    <pubPlace>Oxford</pubPlace>
+                </bibl>
+                <!-- lists -->
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>This edition was developed as part of my thesis dissertation titled "A Digital
+                    Edition of the 1637 Spanish translation of Thomas More's Utopia". The processes
+                    of data modeling, encoding and publishing the edition was done during a research
+                    visit at Northeastern University.</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>section to describe the rationale of the edition</p>
+            </samplingDecl>
+            <editorialDecl>
+                <normalization>
+                    <p>The only text modernized is the translation. The elements modernized are the
+                        following: <list>
+                            <item/>
+                        </list>
+                    </p>
+                </normalization>
+                <punctuation>
+                    <p>The original punctuation system has been preserved in the 1637 Spanish
+                        translation, the 1551 English translation and the Latin original. The
+                        modifications concerning punctuation in the modernized version of the
+                        Spanish text have already been specified in the previous section.</p>
+                </punctuation>
+                <segmentation>
+                    <p>The texts have been segmented into sentences to facilitate alignment. The
+                        principle followed... </p>
+                </segmentation>
+            </editorialDecl>
+            <refsDecl>
+                <p> Explain here the reference system (linking?) use gi to refer to elements and
+                    attr to refer to attributes</p>
+            </refsDecl>
+            <classDecl>
+                <taxonomy>
+                    <desc/>
+                </taxonomy>
+                <!-- Place names and identifiers 
+              
+              #place-1 -> London
+              #place-2 -> Amauroto
+              
+              People names and identifiers
+              
+              #person-1 -> Thomas More
+              #person-2 -> Raphael Hythloday
+              #person-3 -> Utopo
+              
+              (work?) positions list
+              #position-1 -> labrador
+              #position-2 -> magistrado
+              
+              Geographical names
+              #geogr-1 -> Isla de los Utopienses/Utopia (Abraxa)
+              #geogr-2 -> Utopia continente
+              
+              Numbers (maybe for the future)
+              #quant-1 -> 
+              
+              -->
+            </classDecl>
+            <schemaSpec ident="TEI"/>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="es">seventeenth-century Spanish</language>
+                <language ident="es-ES">Castilian Spanish</language>
+                <language ident="la">Latin</language>
+                <language ident="en">sixteenth-century English</language>
+            </langUsage>
+        </profileDesc>
+        <!-- copy of Spanish Library (ref) and where I took the copy from Lupton -->
+
+        <revisionDesc>
+            <change when="2024-03-04">Version 1.0 <!-- example --></change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="base" xml:lang="es">
+                <div type="chapter" n="3">
+                    <pb n="5r"/>
+                    <head type="chapter">De los Magiſtrados. Cap. III.</head>
+                    <ab>
+                        <seg n="3.1" type="sentence">
+                            <s xml:id="es-3-1-1" n="es 3.1">TODOS los años eligen para cada treinta
+                                familias vn Magiſtrado, que en ſu lengua antigua llamaron
+                                Siſogranto, en la moderna Filarco.</s>
+                        </seg>
+                        <seg n="3.2" type="sentence">
+                            <s xml:id="es-3-2-1" n="es 3.2">A cada diez deſtos Sifograntos, i a ſus
+                                familias nombran otro Magiſtrado ſuperior, que llamaron Traniboro,
+                                ahora Protofilarco.<anchor n="31" xml:id="note-3-1"/></s>
+                        </seg>
+                        <seg n="3.3" type="sentence">
+                            <s xml:id="es-3-3-1" n="es 3.3">Finalmente todos los Sifograntos, que
+                                ſon en numero duciẽtos hazen juramẽto, <pb n="5r"/>q̃ eligiran por
+                                votos ſecretos por Cabeça, i Principe uno de quatro propueſtos por
+                                el pueblo, al que tuvieren por mas conveniente; i cada quarta parte
+                                de la Ciudad, propone uno al Senado.<anchor n="32" xml:id="note-3-2"
+                                /></s>
+                        </seg>
+                        <seg n="3.4" type="sentence">
+                            <s xml:id="es-3-4-1" n="es 3.4">Eſta dignidad del Principe es perpetua,
+                                por toda la vida, como no venga en ſoſpecha, de que trata tiranizar
+                                el Eſtado.</s>
+                        </seg>
+                        <seg n="3.5" type="sentence">
+                            <s xml:id="es-3-5-1" n="es 3.5">Los Traniboros los ſeñalan ſolo por un
+                                año, mas no los mudã ſin cauſa.<anchor n="33" xml:id="note-3-3"/>
+                            </s>
+                        </seg>
+                        <seg n="3.6" type="sentence">
+                            <s xml:id="es-3-6-1" n="es 3.6">Todos los demas miniſtros, i oficiales
+                                ſon añales.</s>
+                        </seg>
+                        <seg n="3.7" type="sentence">
+                            <s xml:id="es-3-7-1" n="es 3.7">Los Traniboros conſultan con el Principe
+                                cada tercer dia, aunque ſi el negocio lo pide ſe juntan mas
+                                vezes.</s>
+                        </seg>
+                        <seg n="3.8" type="sentence">
+                            <s xml:id="es-3-8-1" n="es 3.8">En la conſulta tratã de las coſas de la
+                                Republica, procurando componer las diferẽcias de los particulares
+                                (ſi las ai, que ſiempre ſon pocas.)<anchor n="34" xml:id="note-3-4"
+                                /></s>
+                        </seg>
+                        <seg n="3.9" type="sentence">
+                            <s xml:id="es-3-9-1" n="es 3.9">De los Sifograntos introducen todos los
+                                dias dos en el Senado por ſu orden; preuiniendoſe que no ſe acuerde
+                                negocio de importancia, que toque a la Republica, ſin averſe
+                                conferido tres dias antes que ſe determine.</s>
+                        </seg>
+                        <seg n="3.10" type="sentence">
+                            <s xml:id="es-3-10-1" n="es 3.10">Tieneſe por delito capital tratar de
+                                ningun negocio publico fuera del Senado, i de ſus juntas
+                                ſeñaladas.</s>
+                        </seg>
+                        <seg n="3.11" type="sentence">
+                            <s xml:id="es-3-11-1" n="es 3.11">Eſtas ordenanças miran, a que el
+                                pueblo no ſea oprimido por la violencia, i aſſechanças del Principe,
+                                i Traniboros.</s>
+                        </seg>
+                        <seg n="3.12" type="sentence">
+                            <s xml:id="es-3-12-1" n="es 3.12">En eſta conſideracion todo lo que ſe
+                                juzga por de importancia, ſe comunica con la junta de los
+                                Sifograntos, eſtos dan parte a ſus familias de la materia que ſe
+                                trata, i la conſultan entre ellos, i de la reſolucion aviſan al
+                                Senado.</s>
+                        </seg>
+                        <seg n="3.13" type="sentence">
+                            <s xml:id="es-3-13-1" n="es 3.13">Tal vez ſe tratan los negocios en las
+                                juntas gene<pb n="6r"/>rales de toda la Isla.</s>
+                        </seg>
+                        <seg n="3.14" type="sentence">
+                            <s xml:id="es-3-14-1" n="es 3.14">El Senado tambien tiene por eſtilo,
+                                que no ſe diſcurra ſobre ningun negocio, que ſe propone el primer
+                                dia, <app>
+                                    <lem>antes</lem>
+                                    <rdg wit="1790">sino que</rdg>
+                                    <rdg wit="1805">sino que</rdg>
+                                </app> ſe difiera para el Ayuntamiento ſiguiente, <app>
+                                    <lem>por que ninguno a caſo, ſin</lem>
+                                    <rdg wit="1790">porque ninguno sin</rdg>
+                                    <rdg wit="1805">porque ninguno sin</rdg>
+                                </app> precedente conſideracion, diga arrojadamente lo
+                                primero, que le ocurre, i por ſuſtentarlo deſpues trate mas de
+                                defender ſu parecer, que de la utilidad, i cauſa publica; <app>
+                                    <lem>que</lem>
+                                    <rdg wit="1790">pues</rdg>
+                                    <rdg wit="1805">pues</rdg>
+                                </app> muchos
+                                llevados de una verguença necia, porque no parezca que en ſus
+                                principios fuerõ poco advertidos, i circũſpeƈtos, ſe inclinã mas a
+                                aventurar la ſalud comun, que ſu opinion particular, en aquello que
+                                debian tenello deſde luego bien mirado, para hablar con mas conſejo
+                                que arrojamiento.<anchor n="35" xml:id="note-3-5"/></s>
+                        </seg>
+                    </ab>
+                </div>
+            </div>
+            <div type="modernization" xml:lang="es">
+                <div type="chapter" n="3">
+                    <pb n="5r"/>
+                    <head type="chapter">De los magistrados</head>
+                    <ab>
+                        <seg n="3.1" type="singleSentence">
+                            <seg xml:id="em-3-1-1" n="em 3.1" corresp="#es-3-1-1">Todos los años
+                                eligen para cada treinta familias un magistrado, que en su lengua
+                                antigua llamaron sifogranto, en la moderna, filarco.</seg>
+                        </seg>
+                        <seg n="3.2" type="singleSentence">
+                            <seg xml:id="em-3-2-1" n="em 3.2" corresp="#es-3-2-1">A cada diez de
+                                estos sifograntos y a sus familias nombran otro magistrado superior
+                                que llamaron traniboro, ahora protofilarco.</seg>
+                        </seg>
+                        <seg n="3.3" type="singleSentence">
+                            <seg xml:id="em-3-3-1" n="em 3.3" corresp="#es-3-3-1">Finalmente, todos
+                                los sifograntos, que son en número doscientos, hacen juramento <pb
+                                    n="5v"/>que elegirán por votos secretos por cabeza y príncipe
+                                uno de cuatro propuestos por el pueblo al que tuvieren por más
+                                conveniente, y cada cuarta parte de la ciudad propone uno al
+                                senado.</seg>
+                        </seg>
+                        <seg n="3.4" type="singleSentence">
+                            <seg xml:id="em-3-4-1" n="em 3.4" corresp="#es-3-4-1">Esta dignidad del
+                                príncipe es perpetua por toda la vida como no venga en sospecha de
+                                que trata tiranizar el estado.</seg>
+                        </seg>
+                        <seg n="3.5" type="singleSentence">
+                            <seg xml:id="em-3-5-1" n="em 3.5" corresp="#es-3-5-1">Los traniboros los
+                                señalan solo por un año, mas no los mudan sin causa.</seg>
+                        </seg>
+                        <seg n="3.6" type="singleSentence">
+                            <seg xml:id="em-3-6-1" n="em 3.6" corresp="#es-3-6-1">Todos los demás
+                                ministros y oficiales son añales.</seg>
+                        </seg>
+                        <seg n="3.7" type="singleSentence">
+                            <seg xml:id="em-3-7-1" n="em 3.7" corresp="#es-3-7-1">Los traniboros
+                                consultan con el príncipe cada tercer día, aunque, si el negocio lo
+                                pide, se juntan más veces.</seg>
+                        </seg>
+                        <seg n="3.8" type="singleSentence">
+                            <seg xml:id="em-3-8-1" n="em 3.8" corresp="#es-3-8-1">En la consulta
+                                tratan de las cosas de la república, procurando componer las
+                                diferencias de los particulares (si las hay, que siempre son
+                                pocas).</seg>
+                        </seg>
+                        <seg n="3.9" type="singleSentence">
+                            <seg xml:id="em-3-9-1" n="em 3.9" corresp="#es-3-9-1">De los sifograntos
+                                introducen todos los días dos en el senado por su orden,
+                                previniéndose que no se acuerde negocio de importancia que toque a
+                                la república sin haberse conferido tres días antes que se
+                                determine.</seg>
+                        </seg>
+                        <seg n="3.10" type="singleSentence">
+                            <seg xml:id="em-3-10-1" n="em 3.10" corresp="#es-3-10-1">Tiénese por
+                                delito capital tratar de algún negocio público fuera del senado y de
+                                sus juntas señaladas.</seg>
+                        </seg>
+                        <seg n="3.11" type="singleSentence">
+                            <seg xml:id="em-3-11-1" n="em 3.11" corresp="#es-3-11-1">Estas
+                                ordenanzas miran a que el pueblo no sea oprimido por la violencia y
+                                acechanzas del príncipe y traniboros.</seg>
+                        </seg>
+                        <seg n="3.12" type="singleSentence">
+                            <seg xml:id="em-3-12-1" n="em 3.12" corresp="#es-3-12-1">En esta
+                                consideración, todo lo que se juzga por de importancia se comunica
+                                con la junta de los sifograntos, estos dan parte a sus familias de
+                                la materia que se trata y la consultan entre ellos, y de la
+                                resolución avisan al senado.</seg>
+                        </seg>
+                        <seg n="3.13" type="singleSentence">
+                            <seg xml:id="em-3-13-1" n="em 3.13" corresp="#es-3-13-1">Tal vez se
+                                tratan los negocios en las juntas gene<pb n="6r"/>rales de toda la
+                                isla.</seg>
+                        </seg>
+                        <seg n="3.14" type="multisentence">
+                            <seg xml:id="em-3-14-1" n="em 3.14" corresp="#es-3-14-1">El senado
+                                también tiene por estilo que no se discurra sobre ningún negocio que
+                                se propone el primer día, antes se difiera para el ayuntamiento
+                                siguiente, porque ninguno acaso, sin precedente consideración, diga
+                                arrojadamente lo primero que le ocurre y, por sustentarlo, después
+                                trate más de defender su parecer que de utilidad y causa pública.
+                                Que muchos llevados de una vergüenza necia, porque no parezca que en
+                                sus principios fueron poco advertidos y circunspectos, se inclinan
+                                más a aventurar la salud común que su opinión particular en aquello
+                                que debían tenerlo desde luego bien mirado para hablar con más
+                                consejo que arrojamiento.</seg>
+                        </seg>
+                    </ab>
+                </div>
+            </div>
+            <div type="original" xml:lang="la">
+                <div type="chapter" n="3">
+                    <head type="chapter">DE MAGISTRATIBVS.</head>
+                    <ab>
+                        <seg n="3.1" type="singleSentence">
+                            <seg xml:id="la-3-1-1" n="la 3.1" corresp="#es-3-1-1">TRiginta quaeque
+                                familiae magistratum sibi quotannis eligunt, quem sua prisca lingua
+                                Syphograntum uocant, recentiore phylarchum.</seg>
+                        </seg>
+                        <seg n="3.2" type="singleSentence">
+                            <seg xml:id="la-3-2-1" n="la 3.2" corresp="#es-3-2-1">Syphograntis decem
+                                cum suis familiis Traniborus olim, nunc protophylarchus dictus,
+                                praeficitur.</seg>
+                        </seg>
+                        <seg n="3.3" type="multisentence">
+                            <seg xml:id="la-3-3-1" n="la 3.3" corresp="#es-3-3-1">Syphogranti omnes,
+                                qui sunt ducenti, iurati lecturos sese quem maxime censent utilem,
+                                suffragiis occultis renunciant principem, unum uidelicet ex his
+                                quatuor, quos eis populus nominauit.</seg>
+                            <seg xml:id="la-3-3-2" n="la 3.4" corresp="#es-3-3-1">Nam a quaque urbis
+                                quarta parte selectus unus commendatur senatui.</seg>
+                        </seg>
+                        <seg n="3.4" type="singleSentence">
+                            <seg xml:id="la-3-4-1" n="la 3.5" corresp="#es-3-4-1">Principis
+                                magistratus perpetuus est in omnem illius uitam, nisi tyrannidis
+                                affectatae suspicio impediat.</seg>
+                        </seg>
+                        <seg n="3.5" type="multisentence">
+                            <seg xml:id="la-3-5-1" n="la 3.6" corresp="#es-3-5-1">Traniboros
+                                quotannis eligunt.</seg>
+                            <seg xml:id="la-3-5-2" n="la 3.7" corresp="#es-3-5-1">Caeterum haud
+                                temere commu­tant.</seg>
+                        </seg>
+                        <seg n="3.6" type="singleSentence">
+                            <seg xml:id="la-3-6-1" n="la 3.8" corresp="#es-3-6-1">Reliqui
+                                magistratus omnes annui.</seg>
+                        </seg>
+                        <seg n="3.7" type="singleSentence">
+                            <seg xml:id="la-3-7-1" n="la 3.9" corresp="#es-3-7-1">Tranibori tertio
+                                quoque die, interdum, si res postulat, saepius, in consilium cum
+                                principe ueniunt.</seg>
+                        </seg>
+                        <seg n="3.8" type="singleSentence">
+                            <seg xml:id="la-3-8-1" n="la 3.10" corresp="#es-3-8-1">De republica
+                                con­sultant, controuersias priuatorum (si quae sunt) quae perquam
+                                paucae sunt, mature dirimunt.</seg>
+                        </seg>
+                        <seg n="3.9" type="singleSentence">
+                            <seg xml:id="la-3-9-1" n="la 3.11" corresp="#es-3-9-1">Sypho­grantos
+                                semper in senatum duos adsciscunt, atque omni die diuersos:
+                                cautumque ut ne quid ratum sit quod ad rempublicam pertineat, de quo
+                                non tribus in senatu diebus ante agitatum quam decretum sit.</seg>
+                        </seg>
+                        <seg n="3.10" type="singleSentence">
+                            <seg xml:id="la-3-10-1" n="la 3.12" corresp="#es-3-10-1">Extra senatum
+                                aut comitia publica de rebus communibus inire consilia capitate
+                                habetur.</seg>
+                        </seg>
+                        <seg n="3.11" type="singleSentence">
+                            <seg xml:id="la-3-11-1" n="la 3.13" corresp="#es-3-11-1">Haec eo ferunt
+                                instituta, ne procliue esset coniuratione principis ac Tranibororum,
+                                oppresso per tyrannidem populo, statum reipublicae mutare.</seg>
+                        </seg>
+                        <seg n="3.12" type="singleSentence">
+                            <seg xml:id="la-3-12-1" n="la 3.14" corresp="#es-3-12-1">Atque ideo
+                                quicquid magni momenti iudicatur, ad Syphograntorum comitia
+                                defertur, qui cum suis familiis communicata re post inter se
+                                consultant, ac suum consilium renunciant senatui.</seg>
+                        </seg>
+                        <seg n="3.13" type="singleSentence">
+                            <seg xml:id="la-3-13-1" n="la 3.15" corresp="#es-3-13-1">Interdum ad
+                                totius insulae consilium res defertur.</seg>
+                        </seg>
+                        <seg n="3.14" type="multisentence">
+                            <seg xml:id="la-3-14-1" n="la 3.16" corresp="#es-3-14-1">Quin id quoque
+                                moris habet senatus, ut nihil, quo die primum proponitur, eodem
+                                disputetur, sed in frequentem senatum differatur; ne quis ubi quod
+                                in buccam primum uenerit temere effutierit, ea potius excogitet
+                                postea, quibus decreta tueatur sua, quam quae ex reipublicae usu
+                                sint; malitque salutis publicae quam opinionis de se iacturam
+                                facere, peruerso quodam ac praepostero pudore, ne initio parum
+                                prospexisse uideatur.</seg>
+                            <seg xml:id="la-3-14-2" n="la 3.17" corresp="#es-3-14-1">Cui
+                                prospiciendum initio fuit, ut consulto potius quam cito
+                                loqueretur.</seg>
+                        </seg>
+                    </ab>
+                </div>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="chapter" n="3">
+                    <head type="chapter">Of the Magystrates.</head>
+                    <ab>
+                        <seg n="3.1" type="singleSentence">
+                            <seg xml:id="en-3-1-1" n="en 3.1" corresp="#es-3-1-1">EUerye thyrty
+                                families or fermes chewse them yearlye an offycer, whyche in their
+                                olde language is called the Syphograunte, and by a newer name the
+                                Phylarche.</seg>
+                        </seg>
+                        <seg n="3.2" type="singleSentence">
+                            <seg xml:id="en-3-2-1" n="en 3.2" corresp="#es-3-2-1">Euerye tenne
+                                Syphograuntes, with all their 300 families, bee vnder an offycer
+                                whyche was ones called the Tranibore, now the chiefe
+                                Phylarche.</seg>
+                        </seg>
+                        <seg n="3.3" type="multisentence">
+                            <seg xml:id="en-3-3-1" n="en 3.3" corresp="#es-3-3-1">Moreouer, as
+                                concerninge the electyon of the Prynce, all the Syphoagrauntes,
+                                which be in number 200, first be sworne to chewse him whome they
+                                thynke moste mete and expedyente.</seg>
+                            <seg xml:id="en-3-3-2" n="en 3.4" corresp="#es-3-3-1">Then by a secrete
+                                electyon they name prynce one of those iiii whome the people before
+                                named vnto them.</seg>
+                            <seg xml:id="en-3-3-3" n="en 3.5" corresp="#es-3-3-1">For owte of the
+                                iiii quarters of the citie there be iiii chosen, owte of euerye
+                                quartet one, to stande for the election, whiche be put vp to the
+                                counsell.</seg>
+                        </seg>
+                        <seg n="3.4" type="singleSentence">
+                            <seg xml:id="en-3-4-1" n="en 3.6" corresp="#es-3-4-1">The princes office
+                                contineweth all his liffe time, onles he be deposed or put downe for
+                                suspition of tirannye.</seg>
+                        </seg>
+                        <seg n="3.5" type="singleSentence">
+                            <seg xml:id="en-3-5-1" n="en 3.7" corresp="#es-3-5-1">They chewse the
+                                tranibores yearlye, but lightlye they chaunge them not.</seg>
+                        </seg>
+                        <seg n="3.6" type="singleSentence">
+                            <seg xml:id="en-3-6-1" n="en 3.8" corresp="#es-3-6-1">All the other
+                                offices be but for one yeare.</seg>
+                        </seg>
+                        <seg n="3.7" type="singleSentence">
+                            <seg xml:id="en-3-7-1" n="en 3.9" corresp="#es-3-7-1">The Tranibores
+                                euerye thyrde daye, and sumtymes, if neade be, oftener, come into
+                                the councell howse with the prynce.</seg>
+                        </seg>
+                        <seg n="3.8" type="multisentence">
+                            <seg xml:id="en-3-8-1" n="en 3.10" corresp="#es-3-8-1">Theire councell
+                                is concernynge the common wealth.</seg>
+                            <seg xml:id="en-3-8-2" n="en 3.11" corresp="#es-3-8-1">Yf there be annye
+                                controuersyes amonge the commoners, whyche be very fewe, they
+                                dyspatche and ende them by and by.</seg>
+                        </seg>
+                        <seg n="3.9" type="multisentence">
+                            <seg xml:id="en-3-9-1" n="en 3.12" corresp="#es-3-9-1">They take euer ii
+                                Siphograntes to them in cowncell, and euerye daye a newe
+                                coupel.</seg>
+                            <seg xml:id="en-3-9-2" n="en 3.13" corresp="#es-3-9-1">And that ys
+                                prouydede that no thynge towchynge the common wealthe shalbe
+                                confyrmed and ratifyed, on les yt haue bene reasonede of and
+                                debatede iii dayes in the cowncell, before yt be decreed.</seg>
+                        </seg>
+                        <seg n="3.10" type="singleSentence">
+                            <seg xml:id="en-3-10-1" n="en 3.14" corresp="#es-3-10-1">It is deathe to
+                                haue annye consultatyon for the common wealthe owte of the cownsell,
+                                or the place of the common electyon.</seg>
+                        </seg>
+                        <seg n="3.11" type="singleSentence">
+                            <seg xml:id="en-3-11-1" n="en 3.15" corresp="#es-3-11-1">¡Thys statute,
+                                they saye, was made to thentente, that the prynce and Tranibores
+                                myghte not easely con­spire together to oppresse the people by
+                                tyrannye, and to chaunge the state of the weale publique.</seg>
+                        </seg>
+                        <seg n="3.12" type="singleSentence">
+                            <seg xml:id="en-3-12-1" n="en 3.16" corresp="#es-3-12-1">Therfore
+                                matters of greate weyghte and importaunce be brought to the electyon
+                                house of the syphograuntes, whyche open the matter to their
+                                familyes; and afterwarde, when they haue consulted among them
+                                selfes, they shewe their deuyse to the cowncell.</seg>
+                        </seg>
+                        <seg n="3.13" type="singleSentence">
+                            <seg xml:id="en-3-13-1" n="en 3.17" corresp="#es-3-13-1">Sumtyme the
+                                matter is brought before the cowncell of the hole Ilande.</seg>
+                        </seg>
+                        <seg n="3.14" type="multisentence">
+                            <seg xml:id="en-3-14-1" n="en 3.18" corresp="#es-3-14-1">Furthermore
+                                thys custome also the cowncell vseth, to dyspute or reason of no
+                                matter the same daye that it ys fyrste proposed or putt furthe, but
+                                to dyfferre it to the nexte syttynge of the cownsell.</seg>
+                            <seg xml:id="en-3-14-2" n="en 3.19" corresp="#es-3-14-1">Bycause that no
+                                man when he hathe rasshelye there spoken that cummeth fyrste to hys
+                                tonges ende, shalt then afterwarde rather studye for reasons
+                                wherewyth to defende and confyrme hys fyrste folyshe sentence, than
+                                for the commodytye of the common wealthe; as one rather wyllynge the
+                                harme or hynderaunce of the weale publyque, then annye losse or
+                                dymynutyon of hys owne existymatyon; and as one that wolde not for
+                                shame (which is a verye folyshe shame) be cowntede annye thynge
+                                ouerseen in the matter at the fyrste; who at the fyrste owghte to
+                                haue spoken rather wysely then hastely or rashelye.</seg>
+                        </seg>
+                    </ab>
+                </div>
+            </div>
+            <div type="notes">
+                <note n="31" xml:id="n-3-1" target="#note-3-1">Robinson introduces the number "three
+                    hundreds" (300) before "families" when the Latin origianal does not make
+                    reference to it. The quantity of families seems incorrect, as the previous
+                    sentence mentions only "thyrty".</note>
+                <note n="32" xml:id="n-3-2" target="#note-3-2">Medinilla obscures the meaning of the
+                    segment, making it less clear. The translator introduces "cabeza" and "príncipe"
+                    as synonyms to translate the Latin term "principem". He also alterns the order
+                    of elements appearing in the original, leaving "quem maxime censent utilem"
+                    almost at the end ("al que tuvieren por más conveniente").</note>
+                <note n="33" xml:id="n-3-3" target="#note-3-3">Again, the translator blurs the
+                    original meaning of the sentence. What the original text says is that
+                    trannibores are elected every year, not, as Medinilla indicates, that their
+                    governments last one single year ("Los traniboros los señalan solo por un año".</note>
+                <note n="34" xml:id="n-3-4" target="#note-3-4">Medinilla does not capture the nuance
+                    of the Latin term "mature", which means "quickly, briefly". Robinson grasps it
+                    in "by and by".</note>
+                <note n="35" xml:id="n-3-5" target="#note-3-4">Medinilla chooses "ayuntamiento" for
+                    the translation of the second instance of "senatum" --previously rendered as
+                    "senado". "Ayuntamiento" comes from the verb "ayuntar", meaning "to assemble".
+                    By 1637, "ayuntamiento" was already used to refer to the "council" or the group
+                    of people governing an area.</note>
+            </div>
+        </body>
+    </text>
+</TEI>
