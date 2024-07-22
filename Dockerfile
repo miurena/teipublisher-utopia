@@ -21,6 +21,7 @@ RUN mkdir -p /etc/apt/keyrings && \
     apt-get update && \
     apt-get install nodejs -y
 
+
 RUN curl -L -o apache-ant-${ANT_VERSION}-bin.tar.gz https://downloads.apache.org/ant/binaries/apache-ant-${ANT_VERSION}-bin.tar.gz \
     && mkdir ant-${ANT_VERSION} \
     && tar -zxvf apache-ant-${ANT_VERSION}-bin.tar.gz \
@@ -42,6 +43,8 @@ ARG APP_NAME=teipublisher-utopia
 ARG APP_REPO=https://github.com/miurena/teipublisher-utopia.git
 ARG APP_TEIPUBLISHER_UTOPIA=main
 
+COPY . /tmp/${APP_NAME}
+
 # add key
 RUN  mkdir -p ~/.ssh && ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
 
@@ -57,11 +60,13 @@ RUN if [ "${PUBLISHER_LIB_VERSION}" = "master" ]; then \
     
 RUN echo $RANDOM > /tmp/.build-deps
 # Build the main app configured in the docker-compose.yml
-RUN  git clone ${APP_REPO} \
+#RUN  git clone ${APP_REPO} \
     # replace my-edition with name of your app
-    && cd ${APP_NAME} \
-    && echo Checking out ${APP_TEIPUBLISHER_UTOPIA} \
-    && git checkout ${APP_TEIPUBLISHER_UTOPIA} \
+    #&& cd ${APP_NAME} \
+    #&& echo Checking out ${APP_TEIPUBLISHER_UTOPIA} \
+    #&& git checkout ${APP_TEIPUBLISHER_UTOPIA} \
+    #&& ant
+RUN cd ${APP_NAME} \
     && ant
 
 RUN curl -L -o /tmp/roaster-${ROUTER_VERSION}.xar http://exist-db.org/exist/apps/public-repo/public/roaster-${ROUTER_VERSION}.xar
@@ -76,6 +81,9 @@ ARG EXIST_VERSION=6.2.0
 # replace my-edition with name of your app
 COPY --from=tei /tmp/${APP_NAME}/build/*.xar /exist/autodeploy/
 COPY --from=tei /tmp/*.xar /exist/autodeploy/
+
+# Copy static files
+COPY --from=tei /tmp/${APP_NAME}/public /exist/autodeploy/${APP_NAME}/public
 
 WORKDIR /exist
 

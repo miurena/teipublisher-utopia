@@ -1,8 +1,16 @@
 {
-  "name" : "demo-multilingual-utopia-january-2024",
-  "version" : "1.0.0",
-  "description" : "190124 Multilingual Utopia",
-  "dependencies" : {
-    "@teipublisher/pb-components" : "2.4.5"
-  }
+	"name": "demo-multilingual-utopia-january-2024",
+	"version": "1.0.0",
+	"description": "190124 Multilingual Utopia",
+	"scripts": {
+		"build:css": "tailwind build templates/tailwind.css -o public/tailwind.css"
+	},
+	"dependencies": {
+		"@teipublisher/pb-components": "2.4.5",
+		"autoprefixer": "^10.4.19",
+		"postcss-cli": "^11.0.0"
+	},
+	"devDependencies": {
+		"tailwindcss": "^3.4.4"
+	}
 }

@@ -36,7 +36,13 @@ if ($exist:path eq '') then
 else if ($exist:path eq "/") then
     (: forward root path to index.xql :)
     <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
-        <redirect url="index.html"/>
+        <forward url="public/index.html"/>
+    </dispatch>
+
+ else if (matches($exist:path, "^/public/.*$")) then
+    (: serve files from public directory directly :)
+    <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
+        <forward url="{concat("apps/demo-multilingual-utopia-january-2024", $exist:path)}"/>
     </dispatch>
 
 (: static HTML page for API documentation should be served directly to make sure it is always accessible :)
