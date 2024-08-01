@@ -1,0 +1,2170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Chapter 7</title>
+                <funder>This work has been developed thanks to a doctoral fellowship granted in 2020
+                    by the Spanish Ministry of Universities</funder>
+                <respStmt>
+                    <name>Inmaculada Ureña Asensio</name>
+                    <resp>transcription and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1">First edition<date> July 2024</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>TEIPublisher</publisher>
+                <pubPlace>
+                    <ref><!-- URL?--></ref>
+                </pubPlace>
+                <date>2024</date>
+            </publicationStmt>
+            <notesStmt>
+                <note>I especially want to thank the DSG at NU for the support during my research
+                    visit at Northeastern University in 2023.</note>
+                <note>Thanks to my thesis director.</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Utopia de Thomas Moro, traducida de latin en Caſtellano por Don Geronimo
+                        Antonio de Medinilla i Porres, Cauallero de la Orden de Santiago,
+                        Cavallerizo de ſu Mageſtad, Señor de las Villas de Bocos, Rozas, i Remolino,
+                        Corregidor, i Iuſticia mayor de la Ciudad de Cordova, i ſu tierra. </title>
+                    <author role="writer" xml:id="person-1">Thomas More (1478-1535)</author>
+                    <author role="translator" xml:id="person-2">Gerónimo de Medinilla y Porres
+                        (1590-c.1642)</author>
+                    <publisher>por Salvador de Cea Tesa</publisher>
+                    <date>1637</date>
+                    <pubPlace>Córdoba</pubPlace>
+                </bibl>
+                <bibl>
+                    <title>The Utopia of Thomas More, in Latin from the edition of March 1518, and
+                        in English from the first edition of Ralph Robinson's translation in
+                        1551</title>
+                    <title/>
+                    <author role="writer" ref="#person-1">Thomas More (1478-1535)</author>
+                    <author role="translator" xml:id="person-3">Ralph Robinson (1520-1577)</author>
+                    <editor>L. H. Lupton</editor>
+                    <publisher>Clarendon Press</publisher>
+                    <date>1895</date>
+                    <pubPlace>Oxford</pubPlace>
+                </bibl>
+                <!-- lists -->
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>This edition was developed as part of my thesis dissertation titled "A Digital
+                    Edition of the 1637 Spanish translation of Thomas More's Utopia". The processes
+                    of data modeling, encoding and publishing the edition was done during a research
+                    visit at Northeastern University.</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>section to describe the rationale of the edition</p>
+            </samplingDecl>
+            <editorialDecl>
+                <normalization>
+                    <p>The only text modernized is the translation. The elements modernized are the
+                        following: <list>
+                            <item/>
+                        </list>
+                    </p>
+                </normalization>
+                <punctuation>
+                    <p>The original punctuation system has been preserved in the 1637 Spanish
+                        translation, the 1551 English translation and the Latin original. The
+                        modifications concerning punctuation in the modernized version of the
+                        Spanish text have already been specified in the previous section.</p>
+                </punctuation>
+                <segmentation>
+                    <p>The texts have been segmented into sentences to facilitate alignment. The
+                        principle followed... </p>
+                </segmentation>
+            </editorialDecl>
+            <refsDecl>
+                <p> Explain here the reference system (linking?) use gi to refer to elements and
+                    attr to refer to attributes</p>
+            </refsDecl>
+            <classDecl>
+                <taxonomy>
+                    <desc/>
+                </taxonomy>
+                <!-- Place names and identifiers 
+              
+              #place-1 -> London
+              #place-2 -> Amauroto
+              
+              People names and identifiers
+              
+              #person-1 -> Thomas More
+              #person-2 -> Raphael Hythloday
+              #person-3 -> Utopo
+              
+              (work?) positions list
+              #position-1 -> labrador
+              #position-2 -> magistrado
+              
+              Geographical names
+              #geogr-1 -> Isla de los Utopienses/Utopia (Abraxa)
+              #geogr-2 -> Utopia continente
+              
+              Numbers (maybe for the future)
+              #quant-1 -> 
+              
+              -->
+            </classDecl>
+            <schemaSpec ident="TEI"/>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="es">seventeenth-century Spanish</language>
+                <language ident="es-ES">Castilian Spanish</language>
+                <language ident="la">Latin</language>
+                <language ident="en">sixteenth-century English</language>
+            </langUsage>
+        </profileDesc>
+        <!-- copy of Spanish Library (ref) and where I took the copy from Lupton -->
+
+        <revisionDesc>
+            <change when="2024-03-04">Version 1.0 <!-- example --></change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="base" xml:lang="es">
+                <div type="chapter" n="7">
+                    <head type="chapter">De los Eſclavos. Cap. VII.</head>
+                    <ab>
+                        <seg n="7.1" type="sentence">
+                            <s xml:id="es-7-1-1" n="es 7.1">NO tienen por <app>
+                                    <lem>eſclavos, los</lem>
+                                    <rdg wit="1790">esclavos á los</rdg>
+                                    <rdg wit="1805">esclavos á los</rdg></app> que en la guerra
+                                hazen priſioneros, aun de aquellos que la començaron, ni a los hijos
+                                de los eſclavos, ni a otro alguno, que eſte en ſervidumbre a cerca
+                                de otras naciones, aunque los puedan comprar: <app>
+                                    <lem>mas a ſolos</lem>
+                                    <rdg wit="1790">sí [sic] solo á</rdg>
+                                    <rdg wit="1805">sí solo á</rdg></app> aquellos que han ſido
+                                condenados por algun delito a eſclavitud, o los de otras naciones,
+                                que eſtan entregados a tal ſuplicio, por exceſo que ayan cometido
+                                qual ſuce de ordinariamente; i aſsi tienen muchos por bajo
+                                    precio.<anchor n="123" xml:id="note-7-1"/></s>
+                        </seg>
+                        <seg n="7.2" type="sentence">
+                            <s xml:id="es-7-2-1" n="es 7.2">Traen ocupados ſiempre a eſtos eſclavos,
+                                i en priſiones, <app>
+                                    <lem>mas tratan los propios</lem>
+                                    <rdg wit="1790">tratandoles</rdg>
+                                    <rdg wit="1805">tratandoles</rdg></app> riguroſamente, juzgando
+                                que ſon incorregibles, i merecedores de mas graves caſtigos; pues
+                                que ſiendo educados tan egregiamente en la virtud, no ſe hã podido
+                                abſtener del vicio.<anchor n="124" xml:id="note-7-2"/></s>
+                        </seg>
+                        <seg n="7.3" type="sentence">
+                            <s xml:id="es-7-3-1" n="es 7.3">Hallaſe alli otra ſuerte de ſervidumbre,
+                                quando alguno otro eſtrangero acoſtumbrado al travajo, pobre, i de
+                                baja condicion elige el ſervirlos.<anchor n="125" xml:id="note-7-3"
+                                /></s>
+                        </seg>
+                        <seg n="7.4" type="sentence">
+                            <s xml:id="es-7-4-1" n="es 7.4">A los deſta calidad, excepto que les dan
+                                un poco de mas afan, tratan benignamente, i los tienen por poco
+                                menos que a Ciudadanos, <app>
+                                    <lem>ſi</lem>
+                                    <rdg wit="1790">pero</rdg>
+                                    <rdg wit="1805">pero</rdg></app> alguno ſe quiere deſpedir (que
+                                ſucede raras vezes) no lo detienen contra ſu voluntad, ni los embian
+                                ſin galardon.</s>
+                        </seg>
+                        <seg n="7.5" type="sentence">
+                            <s xml:id="es-7-5-1" n="es 7.5">A los enfermos aſiſten con gran caridad,
+                                no dexando atras ningũ medicamento, i gobierno de vivir, que le <app>
+                                    <lem>importe a reſtituir</lem>
+                                    <rdg wit="1790">importe restituir</rdg>
+                                    <rdg wit="1805">importe restituir</rdg></app> la ſalud, al que
+                                le falta.<anchor n="126" xml:id="note-7-4"/></s>
+                        </seg>
+                        <seg n="7.6" type="sentence">
+                            <s xml:id="es-7-6-1" n="es 7.6">Si alguno padece enfermedad prolija, le
+                                entretienen hablando con el, i ſirviendole aligerã ſu calamidad: mas
+                                ſi la enfermedad es incurable, i de continuo dolor los Sacerdotes, i
+                                el Magiſtrado lo confortan, <app>
+                                    <lem>que</lem>
+                                    <rdg wit="1790">persuadiendole que</rdg>
+                                    <rdg wit="1805">persuadiendole que</rdg></app> hallandoſe ya
+                                inepto a los oficios de la vida, moleſto a los otros, i peſado aſsi
+                                miſmo, que no quiera ſobrepujar a la propia muerte, alimentando la
+                                maligna enfermedad, i que ſiendo la vida un tormento, no dude el
+                                morir, antes tenga eſperança de ſalir de tan acervo eſtado, o
+                                quitandoſe el propio la vida, o dejandoſe matar: pues dejara
+                                muriendo aquella miſeria, i no comodidades.</s>
+                        </seg>
+                        <seg n="7.7" type="sentence">
+                            <s xml:id="es-7-7-1" n="es 7.7"><app>
+                                    <lem>Vltra deſto</lem>
+                                    <rdg wit="1790">Además de esto</rdg>
+                                    <rdg wit="1805">Además de esto</rdg></app> ſiguiendo el conſejo
+                                de los Sacerdotes, interpretes de la voluntad de Dios executaran una
+                                obra ſanta i pia, los que ſe dejan perſuadir, <app>
+                                    <lem>o</lem>
+                                    <rdg wit="1790">y</rdg>
+                                    <rdg wit="1805">y</rdg></app> con abſtinencia fenecen la vida, o
+                                durmiendo ſe dejan matar, mas no hazen morir a alguno contra ſu
+                                voluntad, ni faltan a adminiſtrarlos en la enfermedad,
+                                pareciendoles, que eſta ſea una honeſta ocupacion.</s>
+                        </seg>
+                        <seg n="7.8" type="sentence">
+                            <s xml:id="es-7-8-1" n="es 7.8">Mas ſi alguno ſe mata ſin el
+                                conſentimiento de los Sacerdotes, i del Magiſtrado no le dan
+                                ſepultura, i arrojã ſu cuerpo en una laguna.<anchor n="127"
+                                    xml:id="note-7-5"/></s>
+                        </seg>
+                        <seg n="7.9" type="sentence">
+                            <s xml:id="es-7-9-1" n="es 7.9">No ſe caſan las mugeres haſta los doze
+                                años, ni los hombres haſta los diez i ſeis: i ſi antes del
+                                matrimonio ſon aprehendidos en aƈto de deſoneſtidad ſon caſtigados
+                                gravemente, i privados perpetuamente del matrimonio, ſi el Principe
+                                movido de piedad, no les perdona el yerro, caſtigãdo eſta culpa
+                                atrozmente, previniẽdo que pocos ſe caſarian voluntariamente,
+                                obligandoſe a cohabitar con una ſola muger, i tolerar las moleſtias
+                                del matrimonio, ſi una vez ſe acoſtumbraſſen a comunicar, aora eſta,
+                                aora aquella.<anchor n="128" xml:id="note-7-6"/></s>
+                        </seg>
+                        <seg n="7.10" type="sentence">
+                            <s xml:id="es-7-10-1" n="es 7.10">En el elegir muger tienen un modo a mi
+                                parecer ridiculo, mas reputado por ellos por prudentiſsimo, una
+                                honrada matrona manifieſta la doncella, o viuda, qual ella ſea
+                                deſnuda al eſpoſo: e igualmente un varon grave mueſtra tan bien
+                                deſnudo el contrayente a la dama.<anchor n="129" xml:id="note-7-7"
+                                /></s>
+                        </seg>
+                        <seg n="7.11" type="sentence">
+                            <s xml:id="es-7-11-1" n="es 7.11">I reprehendiendo yo eſta coſtumbre,
+                                como inepta, reſponden, que ſe maravillan de la locura de las
+                                gentes, que en el comprar un cavallo donde ſe trata de poco precio,
+                                van con tanto recato, que lo quieren ver ſin ſilla, porque debajo,
+                                della no ſe encubra alguna matadura.<anchor n="130"
+                                    xml:id="note-7-8"/></s>
+                        </seg>
+                        <seg n="7.12" type="sentence">
+                            <s xml:id="es-7-12-1" n="es 7.12">I en el elegir la muger, que puede <app>
+                                    <lem>dar, o ſolaz</lem>
+                                    <rdg wit="1790">dar soláz</rdg>
+                                    <rdg wit="1805">dar soláz</rdg></app>, o deſplacer, mientras,
+                                que dura la vida, ſon tan negligentes, que ſe contentã de verla toda
+                                cubierta, i embuelta, ſin reconocer mas que el roſtro: i toda via
+                                podria eſconder algun defeƈto, por el qual le deſcontentaria de
+                                averla eligido.<anchor n="131" xml:id="note-7-9"/></s>
+                        </seg>
+                        <seg n="7.13" type="sentence">
+                            <s xml:id="es-7-13-1" n="es 7.13">No todos ſon de tanta ſabiduria, que
+                                atiendan ſolamente a las coſtumbres, antes en los matrimonios de los
+                                mas reſavidos, los dotes del cuerpo hazen mas gratos los del animo:
+                                verdaderamente tal imperfeccion podria eſconderſe debajo de los
+                                atavios, que la muger ſiempre fueſſe odioſa al marido: i eſto ſe
+                                deve prevenir por las leyes, para que no ſuceda el engaño, porq̃
+                                ellos ſolos entre las demas naciones ſe contentan con unas ſolas
+                                bodas, ni diſuelven el matrimonio, ſino es por el adulterio, o por
+                                otra intolerable moleſtia, o defeƈto.</s>
+                        </seg>
+                        <seg n="7.14" type="sentence">
+                            <s xml:id="es-7-14-1" n="es 7.14">En tal caſo el Senado concede al
+                                inocente el bolverſe a caſar, i el culpado queda infame, i privado
+                                del matrimonio perpetuamente.</s>
+                        </seg>
+                        <seg n="7.15" type="sentence">
+                            <s xml:id="es-7-15-1" n="es 7.15">No quieren que la muger que no ha
+                                errado ſea repudiada contra ſu voluntad, aunque cayeſſe en qualquier
+                                accidental calamidad del cuerpo, pareciendoles crueldad, q̃ ſe
+                                abandone la perſona, quando neceſsitamos de conſuelo, porque la
+                                vejez, que trae conſigo la enfermedad, ſeria deſdeñada del
+                                conſorte.</s>
+                        </seg>
+                        <seg n="7.16" type="sentence">
+                            <s xml:id="es-7-16-1" n="es 7.16">Sucede <app>
+                                    <lem>a las</lem>
+                                    <rdg wit="1790">algunas</rdg>
+                                    <rdg wit="1805">algunas</rdg></app> vezes, que no conformandoſe
+                                en las coſtumbres, i hallando entrambos a dos con quien eſperan
+                                vivir mas ſuavemente ſe ſeparan, i contraen entre ſi con la
+                                autoridad del Senado, que no admite el divorcio, ſi primero no
+                                conocẽ las cauſas del, i aun las inquieren de la propia muger; i ſe
+                                rinden con dificultad a eſto, porque no ſe eſpere facilmente mudar
+                                el matrimonio.</s>
+                        </seg>
+                        <seg n="7.17" type="sentence">
+                            <s xml:id="es-7-17-1" n="es 7.17">Caſtigan cõ duriſsima ſervidumbre los
+                                adulteros, i ſi entrambos a dos lo ſon, ſe concede, que dexando el
+                                adulterio ſe caſen entrambos, o por lo menos con otro; mas ſi aquel
+                                que es ofendido ama tanto al ofenſor, que no quiere hazer divorcio,
+                                no le eſtorban prevalecer en el matrimonio, porque quiera ſeguir en
+                                la obra al condenado; i ordinariamente a ſucedido, que el ſolicito
+                                ſufrimiento del inocente ha obtenido la libertad del culpado: mas el
+                                q̃ adultera deſpues deſte perdon, es caſtigado con pena
+                                    capital.<anchor n="132" xml:id="note-7-10"/></s>
+                        </seg>
+                        <seg n="7.18" type="sentence">
+                            <s xml:id="es-7-18-1" n="es 7.18">A las otras culpas no han ſeñalado
+                                caſtigo, mas ſegun el delito, ſe ſigue el ſuplicio, mas, o menos
+                                grave, como le aduitria el Senado.</s>
+                        </seg>
+                        <seg n="7.19" type="sentence">
+                            <s xml:id="es-7-19-1" n="es 7.19">Los maridos caſtigan las mugeres, i
+                                los padres a ſus hijos, ſino cometen qualquier inorme delito, que
+                                deba caſtigarſe publicamente.</s>
+                        </seg>
+                        <seg n="7.20" type="sentence">
+                            <s xml:id="es-7-20-1" n="es 7.20"><app>
+                                    <lem>Mas caſi</lem>
+                                    <rdg wit="1790">Casi</rdg>
+                                    <rdg wit="1805">Casi</rdg>
+                                </app> todas las culpas ſon caſtigadas cõ ſervidumbre, lo qual no es
+                                menos proporcionado a la maldad, <app>
+                                    <lem>que cõmoda a</lem>
+                                    <rdg wit="1790">y cómodo á</rdg>
+                                    <rdg wit="1805">y cómodo á</rdg>
+                                </app> la Republica, que quitarle la vida, porq̃ ayudan mas con el
+                                travajo, que con la muerte, i con el exemplo continuo aperciben a
+                                los otros a guardarſe de ſemejãte culpa.<anchor n="133"
+                                    xml:id="note-7-11"/></s>
+                        </seg>
+                        <seg n="7.21" type="sentence">
+                            <s xml:id="es-7-21-1" n="es 7.21">Si en tal eſtado ſon perverſos
+                                inobedientes, luego como a veſtias indomitas los matan.<anchor
+                                    n="134" xml:id="note-7-12"/></s>
+                        </seg>
+                        <seg n="7.22" type="sentence">
+                            <s xml:id="es-7-22-1" n="es 7.22">Los ſufridos no eſtan fuera de
+                                eſperança, que tolerando el travajo, i las fatigas, en moſtrando,
+                                que les deſagrada mas el pecado, que el arrepentimiento <app>
+                                    <lem>le</lem>
+                                    <rdg wit="1790">les</rdg>
+                                    <rdg wit="1805">les</rdg>
+                                </app> ſuelen frãquear, mitigada la ſervidumbre por autoridad del
+                                Principe, o favor del pueblo.<anchor n="135" xml:id="note-7-13"
+                                /></s>
+                        </seg>
+                        <seg n="7.23" type="sentence">
+                            <s xml:id="es-7-23-1" n="es 7.23">No caſtigan menos al que ha provocado
+                                a alguna perſona a lujuria, que ſi uviera cometido el error,
+                                pareciendoles que la voluntad determinada a pecar, aunque no llegue
+                                a efeƈto,<app>
+                                    <lem>ſea</lem>
+                                    <rdg wit="1790">es</rdg>
+                                    <rdg wit="1805">es</rdg></app> merecedora del miſmo
+                                    caſtigo.<anchor n="136" xml:id="note-7-14"/></s>
+                        </seg>
+                        <seg n="7.24" type="sentence">
+                            <s xml:id="es-7-24-1" n="es 7.24">Deleitanſe con los ſimples naturales,
+                                mas no le es licito hazerles injuria, ni ſe los dan a cargo, a quien
+                                no guſta de ſus donaires, temiendo que los traten mal: no ſe permite
+                                eſcarnecer a alguno que ſea ſimple, o falto, pareciendo no pueſto en
+                                razon burlar, o mofar aquel vicio, que viene ſobre el hombre, ſin
+                                culpa ſuya. <anchor n="137" xml:id="note-7-15"/></s>
+                        </seg>
+                        <seg n="7.25" type="sentence">
+                            <s xml:id="es-7-25-1" n="es 7.25">Aſsi como tienen por deſcaecimiento el
+                                no cuidar de conſerbar la hermoſura natural, <app>
+                                    <lem>aſsi</lem>
+                                    <rdg wit="1790">igualmente</rdg>
+                                    <rdg wit="1805">igualmente</rdg></app> condenan al que con
+                                afeites, i adereços procura de aumentarla: teniendo por cierto, que
+                                la bondad de las coſtumbres haze mas grata la muger al marido, que
+                                ninguna otra velleza corporal.<anchor n="138" xml:id="note-7-16"
+                                /></s>
+                        </seg>
+                        <seg n="7.26" type="sentence">
+                            <s xml:id="es-7-26-1" n="es 7.26">null</s>
+                        </seg>
+                        <seg n="7.27" type="sentence">
+                            <s xml:id="es-7-27-1" n="es 7.27">No ſolamente ſe apartan de las
+                                maldades, por temor del caſtigo, <app>
+                                    <lem>mas</lem>
+                                    <rdg wit="1790">sino que</rdg>
+                                    <rdg wit="1805">sino que</rdg>
+                                </app> ſon incitados a la virtud con lo egregio de los honores.</s>
+                        </seg>
+                        <seg n="7.28" type="sentence">
+                            <s xml:id="es-7-28-1" n="es 7.28">Levantan en las plaças eſtatuas a los
+                                varones, que por la Republica han hecho empreſſas dignas, para que
+                                ſe conſerve la memoria de las obras iluſtres, i los decendientes
+                                ſean exortados a la virtud.</s>
+                        </seg>
+                        <seg n="7.29" type="sentence">
+                            <s xml:id="es-7-29-1" n="es 7.29">El que pretende algun pueſto, o
+                                Magiſtrado queda del todo privado del.<anchor n="139"
+                                    xml:id="note-7-17"/></s>
+                        </seg>
+                        <seg n="7.30" type="sentence">
+                            <s xml:id="es-7-30-1" n="es 7.30">Viven en unidad, i amigablemente,
+                                porque los Magiſtrados no ſe hazen <app>
+                                    <lem>terribles, i ſe llaman padres, i ſe</lem>
+                                    <rdg wit="1790">terribles, se llaman padres, se</rdg>
+                                    <rdg wit="1805">terribles, se llaman padres, se</rdg></app>
+                                portan como tales, i los pueblos los reſpetã con guſto.</s>
+                        </seg>
+                        <seg n="7.31" type="sentence">
+                            <s xml:id="es-7-31-1" n="es 7.31">El Principe no ſe diferencia de los
+                                demas cõ diadema, o corona, ſolo llevan delante del un manojuelo de
+                                eſpigas; i al Põtifice le acompañan cõ una antorcha.<anchor n="140"
+                                    xml:id="note-7-18"/></s>
+                        </seg>
+                        <seg n="7.32" type="sentence">
+                            <s xml:id="es-7-32-1" n="es 7.32">Tienen pocas <app>
+                                    <lem>leyes, abominan</lem>
+                                    <rdg wit="1790">leyes, y abominan</rdg>
+                                    <rdg wit="1805">leyes, y abominan</rdg></app> los otros pueblos
+                                que llenan de gloſas, e interpretaciones deſmeſurados volumenes.</s>
+                        </seg>
+                        <seg n="7.33" type="sentence">
+                            <s xml:id="es-7-33-1" n="es 7.33"><app>
+                                    <lem>Pareceles que ſea</lem>
+                                    <rdg wit="1790">pareciéndoles que es</rdg>
+                                    <rdg wit="1805">pareciéndoles que es</rdg></app> iniquidad <app>
+                                    <lem>obligar los</lem>
+                                    <rdg wit="1790">obligar á los</rdg>
+                                    <rdg wit="1805">obligar á los</rdg></app> hombres a tãtas leyes,
+                                que no ſe puedan leer, i tan obſcuras, que no ſon inteligibles.</s>
+                        </seg>
+                        <seg n="7.34" type="sentence">
+                            <s xml:id="es-7-34-1" n="es 7.34">No admiten Abogados.</s>
+                        </seg>
+                        <seg n="7.35" type="sentence">
+                            <s xml:id="es-7-35-1" n="es 7.35">Antes quieren que cada uno en juicio
+                                diga ſu razon; porque de tal manera ſe habla menos, i <app>
+                                    <lem>mejor ſe ſaca</lem>
+                                    <rdg wit="1790">se saca mejor</rdg>
+                                    <rdg wit="1805">se saca mejor</rdg></app> la verdad, quando ſe
+                                halla ſin adorno de palabras; los juezes con ſolicitud deſpachan las
+                                cauſas, i favorecen los ingenios ſencillos, contra los malignos, i
+                                aſtutos.</s>
+                        </seg>
+                        <seg n="7.36" type="sentence">
+                            <s xml:id="es-7-36-1" n="es 7.36">Porque con grande fatiga ſe puede
+                                obſervar en otras naciones tã dudoſas leyes: i en la Vtopia cada uno
+                                es Iuriſconſulto, porque tienen pocas, i acomodan con atencion la
+                                mas ſincera interpretacion, que ſe le puede dar; porque las ſutiles
+                                deduciones, no pueden ſer de todos entendidas; i eſto es contra la
+                                interpretacion de las leyes, las quales ſe dan para que ſean a todos
+                                    manifieſtas.<anchor n="141" xml:id="note-7-19"/></s>
+                        </seg>
+                        <seg n="7.37" type="untranslatedSegment">
+                            <s xml:id="es-7-37-1"/>
+                        </seg>
+                        <seg n="7.38" type="sentence">
+                            <s xml:id="es-7-38-1" n="es 7.38">Los pueblos vezinos, q̃ viven
+                                libremente, porque muchos han ſufrido la tirania, movidos deſta
+                                virtud, piden de los Vtopinſes Magiſtrados por un año, i ſuelen
+                                eſtar cinco; i quando han cumplido ſu oficio, los buelven
+                                honroſamente a ſus caſas, i conducen otros.<anchor n="142"
+                                    xml:id="note-7-20"/></s>
+                        </seg>
+                        <seg n="7.39" type="sentence">
+                            <s xml:id="es-7-39-1" n="es 7.39">I verdaderamente, que eſtos pueblos
+                                excelentemente previenen a ſu Republica la ſalud: porque eſta, o la
+                                ruina depende de las coſtumbres de los Magiſtrados: i no pueden
+                                hazer eleccion mas acertada por ſer los Vtopienſes de tal
+                                conſtancia, que no ſe doblan con ningun interes, i aviendo de bolver
+                                a la patria, no tienen ocaſion de hazer injuſticias.</s>
+                        </seg>
+                        <seg n="7.40" type="sentence">
+                            <s xml:id="es-7-40-1" n="es 7.40">Principalmente que no conociendo a los
+                                que goviernan, no <app>
+                                    <lem>pueden de alguno facilmente</lem>
+                                    <rdg wit="1790">pueden facilmente</rdg>
+                                    <rdg wit="1805">pueden facilmente</rdg></app> ſer perſuadidos de
+                                contravenir a la razon.</s>
+                        </seg>
+                        <seg n="7.41" type="sentence">
+                            <s xml:id="es-7-41-1" n="es 7.41"><app>
+                                    <lem>Que</lem>
+                                    <rdg wit="1790">porque</rdg>
+                                    <rdg wit="1805">porque</rdg></app> eſtos dos males de paſsion, i
+                                avaricia quãdo ſe apoderan de los juezes, previerten lo <app>
+                                    <lem>juſto, enflaquezen todo nervio</lem>
+                                    <rdg wit="1790">justo, y enflaquecen todo el nervio</rdg>
+                                    <rdg wit="1805">justo, y enflaquecen todo el nervio</rdg></app>
+                                de la Republica.</s>
+                        </seg>
+                        <seg n="7.42" type="sentence">
+                            <s xml:id="es-7-42-1" n="es 7.42">Los Vtopianos tienen por ſocios
+                                aquellos pueblos, a quiẽ dan Magiſtrados, i por amigos, a los que
+                                han hecho beneficios.</s>
+                        </seg>
+                        <seg n="7.43" type="sentence">
+                            <s xml:id="es-7-43-1" n="es 7.43">No hazen confederaciones, quales tan
+                                ordinariamente otros pueblos acoſtumbran a celebrallas, i
+                                renovallas.</s>
+                        </seg>
+                        <seg n="7.44" type="sentence">
+                            <s xml:id="es-7-44-1" n="es 7.44">
+                                <app>
+                                    <lem>Porq̃ ſe ha de hazer (dizen ellos) confederacion alguna,
+                                        baſtando a conciliar el hombre la comun naturaleza humana, i
+                                        no ayudando eſta, como podran prevalecer las palabras.</lem>
+                                    <rdg wit="1790">¿Por qué se ha de hacer (dicen ellos)
+                                        confederacion alguna, bastando á conciliar el hombre la
+                                        comun naturaleza humana? y no ayudando ésta ¿cómo podrán
+                                        prevalecer las palabras?</rdg>
+                                    <rdg wit="1805">¿Por qué se ha de hacer (dicen ellos)
+                                        confederacion alguna, bastando á conciliar el hombre la
+                                        comun naturaleza humana? y no ayudando ésta ¿cómo podrán
+                                        prevalecer las palabras?</rdg>
+                                </app>
+                            </s>
+                        </seg>
+                        <seg n="7.45" type="sentence">
+                            <s xml:id="es-7-45-1" n="es 7.45"><app>
+                                    <lem>Mas</lem>
+                                    <rdg wit="1790">a más que</rdg>
+                                    <rdg wit="1805">a más que</rdg></app> porque los aſsientos, i
+                                tratos de paz entre los Principes de aquella Provincia ſe obſervan
+                                poco fielmente.</s>
+                        </seg>
+                        <seg n="7.46" type="sentence">
+                            <s xml:id="es-7-46-1" n="es 7.46">En Europa eſpecialmente por reinar la
+                                Fè de Chriſto ſe guardan inviolablemente las confederaciones, parte
+                                por la juſtificaciõ, i bondad de los Principes, parte por la
+                                reverencia, i temor de los Sumos Pontifices, porque ſi cometen <app>
+                                    <lem>coſa alguna</lem>
+                                    <rdg wit="1790">alguna cosa</rdg>
+                                    <rdg wit="1805">alguna cosa</rdg></app>, que contravenga a la
+                                Religion, ordenan a los otros Principes mantengan ſu palabra; i con
+                                la ſeveridad de las cenſuras, obligan a los contumazes a guardar la
+                                    fè.<anchor n="143" xml:id="note-7-21"/></s>
+                        </seg>
+                        <seg n="7.47" type="sentence">
+                            <s xml:id="es-7-47-1" n="es 7.47">I tienen por deſprecio vituperable,
+                                que no ſe obſerve la fè en las confederaciones de aquellos, q̃
+                                particularmente ſe nombran fieles.</s>
+                        </seg>
+                        <seg n="7.48" type="sentence">
+                            <s xml:id="es-7-48-1" n="es 7.48"><app>
+                                    <lem>Mas</lem>
+                                    <rdg wit="1790">Pero</rdg>
+                                    <rdg wit="1805">Pero</rdg></app> en aquel nuevo mundo tan
+                                diſtante del nueſtro, quanto ſon verdaderamente deſemejantes las
+                                coſtumbres, no ſe aſſeguran de alianças, quando no ſe pueden hazer
+                                con tantas ceremonias, i ſacramentos, que no ſe hallè en las
+                                palabras alguna ambiguedad, expueſta al artificio, e interpretaciõ;
+                                i aſsi no ſe puede hazer cõfederaciõ alguna q̃ no eſte cerca de
+                                poderſe romper.</s>
+                        </seg>
+                        <seg n="7.49" type="sentence">
+                            <s xml:id="es-7-49-1" n="es 7.49">Mas ſi hallã los Principes ſemejantes
+                                al artificio, o al engaño los cõtratos de los hombres particulares,
+                                los cõdenã, como a ſacrilegos, i dignos de muerte, i eſto hariã
+                                principalmente los Conſejeros de los Reyes, los quales ſon tal vez
+                                autores de las fraudalentas confederaciones para q̃ ſe puedã
+                                violar.</s>
+                        </seg>
+                        <seg n="7.50" type="sentence">
+                            <s xml:id="es-7-50-1" n="es 7.50">De donde ſucede que no ſe hallè otra
+                                juſticia, ſi no es la humilde, i plebeya, inferior mucho de la Real
+                                Mageſtad, como ſi uvieſſe dos juſticias, una del vulgo humilde i
+                                bajo, la qual eſta atada con muchos nudos, para que no ſe atreva a
+                                ſer <app>
+                                    <lem>diſuelta: la</lem>
+                                    <rdg wit="1790">disuelta; y la</rdg>
+                                    <rdg wit="1805">disuelta; y la</rdg></app> otra de los Principes
+                                alta, i magnifica, a la qual tanto le ſea licito, quanto a ellos les
+                                agrade.</s>
+                        </seg>
+                        <seg n="7.51" type="sentence">
+                            <s xml:id="es-7-51-1" n="es 7.51">Yo me perſuado, a que los Vtopienſes
+                                no hazen alguna confederacion, porque los Principes de aquel Pais, <app>
+                                    <lem>ſon</lem>
+                                    <rdg wit="1790">sean</rdg>
+                                    <rdg wit="1805">sean</rdg></app> poco obſervantes de la palabra,
+                                <app>
+                                    <lem>i toda via ſi vivieſſen en eſte Emisferio, mudarian de
+                                    propoſito</lem>
+                                    <rdg wit="1790">(y todavía si viviesen en este emisferio mudarían de propósito)</rdg>
+                                    <rdg wit="1805">(y todavía si viviesen en este emisferio mudarían de propósito)</rdg></app>.<anchor n="144" xml:id="note-7-22"/></s>
+                        </seg>
+                        <seg n="7.52" type="sentence">
+                            <s xml:id="es-7-52-1" n="es 7.52"><app>
+                                <lem>Bien ellos</lem>
+                                <rdg wit="1790">sino porque</rdg>
+                                <rdg wit="1805">sino porque</rdg></app> juzgan que aunque fueſſen
+                                obſervadas las confederaciones con toda puntualidad, que no es bien
+                                hazerlas, porque ſe podrian tener por enemigos, aquellos pueblos,
+                                que ſon divididos con vn rio, o con un monte, no aviendo entre ellos
+                                tal ſeñal de diviſion, i por eſta guerrean entre ſi, antes que
+                                hechas las confederaciones, no ſe eſtrecha la amiſtad, i queda la
+                                licencia deſ ſaco, i del robo, no <app>
+                                    <lem>ſe aviendo por imprudencia podido cautelar</lem>
+                                    <rdg wit="1790">habiendose podido cautelar</rdg>
+                                    <rdg wit="1805">habiendose podido cautelar</rdg></app> ſuficientemente en la confederacion el rebatir la
+                                injuria.</s>
+                        </seg>
+                        <seg n="7.53" type="sentence">
+                            <s xml:id="es-7-53-1" n="es 7.53">Mas al contrario juzgan, que no ſe
+                                tenga a ninguno por enemigo, de quien no ſe aya recebido agravio, i
+                                que baſte la union natural en lugar de confederacion: porque los
+                                hombres con mas guſto, i con mayor firmeza ſe unen con los animos,
+                                que con palabras, o alianças.</s>
+                        </seg>
+                    </ab>
+                </div>
+            </div>
+            <div type="modernization" xml:lang="es">
+                <div type="chapter" n="7">
+                    <head type="chapter">De los esclavos. Capítulo VII.</head>
+                    <ab>
+                        <seg n="7.1" type="singleSentence">
+                            <seg xml:id="em-7-1-1" n="em 7.1" corresp="#es-7-1-1">No tienen por
+                                esclavos los que en la guerra hacen prisioneros, aun de ellos que la
+                                comenzaron, ni a los hijos de los esclavos ni a otro alguno que esté
+                                en servidumbre acerca de otras naciones, aunque los puedan comprar,
+                                mas a solos aquellos que han sido condenados por algún delito a
+                                esclavitud o los de otras naciones que están entregados a tal
+                                suplicio, por exceso que hayan cometido cual sucede ordinariamente,
+                                y así tienen muchos por bajo precio.</seg>
+                        </seg>
+                        <seg n="7.2" type="singleSentence">
+                            <seg xml:id="em-7-2-1" n="em 7.2" corresp="#es-7-2-1">Traen ocupados
+                                siempre a estos esclavos y en prisiones, mas tratan los propios
+                                rigurosamente, juzgando que son incorregibles y merecedores de más
+                                graves castigos, pues que, siendo educados tan egregiamente en la
+                                virtud, no se han podido abstener del vicio.</seg>
+                        </seg>
+                        <seg n="7.3" type="singleSentence">
+                            <seg xml:id="em-7-3-1" n="em 7.3" corresp="#es-7-3-1">Hallase allí otra
+                                suerte de servidumbre cuando algún otro extranjero acostumbrado al
+                                trabajo, pobre y de baja condición elige el servirlos.</seg>
+                        </seg>
+                        <seg n="7.4" type="multisentence">
+                            <seg xml:id="em-7-4-1" n="em 7.4" corresp="#es-7-4-1">A los de esta
+                                calidad, excepto que les dan un poco de más afán, tratan
+                                benignamente y los tienen por poco menos que a ciudadanos.</seg>
+                            <seg xml:id="em-7-4-2" n="em 7.5" corresp="#es-7-4-1">Si alguno se
+                                quiere despedir (que sucede raras veces), no lo detienen contra su
+                                voluntad ni los envían sin galardón.</seg>
+                        </seg>
+                        <seg n="7.5" type="singleSentence">
+                            <seg xml:id="em-7-5-1" n="em 7.6" corresp="#es-7-5-1">A los enfermos
+                                asisten con gran caridad, no dejando atrás ningún medicamento y
+                                gobierno de vivir que le importe a restituir la salud al que le
+                                falta.</seg>
+                        </seg>
+                        <seg n="7.6" type="multisentence">
+                            <seg xml:id="em-7-6-1" n="em 7.7" corresp="#es-7-6-1">Si alguno padece
+                                enfermedad prolija, le entretienen hablando con él y, sirviéndole,
+                                aligeran su calamidad.</seg>
+                            <seg xml:id="em-7-6-2" n="em 7.8" corresp="#es-7-6-1">Mas, si la
+                                enfermedad es incurable y de continuo dolor, los sacerdotes y el
+                                magistrado lo confortan, que hallándose ya inepto a los oficios de
+                                la vida, molesto a los otros y pesado así mismo, que no quiera
+                                sobrepujar a la propia muerte, alimentando la maligna enfermedad, y
+                                que siendo la vida un tormento, no dude morir, antes tenga esperanza
+                                de salir de tan acerbo estado o quitándose el propio la vida o
+                                dejándose matar, pues dejara muriendo aquella miseria y no
+                                comodidades.</seg>
+                        </seg>
+                        <seg n="7.7" type="singleSentence">
+                            <seg xml:id="em-7-7-1" n="em 7.9" corresp="#es-7-7-1">Ultra de esto,
+                                siguiendo el consejo de los sacerdotes, intérpretes de la voluntad
+                                de Dios, ejecutaran una obra santa y pía los que se dejan persuadir
+                                o con abstinencia fenecen la vida o durmiendo se dejan matar, mas no
+                                hacen morir a alguno contra su voluntad ni faltan a administrarlos
+                                en la enfermedad, pareciéndoles que esta sea una honesta
+                                ocupación.</seg>
+                        </seg>
+                        <seg n="7.8" type="singleSentence">
+                            <seg xml:id="em-7-8-1" n="em 7.10" corresp="#es-7-8-1">Mas, si alguno se
+                                mata sin el consentimiento de los sacerdotes y del magistrado, no
+                                dan sepultura y arrojan su cuerpo en una laguna.</seg>
+                        </seg>
+                        <seg n="7.9" type="multisentence">
+                            <seg xml:id="em-7-9-1" n="em 7.11" corresp="#es-7-9-1">No se casan las
+                                mujeres hasta los doce años ni los hombres hasta los
+                                dieciséis.</seg>
+                            <seg xml:id="em-7-9-2" n="em 7.12" corresp="#es-7-9-1">Y si antes del
+                                matrimonio son aprehendidos en acto de deshonestidad, son castigados
+                                gravemente y privados perpetuamente del matrimonio.</seg>
+                            <seg xml:id="em-7-9-3" n="em 7.13" corresp="#es-7-9-1">Si el príncipe,
+                                movido de piedad, no les perdona el yerro, castigando esta culpa
+                                atrozmente previniendo que pocos se casarían voluntariamente,
+                                obligándose a cohabitar con una sola mujer y tolerar las molestias
+                                del matrimonio si una vez se acostumbrasen a comunicar, ahora esta,
+                                ahora aquella.</seg>
+                        </seg>
+                        <seg n="7.10" type="multisentence">
+                            <seg xml:id="em-7-10-1" n="em 7.14" corresp="#es-7-10-1">En el elegir
+                                mujer tienen un modo a mi parecer ridículo, mas reputado por ellos
+                                por prudentísimo.</seg>
+                            <seg xml:id="em-7-10-2" n="em 7.15" corresp="#es-7-10-1">Una honrada
+                                matrona manifiesta la doncella o viuda, cual ella sea, desnuda al
+                                esposo e igualmente un varón grave muestra también desnudo el
+                                contrayente a la dama.</seg>
+                        </seg>
+                        <seg n="7.11" type="singleSentence">
+                            <seg xml:id="em-7-11-1" n="em 7.16" corresp="#es-7-11-1">Y
+                                reprehendiendo yo esta costumbre como inepta, responden que se
+                                maravillan de la locura de las gentes que en el comprar un caballo,
+                                donde se trata con poco precio, van con tanto recato que lo quieren
+                                ver sin silla, porque debajo de ella no se encubra alguna
+                                matadura.</seg>
+                        </seg>
+                        <seg n="7.12" type="multisentence">
+                            <seg xml:id="em-7-12-1" n="em 7.17" corresp="#es-7-12-1">Y en el elegir
+                                la mujer, que puede dar o solaz o desplacer mientras que dura la
+                                vida, son tan negligentes que se contentan de verla toda cubierta y
+                                envuelta, sin reconocer más que el rostro.</seg>
+                            <seg xml:id="em-7-12-2" n="em 7.18" corresp="#es-7-12-1">Y todavía
+                                podría esconder algún defecto por el cual le descontentaría de
+                                haberla elegido.</seg>
+                        </seg>
+                        <seg n="7.13" type="multisentence">
+                            <seg xml:id="em-7-13-1" n="em 7.19" corresp="#es-7-13-1">No todos son de
+                                tanta sabiduría que atiendan solamente a las costumbres, antes en
+                                los matrimonios de los más resabidos los dotes del cuerpo hacen más
+                                gratos los del ánimo.</seg>
+                            <seg xml:id="em-7-13-2" n="em 7.20" corresp="#es-7-13-1">Verdaderamente,
+                                tal imperfección podría esconderse debajo de los atavíos que la
+                                mujer siempre fuese odiosa al marido.</seg>
+                            <seg xml:id="em-7-13-3" n="em 7.21" corresp="#es-7-13-1">Y esto se debe
+                                prevenir por las leyes para que no suceda el engaño, porque ellos
+                                solos entre las demás naciones se contentan con unas solas bodas, ni
+                                disuelven el matrimonio si no es por el adulterio o por otra
+                                intolerable molestia o defecto.</seg>
+                        </seg>
+                        <seg n="7.14" type="singleSentence">
+                            <seg xml:id="em-7-14-1" n="em 7.22" corresp="#es-7-14-1">En tal caso, el
+                                senado concede al inocente el volverse a casar y el culpado queda
+                                infame y privado del matrimonio perpetuamente.</seg>
+                        </seg>
+                        <seg n="7.15" type="singleSentence">
+                            <seg xml:id="em-7-15-1" n="em 7.23" corresp="#es-7-15-1">No quieren que
+                                la mujer que no ha errado sea repudiada contra su voluntad aunque
+                                cayese en cualquier accidental calamidad del cuerpo, pareciéndoles
+                                crueldad que abandone la persona cuando necesitamos de consuelo,
+                                porque la vejez que trae consigo la enfermedad sería desdeñada del
+                                consorte.</seg>
+                        </seg>
+                        <seg n="7.16" type="multisentence">
+                            <seg xml:id="em-7-16-1" n="em 7.24" corresp="#es-7-16-1">Sucede a las
+                                veces que, no conformándose en las costumbres y hallando entrambos a
+                                dos con quien esperan vivir más suavemente, se separan y contraen
+                                entre sí con la autoridad del senado, que no admite el divorcio si
+                                primero no conocen las causas del y aun las inquieren de la propia
+                                mujer.</seg>
+                            <seg xml:id="em-7-16-2" n="em 7.25" corresp="#es-7-16-1">Y se rinden con
+                                dificultad a esto porque no se espere fácilmente mudar el
+                                matrimonio.</seg>
+                        </seg>
+                        <seg n="7.17" type="multisentence">
+                            <seg xml:id="em-7-17-1" n="em 7.26" corresp="#es-7-17-1">Castigan con
+                                durísima servidumbre los adulteros y, si entrambos a dos lo son, se
+                                concede que, dejando el adulterio se casen entrambos o por lo menos
+                                con otro.</seg>
+                            <seg xml:id="em-7-17-2" n="em 7.27" corresp="#es-7-17-1">Mas, si aquel
+                                que es ofendido ama tanto al ofensor que no quiere hacer divorcio,
+                                no le estorban prevalecer en el matrimonio porque quiera seguir en
+                                la obra al condenado.</seg>
+                            <seg xml:id="em-7-17-3" n="em 7.28" corresp="#es-7-17-1">Y
+                                ordinariamente ha sucedido que el solícito sufrimiento del inocente
+                                ha obtenido la libertad del culpado, mas el que adultera después de
+                                este perdón es castigado con pena capital.</seg>
+                        </seg>
+                        <seg n="7.18" type="singleSentence">
+                            <seg xml:id="em-7-18-1" n="em 7.29" corresp="#es-7-18-1">A las otras
+                                culpas no han señalado castigo, mas según el delito se sigue el
+                                suplicio más o menos graves, como le arbitra el senado.</seg>
+                        </seg>
+                        <seg n="7.19" type="singleSentence">
+                            <seg xml:id="em-7-19-1" n="em 7.30" corresp="#es-7-19-1">Los maridos
+                                castigan las mujeres y los padres a sus hijos, si no cometen
+                                cualquier enorme delito que deba castigarse públicamente.</seg>
+                        </seg>
+                        <seg n="7.20" type="singleSentence">
+                            <seg xml:id="em-7-20-1" n="em 7.31" corresp="#es-7-20-1">Mas casi todas
+                                las culpas son castigadas con servidumbre, lo cual no es menos
+                                proporcionado a la maldad que cómoda a la república que quitarle la
+                                vida, porque ayudan más con el trabajo que con la muerte y con el
+                                ejemplo continuo aperciben a los otros a guardarse de semejante
+                                culpa.</seg>
+                        </seg>
+                        <seg n="7.21" type="singleSentence">
+                            <seg xml:id="em-7-21-1" n="em 7.32" corresp="#es-7-21-1">Si en tal
+                                estado son perversos inobedientes, luego como a bestias indómitas
+                                los matan.</seg>
+                        </seg>
+                        <seg n="7.22" type="singleSentence">
+                            <seg xml:id="em-7-22-1" n="em 7.33" corresp="#es-7-22-1">Los sufridos no
+                                están fuera de esperanza que tolerando el trabajo y las fatigas, en
+                                mostrando que les desagrada más el pecado que el arrepentimiento le
+                                suelen franquear, mitigada la servidumbre por autoridad del príncipe
+                                o favor del pueblo.</seg>
+                        </seg>
+                        <seg n="7.23" type="singleSentence">
+                            <seg xml:id="em-7-23-1" n="em 7.34" corresp="#es-7-23-1">No castigan
+                                menos al que ha provocado a alguna persona a lujuria que si hubiera
+                                cometido el error, pareciéndoles que la voluntad determinada a
+                                pecar, aunque no llegue a efecto, sea merecedora del mismo
+                                castigo.</seg>
+                        </seg>
+                        <seg n="7.24" type="multisentence">
+                            <seg xml:id="em-7-24-1" n="em 7.35" corresp="#es-7-24-1">Se deleitan con
+                                los simples naturales, mas no le es lícito hacerles injuria ni se
+                                los dan a cargo a quien no gusta de sus donaires, temiendo que los
+                                traten mal.</seg>
+                            <seg xml:id="em-7-24-2" n="em 7.36" corresp="#es-7-24-1">No se permite
+                                escarnecer a alguno que sea simple o falto, pareciendo no puesto en
+                                razón burlar o mofar aquel vicio que viene sobre el hombre sin culpa
+                                suya.</seg>
+                        </seg>
+                        <seg n="7.25" type="singleSentence">
+                            <seg xml:id="em-7-25-1" n="em 7.37" corresp="#es-7-25-1">Así como tienen
+                                por descaecimiento el no cuidar de conservar la hermosura natural,
+                                así condenan al que con afeites y aderezos procura de aumentarla,
+                                teniendo por cierto que la bondad de las costumbres hace más grata
+                                la mujer al marido que ninguna otra belleza corporal.</seg>
+                        </seg>
+                        <!-- untranslated segment -->
+                        <seg n="7.26" type="untranslatedSegment">
+                            <seg xml:id="em-7-26-1" corresp="#es-7-26-1"/>
+                        </seg>
+                        <seg n="7.27" type="singleSentence">
+                            <seg xml:id="em-7-27-1" n="em 7.38" corresp="#es-7-27-1">No solamente se
+                                apartan de las maldades por temor del castigo, mas son incitados a
+                                la virtud con lo egregio de los honores.</seg>
+                        </seg>
+                        <seg n="7.28" type="singleSentence">
+                            <seg xml:id="em-7-28-1" n="em 7.39" corresp="#es-7-28-1">Levantan en las
+                                plazas estatuas a los varones que por la república han hecho
+                                empresas dignas, para que se conserve la memoria de las obras
+                                ilustres y los descendientes sean exhortados a la virtud.</seg>
+                        </seg>
+                        <seg n="7.29" type="singleSentence">
+                            <seg xml:id="em-7-29-1" n="em 7.40" corresp="#es-7-29-1">El que pretende
+                                algún puesto o magistrado queda del todo privado del.</seg>
+                        </seg>
+                        <seg n="7.30" type="singleSentence">
+                            <seg xml:id="em-7-30-1" n="em 7.41" corresp="#es-7-30-1">Viven en unidad
+                                y amigablemente, porque los magistrados no se hacen terribles y se
+                                llaman padres y se portan como tales, y los pueblos los respetan con
+                                gusto.</seg>
+                        </seg>
+                        <seg n="7.31" type="singleSentence">
+                            <seg xml:id="em-7-31-1" n="em 7.42" corresp="#es-7-31-1">El príncipe no
+                                se diferencia de los demás con diadema o corona, solo llevan delante
+                                de él un manojuelo de espigas, y al pontífice le acompañan con una
+                                antorcha.</seg>
+                        </seg>
+                        <seg n="7.32" type="multisentence">
+                            <seg xml:id="em-7-32-1" n="em 7.43" corresp="#es-7-32-1">Tienen pocas
+                                leyes.</seg>
+                            <seg xml:id="em-7-32-2" n="em 7.44" corresp="#es-7-32-1">Abominan los
+                                otros pueblos que llenan de glosas e interpretaciones desmesurados
+                                volúmenes.</seg>
+                        </seg>
+                        <seg n="7.33" type="singleSentence">
+                            <seg xml:id="em-7-33-1" n="em 7.45" corresp="#es-7-33-1">Les parece que
+                                sea inequidad obligar los hombres a tantas leyes que no se puedan
+                                leer y tan obscuras que no son inteligibles.</seg>
+                        </seg>
+                        <seg n="7.34" type="singleSentence">
+                            <seg xml:id="em-7-34-1" n="em 7.46" corresp="#es-7-34-1">No admiten
+                                abogados.</seg>
+                        </seg>
+                        <seg n="7.35" type="multisentence">
+                            <seg xml:id="em-7-35-1" n="em 7.47" corresp="#es-7-35-1">Antes quieren
+                                que cada uno en juicio diga su razón, porque de tal manera se habla
+                                menos y mejor se saca la verdad cuando se halla sin adorno de
+                                palabras.</seg>
+                            <seg xml:id="em-7-35-2" n="em 7.48" corresp="#es-7-35-1">Los jueces con
+                                solicitud despachan las causas y favoreen los ingenios sencillos
+                                contra los malignos y astutos.</seg>
+                        </seg>
+                        <seg n="7.36" type="multisentence">
+                            <seg xml:id="em-7-36-1" n="em 7.49" corresp="#es-7-36-1">Porque con gran
+                                fatiga se puede observar en otras naciones tan dudosas leyes y en la
+                                Utopía cada uno es jurisconsulto, porque tienen pocas y acomodan con
+                                atención la más sincera interpretación que se le puede dar porque
+                                las sutiles deducciones no pueden ser de todos entendidas.</seg>
+                            <seg xml:id="em-7-36-2" n="em 7.50" corresp="#es-7-36-1">Y esto es
+                                contra a interpretación de las leyes, las cuales se dan para que
+                                sean a todos manifiestas.</seg>
+                        </seg>
+                        <seg n="7.37" type="untranslatedSegment">
+                            <seg xml:id="em-7-37-1" corresp="#es-7-37-1"/>
+                        </seg>
+                        <seg n="7.38" type="multisentence">
+                            <seg xml:id="em-7-38-1" n="em 7.51" corresp="#es-7-38-1">Los pueblos
+                                vecinos, que viven libremente porque muchos han sufrido la tiranía,
+                                movidos de esta virtud, piden de los utopienses magistrados por un
+                                año y suelen estar cinco.</seg>
+                            <seg xml:id="em-7-38-2" n="em 7.52" corresp="#es-7-38-1">Y cuando han
+                                cumplido su oficio, los vuelven honrosamente a sus casas y conducen
+                                otros.</seg>
+                        </seg>
+                        <seg n="7.39" type="multisentence">
+                            <seg xml:id="em-7-39-1" n="em 7.53" corresp="#es-7-39-1">Y
+                                verdaderamente que estos pueblos excelentemente previenen a su
+                                república la salud porque esta o la ruina depende de las costumbres
+                                de los magistrados.</seg>
+                            <seg xml:id="em-7-39-2" n="em 7.54" corresp="#es-7-39-1"> Y no pueden
+                                hacer elección más acertada por ser los utopienses, de tal
+                                constancia que no se doblan con ningún interés y, habiendo de volver
+                                a la patria, no tienen ocasión de hacer injusticias.</seg>
+                        </seg>
+                        <seg n="7.40" type="singleSentence">
+                            <seg xml:id="em-7-40-1" n="em 7.55" corresp="#es-7-40-1">Principalmente,
+                                que no conociendo a los que gobiernan, no pueden de alguno
+                                fácilmente ser persuadidos de contravenir a la razón.</seg>
+                        </seg>
+                        <seg n="7.41" type="singleSentence">
+                            <seg xml:id="em-7-41-1" n="em 7.56" corresp="#es-7-41-1">Que estos dos
+                                males de pasión y avaricia, cuando se apoderan de los jueces,
+                                pervierten lo justo, enflaquecen todo nervio de la república.</seg>
+                        </seg>
+                        <seg n="7.42" type="singleSentence">
+                            <seg xml:id="em-7-42-1" n="em 7.57" corresp="#es-7-42-1">Los utopianos
+                                tienen por socios aquellos pueblos a quien dan magistrados y por
+                                amigos a los que han hecho beneficios.</seg>
+                        </seg>
+                        <seg n="7.43" type="singleSentence">
+                            <seg xml:id="em-7-43-1" n="em 7.58" corresp="#es-7-43-1">No hacen
+                                confederaciones, cuales tan ordinariamente otros pueblos acostumbras
+                                a celebrarlas y renovarlas.</seg>
+                        </seg>
+                        <seg n="7.44" type="singleSentence">
+                            <seg xml:id="em-7-44-1" n="em 7.59" corresp="#es-7-44-1">Porque se ha de
+                                hacer (dicen ellos) confederación alguna, bastando a conciliar el
+                                hombre la común naturaleza humana y no ayudando esta como podrán
+                                prevalecer las palabras.</seg>
+                        </seg>
+                        <seg n="7.45" type="singleSentence">
+                            <seg xml:id="em-7-45-1" n="em 7.60" corresp="#es-7-45-1">Mas porque los
+                                asientos y tratos de paz entre los príncipes de aquella provincia se
+                                observan poco fielmente.</seg>
+                        </seg>
+                        <seg n="7.46" type="multisentence">
+                            <seg xml:id="em-7-46-1" n="em 7.61" corresp="#es-7-46-1">En Europa
+                                especialmente, por reinar la fe de Cristo, se guardan
+                                inviolablemente las confederaciones, parte por la justificación y
+                                bondad de los príncipes, parte por la reverencia y temor de los
+                                sumos pontífices, porque si cometen cosa alguna que contravenga a la
+                                religión, ordenan a los otros príncipes mantengan su palabra.</seg>
+                            <seg xml:id="em-7-46-2" n="em 7.62" corresp="#es-7-46-1">Y con la
+                                severidad de las censuras, obligan a los contumaces a guardar la
+                                fe.</seg>
+                        </seg>
+                        <seg n="7.47" type="singleSentence">
+                            <seg xml:id="em-7-47-1" n="em 7.63" corresp="#es-7-47-1">Y tienen por
+                                desprecio vituperable que no se observe la fe en las confederaciones
+                                de aquellos que particularmente se nombran fieles.</seg>
+                        </seg>
+                        <seg n="7.48" type="multisentence">
+                            <seg xml:id="em-7-48-1" n="em 7.64" corresp="#es-7-48-1">Mas en aquel
+                                nuevo mundo tan distante del nuestro, cuanto son verdaderamente
+                                desemejantes las costumbres, no se aseguran de alianzas cuando no se
+                                pueden hacer con tantas ceremonias y sacramento que no se halle en
+                                las palabras alguna ambigüedad expuesta al artificio e
+                                interpretación.</seg>
+                            <seg xml:id="em-7-48-2" n="em 7.65" corresp="#es-7-48-1">Y así no se
+                                pueden hacer confederación alguna que no esté cerca de poderse
+                                romper.</seg>
+                        </seg>
+                        <seg n="7.49" type="singleSentence">
+                            <seg xml:id="em-7-49-1" n="em 7.66" corresp="#es-7-49-1">Mas si hallan
+                                los prínciples semejantes al artificio o al engaño los contratos de
+                                los hombres particulares, los condenan como a sacrílegos y dignos de
+                                muerte, y esto harían principalmente los consejeros de los reyes,
+                                los cuales son tal vez autores de las fraudulentas confederaciones
+                                para que se puedan violar.</seg>
+                        </seg>
+                        <seg n="7.50" type="singleSentence">
+                            <seg xml:id="em-7-50-1" n="em 7.67" corresp="#es-7-50-1">De donde sucede
+                                que no se halle otra justicia si no es la humilde y plebeya,
+                                inferior mucho de la real majestad como si hubiese dos justicias,
+                                una del vulgo humilde y bajo, la cual está atada con muchos nudos
+                                para que no se atreva a ser disuelta, la otra de los príncipes alta
+                                y magnífica, a la cual tanto le sea lícito cuanto a ellos les
+                                agrade.</seg>
+                        </seg>
+                        <seg n="7.51" type="singleSentence">
+                            <seg xml:id="em-7-51-1" n="em 7.68" corresp="#es-7-51-1">Yo me persuado
+                                a que los utopienses no hacen alguna confederación porque los
+                                príncipes de aquel país son poco observantes de la palabra y
+                                todavía, si viviesen en este hemisferio, mudarían de
+                                propósito.</seg>
+                        </seg>
+                        <seg n="7.52" type="multisentence">
+                            <seg xml:id="em-7-52-1" n="em 7.69" corresp="#es-7-52-1">Bien ellos
+                                juzgan que, aunque fuesen observadas las confederaciones con toda
+                                puntualidad, que no es bien hacerlas porque se podrían tener por
+                                enemigos aquellos pueblos que son divididos con un río o con un
+                                monte, no habiendo entre ellos tal señal de división.</seg>
+                            <seg xml:id="em-7-52-2" n="em 7.70" corresp="#es-7-52-1">Y por esta
+                                guerrean entre sí, antes que hechas las confederaciones no se
+                                estrecha la amistad y queda la licencia del saco y del robo, no se
+                                habiendo por imprudencia podido cautelar suficientemente en la
+                                confederación el rebatir la injuria.</seg>
+                        </seg>
+                        <seg n="7.53" type="singleSentence">
+                            <seg xml:id="em-7-53-1" n="em 7.71" corresp="#es-7-53-1">Mas al
+                                contrario juzgan que no se tenga a ninguno por enemigo de quien no
+                                se haya recibido agravio y que baste la unión natural en lugar de
+                                confederación, porque los hombres con más gusto y con mayor firmeza
+                                se unen con los ánimos que con palabras o alianzas.</seg>
+                        </seg>
+                    </ab>
+                </div>
+            </div>
+            <div type="original" xml:lang="la">
+                <div type="chapter" n="7">
+                    <head type="chapter">DE SERVIS.</head>
+                    <ab>
+                        <seg n="7.1" type="multisentence" subtype="translated">
+                            <seg xml:id="la-7-1-1" n="la 7.1" corresp="#es-7-1-1">PRo seruis neque
+                                bello captos habent, nisi ab ipsis gesto, neque seruorum filios,
+                                neque denique quenquam quem apud alias gentes seruientem possent
+                                comparare, sed aut si cuius apud se flagitium in seruitium uertitur,
+                                aut quos apud exteras urbes (quod genus multo frequentius est)
+                                admissum facinus destinauit supplicio.</seg>
+                            <seg xml:id="la-7-1-2" n="la 7.2" corresp="#es-7-1-1">Eorum enim multos,
+                                interdum aestimatos uili, saepius etiam gratis impetratos,
+                                auferunt.</seg>
+                        </seg>
+                        <seg n="7.2" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-2-1" n="la 7.3" corresp="#es-7-2-1">Haec seruorum
+                                genera non in opere solum perpetuo, uerum etiam in uinculis habent;
+                                sed suos durius: quos eo deplora­tiores, ac deteriora meritos
+                                exempla censent, quod tam praeclara educatione ad uirtutem egregie
+                                instructi contineri tamen ab scelere non potuerint.</seg>
+                        </seg>
+                        <seg n="7.3" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-3-1" n="la 7.4" corresp="#es-7-3-1">Aliud seruorum
+                                genus est, quum alterius populi mediastinus quis­piam laboriosus ac
+                                pauper elegerit apud eos sua sponte seruire.</seg>
+                        </seg>
+                        <seg n="7.4" type="multisentence" subtype="translated">
+                            <seg xml:id="la-7-4-1" n="la 7.5" corresp="#es-7-4-1">Hos honeste
+                                tractant, ac nisi quod laboris, ut pote consuetis, imponitur
+                                plusculum, non multo minus clementer ac ciues habent.</seg>
+                            <seg xml:id="la-7-4-2" n="la 7.6" corresp="#es-7-4-1">uolentem discedere
+                                (quod non saepe fit) neque retinent inuitum neque inanem
+                                dimittunt.</seg>
+                        </seg>
+                        <seg n="7.5" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-5-1" n="la 7.7" corresp="#es-7-5-1">Egrotantes, ut
+                                dixi, magno cum adfectu curant, nihilque prorsus omittunt, quo
+                                sanitati eos, uel medicinae uel uictus obseruatione,
+                                restituant.</seg>
+                        </seg>
+                        <seg n="7.6" type="multisentence" subtype="translated">
+                            <seg xml:id="la-7-6-1" n="la 7.8" corresp="#es-7-6-1">Quin insanabili
+                                morbo laborantes assidendo, colloquendo, adhibendo demum quae
+                                possunt leuamenta, solantur.</seg>
+                            <seg xml:id="la-7-6-2" n="la 7.9" corresp="#es-7-6-1">Caeterum si non
+                                immedicabilis modo morbus sit, uerumetiam perpetuo uexet atque
+                                discruciet, tum sacer­dotes ac magistratus hortantur hominem,
+                                quandoquidem omnibus uitae muniis impar, aliis molestus ac sibi
+                                grauis, morti iam suae superuiuat, ne secum statuat pestem diutius
+                                ac lucem alere, neue, quum tormentum ei uita sit, mori dubitet; quin
+                                bona spe fretus acerba ilia uita uelut carcere atque aculeo uel ipse
+                                semet eximat, uel ab aliis eripi se sua uoluntate patiatur.</seg>
+                        </seg>
+                        <seg n="7.7" type="multisentence" subtype="translated">
+                            <seg xml:id="la-7-7-1" n="la 7.10" corresp="#es-7-7-1">hoc illum, quum
+                                non commoda sed supplicium abrupturus morte sit, prudenter facturum;
+                                quoniam nero sacerdotum in ea re consiliis, id est, interpretum dei,
+                                sit obsecuturus, etiam pie sancteque facturum.</seg>
+                            <seg xml:id="la-7-7-2" n="la 7.11" corresp="#es-7-7-1">Haec quibus
+                                persuaserint, aut inedia sponte uitam finiunt, aut sopiti sine
+                                mortis sensu soluuntur.</seg>
+                            <seg xml:id="la-7-7-3" n="la 7.12" corresp="#es-7-7-1">Inuitum nero
+                                neminem tollunt, nec officii erga eum quicquani imminuunt.</seg>
+                            <seg xml:id="la-7-7-4" n="la 7.13" corresp="#es-7-7-1">persuasos hoc
+                                pacto defungi honorificum.</seg>
+                        </seg>
+                        <seg n="7.8" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-8-1" n="la 7.14" corresp="#es-7-8-1">Alioqui qui
+                                mortem sibi consciuerit causa non probata sacerdotibus et senatui,
+                                hunc neque terra neque igne dignantur; sed in paludem aliquam
+                                turpiter insepultus abii­citur.</seg>
+                        </seg>
+                        <seg n="7.9" type="multisentence" subtype="translated">
+                            <seg xml:id="la-7-9-1" n="la 7.15" corresp="#es-7-9-1">Foemina non ante
+                                annum duodeuicesimum nubit.</seg>
+                            <seg xml:id="la-7-9-2" n="la 7.16" corresp="#es-7-9-1">Mas non nisi
+                                expletis quatuor etiam amplius.</seg>
+                            <seg xml:id="la-7-9-3" n="la 7.17" corresp="#es-7-9-1">Ante coniugium
+                                aut foemina si conuincatur furtiuae libidinis, grauiter in eum eamue
+                                animaduertitur, coniugioque illis in totum interdicitur, nisi uenia
+                                principis noxam remiserit.</seg>
+                            <seg xml:id="la-7-9-4" n="la 7.18" corresp="#es-7-9-1">sed et pater et
+                                ma­terque familias cuius in domo admissum flagitium est, tanquam
+                                suas partes parum diligenter tutati, magnae obiacent infamiae.</seg>
+                            <seg xml:id="la-7-9-5" n="la 7.19" corresp="#es-7-9-1">id facinus ideo
+                                tam seuere uindicant, quod futurum prospiciunt, ut rari in
+                                coniugalem amorem coalescerent, in quo aetatem omnem cum uno uideant
+                                exigendam, et perferendas insuper quas ea res affert molestias, nisi
+                                a uago concubitu diligenter arceantur.</seg>
+                        </seg>
+                        <seg n="7.10" type="multisentence" subtype="translated">
+                            <seg xml:id="la-7-10-1" n="la 7.20" corresp="#es-7-10-1">Porro in
+                                deligendis coniugibus ineptissimum ritum (uti nobis uisum est)
+                                adprimeque ridiculum, illi serio ac seuere obseruant.</seg>
+                            <seg xml:id="la-7-10-2" n="la 7.21" corresp="#es-7-10-1">Mulierem enim,
+                                seu uirgo seu uidua sit, grauis et honesta matrona proco nudam
+                                exhibet; ac probus aliquis uir uicissim nudum puellae procum
+                                sistit.</seg>
+                        </seg>
+                        <seg n="7.11" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-11-1" n="la 7.22" type="partial" part="I"
+                                next="#la-2-12-1" corresp="#es-7-11-1">Hunc morem quum uelut ineptum
+                                ridentes improbaremus, illi contra caeterarum omnium gentium
+                                insignem demirari stultitiam, qui quum in equuleo comparando, ubi de
+                                paucis agitur nummis, tam cauti sint, ut, quamuis fere nudum, nisi
+                                detracta sella tamen omnibusque reuulsis ephippiis, recusent emere,
+                                ne sub illis operculis hulcus aliquod delitesceret;</seg>
+                        </seg>
+                        <seg n="7.12" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-12-1" n="la 7.22" type="partial" part="F"
+                                prev="#la-2-11-1" corresp="#es-7-12-1">in deligenda coniuge, qua ex
+                                re aut uoluptas aut nausea sit totam per uitam comitatura, tam
+                                negligenter agant, ut, reliquo corpore uestibus obuoluto, totam
+                                mulierem uix ab unius palmae spatio (nihil enim praeter uultum
+                                uisitur) aestiment, adiun­gantque sibi non absque magno (si quid
+                                offendat postea) male cohaerendi periculo.</seg>
+                        </seg>
+                        <seg n="7.13" type="multisentence" subtype="translated">
+                            <seg xml:id="la-7-13-1" n="la 7.23" corresp="#es-7-13-1">Nam neque omnes
+                                tam sapientes sunt ut solos mores respiciant, et in ipsorum quoque
+                                sapientum coniugiis ad animi uirtutes non nihil additamenti corporis
+                                etiam dotes adiciunt.</seg>
+                            <!--corregir frase a partir de aquí-->
+                            <seg xml:id="la-7-13-2" n="la 7.24" corresp="#es-7-13-1">certe tam foeda
+                                deformitas latere sub illis potest inuolucris, ut alienare prorsus
+                                animum ab uxore queat, quum corpore iam seiungi non liceat.</seg>
+                            <seg xml:id="la-7-13-3" n="la 7.25" corresp="#es-7-13-1">Qualis
+                                deformitas si quo casu contingat post contractas nup­tias, suam
+                                quisque sortem necesse ferat: ante uero ne quis capiatur insidiis
+                                legibus caueri debet; idque tanto maiore studio fuit curandum, quod
+                                et soli illarum orbis plagarum singulis sunt contenti coniugibus, et
+                                matrimonium ibi haud saepe aliter quam morte soluitur, nisi
+                                adulterium in causa fuerit, aut morum non ferenda molestia. </seg>
+                        </seg>
+                        <seg n="7.14" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-14-1" n="la 7.26" corresp="#es-7-14-1">Nempe alterutri
+                                sic offenso facta ab senatu coniugis mutandi uenia: alter infamem
+                                simul ac caelibem perpetuo uitam ducit.</seg>
+                        </seg>
+                        <seg n="7.15" type="multisentence" subtype="translated">
+                            <seg xml:id="la-7-15-1" n="la 7.27" corresp="#es-7-15-1">Alioquin
+                                inuitam coniugem, cuius nulla sit noxa, repudiare, quod corporis
+                                obtigerit calamitas, id uero nullo pacto ferunt.</seg>
+                            <seg xml:id="la-7-15-2" n="la 7.28" corresp="#es-7-15-1">nam et crudele
+                                iudicant tum quenquam deseri, cum maxime eget solatio, et senectuti,
+                                quum et morbos afferat et morbus ipsa sit, incertam atque infirmam
+                                fidem fore.</seg>
+                        </seg>
+                        <seg n="7.16" type="multisentence" subtype="translated">
+                            <seg xml:id="la-7-16-1" n="la 7.29" corresp="#es-7-16-1">Caeterum
+                                accidit interdum ut quum non satis inter se coniugum conueniant
+                                mores, repertis utrique aliis quibus cum sperent se suauius esse
+                                uicturos, amborum sponte separati noua matrimonia contrahant, haud
+                                absque senatus auctoritate tamen, qui nisi causa per se atque uxores
+                                suas diligenter cognita diuortia non admittit.</seg>
+                            <seg xml:id="la-7-16-2" n="la 7.30" corresp="#es-7-16-1">Imo ne sic
+                                quidem facile, quod rem minime utilem sciunt firmandae coniugum
+                                charitati, facilem nouarum nup­tiarum spem esse propositam.</seg>
+                        </seg>
+                        <seg n="7.17" type="multisentence" subtype="translated">
+                            <seg xml:id="la-7-17-1" n="la 7.31" corresp="#es-7-17-1">Temeratores
+                                coniugii grauissima seruitute plectuntur; et, si neuter erat
+                                caelebs, iniuriam passi (uelint modo) repudiatis adulteris coniugio
+                                inter se ipsi iunguntur; alioquin quibus uidebitur.</seg>
+                            <seg xml:id="la-7-17-2" n="la 7.32" corresp="#es-7-17-1">At si laesorum
+                                alteruter erga tam male merentem coniugem in amore persistat, tamen
+                                uti coniugii lege non prohibetur, si uelit in opera damnatum sequi:
+                                acciditque interdum ut alterius poenitentia, alterius officiosa
+                                sedulitas, miserationem commouens principi, libertatem rursus
+                                impetret.</seg>
+                            <seg xml:id="la-7-17-3" n="la 7.33" corresp="#es-7-17-1">Caeterum ad
+                                scelus iam relapso nex infligitur.</seg>
+                        </seg>
+                        <seg n="7.18" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-18-1" n="la 7.34" corresp="#es-7-18-1">Caeteris
+                                facinoribus nullam certam poenam lex ulla praestituit, sed ut
+                                quodque atrox aut contra uisum est, ita supplicium senatus
+                                decernit.</seg>
+                        </seg>
+                        <seg n="7.19" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-19-1" n="la 7.35" corresp="#es-7-19-1">Vxores mariti
+                                castigant, et parentes liberos; nisi quid tam ingens admiserint, ut
+                                id publice puniri morum intersit.</seg>
+                        </seg>
+                        <seg n="7.20" type="multisentence" subtype="translated">
+                            <seg xml:id="la-7-20-1" n="la 7.36" corresp="#es-7-20-1">sed fere
+                                grauissima quaeque scelera seruitutis incommodo puniuntur; id
+                                siquidem et sceleratis non minus triste et reipublicae magis
+                                commodum arbi­trantur, quam si mactare noxios et protenus amoliri
+                                festinent.</seg>
+                            <seg xml:id="la-7-20-2" n="la 7.37" corresp="#es-7-20-1">Nam et labore
+                                quam nece magis prosunt, et exemplo diutius alios ab simili flagitio
+                                deterrent.</seg>
+                        </seg>
+                        <seg n="7.21" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-21-1" n="la 7.38" corresp="#es-7-21-1">quod si sic
+                                habiti rebellent atque recalcitrent, tum demum uelut indomitae
+                                beluae, quos cohercere career et catena non potest,
+                                trucidantur.</seg>
+                        </seg>
+                        <seg n="7.22" type="multisentence" subtype="translated">
+                            <seg xml:id="la-7-22-1" n="la 7.39" corresp="#es-7-22-1">At patientibus
+                                non adimitur omnis omnino spes.</seg>
+                            <seg xml:id="la-7-22-2" n="la 7.40" corresp="#es-7-22-1">quippe longis
+                                domiti malis si eam poenitentiam prae se ferant, quae peccatum
+                                testetur magis eis displicere quam poenam, principis inter­dum
+                                praerogatiua, interdum suffragiis populi, aut mitigatur seruitus aut
+                                remittitur.</seg>
+                        </seg>
+                        <seg n="7.23" type="multisentence" subtype="translated">
+                            <seg xml:id="la-7-23-1" n="la 7.41" corresp="#es-7-23-1">Sollicitasse ad
+                                stuprum nihilo minus quam stuprasse periculi est.</seg>
+                            <seg xml:id="la-7-23-2" n="la 7.42" corresp="#es-7-23-1">In omni
+                                siquidem flagitio certum destinatumque conatum aequant facto.</seg>
+                            <seg xml:id="la-7-23-3" n="la 7.43" corresp="#es-7-23-1">neque enim id
+                                quod defuit ei putant prodesse debere, per quem non stetit quominus
+                                nihil defuerit.</seg>
+                        </seg>
+                        <seg n="7.24" type="multisentence" subtype="translated">
+                            <seg xml:id="la-7-24-1" n="la 7.44" corresp="#es-7-24-1">Moriones in
+                                delitiis habentur, quos ut affecisse contumeliis magno in probro
+                                est, ita uoluptatem ab stultitia capere non uetant.</seg>
+                            <seg xml:id="la-7-24-2" n="la 7.45" corresp="#es-7-24-1">Siquidem id
+                                morionibus ipsis maximo esse bono censent, cuius qui tam seuerus ac
+                                tristis est ut nullum neque factum neque dictum rideat, ei tutandum
+                                non credunt, ueriti ne non satis indulgenter curetur ab eo, cui non
+                                modo nulli usui, sed ne oblectamento quidem (qua sola dote ualent)
+                                futurus esset.</seg>
+                            <seg xml:id="la-7-24-3" n="la 7.46" corresp="#es-7-24-1">Irridere
+                                deformem aut mutilum turpe ac deforme non ei qui ridetur habetur,
+                                sed irrisori, qui cuiquam, quod in eius potestate non erat ut
+                                fugeret, id uitii loco stulte exprobret.</seg>
+                        </seg>
+                        <seg n="7.25" type="multisentence" subtype="translated">
+                            <seg xml:id="la-7-25-1" n="la 7.47" corresp="#es-7-25-1">Vt enim formam
+                                naturalem non tueri segnis atque inertis ducunt, sic adiumentum ab
+                                fucis quaerere infamis apud illos insolentia est.</seg>
+                            <seg xml:id="la-7-25-2" n="la 7.48" corresp="#es-7-25-1">Vsu enim ipso
+                                sentiunt, quam non ullum formae decus uxores, aeque ac morum
+                                probitas et reuerentia, commendet maritis.</seg>
+                        </seg>
+                        <seg n="7.26" type="singleSentence" subtype="untranslated">
+                            <seg xml:id="la-7-26-1" n="la 7.49" corresp="#es-7-26-1">Nam ut forma
+                                nonnulli sola capiuntur, ita nemo nisi uirtute atque obsequio
+                                retinetur.</seg>
+                        </seg>
+                        <seg n="7.27" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-27-1" n="la 7.50" corresp="#es-7-27-1">Non poenis
+                                tantum deterrent a flagitiis, sed propositis quoque honoribus ad
+                                uirtutes inuitant.</seg>
+                        </seg>
+                        <seg n="7.28" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-28-1" n="la 7.51" corresp="#es-7-28-1">ideoque statuas
+                                uiris insignibus et de republica praeclare meritis in foro
+                                collocant, in rerum bene gestarum memoriam, simul ut ipsorum
+                                posteris maiorum suorum gloria calcar et incitamentum ad uirtutem
+                                sit.</seg>
+                        </seg>
+                        <seg n="7.29" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-29-1" n="la 7.52" corresp="#es-7-29-1">Qui magistratum
+                                ullum ambierit, exspes omnium redditur.</seg>
+                        </seg>
+                        <seg n="7.30" type="multisentence" subtype="translated">
+                            <seg xml:id="la-7-30-1" n="la 7.53" corresp="#es-7-30-1">Conuiuunt
+                                amabiliter, quippe nec magistratus ullus insolens aut terribilis
+                                est.</seg>
+                            <seg xml:id="la-7-30-2" n="la 7.54" corresp="#es-7-30-1">patres
+                                appellantur et exhibent.</seg>
+                            <seg xml:id="la-7-30-3" n="la 7.55" corresp="#es-7-30-1">iisdem
+                                defertur, ut debet, ab uolentibus honor, non ab inuitis
+                                exigitur.</seg>
+                        </seg>
+                        <seg n="7.31" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-31-1" n="la 7.56" corresp="#es-7-31-1">Ne principem
+                                quidem ipsum uestis aut diadema, sed gestatus frumenti manipulus
+                                discernit, ut pontificis insigne est praelatus cereus.</seg>
+                        </seg>
+                        <seg n="7.32" type="multisentence" subtype="translated">
+                            <seg xml:id="la-7-32-1" n="la 7.57" corresp="#es-7-32-1">Leges habent
+                                perquam paucas, sufficiunt enim sic institutis paucis­simae.</seg>
+                            <seg xml:id="la-7-32-2" n="la 7.58" corresp="#es-7-32-1">Quin hoc in
+                                primis apud alios improbant populos, quod legum interpretumque
+                                uolumina non infinita sufficiunt.</seg>
+                        </seg>
+                        <seg n="7.33" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-33-1" n="la 7.59" corresp="#es-7-33-1">Ipsi uero
+                                censent iniquissimum, ullos homines his obligari legibus, quae aut
+                                numerosiores sint quam ut perlegi queant, aut obscuriores quam ut a
+                                quouis possint intel­ligi.</seg>
+                        </seg>
+                        <seg n="7.34" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-34-1" n="la 7.60" corresp="#es-7-34-1">porro
+                                causidicos, qui causas tractent callide ac leges uafre disputent,
+                                prorsus omnes excludunt.</seg>
+                        </seg>
+                        <seg n="7.35" type="multisentence" subtype="translated">
+                            <seg xml:id="la-7-35-1" n="la 7.61" corresp="#es-7-35-1">censent enim ex
+                                usu esse ut suam quisque causam agat, eademque referat iudici quae
+                                narraturus patrono fuerat.</seg>
+                            <seg xml:id="la-7-35-2" n="la 7.62" corresp="#es-7-35-1">Sic et minus
+                                ambagum fore et facilius elici ueritatem, dum, eo dicente quem
+                                nullus patronus fucum docuit, iudex solerter expendit singula, et
+                                contra uersutorum calumnias simplicioribus ingeniis
+                                opitulatur.</seg>
+                        </seg>
+                        <seg n="7.36" type="multisentence" subtype="translated">
+                            <seg xml:id="la-7-36-1" n="la 7.63" corresp="#es-7-36-1">haec apud alias
+                                gentes in tanto perplexissimarum aceruo legum difficile est
+                                obseruari.</seg>
+                            <seg xml:id="la-7-36-2" n="la 7.64" corresp="#es-7-36-1">Caeterum apud
+                                eos unusquisque est legis peritus.</seg>
+                            <seg xml:id="la-7-36-3" n="la 7.65" corresp="#es-7-36-1">Nam et sunt (ut
+                                dixi) paucissimae; et interpretationum praeterea ut quaeque est
+                                maxime crassa, ita maxime aequam censent.</seg>
+                            <seg xml:id="la-7-36-4" n="la 7.66" corresp="#es-7-36-1">Nempe quum
+                                omnes leges (inquiunt) ea tantum causa promulgentur, ut ab hiis
+                                quisque sui commonefiat officii, subtilior interpretatio paucissimos
+                                admonet (pauci enim sunt qui assequantur), quum interim simplicior
+                                ac magis obuius legum sensus omnibus in aperto sit.</seg>
+                        </seg>
+                        <seg n="7.37" type="singleSentence" subtype="untranslated">
+                            <seg xml:id="la-7-37-1" n="la 7.67" corresp="#es-7-37-1">alioquin, quod
+                                ad uulgus attinet, cuius et maximus est numerus et maxime eget
+                                admonitu, quid referat utrum legem omnino non condas, an conditam in
+                                talem interpreteris sententiam, quam nisi magno ingenio et longa
+                                disputatione nemo possit eruere, ad quam inuestigandam neque crassum
+                                uulgi iudicium queat attingere, neque uita in com­parando uictu
+                                occupata sufficere.</seg>
+                        </seg>
+                        <seg n="7.38" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-38-1" n="la 7.68" corresp="#es-7-38-1">Hiis eorum
+                                uirtutibus incitati finitimi, qui quidem liberi sunt et suae spontis
+                                (multos enim ipsi iam olim tyrannide liberauerunt) magistra­tus sibi
+                                ab illis, alii quotannis, alii in lustrum impetrant; quos defunctos
+                                imperio cum honore ac laude reducunt, nouosque secum rursus in
+                                patriam reuehunt.</seg>
+                        </seg>
+                        <seg n="7.39" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-39-1" n="la 7.69" type="partial" part="I"
+                                next="#la-7-40-1" corresp="#es-7-39-1">Atque hi quidem populi optime
+                                profecto ac saluberrime rei publicae suae consulunt: cuius et sal us
+                                et pernicies quum ab morihus magistratuum pendeat, quos nam
+                                potuissent elegisse prudentius, </seg>
+                        </seg>
+                        <seg n="7.40" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-40-1" n="la 7.69" type="partial" part="F"
+                                prev="#la-7-39-1" corresp="#es-7-40-1">quam qui neque ullo precio
+                                queant ab honesto deduci (utpote quod breui sit remigraturis
+                                inutile) ignoti ciuibus, aut prauo cuiusquam studio aut simultate
+                                flecti.</seg>
+                        </seg>
+                        <seg n="7.41" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-41-1" n="la 7.70" corresp="#es-7-41-1">Quae duo mala,
+                                affectus atque auaritiae, sicubi incubuere iudiciis, illico
+                                iustitiam omnem, fortissimum reipublicae neruum, dissoluunt.</seg>
+                        </seg>
+                        <seg n="7.42" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-42-1" n="la 7.71" corresp="#es-7-42-1">Hos Vtopiani
+                                populos, quibus qui imperent ab ipsis petuntur, appellant socios,
+                                caeteros quos beneficiis auxerunt amicos uocant.</seg>
+                        </seg>
+                        <seg n="7.43" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-43-1" n="la 7.72" corresp="#es-7-43-1">Foedera, quae
+                                reliquae inter se gentes toties ineunt, frangunt ac renouant, ipsi
+                                nulla cum gente feriunt.</seg>
+                        </seg>
+                        <seg n="7.44" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-44-1" n="la 7.73" corresp="#es-7-44-1">Quorsum enim
+                                foedus, inquiunt, quasi non hominem homini satis natura conciliet;
+                                quam qui contempserit, hunc uerba scilicet putes curaturum?</seg>
+                        </seg>
+                        <seg n="7.45" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-45-1" n="la 7.74" corresp="#es-7-45-1">In hanc
+                                sententiam eo uel maxime tra­huntur, quod in illis terrarum plagis
+                                foedera pactaque principum solent parum bona fide seruari.</seg>
+                        </seg>
+                        <seg n="7.46" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-46-1" n="la 7.75" corresp="#es-7-46-1">Etenim in
+                                Europa, idque his potissi­mum partibus quas CHRISTI fides et religio
+                                possidet, sancta est et inuiolabilis ubique maiestas foederum,
+                                partim ipsa iustitia et bonitate principum, partim summorum
+                                reuerentia metuque pontificum, qui ut nihil in se recipiunt ipsi,
+                                quod non religiosissime praestant, ita caeteros omnes principes
+                                iubent ut pollicitis omnibus modis immorentur, tergi­uersantes uero
+                                pastorali censura et seueritate compellunt.</seg>
+                        </seg>
+                        <seg n="7.47" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-47-1" n="la 7.76" corresp="#es-7-47-1">Merito sane
+                                censent turpissimam rem uideri si illorum foederibus absit fides qui
+                                peculiari nomine fideles appellantur.</seg>
+                        </seg>
+                        <seg n="7.48" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-48-1" n="la 7.77" corresp="#es-7-48-1">At in illo nouo
+                                orbe terrarum, quem circulus aequator uix tam longe ab hoc nostro
+                                orbe semouet, quam uita moresque dissident, foederum nulla fiducia
+                                est; quorum ut quoque plurimis ac sanctissi­mis ceremoniis innodatum
+                                fuerit, ita citissime soluitur, inuenta facile in uerbis calumnia,
+                                quae sic interim de industria dictant callide, ut nunquam tam firmis
+                                adstringi uinculis queant, quin elabantur aliqua, foedusque et fidem
+                                pariter eludant.</seg>
+                        </seg>
+                        <seg n="7.49" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-49-1" n="la 7.78" corresp="#es-7-49-1">Quam uafriciem,
+                                imo quam fraudem dolumque, si priuatorum deprehenderent interuenisse
+                                con­tractui, magno supercilio rem sacrilegam et furca dignam
+                                clamitarent hi nimirum ipsi, qui eius consilii principibus dati
+                                semet gloriantur autores.</seg>
+                        </seg>
+                        <seg n="7.50" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-50-1" n="la 7.79" corresp="#es-7-50-1">Quo fit ut
+                                iustitia tota uideatur aut non nisi plebea uirtus et humilis,
+                                quaeque longo interuallo subsidat infra regale fastigium, aut uti
+                                saltem duae sint, quarum altera uulgus deceat, pedestris et
+                                humi­repa, neue usquam septa transilire queat, multis undique
+                                restricta uinculis; altera principum uirtus, quae sicuti sit quam
+                                ilia popularis augustior, sic est etiam longo interuallo liberior,
+                                ut cui nihil non liceat nisi quod non libeat.</seg>
+                        </seg>
+                        <seg n="7.51" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-51-1" n="la 7.80" corresp="#es-7-51-1">Hos mores, ut
+                                dixi, principum illic foedera tam male seruantium puto in causa esse
+                                ne ulla feriant Vtopienses, mutaturi fortasse sen­tentiam si hie
+                                uiuerent.</seg>
+                        </seg>
+                        <seg n="7.52" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-52-1" n="la 7.81" corresp="#es-7-52-1">Quanquam illis
+                                uidetur, ut optime seruentur, male tamen inoleuisse foederis omnino
+                                sanciendi consuetudinem; qua fit ut (perinde ac si populum populo,
+                                quos exiguo spacio collis tantum aut riuus discriminat, nulla
+                                naturae societas copularet) hostes atque inimicos inuicem sese natos
+                                putent, meritoque in mutuam grassari perniciem, nisi foedera
+                                prohibeant: quin his ipsis quoque initis non amicitiam coalescere
+                                sed manere praedandi licentiam, quatenus per imprudentiam dictandi
+                                foederis nihil quod prohibeat satis caute com­prehensum in pactis
+                                est.</seg>
+                        </seg>
+                        <seg n="7.53" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-7-53-1" n="la 7.82" corresp="#es-7-53-1">At illi contra
+                                censent, neminem pro inimico habendum, a quo nihil iniuriae
+                                profectum est; naturae consortium foederis uice esse; et satius
+                                ualentiusque homines inuicem beneuo­lentia quam pactis, animo quam
+                                uerbis, connecti.</seg>
+                        </seg>
+                    </ab>
+                </div>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="chapter" n="7">
+                    <head type="chapter">Of Bondemen, sicke persons, wedlocke, and dyuers other
+                        matters.</head>
+                    <ab>
+                        <seg n="7.1" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-1-1" n="en 7.1" corresp="#es-7-1-1">THey nother make
+                                bondemen of prysoners taken in battayll, oneles yt be in battaylle
+                                that the fowghte themselfes, nor bondemens chyldren, nor, to be
+                                shorte, annye man whome they canoe gette owte of an othere
+                                countreye, thoughe he were theyre a bondeman; but other suche as
+                                amonge themseifes for heynous offences be punnyshed wyth bondage, or
+                                elles suche as in the Cytyes of other landes for greate trespasses
+                                be condempned to deathe.</seg>
+                            <seg xml:id="en-7-1-2" n="en 7.2" corresp="#es-7-1-1">And of thys sorte
+                                of bondemen they haue mooste stoore.</seg>
+                            <seg xml:id="en-7-1-3" n="en 7.3" corresp="#es-7-1-1">For manye of them
+                                they brynge home, sumtymes payinge very lytle for them; yea, mooste
+                                com­monlye gettynge them for gramercye.</seg>
+                        </seg>
+                        <seg n="7.2" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-2-1" n="en 7.4" corresp="#es-7-2-1">Thyes sortes of
+                                bondemen they kepe not onelye in contynuall woorke and laboure, but
+                                alsoo in bandes.</seg>
+                            <seg xml:id="en-7-2-2" n="en 7.5" corresp="#es-7-2-1">But theyre owne
+                                men they handle hardeste, whome they judge more desperate, and to
+                                haue deseruede greater punnysshemente; bycause they, beynge so
+                                godlye broughte vp to vertue, in soo excellente a common wealthe,
+                                cowlde not for all that be refreyned from mysdoynge.</seg>
+                        </seg>
+                        <seg n="7.3" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-7-3-1" n="en 7.6" corresp="#es-7-3-1">An other kynde of
+                                bondemen they haue, when a vyle drudge, beynge a poore laborer in an
+                                other cowntreye, dothe chewse of hys owne fee wyll to be a bondeman
+                                amonge them.</seg>
+                        </seg>
+                        <seg n="7.4" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-4-1" n="en 7.7" corresp="#es-7-4-1">Thyes they handle
+                                and order honestelye, and enterteyne almooste as gentyllye, as
+                                theyre owne free cytyzeyns; sauynge that they put them to a lytle
+                                more laboure, as thereto accustomede.</seg>
+                            <seg xml:id="en-7-4-1" n="en 7.8" corresp="#es-7-4-1">Yf annye suche be
+                                dysposed to departe thens (whyche seldome ys seene) they nother
+                                holde hym agaynste hys wyll, nother sende hym awaye wyth emptye
+                                handes.</seg>
+                        </seg>
+                        <seg n="7.5" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-7-5-1" n="en 7.9" corresp="#es-7-5-1">The sycke (as I
+                                sayde) they see to wyth greate affec­tyon, and lette nothynge at all
+                                passe, concernynge other Physycke or good dyete, wherby they may be
+                                restored agayne to theyre healthe.</seg>
+                        </seg>
+                        <seg n="7.6" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-6-1" n="en 7.10" corresp="#es-7-6-1">Them that be
+                                sycke of in­curable dyseases they comforte wyth syttynge by them,
+                                wyth talkynge wyth them, and, to be shorte, wyth all maner of helpes
+                                that maye be.</seg>
+                            <seg xml:id="en-7-6-2" n="en 7.11" corresp="#es-7-6-1">But yf the
+                                dysease be not onelye vncurable, but also full of contynuall payne
+                                and anguyshe, then the priestes and the magistrates exhort the man,
+                                seynge he ys not able to doo annye dewtye of lyffe, and by
+                                ouerlyuing hys owne deathe is noysome and yrke­some to other, and
+                                greuous to hymself; that he wyll determyne with hymselfe no longer
+                                to cheryshe that pestilent and peynefull dysease: and, seynge hys
+                                lyfe ys to hym but a tourmente, that he wyll nott bee vnwyllynge too
+                                dye, but rather take a good hope to hym, and other dyspatche
+                                hymselfe owte of that paynfull lyffe, as owte of a pryson or a racke
+                                of tormente, or elles suffer hym selfe wyllynglye to be rydde owte
+                                of yt by other.</seg>
+                            <seg xml:id="en-7-6-3" n="en 7.12" corresp="#es-7-6-1">And in so doynge
+                                they tell hym he shal doo wyselye, seynge by hys deathe he shall
+                                lyse no commodytye, but ende hys payne.</seg>
+                        </seg>
+                        <seg n="7.7" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-7-1" n="en 7.13" corresp="#es-7-7-1">And bycause in
+                                that acte he shall followe the cownsell of the pryestes, that is to
+                                saye of the interpreters of goddes wyll and pleasure, they shewe hym
+                                that he shall do lyke a godly and a vertuouse man.</seg>
+                            <seg xml:id="en-7-7-2" n="en 7.14" corresp="#es-7-7-1">They that be thus
+                                per­suaded fynyshe theyre lyues wyllynglye, othere wyth hunger, or
+                                elles dye in theyre sleape wythowte annye fealnige of deathe.</seg>
+                            <seg xml:id="en-7-7-3" n="en 7.15" corresp="#es-7-7-1">But they cause
+                                none suche to dye agaynste hys wyll; nor they vse no lesse dilygence
+                                and attendaunce about hym; beleuynge thys to be an honor­able
+                                deathe.</seg>
+                        </seg>
+                        <seg n="7.8" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-7-8-1" n="en 7.16" corresp="#es-7-8-1">Elles he that
+                                kylleth hym selfe before that the pryestes and the cownsell haue
+                                allowed the cause of hys deathe, hym, as vnworthy both of the earth
+                                and of fyer, they cast vnburied into some stinkyng marrish.</seg>
+                        </seg>
+                        <seg n="7.9" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-9-1" n="en 7.17" corresp="#es-7-9-1">The woman is not
+                                maried before she be xviii yeres olde.</seg>
+                            <seg xml:id="en-7-9-2" n="en 7.18" corresp="#es-7-9-1">The man is iiii
+                                yeres elder before he mary.</seg>
+                            <seg xml:id="en-7-9-3" n="en 7.19" corresp="#es-7-9-1">If other the man
+                                or the woman be proued to haue bodely offended, before their
+                                marriage, with an other, he or she whether it be is sharpely
+                                punyshed; and both the offen­ders be forbydden euer after in all
+                                their lyfe to marrye, oneles the faulte be forgeuen by the princes
+                                pardone.</seg>
+                            <seg xml:id="en-7-9-4" n="en 7.20" corresp="#es-7-9-1">But bothe the
+                                good man and the good wyfe of the house where that offence was done,
+                                as beyng slacke and neglygent in lokyng to there chardge, be in
+                                daunger of great reproche and infamye.</seg>
+                            <seg xml:id="en-7-9-5" n="en 7.21" corresp="#es-7-9-1">That offence is
+                                so sharpelye punyshed, bicause they perceaue, that onles they be
+                                diligentlye kept from the lybertie of this vice, fewe wyll ioyne
+                                together in the loue of marriage; wherin all the lyfe must be led
+                                with one, and also all the griefes and displeasures that come
+                                therewith must paciently be taken and borne.</seg>
+                        </seg>
+                        <seg n="7.10" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-10-1" n="en 7.22" corresp="#es-7-10-1">Furthermore, in
+                                cheusyng wyfes and husbandes they obserue earnestly and straytelye a
+                                custome whiche semed to vs very fonde and folysh.</seg>
+                            <seg xml:id="en-7-10-2" n="en 7.23" corresp="#es-7-10-1">For a sad and
+                                an honest matrone sheweth the woman, be she maide or widdowe, naked
+                                to the wower.</seg>
+                            <seg xml:id="en-7-10-3" n="en 7.24" corresp="#es-7-10-1">And lykewyse a
+                                sage and discrete man exhibyteth the wowere naked to the
+                                woman.</seg>
+                        </seg>
+                        <seg n="7.11" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-11-1" n="en 7.25" corresp="#es-7-11-1">At this custome
+                                we laughed and disalowed it as foolyshe.</seg>
+                            <seg xml:id="en-7-11-2" n="en 7.26" type="partial" part="I"
+                                next="#en-7-12-1" corresp="#es-7-11-1">But they on the other part
+                                doo greatlye wonder at the follye of all other nations, whyche in
+                                byinge a colte, where as a lytle money is in hassarde, be so charye
+                                and circum­specte, that though he be almoste all bare, yet they wyll
+                                not bye hym, oneles the saddel and all the harneys be taken of,
+                                leaste vnder those couerynges be hydde som galle or soore;</seg>
+                        </seg>
+                        <seg n="7.12" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-7-12-1" n="en 7.26" type="partial" part="F"
+                                prev="#en-7-11-2" corresp="#es-7-12-1">and yet in chewsynge a wyfe,
+                                whyche shalbe other pleasure or dyspleasure to them all theire lyfe
+                                after, they be so recbeles, that, all the resydewe of the wooman's
+                                bodye beinge couered wyth cloothes, they esteme here scaselye be one
+                                handebredeth (for they can se no more but her face); and so do ioyne
+                                her to them not without great ieoperdie of euell agreing together,
+                                if any thynge in her body afterwarde do offende and myslyke
+                                them.</seg>
+                        </seg>
+                        <seg n="7.13" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-13-1" n="en 7.27" corresp="#es-7-13-1">For all men be
+                                not so wyse as to haue respecte to the vertuous condicions of the
+                                partie; and the endow­mentes of the bodye cause the vertues of the
+                                mynde more to be estemed and regarded, yea, euen in the mariages of
+                                wyse men.</seg>
+                            <seg xml:id="en-7-13-2" n="en 7.28" corresp="#es-7-13-1">Verely so fowle
+                                deformitie may be hydde vnder thoes coueringes, that it maye quite
+                                alienate and take awaye the mans mynde from his wyfe, when it shal
+                                not be lawfull for their bodies to be seperate agayne.</seg>
+                            <seg xml:id="en-7-13-3" n="en 7.29" corresp="#es-7-13-1">If suche
+                                deformitie happen by any chaunce after the mariage is consumate and
+                                finyshed; well, there is no remedie but patience.</seg>
+                            <seg xml:id="en-7-13-4" n="en 7.30" corresp="#es-7-13-1">Euery man must
+                                take his fortune, well a worthe.</seg>
+                            <seg xml:id="en-7-13-5" n="en 7.31" corresp="#es-7-13-1">But it were
+                                well done that a lawe were made, wherebye all suche deceytes myghte
+                                be eschewed and aduoyded before hand.</seg>
+                            <seg xml:id="en-7-13-6" n="en 7.32" corresp="#es-7-13-1">And thys were
+                                they constreyned more earnestlye to looke vpon, because they onlye
+                                of the nations in that parte of the worlde bee contente euerye man
+                                wyth one wyfe a piece; and matrymoney is there neuer broken, but by
+                                death; excepte adulterye breake the bonde, or els the intollerable
+                                waiward maners of eyther partie.</seg>
+                        </seg>
+                        <seg n="7.14" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-14-1" n="en 7.33" corresp="#es-7-14-1">For if either
+                                of them fynde themselfe for any suche cause greued; they maye by the
+                                licence of the councell chaunge and take an other.</seg>
+                            <seg xml:id="en-7-14-2" n="en 7.34" corresp="#es-7-14-1">But the other
+                                partie lyueth euer after in infamye and out of wedlocke.</seg>
+                        </seg>
+                        <seg n="7.15" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-15-1" n="en 7.35" corresp="#es-7-15-1">But for the
+                                husbande to put away his wyfe for no faulte, but for that some
+                                myshappe is fallen to her bodye, thys by no meanes they wyll
+                                suffre.</seg>
+                            <seg xml:id="en-7-15-2" n="en 7.36" corresp="#es-7-15-1"> For they iudge
+                                it a greate poynte of crueltie that any body in their moste nede of
+                                helpe and comforte, shoulde be cast of and forsaken; and that olde
+                                age, whych both bryngeth sycknes with it, and is a syckenes it
+                                selfe, should vnkyndlye and vnfaythfullye be delte withall.</seg>
+                        </seg>
+                        <seg n="7.16" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-16-1" n="en 7.37" corresp="#es-7-16-1">But nowe and
+                                then it chaunseth, where as the man and the woman cannot well agree
+                                betwene themselfes, bothe of them fyndynge other with whome they
+                                hope to lyue more quyetlye and meryly, that they by the full consent
+                                of them both be diuorsed a sonder and newe maried to other; but that
+                                not without the auctho­ritie of the councell; which agreeth to no
+                                dyuorses, before they and their wyfes haue diligently tried and
+                                examyned the matter.</seg>
+                            <seg xml:id="en-7-16-2" n="en 7.38" corresp="#es-7-16-1">Yea and then
+                                also they be loth to consent to it, bicause they knowe thys to be
+                                the nexte waye to breke loue betwene man and wyfe, to be in easye
+                                hope of a newe mariage.</seg>
+                        </seg>
+                        <seg n="7.17" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-17-1" n="en 7.39" corresp="#es-7-17-1">Breakers of
+                                wedlocke be punyshed with moste greuous bondage.</seg>
+                            <seg xml:id="en-7-17-2" n="en 7.40" corresp="#es-7-17-1">And if both the
+                                offenders were maried, then the partyes whiche in that behalfe haue
+                                suffered wronge be diuorsed from the auoutrers if they wyll, and be
+                                maried together, or els to whom they luste.</seg>
+                            <seg xml:id="en-7-17-3" n="en 7.41" corresp="#es-7-17-1">But if eyther
+                                of them both do styll contynewe in loue towarde so vnkynde a
+                                bedfellowe, the vse of wedlocke is not to them forbydden, if the
+                                partie be disposed to followe in toylinge and drudgerye the person,
+                                which for that offence is condempned to bondage.</seg>
+                            <seg xml:id="en-7-17-4" n="en 7.42" corresp="#es-7-17-1">And very ofte
+                                it chaunceth that the repentaunce of the one, and the earnest
+                                diligence of the other, dothe so moue the prince with pytie and
+                                compassion, that he restoreth the bonde persone from seruitude to
+                                libertie and fredom again.</seg>
+                            <seg xml:id="en-7-17-5" n="en 7.43" corresp="#es-7-17-1">But if the same
+                                partie be taken eftsones in that faulte, there is no other way but
+                                death.</seg>
+                        </seg>
+                        <seg n="7.18" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-18-1" n="en 7.44" corresp="#es-7-18-1">To other
+                                trespaces there is no prescript punyshment appoynted by anye
+                                lawe.</seg>
+                            <seg xml:id="en-7-18-2" n="en 7.45" corresp="#es-7-18-1"> But accordinge
+                                to the hey nousenes of the offence, or contrarye, so the
+                                punyshe­mente is moderated by the discretion of the councell.</seg>
+                        </seg>
+                        <seg n="7.19" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-7-19-1" n="en 7.46" corresp="#es-7-19-1">The husbandes
+                                chastice theire wyfes; and the parentes theire chyldren; oneles they
+                                haue done anye so horryble an offence, that the open punyshemente
+                                thereof maketh muche for the aduauncemente of honeste maners.</seg>
+                        </seg>
+                        <seg n="7.20" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-20-1" n="en 7.47" corresp="#es-7-20-1">But moste
+                                commenlye the moste heynous faultes be punyshed with the
+                                incommoditie of bondage.</seg>
+                            <seg xml:id="en-7-20-2" n="en 7.48" corresp="#es-7-20-1">For that they
+                                suppose to be to the offenders no lesse griefe, and to the common
+                                wealth more profitable, then if they should hastely put them to
+                                death, and make them out of the waye.</seg>
+                            <seg xml:id="en-7-20-3" n="en 7.49" corresp="#es-7-20-1">For there
+                                cummeth more profite of theire laboure, then of theire deathe; and
+                                by theire example they feare other the lenger from lyke
+                                offences.</seg>
+                        </seg>
+                        <seg n="7.21" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-7-21-1" n="en 7.50" corresp="#es-7-21-1">But if they,
+                                beinge thus vsed, doo rebell and kicke agayne, then forsothe they be
+                                slayne as desperace and wilde beastes, whom nother pryson nor chayne
+                                could restraine and kepe vnder.</seg>
+                        </seg>
+                        <seg n="7.22" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-22-1" n="en 7.51" corresp="#es-7-22-1">But they whiche
+                                take theire bondage patientlye be not left all hopeles.</seg>
+                            <seg xml:id="en-7-22-2" n="en 7.52" corresp="#es-7-22-1">For after they
+                                haue bene broken and tamed with longe myseries, yf then they shewe
+                                suche repentaunce, wherebye it maye be perceaued that they be soryer
+                                for theire offence then for theire punyshemente, sumtymes by the
+                                Prynces prerogatyue, and sumtymes by the voyce and consent of the
+                                people, theire bondage other is mitigated, or els cleane remytted
+                                and forgeuen.</seg>
+                        </seg>
+                        <seg n="7.23" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-23-1" n="en 7.53" corresp="#es-7-23-1">He that moueth
+                                to aduoutrye is in no lesse daunger and ieoperdie, then yf he hadde
+                                committed aduoutrye in dede.</seg>
+                            <seg xml:id="en-7-23-2" n="en 7.54" corresp="#es-7-23-1">For in all
+                                offences they counte the intente and pretensed purpose as euell as
+                                the acte or dede it selfe.</seg>
+                            <seg xml:id="en-7-23-3" n="en 7.55" corresp="#es-7-23-1"> For they
+                                thynke that no lette owghte to excuse hym, that dyd hys beste too
+                                haue no lette.</seg>
+                        </seg>
+                        <seg n="7.24" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-24-1" n="en 7.56" corresp="#es-7-24-1">They sette
+                                greate store by fooles.</seg>
+                            <seg xml:id="en-7-24-2" n="en 7.57" corresp="#es-7-24-1">And as it is
+                                greate reproche to do to annye of them hurte or iniury, so they
+                                prohibite not to take pleasure of foolyshnes.</seg>
+                            <seg xml:id="en-7-24-3" n="en 7.58" corresp="#es-7-24-1">For that, they
+                                thynke, doth muche good to the fooles.</seg>
+                            <seg xml:id="en-7-24-4" n="en 7.59" corresp="#es-7-24-1"> And if any man
+                                be so sadde and sterne, that he cannot laughe nother at their wordes
+                                nor at their dedes, none of them be commytted to his tuition; for
+                                feare lest he would not ordre them gentilly and fauorably enough, to
+                                whom they should brynge no delectation (for other goodnes in them is
+                                none); muche lesse any proffyt shoulde they yelde hym.</seg>
+                            <seg xml:id="en-7-24-5" n="en 7.60" corresp="#es-7-24-1">To mocke a man
+                                for hys deformitie, or for that he lacketh anye parte or lymme of
+                                hys bodye, is counted greate dishonestie and reproche, not to hym
+                                that is mocked, but to hym that mocketh; which vnwysely doth
+                                imbrayde any man of that as a vice, whiche was not in his powre to
+                                eschewe.</seg>
+                        </seg>
+                        <seg n="7.25" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-25-1" n="en 7.61" corresp="#es-7-25-1">Also as they
+                                counte and reken very lyttell wytte to be in hym that regardeth not
+                                naturall bewtie and comlines, so to helpe the same with payntinges
+                                is taken for a vayne and a wanton pryde, not without great
+                                infamye.</seg>
+                            <seg xml:id="en-7-25-2" n="en 7.62" corresp="#es-7-25-1"> For they knowe
+                                euen by verye experience, that no comelines of bewtie doth so hyghly
+                                commende and auaunce the wyues in the conceyte of there husbandes,
+                                as honest conditions and lowlines.</seg>
+                        </seg>
+                        <seg n="7.26" type="singleSentence" subtype="untranslated">
+                            <seg xml:id="en-7-26-1" n="en 7.63" corresp="#es-7-26-1">For as loue is
+                                oftentimes wonne with bewtie, so it is not kept, preserued, and
+                                continued, but by vertue and obedience.</seg>
+                        </seg>
+                        <seg n="7.27" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-7-27-1" n="en 7.64" corresp="#es-7-27-1">They do not
+                                only feare theire people from doinge euell by punyshmentes, but also
+                                allure them to vertue with rewardes of honoure.</seg>
+                        </seg>
+                        <seg n="7.28" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-7-28-1" n="en 7.65" corresp="#es-7-28-1">Therfore they
+                                set vp in the market place the ymages of notable men, and of such as
+                                haue bene great and bounteful benefactors to the common wealth, for
+                                the perpetual memorie of their good actes; and also that the glory
+                                and renowme of the auncetors may sturre and prouoke theire
+                                posteritie to vertue.</seg>
+                        </seg>
+                        <seg n="7.29" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-7-29-1" n="en 7.66" corresp="#es-7-29-1">He that
+                                inordinatlie and ambitiously desireth promotions, is lefte all
+                                hopeles for euer atteynyng any promotion as longe as he
+                                liueth.</seg>
+                        </seg>
+                        <seg n="7.30" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-30-1" n="en 7.67" corresp="#es-7-30-1">They lyue
+                                together louingly.</seg>
+                            <seg xml:id="en-7-30-2" n="en 7.68" corresp="#es-7-30-1">For no
+                                magistrate is other hawte or ferefull.</seg>
+                            <seg xml:id="en-7-30-3" n="en 7.69" corresp="#es-7-30-1"> Fathers they
+                                be called, and lyke fathers they vse themselfes.</seg>
+                            <seg xml:id="en-7-30-4" n="en 7.70" corresp="#es-7-30-1">The citezens
+                                (as it is their dewtie) do willingly exhibite vnto them dewe
+                                honoure, without any compulsion.</seg>
+                        </seg>
+                        <seg n="7.31" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-31-1" n="en 7.71" corresp="#es-7-31-1">Nor the prince
+                                hymselfe is not knowen from the other by his apparel, nor by a crown
+                                or diademe or cappe of maintenaunce, but by a littell sheffe of
+                                corne caried before hym.</seg>
+                            <seg xml:id="en-7-31-2" n="en 7.72" corresp="#es-7-31-1">And so a taper
+                                of wax is borne befor the byshop, whereby onely he is knowen.</seg>
+                        </seg>
+                        <seg n="7.32" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-32-1" n="en 7.73" corresp="#es-7-32-1">Thei haue but
+                                few lawes.</seg>
+                            <seg xml:id="en-7-32-2" n="en 7.74" corresp="#es-7-32-1">For to people
+                                so instructe and institute very fewe do suffice.</seg>
+                            <seg xml:id="en-7-32-3" n="en 7.75" corresp="#es-7-32-1">Yea this thynge
+                                they chieflye reproue amonge other nations, that innumerable hokes
+                                of lawes and expositions vpon the same be not sufficient.</seg>
+                        </seg>
+                        <seg n="7.33" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-7-33-1" n="en 7.76" corresp="#es-7-33-1">But they thinke
+                                it against al right and iustice, that men shuld be bound to thoes
+                                lawes, whiche other be in numbre mo then be able to be readde, or
+                                els blinder and darker, then that any man can well vnderstande
+                                them.</seg>
+                        </seg>
+                        <seg n="7.34" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-7-34-1" n="en 7.77" corresp="#es-7-34-1">Furthermore
+                                they vtterly exclude and bannyshe all proc­tours and sergeauntes at
+                                the lawe, which craftely handell matters, and subtelly dispute of
+                                the lawes.</seg>
+                        </seg>
+                        <seg n="7.35" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-35-1" n="en 7.78" corresp="#es-7-35-1">For they thinke
+                                it most mete, that euery man shuld pleade his owne matter, and tell
+                                the same tale before the iudge, that he would tel to his man of
+                                lawe.</seg>
+                            <seg xml:id="en-7-35-2" n="en 7.79" corresp="#es-7-35-1">So shall there
+                                be lesse circumstaunce of wordes, and the trewth shal soner cum to
+                                light; whiles the iudge with a discrete iudgement doth waye the
+                                wordes of hym whom no lawier hath instruct with deceit; and whiles
+                                he helpeth and beareth out simple wittes agaynst the false and
+                                malicious circum­uertions of craftie chyldren.</seg>
+                        </seg>
+                        <seg n="7.36" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-36-1" n="en 7.80" corresp="#es-7-36-1">This is harde
+                                to be ob­serued in other countreis, in so infinitie a numbre of
+                                blynd and intricate lawes.</seg>
+                            <seg xml:id="en-7-36-2" n="en 7.81" corresp="#es-7-36-1">But in Vtopia
+                                euery man is a cunnyng lawier.</seg>
+                            <seg xml:id="en-7-36-3" n="en 7.82" corresp="#es-7-36-1"> For, as I
+                                sayde, they haue verye fewe lawes; and the playnner and grosser that
+                                anye interpretation is, that they allowe as most iuste.</seg>
+                            <seg xml:id="en-7-36-4" n="en 7.83" corresp="#es-7-36-1"> For all lawes
+                                (saye they) bee made and publysshed onelye to thenthente, that by
+                                them euerye man shoulde be put in remembraunce of hys dewtye.</seg>
+                            <seg xml:id="en-7-36-5" n="en 7.84" corresp="#es-7-36-1">But the craftye
+                                and subtyll interpretation of them can put verye fewe in that
+                                remembraunce (for they be but fewe that do perceaue them); where as
+                                the simple, the plaine, and grosse meaning of the lawes is open to
+                                euerye man.</seg>
+                        </seg>
+                        <seg n="7.37" type="multisentence" subtype="untranslated">
+                            <seg xml:id="en-7-37-1" n="en 7.85" corresp="#es-7-37-1">Els as
+                                touchynge the vulgare sorte of the people, whiche be bothe moste in
+                                numbre, and haue moste neade to knowe theire dewties, were it not as
+                                good for them that no lawe were made at all, as, when it is made, to
+                                brynge so blynde an interpretacion vpon it, that without greate
+                                witte and longe arguynge no man can discusse it?</seg>
+                            <seg xml:id="en-7-37-2" n="en 7.86" corresp="#es-7-37-1"> to the
+                                findinge out whereof nother the grosse iudgement of the people can
+                                attayne, nother the hole lyfe of them that be occupied in woorkynge
+                                for theire lyuynges can suffyse therto.</seg>
+                        </seg>
+                        <seg n="7.38" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-38-1" n="en 7.87" corresp="#es-7-38-1">Thies vertues
+                                of the Vtopians haue caused theire nexte neyghbours and borderers,
+                                whiche lyue fre and vnder no subiection (for the Vtopians longe agoo
+                                haue delyuered manye of them from tyrannye), to take magistrates of
+                                them, some for a yeare, and some for fyue yeares space.</seg>
+                            <seg xml:id="en-7-38-2" n="en 7.88" corresp="#es-7-38-1">Whiche, when
+                                the tyme of theire office is expired, they brynge home agayn with
+                                honoure and prayse; and take newe ons agayne wyth them into theire
+                                countrey.</seg>
+                        </seg>
+                        <seg n="7.39" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-39-1" n="en 7.89" corresp="#es-7-39-1">Thies nations
+                                haue vndowtedlye verye well and holsomlye pro­uyded for theire
+                                common wealthes.</seg>
+                            <seg xml:id="en-7-39-2" n="en 7.90" type="partial" part="I"
+                                next="#en-7-40-1" corresp="#es-7-39-1">For seynge that bothe the
+                                makyng and the marrynge of the weale pub­lique doth depende and
+                                hange of the maners of the rulers and magistrates, what officers
+                                coulde they more wyselye haue chosen, then thoes whiche cannot be
+                                ledde from honestye by brybes (for to them that shortlye after shall
+                                departe thens into theyre owne countreye money shoulde be
+                                vnprofytable);</seg>
+                        </seg>
+                        <seg n="7.40" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-7-40-1" n="en 7.90" type="partial" part="F"
+                                prev="#en-7-39-2" corresp="#es-7-40-1">nor yet be moued other with
+                                fauour or malyce towardes annye man, as beynge straungers and
+                                vnaquainted with the people?</seg>
+                        </seg>
+                        <seg n="7.41" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-7-41-1" n="en 7.91" corresp="#es-7-41-1">The which twoo
+                                vices of affection and auryce where they take place in iudgementes,
+                                incontynente they breake iustice, the strongeste and suereste bonde
+                                of a common wealthe.</seg>
+                        </seg>
+                        <seg n="7.42" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-7-42-1" n="en 7.92" corresp="#es-7-42-1">Thies peoples,
+                                whiche fetche theire officers and rulers from them, the Vtopians cal
+                                theire fellowes; and other, to whome they haue bene beneficiall,
+                                they call theire frendes.</seg>
+                        </seg>
+                        <seg n="7.43" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-7-43-1" n="en 7.93" corresp="#es-7-43-1">As towchynge
+                                leages, which in other places betwene countrey and countrey be so
+                                ofte concluded, broken, and made agayne, they neuer make none with
+                                anye nacion.</seg>
+                        </seg>
+                        <seg n="7.44" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-44-1" n="en 7.94" corresp="#es-7-44-1">For to what
+                                purpose serue leagues?</seg>
+                            <seg xml:id="en-7-44-2" n="en 7.95" corresp="#es-7-44-1">saye they; as
+                                though nature had not set sufficient loue betwene man and man.</seg>
+                            <seg xml:id="en-7-44-3" n="en 7.96" corresp="#es-7-44-1">And who so
+                                regardeth not nature, thynke yowe that he wyll passe for
+                                wordes?</seg>
+                        </seg>
+                        <seg n="7.45" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-7-45-1" n="en 7.97" corresp="#es-7-45-1">They be brought
+                                into thys opinion chiefely bicause that in thoes parties of the
+                                wordle leagues betwene princes be wont to be kept and obserued very
+                                slenderly.</seg>
+                        </seg>
+                        <seg n="7.46" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-46-1" n="en 7.98" corresp="#es-7-46-1">For here in
+                                Europa, and espe­ciallye in thies partes, where the faythe and
+                                religion of Christe reygneth, the maiestie of leagues is euerye
+                                where estemed holly and inuiolable; partlye through the iustice and
+                                goodnes of princes, and partelye through the reuerenee of great
+                                byshoppes.</seg>
+                            <seg xml:id="en-7-46-2" n="en 7.99" corresp="#es-7-46-1">Whyche, lyke as
+                                they make no promysse themselfes, but they doo verye religiouslye
+                                perfourme the same, so they exhorte all prynces in any wyse to abyde
+                                by theyre promisses; and them that refuse or denye so to do, by
+                                theire pontificall powre and auctho­rytie they compell therto.</seg>
+                        </seg>
+                        <seg n="7.47" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-7-47-1" n="en 7.100" corresp="#es-7-47-1">And surely
+                                they thynke well that it myght seme a verye reprochefull thynge, yf
+                                in the leagues of them, whyche by a peculiare name be called
+                                faythfull, faythe shoulde haue no place.</seg>
+                        </seg>
+                        <seg n="7.48" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-48-1" n="en 7.101" corresp="#es-7-48-1">But in that
+                                newefonnde parte of the worlde, whiche is scaselye so farre from vs
+                                beyonde the lyne equinoctiall, as owre lyfe and manners be
+                                dissidente from theirs, no truste nor confydence is in
+                                leagues.</seg>
+                            <seg xml:id="en-7-48-2" n="en 7.102" corresp="#es-7-48-1">But the mo and
+                                holyer cerymonies the league is knytte vp with, the soner it is
+                                broken, by some cauillation founde in the woordes; whyche manye
+                                tymes of purpose be so craftelye put in and placed, that the bandes
+                                can neuer be so sure nor so stronge, but they wyll fynde some hole
+                                open to crepe owte at, and to breake bothe league and trewthe.</seg>
+                        </seg>
+                        <seg n="7.49" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-7-49-1" n="en 7.103" corresp="#es-7-49-1">The whiche
+                                crafty dealynge, yea, the whiche fraude and de­ceyte, yf they
+                                shoulde knowe it to bee practysed amonge pryuate men in theire
+                                bargaynes and contractes, they woulde incontinent crye owte at it
+                                with a sower coun­tenaunce, as an offence most detestable, and
+                                worthie to be punnyshed with a shamefull death; yea, euen verye they
+                                that auaunce themselfes authours of like councel geuen to
+                                princes.</seg>
+                        </seg>
+                        <seg n="7.50" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-7-50-1" n="en 7.104" corresp="#es-7-50-1">Wherfore it
+                                maye well be thought other that all iustice is but a basse and a
+                                lowe vertue, and whiche aualeth it self farre vnder the hyghe
+                                dignitie of kynges; or, at the least wyse, that there be two
+                                iustices; the one mete for the inferioure sorte of the people,
+                                goinge a fote and crepynge by lowe on the grounde, and bounde downe
+                                on euery side with many bandes, because it shall not run at rouers:
+                                the other a pryncely vertue, whiche lyke as it is of muche hygher
+                                maiestie then the other poore iustice, so also it is of muche more
+                                lybertie, as to the whiche nothinge is vnlawful that it lusteth
+                                after.</seg>
+                        </seg>
+                        <seg n="7.51" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-7-51-1" n="en 7.105" corresp="#es-7-51-1">Thies maners
+                                of princes (as I sayde) whiche be there so euyll kepers of leagues
+                                cause the Vtopians, as I suppose, to make no leagues at all: whiche
+                                perchaunce woulde chaunge theire mynde if they lyued here.</seg>
+                        </seg>
+                        <seg n="7.52" type="multisentence" subtype="translated">
+                            <seg xml:id="en-7-52-1" n="en 7.106" corresp="#es-7-52-1">Howe­beit they
+                                thynke that thoughe leagues be neuer so fayth­fully obserued and
+                                kept, yet the custome of makinge leagues was verye euel
+                                begonne.</seg>
+                            <seg xml:id="en-7-52-2" n="en 7.107" corresp="#es-7-52-1">For this
+                                causeth men (as though nations which be separate a sondre by the
+                                space of a lytle hyl or a ryuer, were coupled together by no societe
+                                or bonde of nature), to thynke them selfes borne aduersaryes and
+                                enemyes one to an other; and that it is lawfull for the one to seke
+                                the death and destruction of the other, if leagues were not; yea,
+                                and that, after the leagues be accorded, fryndeshyppe dothe not
+                                growe and encrease; but the lycence of robbynge and stealynge doth
+                                styll remayne, as farfurthe as, for lacke of forsight and aduisement
+                                in writinge the woordes of the league, anny sentence or clause to
+                                the contrary is not therin suffycyentlye comprehended.</seg>
+                        </seg>
+                        <seg n="7.53" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-7-53-1" n="en 7.108" corresp="#es-7-53-1">But they be of
+                                a contrary opinion: that is, that no man ought to be counted an
+                                enemy, whyche hath done no iniury; and that the felow­shyppe of
+                                nature is a stronge league; and that men be better and more surely
+                                knitte togethers by loue and beneuolence, then by couenauntes of
+                                leagues; by hartie affection of minde, then by woordes.</seg>
+                        </seg>
+                    </ab>
+                </div>
+            </div>
+            <div type="notes">
+                <note>
+                    <note n="123" xml:id="n-7-1" target="#note-7-1">Medinilla blurs the idea of the
+                        first sentence by not specified what is meant in "nisi ab ipsis gesto" (in
+                        English, "unless captured in wars fought by the Utopians itself" (Yale 185
+                        l. 16-18)). The translator introduces "aun de ellos que la comenzaron"
+                        ("even though they started it"). The sense missed here is that Utopians
+                        enslave prisoners captured in wars they themselves fight, it does not matter
+                        who starts it. Moreover, the "apud se" appearing few lines later seems to be
+                        omitted as well. This omission removes the idea that those enslaved are
+                        those who have committed a crime in Utopia itself; also, Medinilla does not
+                        mention that those foreigners made slaves were those already condemned to
+                        death in other countries.</note>
+                    <note n="124" xml:id="n-7-2" target="#note-7-2">Medinilla translated "in
+                        uinculis habent" (in English, "in chains" (Yale 185, l.26)) as "en
+                        prisiones" ("in prison").</note>
+                    <note n="125" xml:id="n-7-3" target="#note-7-3">The Spanish translator uses
+                        synonyms to render "pauper" ("poor"). In this case, he opts for "pobre" and
+                        "baja condición" (in English, "poor and low class"). </note>
+                    <note n="126" xml:id="n-7-4" target="#note-7-4">Medinilla selects the expression
+                        "sin galardón" (in English, "without award") to translate the Latin "inanem"
+                        ("empty-handed" (Yale 185 l. 37).</note>
+                    <note n="127" xml:id="n-7-5" target="#note-7-5">Robinson adds the adjective
+                        "stinkyng" to "marrish" (in today's English, "marsh"), maybe introducing his
+                        own thought of the matter. Alternatively, Medinilla translates "paludem" as
+                        "laguna" ("lagoon"), which does not accurately represents the sense of
+                        "swamp". Maybe the word "pantano" ("swamp") would be a better option. The
+                        Tesoro de la Lengua defines "laguna" as "large pit collecting the water from
+                        the springs" (fol. 513r), whereas "pantano" as "muddied water from a low
+                        lagoon or large puddle" (fol. 576v). Moreover, in this topic Medinilla is
+                        brief and avoid deepening into funerary references.</note>
+                    <note n="128" xml:id="n-7-6" target="#note-7-6">The Spanish governor alters the
+                        marriage age of both women and men. The original says eighteen for women and
+                        twenty-two, four years later, for men, but Medinilla establishes twenve for
+                        men and, therefore, sixteen for men. This mistranslation of ages could be
+                        related to Medinilla's rendering skills with numbers, as there are some
+                        instances of mistranslated quantities. Furthermore, the translator does not
+                        make a literal translation in the following lines. He omits the fact that
+                        the father and the mother of those commiting dishonest actions are punished
+                        as well and renders "nisi a uago concubitu diligenter arceantur" (in English
+                        "all the troubles incidental to it must be patiently borne" (Yale 187 ll.
+                        37-38)) as "If once they got used to communicating, now this one, now that
+                        one", sounding quite vague. Interestingly, Medinilla translates "uno" in the
+                        final segment as "una sola mujer" ("one single woman") when the Latin text
+                        does not make any gender references.</note>
+                    <note n="129" xml:id="n-7-7" target="#note-7-7">Again, Medinilla's briefness
+                        cuts one of the adjectives defining the matron: "gravis" (defined in Yale as
+                        "worthy" 189 l. 3). The second adjective is "honesta".</note>
+                    <note n="130" xml:id="n-7-8" target="#note-7-8">Medinilla is brief here too in
+                        his translation. He renders "hulcus" (in English, "sore" (Lewis and Short)
+                        as "matadura", defined in the Diccionario de Autoridades as "the sore or
+                        wound that the beast gets from wearing the tackle". Also, he uses the first
+                        person singular to narrate this fragment ("yo", "I" in English) instead of
+                        first person plural, as seen in the Latin verb "improbaremus". </note>
+                    <note n="131" xml:id="n-7-9" target="#note-7-9">Medinilla does not detail much
+                        of the process.</note>
+                    <note n="132" xml:id="n-7-10" target="#note-7-10">Medinilla slightly modifies
+                        this segment: "si neuter erat caelebs, iniuram passi (uelint modo)
+                        repudiatis adulteris coniugio inter se ipsi iunguntur; alioquin quibus
+                        uibeditur" ("if both parties are married, the injured parties, provided they
+                        consent, are divorced from their adulterous mates and couple together, or
+                        else are allowed to marry whom they like" (Yale 191 ll.11-13). Contrary to
+                        what the Latin says, Medinilla suggests "si entrambos a dos lo son, se
+                        concede que dejando el adulterio se casen entrambos, o por lo menos con
+                        otro" (in English, "If both of them are [adulteros], it is granted that
+                        leaving adultery they both marry, or at least with another"), omitting that
+                        what is stated occurs to "the injured parties" instead of the adulterers
+                        themselves.</note>
+                    <note n="133" xml:id="n-7-11" target="#note-7-11">The translation Medinilla
+                        proposes for "id siquidem et sceleratis non minus triste" "(in English, "no
+                        less formidable to the criminal" (Yale 191 l.30)) "lo cual no es menos
+                        proporcionado a la maldad ("which is no less proportionate to the evil").
+                        The translation does not seem correct, as choosing "maldad" for the Latin
+                        "sceleratis" and "propocionado" for "triste" blurs the original idea. </note>
+                    <note n="134" xml:id="n-7-12" target="#note-7-12">The last part of the segment
+                        in Latin, "quos cohercere career et catena non potest, trucidantur" (in
+                        English, "that cannot be restrained by prison or chain" (Yale: 191 l. 36),
+                        is not translated by Medinilla.</note>
+                    <note n="135" xml:id="n-7-13" target="#note-7-13">When the Spanish translator
+                        renders the Latin clause "quippe longis domiti malis si eam poenitentiam
+                        prae se ferant, quae peccatum testetur magis eis displicere quam poenam" (in
+                        English, "if they show such repentance as testifies that they are more sorry
+                        for their sin than for their punishment" (Yale 191 l. 39)) as "en mostrando
+                        que les desagrada más el pecado que el arrepentimiento" ("that they dislike
+                        sin more than repentance"). Medinilla simplifyes the section and omits that
+                        inhabitants should show repentance.</note>
+                    <note n="136" xml:id="n-7-14" target="#note-7-14">Medinilla summarizes the
+                        context.</note>
+                    <note n="137" xml:id="n-7-15" target="#note-7-15">Again, the Spanish translator
+                        does not recognize the Latin noun "moriones", translating it as "simples
+                        naturales" (in English, "the simple-minded") instead of the noun "bufon"
+                        ("fool"). It is likely that he relates the following ideas on physical
+                        incapacities with this and barely refers to part of the segment.</note>
+                    <note n="138" xml:id="n-7-16" target="#note-7-16">The Spanish translator renders
+                        the Latin "fucis" with the pair "afeites" and "aderezos" (in English,
+                        "shave" and "dressing" correspondily). "Afeites" is defined in the Tesoro de
+                        la Lengua as "the dressing that is put on something to make it look good"
+                        (fol. 17r), whereas "aderezos", very similarly as "adornment, composure"
+                        (fol. 15r). Robinson uses the word "payntinges". Medinilla then omits a
+                        sentence.</note>
+                    <note n="139" xml:id="n-7-17" target="#note-7-17">Robinson ornaments the
+                        translation of this segment. The following sentences are translated less
+                        literally, simplifying again the content. The general ideas present in the
+                        Latin original are preserved, although Medinilla does not deepen into all
+                        aspects.</note>
+                    <note n="140" xml:id="n-7-18" target="#note-7-18">Medinilla selects "antorcha"
+                        for the Latin "cereus". The Diccionario de la Lengua defines it as "the lit
+                        wax candle" (fol 74v). Moreover, he chooses "manojuelo" for "gestatus" (in
+                        English, "handful" (Yale 195 l. 6). "Manojuelo" derives from "manojo",
+                        meaning "the little bundle that can be wrapped around the hand" in the
+                        Tesoro de la Lengua (fol. 537v). </note>
+                    <note n="141" xml:id="n-7-19" target="#note-7-19">The second Latin sentence is
+                        much simplified by Medinilla. Later he does not translate a segment.</note>
+                    <note n="142" xml:id="n-7-20" target="#note-7-20">Medinilla integrates the
+                        content in brackets, "multos enim ipsi iam olim tyrannide liberauerunt" (in
+                        English, "who are free and independent since many of them were long ago
+                        delivered from tyrants by the Utopians" (Yale 197 ll. 1-3), within the text
+                        as "porque muchos han sufrido la tiranía" ("as many of them have suffered
+                        tyranny").</note>
+                    <note n="143" xml:id="n-7-21" target="#note-7-21">Robinson renders "summorum
+                        pontificium" as "great byshoppes", rather than "supreme or great pontiff".
+                        This could have a religious connotation and questions whether Robinson was
+                        Catholic or not. </note>
+                    <note n="144" xml:id="n-7-22" target="#note-7-22">Medinilla translates
+                        "principum illic" (in Yale, "of rulers there") as "los príncipes de aquel
+                        país" ("the princes of that country"), which could confusingly refer either
+                        to the princes of Europe or the princes of Utopia. </note>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>
