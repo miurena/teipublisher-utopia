@@ -1,0 +1,1550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- updated to 24/07/2024-->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Chapter 5</title>
+                <funder>This work has been developed thanks to a doctoral fellowship granted in 2020
+                    by the Spanish Ministry of Universities</funder>
+                <respStmt>
+                    <name>Inmaculada Ureña Asensio</name>
+                    <resp>transcription and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1">First edition<date> July 2024</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>TEIPublisher</publisher>
+                <pubPlace><ref><!-- URL?--></ref></pubPlace>
+                <date>2024</date>
+            </publicationStmt>
+            <notesStmt>
+                <note>I especially want to thank the DSG at NU for the support during my research
+                    visit at Northeastern University in 2023.</note>
+                <note>Thanks to my thesis director.</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Utopia de Thomas Moro, traducida de latin en Caſtellano por Don Geronimo
+                        Antonio de Medinilla i Porres, Cauallero de la Orden de Santiago,
+                        Cavallerizo de ſu Mageſtad, Señor de las Villas de Bocos, Rozas, i Remolino,
+                        Corregidor, i Iuſticia mayor de la Ciudad de Cordova, i ſu tierra. </title>
+                    <author role="writer" xml:id="person-1">Thomas More (1478-1535)</author>
+                    <author role="translator" xml:id="person-2">Gerónimo de Medinilla y Porres
+                        (1590-c.1642)</author>
+                    <publisher>por Salvador de Cea Tesa</publisher>
+                    <date>1637</date>
+                    <pubPlace>Córdoba</pubPlace>
+                </bibl>
+                <bibl>
+                    <title>The Utopia of Thomas More, in Latin from the edition of March 1518, and
+                        in English from the first edition of Ralph Robinson's translation in
+                        1551</title>
+                    <title/>
+                    <author role="writer" ref="#person-1">Thomas More (1478-1535)</author>
+                    <author role="translator" xml:id="person-3">Ralph Robinson (1520-1577)</author>
+                    <editor>L. H. Lupton</editor>
+                    <publisher>Clarendon Press</publisher>
+                    <date>1895</date>
+                    <pubPlace>Oxford</pubPlace>
+                </bibl>
+                <!-- lists -->
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>This edition was developed as part of my thesis dissertation titled "A Digital
+                    Edition of the 1637 Spanish translation of Thomas More's Utopia". The processes
+                    of data modeling, encoding and publishing the edition was done during a research
+                    visit at Northeastern University.</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>section to describe the rationale of the edition</p>
+            </samplingDecl>
+            <editorialDecl>
+                <normalization>
+                    <p>The only text modernized is the translation. The elements modernized are the
+                        following: <list>
+                            <item/>
+                        </list>
+                    </p>
+                </normalization>
+                <punctuation>
+                    <p>The original punctuation system has been preserved in the 1637 Spanish
+                        translation, the 1551 English translation and the Latin original. The
+                        modifications concerning punctuation in the modernized version of the
+                        Spanish text have already been specified in the previous section.</p>
+                </punctuation>
+                <segmentation>
+                    <p>The texts have been segmented into sentences to facilitate alignment. The
+                        principle followed... </p>
+                </segmentation>
+            </editorialDecl>
+            <refsDecl>
+                <p> Explain here the reference system (linking?) use gi to refer to elements and
+                    attr to refer to attributes</p>
+            </refsDecl>
+            <classDecl>
+                <taxonomy>
+                    <desc/>
+                </taxonomy>
+                <!-- Place names and identifiers 
+              
+              #place-1 -> London
+              #place-2 -> Amauroto
+              
+              People names and identifiers
+              
+              #person-1 -> Thomas More
+              #person-2 -> Raphael Hythloday
+              #person-3 -> Utopo
+              
+              (work?) positions list
+              #position-1 -> labrador
+              #position-2 -> magistrado
+              
+              Geographical names
+              #geogr-1 -> Isla de los Utopienses/Utopia (Abraxa)
+              #geogr-2 -> Utopia continente
+              
+              Numbers (maybe for the future)
+              #quant-1 -> 
+              
+              -->
+            </classDecl>
+            <schemaSpec ident="TEI"/>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="es">seventeenth-century Spanish</language>
+                <language ident="es-ES">Castilian Spanish</language>
+                <language ident="la">Latin</language>
+                <language ident="en">sixteenth-century English</language>
+            </langUsage>
+        </profileDesc>
+        <!-- copy of Spanish Library (ref) and where I took the copy from Lupton -->
+
+        <revisionDesc>
+            <change when="2024-03-04">Version 1.0 <!-- example --></change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="base" xml:lang="es">               
+                <div type="chapter" n="5">
+                    <pb n="10r"/>
+                    <head type="chapter">Del Comercio. Cap. V.</head>
+                    <ab><seg n="5.1" type="sentence">
+                            <s xml:id="es-5-1-1" n="es 5.1">PARECE pueſto en razõ declarar, de q̃
+                                manera los Ciudadanos comerciẽ entre ſi, i como tratẽ ſus
+                                    correſpondencias.<anchor n="59" xml:id="note-5-1"/></s>
+                        </seg><seg n="5.2" type="sentence">
+                            <s xml:id="es-5-2-1" n="es 5.2">Pues ſiendo aſsi que <app>
+                                <lem>de familias ſe compone la Ciudad, i que los parenteſcos forman las familias:
+                                    ſiempre (en llegãdo a tomar eſtado las mugeres) aviendoſe caſado van</lem>
+                                <rdg wit="1790">la Ciudad se compone de familias, formándose estas de parentescos, las mujeres casándose van siempre</rdg>
+                                <rdg wit="1805">se inclinan á ella</rdg>
+                            </app> a las caſas de ſus maridos;<pb n="10v"/> mas los hijos que tienen varones, i los
+                                nietos viven en ſu familia, debajo del govierno, i obediencia del
+                                mas ãciano della:<app>
+                                    <lem>i ſi</lem>
+                                    <rdg wit="1790">si</rdg>
+                                    <rdg wit="1805">si</rdg>
+                                </app> y a la edad no le tiene enflaquezido el
+                                diſcurſo; que en tal caſo el inmediato en la edad ſucede en ſu
+                                lugar.</s>
+                        </seg><seg n="5.3" type="sentence">
+                            <s xml:id="es-5-3-1" n="es 5.3">Mas porque no falte población a la
+                                Ciudad, ni ſe aumente en demaſia tienen ordenado, que ninguna
+                                familia (de los quales tiene ſeis mil cada Ciudad) pueda ſuſtentar
+                                menos de diez mancebos, ni mas que diez i ſeis.<anchor n="60"
+                                    xml:id="note-5-2"/></s>
+                        </seg><seg n="5.4" type="sentence">
+                            <s xml:id="es-5-4-1" n="es 5.4">De los adultos no ai numero
+                                    determinado.<anchor n="61" xml:id="note-5-3"/></s>
+                        </seg><seg n="5.5" type="sentence">
+                            <s xml:id="es-5-5-1" n="es 5.5">Guardaſe eſte medio, paſſando los que
+                                ſobran de una familia a otra, que le faltan, con los quales ſe
+                                llena.</s>
+                        </seg><seg n="5.6" type="sentence">
+                            <s xml:id="es-5-6-1" n="es 5.6">Si alguna vez ſe multiplican mas de lo
+                                determinado, i juſto; con los que ſobran reparan lo que ai
+                                deſpoblado en otras de ſus Ciudades.</s>
+                        </seg><seg n="5.7" type="sentence">
+                            <s xml:id="es-5-7-1" n="es 5.7">Si a caſo en toda la Isla uviere
+                                muchedumbre de gente, hazen padron della, i en la tierra continente
+                                fundan Colonias ſujetas a ſus miſmas leyes, convidando a los
+                                naturales de la tierra, ſi les agrada vivir en ſu compañia.<anchor
+                                    n="62" xml:id="note-5-4"/></s>
+                        </seg><seg n="5.8" type="sentence">
+                            <s xml:id="es-5-8-1" n="es 5.8">Aviendoſe juntado con los que acetan
+                                facilmente ſe conformã en las coſtumbres, i leyes, <app>
+                                    <lem>con conveniencia que mira al bien de ambos pueblos</lem>
+                                    <rdg wit="1790">con utilidad de ambos pueblos</rdg>
+                                    <rdg wit="1805">con utilidad de ambos pueblos</rdg>
+                                </app>.</s>
+                        </seg><seg n="5.9" type="sentence">
+                            <s xml:id="es-5-9-1" n="es 5.9">Deſta suerte hazen con ſus buenas
+                                ordenanças, que ſe fertilize la tierra, que antes era eſteril, i
+                                    miſerable.<anchor n="63" xml:id="note-5-5"/></s>
+                        </seg><seg n="5.10" type="sentence">
+                            <s xml:id="es-5-10-1" n="es 5.10">A los que no conforman con ſus
+                                inſtitutos, los echan de los terminos, que han ſeñalado para ſi, <app>
+                                    <lem>i a los que ſe reſiſten les hazen guerra, teniendola por juſta</lem>
+                                    <rdg wit="1790">haciendo guerra a los que se resisten, la que tienen por justa</rdg>
+                                    <rdg wit="1805">haciendo guerra a los que se resisten, la que tienen por justa</rdg></app>.</s>
+                        </seg><seg n="5.11" type="sentence">
+                            <s xml:id="es-5-11-1" n="es 5.11">Quãdo algun pueblo prohibe al otro el
+                                uſo, i <pb n="11r"/>poſſeſsion, <app>
+                                    <lem>de lo q̃ por eſtar vacio, i deſocupado el terreno,</lem>
+                                    <rdg wit="1790">del terreno vacío y desocupado</rdg>
+                                    <rdg wit="1805">del terreno vacío y desocupado</rdg></app> de q̃ ningun otro pueblo ſe aprovecha; i por lei, i ordẽ
+                                del derecho natural, lo puede gozar, i <app>
+                                    <lem>alli vivir,</lem>
+                                    <rdg wit="1790">vivir allí,</rdg>
+                                    <rdg wit="1805">vivir allí,</rdg></app> i apoderarſe del
+                                dominio, o uſo de aquella tierra.</s>
+                        </seg><seg n="5.12" type="sentence">
+                            <s xml:id="es-5-12-1" n="es 5.12"><app>
+                                <lem>Quando</lem>
+                                <rdg wit="1790">y quando</rdg>
+                                <rdg wit="1805">y quando</rdg></app> ſucede a las Ciudades de la
+                                Isla algun caſo deſaſtrado, de manera que guardando ſus eſtatutos,
+                                no ſe pueda reparar (lo qual ha ſucedido dos vezes en muchos ſiglos,
+                                por calamidad, i peſtes) buelven a ſacar de las Colonias el numero
+                                competente a ſu reparo: porque tienen por mas acertado conſervar la
+                                caſa propia, que buſcar la agena.</s>
+                        </seg><seg n="5.13" type="sentence">
+                            <s xml:id="es-5-13-1" n="es 5.13">Mas bolviendo a la manera de vivir
+                                deſtos (como he dicho) el mas antiguo preſide a la familia.</s>
+                        </seg><seg n="5.14" type="sentence">
+                            <s xml:id="es-5-14-1" n="es 5.14">Las mugeres ſirven a ſus maridos, los
+                                hijos a ſus padres, i generalmente los de menor edad a los
+                                mayores.</s>
+                        </seg><seg n="5.15" type="sentence">
+                            <s xml:id="es-5-15-1" n="es 5.15">Qualquiera de las Ciudades ſe reparte
+                                en quatro Collaciones iguales.<anchor n="64" xml:id="note-5-6"/></s>
+                        </seg><seg n="5.16" type="sentence">
+                            <s xml:id="es-5-16-1" n="es 5.16">En medio de cada una deſtas partes, ai
+                                una plaça, donde ſe hallan todas las coſas.</s>
+                        </seg><seg n="5.17" type="sentence">
+                            <s xml:id="es-5-17-1" n="es 5.17">Alli ſe traen a caſas determinadas, lo
+                                que ha travajado cada familia; i cada eſpecie de grano, ſe acomoda,
+                                en diferentes alhories con diſtincion.<anchor n="65"
+                                    xml:id="note-5-7"/></s>
+                        </seg><seg n="5.18" type="sentence">
+                            <s xml:id="es-5-18-1" n="es 5.18">Deſtas caſas diputadas qualquier padre
+                                de familias ſaca todo aquello, de que tiene neceſſidad para ſi, i
+                                para los ſuyos, ſin dinero, ni otra recompenſa.</s>
+                        </seg><seg n="5.19" type="sentence">
+                            <s xml:id="es-5-19-1" n="es 5.19">Porque ſe le tiene de negar nada,
+                                auiẽdo alli abundancia de todas las coſas, i ſin recelo de que nadie
+                                a de pedir, lo que no ha meneſter?</s>
+                        </seg><seg n="5.20" type="sentence">
+                            <s xml:id="es-5-20-1" n="es 5.20">A q̃ propoſito ha de pedir lo
+                                ſuperfluo aquel <pb n="11v"/>que tiene por cierto, que no le ha de faltar nada de
+                                lo neceſſario?</s>
+                        </seg>
+                        <seg n="5.21" type="sentence">
+                            <s xml:id="es-5-21-1" n="es 5.21">Siendo manifieſto, que donde no ai
+                                temor, de que falten las coſas neceſſarias, <app>
+                                    <lem>i ceſſa</lem>
+                                    <rdg wit="1790">cesa</rdg>
+                                    <rdg wit="1805">cesa</rdg></app> la ambicion del
+                                querer aumentar demaſiadas riquezas (coſas que hazen los hombres
+                                cudicioſos, i atrevidos) i como eſto no ſucede a los Vtopianos viven
+                                con quietud.<anchor n="66" xml:id="note-5-8"/></s>
+                        </seg><seg n="5.22" type="sentence">
+                            <s xml:id="es-5-22-1" n="es 5.22">Iunto a las plaças (de que hize
+                                mencion) ai otras que dizen de baſtimentos, a las quales ſe <app>
+                                    <lem>traen como ortalizas</lem>
+                                    <rdg wit="1790">traen hortalizas</rdg>
+                                    <rdg wit="1805">traen hortalizas</rdg></app>, frutas, i pan: pero el peſcado, carnes de aves, i
+                                animales, i qualquier otro baſtimẽto, que puede cauſar horror,
+                                tienen lugares ſeñalados, fuera de la Ciudad, cerca del rio, donde
+                                ſe puedan labar las immundicias.<anchor n="67" xml:id="note-5-9"
+                                /></s>
+                        </seg><seg n="5.23" type="sentence">
+                            <s xml:id="es-5-23-1" n="es 5.23">De aqui llevan las reſes muertas,
+                                limpias primero por mano de ſus eſclavos, porque no conſienten, que
+                                ſus Ciudadanos ſe ocupẽ en degollar, deſollar, ni cortar los
+                                animales (que de uſar eſto juzgan ſe buelven fieros, crueles,
+                                inumanos; i temen que el afeƈto de la piedad natural ſe ha de ir
+                                perdiendo poco a poco) i prohiben que ninguna coſa inmunda, ſucia, i
+                                aſqueroſa entre ẽ el lugar (cuya putrefacciõ corrompa el aire, i
+                                aſsi inficionado cauſe enfermades.)<anchor n="68" xml:id="note-5-10"
+                                /></s>
+                        </seg><seg n="5.24" type="sentence">
+                            <s xml:id="es-5-24-1" n="es 5.24">Cada barrio tiene ciertas Aulas
+                                publicas, apartadas unas de otras igual diſtancia, conocidas por ſus
+                                nombres, en ellas moran los Sifograntos, a cada uno de los quales ſe
+                                le feñalan treinta familias, <app>
+                                    <lem>de condicion, que</lem>
+                                    <rdg wit="1790">de modo que</rdg>
+                                    <rdg wit="1805">de modo que</rdg></app> quedan acomodadas a
+                                cada banda quinze familias juntas a comer en ellas.<anchor n="69"
+                                    xml:id="note-5-11"/></s>
+                        </seg><seg n="5.25" type="sentence">
+                            <s xml:id="es-5-25-1" n="es 5.25">Los deſ<pb n="12r"/>penſeros deſtas falas, ſe
+                                juntan a oras ſeñaladas en la plaça, para pedir proviſiõ, conforme
+                                al numero de ſus familias.</s>
+                        </seg><seg n="5.26" type="sentence">
+                            <s xml:id="es-5-26-1" n="es 5.26">Pero primero ſe atiende al regalo de
+                                los enfermos, los quales ſe curan en hoſpitales publicos, que ai
+                                quatro en cada Ciudad, fabricados fuera della, tan capaces, que
+                                parecẽ poblaciones pequeñas: lo uno, porq̃ ſi ai grã numero de
+                                enfermos no eſten eſtrechos, i con incomodidad: lo otro, porq̃ ſi
+                                uvieſſe algunos de mal contagioſo, i pegadizo, puedã eſtar apartados
+                                de los otros.</s>
+                        </seg><seg n="5.27" type="sentence">
+                            <s xml:id="es-5-27-1" n="es 5.27">Eſtã eſtos hoſpitales tãbiẽ
+                                diſpueftos, i tã llenos, i apercebidos de todas aquellas coſas q̃
+                                miran a la ſalud: i ſervidos con tanta caridad, i cuidado, i tan
+                                bien aſsiſtidos de medicos doƈtos, q̃ ſi bien no es fuerça, q̃ ſe
+                                recojan alli todos los enfermos, con todo ninguno que adolece deja
+                                de querer mas paſſar la enfermedad en eſte ſitio, q̃ en ſu
+                                    caſa.<anchor n="70" xml:id="note-5-12"/></s>
+                        </seg><seg n="5.28" type="sentence">
+                            <s xml:id="es-5-28-1" n="es 5.28">Quãdo el deſpẽſero de los enfermos a
+                                tomado las coſas neceſſarias, conforme el ordẽ, i receta de los
+                                medicos; deſpues lo mejor, por iguales partes ſe reparte con atenciõ
+                                al numero, i ſe deſtribuye en las ſalas; ſi ya no ſe tiene reſpeto a
+                                lo q̃ pide el Principe, Prelados, i los Traniboros, i tan biẽ los
+                                Embajadores eſtrãgeros (ſi es q̃ ai al gunos) q̃ ſiempre aſsiſtẽ
+                                pocos; i a eſtos quãdo los ai, tan bien les tienen caſa ſeñalada, i
+                                    adereçada.<anchor n="71" xml:id="note-5-13"/></s>
+                        </seg><seg n="5.29" type="sentence">
+                            <s xml:id="es-5-29-1" n="es 5.29">Aſsiſten a eſtas Aulas, o Tinelos, los
+                                Sifograntos, i las familias, q̃ les tocan llamados al sõ de
+                                trompetas a la ora del comer, i del cenar, ſi ya no es q̃ <pb n="12v"/>eſtan
+                                enfermos en ſus caſas, o en los hoſpitales, i a ninguno ſe le
+                                prohibe deſpues llevar de la plaça refaccion a ſu caſa; porque eſtã
+                                perſuadidos, que ninguno haze eſto, ſin neceſsidad, <app>
+                                    <lem>que aunque</lem>
+                                    <rdg wit="1790">y aunque</rdg>
+                                    <rdg wit="1805">y aunque</rdg></app> es
+                                licito a todos comer en ſus caſas, ninguno lo haze con guſto, porque
+                                no lo tienen por decente, i lo reputan a inadvertẽcia, encargarſe de
+                                cuidado eſcuſado, pudiendo comer en los Tinelos tan eſplendida, i
+                                regaladamente, ſin afan de prevencion, mayormente eſtando todas las
+                                coſas tan a la mano.</s>
+                        </seg><seg n="5.30" type="sentence">
+                            <s xml:id="es-5-30-1" n="es 5.30">En eſtas ſalas ſe encargan los
+                                eſclavos de todos aquellos miniſterios, que ſe tienen por ſerviles,
+                                i no decẽtes.</s>
+                        </seg><seg n="5.31" type="sentence">
+                            <s xml:id="es-5-31-1" n="es 5.31">En lo demas del adereçar, <app>
+                                <lem>i guiſar las viandas, vltimamente</lem>
+                                <rdg wit="1790">ó guisar las viandas y</rdg>
+                                <rdg wit="1805">ó guisar las viandas y</rdg></app> toda la diſpoſicion de las meſas, corre por
+                                cuenta de las mugeres, paſſando turno por las familias.</s>
+                        </seg><seg n="5.32" type="sentence">
+                            <s xml:id="es-5-32-1" n="es 5.32">Ponenſe <app>
+                                <lem>meſas, tres, o mas,</lem>
+                                <rdg wit="1790">tres, ó más mesas</rdg>
+                                <rdg wit="1805">tres, ó más mesas</rdg>
+                            </app> conforme
+                                el numero de los que ſe han de ſentar.</s>
+                        </seg><seg n="5.33" type="sentence">
+                            <s xml:id="es-5-33-1" n="es 5.33">Los varones ſe ſientan arrimados a la
+                                pared, i las hembras en los bancos de afuera: <app>
+                                    <lem>i por</lem>
+                                    <rdg wit="1790">para que</rdg>
+                                    <rdg wit="1805">para que</rdg>
+                                </app> ſi les
+                                ſobreviene algun accidente (eſpecialmente a las preñadas) puedan
+                                acudir a la neceſsidad,vi a las nutrizes, ſin deſcomponer las
+                                meſas.</s>
+                        </seg><seg n="5.34" type="sentence">
+                            <s xml:id="es-5-34-1" n="es 5.34">Eſtas aſsiſten alli algo apartadas, en
+                                pieça particular con los niños de pecho, i ſiempre tienen prevención
+                                de lumbre, i agua clara, i aun cunas, donde recojen los niños, i al
+                                fuego los deſenbuelven, i recrean.</s>
+                        </seg><seg n="5.35" type="sentence">
+                            <s xml:id="es-5-35-1" n="es 5.35">Toda madre cria ſu hijo, ſino lo
+                                impide la muerte, o enfermedad, i quando eſto acontece, las mugeres
+                                de los Sifograntos cõ <pb n="13r"/>brevedad buſcan amas, i las hallan con
+                                facilidad, porque las que puedẽ hazer eſte oficio, a ninguna coſa
+                                acuden con mas voluntad, i todas con alabãça executan eſta obra de
+                                piedad, i el muchacho tiene en lugar de madre, a la que le cria.</s>
+                        </seg><seg n="5.36" type="sentence">
+                            <s xml:id="es-5-36-1" n="es 5.36">Eſtan todos los niños ſentados juntos
+                                en el quarto de las que les dan el pecho, eſto haſta aver cumplido
+                                cinco años, los demas jobenes moçuelos, i los q̃ eſtan por caſar,
+                                aſsi hembras, como varones ſirven a las meſas, i los que no tienen
+                                edad ſuficiente, aſsiſten a las eſpaldas, i comen de lo que les dan,
+                                los que eſtan ſentados; i eſte tiempo tienen ſeñalado para ſu
+                                comida, i no otro.<anchor n="72" xml:id="note-5-14"/></s>
+                        </seg><seg n="5.37" type="sentence">
+                            <s xml:id="es-5-37-1" n="es 5.37">La meſa principal del cenaculo eſtà a
+                                la cabecera, deſde la qual ſe vee toda la junta; en medio della eſta
+                                ſentado el Sifogranto con ſu muger, luego le ſiguen dos de los mas
+                                ancianos, i ſe van ſentando por todas las meſas de quatro en quatro:
+                                i ſi en aquel contorno ai Templo, el Sacerdote, i ſu muger ſe
+                                ſientan igualmente con los Sifograntos, i de entrambas partes ſe van
+                                acomodando, los mas moços deſpues de los viejos; i con eſte
+                                concierto ſe juntan todos los de una edad por toda la ſala, aunque
+                                ſe mezclen con los de ſemejantes: i dizen que lo hazen aſsi, i eſtà
+                                eſtablecido deſta ſuerte: porque la reverencia, i authoridad de los
+                                mayores, reforme la licencia del hablar, meneos, i viſajes de los
+                                menores; ſiendo aſsi, que no puedan dezir, o hazer coſa, que no la
+                                ayan, o vean los ancianos <pb n="13v"/>deſde qualquiera parte.</s>
+                        </seg><seg n="5.38" type="sentence">
+                            <s xml:id="es-5-38-1" n="es 5.38">Sirven las meſas, i dã los manjares a
+                                los mas ancianos, que ocupan lugar ſeñalado, llevandoles lo mexor
+                                aderezado, i luego ſirven por igual a los demas.</s>
+                        </seg><seg n="5.39" type="sentence">
+                            <s xml:id="es-5-39-1" n="es 5.39">Daſeles a los ancianos de lo mas
+                                regalado, i curioſo, <app>
+                                    <lem>de que no podra aver</lem>
+                                    <rdg wit="1790">y no habiendo</rdg>
+                                    <rdg wit="1805">y no habiendo</rdg></app> baſtante para todos, mas
+                                ellos reparten dello a ſu voluntad, con los que tienen mas
+                                cerca.</s>
+                        </seg><seg n="5.40" type="sentence">
+                            <s xml:id="es-5-40-1" n="es 5.40">Deſta ſuerte ſe les guarda el
+                                competente decoro a los <app>
+                                    <lem>ancianos</lem>
+                                    <rdg wit="1790">mayores</rdg>
+                                    <rdg wit="1805">mayores</rdg>
+                                </app>, i gozan todos de las viandas.</s>
+                        </seg><seg n="5.41" type="sentence">
+                            <s xml:id="es-5-41-1" n="es 5.41">Leenles mientras dura el comer, i el
+                                cenar alguna coſa moral, i con brevedad, porque no les cauſe
+                                faſtidio.</s>
+                        </seg><seg n="5.42" type="sentence">
+                            <s xml:id="es-5-42-1" n="es 5.42">Deſpues de la lecciõ los ancianos
+                                mueven platicas guſtoſas, i decentes; i no <app>
+                                    <lem>con largos diſcurſos ocupan</lem>
+                                    <rdg wit="1790">con largos discursos ocupan</rdg>
+                                    <rdg wit="1805">con largos discursos ocupan</rdg>
+                                </app> todo el tiempo, que ſe gaſta en la comida: antes a vezes oyen
+                                de buena gana a los mãcebos; i aun de induſtria les ocaſionã, para
+                                q̃ con la licẽcia de los manjares reconozcan el natural, i abilidad
+                                de cada uno.</s>
+                        </seg><seg n="5.43" type="sentence">
+                            <s xml:id="es-5-43-1" n="es 5.43">Las comidas del medio dia ſon mas
+                                breves, i las cenas de la noche mas largas; porq̃ aquellas el
+                                travajo, i eſtas el ſueño, i el deſcanſo de la noche las abraça, i
+                                digiere mejor; lo qual tienen ellos por mas conveniente para el
+                                cocimiento natural del alimẽto.<anchor n="73" xml:id="note-5-15"
+                                /></s>
+                        </seg><seg n="5.44" type="sentence">
+                            <s xml:id="es-5-44-1" n="es 5.44">Vſan de muſica en la cena, i por
+                                poſtre frutas ſecas, recreanſe cõ buenos olores, gaſtando paſtillas,
+                                i pebetes, i aplicãdo lo que puede ſer de agrado a los q̃ aſsiſten,
+                                que deſtas coſas ſe dejan llevar el animo; porque eſtan perſuadidos
+                                no es prohibido qualquiera genero de deleites, de <app>
+                                    <lem>quiẽ</lem>
+                                    <rdg wit="1790">que</rdg>
+                                    <rdg wit="1805">que</rdg></app> no ſe ſiguẽ
+                                <pb n="14r"/>inconvenientes.<anchor n="74" xml:id="note-5-16"/></s>
+                        </seg><seg n="5.45" type="sentence">
+                            <s xml:id="es-5-45-1" n="es 5.45">Deſta manera pues ſe juntan en la
+                                Ciudad.</s>
+                        </seg><seg n="5.46" type="sentence">
+                            <s xml:id="es-5-46-1" n="es 5.46">Los que acuden al campo, cada qual ſe
+                                acomoda en ſu granja, con ſu familia, que a ninguno le falta lo
+                                neceſſario, como aquellos de quiẽ ſe ſuſtentan las Ciudades.<anchor
+                                    n="75" xml:id="note-5-17"/></s>
+                        </seg>
+                    </ab>
+                </div>
+            </div>
+            <div type="modernization" xml:lang="es">
+                <div type="chapter" n="5">
+                    <pb n="10r"/>
+                    <head type="chapter">Del Comercio. Capítulo V.</head>
+                    <ab><seg n="5.1" type="singleSentence">
+                            <seg xml:id="em-5-1-1" n="em 5.1" corresp="#es-5-1-1">Parece puesto en
+                                razón declarar de qué manera los ciudadanos comercien entre sí y
+                                cómo traten sus correspondencias.</seg>
+                        </seg><seg n="5.2" type="singleSentence">
+                            <seg xml:id="em-5-2-1" n="em 5.2" corresp="#es-5-2-1">Pues siendo así
+                                que de familias se compone la ciudad y que los parentescos forman
+                                las familias, siempre (en llegando a tomar estado las mujeres),
+                                habiéndose casado, van a las casas de sus maridos, <pb n="10v"/>mas los hijos que
+                                tienen varones y los nietos viven en su familia debajo del gobierno
+                                y obediencia del más anciano de ella, y si a la edad no le tiene
+                                enflaquecido el discurso, que en tal caso el inmediato en la edad
+                                sucede en su lugar.</seg>
+                        </seg><seg n="5.3" type="singleSentence">
+                            <seg xml:id="em-5-3-1" n="em 5.3" corresp="#es-5-3-1">Mas, porque no
+                                falte población a la ciudad ni se aumente en demasía, tienen
+                                ordenado que ninguna familia (de los cuales tiene seis mil cada
+                                ciudad) pueda sustentar menos de diez mancebos ni más que
+                                dieciséis.</seg>
+                        </seg><seg n="5.4" type="singleSentence">
+                            <seg xml:id="em-5-4-1" n="em 5.4" corresp="#es-5-4-1">De los adultos no
+                                hay número determinado.</seg>
+                        </seg><seg n="5.5" type="singleSentence">
+                            <seg xml:id="em-5-5-1" n="em 5.5" corresp="#es-5-5-1">Guárdase este
+                                medio pasando los que sobran de una familia a otra que le faltan,
+                                con los cuales se llena.</seg>
+                        </seg><seg n="5.6" type="singleSentence">
+                            <seg xml:id="em-5-6-1" n="em 5.6" corresp="#es-5-6-1">Si alguna vez se
+                                multiplican más de lo determinado y justo, con los que sobran
+                                reparan lo que hay despoblado en otras de sus ciudades.</seg>
+                        </seg><seg n="5.7" type="singleSentence">
+                            <seg xml:id="em-5-7-1" n="em 5.7" corresp="#es-5-7-1">Si a caso en toda
+                                la isla hubiere muchedumbre de gente, hacen padrón de ella y en la
+                                tierra continente fundan colonias sujetas a sus mismas leyes,
+                                convidando a los naturales de la tierra si les agrada vivir en su
+                                compañía.</seg>
+                        </seg><seg n="5.8" type="singleSentence">
+                            <seg xml:id="em-5-8-1" n="em 5.8" corresp="#es-5-8-1">Habiéndose juntado
+                                con los que aceptan, fácilmente se conforman en las costumbres y
+                                leyes con conveniencia, que mira al bien de ambos pueblos.</seg>
+                        </seg><seg n="5.9" type="singleSentence">
+                            <seg xml:id="em-5-9-1" n="em 5.9" corresp="#es-5-9-1">De esta suerte
+                                hacen con sus buenas ordenanzas que se fertilice la tierra que antes
+                                era estéril y miserable.</seg>
+                        </seg><seg n="5.10" type="singleSentence">
+                            <seg xml:id="em-5-10-1" n="em 5.10" corresp="#es-5-10-1">A los que no
+                                conforman con sus institutos los echan de los términos que han
+                                señalado para sí y a los que se resisten les hacen guerra,
+                                teniéndola por justa.</seg>
+                        </seg><seg n="5.11" type="singleSentence">
+                            <seg xml:id="em-5-11-1" n="em 5.11" corresp="#es-5-11-1">Cuando algún
+                                pueblo prohíbe al otro el uso y <pb n="11r"/>posesión de lo que por estar vacío y
+                                desocupado el terreno de que ningún otro pueblo se aprovecha y por
+                                ley y orden del derecho natural, lo puede gozar y allí vivir y
+                                apoderarse del dominio o uso de aquella tierra.</seg>
+                        </seg><seg n="5.12" type="singleSentence">
+                            <seg xml:id="em-5-12-1" n="em 5.12" corresp="#es-5-12-1">Cuando sucede a
+                                las ciudades de la isla algún caso desastrado de manera que
+                                guardando sus estatutos no se pueda reparar (lo cual ha sucedido dos
+                                veces en muchos siglos por calamidad y pestes), vuelven a sacar de
+                                las colonias el número competente a su reparo, porque tienen por más
+                                acertado conservar la casa propia que buscar la ajena.</seg>
+                        </seg><seg n="5.13" type="singleSentence">
+                            <seg xml:id="em-5-13-1" n="em 5.13" corresp="#es-5-13-1">Mas volviendo a
+                                la manera de vivir de estos (como he dicho), el más antiguo preside
+                                a la familia.</seg>
+                        </seg><seg n="5.14" type="singleSentence">
+                            <seg xml:id="em-5-14-1" n="em 5.14" corresp="#es-5-14-1">Las mujeres
+                                sirven a sus maridos, los hijos a sus padres y generalmente los de
+                                menor edad a los mayores.</seg>
+                        </seg><seg n="5.15" type="singleSentence">
+                            <seg xml:id="em-5-15-1" n="em 5.15" corresp="#es-5-15-1">Cualquiera de
+                                las ciudades se reparte en cuatro colaciones iguales.</seg>
+                        </seg><seg n="5.16" type="singleSentence">
+                            <seg xml:id="em-5-16-1" n="em 5.16" corresp="#es-5-16-1">En medio de
+                                cada una de estas parte hay una plaza donde se hallan todas las
+                                cosas.</seg>
+                        </seg><seg n="5.17" type="singleSentence">
+                            <seg xml:id="em-5-17-1" n="em 5.17" corresp="#es-5-17-1">Allí se traen a
+                                casas determinadas lo que ha trabajado cada familia y cada especie
+                                de grano se acomoda en diferentes alhoríes con distinción.</seg>
+                        </seg><seg n="5.18" type="singleSentence">
+                            <seg xml:id="em-5-18-1" n="em 5.18" corresp="#es-5-18-1">De estas casas
+                                diputadas cualquier padre de familia saca todo aquello de que tiene
+                                necesidad para sí y para los suyos sin dinero ni otra
+                                recompensa.</seg>
+                        </seg><seg n="5.19" type="singleSentence">
+                            <seg xml:id="em-5-19-1" n="em 5.19" corresp="#es-5-19-1">¿Por qué se le
+                                tiene de negar nada, habiendo allí abundancia de todas las cosas y
+                                sin recelo de que nadie ha de pedir lo que no ha menester?</seg>
+                        </seg><seg n="5.20" type="singleSentence">
+                            <seg xml:id="em-5-20-1" n="em 5.20" corresp="#es-5-20-1">¿A qué
+                                propósito ha de pedir lo superfluo aquel <pb n="11v"/>que tiene por cierto que no
+                                le ha de faltar nada de lo necesario?</seg>
+                        </seg><seg n="5.21" type="singleSentence">
+                            <seg xml:id="em-5-21-1" n="em 5.21" corresp="#es-5-21-1">Siendo
+                                manifiesto que donde no hay temor de que falten cosas necesarias y
+                                cesa la ambición del querer aumentar demasiadas riquezas (cosas que
+                                hacen los hombres codiciosos y atrevidos) y, como esto no sucede a
+                                los utopianos, viven con quietud.</seg>
+                        </seg><seg n="5.22" type="singleSentence">
+                            <seg xml:id="em-5-22-1" n="em 5.22" corresp="#es-5-22-1">Junto a las
+                                plazas (de que hice mención) hay otras que dicen de bastimentos, a
+                                las cuales se traen como hortalizas, frutas y pan, pero el pescado,
+                                carnes de aves y animales y cualquier otro bastimento que puede
+                                causar horror tienen lugares señalados fuera de la ciudad, cerca del
+                                río, donde se puedan lavar las inmundicias.</seg>
+                        </seg><seg n="5.23" type="singleSentence">
+                            <seg xml:id="em-5-23-1" n="em 5.23" corresp="#es-5-23-1">De aquí llevan
+                                las reses muertas limpias primero por mano de sus esclavos porque no
+                                consienten que sus ciudadanos se ocupen en degollar, desollar, ni
+                                cortar los animales (que, de usar esto, juzgan se vuelven fieros,
+                                crueles, inhumanos, y temen que el afecto de la piedad natural se ha
+                                de ir perdiendo poco a poco) y prohíben que ninguna cosa inmunda,
+                                sucia y asquerosa entre en el lugar (cuya putrefacción corrompa el
+                                aire y así inficionado cause enfermedades).</seg>
+                        </seg><seg n="5.24" type="multisentence">
+                            <seg xml:id="em-5-24-1" n="em 5.24" corresp="#es-5-24-1">Cada barrio
+                                tiene ciertas aulas públicas apartadas unas de otras igual
+                                distancia, conocidas por sus nombres.</seg>
+                            <seg xml:id="em-5-24-2" n="em 5.25" corresp="#es-5-24-1">En ellas moran
+                                los sifograntos, a cada uno de los cuales se le señalan treinta
+                                familias de condición, que quedan acomodadas a cada banda quince
+                                familias juntas a comer en ellas.</seg>
+                        </seg><seg n="5.25" type="singleSentence">
+                            <seg xml:id="em-5-25-1" n="em 5.26" corresp="#es-5-25-1">Los des<pb n="12r"/>penseros
+                                de estas salas se juntan a horas señaladas en la plaza para pedir
+                                provisión conforme al número de sus familias.</seg>
+                        </seg><seg n="5.26" type="singleSentence">
+                            <seg xml:id="em-5-26-1" n="em 5.27" corresp="#es-5-26-1">Pero primero se
+                                atiende al regalo de los enfermos, los cuales se curan en hospitales
+                                públicos, que hay cuatro en cada ciudad, fabricados fuera de ella,
+                                tan capaces que parecen poblaciones pequeñas: lo uno, porque si hay
+                                gran número de enfermos no estén estrechos y con incomodidad; lo
+                                otro, porque, si hubiese algunos de mal contagioso y pegadizo,
+                                puedan estar apartados de los otros.</seg>
+                        </seg><seg n="5.27" type="singleSentence">
+                            <seg xml:id="em-5-27-1" n="em 5.28" corresp="#es-5-27-1">Están estos
+                                hospitales tan bien dispuestos y tan llenos y apercibidos de todas
+                                aquellas cosas que miran a la salud y servidos con tanta caridad y
+                                cuidado, y tan bien asistidos de médicos doctos que, si bien no es
+                                fuerza que se recojan allí todos los enfermos, con todo ninguno que
+                                adolece deja de querer más pasar la enfermedad en este sitio que en
+                                su casa.</seg>
+                        </seg><seg n="5.28" type="multisentence">
+                            <seg xml:id="em-5-28-1" n="em 5.29" corresp="#es-5-28-1">Cuando el
+                                despensero de los enfermos ha tomado las cosas necesarias conforme
+                                el orden y receta de los médicos, después lo mejor, por iguales
+                                partes, se reparte con atención al número y se distribuye en las
+                                salas.</seg>
+                            <seg xml:id="em-5-28-2" n="em 5.30" corresp="#es-5-28-1">Si ya no se
+                                tiene respeto a lo que pide el príncipe, prelados y los traniboros,
+                                y también los embajadores extranjeros (si es que hay algunos), que
+                                siempre asisten pocos, y a estos, cuando los hay, también les tienen
+                                casa señalada y aderezada.</seg>
+                        </seg><seg n="5.29" type="singleSentence">
+                            <seg xml:id="em-5-29-1" n="em 5.31" corresp="#es-5-29-1">Asisten a estas
+                                aulas o tinelos los sifograntes y las familias, que les tocan
+                                llamados al son de trompetas a la hora de comer y del cenar si ya no
+                                es que <pb n="12v"/>están enfermos en sus casas o en los hospitales, y a ninguno
+                                se le prohíbe después llevar de la plaza refacción a su casa, porque
+                                están persuadidos que ninguno hace esto sin necesidad que, aunque es
+                                lícito a todos comer en sus casas, ninguno lo hace con gusto porque
+                                no lo tienen por decente y lo reputan a inadvertencia encargarse de
+                                cuidado escusado pudiendo comer en los tinelos tan espléndida y
+                                regaladamente, sin afán de prevención, mayormente estando todas las
+                                cosas tan a mano.</seg>
+                        </seg><seg n="5.30" type="singleSentence">
+                            <seg xml:id="em-5-30-1" n="em 5.32" corresp="#es-5-30-1">En estas salas
+                                se encargan los esclavos de todos aquellos ministerios que se tienen
+                                por serviles y no decentes.</seg>
+                        </seg><seg n="5.31" type="singleSentence">
+                            <seg xml:id="em-5-31-1" n="em 5.33" corresp="#es-5-31-1">En lo demás del
+                                aderezar y guisar las viandas, últimamente toda la disposición de
+                                las mesas corre por cuenta de las mujeres pasando turno por las
+                                familias.</seg>
+                        </seg><seg n="5.32" type="singleSentence">
+                            <seg xml:id="em-5-32-1" n="em 5.34" corresp="#es-5-32-1">Pónense mesas,
+                                tres o más, conforme el número de los que han de sentar.</seg>
+                        </seg><seg n="5.33" type="singleSentence">
+                            <seg xml:id="em-5-33-1" n="em 5.35" corresp="#es-5-33-1">Los varones se
+                                sientan arrimados a la pared y las hembras en los bancos de afuera
+                                y, por si les sobreviene algún accidente (especialmente a las
+                                preñadas), puedan acudir a la necesidad y a las nutrices sin
+                                descomponer las mesas.</seg>
+                        </seg><seg n="5.34" type="singleSentence">
+                            <seg xml:id="em-5-34-1" n="em 5.36" corresp="#es-5-34-1">Estas asisten
+                                allí algo apartadas en pieza particular con los niños de pecho y
+                                siempre tienen prevención de lumbre y agua clara y aun cunas, donde
+                                recogen los niños y al fuego los desenvuelven y recrean.</seg>
+                        </seg><seg n="5.35" type="singleSentence">
+                            <seg xml:id="em-5-35-1" n="em 5.37" corresp="#es-5-35-1">Toda madre cría
+                                su hijo si no lo impide la muerte o enfermedad y, cuando esto
+                                acontece, las mujeres de los sifograntos con <pb n="13r"/>brevedad buscan amas y
+                                las hallan con facilidad porque las que pueden hacer este oficio a
+                                ninguna cosa acuden con más voluntad, y todas, con alabanza,
+                                ejecutan esta obra de piedad y el muchacho tiene en lugar de madre a
+                                la que le cría.</seg>
+                        </seg><seg n="5.36" type="multisentence">
+                            <seg xml:id="em-5-36-1" n="em 5.38" corresp="#es-5-36-1">Están todos los
+                                niños sentados juntos en el cuarto de las que les dan el pecho, esto
+                                hasta haber cumplido cinco años.</seg>
+                            <seg xml:id="em-5-36-2" n="em 5.39" corresp="#es-5-36-1">Los demás
+                                jóvenes mozuelos y los que están por casar, así hembras como
+                                varones, sirven a las mesas y los que no tienen edad suficiente
+                                asisten a las espaldas y comen de lo que les dan los que están
+                                sentados, y este tiempo tienen señalado para su comida y no
+                                otro.</seg>
+                        </seg><seg n="5.37" type="multisentence">
+                            <seg xml:id="em-5-37-1" n="em 5.40" corresp="#es-5-37-1">La mesa
+                                principal del cenáculo está a la cabecera, desde la cual se ve toda
+                                la junta.</seg>
+                            <seg xml:id="em-5-37-2" n="em 5.41" corresp="#es-5-37-1">En medio de
+                                ella está sentado el sifogranto con su mujer, luego le siguen dos de
+                                los más ancianos y se van sentando por todas las mesas de cuatro en
+                                cuatro.</seg><seg xml:id="em-5-37-3" n="em 5.42"
+                                corresp="#es-5-37-1">Y, si en aquel contorno hay templo, el
+                                sacerdote y su mujer se sientan igualmente con los sifograntos, y de
+                                entrambas partes se van acomodando los más mozos, después de los
+                                viejos.</seg><seg xml:id="em-5-37-4" n="em 5.43"
+                                corresp="#es-5-37-1">Y con este concierto se juntan todos los de una
+                                edad por toda la sala, aunque se mezclen con los de
+                                semejantes.</seg>
+                            <seg xml:id="em-5-37-5" n="em 5.44" corresp="#es-5-37-1">Y dicen que lo
+                                hacen así y está establecido de esta suerte porque la reverencia y
+                                autoridad de los mayores reforme la licencia del hablar, meneos y
+                                visajes de los menores, siendo así que no puedan decir o hacer cosa
+                                que no la hayan o vean los ancianos <pb n="13v"/>desde cualquier parte.</seg>
+                        </seg><seg n="5.38" type="singleSentence">
+                            <seg xml:id="em-5-38-1" n="em 5.45" corresp="#es-5-38-1">Sirven las
+                                mesas y dan los manjares a los más ancianos, que ocupan lugar
+                                señalado, llevándoles lo mejor aderezado, y luego sirven por igual a
+                                los demás.</seg>
+                        </seg><seg n="5.39" type="singleSentence">
+                            <seg xml:id="em-5-39-1" n="em 5.46" corresp="#es-5-39-1">Dáseles a los
+                                ancianos lo más regalado y curioso de que no podrá haber bastante
+                                para todos, mas ellos reparten de ello a su voluntad con los que
+                                tienen más cerca.</seg>
+                        </seg><seg n="5.40" type="singleSentence">
+                            <seg xml:id="em-5-40-1" n="em 5.47" corresp="#es-5-40-1">De esta suerte
+                                se les guarda el competente decoro a los ancianos y gozan todos los
+                                de las viandas.</seg>
+                        </seg><seg n="5.41" type="singleSentence">
+                            <seg xml:id="em-5-41-1" n="em 5.48" corresp="#es-5-41-1">Leenles
+                                mientras dura el comer y el cenar alguna cosa moral y con brevedad,
+                                porque no les cause fastidio.</seg>
+                        </seg><seg n="5.42" type="multisentence">
+                            <seg xml:id="em-5-42-1" n="em 5.49" corresp="#es-5-42-1">Después de la
+                                lección, los ancianos mueven pláticas gustosas y decentes y no con
+                                largos discursos ocupan todo el tiempo que se gasta en comida.</seg>
+                            <seg xml:id="em-5-42-2" n="em 5.50" corresp="#es-5-42-1">Antes a veces
+                                oyen de buena gana a los mancebos; y aun de industria les ocasionan
+                                para que con la licencia de los manjares reconozcan el natural y
+                                habilidad de cada uno.</seg>
+                        </seg><seg n="5.43" type="singleSentence">
+                            <seg xml:id="em-5-43-1" n="em 5.51" corresp="#es-5-43-1">Las comidas del
+                                mediodía son más breves y las cenas de la noche más largas, porque
+                                aquellas el trabajo y estas el sueño y el descanso de la noche las
+                                abraza y digiere mejor, lo cual tienen ellos por más conveniente
+                                para el cocimiento natural del alimento.</seg>
+                        </seg><seg n="5.44" type="multisentence">
+                            <seg xml:id="em-5-44-1" n="em 5.52" corresp="#es-5-44-1">Usan de música
+                                en la cena y por postre, frutas secas.</seg>
+                            <seg xml:id="em-5-44-2" n="em 5.53" corresp="#es-5-44-1">Recréanse con
+                                buenos olores, gastando pastillas y pebetes y aplicando lo que puede
+                                ser de agrado a los que asisten que de estas cosas se dejan llevar
+                                el ánimo, porque están persuadidos no es prohibido cualquier género
+                                de deleites de quien no se siguen <pb n="14r"/>inconvenientes.</seg>
+                        </seg><seg n="5.45" type="singleSentence">
+                            <seg xml:id="em-5-45-1" n="em 5.54" corresp="#es-5-45-1">De esta manera
+                                pues se juntan en la ciudad.</seg>
+                        </seg><seg n="5.46" type="singleSentence">
+                            <seg xml:id="em-5-46-1" n="em 5.55" corresp="#es-5-46-1">Los que acuden
+                                al campo cada cual se acomoda en su granja con su familia, que a
+                                ninguno le falta lo necesario como aquellos de quien se sustentan
+                                las ciudades.</seg>
+                        </seg>
+                    </ab>
+                </div>
+            </div>
+            <div type="original" xml:lang="la">
+                <div type="chapter" n="5">
+                    <head type="chapter">Of their lyuing and mutuall conuersation together.</head>
+                    <ab><seg n="5.1" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-1-1" n="la 5.1" corresp="#es-5-1-1">SEd iam quo pacto
+                                sese mutuo ciues utantur, quae populi inter se commercia, quaeque
+                                sit distribuendarum rerum forma, uidetur explicandum.</seg>
+                        </seg><seg n="5.2" type="multisentence" subtype="translated">
+                            <seg xml:id="la-5-2-1" n="la 5.2" corresp="#es-5-2-1">Quum igitur ex
+                                familiis constet ciuitas, familias ut plurimum cognationes
+                                efficiunt.</seg>
+                            <seg xml:id="la-5-2-2" n="la 5.3" corresp="#es-5-2-1">Nam foeminae (ubi
+                                maturuerint) collocatae maritis in ipsorum domicilia
+                                concedunt.</seg>
+                            <seg xml:id="la-5-2-3" n="la 5.4" corresp="#es-5-2-1">at masculi filii
+                                ac deinceps nepotes in familia permanent, et parentum antiquissimo
+                                parent, nisi prae senecta mente parum ualuerit: tunc enim aetate
+                                proximus ei sufficitur.</seg>
+                        </seg><seg n="5.3" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-3-1" n="la 5.5" corresp="#es-5-3-1">Verum ne ciuitas
+                                aut fieri infrequentior, aut ultra modum possit increscere, cauetur
+                                ne ulla familia, quarum millia sex quaeque ciuitas, excepto
+                                conuentu, complectitur, pauciores quam decem, pluresue quam sexdecim
+                                puberes habeat.</seg>
+                        </seg><seg n="5.4" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-4-1" n="la 5.6" corresp="#es-5-4-1">Impu­berum enim
+                                nullus praefiniri numerus potest.</seg>
+                        </seg><seg n="5.5" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-5-1" n="la 5.7" corresp="#es-5-5-1">Hie modus facile
+                                seruatur, transcriptis hiis in rariores familias, qui in plenioribus
+                                excrescunt.</seg>
+                        </seg><seg n="5.6" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-6-1" n="la 5.8" corresp="#es-5-6-1">At si quando in
+                                totum plus iusto abundauerit, aliarum urbium suarum infrequentiam
+                                sarciunt.</seg>
+                        </seg><seg n="5.7" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-7-1" n="la 5.9" corresp="#es-5-7-1">Quod si forte per
+                                totam insulam plus aequo moles intumuerit, tum ex qualibet urbe
+                                descriptis ciuibus in continente proximo, ubicunque indigenis agri
+                                multum superest et cultu uacat, coloniam suis ipsorum legibus
+                                propagant, ascitis una terrae indigenis, si conuiuere secum
+                                uelint.</seg>
+                        </seg><seg n="5.8" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-8-1" n="la 5.10" corresp="#es-5-8-1">Cum uolenti­bus
+                                coniuncti in idem uitae institutum eosdemque mores facile
+                                coales­cunt; idque utriusque populi bono.</seg>
+                        </seg><seg n="5.9" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-9-1" n="la 5.11" corresp="#es-5-9-1">efficiunt enim
+                                suis institutis ut ea terra utrisque abunda sit, quae alteris aut
+                                parca ac maligna uide­batur.</seg>
+                        </seg><seg n="5.10" type="multisentence" subtype="translated">
+                            <seg xml:id="la-5-10-1" n="la 5.12" corresp="#es-5-10-1">Renuentes
+                                ipsorum legibus uiuere propellunt his finibus quos sibi ipsi
+                                describunt.</seg>
+                            <seg xml:id="la-5-10-2" n="la 5.13" corresp="#es-5-10-1">Aduersus
+                                repugnantes bello confligunt.</seg>
+                            <seg xml:id="la-5-10-3" n="la 5.14" type="partial" part="I"
+                                next="#la-5-11-1" corresp="#es-5-10-1"> nam eam iustissimam belli
+                                causam ducunt,</seg>
+                        </seg><seg n="5.11" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-11-1" n="la 5.14" type="partial" part="F"
+                                prev="#la-5-10-3" corresp="#es-5-11-1">quum populus quispiam eius
+                                soli, quo ipse non utitur, sed uelut inane ac uacuum possidet, aliis
+                                tamen qui ex naturae praescripto inde nutriri debeant, usum ac
+                                pos­sessionem interdicat.</seg>
+                        </seg><seg n="5.12" type="multisentence" subtype="translated">
+                            <seg xml:id="la-5-12-1" n="la 5.15" corresp="#es-5-12-1">Si quando ullas
+                                ex suis urbibus aliquis casus eousque imminuerit, ut ex aliis
+                                insulae partibus, seruato suo cuiusque urbis modo, resarciri non
+                                possint (quod bis dumtaxat ab omni aeuo, pestis grassante saeuitia,
+                                fertur contigisse), remigrantibus e colonia ciuibus replentur.</seg>
+                            <seg xml:id="la-5-12-2" n="la 5.16" corresp="#es-5-12-1">Perire enim
+                                colonias potius patiuntur quam ullam ex insularis urbibus imminui.
+                                Sed ad conuictum ciuium reuertor.</seg>
+                        </seg><seg n="5.13" type="multisentence" subtype="translated">
+                            <seg xml:id="la-5-13-1" n="la 5.17" corresp="#es-5-13-1">Sed ad
+                                conuictum ciuium reuertor.</seg>
+                            <seg xml:id="la-5-13-2" n="la 5.18" corresp="#es-5-13-1">Antiquissimus
+                                (ut dixi) praeest familiae.</seg>
+                        </seg><seg n="5.14" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-14-1" n="la 5.19" corresp="#es-5-14-1">Ministri sunt
+                                uxores maritis, et liberi parentibus, atque in summa minores natu
+                                maioribus.</seg>
+                        </seg><seg n="5.15" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-15-1" n="la 5.20" corresp="#es-5-15-1">Ciuitas omnis
+                                in quatuor aequales partes diuiditur.</seg>
+                        </seg><seg n="5.16" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-16-1" n="la 5.21" corresp="#es-5-16-1">In medio
+                                cuiusque partis forum est omnium rerum.</seg>
+                        </seg><seg n="5.17" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-17-1" n="la 5.22" corresp="#es-5-17-1">Eo in certas
+                                domos opera cuiusque familiae conuehuntur, atque in horrea singulae
+                                seorsum species distributae sunt.</seg>
+                        </seg><seg n="5.18" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-18-1" n="la 5.23" corresp="#es-5-18-1">Ab hiis
+                                quilibet pater­familias, quibus ipse suique opus habent, petit, ac
+                                sine pecunia, sine omni prorsus hostimento, quicquid petierit,
+                                aufert.</seg>
+                        </seg><seg n="5.19" type="multisentence" subtype="translated">
+                            <seg xml:id="la-5-19-1" n="la 5.24" corresp="#es-5-19-1">Quare enim
+                                negetur quicquam?</seg>
+                            <seg xml:id="la-5-19-2" n="la 5.25" corresp="#es-5-19-1">quum et omnium
+                                rerum abunde satis sit, nec timor ullus subsit, ne quisquam plus
+                                quam sit opus flagitare uelit?</seg>
+                        </seg><seg n="5.20" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-20-1" n="la 5.26" corresp="#es-5-20-1">Nam cur
+                                superuacua petiturus putetur is, qui certum habeat nihil sibi unquam
+                                defuturum?</seg>
+                        </seg>
+                        <seg n="5.21" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-21-1" n="la 5.27" corresp="#es-5-21-1">Nempe auidum ac
+                                rapacem aut timor carendi facit, in omni animantum genere, aut in
+                                homine sola reddit superbia, quae gloriae sibi ducit superflua rerum
+                                ostentatione caeteros antecellere; quod uitii genus in Vtopiensium
+                                institutis nullum omnino locum habet.</seg>
+                        </seg>
+                        <seg n="5.22" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-22-1" n="la 5.28" corresp="#es-5-22-1">Adiuncta sunt
+                                foris (quae commemoraui) fora cibaria, in quae non olera modo,
+                                arborumque fructus et panes comportantur, sed pisces praeterea,
+                                quadrupedumque et auium quicquid esculentum est, extra urbem locis
+                                appositis, ubi fluento tabum ac sordes eluantur.</seg>
+                        </seg>
+                        <seg n="5.23" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-23-1" n="la 5.29" corresp="#es-5-23-1">Hinc deportant
+                                pecudes occisas depuratasque manibus famulorum; nam neque suos ciues
+                                patiuntur assuescere laniatu animalium, cuius usu clementiam,
+                                humanissimum naturae nostrae affectum, paulatim deperire putant;
+                                neque sordidum quicquam atque immundum, cuius putredine corruptus
+                                aer morbum posset inuehere, perferri in urbem sinunt.</seg>
+                        </seg>
+                        <seg n="5.24" type="multisentence" subtype="translated">
+                            <seg xml:id="la-5-24-1" n="la 5.30" corresp="#es-5-24-1">Habet praeterea
+                                quilibet uicus aulas quasdam capaces, aequali ab sese inuicem
+                                interuallo distantes, nomine quanque suo cognitas.</seg>
+                            <seg xml:id="la-5-24-2" n="la 5.31" corresp="#es-5-24-1">Has colunt
+                                Syphogranti; quarum unicuique triginta familiae, uide­licet ab
+                                utroque latere quindecim, sunt adscriptae, cibum ibi
+                                sump­turae.</seg>
+                        </seg>
+                        <seg n="5.25" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-25-1" n="la 5.32" corresp="#es-5-25-1">Obsonatores
+                                cuiusque aulae certa bora conueniunt in forum, ac relato suorum
+                                numero cibum petunt.</seg>
+                        </seg>
+                        <seg n="5.26" type="multisentence" subtype="translated">
+                            <seg xml:id="la-5-26-1" n="la 5.33" corresp="#es-5-26-1">Sed prima ratio
+                                aegrotorum habetur; qui in publicis hospitiis curantur.</seg>
+                            <seg xml:id="la-5-26-2" n="la 5.34" corresp="#es-5-26-1">Nam quatuor
+                                habent in ambitu ciuitatis hospitia, paulo extra muros, tam capacia
+                                ut totidem oppidulis aequari possint, tum ut neque aegrotorum
+                                numerus quamlibet magnus auguste collocaretur, et per hoc incommode,
+                                tum quo hii qui tali morbo tenerentur, cuius contagio solet ab alio
+                                ad alium serpere, longius ab aliorum coetu semoueri possint.</seg>
+                        </seg>
+                        <seg n="5.27" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-27-1" n="la 5.35" corresp="#es-5-27-1">Haec hospitia
+                                ita sunt instructa, atque omnibus rebus quae ad salutem conferant
+                                referta, tum tam tenera ac sedula cura adhibetur, tam assidua
+                                medicorum peritissimorum praesentia, ut quum illuc nemo mittatur
+                                inuitus, nemo tamen fere in tota urbe sit, qui aduersa ualetudine
+                                laborans non ibi decumbere quam domi suae praeferat.</seg>
+                        </seg>
+                        <seg n="5.28" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-28-1" n="la 5.36" corresp="#es-5-28-1">Quum aegrotorum
+                                obsonator cibos ex medicorum praescripto receperit, deinceps optima
+                                quaeque inter aulas aequabiliter pro suo cuiusque numero
+                                distribuuntur, nisi quod principis, pontificis, et Tranibororum
+                                respectus habetur, ac legatorum etiam, et exterorum omnium (si qui
+                                sunt, qui pauci ac raro sunt): sed hiis quoque, cum adsunt,
+                                domicilia certa atque instructa parantur.</seg>
+                        </seg>
+                        <seg n="5.29" type="multisentence" subtype="translated">
+                            <seg xml:id="la-5-29-1" n="la 5.37" corresp="#es-5-29-1">Ad has aulas
+                                prandii coenaeque statis boris tota syphograntia conuenit, aeneae
+                                tubae clangore commonefacta, nisi qui aut in hospitiis aut domi
+                                decumbunt.</seg>
+                            <seg xml:id="la-5-29-2" n="la 5.38" corresp="#es-5-29-1">quanquam nemo
+                                prohibetur, postquam aulis est satisfactum, e foro domum cibum
+                                petere.</seg>
+                            <seg xml:id="la-5-29-3" n="la 5.39" corresp="#es-5-29-1">Sciunt enim
+                                neminem id temere facere.</seg>
+                            <seg xml:id="la-5-29-4" n="la 5.40" corresp="#es-5-29-1">nam etsi domi
+                                prandere nulli uetitum sit, nemo tamen hoc libenter facit, cum neque
+                                honestum habeatur, et stultum sit deterioris parandi prandii sumere
+                                laborem, cum lautum atque opiparum praesto apud aulam tam propinquam
+                                sit.</seg>
+                        </seg>
+                        <seg n="5.30" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-30-1" n="la 5.41" corresp="#es-5-30-1">In hac aula
+                                mini­steria omnia, in quibus paulo plus sordis aut laboris est,
+                                obeunt serui.</seg>
+                        </seg>
+                        <seg n="5.31" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-31-1" n="la 5.42" corresp="#es-5-31-1">Caeterum
+                                coquendi parandique cibi officium, et totius denique instruendi
+                                conuiuii solae mulieres exercent, cuiusque uidelicet familiae per
+                                uices.</seg>
+                        </seg>
+                        <seg n="5.32" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-32-1" n="la 5.43" corresp="#es-5-32-1">Tribus
+                                pluribusue mensis pro numero conuiuarum discumbitur.</seg>
+                        </seg>
+                        <seg n="5.33" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-33-1" n="la 5.44" corresp="#es-5-33-1">Viri ad
+                                parietem, foeminae exterius collocantur; ut si quid his subiti
+                                oboriatur mali, quod uterum gerentibus interdum solet accidere,
+                                imperturbatis ordinibus exurgant, atque inde ad nutrices
+                                abeant.</seg>
+                        </seg>
+                        <seg n="5.34" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-34-1" n="la 5.45" corresp="#es-5-34-1">Sedent illae
+                                quidem seorsum cum lactentibus in coenaculo quodam ad id destinato,
+                                nunquam sine foco atque aqua munda, nec absque cunis interim, ut et
+                                reclinare liceat infantulos, et ad ignem cum uelint exemptos fasciis
+                                liberare ac ludo reficere.</seg>
+                        </seg>
+                        <seg n="5.35" type="multisentence" subtype="translated">
+                            <seg xml:id="la-5-35-1" n="la 5.46" corresp="#es-5-35-1">suae quaeque
+                                soboli nutrix est, nisi aut mors aut morbus impediat.</seg>
+                            <seg xml:id="la-5-35-2" n="la 5.47" corresp="#es-5-35-1">id cum accidit,
+                                uxores Syphograntorum propere nutricem quaerunt, nec id difficile
+                                est.</seg>
+                            <seg xml:id="la-5-35-3" n="la 5.48" corresp="#es-5-35-1">Nam quae id
+                                praestare possunt, nulli officio sese offerunt libentius, quoniam et
+                                omnes earn misericordiam laude prosequuntur, et qui educator
+                                nutricem parentis agnoscit loco.</seg>
+                        </seg>
+                        <seg n="5.36" type="multisentence" subtype="translated">
+                            <seg xml:id="la-5-36-1" n="la 5.49" corresp="#es-5-36-1">In antro
+                                nutricum considunt a pueri omnes, qui primum lustrum non
+                                expleuere.</seg>
+                            <seg xml:id="la-5-36-2" n="la 5.50" corresp="#es-5-36-1">caeteri
+                                impuberes, quo in numero ducunt quicunque sexus alterius utrius
+                                intra nubiles annos sunt, aut ministrant discumbentibus, aut qui per
+                                aetatem nondum ualent, abstant tamen, atque id summo cum
+                                silentio.</seg>
+                            <seg xml:id="la-5-36-3" n="la 5.51" corresp="#es-5-36-1">utrique quod a
+                                sedentibus porrigitur, eo uescuntur, nec aliud discretum prandendi
+                                tempus habent.</seg>
+                        </seg>
+                        <seg n="5.37" type="multisentence" subtype="translated">
+                            <seg xml:id="la-5-37-1" n="la 5.52" corresp="#es-5-37-1">In medio primae
+                                mensae, qui summus locus est, et cui (nam ea mensa suprema in parte
+                                coenaculi transuersa est) totus conuentus conspicitur, Syphograntus
+                                cum uxore considet.</seg>
+                            <seg xml:id="la-5-37-2" n="la 5.53" corresp="#es-5-37-1">His adiunguntur
+                                duo ex natu maximis.</seg>
+                            <seg xml:id="la-5-37-3" n="la 5.54" corresp="#es-5-37-1">Sedent enim per
+                                omnes mensas quaterni.</seg>
+                            <seg xml:id="la-5-37-4" n="la 5.55" corresp="#es-5-37-1">At si templum
+                                in ea Syphograntia situm est, sacerdos eiusque uxor cum Syphogranto
+                                sedent ut praesideant.</seg>
+                            <seg xml:id="la-5-37-5" n="la 5.56" corresp="#es-5-37-1">Ab utraque
+                                parte collocantur iuniores; post senes rursus; atque hoc pacto per
+                                totam domum: et aequales inter se iunguntur, et dissimilibus tamen
+                                immiscentur; quod ideo ferunt institutum, ut senum grauitas ac
+                                reuerentia (quum nihil ita in mensa fieri diciue potest, ut eos ab
+                                omni parte uicinos effugiat) iuniores ab improba uerborum gestuumque
+                                licentia cohibeat.</seg>
+                        </seg>
+                        <seg n="5.38" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-38-1" n="la 5.57" corresp="#es-5-38-1">Ciborum fercula
+                                non a primo loco deinceps apponuntur, sed senioribus primum omnibus
+                                (quorum insignes loci sunt) optimus quisque cibus infertur; deinde
+                                reliquis aequaliter ministratur.</seg>
+                        </seg>
+                        <seg n="5.39" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-39-1" n="la 5.58" corresp="#es-5-39-1">At senes
+                                lautitias suas (quarum non tanta erat copia ut posset totam per
+                                domum affatim distribui) pro suo arbitratu circumsedentibus
+                                impartiuntur.</seg>
+                        </seg>
+                        <seg n="5.40" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-40-1" n="la 5.59" corresp="#es-5-40-1">Sic et
+                                maioribus natu suus seruatur bonos, et commodi tantundem tamen ad
+                                omneis peruenit.</seg>
+                        </seg>
+                        <seg n="5.41" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-41-1" n="la 5.60" corresp="#es-5-41-1">Omne prandium
+                                coenamque ab aliqua lectione auspicantur, quae ad mores faciat; sed
+                                breui tamen, ne fastidio sit.</seg>
+                        </seg>
+                        <seg n="5.42" type="multisentence" subtype="translated">
+                            <seg xml:id="la-5-42-1" n="la 5.61" corresp="#es-5-42-1">Ab hac seniores
+                                honestos sermones, sed neque tristes ac infacetos, ingerunt.</seg>
+                            <seg xml:id="la-5-42-2" n="la 5.62" corresp="#es-5-42-1">At nec longis
+                                logis totum occupant prandium.</seg>
+                            <seg xml:id="la-5-42-3" n="la 5.63" corresp="#es-5-42-1">quin audiunt
+                                libenter iuuenes quoque; atque adeo de industria prouocant, quo et
+                                indolis cuiusque et ingenii per conuiuii libertatem prodentis sese
+                                capiant experimentum.</seg>
+                        </seg>
+                        <seg n="5.43" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-43-1" n="la 5.64" corresp="#es-5-43-1">Prandia
+                                breuiuscula sunt, coenae largiores; die medici quod labor illa, has
+                                somnus et nocturna quies excipit; quam illi ad salubrem concoctionem
+                                magis efficacem putant.</seg>
+                        </seg>
+                        <seg n="5.44" type="multisentence" subtype="translated">
+                            <seg xml:id="la-5-44-1" n="la 5.65" corresp="#es-5-44-1">Nulla coena
+                                sine musica transigitur, nec ullis caret secunda mensa
+                                bellariis.</seg>
+                            <seg xml:id="la-5-44-2" n="la 5.66" corresp="#es-5-44-1">odores
+                                incendunt et unguenta spargunt, nihilque non faciunt quod exhilarare
+                                conuiuas possit.</seg>
+                            <seg xml:id="la-5-44-3" n="la 5.67" corresp="#es-5-44-1">sunt enim bane
+                                in partem aliquanto procliuiores, ut nullum uoluptatis genus (ex quo
+                                nihil sequatur incommodi) censeant interdictum.</seg>
+                        </seg>
+                        <seg n="5.45" type="singleSentence" subtype="translated">
+                            <seg xml:id="la-5-45-1" n="la 5.68" type="partial" part="I"
+                                next="#la-5-46-1" corresp="#es-5-45-1">Hoc pacto igitur in urbe
+                                conuiuunt; </seg>
+                        </seg>
+                        <seg n="5.46" type="multisentence" subtype="translated">
+                            <seg xml:id="la-5-46-1" n="la 5.68" type="partial" part="F"
+                                prev="#la-5-45-1" corresp="#es-5-46-1">at ruri, qui longius ab sese
+                                dissiti sunt, omnes domi quisque suae comedunt.</seg>
+                            <seg xml:id="la-5-46-2" n="la 5.69" corresp="#es-5-46-1">nulli enim
+                                familiae quicquam ad uictum deest, quippe a quibus id totum uenit
+                                quo uescantur urbici.</seg>
+                        </seg>
+                    </ab>
+                </div>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="chapter" n="5">
+                    <head type="chapter">DE COMMERCIIS MVTVIS.</head>
+                    <ab><seg n="5.1" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-1-1" n="en 5.1" corresp="#es-5-1-1">BUt now will I
+                                declare how the citizens vse themselfes one towardes another; what
+                                familiar occupieng and enterteynement there is emong the people; and
+                                what fasion they vse in distributinge euery thynge.</seg>
+                        </seg><seg n="5.2" type="multisentence" subtype="translated">
+                            <seg xml:id="en-5-2-1" n="en 5.2" corresp="#es-5-2-1">First, the city
+                                consisteth of families: the families most commonlie be made of
+                                kinredes.</seg>
+                            <seg xml:id="en-5-2-2" n="en 5.3" corresp="#es-5-2-1">For the women,
+                                when they be maryed at a lawfull age, they goo into their husbandes
+                                houses.</seg>
+                            <seg xml:id="en-5-2-3" n="en 5.4" corresp="#es-5-2-1">But the male
+                                chyldren, with al the hole male ofspring, continewe still in their
+                                owne familie, and be gouerned of the eldest and auncientest father,
+                                onles he dote for age; for then the next to hym in age is put in his
+                                rowme.</seg>
+                        </seg><seg n="5.3" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-3-1" n="en 5.5" type="partial" part="I" next="#5-4-1"
+                                corresp="#en-5-3-1">But to thintent the prescript numbre of the
+                                citezens shoulde nether decrease, nor aboue measure increase, it is
+                                ordeined that no famylie, whiche in euerye citie be vi thousand in
+                                the hole, besydes them of the contrey, shall at ones haue fewer
+                                chyldren of the age of xiiii yeares or there aboute then x, or mo
+                                then xvi; </seg>
+                        </seg><seg n="5.4" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-4-1" n="en 5.5" type="partial" part="F" prev="#5-3-1"
+                                corresp="#es-5-4-1">for of chyldren vnder thys age no numbre can be
+                                appointed.</seg>
+                        </seg><seg n="5.5" type="null" subtype="translated">
+                            <seg xml:id="en-5-5-1" n="en 5.6" corresp="#es-5-5-1">This measure or
+                                numbre is easely obserued and kept, by puttinge them that in fuller
+                                families be aboue the numbre into families of smaller
+                                increase.</seg>
+                        </seg><seg n="5.6" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-6-1" n="en 5.7" corresp="#es-5-6-1">But if chaunce be
+                                that in the hole citie the stoore encrease aboue the iust numbre,
+                                therewith they fyll vp the lacke of other cityes.</seg>
+                        </seg><seg n="5.7" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-7-1" n="en 5.8" corresp="#es-5-7-1">But if so be that
+                                the multitude throughout the hole Ilande passe and excede the dew
+                                numbre, then they chewse out of euery citie certeyn cytezens, and
+                                buylde vp a towne vnder their owne lawes in the nexte lande where
+                                the inhabitauntes haue muche waste and vnoccupied grounde,
+                                receauinge also of the inhabitauntes to them, if they wil ioyne and
+                                dwel with them.</seg>
+                        </seg><seg n="5.8" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-8-1" n="en 5.9" corresp="#es-5-8-1">They, thus ioyning
+                                and dwelling together, do easelye agre in one fassion of liuing, and
+                                that to the great wealth of both the peoples.</seg>
+                        </seg><seg n="5.9" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-9-1" n="en 5.10" corresp="#es-5-9-1">For they so
+                                brynge the matter about by their lawes, that the grounde which
+                                before was nether good nor profitable for the one nor for the other,
+                                is nowe sufficiente and frutefull enough for them both.</seg>
+                        </seg><seg n="5.10" type="multisentence" subtype="translated">
+                            <seg xml:id="en-5-10-1" n="en 5.11" corresp="#es-5-10-1">But if the
+                                inhabitauntes of that lande wyll not dwell with them, to be ordered
+                                by their lawes, then they dryue them out of those boundes, which
+                                they haue limited and apointed out for themselues.</seg>
+                            <seg xml:id="en-5-10-2" n="en 5.12" corresp="#es-5-10-1">And if they
+                                resiste and rebell, then they make warre agaynst them.</seg>
+                            <seg xml:id="en-5-10-3" n="en 5.13" type="partial" part="I"
+                                next="#en-5-11-1" corresp="#es-5-10-1">For they counte this the
+                                moste iust cause of warre,</seg>
+                        </seg><seg n="5.11" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-11-1" n="en 5.13" type="partial" part="F"
+                                prev="#en-5-10-3" corresp="#es-5-11-1">when any people holdeth a
+                                piece of grounde voyde and vacaunt to no good nor profitable vse,
+                                kepyng other from the vse and possession of it, whiche
+                                notwithstandyng by the lawe of nature ought thereof to be nowryshed
+                                and relieued.</seg>
+                        </seg><seg n="5.12" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-12-1" n="en 5.14" corresp="#es-5-12-1">If any chaunce
+                                do so muche dimynishe the numbre of anye of their cyties, that it
+                                cannot be fylled vp agayne wythout the diminishynge of the iust
+                                numbre of the other cyties (whiche they say chaunced but twyse syns
+                                the begynnynge of the lande, through a greate pestilente plage),
+                                then they make vp the numbre with cytezens fetched out of their owne
+                                forreyne townes; for they hadde rather suffer theyr forreyn townes
+                                to decaye and peryshe, then annye cytie of their owne Ilande to be
+                                dimynyshed.</seg>
+                        </seg><seg n="5.13" type="multisentence" subtype="translated">
+                            <seg xml:id="en-5-13-1" n="en 5.15" corresp="#es-5-13-1">But nowe agayne
+                                to the conuersation of the cytezens amonge themselfes.</seg>
+                            <seg xml:id="en-5-13-2" n="en 5.16" corresp="#es-5-13-1">The eldeste (as
+                                I sayde) rueleth the familie.</seg>
+                        </seg><seg n="5.14" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-14-1" n="en 5.17" corresp="#es-5-14-1">The wyfes bee
+                                ministers to theyr husbandes, the chyldren to theyr parentes, and,
+                                to bee shorte, the yonger to theyr elders.</seg>
+                        </seg><seg n="5.15" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-15-1" n="en 5.18" corresp="#es-5-15-1">Euerye cytie is
+                                diuided into foure equall partes.</seg>
+                        </seg><seg n="5.16" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-16-1" n="en 5.19" corresp="#es-5-16-1">In the myddes
+                                of euery quarter there is a market place of all maner of
+                                thynges.</seg>
+                        </seg><seg n="5.17" type="multisentence" subtype="translated">
+                            <seg xml:id="en-5-17-1" n="en 5.20" corresp="#es-5-17-1">Thether the
+                                workes of euery familie be brought in to certeyne houses.</seg>
+                            <seg xml:id="en-5-17-2" n="en 5.21" corresp="#es-5-17-1">And euery kynde
+                                of thynge is layde vp seuerall in barnes or store houses.</seg>
+                        </seg><seg n="5.18" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-18-1" n="en 5.22" corresp="#es-5-18-1">From hence the
+                                father of euery famelie or euery housholder fetcheth whatsoeuer he
+                                and hys haue neade of, and carieth it awaye with hym without money,
+                                without exchaunge, without annye gage or pledge.</seg>
+                        </seg><seg n="5.19" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-19-1" n="en 5.23" corresp="#es-5-19-1">For whye should
+                                anye thynge be denyed vnto hym; seyng there is abundaunce of all
+                                thynges, and that it is not to be feared lest anye man wyll aske
+                                more then he neadeth?</seg>
+                        </seg><seg n="5.20" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-20-1" n="en 5.24" corresp="#es-5-20-1">For whie should
+                                it be thoughte that man would aske more then enough, which is sewer
+                                neuer to lacke?</seg>
+                        </seg>
+                        <seg n="5.21" type="multisentence" subtype="translated">
+                            <seg xml:id="en-5-21-1" n="en 5.25" corresp="#es-5-21-1">Certeynly, in
+                                all kyndes of lyuynge creatures, other fere of lacke doth cause
+                                couetousnes and rauyne, or in man only pryde; whiche counteth it a
+                                gloryouse thynge to passe and excell other in the superfluous and
+                                vayne ostentacion of thynges.</seg>
+                            <seg xml:id="en-5-21-2" n="en 5.26" corresp="#es-5-21-1">The whyche
+                                kynde of vice amonge the Vtopians can haue no place.</seg>
+                        </seg>
+                        <seg n="5.22" type="multisentence" subtype="translated">
+                            <seg xml:id="en-5-22-1" n="en 5.27" corresp="#es-5-22-1">Next to the
+                                market places that I spake of stonde meate markettes, whether be
+                                brought not onlye all sortes of herbes, and the fruites of trees
+                                with breade, but also fishe, and all maner of iiii footed beastes,
+                                and wilde foule that be mans meate.</seg>
+                            <seg xml:id="en-5-22-2" n="en 5.28" corresp="#es-5-22-1">But first the
+                                fylthynes and ordure therof is clene washed awaye in the runnynge
+                                ryuer, without the cytie, in places appoynted, mete for the same
+                                purpose.</seg>
+                        </seg>
+                        <seg n="5.23" type="multisentence" subtype="translated">
+                            <seg xml:id="en-5-23-1" n="en 5.29" corresp="#es-5-23-1">From thence the
+                                beastes brought in kylled, and cleane wasshed by the handes of their
+                                bondemen.</seg>
+                            <seg xml:id="en-5-23-2" n="en 5.30" corresp="#es-5-23-1">For they
+                                permytte not their frie citezens to accustome there selfes to the
+                                killing of beastes; through the vse whereof they thinke that
+                                clemencie, the genteleste affection of our nature, doth by litle and
+                                litle decayed and peryshe.</seg>
+                            <seg xml:id="en-5-23-3" n="en 5.31" corresp="#es-5-23-1">Nother they
+                                suffer anye thynge that is fylthye, lothesome, or vnclenlye, to be
+                                brought into the cytie; least the ayre, by the stenche therof
+                                infected and corrupte, shoulde cause pestilente diseases.</seg>
+                        </seg>
+                        <seg n="5.24" type="multisentence" subtype="translated">
+                            <seg xml:id="en-5-24-1" n="en 5.32" corresp="#es-5-24-1">Moreouer euerye
+                                strete hath certeyne great large halles sett in equal distaunce one
+                                from an other, euerye one knowne by a seuerall name.</seg>
+                            <seg xml:id="en-5-24-2" n="en 5.33" corresp="#es-5-24-1">In thies halles
+                                dwell the Syphograuntes.</seg>
+                            <seg xml:id="en-5-24-3" n="en 5.34" corresp="#es-5-24-1"> And to euery
+                                one of the same halles be apoynted xxx families, of ether side
+                                xv.</seg>
+                        </seg>
+                        <seg n="5.25" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-25-1" n="en 5.35" corresp="#es-5-25-1">The stewardes
+                                of euery halle at a certayn houre come in to the meate markettes,
+                                where they receyue meate accordinge to the numbre of their
+                                halles.</seg>
+                        </seg>
+                        <seg n="5.26" type="multisentence" subtype="translated">
+                            <seg xml:id="en-5-26-1" n="en 5.36" corresp="#es-5-26-1">But first and
+                                chieflie of all, respect is had to the sycke that be cured in the
+                                hospitalles.</seg>
+                            <seg xml:id="en-5-26-2" n="en 5.37" corresp="#es-5-26-1">For in the
+                                circuite of the citie, a litle without the walles, they haue iiii
+                                hospitalles; so bygge, so wyde, so ample, and so lardge, that they
+                                may seme iiii litle townes; which were deuised of that bygnes,
+                                partely to thintent the sycke, be they neuer so many in numbre,
+                                shuld not lye to thronge or strayte, and therfore uneasely and
+                                incomodiously; and partely that they which were taken and holden
+                                with contagious diseases, suche as be wonte by infection to crepe
+                                from one to an other, myght be laid a part farre from the company of
+                                the residue.</seg>
+                        </seg>
+                        <seg n="5.27" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-27-1" n="en 5.38" corresp="#es-5-27-1">Thies
+                                hospitalles be so well apointed, and with al thynges necessary to
+                                health so furnished; and more ouer so diligent attendaunce through
+                                the continual presence of cunnyng phisitians is geuen, that though
+                                no man be sent thither against his will, yet notwithstandinge there
+                                is no sicke persone in all the citie, that had not rather lye there
+                                then at home in his owne house.</seg>
+                        </seg>
+                        <seg n="5.28" type="multisentence" subtype="translated">
+                            <seg xml:id="en-5-28-1" n="en 5.39" corresp="#es-5-28-1">When the
+                                stewarde of the sicke hath receiued suche meates as the phisitians
+                                haue prescribed, then the beste is equally deuided among the halles,
+                                according to the company of euery one, sauing that there is had a
+                                respect to the prince, the byshop, the tranibours, and to
+                                ambassadours, and all straungers, if there be any, whiche be verye
+                                fewe and seldome.</seg>
+                            <seg xml:id="en-5-28-2" n="en 5.40" corresp="#es-5-28-1">But they also,
+                                when they be there, haue certeyne houses a pointed and prepared for
+                                them.</seg>
+                        </seg>
+                        <seg n="5.29" type="multisentence" subtype="translated">
+                            <seg xml:id="en-5-29-1" n="en 5.41" corresp="#es-5-29-1">To thies halles
+                                at the set houres of dinner and supper cummith all the hole
+                                Siphograuntie or warde, warned by the noyse of a brasen trumpet;
+                                except such as be sicke in the hospitalles or els in their owne
+                                houses.</seg>
+                            <seg xml:id="en-5-29-2" n="en 5.42" corresp="#es-5-29-1">Howe be it, no
+                                man is prohibited or forbid, after the halles be serued, to fetch
+                                home meate out of the market to his own house.</seg>
+                            <seg xml:id="en-5-29-3" n="en 5.43" corresp="#es-5-29-1">For they knowe
+                                that no man wyl doo it without a cause resonable.</seg>
+                            <seg xml:id="en-5-29-4" n="en 5.44" corresp="#es-5-29-1">For thoughe no
+                                man be prohibited to dyne at home, yet no man doth it willynglye,
+                                because it is counted a pointe of small honestie.</seg>
+                            <seg xml:id="en-5-29-5" n="en 5.45" corresp="#es-5-29-1">And also it
+                                were a follye to take the payne to dresse a badde dyner at home,
+                                when they maye'be welcome to good and fyne fare so nyghe hande at
+                                the hall.</seg>
+                        </seg>
+                        <seg n="5.30" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-30-1" n="en 5.46" corresp="#es-5-30-1">In this hal all
+                                vyle seruice, all slauerie and drudgerye, with all laboursome toyle
+                                and busines, is done by bondemen.</seg>
+                        </seg>
+                        <seg n="5.31" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-31-1" n="en 5.47" corresp="#es-5-31-1">But the women
+                                of euery famelie by course haue the office and charge of cokerye,
+                                for sethinge and dressynge the meate, and orderyng al thinges therto
+                                belonging.</seg>
+                        </seg>
+                        <seg n="5.32" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-32-1" n="en 5.48" corresp="#es-5-32-1">They syt at iii
+                                tables or moo, accordyng to the numbre of their company.</seg>
+                        </seg>
+                        <seg n="5.33" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-33-1" n="en 5.49" corresp="#es-5-33-1">The men syt
+                                vpon the benche next the wall, and the women agaynst them on the
+                                other syde of the table; that, if anye sodeyne euell should chaunce
+                                to them, as many tymes happeneth to women with chylde, they maye
+                                ryse wythout trouble or disturbaunce of anye body, and go thence
+                                into the nurcerie.</seg>
+                        </seg>
+                        <seg n="5.34" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-34-1" n="en 5.50" corresp="#es-5-34-1">The nourceis
+                                sitte seuerall alone with their yonge suckelinges in a certayne
+                                parloure apointed and deputed to the same purpose, neuer without
+                                fire and cleane water, nor yet without cradels; that when they wyll
+                                they maye laye downe the yong infauntes, and at their pleasure take
+                                them out of their swathynge clothes and holde them to the fyere, and
+                                refreshe them with playe.</seg>
+                        </seg>
+                        <seg n="5.35" type="multisentence" subtype="translated">
+                            <seg xml:id="en-5-35-1" n="en 5.51" corresp="#es-5-35-1">Euery mother is
+                                nource to her owne chylde, onles other death or syckenes be the
+                                let.</seg>
+                            <seg xml:id="en-5-35-2" n="en 5.52" corresp="#es-5-35-1">When that
+                                chaunceth, the wyues of the Siphograuntes quyckelye prouyde a
+                                nource.</seg>
+                            <seg xml:id="en-5-35-3" n="en 5.53" corresp="#es-5-35-1">And that is not
+                                harde to be done.</seg>
+                            <seg xml:id="en-5-35-4" n="en 5.54" corresp="#es-5-35-1">For they that
+                                can doo it do proffer themselfes to no seruice so gladlye as to
+                                that.</seg>
+                            <seg xml:id="en-5-35-5" n="en 5.55" corresp="#es-5-35-1">Because that
+                                there thys kynde of pitie is muche praysed; and the chylde that is
+                                nouryshed euer after taketh hys nource for his owne naturall
+                                mother.</seg>
+                        </seg>
+                        <seg n="5.36" type="multisentence" subtype="translated">
+                            <seg xml:id="en-5-36-1" n="en 5.56" corresp="#es-5-36-1">Also amonge the
+                                nourceis syt all the chyldren that be vnder the age of v
+                                yeares.</seg>
+                            <seg xml:id="en-5-36-2" n="en 5.57" corresp="#es-5-36-1">All the other
+                                children of both kyndes, aswell boyes as gyrles, that be vnder the
+                                age of marryage, doo other serue at the tables, or els if they be to
+                                yonge therto, yet they stande by with meruelous silence.</seg>
+                            <seg xml:id="en-5-36-3" n="en 5.58" corresp="#es-5-36-1"> That whiche is
+                                giuen to them from the table they eate, and other seuerall dynner
+                                tyme they haue none.</seg>
+                        </seg>
+                        <seg n="5.37" type="multisentence" subtype="translated">
+                            <seg xml:id="en-5-37-1" n="en 5.59" corresp="#es-5-37-1">The Siphograunt
+                                and his wife sitteth in the middes of the highe table, forasmuche as
+                                that is counted the honerablest place, and because from thence al
+                                the hole companye is in their syght.</seg>
+                            <seg xml:id="en-5-37-2" n="en 5.60" corresp="#es-5-37-1">For that table
+                                standeth ouer wharte the ouer ende of the halle.</seg>
+                            <seg xml:id="en-5-37-3" n="en 5.61" corresp="#es-5-37-1">To them be
+                                ioyned ii of the anctientest and eldest.</seg>
+                            <seg xml:id="en-5-37-5" n="en 5.62" corresp="#es-5-37-1">For at euery
+                                table they syt iiii at a meesse.</seg>
+                            <seg xml:id="en-5-37-6" n="en 5.63" corresp="#es-5-37-1">But if there be
+                                a church standing in that Siphograuntie, or warde, then the priest
+                                and his wyfe sitteth with the Siphograunte, as chiefe in the
+                                company.</seg>
+                            <seg xml:id="en-5-37-7" n="en 5.64" corresp="#es-5-37-1">On both sydes
+                                ofthem sytte yonge men, and nexte vnto them agayne olde men.</seg>
+                            <seg xml:id="en-5-37-8" n="en 5.65" corresp="#es-5-37-1">An thus
+                                throughe out all the house equall of age be sette together, and yet
+                                be myxte with vnequall ages.</seg>
+                            <seg xml:id="en-5-37-9" n="en 5.66" corresp="#es-5-37-1">An thus
+                                throughe out all the house equall of age be sette together, and yet
+                                be myxte with vnequall ages.</seg>
+                        </seg>
+                        <seg n="5.38" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-38-1" n="en 5.67" corresp="#es-5-38-1">The disshes be
+                                not set downe in ordre from the first place, but all the old men
+                                (whoes places be marked with som speciall token to be knowen) be
+                                first serued of there meate, and then the residue equally.</seg>
+                        </seg>
+                        <seg n="5.39" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-39-1" n="en 5.68" corresp="#es-5-39-1">The old men
+                                deuide their dainties, as they think best, to the yonger that sit of
+                                both sides them.</seg>
+                        </seg>
+                        <seg n="5.40" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-40-1" n="en 5.69" corresp="#es-5-40-1">Thus the elders
+                                be not defrauded of their dewe honoure, and neuerthelesse equall
+                                commoditie commeth to euery one.</seg>
+                        </seg>
+                        <seg n="5.41" type="multisentence" subtype="translated">
+                            <seg xml:id="en-5-41-1" n="en 5.70" corresp="#es-5-41-1">They begin
+                                euerye dynner and supper of reading sumthing that perteineth to good
+                                maners and vertue.</seg>
+                            <seg xml:id="en-5-41-2" n="en 5.71" corresp="#es-5-41-1">But it is
+                                short, becawse no man shalbe greued therwith.</seg>
+                        </seg>
+                        <seg n="5.42" type="multisentence" subtype="translated">
+                            <seg xml:id="en-5-42-1" n="en 5.72" corresp="#es-5-42-1">Here of
+                                thelders take occasion of honest communication, but nother sad nor
+                                vnpleasaunt.</seg>
+                            <seg xml:id="en-5-42-2" n="en 5.73" corresp="#es-5-42-1">Howbeit, they
+                                do not spend all the hole dyner time themselfes with long and
+                                tedious talkes; but they gladly here also the yong men; yea and do
+                                purposly prouoke them to talke, to thentent that they maye haue a
+                                profe of euery mans wit and towardnes or disposition to vertue,
+                                which commonly in ye liberte of feasting doth shew and vtter it
+                                selfe.</seg>
+                        </seg>
+                        <seg n="5.43" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-43-1" n="en 5.75" corresp="#es-5-43-1">Theire dyners
+                                be verye short; but there suppers be sumwhat longer; be­cause that
+                                after dynner followeth laboure; after supper sleape and naturall
+                                reste; whiche they thynke to be of no more strengthe and efficacy to
+                                holsome and healthfull digestion.</seg>
+                        </seg>
+                        <seg n="5.44" type="multisentence" subtype="translated">
+                            <seg xml:id="en-5-44-1" n="en 5.76" corresp="#es-5-44-1">No supper is
+                                passed without musicke; nor their bankettes lacke no conceytes nor
+                                ionckettes.</seg>
+                            <seg xml:id="en-5-44-2" n="en 5.76" corresp="#es-5-44-1">They burne
+                                swete gummes and speces for perfumes and plea­saunt smelles, and
+                                sprincle about swete oyntmentes and waters; yea they leaue nothyng
+                                vndone that maketh for the cheryng of the company.</seg>
+                            <seg xml:id="en-5-44-3" n="en 5.77" corresp="#es-5-44-1">For they be
+                                muche enclyned to this opinion: to thinke no kynde of pleasure
+                                forbidden, wherof cummeth no harme.</seg>
+                        </seg>
+                        <seg n="5.45" type="singleSentence" subtype="translated">
+                            <seg xml:id="en-5-45-1" n="en 5.78" corresp="#es-5-45-1">Thus therfore
+                                and after this sorte they lyue togethers in the citie;</seg>
+                        </seg>
+                        <seg n="5.46" type="multisentence" subtype="translated">
+                            <seg xml:id="en-5-46-1" n="en 5.78" corresp="#es-5-46-1"> but in the
+                                contrey they that dwell alone, farre from anye neyghbours, do dyne
+                                and suppe at home in their own houses.</seg>
+                            <seg xml:id="en-5-46-2" n="en 5.79" corresp="#es-5-46-1">For no famelie
+                                there lacketh anye kynde of victualles, as from whome cummeth all
+                                that the cytezens eate and lyue bye.</seg>
+                        </seg>
+                    </ab>
+                </div>
+            </div>
+            <div type="notes">
+                <note n="59" xml:id="n-5-1" target="#note-5-1">Medinilla translates the Latin verb
+                    "commercia" as "comercien". The Diccionario de Autoridades shows two different
+                    entries, one connected with the art of commerce and another with communication
+                    and relationships. Yale translates the Latin verb in the second sense, as in the
+                    fragment "the behavior of citizens toward one another, the nature of their
+                    social relations" (135 l. 26-27). For the contexts of the sentence, Medinilla
+                    could also use the verb "comerciar" with the idea of interpersonal relations,
+                    but it is not clear. One of the entries in the Diccionario de Autoridades for
+                    the Spanish noun "correspondecia" reads that "Between Merchants and Traders, it
+                    is the deal to send money, merchandise and other goods to each other", which
+                    strictly deals with commerce. However, there is another presenting
+                    "correspondencia" as "Reciprocal treatment, the compensation of one thing with
+                    another", which can make reference to reciprocal behavior among people. </note>
+                <note n="60" xml:id="n-5-2" target="#note-5-2">Medinilla omits "excepto conuentu",
+                    in English "apart from its surrounding territory" (Yale 137 l. 1) --in
+                    Robinson's translation, "besydes them of the contrey". Medinilla renders
+                    "puberes" as "mancebos". According to the Tesoro de la Lengua, a "mancebo" is
+                    "The boy who is at the age that in Latin we call 'adulescens'" (fol. 535v-536r).
+                    According to Lewis and Short, it refers to "one who has not yet attained
+                    maturity" and the period of age varies depending on author and places --it is
+                    generally "from the 15th or 17th until past the 30th year, often even until near
+                    the 40th" (reference). Nonetheless, Robinson translates it as "chyldren". The
+                    OED displays an entry of "child" which says "A youn man; a youth, an adolescent.
+                    Obsolete (rare after 16th cent. except in biblical use). </note>
+                <note n="61" xml:id="n-5-3" target="#note-5-3">"impuberum" is here translated as
+                    "adultos" (in English, "adults") by Medinilla. This translation is not correct,
+                    since the Latin word "impuberum" implies "under the age of puberty" (Lewis and
+                    Short). </note>
+                <note n="62" xml:id="n-5-4" target="#note-5-4">The Spanish translator uses "colonia"
+                    to render the Latin form "ciuibus" --in contrast to previous instances when
+                    Medinilla translates it with "ciudad" or "pueblo" (see note ** on chapter **).
+                    The Tesoro de la Lengua defines it as "It is a town or term of land that has
+                    been populated by foreign people, taken from the city, who are owners of that
+                    territory or taken to another part". The term "colonia" makes sense here,
+                    although </note>
+                <note n="63" xml:id="n-5-5" target="#note-5-5">Medinilla passes over "utrisque", in
+                    English, "for them both" (Yale maybe because it can be inferred from the
+                    previous sentence "idque utrisque populi bono", translated by Medinilla by "que
+                    mira al bien de ambos pueblos". Robinson makes a less literal translation
+                    here.</note>
+                <note n="64" xml:id="n-5-6" target="#note-5-6">Medinilla uses the specific term
+                    "colaciones" to render the Latin plural noun "partes". By selecting these words,
+                    among others, the translator seems to locate the island of Utopia under the
+                    Spanish territorial organization. The Diccionario de Autoridades defines it as
+                    "the territory, term, district and part of the neighborhood of some Villa or
+                    City, located in some Parish". </note>
+                <note n="65" xml:id="n-5-7" target="#note-5-7">Similarly, the translator opts for
+                    "alhoríes" as a translation of "horrea". According to the Tesoro de la Lengua,
+                    it is "the public granary where wheat and barley are collected". Other forms for
+                    this word are "Alforí" and "Alholí". </note>
+                <note n="66" xml:id="n-5-8" target="#note-5-8">Medinilla softens the original idea
+                    of this segment by simpliflying the content and introducing part of it in
+                    brackets. He makes a non-literal translation in this case. </note>
+                <note n="67" xml:id="n-5-9" target="#note-5-9">Robinson makes a reference to meat
+                    although the Latin 1518 edition does not. This proves that the English
+                    translator used as a base text a 1516 edition, as the critical apparatus in Yale
+                    edition indicates the phrase "carnesque et extra" was excluded in later editions
+                    (Yale 138). Medinilla does not mention meat at the beginning of the segment.The
+                    Spanish translator also chooses "inmundicias" to translated the Latin word
+                    "sordes" as a synonym of "suciedad" (in English, "dirtiness"). The Tesoro de la
+                    Lengua indexes this noun with the definition "dirtiness, rubish" (1611 fol.
+                    505r).</note>
+                <note n="68" xml:id="n-5-10" target="#note-5-10">Medinilla expands the meaning of
+                    the Latin term "patiuntur" (in English, translated as "butchering" (Yale 139 l.
+                    18)) by introducing "degollar, desollar ni cortar los animales" (in English,
+                    slitting the throat, skinning or cutting the animals").</note>
+                <note n="69" xml:id="n-5-11" target="#note-5-11">Robinson omits "cibum ibi
+                    sumpturae". Medinilla translates the Latin noun "uicus" as "barrio" (in English,
+                    today "neighbourhood"). The Tesoro de la Lengua offers some information about
+                    the original of the word; the Diccionario de Autoridaes "The district, part of
+                    some City, or place, which with a particular name is distinguished from the rest
+                    of the City [...]" (fol. 124r).</note>
+                <note n="70" xml:id="n-5-12" target="#note-5-12">The expression "también" is not
+                    correct in the Spanish original and should be substituted by "tan bien". I apply
+                    this change in the modernization, as it seems an isolated mistake.</note>
+                <note n="71" xml:id="n-5-13" target="#note-5-13">Medinilla translates the first
+                    instance of "cibos" as "cosas necesarias" (in English, "necessary things"),
+                    whereas Robinson opts for "meates". According to the OED, "meat" could be used
+                    in two sense: as a general word for food and as a specific reference to flesh.
+                    It is likely that Robinson and referred here to the former. This might explain
+                    the introduction of meat in previous notes. Moreover, Medinilla incorrectly
+                    translates "nisi quod principis, pontificis, et Tranibororum respectus habetur",
+                    introducing "Si ya no se tiene respecto" (in English, if there is no longer
+                    respect for..."). This alters the original meaning of the segment. Medinilla
+                    misses part of the final sentence and translate the Latin segment "ac legatorum
+                    etiam, et exterorum omnium" as "embajadores extranjeros" (in English, "foreign
+                    ambasadors"). Also, he decides to translate "pontificis" as "prelados", when in
+                    previous and later instances he opts for "pontífice". According to the Tesoro de
+                    la Lengua, the "prelado" equals a "bishop or superior figure in religions" (fol.
+                    595r).</note>
+                <note n="72" xml:id="n-5-14" target="#note-5-14">Medinilla omits "cum silentio" in
+                    "atque id summo cum silentio".</note>
+                <note n="73" xml:id="n-5-15" target="#note-5-15">Robinson introduces the negative
+                    particle "no" at the end of the segment, which seems to alter the original
+                    sense. </note>
+                <note n="74" xml:id="n-5-16" target="#note-5-16">Medinilla translates "bellariis" as
+                    "frutas secas". </note>
+                <note n="75" xml:id="n-5-17" target="#note-5-17">The Spanish translator leaves out
+                    "qui longious ab sese dissiti sunt", simplyfying the translation.</note>
+            </div>
+        </body>
+    </text>
+</TEI>
