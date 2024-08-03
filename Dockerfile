@@ -43,7 +43,7 @@ ARG APP_NAME=teipublisher-utopia
 ARG APP_REPO=https://github.com/miurena/teipublisher-utopia.git
 ARG APP_TEIPUBLISHER_UTOPIA=main
 
-COPY . /tmp/${APP_NAME}
+# COPY . /tmp/${APP_NAME}
 
 # add key
 RUN  mkdir -p ~/.ssh && ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
