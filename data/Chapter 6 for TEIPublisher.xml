@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -173,7 +173,7 @@
                                 humaniſsimamẽte, i le regalan.</s>
                         </seg>
                         <seg n="6.6" type="sentence">
-                            <s xml:id="∫" n="es 6.6">Pero al que ſale de ſus terminos ſin
+                            <s xml:id="es-6-6-1" n="es 6.6">Pero al que ſale de ſus terminos ſin
                                 licencia, ni patente del Principe, le tratan con mucho rigor, i
                                 afrenta, i caſtigandole con ſeveridad eſte atrevimiento, le hazen
                                 bolver, i como a fugitivo le obligan a ſervir.<anchor n="79"
@@ -1491,8 +1491,8 @@
             </div>
             <div type="modernization" xml:lang="es">
                 <div type="chapter" n="6">
-                    <ab>
                         <head type="chapter">Del modo de peregrinar. Cap. VI.</head>
+                        <ab>
                         <seg n="6.1" type="singleSentence">
                             <seg xml:id="em-6-1-1" n="em 6.1" corresp="#es-6-1-1">Si el deseo de ver
                                 a sus amigos que residen en otra ciudad o la curiosidad de ver la
@@ -2763,7 +2763,7 @@
                                 prev="#em-6-171-1" corresp="#es-6-172-1"> con que tienen más
                                 conocidas las naciones y no olvidan el arte de la navegación.</seg>
                         </seg>
-                    </ab>
+                        </ab>
                 </div>
             </div>
             <div type="original" xml:lang="la">
