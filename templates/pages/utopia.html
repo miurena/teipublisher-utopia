@@ -104,48 +104,83 @@
             
             <!--Apparently, if I had this at some point I may get the right and left arrows: show-navigation-control="show-navigation-control" show-navigator="show-navigator" -->
                 
-                <main class="content-body">
-                    <pb-grid id="grid" panels="[0,2]" subscribe="transcription" emit="transcription">
-                        <template>
-                            <!-- template used for adding a new column: user can choose between translation, facsimile and notes -->
-                            <pb-panel emit="transcription">
-                                <!-- Added to the toolbar -->
-                                <pb-grid-action grid="#grid" slot="toolbar" action="remove">
-                                    <paper-icon-button icon="icons:close"/>
-                                </pb-grid-action>
-                                <template title="Translation">
-                                    <pb-view src="document1" xpath="//div[@type='translation']" subscribe="transcription"/>
-                                </template>
-                                <template title="Original">
-                                    <pb-view src="document1" xpath="//div[@type='original']" subscribe="transcription">
-                                        <pb-param name="view"/>
-                                    </pb-view>
-                                </template>
-                                <template title="Notes">
-                                    <pb-view src="document1" xpath="//div[@type='notes']" subscribe="transcription">
-                                        <pb-param name="view" value="notes"/>
-                                    </pb-view>
-                                    </template>                                
-                            </pb-panel>
-                        </template>
+//                 <main class="content-body">
+//                     <pb-grid id="grid" panels="[0,2]" subscribe="transcription" emit="transcription">
+//                         <template>
+//                             <!-- template used for adding a new column: user can choose between translation, facsimile and notes -->
+//                             <pb-panel emit="transcription">
+//                                 <!-- Added to the toolbar -->
+//                                 <pb-grid-action grid="#grid" slot="toolbar" action="remove">
+//                                     <paper-icon-button icon="icons:close"/>
+//                                 </pb-grid-action>
+//                                 <template title="Translation">
+//                                     <pb-view src="document1" xpath="//div[@type='translation']" subscribe="transcription"/>
+//                                 </template>
+//                                 <template title="Original">
+//                                     <pb-view src="document1" xpath="//div[@type='original']" subscribe="transcription">
+//                                         <pb-param name="view"/>
+//                                     </pb-view>
+//                                 </template>
+//                                 <template title="Notes">
+//                                     <pb-view src="document1" xpath="//div[@type='notes']" subscribe="transcription">
+//                                         <pb-param name="view" value="notes"/>
+//                                     </pb-view>
+//                                     </template>                                
+//                             </pb-panel>
+//                         </template>
                         
-                        <!-- Metadata and transcription are shown -->
-<!--                        <pb-view src="document1" xpath="//teiHeader" view="single" class="metadata" subscribe="transcription" emit="transcription">-->
-<!--                            <pb-param name="view" value="metadata"/>-->
-<!--                        </pb-view>-->
+//                         <!-- Metadata and transcription are shown -->
+// <!--                        <pb-view src="document1" xpath="//teiHeader" view="single" class="metadata" subscribe="transcription" emit="transcription">-->
+// <!--                            <pb-param name="view" value="metadata"/>-->
+// <!--                        </pb-view>-->
                         
-                        <!-- For the transcription, users can choose between diplomatic and normalized view -->
-                        <pb-panel emit="transcription">
-                            <template title="Base text">
-                                <pb-view src="document1" class=".transcription" xpath="//div[@type='base']" subscribe="transcription" emit="transcription">
-                                </pb-view>
-                            </template>
-                            <template title="Modernization">
-                                <pb-view src="document1" class=".transcription" xpath="//div[@type='modernization']" subscribe="transcription" emit="transcription"/>
-                            </template>
-                        </pb-panel>
-                    </pb-grid>
-                </main>
+//                         <!-- For the transcription, users can choose between diplomatic and normalized view -->
+//                         <pb-panel emit="transcription">
+//                             <template title="Base text">
+//                                 <pb-view src="document1" class=".transcription" xpath="//div[@type='base']" subscribe="transcription" emit="transcription">
+//                                 </pb-view>
+//                             </template>
+//                             <template title="Modernization">
+//                                 <pb-view src="document1" class=".transcription" xpath="//div[@type='modernization']" subscribe="transcription" emit="transcription"/>
+//                             </template>
+//                         </pb-panel>
+//                     </pb-grid>
+//                 </main>
+
+                 <main class="content-body">
+                     <pb-grid id="grid" panels="[0,4]" subscribe="transcription" emit="transcription">
+                         <template>
+                             <!-- template used for adding a new column: user can choose between translation, facsimile and notes -->
+                             <pb-panel emit="transcription">
+                                 <!-- Added to the toolbar -->
+                                 <pb-grid-action grid="#grid" slot="toolbar" action="remove">
+                                     <paper-icon-button icon="icons:close"/>
+                                 </pb-grid-action>
+                             <template title="Base text">
+                                 <pb-view src="document1" class=".transcription" xpath="//div[@type='base']" subscribe="transcription" emit="transcription">
+                                 </pb-view>
+                             </template>
+                             <template title="Modernization">
+                                 <pb-view src="document1" class=".transcription" xpath="//div[@type='modernization']" subscribe="transcription" emit="transcription"/>
+                             </template>
+                                 <template title="Translation">
+                                     <pb-view src="document1" xpath="//div[@type='translation']" subscribe="transcription"/>
+                                 </template>
+                                 <template title="Original">
+                                     <pb-view src="document1" xpath="//div[@type='original']" subscribe="transcription">
+                                         <pb-param name="view"/>
+                                     </pb-view>
+                                 </template>
+                                 <template title="Notes">
+                                     <pb-view src="document1" xpath="//div[@type='notes']" subscribe="transcription">
+                                         <pb-param name="view" value="notes"/>
+                                     </pb-view>
+                                     </template>                                
+                             </pb-panel>
+                         </template>
+                        </pb-grid>
+                 </main>
+
             </app-header-layout>
         </app-drawer-layout>
     </pb-page>
