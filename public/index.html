@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Utopia - TEI Version</title>
 		<!-- Tailwind CSS desde CDN -->
-		<link href="resources/css/tailwind.css" rel="stylesheet" />
+		<link href="./tailwind.css" rel="stylesheet" />
 		<!-- Gogole Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,103 +26,48 @@
 		<header class="container">
 			<!-- Navbar -->
 			<nav
-				class="flex justify-between md:justify-around py-4 bg-[#a52a2a] backdrop-blur-md shadow-md w-full px-10 fixed top-0 left-0 right-0 z-10 px-8 md:px-3"
+				class="flex items-center justify-between py-4 bg-[#a52a2a] backdrop-blur-md shadow-md w-full fixed top-0 left-0 right-0 z-10 px-8 md:px-3"
 			>
-				<!-- Logo Container -->
-				<div class="flex items-center">
-					<!-- Logo -->
-					<a class="cursor-pointer">
-						<h3 class="text-2xl font-medium text-white">
-							<img
-								class="h-10"
-								src="resources/images/tei-publisher-logo-contrast-color.svg"
-								alt="App Logo"
-							/>
-						</h3>
+				<!-- Logo -->
+				<div class="absolute left-8 my-10">
+					<a href="#" class="cursor-pointer">
+						<img
+							class="h-10"
+							src="/resources/images/tei-publisher-logo-contrast-color.svg"
+							alt="App Logo"
+						/>
 					</a>
 				</div>
 
-				<!-- Links Section -->
-				<div
-					class="hidden items-center md:space-x-8 justify-center justify-items-start md:justify-items-center md:flex md:pt-2 w-full left-0 top-16 px-5 md:px-10 py-3 md:py-0 border-t md:border-t-0"
-				>
-					<a
-						class="flex text-white hover:text-yellow-500 hover:scale-110 hover:transition-all cursor-pointer transition-colors font-semibold duration-300"
-					>
-						Home
-					</a>
-
-					<a
-						href="edition.html"
-						class="flex text-white hover:text-yellow-500 hover:scale-110 hover:transition-all cursor-pointer transition-colors duration-300"
-					>
-						Edition
-					</a>
-
-					<a
-						class="flex text-white hover:text-yellow-500 hover:scale-110 hover:transition-all cursor-pointer transition-colors duration-300"
-					>
-						Project
-					</a>
-
-					<a
-						class="flex text-white hover:text-yellow-500 hover:scale-110 hover:transition-all cursor-pointer transition-colors duration-300"
-					>
-						About
-					</a>
-
-					<a
-						class="flex text-white hover:text-yellow-500 hover:scale-110 hover:transition-all cursor-pointer transition-colors duration-300"
-					>
-						Help
-					</a>
-				</div>
-
-				<!-- Auth Links -->
-				<div class="flex items-center space-x-5 hidden md:flex">
-					<!-- Login -->
-					<a
-						class="flex text-white cursor-pointer transition-colors duration-300 font-semibold hover:scale-110 hover:transition-all hover:text-yellow-500"
-					>
-						<svg
-							class="fill-current h-5 w-5 mr-2 mt-0.5"
-							xmlns="http://www.w3.org/2000/svg"
-							xmlns:xlink="http://www.w3.org/1999/xlink"
-							version="1.1"
-							width="24"
-							height="24"
-							viewBox="0 0 24 24"
+				<!-- Menu (centrado) -->
+				<div class="flex-grow">
+					<div class="flex justify-center space-x-8 my-2">
+						<a
+							href="#"
+							class="text-white hover:text-yellow-500 hover:scale-110 transition-all font-semibold duration-300"
 						>
-							<path
-								d="M10,17V14H3V10H10V7L15,12L10,17M10,2H19A2,2 0 0,1 21,4V20A2,2 0 0,1 19,22H10A2,2 0 0,1 8,20V18H10V20H19V4H10V6H8V4A2,2 0 0,1 10,2Z"
-							/>
-						</svg>
-
-						Login
-					</a>
+							Home
+						</a>
+						<a
+							href="#"
+							class="text-white hover:text-yellow-500 hover:scale-110 transition-all font-semibold duration-300"
+						>
+							Project
+						</a>
+						<a
+							href="edition.html"
+							class="text-white hover:text-yellow-500 hover:scale-110 transition-all font-semibold duration-300"
+						>
+							Edition
+						</a>
+					</div>
 				</div>
-
-				<!-- Hamberger Menu -->
-				<button class="w-10 h-10 md:hidden justify-self-end rounded-full">
-					<svg
-						class="mx-auto"
-						xmlns="http://www.w3.org/2000/svg"
-						xmlns:xlink="http://www.w3.org/1999/xlink"
-						version="1.1"
-						width="24"
-						height="24"
-						fill="white"
-						viewBox="0 0 24 24"
-					>
-						<path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
-					</svg>
-				</button>
 			</nav>
 		</header>
 
 		<!-- Hero -->
 		<section
-			class="flex flex-wrap items-center -mx-3 font-sans px-4 mx-auto w-full lg:max-w-screen-lg sm:max-w-screen-sm md:max-w-screen-md pb-20"
+			class="flex flex-wrap items-center font-sans px-4 mx-auto w-full lg:max-w-screen-lg sm:max-w-screen-sm md:max-w-screen-md"
 		>
 			<!-- Column-1 -->
 			<div class="px-3 w-full lg:w-2/5">
@@ -139,12 +84,6 @@
 					>
 						Utopia de Thomas Moro
 					</h2>
-
-					<!-- <p
-						class="visible mx-0 mt-3 mb-0 text-sm leading-relaxed text-start text-slate-400"
-					>
-						Resume of the app
-					</p> -->
 				</div>
 
 				<div class="text-center lg:text-left">
@@ -152,11 +91,6 @@
 						href="edition.html"
 						class="block visible py-4 px-8 mb-4 text-xs font-semibold tracking-wide leading-none text-white bg-[#a52a2a] hover:scale-110 transition-all duration-300 rounded cursor-pointer sm:mr-3 sm:mb-0 sm:inline-block"
 						>Edition</a
-					>
-
-					<a
-						class="block visible py-4 px-8 text-xs font-semibold leading-none bg-white rounded border border-solid cursor-pointer sm:inline-block border-slate-200 text-slate-500 hover:scale-110 transition-all duration-300"
-						>Project</a
 					>
 				</div>
 			</div>
@@ -173,7 +107,7 @@
 		</section>
 
 		<!-- Parallax Background -->
-		<section
+		<!-- <section
 			class="flex flex-col w-full h-[500px] bg-cover bg-fixed bg-center flex justify-center items-center"
 			style="
 				background-image: linear-gradient(
@@ -211,31 +145,35 @@
 						Source Code
 					</a>
 				</div>
-			</span> -->
-		</section>
+			</span>
+		</section> -->
 
 		<!-- Content -->
-		<section class="p-10 md:p-20 space-y-8">
-			<h1 class="text-4xl text-center my-20">About the edition</h1>
+		<section class="p-10 space-y-8 my-16">
+			<h1 class="text-4xl text-center">About the edition</h1>
 
-			<p>
-				<hi>Utopia de Thomas Moro - A digital edition</hi> is a research project developed by Inmaculada Ureña Asensio 
-				as part of her thesis dissertation “title”, supervised by 
-				Dr. Eugenio M. Olivares Merino at the Universidad de Jaén. 
-				This work was funded by the Ministry under a FPU scholarship [code]. 
-				This project was also framed within the national project THOME. 
+			<p class="text-justify px-10">
+				Utopia de Thomas Moro - A digital edition is a research project
+				developed by Inmaculada Ureña Asensio as part of her thesis dissertation
+				“title”, supervised by Dr. Eugenio M. Olivares Merino at the Universidad
+				de Jaén. This work was funded by the Ministry under a FPU scholarship
+				[FPU19/01014]. This project was also framed within the national project
+				“Thomas More and Spain: ideological and textual construction (16th and
+				17th centuries)” [THOME].
 			</p>
 
-			<p>
-				The digital edition presents Gerónimo de Medinilla’s 1637 translation of Thomas More’s Utopia,  Utopia de Thomas Moro,  
-				along with three texts: a modernization of the said translation, 
-				the 1518 March Latin text and the 1551 English rendering by Ralph Robinson. 
-				The four texts have been aligned and can be read in parallel to encourage a comparative study. 
-				Medinilla’s translation only included Book II so prefatory letters and Book I are not included in the present edition. 
-				The edition counts with a critical apparatus analyzing textual characteristics and accounting the differences 
-				between the first, second and third editions of Utopia de Thomas Moro.
+			<p class="text-justify px-10">
+				The digital edition presents Gerónimo de Medinilla’s 1637 translation of
+				Thomas More’s Utopia, Utopia de Thomas Moro, along with three texts: a
+				modernization of the said translation, the 1518 March Latin text and the
+				1551 English rendering by Ralph Robinson. The four texts have been
+				aligned and can be read in parallel to encourage a comparative study.
+				Medinilla’s translation only included Book II so prefatory letters and
+				Book I are not included in the present edition. The edition counts with
+				a critical apparatus analyzing textual characteristics and accounting
+				the differences between the first, second and third editions of Utopia
+				de Thomas Moro.
 			</p>
-
 		</section>
 		<!-- Footer -->
 		<footer
@@ -244,47 +182,25 @@
 			<div class="py-16 px-16 mx-auto">
 				<div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
 					<div>
-						<img
-							src="resources/images/tei-publisher-logo-color.png"
-							class="mr-5 h-6 sm:h-9"
-							alt="logo"
-						/>
-						<!-- <p class="max-w-xs mt-4 text-sm text-gray-600">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-							accusantium.
-						</p> -->
+						<div class="flex items-center">
+							<img
+								src="/resources/images/tei-publisher-logo-color.png"
+								class="mr-5 h-6 sm:h-9"
+								alt="logo"
+							/>
+							<img
+								src="/resources/images/uja-logo.png"
+								class="mr-5 h-6 sm:h-9"
+								alt="logo"
+							/>
+						</div>
 						<div class="flex mt-8 space-x-6 text-gray-600">
-							<!-- <a class="hover:opacity-75" href target="_blank" rel="noreferrer">
-								<span class="sr-only"> Facebook </span>
-								<svg
-									class="w-6 h-6"
-									fill="currentColor"
-									viewBox="0 0 24 24"
-									aria-hidden="true"
-								>
-									<path
-										fillRule="evenodd"
-										d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-										clipRule="evenodd"
-									/>
-								</svg>
-							</a>
-							<a class="hover:opacity-75" href target="_blank" rel="noreferrer">
-								<span class="sr-only"> Instagram </span>
-								<svg
-									class="w-6 h-6"
-									fill="currentColor"
-									viewBox="0 0 24 24"
-									aria-hidden="true"
-								>
-									<path
-										fillRule="evenodd"
-										d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
-										clipRule="evenodd"
-									/>
-								</svg>
-							</a> -->
-							<a class="hover:opacity-75" href target="_blank" rel="noreferrer">
+							<a
+								class="hover:opacity-75"
+								href="https://x.com/inmaurena"
+								target="_blank"
+								rel="noreferrer"
+							>
 								<span class="sr-only"> Twitter </span>
 								<svg
 									class="w-6 h-6"
@@ -317,15 +233,13 @@
 					<div
 						class="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-4"
 					>
-						<!-- <div>
-							<p class="font-medium">Company</p>
+						<div>
+							<p class="font-medium">Contact Information</p>
 							<nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-								<a class="hover:opacity-75" href> About </a>
-								<a class="hover:opacity-75" href> Meet the Team </a>
-								<a class="hover:opacity-75" href> History </a>
+								<a class="hover:opacity-90" href> miurena@ujaen.es </a>
 							</nav>
 						</div>
-						<div>
+						<!-- <div>
 							<p class="font-medium">Helpful Links</p>
 							<nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
 								<a class="hover:opacity-75" href> Contact </a>
@@ -339,8 +253,8 @@
 								<a class="hover:opacity-75" href> Terms &amp; Conditions </a>
 								<a class="hover:opacity-75" href> Accessibility </a>
 							</nav>
-						</div>
-					</div> -->
+						</div> -->
+					</div>
 				</div>
 				<p class="mt-8 text-xs text-gray-800">Under a CC License © 2024</p>
 			</div>
