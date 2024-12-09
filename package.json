@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "190124 Multilingual Utopia",
 	"scripts": {
-		"build:css": "npx tailwindcss -i ./tailwind.css -o ./public/tailwind.css --watch"
+		"build:css": "npx tailwindcss -i ./tailwind.css -o ./resources/css/tailwind.css --watch"
 	},
 	"dependencies": {
 		"@teipublisher/pb-components": "2.4.5",

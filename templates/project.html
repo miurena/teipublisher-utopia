@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Utopia - TEI Version</title>
+		<!-- Tailwind CSS desde CDN -->
+		<link href="resources/css/tailwind.css" rel="stylesheet" />
+		<!-- Gogole Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Estilos personalizados -->
+		<style>
+			section {
+				font-family: "Poppins", sans-serif;
+			}
+		</style>
+	</head>
+	<!-- Page Main -->
+	<body class="flex flex-col mt-32">
+		<header class="container">
+			<!-- Navbar -->
+			<nav
+				class="flex items-center justify-between py-4 bg-[#a52a2a] backdrop-blur-md shadow-md w-full fixed top-0 left-0 right-0 z-10 px-8 md:px-3"
+			>
+				<!-- Logo -->
+				<div class="absolute left-8 my-10">
+					<a href="#" class="cursor-pointer">
+						<img
+							class="h-10"
+							src="resources/images/tei-publisher-logo-contrast-color.svg"
+							alt="App Logo"
+						/>
+					</a>
+				</div>
+
+				<!-- Menu (centrado) -->
+				<div class="flex-grow">
+					<div class="flex justify-center space-x-8 my-2">
+						<a
+							href="inicio"
+							class="text-white hover:text-yellow-500 hover:scale-110 transition-all font-semibold duration-300"
+						>
+							Home
+						</a>
+						<a
+							href="#"
+							class="text-white hover:text-yellow-500 hover:scale-110 transition-all font-semibold duration-300"
+						>
+							Project
+						</a>
+						<a
+							href="edition.html"
+							class="text-white hover:text-yellow-500 hover:scale-110 transition-all font-semibold duration-300"
+						>
+							Edition
+						</a>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<!-- The Texts -->
+		<section class="p-10 space-y-8 mb-8">
+			<h1 class="text-4xl text-center">THE TEXTS USED</h1>
+
+			<div class="p-6 text-gray-800 px-10">
+				<!-- Sección Utopia de Thomas Moro -->
+				<div class="mb-6">
+					<h3 class="text-lg font-semibold mb-2 text-red-700">
+						Utopia de Thomas Moro:
+					</h3>
+					<ul class="list-disc list-inside space-y-2 pl-4">
+						<li>
+							More, Thomas (1637).
+							<span class="italic">Utopia de Thomas Moro.</span> Gerónimo de
+							Medinilla (trad.). Córdoba: Salvador de Cea.
+						</li>
+						<li>
+							More, Thomas (1790).
+							<span class="italic">La Utopia de Tomás Moro.</span> Gerónimo de
+							Medinilla (trad.). Madrid: Imprenta de Pantaleón Aznar.
+						</li>
+						<li>
+							More, Thomas (1805).
+							<span class="italic">La Utopia de Tomas Moro.</span> Gerónimo de
+							Medinilla (trad.). Madrid: Imprenta de Don Mateo Repullés.
+						</li>
+					</ul>
+				</div>
+
+				<!-- Sección Modernización -->
+				<div class="mb-6">
+					<h3 class="text-lg font-semibold mb-2 text-red-700">
+						Modernización:
+					</h3>
+					<p class="pl-4">My proposal based on 1637.</p>
+				</div>
+
+				<!-- Sección Latin and English texts -->
+				<div>
+					<h3 class="text-lg font-semibold mb-2 text-red-700">
+						Latin and English texts:
+					</h3>
+					<p class="pl-4">
+						More, Thomas (1895).
+						<span class="italic"
+							>The Utopia of Sir Thomas More in Latin from the Edition of March
+							1518, and in English from the First Edition of Ralph Robynson’s
+							Translation in 1551.</span
+						>
+						J. H. Lupton (ed.). Oxford: Clarendon Press.
+					</p>
+				</div>
+			</div>
+		</section>
+		<section class="p-10 space-y-8 mb-8">
+			<h1 class="text-4xl text-center">ENCODING AND TOOLS</h1>
+			<div class="p-6 text-gray-800 text-justify px-10">
+				<!-- Sección sobre la edición -->
+				<div class="mb-6">
+					<p class="mb-4">
+						The edition uses the <span class="font-mono">TEI/XML</span> language
+						for the encoding of the texts. The texts are aligned using the
+						<span class="font-mono">&lt;s&gt;</span> and
+						<span class="font-mono">&lt;seg&gt;</span> elements,
+						<span class="font-mono">@xml:id</span>, and
+						<span class="font-mono">@corresp</span>. Each chapter and the four
+						texts are contained together in one single document. Thus, there are
+						nine documents in total plus another one containing the paratexts of
+						Medinilla’s edition.
+					</p>
+				</div>
+
+				<!-- Sección sobre la herramienta de visualización -->
+				<div class="mb-6">
+					<h3 class="text-lg font-semibold mb-2 text-red-700">
+						Visualization tool:
+					</h3>
+					<p class="mb-4">
+						The visualization tool used is
+						<span class="font-bold">TEIPublisher</span>. The functions
+						integrated in the present edition have already been used in other
+						projects like the <span class="italic">Van Gogh Letters</span> and
+						others (functions to be identified). It is integrated within the
+						webpage.
+					</p>
+				</div>
+
+				<!-- Sección sobre información adicional -->
+				<div>
+					<h3 class="text-lg font-semibold mb-2 text-red-700">
+						Further information:
+					</h3>
+					<p>
+						For further information, see the documentation on the thesis
+						dissertation (PDF and URL not available yet).
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="p-10 space-y-8 mb-8">
+			<h1 class="text-4xl text-center">BIBLIOGRAPHY</h1>
+			<div class="p-6 text-gray-800 px-10 text-justify">
+				<!-- Sección de la bibliografía -->
+				<div class="space-y-4">
+					<p>
+						Covarrubias Orozco, Sebastián de (1611).
+						<span class="italic"
+							>Tesoro de la lengua castellana o española.</span
+						>
+						Madrid: por Luis Sánchez.
+					</p>
+					<p>
+						Lewis, Charlton and Charles Short (1879).
+						<span class="italic">A Latin Dictionary.</span>
+						<a
+							href="https://alatius.com/ls/"
+							class="text-blue-600 hover:underline"
+							>https://alatius.com/ls/</a
+						>
+						[Last Accessed 29/09/2024].
+					</p>
+					<p>
+						More, Thomas (1895).
+						<span class="italic"
+							>The Utopia of Sir Thomas More in Latin from the Edition of March
+							1518, and in English from the First Edition of Ralph Robynson’s
+							Translation in 1551.</span
+						>
+						J. H. Lupton (ed.). Oxford: Clarendon Press.
+					</p>
+					<p>
+						More, Thomas (1965).
+						<span class="italic"
+							>The Yale Edition of the Complete Works of St. Thomas More. Volume
+							4. Utopia.</span
+						>
+						S.J. Edward Surtz and J. H. Hexter (eds.). New Haven and London:
+						Yale University Press.
+					</p>
+					<p>
+						More, Thomas (2016).
+						<span class="italic">Utopia.</span> George M. Logan (ed.), Robert M.
+						Adams (Trad.). Cambridge: Cambridge University Press.
+					</p>
+					<p>
+						n.a. (2024).
+						<span class="italic">Oxford English Dictionary (OED).</span>
+						<a href="https://www.oed.com/" class="text-blue-600 hover:underline"
+							>https://www.oed.com/</a
+						>
+						[Last Accessed 29/09/2024].
+					</p>
+					<p>
+						Real Academia Española (RAE) (1726-1739).
+						<span class="italic">Diccionario de Autoridades.</span>
+						<a
+							href="https://apps2.rae.es/DA.html"
+							class="text-blue-600 hover:underline"
+							>https://apps2.rae.es/DA.html</a
+						>
+						[Last Accessed 29/09/2024].
+					</p>
+					<p>
+						Real Academia Española (2010).
+						<span class="italic">Ortografía de la Lengua Española.</span>
+						Barcelona: Espasa Libros.
+					</p>
+					<p>
+						Real Academia Española (RAE) (2023).
+						<span class="italic"
+							>Diccionario de la Lengua Española, 23th edition [online version
+							23.7].</span
+						>
+						<a href="https://dle.rae.es" class="text-blue-600 hover:underline"
+							>https://dle.rae.es</a
+						>
+						[Last Accessed 29/09/2024].
+					</p>
+					<p>
+						Real Academia Española (RAE) (2024).
+						<span class="italic">Corpus diacrónico del español (CORDE).</span>
+						<a
+							href="https://corpus.rae.es/cordenet.html"
+							class="text-blue-600 hover:underline"
+							>https://corpus.rae.es/cordenet.html</a
+						>
+						[Last Accessed 5/10/2024].
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="p-10 space-y-8 mb-8">
+			<h1 class="text-4xl text-center">HOW TO CITE</h1>
+			<div class="p-6 text-gray-800 px-10 text-justify">
+				<!-- HOW TO CITE -->
+				<p>
+					Ureña-Asensio, Inmaculada (2024).
+					<span class="italic">Utopia de Thomas Moro - A digital edition</span>
+					[Thesis dissertation, Universidad de Jaén].
+					<a
+						href="http://utopiadethomasmoro-digitaledition.com/"
+						class="text-blue-600 hover:underline"
+						>URL: http://utopiadethomasmoro-digitaledition.com/</a
+					>
+				</p>
+			</div>
+		</section>
+		<section class="p-10 space-y-8 mb-8">
+			<h1 class="text-4xl text-center">ACKNOWLEDGEMENTS</h1>
+			<div class="p-6 text-gray-800 px-10 text-justify">
+				<!-- ACKNOWLEDGEMENTS -->
+				<p>
+					I would like to thank my thesis supervisor for the support, time and
+					advice in the project. Also, the more technical and methodological
+					work was developed during my research visit to the Digital Scholarship
+					Group and the Women Writers Project at Northeastern University. I want
+					to especially thank Dr. Julia Flanders, Dr. Sarah Connell and Ash
+					Clark for the advice, guidance and inspiration throughout the process
+					of creation and design of the edition.
+				</p>
+			</div>
+		</section>
+		<section class="p-10 space-y-8 mb-8">
+			<h1 class="text-4xl text-center">RESOURCES AND LICENSES</h1>
+			<div class="p-6 text-gray-800 px-10 text-justify">
+				<!-- Texto principal -->
+				<p>
+					All the chapters are contained in the folder
+					<span class="font-mono">/data</span> in the project Github repository
+					<a
+						href="https://github.com/miurena/teipublisher-utopia"
+						class="text-blue-600 hover:underline"
+						>https://github.com/miurena/teipublisher-utopia</a
+					>
+					in XML format. These files are licensed under CC BY-NC-SA.4.0
+				</p>
+
+				<p class="mt-4">
+					The complete edition in PDF format is available as well.
+				</p>
+
+				<p class="mt-4">
+					For further information on how to insert TEIPublisher on a webpage,
+					see the tutorial by E-Editiones.org
+					<a
+						href="https://faq.teipublisher.com/hosting/docker-compose/"
+						class="text-blue-600 hover:underline"
+						>“Deploy an Application using Docker Compose”</a
+					>.
+				</p>
+				<div class="text-gray-800 mt-12">
+					<p class="text-justify">
+						<a
+							href="https://github.com/miurena/teipublisher-utopia/tree/main/data"
+							class="text-blue-600 hover:underline"
+							property="dct:title"
+							rel="cc:attributionURL"
+						>
+							TEI/XML documents - Utopia de Thomas Moro - A Digital edition
+						</a>
+						by
+						<a
+							href="https://miurena.github.io/mypage/"
+							class="text-blue-600 hover:underline"
+							rel="cc:attributionURL dct:creator"
+							property="cc:attributionName"
+						>
+							Inmaculada Ureña Asensio
+						</a>
+						is licensed under
+						<a
+							href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
+							target="_blank"
+							rel="license noopener noreferrer"
+							class="text-blue-600 hover:underline inline-flex items-center space-x-1"
+						>
+							<span>CC BY-NC-SA 4.0</span>
+							<img
+								src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"
+								alt="CC icon"
+								class="h-5"
+							/>
+							<img
+								src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"
+								alt="BY icon"
+								class="h-5"
+							/>
+							<img
+								src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"
+								alt="NC icon"
+								class="h-5"
+							/>
+							<img
+								src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"
+								alt="SA icon"
+								class="h-5"
+							/>
+						</a>
+					</p>
+				</div>
+			</div>
+		</section>
+		<!-- Footer -->
+		<footer
+			class="w-full bg-gradient-to-r from-gray-100 via-[#bce1ff] to-gray-100"
+		>
+			<div class="py-16 px-16 mx-auto">
+				<div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+					<div>
+						<div class="flex items-center">
+							<img
+								src="resources/images/tei-publisher-logo-color.png"
+								class="mr-5 h-6 sm:h-9"
+								alt="logo"
+							/>
+							<img
+								src="resources/images/uja-logo.png"
+								class="mr-5 h-6 sm:h-9"
+								alt="logo"
+							/>
+						</div>
+						<div class="flex mt-8 space-x-6 text-gray-600">
+							<a
+								class="hover:opacity-75"
+								href="https://x.com/inmaurena"
+								target="_blank"
+								rel="noreferrer"
+							>
+								<span class="sr-only"> Twitter </span>
+								<svg
+									class="w-6 h-6"
+									fill="currentColor"
+									viewBox="0 0 24 24"
+									aria-hidden="true"
+								>
+									<path
+										d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
+									/>
+								</svg>
+							</a>
+							<a
+								class="hover:opacity-75"
+								href="https://github.com/miurena/teipublisher-utopia"
+								target="_blank"
+								rel="noreferrer"
+							>
+								<span class="sr-only"> GitHub </span>
+								<svg
+									class="w-6 h-6"
+									fill="currentColor"
+									viewBox="0 0 24 24"
+									aria-hidden="true"
+								>
+									<path
+										fillRule="evenodd"
+										d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+										clipRule="evenodd"
+									/>
+								</svg>
+							</a>
+						</div>
+					</div>
+					<div
+						class="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-4"
+					>
+						<div>
+							<p class="font-medium">Contact Information</p>
+							<nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+								<a class="hover:opacity-90" href> miurena@ujaen.es </a>
+							</nav>
+						</div>
+					</div>
+				</div>
+				<p class="mt-8 text-xs text-gray-800">Under a CC License © 2024</p>
+			</div>
+		</footer>
+	</body>
+</html>
