@@ -1,9 +1,9 @@
+<?xml-model href="../../ODD/out/Utopia.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <!-- updated to 21/5/2024-->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Chapter 2</title>
+                <title>Chapter 2. De las ciudades, especialmente de Amauroto</title>
                 <funder>This work has been developed thanks to a doctoral fellowship granted in 2020
                     by the Spanish Ministry of Universities</funder>
                 <respStmt>
@@ -11,19 +11,11 @@
                     <resp>transcription and encoding</resp>
                 </respStmt>
             </titleStmt>
-            <editionStmt>
-                <edition n="1">First edition<date> July 2024</date></edition>
-            </editionStmt>
             <publicationStmt>
                 <publisher>TEIPublisher</publisher>
-                <pubPlace><ref><!-- URL?--></ref></pubPlace>
+                <pubPlace><ref>http://utopiadethomasmoro-digitaledition.com/</ref></pubPlace>
                 <date>2024</date>
             </publicationStmt>
-            <notesStmt>
-                <note>I especially want to thank the DSG at NU for the support during my research
-                    visit at Northeastern University in 2023.</note>
-                <note>Thanks to my thesis supervisor...</note>
-            </notesStmt>
             <sourceDesc>
                 <bibl>
                     <title>Utopia de Thomas Moro, traducida de latin en Caſtellano por Don Geronimo
@@ -49,71 +41,40 @@
                     <date>1895</date>
                     <pubPlace>Oxford</pubPlace>
                 </bibl>
-                <!-- lists -->
             </sourceDesc>
         </fileDesc>
-
+        
         <encodingDesc>
             <projectDesc>
                 <p>This edition was developed as part of my thesis dissertation titled "A Digital
                     Edition of the 1637 Spanish translation of Thomas More's Utopia". The processes
                     of data modeling, encoding and publishing the edition was done during a research
-                    visit at Northeastern University.</p>
+                    visit to the Digital Scholarship Group and the Women Writers Project at Northeastern University (Boston, USA).</p>
             </projectDesc>
             <samplingDecl>
-                <p>section to describe the rationale of the edition</p>
+                <p>The aim of this edition is to offer a side-by-side edition of the first printed translation of Thomas More's <hi>Utopia</hi>
+                    into Spanish plus three accompanying texts: a modernization of Gerónimo de Medinilla's 1637 rendering, the Latin text taken from
+                    the 1518 March edition and the 1551 English translation by Ralph Robinson.</p>
             </samplingDecl>
             <editorialDecl>
                 <normalization>
-                    <p>The only text modernized is the translation. The elements modernized are the
-                        following: <list>
-                            <item/>
-                        </list>
-                    </p>
-                </normalization>
-                <punctuation>
-                    <p>The original punctuation system has been preserved in the 1637 Spanish
-                        translation, the 1551 English translation and the Latin original. The
-                        modifications concerning punctuation in the modernized version of the
-                        Spanish text have already been specified in the previous section.</p>
-                </punctuation>
+                    <p>For the modernization of the Spanish translation, graphs, punctuation and accentuation have been adapted to 
+                        today's orthographical norms as established by the Real Academia de la Lengua Española in its <hi>Diccionario</hi> (2023)
+                        and <hi>Ortografía de la Lengua Española</hi> (2010).</p>
+                </normalization>                
                 <segmentation>
-                    <p>The texts have been segmented into sentences to facilitate alignment. The
-                        principle followed... </p>
+                    <p>The texts have been segmented into sentences to facilitate alignment. In the framework of the present edition,
+                        a sentence is defined as the text between two periods, disregarding other linguistic conventions.</p>
                 </segmentation>
             </editorialDecl>
             <refsDecl>
-                <p> Explain here the reference system (linking?) use gi to refer to elements and
-                    attr to refer to attributes</p>
-            </refsDecl>
-            <classDecl>
-                <taxonomy>
-                    <desc/>
-                </taxonomy>
-                <!-- Place names and identifiers 
-              
-              #place-1 -> London
-              #place-2 -> Amauroto
-              
-              People names and identifiers
-              
-              #person-1 -> Thomas More
-              #person-2 -> Raphael Hythloday
-              #person-3 -> Utopo
-              
-              (work?) positions list
-              #position-1 -> labrador
-              #position-2 -> magistrado
-              
-              Geographical names
-              #geogr-1 -> Isla de los Utopienses/Utopia (Abraxa)
-              #geogr-2 -> Utopia continente
-              
-              Numbers (maybe for the future)
-              #quant-1 -> 
-              
-              -->
-            </classDecl>
+                <p>Identifiers are made up by concatenating the language reference code,
+                    chapter number, segment number and segment order in the sentence.
+                    Sentences are connected by <att>corresp</att>. A previous <att>type</att>
+                    indicates whether the segment has been translated or not by Medinilla. Thus, if
+                    a segment is untranslated, it will not carry the <att>corresp</att>.
+                    The <att>n</att> of segment is also key in the alignment process</p>
+            </refsDecl>           
             <schemaSpec ident="TEI"/>
         </encodingDesc>
         <profileDesc>
@@ -124,10 +85,8 @@
                 <language ident="en">sixteenth-century English</language>
             </langUsage>
         </profileDesc>
-        <!-- copy of Spanish Library (ref) and where I took the copy from Lupton -->
-
         <revisionDesc>
-            <change when="2024-03-04">Version 1.0 <!-- example --></change>
+            <change when="2024-10-31">Version 1.0</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -135,7 +94,7 @@
             <div type="base" xml:lang="es">
                 <div type="chapter" n="2">
                     <pb n="3r"/>
-                    <head type="chapter">De las Ciudades, eſpecialmente de Amauroto.</head>
+                    <head type="chapter">De las Ciudades, eſpecialmente de Amauroto. Cap. II.</head>
                     <ab>
                         <seg n="2.1" type="sentence">
                             <s xml:id="es-2-1-1" n="es 2.1">EL que à viſto una de aquellas Ciudades
@@ -160,10 +119,10 @@
                                 parte arriba de Amauroto de una pequeña fuente, pero cõ el concurſo
                                 de otros rios, i eſpecialmente el de otros dos medianos, que entran
                                 en el ſe aumentan fus aguas: antes de llegar a la Ciudad ſe eſtiende
-                                ſu corriente quinientos paſſos, luego ſe va enſanchãdo mas hasta ~q
+                                ſu corriente quinientos paſſos, luego ſe va enſanchãdo mas hasta q̃
                                 por el diſcurſo de ſeſenta mil paſſos entra en el Oceano.</s>
                         </seg><seg n="2.4" type="sentence">
-                            <s xml:id="es-2-4-1" n="es 2.4">En todo eſte eſpacio ~q ai de la Ciudad
+                            <s xml:id="es-2-4-1" n="es 2.4">En todo eſte eſpacio q̃ ai de la Ciudad
                                 al mar, i algo mas arriba hazia el nacimiento, creciendo, i
                                 menguando el mar haze regolfos, con la velocidad del rio, por ſeis
                                 oras continuas.<anchor n="20" xml:id="note-2-2"/></s>
@@ -277,7 +236,8 @@
             <div type="modernization" xml:lang="es">
                 <div type="chapter" n="2">
                     <pb n="3r"/>
-                    <head type="chapter">De las ciudades, especialmente de Amauroto</head>
+                    <head type="chapter">De las ciudades, especialmente de Amauroto. Capítulo
+                        II.</head>
                     <ab>
                         <seg n="2.1" type="multisentence">
                             <seg xml:id="em-2-1-1" n="em 2.1" corresp="#es-2-1-1">El que ha visto
@@ -437,7 +397,7 @@
                 <div type="chapter" n="2">
                     <head type="chapter">DE VRBIBVS, AC NOMINATIM DE AMAVROTO.</head>
                     <ab>
-                        <seg n="2.1" type="multisentence">
+                        <seg n="2.1" type="multisentence" subtype="translated">
                             <seg xml:id="la-2-1-1" n="la 2.1" corresp="#es-2-1-1">VRBium qui unam
                                 norit, omnes nouerit: ita sunt inter se (qua­tenus loci natura non
                                 obstat) omnino similes.</seg>
@@ -447,81 +407,81 @@
                                 quam Amaurotum qua nee ulla dignior est, quippe cui senatus gratia
                                 reliquae defe­runt, nec ulla mihi notior, ut in qua annos quinque
                                 perpetuo uixerim.</seg>
-                        </seg><seg n="2.2" type="multisentence">
+                        </seg><seg n="2.2" type="multisentence" subtype="translated">
                             <seg xml:id="la-2-2-1" n="la 2.4" corresp="#es-2-2-1">Situm est igitur
                                 Amaurotum in leni deiectu montis, figura fere quadrata.</seg>
                             <seg xml:id="la-2-2-2" n="la 2.5" corresp="#es-2-2-1"> Nam latitude eius
                                 paulo infra collis incoepta uerticem, millibus passuum duobus ad
                                 flumen Anydrum pertinet, secundum ripam aliquanto longior.</seg>
-                        </seg><seg n="2.3" type="multisentence">
+                        </seg><seg n="2.3" type="multisentence" subtype="translated">
                             <seg xml:id="la-2-3-1" n="la 2.6" corresp="#es-2-3-1">Oritur Anydrus
                                 milibus octoginta supra Amaurotum, modico fonte, sed aliorum occursu
                                 fluminum, atque in his duorum etiam mediocrium, auctus, ante urbem
                                 ipsam quingentos in latum passus extenditur.</seg>
                             <seg xml:id="la-2-3-2" n="la 2.7" corresp="#es-2-3-1"> Mox adhuc
                                 amplior, sexaginta milia prolapsus, excipitur oceano.</seg>
-                        </seg><seg n="2.4" type="singleSentence">
+                        </seg><seg n="2.4" type="singleSentence" subtype="translated">
                             <seg xml:id="la-2-4-1" n="la 2.8" corresp="#es-2-4-1">Hoc toto spacio,
                                 quod urbem ac mare interiacet, ac supra urbem quoque aliquot milia,
                                 sex horas perpetuas influens aestus ac refluus alternat celeri
                                 flumine.</seg>
-                        </seg><seg n="2.5" type="singleSentence">
+                        </seg><seg n="2.5" type="singleSentence" subtype="translated">
                             <seg xml:id="la-2-5-1" n="la 2.9" corresp="#es-2-5-1">Quum sese pelagus
                                 infert, triginta in longum milia, totum Anydri alueum suis occupat
                                 undis, profligate retrorsum fluuio.</seg>
-                        </seg><seg n="2.6" type="singleSentence">
+                        </seg><seg n="2.6" type="singleSentence" subtype="translated">
                             <seg xml:id="la-2-6-1" n="la 2.10" corresp="#es-2-6-1">Tum aliquanto
                                 ultra liquorem eius salsugine corrumpit; dehinc paulatim dulcescens
                                 amnis syncerus urbem perlabitur, ac refugientem uicissim purus et
                                 incorruptus ad ipsas propre fauces insequitur.</seg>
-                        </seg><seg n="2.7" type="singleSentence">
+                        </seg><seg n="2.7" type="singleSentence" subtype="translated">
                             <seg xml:id="la-2-7-1" n="la 2.11" corresp="#es-2-7-1">Vrbs aduersae
                                 fluminis ripae, non pilis ac sublicibus ligneis sed ex opere lapideo
                                 egregie arcuato ponte, commissa est, ab ea parte quae longissime
                                 distat a mari, quo naues totum id latus urbis possint inoffensae
                                 praeteruehi.</seg>
-                        </seg><seg n="2.8" type="multisentence">
+                        </seg><seg n="2.8" type="multisentence" subtype="translated">
                             <seg xml:id="la-2-8-1" n="la 2.12" corresp="#es-2-8-1">Habent alium
                                 praeterea fluuium, haud magnum quidem ilium, sed perquam placidum ac
                                 iucundum.</seg>
                             <seg xml:id="la-2-8-2" n="la 2.13" corresp="#es-2-8-1"> Nam ex eodem
                                 caturiens monte, in quo ciuitas collocatur, mediam illam per deuexa
                                 perfluens Anydro miscetur.</seg>
-                        </seg><seg n="2.9" type="multisentence">
+                        </seg><seg n="2.9" type="multisentence" subtype="translated">
                             <seg xml:id="la-2-9-1" n="la 2.14" corresp="#es-2-9-1">Eius fluuii caput
                                 fontem­que, quod paulo extra urbem nascitur, munimentis amplexi
                                 Amaurotani iunxerunt oppido, ne si qua hostium ingruat, intercipi
                                 atque auerti aqua, neue corrumpi queat.</seg>
                             <seg xml:id="la-2-9-2" n="la 2.15" corresp="#es-2-9-1"> Inde canalibus
                                 coctilibus diuersim ad inferiores urbis partes aqua diriuatur.</seg>
-                        </seg><seg n="2.10" type="singleSentence">
+                        </seg><seg n="2.10" type="singleSentence" subtype="translated">
                             <seg xml:id="la-2-10-1" n="la 2.16" corresp="#es-2-10-1">id sicubi locus
                                 fieri uetat, cisternis capacibus collecta pluuia tantundem usus
                                 adfert.</seg>
-                        </seg><seg n="2.11" type="singleSentence">
+                        </seg><seg n="2.11" type="singleSentence" subtype="translated">
                             <seg xml:id="la-2-11-1" n="la 2.17" type="partial" part="I"
                                 next="#en-2-12-1" corresp="#es-2-11-1">Murus altus ac latus oppidum
                                 cingit, turribus ac propugnaculis frequens, </seg>
-                        </seg><seg n="2.12" type="multisentence">
+                        </seg><seg n="2.12" type="multisentence" subtype="translated">
                             <seg xml:id="la-2-12-1" n="la 2.17" type="partial" part="F"
                                 prev="#en-2-11-1" corresp="#es-2-12-1">arida fossa, sed alta
                                 lataque, ac ueprium sepibus impedita, tribus ad lateribus circumdat
                                 moenia.</seg>
                             <seg xml:id="la-2-12-2" n="la 2.18" corresp="#es-2-12-1"> quarto flumen
                                 ipsum pro fossa est.</seg>
-                        </seg><seg n="2.13" type="multisentence">
+                        </seg><seg n="2.13" type="multisentence" subtype="translated">
                             <seg xml:id="la-2-13-1" n="la 2.19" corresp="#es-2-13-1">Plateae cum ad
                                 uecturam, tum aduersus uentos, descriptae commode.</seg>
                             <seg xml:id="la-2-13-2" n="la 2.20" corresp="#es-2-13-1"> aedificia
                                 neutiquam sordida, quorum longa et totum per uicum perpetua series
                                 aduersa domorum fronte conspicitur.</seg>
-                        </seg><seg n="2.14" type="multisentence">
+                        </seg><seg n="2.14" type="multisentence" subtype="translated">
                             <seg xml:id="la-2-14-1" n="la 2.21" corresp="#es-2-14-1">has uicorum
                                 frontes uia distinguit pedes uiginti lata.</seg>
                             <seg xml:id="la-2-14-2" n="la 2.22" corresp="#es-2-14-1"> Posterioribus
                                 aedium partibus, quanta est uici longitudo, hortus adiacet, latus,
                                 et uicorum tergis undique circumseptus.</seg>
-                        </seg><seg n="2.15" type="multisentence">
+                        </seg><seg n="2.15" type="multisentence" subtype="translated">
                             <seg xml:id="la-2-15-1" n="la 2.23" corresp="#es-2-15-1">Nulla domus
                                 est, quae non, ut hostium in plateam, ita posticum in hortum
                                 habeat.</seg>
@@ -530,20 +490,20 @@
                                 quemuis intromittunt.</seg>
                             <seg xml:id="la-2-15-3" n="la 2.25" corresp="#es-2-15-1"> ita nihil
                                 usquam priuati est.</seg>
-                        </seg><seg n="2.16" type="singleSentence">
+                        </seg><seg n="2.16" type="singleSentence" subtype="translated">
                             <seg xml:id="la-2-16-1" n="la 2.26" corresp="#es-2-16-1">Nam domos ipsas
                                 uno quoque decennio sorte commutant.</seg>
-                        </seg><seg n="2.17" type="multisentence">
+                        </seg><seg n="2.17" type="multisentence" subtype="translated">
                             <seg xml:id="la-2-17-1" n="la 2.27" corresp="#es-2-17-1">Hos hortos
                                 magnifaciunt.</seg>
                             <seg xml:id="la-2-17-2" n="la 2.28" corresp="#es-2-17-1"> in his uineas,
                                 fructus, herbas, flores, habent, tanto nitore cultuque, ut nihil
                                 fructuosius usquam ulderim, nihil elegantius.</seg>
-                        </seg><seg n="2.18" type="singleSentence">
+                        </seg><seg n="2.18" type="singleSentence" subtype="translated">
                             <seg xml:id="la-2-18-1" n="la 2.29" corresp="#es-2-18-1">qua in re
                                 studium horum non ipsa uoluptas modo, sed uicorum quoque inuicem de
                                 suo cuiusque horti cultu certamen accendit.</seg>
-                        </seg><seg n="2.19" type="multisentence">
+                        </seg><seg n="2.19" type="multisentence" subtype="translated">
                             <seg xml:id="la-2-19-1" n="la 2.30" corresp="#es-2-19-1">et certe non
                                 aliud quicquam temere urbe tota reperias, sine ad usum ciuium, siue
                                 ad uoluptatem commodius.</seg>
@@ -556,14 +516,14 @@
                             <seg xml:id="la-2-19-4" n="la 2.33" corresp="#es-2-19-1"> Sed ornatum,
                                 caeterumque cultum, qui bus unius aetatem hominis haud suffecturam
                                 uidit, posteris adiiciendum reliquit.</seg>
-                        </seg><seg n="2.20" type="singleSentence">
+                        </seg><seg n="2.20" type="singleSentence" subtype="translated">
                             <seg xml:id="la-2-20-1" n="la 2.34" corresp="#es-2-20-1">Itaque scriptum
                                 in annalibus habent, quos ab capta usque insula mille septingentorum
                                 ac sexaginta annorum complectentes historiam diligenter et religiose
                                 perscriptos adseruant, aedes initio humiles, ac veluti casas et
                                 tuguria fuisse, e quolibet ligno temere factas, pa­rietes luto
                                 obductos, culmina in aciem fastigiata stramentis operue­rant.</seg>
-                        </seg><seg n="2.21" type="multisentence">
+                        </seg><seg n="2.21" type="multisentence" subtype="translated">
                             <seg xml:id="la-2-21-1" n="la 2.35" corresp="#es-2-21-1">At nunc omnis
                                 domus uisenda forma tabulatorum trium.</seg>
                             <seg xml:id="la-2-21-2" n="la 2.36" corresp="#es-2-21-1"> parietum
@@ -573,7 +533,7 @@
                                 planum subducta, quae intritis quibusdam insternunt, nullius
                                 impendii, sed ea temperatura quae nec igni obnoxia sit, et
                                 tolerandis tempestatum iniuriis plumbum superet. </seg>
-                        </seg><seg n="2.22" type="multisentence">
+                        </seg><seg n="2.22" type="multisentence" subtype="translated">
                             <seg xml:id="la-2-22-1" n="la 2.38" corresp="#es-2-22-1">Ventos e
                                 fenestris uitro (nam eius ibi creberrimus usus est) expellunt;
                                 interim etiam lino tenui, quod perlucido oleo aut succino perlinunt,
@@ -589,7 +549,7 @@
                 <div type="Chapter" n="2">
                     <head type="title">The cities, especially Amaurotum</head>
                     <ab>
-                        <seg n="2.1" type="multisentence">
+                        <seg n="2.1" type="multisentence" subtype="translated">
                             <seg xml:id="en-2-1-1" n="en 2.1" corresp="#es-2-1-1">AS for their
                                 Cyties, he that knoweth one of them knoweth them all: they be all so
                                 lyke one to an other, as ferfurth as the nature of the place
@@ -605,7 +565,7 @@
                             <seg xml:id="en-2-1-5" n="en 2.5" corresp="#es-2-1-1"> Nor to me any of
                                 them al is better beloued, as wherin I lyued fyue hole yeares
                                 together.</seg>
-                        </seg><seg n="2.2" type="multisentence">
+                        </seg><seg n="2.2" type="multisentence" subtype="translated">
                             <seg xml:id="en-2-2-1" n="en 2.6" corresp="#es-2-2-1">The cytie of
                                 Amaurote standeth vpon the syde of a low hill, in fashion almoste
                                 four square.</seg>
@@ -615,7 +575,7 @@
                                 Anyder.</seg>
                             <seg xml:id="en-2-2-3" n="en 2.8" corresp="#es-2-2-1"> The lenghte of it
                                 whiche lyeth by the ryuers syde is sumwhat more.</seg>
-                        </seg><seg n="2.3" type="multisentence">
+                        </seg><seg n="2.3" type="multisentence" subtype="translated">
                             <seg xml:id="en-2-3-1" n="en 2.9" corresp="#es-2-3-1">The ryuere of
                                 Anyder rysethe xxiii myles aboue Amaurote owte of a lytle
                                 sprynge.</seg>
@@ -625,17 +585,17 @@
                                 a myle brode, and farther broder.</seg>
                             <seg xml:id="en-2-3-3" n="en 2.11" corresp="#es-2-3-1"> And lx myles
                                 beyonde the citye yt falleth into the Ocean sea.</seg>
-                        </seg><seg n="2.4" type="singleSentence">
+                        </seg><seg n="2.4" type="singleSentence" subtype="translated">
                             <seg xml:id="en-2-4-1" n="en 2.12" corresp="#es-2-4-1">By al that space
                                 that lyethe betwene the sea and the cytye, and a good sorte of myles
                                 also aboue the cytye, the water ebbethe and flowethe vi houres
                                 togethere wyth a swyfte tyde.</seg>
-                        </seg><seg n="2.5" type="singleSentence">
+                        </seg><seg n="2.5" type="singleSentence" subtype="translated">
                             <seg xml:id="en-2-5-1" n="en 2.13" corresp="#es-2-5-1">Whan the sea
                                 flowethe in for the lenghte of xxx myles, yt fyllethe all the Anyder
                                 wyth salte water, and dryuethe backe the fresshe water of the
                                 ryuer.</seg>
-                        </seg><seg n="2.6" type="multisentence">
+                        </seg><seg n="2.6" type="multisentence" subtype="translated">
                             <seg xml:id="en-2-6-1" n="en 2.14" corresp="#es-2-6-1">And sumwhat
                                 furthere yt chaungethe the swetenes of the freshe water wyth
                                 saltnes.</seg><seg xml:id="en-2-6-2" n="en 2.15" corresp="#es-2-6-1"
@@ -644,14 +604,14 @@
                             <seg xml:id="en-2-6-3" n="en 2.16" corresp="#es-2-6-1"> And when the sea
                                 ebbeth, and goyth backe agayn, the freshe water followeth yt almoste
                                 euen to the verye falle in to the sea.</seg>
-                        </seg><seg n="2.7" type="singleSentence">
+                        </seg><seg n="2.7" type="singleSentence" subtype="translated">
                             <seg xml:id="en-2-7-1" n="en 2.17" corresp="#es-2-7-1">There goeth a
                                 brydge ouer the ryuer made not of pyles or of tymber, but of
                                 stonewarke, with gorgious and substanciall archeis at that parte of
                                 the cytye that is farthest from the sea; to the intent that shyppes
                                 maye goo alonge forbie all the syde of the cytie without
                                 lette.</seg>
-                        </seg><seg n="2.8" type="multisentence">
+                        </seg><seg n="2.8" type="multisentence" subtype="translated">
                             <seg xml:id="en-2-8-1" n="en 2.18" corresp="#es-2-8-1">They haue also an
                                 other ryuere, whiche in dede is not very great.</seg>
                             <seg xml:id="en-2-8-2" n="en 2.19" corresp="#es-2-8-1"> But it runneth
@@ -659,7 +619,7 @@
                             <seg xml:id="en-2-8-3" n="en 2.20" corresp="#es-2-8-1"> For it ryseth
                                 euen out of the same hyll that the cytie standeth vpon, and runneth
                                 downe a slope through the myddes of the citie into Anyder.</seg>
-                        </seg><seg n="2.9" type="multisentence">
+                        </seg><seg n="2.9" type="multisentence" subtype="translated">
                             <seg xml:id="en-2-9-1" n="en 2.21" corresp="#es-2-9-1">And bicause it
                                 ryseth a lytle without the citie, the Amaurotians haue inclosed the
                                 head sprynge of it with stronge fences and bulwarkes, and so haue
@@ -671,22 +631,22 @@
                             <seg xml:id="en-2-9-3" n="en 2.23" corresp="#es-2-9-1"> From thence the
                                 water is deryued and brought downe in cannellis of brycke dyuers
                                 wayes into the lower partes of the cytie.</seg>
-                        </seg><seg n="2.10" type="singleSentence">
+                        </seg><seg n="2.10" type="singleSentence" subtype="translated">
                             <seg xml:id="en-2-10-1" n="en 2.24" corresp="#es-2-10-1">Where that
                                 cannot be done, by reason that the place wyll not suffer it, there
                                 they gather the rayne water in greate cisternes, which doth them as
                                 good seruice.</seg>
-                        </seg><seg n="2.11" type="singleSentence">
+                        </seg><seg n="2.11" type="singleSentence" subtype="translated">
                             <seg xml:id="en-2-11-1" n="en 2.25" corresp="#es-2-11-1">The cytie is
                                 compassed aboute wyth a highe and thycke walle, full of turrettes
                                 and bulwarkes.</seg>
-                        </seg><seg n="2.12" type="multisentence">
+                        </seg><seg n="2.12" type="multisentence" subtype="translated">
                             <seg xml:id="en-2-12-1" n="en 2.26" corresp="#es-2-12-1">A drye dyche,
                                 but deape and brode and overgrowen with busshes, briers, and
                                 thornes, goeth about iii sydes or quarters of the cytie.</seg>
                             <seg xml:id="en-2-12-2" n="en 2.27" corresp="#es-2-12-1"> To the fowrth
                                 syde the ryuer it selfe serueth for a dytche.</seg>
-                        </seg><seg n="2.13" type="multisentence">
+                        </seg><seg n="2.13" type="multisentence" subtype="translated">
                             <seg xml:id="en-2-13-1" n="en 2.28" corresp="#es-2-13-1">The stretes be
                                 appoynted and set forth verye commodious and handsome, bothe for
                                 carriage and also agaynst the wyndes.</seg>
@@ -694,14 +654,14 @@
                                 of fayre and gorgious buyldyng, and in the streete syde they stonde
                                 ioyned together in a longe rowe throughe the hole streate without
                                 anye parti­tion or separacion.</seg>
-                        </seg><seg n="2.14" type="multisentence">
+                        </seg><seg n="2.14" type="multisentence" subtype="translated">
                             <seg xml:id="en-2-14-1" n="en 2.30" corresp="#es-2-14-1">The stretes be
                                 twenty fote brode.</seg>
                             <seg xml:id="en-2-14-2" n="en 2.31" corresp="#es-2-14-1"> On the backe
                                 syde of the houses, through the hole lengthe of the strete, lye
                                 large gardeynes, whyche be closed in rounde about with the backe
                                 parte of the stretes.</seg>
-                        </seg><seg n="2.15" type="multisentence">
+                        </seg><seg n="2.15" type="multisentence" subtype="translated">
                             <seg xml:id="en-2-15-1" n="en 2.32" corresp="#es-2-15-1">Euery house
                                 hath two doores; one into the strete, and a posternne doore on the
                                 backsyde into the gardyne.</seg>
@@ -712,23 +672,23 @@
                             <seg xml:id="en-2-15-3" n="en 2.34" corresp="#es-2-15-1"> Euerye man
                                 that wyll maye goo yn, for there is nothynge wythin the howses that
                                 ys pryuate, or annye mannes owne.</seg>
-                        </seg><seg n="2.16" type="singleSentence">
+                        </seg><seg n="2.16" type="singleSentence" subtype="translated">
                             <seg xml:id="en-2-16-1" n="en 2.35" corresp="#es-2-16-1">And euerye x
                                 yeare they chaunge their howses by lotte.</seg>
-                        </seg><seg n="2.17" type="multisentence">
+                        </seg><seg n="2.17" type="multisentence" subtype="translated">
                             <seg xml:id="en-2-17-1" n="en 2.36" corresp="#es-2-17-1">They sett great
                                 stoore be theyr gardeins.</seg>
                             <seg xml:id="en-2-17-2" n="en 2.37" corresp="#es-2-17-1"> In them they
                                 haue vyneyardes, all manner of frute, herbes, and flowres, so
                                 pleisaunte, so well furnished, and so fynelye kepte, that I neuer
                                 sawe thynge more frutefull nor better tryrnmed in anny place.</seg>
-                        </seg><seg n="2.18" type="singleSentence">
+                        </seg><seg n="2.18" type="singleSentence" subtype="translated">
                             <seg xml:id="en-2-18-1" n="en 2.38" corresp="#es-2-18-1">Their studye
                                 and delygence herin cummeth not only of pleasure, but also of a
                                 certeyne stryffe and contentyon that is betwene strete and strete,
                                 concernynge the trymmynge, husbanding, and furnyshyng of their
                                 gardeyns, euery man for hys owne part.</seg>
-                        </seg><seg n="2.19" type="multisentence">
+                        </seg><seg n="2.19" type="multisentence" subtype="translated">
                             <seg xml:id="en-2-19-1" n="en 2.39" corresp="#es-2-19-1">And verily yow
                                 shall not lyghtly fynde in all the citye annye thynge that is more
                                 commodyous, other for the proffyte of the citizins, or for
@@ -742,7 +702,7 @@
                                 that it hath nowe; but the gallaunt garnishing, and the bewtiful
                                 setting furth of it, wherunto he sawe that one mans age wold not
                                 suffice, that he left to his posterity.</seg>
-                        </seg><seg n="2.20" type="singleSentence">
+                        </seg><seg n="2.20" type="singleSentence" subtype="translated">
                             <seg xml:id="en-2-20-1" n="en 2.42" corresp="#es-2-20-1">For their
                                 Cronicles, which they kepe written with al deligent circumspection,
                                 contein­ing the history of viiclx years, euen from the fyrste
@@ -752,7 +712,7 @@
                                 woode that came fyrste to handes, wyth mudde walles, and rydged
                                 rooffes thatched ouer with straw.</seg>
                         </seg>
-                        <seg n="2.21" type="multisentence">
+                        <seg n="2.21" type="multisentence" subtype="translated">
                             <seg xml:id="en-2-21-1" n="en 2.43" corresp="#es-2-21-1"> But nowe the
                                 houses be curiously builded, after a gorgiouse and gallaunt sort,
                                 with iii storries one ouer another.</seg>
@@ -766,7 +726,7 @@
                                 it, and withstandeth the violence of the weether better then anye
                                 leade.</seg>
                         </seg>
-                        <seg n="2.22" type="multisentence">
+                        <seg n="2.22" type="multisentence" subtype="translated">
                             <seg xml:id="en-2-22-1" n="en 2.46" corresp="#es-2-22-1"> They kepe the
                                 ynde out of their windowes with glasse, for it is there much vsed;
                                 and sumwhere also with fyne lynnen clothe dipped in oyle or ambre;
@@ -776,96 +736,105 @@
                                 out.</seg>
                         </seg>
                     </ab>
-                </div>               
+                </div>
             </div>
             <div type="notes">
                 <note n="19" xml:id="n-2-1" target="#note-2-1">Medinilla does not correctly
                     translate “Nam latitude eius paulo infra collis incoepta uerticem, millibus
-                    passuum duobus ad flumen Anydrum pertinet, secundum ripam aliquanto
-                    longior”. He mistranslates it as "su latitud poco a poco se extiende desde
-                    la cima de un collado" ("its latitude little by little extends from the top
-                    of the hill") instead of "Its breadth is about two miles starting just below
-                    the crest of the hill" (Yale, 117 ls. 34-35). It seems he omits "infra".
-                    Looking at distance measure, the English translator opts for the adaptation
-                    of measure to the ones used in England, whereas Medinilla does not locate
-                    them. "millibus passuum" are two miles in English, according to Robinson,
-                    and "dos mil pasos" ("two thousand paces") in Spanish.</note>
-                <note n="20" xml:id="n-2-2" target="#note-2-2">Medinilla seems to complicate the
-                    translation. He introduces the expressions "hacia el nacimiento" ("towards
-                    the source [of the river]") and "hace regolfos" ("the water flows
-                    backwards"). There is no Latin equivalent.</note>
-                <note n="21" xml:id="n-2-3" target="#note-2-3">In this segment, Medinilla makes
-                    a rather disorganized translation too. Instead of "When the see comes in, it
-                    fills the whole bed of the Anydrus with its water for a distance of thirty
-                    miles, driving the river back" (Yale, 119 ls. 10-13), Hythlodays says: "When
-                    it enters the sea for a distance of thirty thousand paces, its current is
-                    known, the waters of the Anydrus reflecting when meeting those of the
+                    passuum duobus ad flumen Anydrum pertinet, secundum ripam aliquanto longior”
+                    (More 1965, 116-118, lines 29-1). He mistranslates it as "su latitud poco a poco
+                    se extiende desde la cima de un collado" ["its latitude little by little extends
+                    from the top of the hill"] instead of "Its breadth is about two miles starting
+                    just below the crest of the hill" (More 1965, 117, lines 34-35), omitting
+                        <hi>infra</hi>. Looking at distance measure, the English translator opts to
+                    adapt the Utopian measure system to English, whereas Medinilla does not locate
+                    it: <hi>millibus passuum</hi> equals to two miles in English according to
+                    Robinson, and to <hi>dos mil pasos</hi> [two thousand steps] in Spanish.</note>
+                <note n="20" xml:id="n-2-2" target="#note-2-2">Medinilla seems to obscure the
+                    translation. He introduces the expressions <hi>hacia el nacimiento</hi> [towards
+                    the source of the river] and <hi>hace regolfos</hi> [the water flows backwards].
+                    There is no equivalent to these in the Latin text.</note>
+                <note n="21" xml:id="n-2-3" target="#note-2-3">In this segment, Medinilla makes a
+                    rather disorganized translation too. Instead of "When the sea comes in, it fills
+                    the whole bed of the Anydrus with its water for a distance of thirty miles,
+                    driving the river back" (More 1965, 119, lines 10-13), Hythlodays says "When it
+                    enters the sea for a distance of thirty thousand steps, its current is
+                    distinguishable, the waters of the Anydrus flow back when meeting those of the
                     sea".</note>
-                <note n="22" xml:id="n-2-4" target="#note-2-4">Medinilla interestingly
-                    translates "salsugine corrumpit" into the verb "salobran" ("salt"). The verb
-                    "salobrar" does not appear in any dictionaries. However, the same-root word
-                    "salobre" does and a current synonym could be the Spanish verb "salar" ("to
-                    salt"). According to the Tesoro de la Lengua, this means "lo que tiene sabor
-                    de sal, como agua salobre" (fol. 19v) ("what has a salt flavour, like salty
-                    water").</note>
+                <note n="22" xml:id="n-2-4" target="#note-2-4">Medinilla interestingly translates
+                        <hi>salsugine corrumpit</hi> using the verb form <hi>salobran</hi> [to
+                    salt]. The verb <hi>salobrar</hi> does not appear in any dictionaries. However,
+                    the same-root word <hi>salobre</hi>, which could be related in meaning, does
+                    appear in the <hi>Tesoro de la Lengua</hi>, which means "lo que tiene sabor de
+                    sal, como agua salobre" (Covarrubias 1611, 19v) ["what has a salt flavour, like
+                    salty water"].</note>
                 <note n="23" xml:id="n-2-5" target="#note-2-5">Again, the Spanish translation
-                    contains several inaccuracies, especially when translating ”Vrbs aduersae
+                    contains several inaccuracies, especially when translating "Vrbs aduersae
                     fluminis ripae, non pilis ac sublicibus ligneis sed ex opere lapideo egregie
-                    arcuato ponte, commissa est”. The materials of the bridge are originally of
-                    stone ("lapideo"), which Medinilla correctly renders as "silleria".
-                    Nonetheless, the previous sentence, which clarifies that the bridge was not
-                    "built on wooden pillars or piles" (Yale, 119 ls. 19-20), is rendered as "no
-                    con barcos ni otros instrumentos de madera" ("not with boats or other wood
-                    instruments"). Besides, the translator describes "arcuato" as "arqueado"
-                    ("arched"), whereas Robinson indicates the bridge featured "substanciall
-                    archeis", as if the bridge contained several archs.</note>
+                    arcuato ponte, commissa est". The materials of the bridge are originally of
+                    stone, <hi>lapideo</hi>, which Medinilla correctly renders as <hi>silleria</hi>
+                    [stone]. Nonetheless, the previous sentence, which clarifies that the bridge was
+                    not "built on wooden pillars or piles" (More 1965, 119, lines 19-20), is
+                    rendered as "no con barcos ni otros instrumentos de madera" ["not with boats or
+                    other wood instruments"]. Besides, the translator describes <hi>arcuato</hi> as
+                        <hi>arqueado</hi> [arched], whereas Robinson indicates the bridge featured
+                    "substanciall archeis", as if the bridge contained several archs.</note>
                 <note n="24" xml:id="n-2-6" target="#note-2-6">The translation of "haud magnum
-                    quidem ilium" is simplified.</note>
-                <note n="25" xml:id="n-2-7" target="#note-2-7">This sentence contains some
-                    examples of local words, as is "baluartes y pertrechos" ("munimentis") and
-                    "arcaduces" ("canalibus"). Both "Baluartes" and "pertrechos" appeared
-                    defined in the Tesoro de la lengua by Covarrubias (see fols. 118r and 586r
-                    respectively) as defensive war elements. Interestingly, Robinson translates
-                    "munimentis" with the pair "fences and bulwarkes", similar to to Medinilla.
-                    The OED defines "bulwark" as "A substantial defensive work of earth, or
-                    other material; a rampant, a fortification" (reference). In the case of
-                    "arcaduces", Covarrubias doubts about the origin of this word, which could
-                    be originated from the Latin term "aquaedux" or the Arabic "Caiduz" (fol.
-                    84r).</note>
-                <note n="26" xml:id="n-2-8" target="#note-2-8">Medinilla do not include
-                    "collecta pluuia" in his translation. The fact that it is rainwater what is
-                    collected needs to be inferred here. Medinilla chooses "alberca" for
-                    translating "cisternis". Covarrubias defines "alberca" as a "small pond
-                    where water is collected to water gardens" (fol. 32v). The translator could
-                    have opted for "cisterna", also meaning "cistern where the rainwater from
-                    the roofs is collected" (fol. 287v).</note>
-                <note n="27" xml:id="n-2-9" target="#note-2-9">The Spanish translation does not
-                    have a main verb, which suggests the translator forgot to translate it
-                    ("cingit"). Medinilla translates "propugnaculis" as "parapetos". Robinson,
-                    in this case, repeats the term "bulwarkes", previously used for rendering
-                    "munimentis". These examples prove the wide variety of military vocabulary
-                    of the translator, maybe influenced by his participation in the Royal **
-                    (real caballeriza).</note>
-                <note n="28" xml:id="n-2-10" target="#note-2-10">Medinilla renders "ueprium" as
-                    "zarzas y cambroneras". According to the Tesoro de la Lengua, "cambroneras"
-                    (or "cambrón") is a kind of "zarza". Both could be translated in English as
-                    "bramble". The CORDE displays a case of this pair of words together in one
-                    of Cervantes' works. Robinson also takes a poetic license and translates
-                    "ueprium" as "busshes, briers, and thornes".</note>
-                <note n="29" xml:id="n-2-11" target="#note-2-11">This sentence is another
-                    example of how Medinilla introduces words maybe present in his reality. That
-                    is the case of "cabañas", "chozas", "tapia", "carrizos", "retamas" and
-                    "matas". The translator chooses "cabañas" and "chozas" for the Latin "casas"
-                    and "tuguria". As for "tapia", Medinilla selects this term to transfer the
-                    meaning of a wall of mud ("parietes luto"). "Carrizos", "retamas" and
-                    "matas" is the translation offered for "fastigiata". These are all bush
-                    varieties and they are defined in the Tesoro de la Lengua by Covarrubias
-                    (****, fol...).</note>
-                <note n="30" xml:id="n-2-12" target="#note-2-12">From this sentence, I highlight
-                    the choice of "argamasa" for "rudere". Covarrubias defines "argamasa" as a
-                    whitish mud sticky and tenacious (fol. 86v). Also, "tecta" is rendered as
-                    "terrados". A "terrado" is, according to Covarrubias, a earthy rooftop (fol.
-                    42v).</note>
+                    quidem ilium" (More 1965, 118, line 19) ["not very large" [More 1965, 119, line
+                    24] slightly varies.</note>
+                <note n="25" xml:id="n-2-7" target="#note-2-7">This sentence contains some examples
+                    of local words, as is <hi>baluartes y pertrechos</hi> for the Latin word
+                        <hi>munimentis</hi> and <hi>arcaduces</hi> for <hi>canalibus</hi>. Both
+                        <hi>baluartes</hi> and <hi>pertrechos</hi> appeared defined in Covarrubias'
+                    Tesoro de la lengua as defensive war elements (1611, 118r; 1611, 586r).
+                    Interestingly, Robinson translates <hi>munimentis</hi> with the pair "fences and
+                    bulwarkes", similar to Medinilla. The OED defines "bulwark" as "a substantial
+                    defensive work of earth, or other material; a rampant, a fortification" (2024).
+                    In the case of <hi>arcaduces</hi>, Covarrubias doubts about the origin of this
+                    word, which could be originated in the Latin term <hi>aquaedux</hi> or the
+                    Arabic <hi>caiduz</hi> (1611, 84r).</note>
+                <note n="26" xml:id="n-2-8" target="#note-2-8">Medinilla do not include <hi>collecta
+                        pluuia</hi> in his translation. The fact that it is rainwater what is
+                    collected needs to be inferred here. Medinilla chooses <hi>alberca</hi> for
+                    translating <hi>cisternis</hi>. Covarrubias defines <hi>alberca</hi> as a
+                    "estanque pequeño donde recogen el agua para regar las huertas" ["small pond
+                    where water is collected to water gardens"] (1611, 32v). The translator could
+                    have opted for <hi>cisterna</hi>, also meaning "el algibe donde se recoge el
+                    agua llovediza de los tejados, guiada por canales y cebratanas con curiosidad y
+                    limpieza" (Covarrubias 1611, 287v) ["cistern where the rainwater from the roofs
+                    is collected"].</note>
+                <note n="27" xml:id="n-2-9" target="#note-2-9">The Spanish translation lacks a main
+                    verb, which suggests the translator forgot to translate it, <hi>cingit</hi>.
+                    Medinilla renders <hi>propugnaculis</hi> as <hi>parapetos</hi>. Robinson, in
+                    this case, repeats the term "bulwarkes", previously used for rendering
+                    "munimentis". These examples prove the wide variety of military vocabulary of
+                    the translator, maybe influenced by his participation in the Crown
+                    Equerry.</note>
+                <note n="28" xml:id="n-2-10" target="#note-2-10">Medinilla renders <hi>ueprium</hi>
+                    with the pair <hi>zarzas y cambroneras</hi>. According to the <hi>Tesoro de la
+                        Lengua</hi>, <hi>cambroneras</hi> (or <hi>cambrón</hi>) is a kind of
+                        <hi>zarza</hi>, so both could be translated in English as "bramble". The
+                    CORDE displays instances of the use of these nouns by Cervantes in his works
+                    (RAE 2024). Robinson also takes a poetic license and translates <hi>ueprium</hi>
+                    as "busshes, briers, and thornes".</note>
+                <note n="29" xml:id="n-2-11" target="#note-2-11">This sentence is another example of
+                    how Medinilla introduces words possibly present in his reality. That is the case
+                    of <hi>cabañas</hi>, <hi>chozas</hi>, <hi>tapia</hi>, <hi>carrizos</hi>,
+                        <hi>retamas</hi> and <hi>matas</hi>. The translator chooses <hi>cabañas</hi>
+                    and <hi>chozas</hi> for the Latin <hi>casas</hi> and <hi>tuguria</hi>. As for
+                        <hi>tapia</hi>, Medinilla selects this term to transfer the meaning of a
+                    wall of mud, <hi>parietes luto</hi>. <hi>Carrizos</hi>, <hi>retamas</hi> and
+                        <hi>matas</hi> is the translation offered for <hi>fastigiata</hi>. These are
+                    all bush varieties, as they are defined in the Tesoro de la Lengua by
+                    Covarrubias (1611, 83v, 205r, 10v, 542r).</note>
+                <note n="30" xml:id="n-2-12" target="#note-2-12">From this sentence, I highlight the
+                    choice of <hi>argamasa</hi> for <hi>rudere</hi>. Covarrubias defines
+                        <hi>argamasa</hi> as "masa de la tierra arcilla que como tenemos dicho en su
+                    lugar es una tierra blanquecina...y el barro de ella es pegajoso y tenaz" ["a
+                    whitish mud sticky and tenacious"] (1611, 86v). Also, <hi>tecta</hi> is rendered
+                    as <hi>terrados</hi>. A <hi>terrado</hi> is, according to Covarrubias, a earthy
+                    rooftop, "el sobrado en la casa, está descubierto por otro nombre dicho azotea,
+                    porque el suelo es terrizo" (1611, 42v).</note>
             </div>
         </body>
     </text>
