@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Chapter 6. Del modo de peregrinar</title>
+                <title>6. Chapter 6. Del modo de peregrinar</title>
                 <funder>This work has been developed thanks to a doctoral fellowship granted in 2020
                     by the Spanish Ministry of Universities</funder>
                 <respStmt>
@@ -44,38 +44,44 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        
+
         <encodingDesc>
             <projectDesc>
                 <p>This edition was developed as part of my thesis dissertation titled "A Digital
-                    Edition of the 1637 Spanish translation of Thomas More's Utopia". The processes
+                    Edition of the 1637 Spanish translation of Thomas More's Utopia." The processes
                     of data modeling, encoding and publishing the edition was done during a research
-                    visit to the Digital Scholarship Group and the Women Writers Project at Northeastern University (Boston, USA).</p>
+                    visit to the Digital Scholarship Group and the Women Writers Project at
+                    Northeastern University (Boston, USA).</p>
             </projectDesc>
             <samplingDecl>
-                <p>The aim of this edition is to offer a side-by-side edition of the first printed translation of Thomas More's <hi>Utopia</hi>
-                    into Spanish plus three accompanying texts: a modernization of Gerónimo de Medinilla's 1637 rendering, the Latin text taken from
-                    the 1518 March edition and the 1551 English translation by Ralph Robinson.</p>
+                <p>The aim of this edition is to offer a side-by-side edition of the first printed
+                    translation of Thomas More's <hi>Utopia</hi> into Spanish plus three
+                    accompanying texts: a modernization of Gerónimo de Medinilla's 1637 rendering,
+                    the Latin text taken from the 1518 March edition and the 1551 English
+                    translation by Ralph Robinson.</p>
             </samplingDecl>
             <editorialDecl>
                 <normalization>
-                    <p>For the modernization of the Spanish translation, graphs, punctuation and accentuation have been adapted to 
-                        today's orthographical norms as established by the Real Academia de la Lengua Española in its <hi>Diccionario</hi> (2023)
-                        and <hi>Ortografía de la Lengua Española</hi> (2010).</p>
-                </normalization>                
+                    <p>For the modernization of the Spanish translation, graphs, punctuation and
+                        accentuation have been adapted to today's orthographical norms as
+                        established by the Real Academia de la Lengua Española in its
+                            <hi>Diccionario</hi> (2023) and <hi>Ortografía de la Lengua
+                            Española</hi> (2010).</p>
+                </normalization>
                 <segmentation>
-                    <p>The texts have been segmented into sentences to facilitate alignment. In the framework of the present edition,
-                        a sentence is defined as the text between two periods, disregarding other linguistic conventions.</p>
+                    <p>The texts have been segmented into sentences to facilitate alignment. In the
+                        framework of the present edition, a sentence is defined as the text between
+                        two periods, disregarding other linguistic conventions.</p>
                 </segmentation>
             </editorialDecl>
             <refsDecl>
-                <p>Identifiers are made up by concatenating the language reference code,
-                    chapter number, segment number and segment order in the sentence.
-                    Sentences are connected by <att>corresp</att>. A previous <att>type</att>
-                    indicates whether the segment has been translated or not by Medinilla. Thus, if
-                    a segment is untranslated, it will not carry the <att>corresp</att>.
-                    The <att>n</att> of segment is also key in the alignment process</p>
-            </refsDecl>           
+                <p>Identifiers are made up by concatenating the language reference code, chapter
+                    number, segment number and segment order in the sentence. Sentences are
+                    connected by <att>corresp</att>. A previous <att>type</att> indicates whether
+                    the segment has been translated or not by Medinilla. Thus, if a segment is
+                    untranslated, it will not carry the <att>corresp</att>. The <att>n</att> of
+                    segment is also key in the alignment process</p>
+            </refsDecl>
             <schemaSpec ident="TEI"/>
         </encodingDesc>
         <profileDesc>
@@ -94,7 +100,7 @@
         <body>
             <div type="base" xml:lang="es">
                 <div type="chapter" n="6">
-                    <!-- revise + -->
+                    <pb n="14r"/>
                     <head type="chapter"><app>
                             <lem>Del modo de peregrinar. Cap. VI</lem>
                             <rdg wit="1790">Del modo de peregrinar, diferentes costumbres, y estudio
@@ -135,13 +141,13 @@
                         </seg>
                         <seg n="6.6" type="sentence">
                             <s xml:id="es-6-6-1" n="es 6.6">Pero al que ſale de ſus terminos ſin
-                                licencia, ni patente del Principe, le tratan con mucho rigor, i
+                                licencia, ni patente del Principe, le tratan con <pb n="14v"/>mucho rigor, i
                                 afrenta, i caſtigandole con ſeveridad eſte atrevimiento, le hazen
                                 bolver, i como a fugitivo le obligan a ſervir.<anchor n="79"
                                     xml:id="note-6-4"/></s>
                         </seg>
                         <seg n="6.7" type="sentence">
-                            <s xml:id="es-6-7-1" n="es 6.7">Pero ſi alguno le da guſlo dar buelta
+                            <s xml:id="es-6-7-1" n="es 6.7">Pero ſi alguno le da guſto dar buelta
                                 por los campos de la Ciudad, lo puede hazer, dandole licencia ſu
                                 padre, i con guſto de ſu muger: i en qualquiera caſeria, que
                                 llegare, a de ganar primero la comida, cumpliendo cõ la tarea, que
@@ -179,9 +185,9 @@
                         </seg>
                         <seg n="6.12" type="sentence">
                             <s xml:id="es-6-12-1" n="es 6.12">Eſto lo hazen ſin interes alguno, ſin
-                                recibir premio de aquellos a quienes lo dan, antes quando a ellos
+                                re<pb n="15r"/>cibir premio de aquellos a quienes lo dan, antes quando a ellos
                                 les falta alguna coſa de las neceſſarias nunca lo piden a la Ciudad,
-                                a quien han ſo corrido en ſus neceſsidades, porque no parezca, que
+                                a quien han ſocorrido en ſus neceſsidades, porque no parezca, que
                                 cobran, ſino ſe valen de aquellos pueblos, a quien no han
                                 ayudado.</s>
                         </seg>
@@ -223,7 +229,7 @@
                         </seg>
                         <seg n="6.18" type="sentence">
                             <s xml:id="es-6-18-1" n="es 6.18">Lo qual quando llega el plaço de la
-                                paga, cobra de los particulares deudores lo fiado, i lo pone en el
+                                <pb n="15v"/>paga, cobra de los particulares deudores lo fiado, i lo pone en el
                                 erario publico, i da intereſes haſta q̃ lo pidan los Vtopianos.</s>
                         </seg>
                         <seg n="6.19" type="sentence">
@@ -262,11 +268,11 @@
                                 forçoſo, que el que no eſte bien informado de ſus eſtatutos, i
                                 ordenanças ſe halle mui eſtraño en creerlo: ſi bien qualquiera que
                                 juzgare las coſas con buen <app>
-                                    <lem>ſeſo</lem>
-                                    <rdg wit="1790">juicio</rdg>
-                                    <rdg wit="1805">juicio</rdg>
-                                </app>; quando conozca, i vea, que ſus leyes, i coſtumbres ſon mui
-                                deſemejantes de las nueſtras, ſe maravillara menos ſi el uſo del
+                                    <lem>ſeſo;</lem>
+                                    <rdg wit="1790">juicio;</rdg>
+                                    <rdg wit="1805">juicio;</rdg>
+                                </app>quando conozca, i vea, que ſus leyes, i coſtumbres ſon mui
+                                deſemejantes de las nueſtras, ſe maravillara menos ſi el <pb n="16r"/>uſo del
                                 oro, i de la plata ſe acomoda mas al trato, i comercio de los
                                 Vtopianos, q̃ a nueſtras coſtumbres.</s>
                         </seg>
@@ -318,7 +324,7 @@
                         </seg>
                         <seg n="6.28" type="sentence">
                             <s xml:id="es-6-28-1" n="es 6.28">Para eſçuſar eſtos inconvenientes
-                                penſaron eſte arbitrio, ſi biẽ mui conforme a ſu coſtumbre,
+                                <pb n="16v"/>penſaron eſte arbitrio, ſi biẽ mui conforme a ſu coſtumbre,
                                 contrario a las nueſtras, que con tanta diligẽcia guardamos el oro,
                                 i le eſtimamos tanto, i aſsi eſte deſprecio no le podran creer, ſino
                                 los expertos.</s>
@@ -371,10 +377,10 @@
                             <s xml:id="es-6-35-1" n="es 6.35">Con ellos engalanan los niños, que en
                                 ſus primeros años eſtan con tales galas, mui alegres, i uſamos; pero
                                 quando ſon de mayor edad, i advierten que aquellos <app>
-                                    <lem>juguetes</lem>
-                                    <rdg wit="1790">juguetes</rdg>
-                                    <rdg wit="1805">juegetes [sic]</rdg>
-                                </app>, no ſon ſino para niños, ſin que ſus padres, ſe lo adviertan,
+                                    <lem>juguetes,</lem>
+                                    <rdg wit="1790">juguetes,</rdg>
+                                    <rdg wit="1805">juegetes [sic],</rdg>
+                                </app>no ſon ſino para niños, ſin <pb n="17r"/>que ſus padres, ſe lo adviertan,
                                 corridos, i avergonçados los dexan, no de otra manera, que los
                                 nueſtros dan de mano a ſus dijes, i muñecas.<anchor n="86"
                                     xml:id="note-6-11"/></s>
@@ -393,10 +399,10 @@
                                 Isla, pero los demas Embajadores de las Provincias comarcanas,
                                 praticos en las coſtumbres de los Vtopianos, i que tenian entendido,
                                 que no hazian eſtima del traje <app>
-                                    <lem>ſumptuoſo</lem>
-                                    <rdg wit="1790">sumptuoso</rdg>
-                                    <rdg wit="1805">suntuoso</rdg>
-                                </app>, i que menoſpreciavan las ſedas, i joyas: i aun ſabian que
+                                    <lem>ſumptuoſo,</lem>
+                                    <rdg wit="1790">sumptuoso,</rdg>
+                                    <rdg wit="1805">suntuoso,</rdg>
+                                </app>i que menoſpreciavan las ſedas, i joyas: i aun ſabian que
                                 antes las tenian por afrenta, ſiempre avian acoſtumbrado a venir con
                                 abito modeſto.</s>
                         </seg>
@@ -409,7 +415,7 @@
                                 repreſentalles deidad, i maravilla a los ojos de los Vtopianos con
                                 el aparato, i curioſidad de ſu veſtir, cõ el eſplendor, i ornato de
                                 ſus galas, de manera, que entraron tres Embajadores con ciento de
-                                acompañamiento todos veſtidos de differentes colores, los mas dellos
+                                acom<pb n="17v"/>pañamiento todos veſtidos de differentes colores, los mas dellos
                                 de ſeda; i los miſmos Embajadores por ſer en ſu Provincia de los mas
                                 nobles, con recamados de oro, adornados de cadenas, i ſortijas de
                                 gran precio, i cintillos de valor, por ſus piedras eſtimables
@@ -442,7 +448,7 @@
                         </seg>
                         <seg n="6.41" type="sentence">
                             <s xml:id="es-6-41-1" n="es 6.41">Que mas dire, ſino q̃ ſi uvierades
-                                viſto a los muchachos, q̃ aviã dejado ya ſus dijes, advirtiendo
+                                viſto a los muchachos, q̃ aviã dejado ya ſus dijes, <pb n="18r"/>advirtiendo
                                 adornada la cabeça de los Embajadores, <app>
                                     <lem>de pedreria llenos</lem>
                                     <rdg wit="1790">llenos de pedrería</rdg>
@@ -456,11 +462,11 @@
                         </seg>
                         <seg n="6.43" type="sentence">
                             <s xml:id="es-6-43-1" n="es 6.43">Ellas replicavan mui deveras, <app>
-                                    <lem>calla</lem>
-                                    <rdg wit="1790">callad</rdg>
-                                    <rdg wit="1805">callad</rdg>
-                                </app>, que ſegun entiendo es uno de los ſimples de entretenimiento
-                                de los Embajadores.<anchor n="88" xml:id="note-6-13"/></s>
+                                    <lem>calla,</lem>
+                                    <rdg wit="1790">callad,</rdg>
+                                    <rdg wit="1805">callad,</rdg>
+                                </app>que ſegun entiendo es uno de los ſimples de entretenimiento de
+                                los Embajadores.<anchor n="88" xml:id="note-6-13"/></s>
                         </seg>
                         <seg n="6.44" type="sentence">
                             <s xml:id="es-6-44-1" n="es 6.44">Otros murmuravan de las cadenas de
@@ -470,22 +476,22 @@
                                 priſion.</s>
                         </seg>
                         <seg n="6.45" type="sentence">
-                            <s xml:id="es-6-45-1" n="es 6.45">Pero los embajadores, habiendo estado
-                                allí uno o dos días y advertido la gran abundancia de oro que había
-                                sin estimación y que allí no lo despreciaban menos que en sus
-                                provincias, lo estimaban y, notando que en las cadenas y grillos de
-                                un solo esclavo fugitivo había más oro y plata que podía valer todo
-                                el aparato de los tres embajadores, avergonzados de aquel argullo
-                                que ostentaban con tanta arrogancia, dejaron el engreimiento
-                                principalmente después de haber comunicado con más familiaridad con
-                                los utopianos y haberse hecho capaces de sus instintos, costumbre y
-                                opinión.</s>
+                            <s xml:id="es-6-45-1" n="es 6.45">Pero los embajadores, aviendo eſtado
+                                alli uno, o dos días, i advertido la grande abundancia de oro que
+                                avia ſin eſtimacion, i que alli no lo despreciavan menos, que en ſus
+                                Provincias lo eſtimaban: i notando que en las cadenas, i grillos de
+                                un ſolo eſclavo fugitivo avia mas oro, i plata, que podia valer todo
+                                el aparato de los tres Embajadores, avergonçados de aquel argullo,
+                                que oſtentaban con tanta arrogancia, dejaron el engreimiento,
+                                principalmente deſpues de aver cõmunicado con mas familiaridad con
+                                los Vtopianos, i averſe hecho capazes de ſus inſtitutos, coſtumbre,
+                                i opinion.</s>
                         </seg>
                         <seg n="6.46" type="sentence">
                             <s xml:id="es-6-46-1" n="es 6.46">Maravillãdoſe los de Vtopia, q̃
                                 uvieſſe algũ hõbre cuerdo, a quiẽ entretẽga, i agrade el deleite del
                                 reſplãdor vano de una piedrecilla, pudiendo mirar la hermoſura, i
-                                velleza de los aſtros, i del miſmo Sol, o tan vano, que ſe imagine
+                                velleza de los aſtros, i del miſmo Sol, <pb n="18v"/>o tan vano, que ſe imagine
                                 mas noble, porque viſta de paño mas delgado, i coſtoſo; <app>
                                     <lem>pues</lem>
                                     <rdg wit="1790">cuando</rdg>
@@ -515,7 +521,7 @@
                                 reſpeto, mas que por ſer ricos, los honren tanto, que no les falte
                                 ſino tenellos por Dioſes; eſto aun conociendolos tan eſcaſos,
                                 miſerables, i avarientos; i ſabiẽdo cierto, que mientras vivan, de
-                                tan grandes teſoros no han de ſer ſocorridos dellos con vna
+                                tan grandes teſoros no han de ſer ſo<pb n="19r"/>corridos dellos con vna
                                 blanca.</s>
                         </seg>
                         <seg n="6.49" type="sentence">
@@ -578,8 +584,8 @@
                         </seg>
                         <seg n="6.53" type="sentence">
                             <s xml:id="es-6-53-1" n="es 6.53">I ſi bien en eſtas coſas igualan a los
-                                antiguos, no empero ſon iguales con mucha diſtancia con las
-                                inuenciones de los nuevos Dia leƈticos.</s>
+                                antiguos, no empero ſon iguales con mucha <pb n="19v"/>diſtancia con las
+                                inuenciones de los nuevos Dialeƈticos.</s>
                         </seg>
                         <seg n="6.54" type="sentence">
                             <s xml:id="es-6-54-1" n="es 6.54">Porque no tienen ni aun una regla de
@@ -634,7 +640,7 @@
                                     <rdg wit="1790">y á la</rdg>
                                     <rdg wit="1805">y aun á la</rdg>
                                 </app> manera que entre eſtos, entre ellos ai diferentes opiniones,
-                                i ſentimientos.</s>
+                                i <pb n="20r"/>ſentimientos.</s>
                         </seg>
                         <seg n="6.61" type="sentence">
                             <s xml:id="es-6-61-1" n="es 6.61">En quanto a la Filoſofia moral diſputã
@@ -663,7 +669,7 @@
                                 felicidad.</s>
                         </seg>
                         <seg n="6.65" type="sentence">
-                            <s xml:id="es-6-65-1" n="es 6.65">I los fundamẽ tos ſon, que el anima es
+                            <s xml:id="es-6-65-1" n="es 6.65">I los fundamẽtos ſon, que el anima es
                                 inmortal, nacida por la bondad de Dios para bienaventurança, que a
                                 la virtud, i buenas obras nueſtras, ſe les decretan premios, i a los
                                 vicios, i maldades caſtigo.</s>
@@ -678,7 +684,7 @@
                                 ſuerte que deſpues ſe arrepiẽta.</s>
                         </seg>
                         <seg n="6.67" type="sentence">
-                            <s xml:id="es-6-67-1" n="es 6.67">Porque ſeguir las dificultades, i
+                            <s xml:id="es-6-67-1" n="es 6.67"><pb n="20v"/>Porque ſeguir las dificultades, i
                                 aſperezas de la virtud, no ſolo huyendo de lo <app>
                                     <lem>ſuave</lem>
                                     <rdg wit="1790">suave</rdg>
@@ -715,7 +721,7 @@
                                 conformidad pide, a que los demas gozan de lo miſmo, que ninguno es
                                 tan rigido, i ſevero defenſor de la virtud, ni tan aborrecedor, i
                                 enemigo del deleite, que aſsi os enſeñe a ſufrir los travajos,
-                                deſvelos, i pobreça, que deje de acõſejaros, i perſuadiros a
+                                deſvelos, i pobreça, que deje de acõſejaros, i <pb n="21r"/>perſuadiros a
                                 remediar la neceſsidad, i miſerias de los otros, en la forma, q̃ os
                                 ſea poſsible, i juzgue, que el hazer eſto debe de ſer alabado con
                                 nõbre de Humanidad, como lo es ſocorrer, remediar, i conſolar un
@@ -756,7 +762,7 @@
                         <seg n="6.78" type="sentence">
                             <s xml:id="es-6-77-1" n="es 6.77">Lo qual con razon ordena, porque
                                 ninguno ai tan ſuperior en la ſuerte del linaje humano: de quien
-                                ſolo cuide la naturaleza, la qual igualmẽte ayuda a todos los que
+                                ſolo cuide la naturaleza, la qual igualmẽte ayuda <pb n="21v"/>a todos los que
                                 comprehende participes de una forma comun.</s>
                         </seg>
                         <seg n="6.79" type="sentence">
@@ -799,7 +805,7 @@
                                     <rdg wit="1790">de el mismo modo</rdg>
                                     <rdg wit="1805">de el mismo modo</rdg>
                                 </app> les parece, que conſiderando, i examinando bien el negocio,
-                                todas nueſtras acciones, i aun entre las miſmas virtudes, miran al
+                                todas nueſ<pb n="22r"/>tras acciones, i aun entre las miſmas virtudes, miran al
                                 deleite como a vltimo fin.</s>
                         </seg>
                         <seg n="6.83" type="sentence">
@@ -815,10 +821,10 @@
                                     <rdg wit="1790">agradable sin</rdg>
                                     <rdg wit="1805">agradable sin</rdg>
                                 </app> injuria de otro, i no ſe pierde mayor <app>
-                                    <lem>ſolaz</lem>
-                                    <rdg wit="1790">placer</rdg>
-                                    <rdg wit="1805">placer</rdg>
-                                </app>, ni ſe le cauſa fatiga.</s>
+                                    <lem>ſolaz,</lem>
+                                    <rdg wit="1790">placer,</rdg>
+                                    <rdg wit="1805">placer,</rdg>
+                                </app>ni ſe le cauſa fatiga.</s>
                         </seg>
                         <seg n="6.85" type="sentence">
                             <s xml:id="es-6-84-1" n="es 6.84">Reputã por inutiles a la felicidad,
@@ -855,7 +861,7 @@
                                     <lem>tiene de aventajarſe</lem>
                                     <rdg wit="1790">¿ha de aventajarse</rdg>
                                     <rdg wit="1805">¿ha de ventajarse</rdg>
-                                </app> la lana del hilo mas delgado, a la mas baſta i groſera?</s>
+                            </app><pb n="22v"/>la lana del hilo mas delgado, a la mas baſta i groſera?</s>
                         </seg>
                         <seg n="6.89" type="sentence">
                             <s xml:id="es-6-88-1" n="es 6.88">Pero ellos como ſi ſe aventajarã en lo
@@ -907,7 +913,7 @@
                             <s xml:id="es-6-93-1" n="es 6.93">Ponen en eſta cuenta aquellos, que ſe
                                 dejan llevar de la velleza, i hermoſura de las perlas, i piedras
                                 precioſas: i (como he dicho) ſe ſueñan deidades, quando vino a ſus
-                                manos alguna de las de grande valor; principalmente de aquellas, que
+                                ma<pb n="23r"/>nos alguna de las de grande valor; principalmente de aquellas, que
                                 en aquel tiempo mas ſe pratican, i eſtiman: (porque no ſon unas
                                 miſmas las q̃ a cerca de todos, ni en todos tiempos tienen general
                                 aprecio) i no compran la piedra; ſi eſta engaſtada en oro, ni aun
@@ -962,7 +968,7 @@
                                     <lem>Porque, dizen, q̃ deleite</lem>
                                     <rdg wit="1790">Porque ¿qué deleyte</rdg>
                                     <rdg wit="1805">Porque ¿qué deleyte</rdg>
-                                </app>, ni guſto tiene arrojar los dados en el tablero, coſa q̃ tã
+                            </app>, ni guſto <pb n="23v"/>tiene arrojar los dados en el tablero, coſa q̃ tã
                                 frequẽtemente vos hazeis, como ſi en ello uviera algun agrado, antes
                                 el mucho uſo pudiera ſer de enfado?</s>
                         </seg>
@@ -988,10 +994,10 @@
                             <s xml:id="es-6-104-1" n="es 6.104">Aſsi los de Vtopia hã cõtradicho del
                                 todo el exercicio de la caça, como arte cõveniẽte a carniceros cuyo
                                 uſo hã cometido a ſus <app>
-                                    <lem>eſclavos</lem>
-                                    <rdg wit="1790">esclavos</rdg>
-                                    <rdg wit="1805">eclavos [sic]</rdg>
-                                </app>, juzgãdo, q̃ el caçar ſea de aq̃lla la mas infima parte; i la
+                                    <lem>eſclavos,</lem>
+                                    <rdg wit="1790">esclavos,</rdg>
+                                    <rdg wit="1805">eclavos [sic],</rdg>
+                                </app>juzgãdo, q̃ el caçar ſea de aq̃lla la mas infima parte; i la
                                 otra tiene por mas util, i oneſta, quãdo ſe matã los animales por la
                                 neceſsidad de la vida humana, i el caçador ſolamẽte toma guſto cõ la
                                 muerte del miſero animalejo, i eſte deſſeo pienſã q̃ nace de un
@@ -1000,10 +1006,10 @@
                         <seg n="6.109" type="sentence">
                             <s xml:id="es-6-105-1" n="es 6.105">Eſtas coſas pues, i qualeſquiera
                                 deſta calidad (q̃ ſon <app>
-                                    <lem>innumerables</lem>
-                                    <rdg wit="1790">innumerables</rdg>
-                                    <rdg wit="1805">inumerables</rdg>
-                                </app>) aũq̃ el vulgo de los hõbres <app>
+                                    <lem>innumerables)</lem>
+                                    <rdg wit="1790">innumerables)</rdg>
+                                    <rdg wit="1805">inumerables)</rdg>
+                                </app>aũq̃ el vulgo de los hõbres <app>
                                     <lem>la</lem>
                                     <rdg wit="1790">las</rdg>
                                     <rdg wit="1805">las</rdg>
@@ -1015,14 +1021,14 @@
                             <s xml:id="es-6-106-1" n="es 6.106">Que ſi bien recrean los ſentidos
                                 (porque parecen coſas de guſto) ellos no quieren dexar ſu
                                 ſentimiento, i opinion, diziendo que no conſiſte en la naturaleza de
-                                la coſa; ſino en la eſtragada, i mala coſtumbre; de cuyo vicio
+                                la coſa; ſino en la eſtragada, i <pb n="24r"/>mala coſtumbre; de cuyo vicio
                                 reſulta, que ſe tengan las coſas amargas por dulces: no de otra
                                 manera, que las mugeres preñadas corrompido el guſto de ſu paladar
                                 juzgan a la pez, i al ſebo mas dulces que <app>
-                                    <lem>le miel</lem>
-                                    <rdg wit="1790">la miel</rdg>
-                                    <rdg wit="1805">la miel</rdg>
-                                </app>.</s>
+                                    <lem>le miel.</lem>
+                                    <rdg wit="1790">la miel.</rdg>
+                                    <rdg wit="1805">la miel.</rdg>
+                                </app></s>
                         </seg>
                         <seg n="6.111" type="sentence">
                             <s xml:id="es-6-107-1" n="es 6.107">I aſsi como el juicio pervertido, i
@@ -1066,7 +1072,7 @@
                         </seg>
                         <seg n="6.118" type="sentence">
                             <s xml:id="es-6-113-1" n="es 6.113">La qual por ſi miſma cauſa grã guſto
-                                (ſino la aſſalta algun dolor) aunque no le venga de lo externo algun
+                                (ſino la aſſalta algun dolor) aunque no le venga <pb n="24v"/>de lo externo algun
                                 deleite, o ſuavidad.</s>
                         </seg>
                         <seg n="6.119" type="sentence">
@@ -1075,7 +1081,7 @@
                                 deſordenado apetito de comer, i de beber, eſto no obſtãte muchos
                                 defienden, que es el mayor de los guſtos: aſsi todos los Vtopianos
                                 afirman que es grande, i confieſſan ſer el fundamento, i la baſa de
-                                todos ellos, ſin el qual no ai deleite, como aquel que ſo lo haze la
+                                todos ellos, ſin el qual no ai deleite, como aquel que ſolo haze la
                                 condicion de la vida agradable, i digna de ſer deſſeada.<anchor
                                     n="105" xml:id="note-6-30"/></s>
                         </seg>
@@ -1116,7 +1122,7 @@
                                 puede faltar deleite.</s>
                         </seg>
                         <seg n="6.126" type="sentence">
-                            <s xml:id="es-6-121-1" n="es 6.121">Dizen quando nos alimentamos
+                            <s xml:id="es-6-121-1" n="es 6.121"><pb n="25r"/>Dizen quando nos alimentamos
                                 reſtaurarſe con el manjar la ſanidad, que por hambre començava a
                                 enflaquecerſe, i quando buelve al acoſtumbrado vigor, ſentimos el
                                 guſto del alimento, tanto mas quanto la ſalud es mas robuſta.<anchor
@@ -1166,7 +1172,7 @@
                                 ſolo aſqueroſa, pero miſerable?</s>
                         </seg>
                         <seg n="6.135" type="sentence">
-                            <s xml:id="es-6-128-1" n="es 6.128">Verdaderamente que eſtos ſon
+                            <s xml:id="es-6-128-1" n="es 6.128">Verdaderamen<pb n="25v"/>te que eſtos ſon
                                 deleites infimos, i vajos, como aquellos, que tienen menos de
                                 ſinceridad, porque nunca ſe hallan ſino es junto con dolores
                                 contrarios; pues al guſto del manjar, ſiempre le acompaña la hambre,
@@ -1203,7 +1209,7 @@
                         </seg>
                         <seg n="6.140" type="sentence">
                             <s xml:id="es-6-133-1" n="es 6.133">Mas en todas las coſas guardan eſta
-                                medida, para que el deleite menor no impida al mayor, o tal vez el
+                                medida, para que el de<pb n="26r"/>leite menor no impida al mayor, o tal vez el
                                 deleite no cauſe dolor, lo qual tienen por lance forçoſo, ſi el
                                 deleite no fuere honeſto.</s>
                         </seg>
@@ -1212,10 +1218,10 @@
                                 diſminuir las fuerças, mudar la agilidad en flogedad, eſtenuar con
                                 ayunos el cuerpo, hazer injuria a la ſalud, i los otros ſolazes por
                                 la naturaleza cõcedidas, ſino fueſſe por ayudar a la <app>
-                                    <lem>Republica</lem>
-                                    <rdg wit="1790">República</rdg>
-                                    <rdg wit="1805">república</rdg>
-                                </app>, lo reputã por ceguedad; i q̃ eſto nace de un animo cruel,
+                                    <lem>Republica,</lem>
+                                    <rdg wit="1790">República,</rdg>
+                                    <rdg wit="1805">república,</rdg>
+                                </app>lo reputã por ceguedad; i q̃ eſto nace de un animo cruel,
                                 ingrato a la naturaleza: i q̃ refuta ſus beneficios, como
                                 deſdeñandoſe de ſerle deudor; eſpecialmẽte haziendoſe eſto por una
                                 bana ſombra de virtud, o por comportar cõ menor diſplicẽcia la
@@ -1246,7 +1252,7 @@
                         </seg>
                         <seg n="6.146" type="sentence">
                             <s xml:id="es-6-139-1" n="es 6.139">I aunque el terreno es infrutifero,
-                                i el deſtemple del aire enfermo, toda via con la moderacion del
+                                i el deſtemple del aire enfermo, toda via con la mo<pb n="26v"/>deracion del
                                 vivir, ſe conſervan en ſalud, i con la induſtria vencen la
                                 eſterilidad de la tierra, de manera, que <app>
                                     <lem>a ninguno</lem>
@@ -1256,7 +1262,7 @@
                                     <lem>ocupan</lem>
                                     <rdg wit="1790">habrá</rdg>
                                     <rdg wit="1805">habrá</rdg>
-                                </app> mas copio ſos frutos, ni animales mejor alimentados, ni los
+                                </app> mas copioſos frutos, ni animales mejor alimentados, ni los
                                 cuerpos humanos mas vivazes, ni aƈtivos, i menos ſujetos a
                                 achaques.</s>
                         </seg>
@@ -1303,7 +1309,7 @@
                                     <lem>porque eſperavamos</lem>
                                     <rdg wit="1790">esperando</rdg>
                                     <rdg wit="1805">esperando</rdg>
-                                </app> grande aprovechamiento del.</s>
+                                </app><pb n="27r"/>grande aprovechamiento del.</s>
                         </seg>
                         <seg n="6.151" type="sentence">
                             <s xml:id="es-6-144-1" n="es 6.144">Mas aviendo començado ſu cuidado,
@@ -1346,7 +1352,7 @@
                                     <lem>algunas balas</lem>
                                     <rdg wit="1790">algunos fardos</rdg>
                                     <rdg wit="1805">algunos fardos</rdg>
-                                </app> de libros, en vez de mercaderìas, i las puſe en la nave
+                            </app> de libros, en vez de merca<pb n="28v"/>derias, i las puſe en la nave
                                 quatro dias antes de la embarcacion, con acuerdo de bolverme preſto,
                                 i el libro de Teofraſto un mico, que iva en la nave lo hallò pueſto
                                 con deſcuido, i començando a ojearlo, le quito, i raſgo muchas ojas,
@@ -1398,7 +1404,7 @@
                         <seg n="6.165" type="sentence">
                             <s xml:id="es-6-158-1" n="es 6.158">Al qual conſideran a la manera de
                                 los demas artifices, que nos dejò eſta maquina del mundo para
-                                contemplarla el hombre (al qual ſolo à hecho capaz deſte
+                                <pb n="29r"/>contemplarla el hombre (al qual ſolo à hecho capaz deſte
                                 conocimiẽto) i por eſſo lo ama mas por tenerle por curioſo, i
                                 ſolicito inquiridor de ſus obras, que las ſabe admirar mas, que el
                                 que como animal ſin entendimiento, i ſin conocimiento deſprecia tan
@@ -1431,7 +1437,7 @@
                                 principios no ſalieſſen con primor, experimentandola muchas vezes,
                                 en breve tiempo conſiguieron lo uno i lo otro, i con tan grande
                                 aprovechamiento, que ſi tuvierã originales de los libros Griegos, no
-                                les pudieran faltar copias, pero aora no tienen mas que aquellas
+                                les pudieran faltar copias, pero aora no tienen mas <pb n="29v"/>que aquellas
                                 obras que he referido, i eſtas ya impreſſas, i dellas gran
                                 numero.</s>
                         </seg>
@@ -1791,14 +1797,14 @@
                         </seg>
                         <seg n="6.42" type="singleSentence">
                             <seg xml:id="em-6-42-1" n="em 6.51" type="partial" part="M"
-                                prev="#em-6-41-1" next="#em-6-43-1" corresp="#es-6-42-1">“¿Madre,
-                                veis este simple que usa perlas y joyas como si fuera niño?” </seg>
+                                prev="#em-6-41-1" next="#em-6-43-1" corresp="#es-6-42-1">"¿Madre,
+                                veis este simple que usa perlas y joyas como si fuera niño?" </seg>
                         </seg>
                         <seg n="6.43" type="singleSentence">
                             <seg xml:id="em-6-43-1" n="em 6.51" type="partial" part="F"
                                 prev="#em-6-42-1" corresp="#es-6-43-1">Ellas replicaban muy de
-                                veras: “calla, que según entiendo es uno de los simples de
-                                entretenimiento de los embajadores”.</seg>
+                                veras: "calla, que según entiendo es uno de los simples de
+                                entretenimiento de los embajadores."</seg>
                         </seg>
                         <seg n="6.44" type="singleSentence">
                             <seg xml:id="em-6-44-1" n="em 6.52" corresp="#es-6-44-1">Otros
@@ -2530,9 +2536,9 @@
                                 terreno es infructífero y el destemple del aire enfermo, todavía,
                                 con la moderación del vivir, se conservan en salud y con la
                                 industria vencen la esterilidad de la tierra, de manera que a ningún
-                                otro lugar ocupan más copia los frutos ni animales mejor
-                                alimentados, ni los cuerpos humanos más vivaces, ni activos y menos
-                                sujetos a achaques.</seg>
+                                otro lugar ocupan más copiosos frutos ni animales mejor alimentados,
+                                ni los cuerpos humanos más vivaces, ni activos y menos sujetos a
+                                achaques.</seg>
                         </seg>
                         <seg n="6.147" type="multisentence">
                             <seg xml:id="em-6-140-1" n="em 6.171" corresp="#es-6-140-1">De tal
@@ -5507,102 +5513,103 @@
             </div>
             <div type="notes">
                 <note n="76" xml:id="n-6-1" target="#note-6-1">Medinilla does not completely
-                    translate "quae et datam perigrinandi copiam testatur" ["which bears witness to"
-                    (More 1965, 147, line 37)]. The idea that the governor holds authority to sign
+                    translate "quae et datam perigrinandi copiam testator" ("which bears witness to"
+                    (More 1965, 147, line 37)). The idea that the governor holds authority to sign
                     the letter and the importance of its content seems to be left out here.
-                    Furthermore, Robinson adds at the beginning "No man goeth out alone", which is
+                    Furthermore, Robinson adds at the beginning "No man goeth out alone," which is
                     not mentioned in the Latin text.</note>
                 <note n="77" xml:id="n-6-2" target="#note-6-2">The Spanish translator adds "en
-                    llegando donde va" to the text ["getting to where he is going"]. Maybe this
-                    sentence could have been placed at the beginning of the following one. Whereas
-                    the Latin Utopia talks about <hi>mulieres</hi> [women], Medinilla translates it
-                    as <hi>su mujer</hi> [his woman].</note>
+                    llegando donde va" to the text (arriving where he heads to). Maybe this sentence
+                    could have been placed at the beginning of the following one. Whereas the Latin
+                    Utopia talks about <hi>mulieres</hi> (women), Medinilla translates it as <hi>su
+                        mujer</hi> (his woman).</note>
                 <note n="78" xml:id="n-6-3" target="#note-6-3">Medinilla offers a different
                     translation of the initial part of the sentence, as seen in "aunque no llevan
-                    bastimentos" ["although they do not carry any suplies"]. The Latin reads "toto
-                    itinere cum nihil secum efferant" ["Throughout their journey, though they carry
-                    nothing with them" (More 1965, 147 line 3-4)]. Robinson maintains the original
-                    sense. </note>
+                    bastimentos" (although they do not carry any supplies). The Latin reads "[t]oto
+                    itinere cum nihil secum efferent" ("[t]hroughout their journey, though they
+                    carry nothing with them" (More 1965, 147 line 3-4)). Robinson maintains the
+                    original sense.</note>
                 <note n="79" xml:id="n-6-4" target="#note-6-4">Medinilla does not accurately render
                     the last Latin sentence. The Latin says, in English, "a rash repetition of the
                     offense entails the sentence of slavery" (More 1965, 147, lines 11-12), whereas
-                    Medinilla opts for "le hacen volver, y como a fugitivo le obligan a servir"
-                    ["they make him return, and like a fugitive they force him to serve"]. </note>
+                    Medinilla opts for "le hacen volver, y como a fugitivo le obligan a server"
+                    (they make him return, and, like a fugitive, they force him to serve).</note>
                 <note n="80" xml:id="n-6-5" target="#note-6-5">The Spanish translator does not
-                    translate "propter anni sequentis euentum prospexerint" ["on account of the next
-                    year's uncertain crop" (More 1965, 149, lines 7-8)]. Lupton's edition does not
+                    translate "propter anni sequentis euentum prospexerint" ("on account of the next
+                    year's uncertain crop" (More 1965, 149, lines 7-8)). Lupton's edition does not
                     include <hi>lini</hi>, so there must by an editing error here (Lupton 1895,
                     170).</note>
                 <note n="81" xml:id="n-6-6" target="#note-6-6">As repeatedly happens throughout the
                     chapter, Medinilla is not literal in this segment. He forgets to include
-                        <hi>argentum</hi> [silver].</note>
+                        <hi>targentum</hi> (silver).</note>
                 <note n="82" xml:id="n-6-7" target="#note-6-7">Medinilla omits part of the Latin
-                    segment "elegantissimis quidem illis sed uilibus tamen".</note>
+                    segment "elegantissimis quidem illis sed uilibus tamen" ("of fine workmanship
+                    but of little value" (More 1965, 153, lines 5-6)).</note>
                 <note n="83" xml:id="n-6-8" target="#note-6-8">The Spanish translator chooses the
-                    pair <hi>orinales y bacinillas</hi> to render <hi>matellas</hi>. The word
-                    derives from <hi>bacín</hi>, which means, according to the <hi>Diccionario de
-                        Autoridades</hi>, "el vaso de barro vidriado, alto y redondo, que sirve para
-                    recibir los excrementos mayores quando se descarga el cuerpo" ["the tall, round
-                    glazed clay vessel, which is used to receive the largest excrement when the body
-                    is discharged" (RAE 1726)].</note>
+                    pair <hi>orinales</hi> and <hi>bacinillas</hi> to render <hi>matellas</hi>. The
+                    word derives from <hi>bacín</hi>, which means, according to the <hi>Diccionario
+                        de Autoridades</hi>, "el vaso de barro vidriado, alto y redondo, que sirve
+                    para recibir los excrementos mayores quando se descarga el cuerpo" (RAE 1726)
+                    (the tall, round glazed clay vessel, which is used to receive the largest
+                    excrement when the body is discharged).</note>
                 <note n="84" xml:id="n-6-9" target="#note-6-9">The Spanish translator selects
-                        <hi>zarcillos</hi> to translate <hi>anuli</hi>, meanwhile he omits they are
-                    made of gold <hi>auribus</hi>. <hi>Cabestrillos</hi> is used for
+                        <hi>zarcillos</hi> to translate <hi>anuli</hi>, while he omits they are made
+                    of gold, <hi>auribus</hi>. <hi>Cabestrillos</hi> is translated as
                         <hi>torques</hi>. The <hi>Tesoro de la Lengua</hi> defines
                         <hi>zarcillos</hi> as "los anillos o arillos de las orejas" (Covarrubias
-                    1611, 164r) ["rings or ear rings"] and the <hi>Dicionario de Autoridades</hi>
-                    states that "cabestrillos" are "una joyita o cadenita que traían las mujeres
-                    colgada del hombro, hecha de oro, plata, seda, aljofar, etc." (RAE 1729) ["a
-                    little jewel or chain that women wear hanging from their shouldes made of gold,
-                    silver, silk, pearl, etc."].</note>
+                    1611, 2:164r) (rings or ear rings) and the <hi>Dicionario de Autoridades</hi>
+                    states that cabestrillos are "una joyita o cadenita que traían las mujeres
+                    colgada del hombro, hecha de oro, plata, seda, aljofar, etc." (RAE 1729) (a
+                    little jewel or chain made of gold, silver, silk, pearl, among others, that
+                    women wear hanging from their shoulders).</note>
                 <note n="85" xml:id="n-6-10" target="#note-6-10">Medinilla adapts the Latin phrase
-                        <hi>unius assis</hi> to the Spanish context by translating it as <hi>una
+                        <hi>unius assis</hi> to the Spanish context by rendering it as <hi>una
                         blanca</hi>. According to the <hi>Tesoro de la Lengua</hi>, a
-                        <hi>blanca</hi> is a "moneda menuda" (Covarrubias 1611, 140r) ["small coin"]
-                    and the <hi>Diccionario de Autoridades</hi> acknowledges this coin was used in
-                    Spain. Robinson chooses the noun "farthing", defined in the OED (2024) as "a
-                    quarter of a penny". Both instances show the little value of this coin. </note>
+                        <hi>blanca</hi> is a "moneda menuda" (Covarrubias 1611, 1:140r) (coin of small
+                    size) and the <hi>Diccionario de Autoridades</hi> acknowledges this coin was
+                    used in Spain. Robinson chooses the noun "farthing," defined in the OED (2024)
+                    as "a quarter of a penny." Both instances show the little value of this
+                    coin.</note>
                 <note n="86" xml:id="n-6-11" target="#note-6-11">Medinilla introduces the verb form
-                        <hi>usamos</hi> [we use] to translate <hi>superbiunt</hi>. One of the senses
+                        <hi>usamos</hi> (we use) to translate <hi>superbiunt</hi>. One of the senses
                     of <hi>usar</hi> is, according to the <hi>Diccionario de Autoridades</hi>,
-                    "poseer alguna cosa, gozándola, o disfrutándola" ["to possess something,
-                    enjoying it"]. The verb number is mistranslated though, as the Latin verb is
-                    conjugated in the third person plural form.</note>
+                    "poseer alguna cosa, gozándola, o disfrutándola" (RAE 1739) (to possess
+                    something, enjoying it). The grammatical person does not coincide though, as the
+                    Latin verb is conjugated in the third person plural form and usamos is a first
+                    person plural form.</note>
                 <note n="87" xml:id="n-6-12" target="#note-6-12">The name <hi>Anemoliorum</hi> could
-                    be derived from the Greek <hi>άνεμώλιοs</hi>, meaning "windy" (More 2016, 65,
-                    note 55). </note>
+                    be derived from the Greek άνεμώλιοs, meaning "windy" (More 2016, 65n55).</note>
                 <note n="88" xml:id="n-6-13" target="#note-6-13">Medinilla opts for the noun
-                        <hi>simples</hi> ["a simple-minded person"] for the Latin
-                        <hi>morionibus</hi>. The <hi>Tesoro de la Lengua</hi> defines
-                        <hi>simple</hi> as "algunas veces significa el mentecato, porque es como el
-                    niño o la tabla rasa donde hay ninguna pintura por tener lesa la fantasía y los
-                    demás sentidos y no discurrir en las cosas con razón ni entendimiento"
-                    (Covarrubias 1611, 30r) ["sometimes it means the fool, because it is like the
-                    child or the blank slate where there is no painting because the fool's fantasy
-                    and the other senses have been damaged and he does not think about things with
-                    reason or understanding"].</note>
+                        <hi>simples</hi> (a simple-minded person) for the Latin <hi>morionibus</hi>.
+                    The <hi>Tesoro de la Lengua</hi> defines <hi>simple</hi> as "algunas veces
+                    significa el mentecato, porque es como el niño o la tabla rasa donde hay ninguna
+                    pintura por tener lesa la fantasía y los demás sentidos y no discurrir en las
+                    cosas con razón ni entendimiento" (Covarrubias 1611, 2:30r) (sometimes it means
+                    the fool, because it is like the child or the blank slate where there is no
+                    painting because the fool's fantasy and the other senses have been damaged and
+                    he does not think about things with reason or understanding).</note>
                 <note n="89" xml:id="n-6-14" target="#note-6-14">Interestingly, Medinilla and
                     Robinson both describe the Utopian language as <hi>limpia y pura</hi>
-                    [immaculate and pure] and "fyneste and puryste". These are add-ons to the
+                    (immaculate and pure) and "fyneste and puryste." These are add-ons to the
                     original and it is a coincidence between these two translations. The Yale
-                    edition renders this final segment as "It is almost the same as that current in
-                    a great part of that side of the world, only that everywhere else its form is
+                    edition renders this final segment as "[i]t is almost the same as that current
+                    in a great part of that side of the world, only that everywhere else its form is
                     more corrupt, to different degrees in different regions" (More 1965, 159, lines
                     17-19).</note>
                 <note n="90" xml:id="n-6-15" target="#note-6-15">Medinilla alters the original idea
                     in these two sentences by modifying the order of elements: he brings the main
-                    verb forward and, instead of <hi>somniant</hi> [to dream], he introduces
-                        <hi>aprecian</hi> [to appreciate, to esteem]. </note>
-                <note n="91" xml:id="n-6-16" target="#note-6-16">Medinilla and Robinson do not
-                    literally translate this <hi>fragment</hi>. In addition, at the end of the
-                    segment Medinilla renders religione as <hi>ritos</hi> ["rites"], separating rite
-                    from religion.</note>
-                <note n="92" xml:id="n-6-17" target="#note-6-17">The order of sentences in
-                    comparison with the Latin text here is altered both in Medinilla's and
-                    Robinson's rendering.</note>
+                    verb forward and, instead of <hi>somniant</hi>, in Spanish, <hi>sueñen</hi>
+                    (they dream), he introduces <hi>aprecian</hi> (they appreciate, esteem).</note>
+                <note n="91" xml:id="n-6-16" target="#note-6-16">Both Medinilla and Robinson do not
+                    literally translate this fragment. In addition, at the end of the segment
+                    Medinilla renders <hi>religione</hi> as <hi>ritos</hi> (rites), isolating rite
+                    practice from religion itself.</note>
+                <note n="92" xml:id="n-6-17" target="#note-6-17">The sentence order, in comparison
+                    with the Latin text, is here altered both in Medinilla's and Robinson's
+                    renderings.</note>
                 <note n="93" xml:id="n-6-18" target="#note-6-18">Lupton declares the word
-                    "impossibilitie" actually meant "in possibilitie", but it was printed in one
-                    single word (More 1895, 190).</note>
+                    "impossibilitie" in Robinson's translation actually means "in possibilitie," but
+                    it was printed in one single word (More 1895, 190).</note>
                 <note n="94" xml:id="n-6-19" target="#note-6-19">Medinilla does not translate the
                     complete segment. Please, complete with the Latin and English texts.</note>
                 <note n="95" xml:id="n-6-20" target="#note-6-20">Medinilla adds his own brackets
@@ -5610,99 +5617,102 @@
                 <note n="96" xml:id="n-6-21" target="#note-6-21">The order of sentences here is
                     altered as well, but this time only in Medinilla's translation.</note>
                 <note n="97" xml:id="n-6-22" target="#note-6-22">The Spanish governor drops
-                        <hi>exiguae</hi> [tiny] from the translation. </note>
+                        <hi>exiguae</hi> (tiny) from the translation. </note>
                 <note n="98" xml:id="n-6-23" target="#note-6-23">Medinilla does not translate the
                     Latin text in brackets "tanquam in ipsis esset perinde res ac uocabula
-                    commutare". Yale edition reads "as though they had the power to change the
-                    nature of things as they do their names" (More 1965, 167, lines 16-17). </note>
+                    commutare." The Yale edition renders it as "as though they had the power to
+                    change the nature of things as they do their names" (More 1965, 167, lines
+                    16-17).</note>
                 <note n="99" xml:id="n-6-24" target="#note-6-24">There is a segment not translated
                     by Medinilla. Please, complete with the Latin and English texts.</note>
                 <note n="100" xml:id="n-6-25" target="#note-6-25">Medinilla omits the Latin segment
-                    "hoccine tuorum poplitum dolori medebitur?" He then adds extra information, not
-                    present in Thomas More's <hi>Utopia</hi>: "o medicinara la enfermedad de tus
-                    ojos?" ["or will it cure the disease of your eyes?"]. According to the
-                        <hi>Diccionario de Autoridades</hi>, the verb <hi>medicinar</hi> means
-                    "aplicar medicinas para el recobro de la salud perdida" (RAE 1734) ["to apply
-                    medicines to recover lost health"].</note>
+                    "hoccine tuorum poplitum dolori medebitur?" ("[w]ill this behavior cure the pain
+                    in your own knees?" (More 1965, 159, lines 4-5)). He then adds extra
+                    information, not present in Thomas More's <hi>Utopia</hi>: "o medicinara la
+                    enfermedad de tus ojos?" (or will it cure the disease of your eyes?). According
+                    to the <hi>Diccionario de Autoridades</hi>, the verb <hi>medicinar</hi>
+                    signifies "aplicar medicinas para el recobro de la salud perdida" (RAE 1734) (to
+                    apply medicines to recover lost health).</note>
                 <note n="101" xml:id="n-6-26" target="#note-6-26">The Spanish translator does not
-                    include the Latin fragment "praesertim in praediis" ["especially rich in landed
-                    estates" (More 1965, 169, line 11)]. By the end of the segment, Medinilla seems
+                    include the Latin fragment "praesertim in praediis" ("especially rich in landed
+                    estates" (More 1965, 169, line 11)). By the end of the segment, Medinilla seems
                     more literal than Robinson.</note>
                 <note n="102" xml:id="n-6-27" target="#note-6-27">The Spanish translator does not
                     translate the last sentence.</note>
                 <note n="103" xml:id="n-6-28" target="#note-6-28">There is a segment not translated
                     by Medinilla.</note>
-                <note n="104" xml:id="n-6-29" target="#note-6-29">Segment not translated by
-                    Medinilla.</note>
-                <note n="105" xml:id="n-6-30" target="#note-6-30">The fragment "et qua sublata
-                    nullus usquam reliquus sit cuiquam uoluptati locus" is not translated by
-                    Medinilla. In English, "whereas without it absolutely no place is left for any
-                    pleasure" (More 1965, 175, line 1).</note>
+                <note n="104" xml:id="n-6-29" target="#note-6-29">There is a segment not translated
+                    by Medinilla. Please, complete with the Latin and English texts.</note>
+                <note n="105" xml:id="n-6-30" target="#note-6-30">The fragment "et qua sublate
+                    nullus usquam reliquus sit cuiquam uoluptati locus" ("whereas without it
+                    absolutely no place is left for any pleasure" (More 1965, 175, line 1)) is not
+                    translated by Medinilla.</note>
                 <note n="106" xml:id="n-6-31" target="#note-6-31">Medinilla modifies the original
                     sense of the final question. Instead of "why should not pleasure in turn be
                     found in the tranquility of health?" (More 1965, 175, line 12), the Spanish
-                    translator introduces "¿qué gusto puede haber donde esta falta?" ["what pleasure
-                    can exist where this is lacking?"]. </note>
+                    translator introduces "¿qué gusto puede haber donde esta falta?" (what pleasure
+                    can exist where this is lacking).</note>
                 <note n="107" xml:id="n-6-32" target="#note-6-32">Medinilla does not translate part
                     of the text.</note>
                 <note n="108" xml:id="n-6-33" target="#note-6-33">These segments are mostly omitted
                     by Medinilla. The topic is health and pleasure. </note>
                 <note n="109" xml:id="n-6-34" target="#note-6-34">The translator is not literal
                     here.</note>
-                <note n="110" xml:id="n-6-35" target="#note-6-35">Medinilla associates wisedom with
-                    caution, as seen in how he renders the Latin adjective <hi>sapienti</hi> [wise]
-                    as <hi>prudente</hi> [cautious, prudent]. </note>
+                <note n="110" xml:id="n-6-35" target="#note-6-35">Medinilla associates wisdom with
+                    caution, as seen in how he renders the Latin adjective <hi>sapienti</hi> (wise)
+                    as <hi>prudente</hi> (cautious, prudent).</note>
                 <note n="111" xml:id="n-6-36" target="#note-6-36">The translator leaves out some
-                    elements from the final enumeration, simplifying it to three initial elements
-                        <hi>hambre, sed y prurito</hi> [hunger, thirst and itching]. Those are
-                        <hi>esu, potatione, scalpu, frictuque</hi> ["eating, drinking, scratching
-                    and rubbing" (More 1965, 178, line 12)].</note>
+                    elements from the final enumeration, simplifying it to: <hi>hambre</hi>,
+                        <hi>sed</hi> and <hi>prurito</hi> (hunger, thirst and itching). The omitted
+                    ones are <hi>esu</hi>, <hi>potatione</hi>, <hi>scalpu</hi>, and <hi>frictu</hi>
+                    ("eating, drinking, scratching and rubbing" (More 1965, 178, line 12)).</note>
                 <note n="112" xml:id="n-6-37" target="#note-6-37">Medinilla hides the parental
                     relationship between nature and the Utopians present in "naturae parentis
-                    indulgentiam" ["the kindness of mother nature" (More 1965, 177, line 21)] and
-                    the <hi>foetus</hi> ["offspring" (More 1965, 177, line 22)].</note>
+                    indulgentiam" ("the kindness of mother nature" (More 1965, 177, line 21)) and
+                    the <hi>foetus</hi> ("offspring" (177, line 22)).</note>
                 <note n="113" xml:id="n-6-38" target="#note-6-38">Robinson removes any references to
-                    religion in caelitus immissa religio. In the Yale edition, this is translated as
-                    "a heaven-sent religion" (More 1965, 179, lines 14-15).</note>
+                    religion in "caelitus immissa religio" ("a heaven-sent religion" (More 1965,
+                    179, lines 14-15)).</note>
                 <note n="114" xml:id="n-6-39" target="#note-6-39">Medinilla renders the Latin noun
-                        <hi>opera</hi> with a couple of nouns: <hi>solicitud</hi> and
-                        <hi>cuidado</hi> [attentiveness and care]. <hi>Solicitud</hi> is defined in
-                    the <hi>Diccionario de Autoridades</hi> as "diligencia, o instancia cuidadosa"
-                    ["diligence or careful instance"]. </note>
+                        <hi>opera</hi> with the of nouns <hi>solicitud</hi> and <hi>cuidado</hi>
+                    (attentiveness and care). <hi>Solicitud</hi> is defined in the <hi>Diccionario
+                        de Autoridades</hi> as "diligencia, o instancia cuidadosa" (diligence or
+                    careful request) (RAE 1739).</note>
                 <note n="115" xml:id="n-6-40" target="#note-6-40">The translation by Medinilla is
-                    not precise in the present description, as he introduces the pair <hi>mieses y
-                        frutos</hi> to render the noun <hi>fruges</hi>. <hi>Mies</hi> means "la
-                    espiga, caña y grano del trigo, cebada, y demás semillas de que se hace pan"
-                    ["the spike, reed and grain of wheat, barley and other seeds from which bread is
-                    made"], according to the <hi>Diccionario de Autoridades</hi> (RAE 1734). </note>
+                    not literal in the present description, as he introduces the pair
+                        <hi>mieses</hi> and <hi>frutos</hi> to render the noun <hi>fruges</hi>.
+                        <hi>Mies</hi> means "la espiga, caña y grano del trigo, cebada, y demás
+                    semillas de que se hace pan" (the spike, reed and grain of wheat, barley and
+                    other seeds from which bread is made), according to the <hi>Diccionario de
+                        Autoridades</hi> (RAE 1734).</note>
                 <note n="116" xml:id="n-6-41" target="#note-6-41">The Spanish translator does not
-                    make a literal translation, which complicates the alignment of the segment.
+                    make a precise translation, which complicates the alignment of the segment.
                     Robinson's translation is neither literal in this segment and the following.
-                    According to Lupton, there is a misprint in "faee", in which "free" was expected
-                    (More 1895, 214, note a).</note>
+                    According to Lupton, there is a misprint in "faee," as "free" was expected (More
+                    1895, 214, An).</note>
                 <note n="117" xml:id="n-6-42" target="#note-6-42">Robinson does not translate part
                     of the Latin text: "e numero scholasticorum selectissimis ingeniis et matura
-                    aetate fuerunt" ["most of them scholars picked for their ability and mature in
-                    years" (More 1965, 181, lines 17-18)]. It seems that part of the main idea was
+                    aetate fuerunt" ("most of them scholars picked for their ability and mature in
+                    years" (More 1965, 181, lines 17-18)). It seems that part of the main idea was
                     included in the previous sentence, when he writes "sauynge that the most parte
-                    of them were fyne and chosen wittes, and of rype age". </note>
-                <note n="118" xml:id="n-6-43" target="#note-6-43">In this occassion, either Robinson
+                    of them were fyne and chosen wittes, and of rype age."</note>
+                <note n="118" xml:id="n-6-43" target="#note-6-43">In this occasion, either Robinson
                     associates errors with falseness or false is used as a quality of defectiveness,
-                    rendering <hi>inoffense perlegerent</hi> as "if the booke were not false". </note>
+                    rendering "inoffense perlegerent" as "if the booke were not false."</note>
                 <note n="119" xml:id="n-6-44" target="#note-6-44">Medinilla alters the order of
                     sentences here, introducing the content in brackets in the next sentence.</note>
                 <note n="120" xml:id="n-6-45" target="#note-6-45">Medinilla uses the Spanish word
                         <hi>mico</hi> to render <hi>cercopithecus</hi>. Lewis and Short (1879)
                     defines <hi>cercopithecus</hi> as a type of lontailed ape, whereas the
                         <hi>Tesoro de la Lengua</hi> presents it as "una especie de mona pero con
-                    cola y de facciones y talle más jarifo" ["a kind of monkey but with a tail and
-                    more striking features and figure"] (Covarrubias 1611, 548v). </note>
+                    cola y de facciones y talle más jarifo" (Covarrubias 1611, 1:548v) (a kind of
+                    monkey but with a tail and more striking features and figure).</note>
                 <note n="121" xml:id="n-6-46" target="#note-6-46">Medinilla introduces Aldo's
-                    complete name even though the original only reads "Aldi".</note>
+                    complete name even though the original only reads "Aldi."</note>
                 <note n="122" xml:id="n-6-47" target="#note-6-47">Once again, the Spanish translator
-                    uses two terms to translate one. That is the case of <hi>acutissime</hi> ["the
-                    greatest acuteness" (More 1965, 183, line 33)], rendered as <hi>con gran
-                        brevedad y prontitud</hi> ["with great brevity and readiness"].</note>
+                    uses two terms to translate one. That is the case of <hi>acutissime</hi> ("the greatest
+                    acuteness" (More 1965, 183, line 33)), rendered as <hi>con gran brevedad y prontitud</hi>
+                    (with great brevity and readiness).</note>
             </div>
         </body>
     </text>

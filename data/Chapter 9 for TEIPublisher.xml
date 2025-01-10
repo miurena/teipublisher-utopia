@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title> Chapter 9. De la Religión.</title>
+                <title>9. Chapter 9. De la Religión.</title>
                 <funder>This work has been developed thanks to a doctoral fellowship granted in 2020
                     by the Spanish Ministry of Universities</funder>
                 <respStmt>
@@ -47,7 +47,7 @@
         <encodingDesc>
             <projectDesc>
                 <p>This edition was developed as part of my thesis dissertation titled "A Digital
-                    Edition of the 1637 Spanish translation of Thomas More's Utopia". The processes
+                    Edition of the 1637 Spanish translation of Thomas More's Utopia." The processes
                     of data modeling, encoding and publishing the edition was done during a research
                     visit to the Digital Scholarship Group and the Women Writers Project at
                     Northeastern University (Boston, USA).</p>
@@ -99,6 +99,7 @@
         <body>
             <div type="base" xml:lang="es">
                 <div type="chapter" n="9">
+                    <pb n="41r"/>
                     <head type="chapter">De la Religion. Cap. IX.</head>
                     <ab>
                         <seg n="9.1" type="sentence">
@@ -123,12 +124,12 @@
                                     <rdg wit="1805">la mudanza</rdg>
                                 </app>, i el fin de todas las coſas, i a el ſolo rinden divinos
                                 honores: los otros todos bien que adoran coſas diverſas, concurren
-                                en eſte parecer, que ai un ſumo Dios, el qual es Criador de todo, i
+                                en eſte parecer, que ai un ſumo Dios, el <pb n="41v"/>qual es Criador de todo, i
                                 con ſu prouidencia lo conſerva, i llamã en ſu lẽgua Mythra.<anchor
                                     n="165" xml:id="note-9-1"/></s>
                         </seg>
                         <seg n="9.2" type="sentence">
-                            <s xml:id="es-9-2-1" n="es 9.2">Mas dicordan en eſto, que vnos
+                            <s xml:id="es-9-2-1" n="es 9.2">Mas diſcordan en eſto, que vnos
                                 profeſſan, q̃ eſte ſumo Dios ſea una eſſencia, y otros otra; afirman
                                 q̃ eſte Summo, a quiẽ reverẽciã por Dios tiene el gobierno deſte
                                 todo, i poco a poco ſe apartã de la variedad de la ſuperſticiõ, i
@@ -173,7 +174,7 @@
                         </seg>
                         <seg n="9.7" type="sentence">
                             <s xml:id="es-9-7-1" n="es 9.7">Toda via aquellos pueblos haſta ahora
-                                deſſean recibir aquellos Sacramentos, que pertenece ſu
+                                deſſean <pb n="42r"/>recibir aquellos Sacramentos, que pertenece ſu
                                 adminiſtracion ſolamente a los Sacerdotes: i ordinariamente diſputan
                                 entre ellos ſi ſea licito ſin comiſsion del Pontifice eligir
                                 Sacerdote a uno dellos: mas haſta ahora no lo avian eleƈto quando yo
@@ -228,7 +229,7 @@
                                     n="174" xml:id="note-9-10"/></s>
                         </seg>
                         <seg n="9.13" type="sentence">
-                            <s xml:id="es-9-12-1" n="es 9.12">Hizieron los Vtopienſes tal eſtatuto; <app>
+                            <s xml:id="es-9-12-1" n="es 9.12">Hizieron los Vto<pb n="42v"/>pienſes tal eſtatuto; <app>
                                     <lem>no ſolamente en atenciõ de conſervar la paz</lem>
                                     <rdg wit="1790">no solamente por conservar la paz</rdg>
                                     <rdg wit="1805">no solamente por conservar la paz</rdg>
@@ -270,7 +271,7 @@
                         </seg>
                         <seg n="9.17" type="sentence">
                             <s xml:id="es-9-16-1" n="es 9.16">I es de creer que eſtos ſe opongã a
-                                las leyes, o procuren anularlas por ſervir a ſu apetito, no
+                                las <pb n="43r"/>leyes, o procuren anularlas por ſervir a ſu apetito, no
                                 teniendolas en reverencia, ni eſperando, ni temiendo gozo, ni
                                 caſtigo deſpues deſte ſiglo.<anchor n="179" xml:id="note-9-15"/></s>
                         </seg>
@@ -291,7 +292,7 @@
                             <s xml:id="es-9-19-1" n="es 9.19">Prohibenles el diſputar deſta opinion,
                                 eſpecialmente en preſencia del vulgo, mas exortan a los Sacerdotes
                                 graves, a que confieran, eſperando que tal locura deba ſer vencida
-                                de la razon.</s>
+                                de la razon.<anchor n="182" xml:id="note-9-18"/></s>
                         </seg>
                         <seg n="9.22" type="untranslatedSegment"/>
                         <seg n="9.23" type="sentence">
@@ -304,9 +305,10 @@
                                     <rdg wit="1790">aun las ánimas</rdg>
                                     <rdg wit="1805">aun las ánimas</rdg>
                                 </app> de las beſtias ſeã inmortales, mas de diferẽte dignidad de
-                                las nueſtras, i no nacidas a igual felicidad.<anchor n="182"
-                                    xml:id="note-9-18"/></s>
+                                las nueſtras, i no nacidas a igual felicidad.<anchor n="183"
+                                    xml:id="note-9-19"/></s>
                         </seg>
+                        <!-- arreglar anchor desde aquí -->
                         <seg n="9.24" type="sentence">
                             <s xml:id="es-9-21-1" n="es 9.21">Tãto concepto hazen de la inmenſa
                                 felicidad de nueſtras animas, que lloran a los doliẽtes, pero no a
@@ -315,28 +317,28 @@
                                 alguno, atemorizada de la propia conciencia temieſſe el ſuplicio: i
                                 pienſan q̃ no agrada a Dios el caminar de aquel que no corre
                                 voluntariamente, quando es llamado, mas ſe retira, i rehuſa.<anchor
-                                    n="183" xml:id="note-9-19"/></s>
+                                    n="184" xml:id="note-9-20"/></s>
                         </seg>
                         <seg n="9.25" type="sentence">
                             <s xml:id="es-9-22-1" n="es 9.22">Si ven morir a alguno en eſta forma,
                                 ſe deſmayan, i lo entierran ſin pompa, i ruegan a Dios, que perdone
-                                aquella flaqueza.<anchor n="184" xml:id="note-9-20"/></s>
+                                aquella flaqueza.<anchor n="185" xml:id="note-9-21"/></s>
                         </seg>
                         <seg n="9.26" type="sentence">
                             <s xml:id="es-9-23-1" n="es 9.23">Ninguno <app>
                                     <lem>llora aquellos</lem>
                                     <rdg wit="1790">llora á aquellos</rdg>
                                     <rdg wit="1805">llora á aquellos</rdg>
-                                </app> que mueren con alegria, i con buena eſperança, antes hazen
+                            </app> que mueren <pb n="43v"/>con alegria, i con buena eſperança, antes hazen
                                 ſus obſequias con gozo, encomendando a Dios las animas, i queman los
-                                cuerpos con reverẽcia, mas que con queja.<anchor n="185"
-                                    xml:id="note-9-21"/></s>
+                                cuerpos con reverẽcia, mas que con queja.<anchor n="186"
+                                    xml:id="note-9-22"/></s>
                         </seg>
                         <seg n="9.27" type="sentence">
                             <s xml:id="es-9-24-1" n="es 9.24">Levantan un Coloſo, donde eſculpen las
                                 alabanças del difunto, i en bolviendo a ſus caſas relatan ſus
-                                coſtumbres, i la vida, recomendando ſu muerte.<anchor n="186"
-                                    xml:id="note-9-22"/></s>
+                                coſtumbres, i la vida, recomendando ſu muerte.<anchor n="187"
+                                    xml:id="note-9-23"/></s>
                         </seg>
                         <seg n="9.28" type="sentence">
                             <s xml:id="es-9-25-1" n="es 9.25"><app>
@@ -353,7 +355,7 @@
                                 placieſſe, i ſerian ingratos ſino deſſeaſſen bolver a ver a ſus
                                 amigos, con quien ſe hallavan unidos cõ reciproco amor, i
                                 profeſſando ſer agradecidos; porq̃ mas preſto debe de aumentarſe en
-                                ellos la Caridad, que deſminuirſe.<anchor n="187" xml:id="note-9-23"
+                                ellos la Caridad, que deſminuirſe.<anchor n="188" xml:id="note-9-24"
                                 /></s>
                         </seg>
                         <seg n="9.29" type="sentence">
@@ -362,18 +364,17 @@
                                 las empreſſas, confiandoſe de tales ayudas, i trayendo la
                                 repreſentacion de ſu honor en la preſencia de ſus mayores, ſe
                                 guardan de cometer coſa, que no ſea mui honeſta, aunque ſea en
-                                    ſecreto.<anchor n="188" xml:id="note-9-24"/></s>
+                                    ſecreto.<anchor n="189" xml:id="note-9-25"/></s>
                         </seg>
                         <seg n="9.30" type="sentence">
                             <s xml:id="es-9-27-1" n="es 9.27">Hazen poco caſo de los agueros, i
                                 otras ſuperſticiones divinatorias, que ſuelen ſer de tanta
-                                reputacion entre otras naciones.<anchor n="189" xml:id="note-9-25"
-                                /></s>
+                                reputacion entre otras naciones.</s>
                         </seg>
                         <seg n="9.31" type="sentence">
                             <s xml:id="es-9-28-1" n="es 9.28">Veneran los milagros, que vienen ſobre
                                 las fuerças de naturaleza, como teſtimonios de la divina preſencia,
-                                en las grandes importancias, con publicas rogaciones procuran
+                                en las grandes importancias, con publicas rogaciones <pb n="44r"/>procuran
                                 aplacar a Dios.<anchor n="190" xml:id="note-9-26"/></s>
                         </seg>
                         <seg n="9.32" type="sentence">
@@ -428,7 +429,7 @@
                                 aquellos por mas ſabios.<anchor n="194" xml:id="note-9-30"/></s>
                         </seg>
                         <seg n="9.39" type="sentence">
-                            <s xml:id="es-9-36-1" n="es 9.36">Burlan de los que hazẽ mas aprecio del
+                            <s xml:id="es-9-36-1" n="es 9.36">Burlan de los que <pb n="44v"/>hazẽ mas aprecio del
                                 celibato, q̃ del matrimonio, i de la vida auſtera, q̃ de la
                                 deleitoſa: i no ſe muevẽ mas a eſto por la Religiõ, q̃ por el honor,
                                 porq̃ ſe guardan ſumamente de no cõdenar la Religion de alguno, i a
@@ -491,7 +492,7 @@
                         </seg>
                         <seg n="9.45" type="sentence">
                             <s xml:id="es-9-41-1" n="es 9.41">Eſtos Sacerdotes educan la juventud,
-                                teniendo mayor cuidado informalles en las coſtumbres, que enſeñalles
+                                teniendo mayor cuidado informalles en las coſtumbres, que enſe<pb n="45r"/>ñalles
                                 las letras.<anchor n="200" xml:id="note-9-36"/></s>
                         </seg>
                         <seg n="9.46" type="sentence">
@@ -545,8 +546,8 @@
                                     <rdg wit="1790">creen</rdg>
                                     <rdg wit="1805">creen</rdg>
                                 </app> que ſea dificil coſa hallar gran numero de buenos, que puedan
-                                ſer dignos de ſemejan te dignidad: ſon mui reſpetados, aſsi de los
-                                pueblos de Vtopia, como de los Eſtrangeros, lo qual les viene a mi
+                                ſer dignos de ſemejante dignidad: ſon mui reſpetados, aſsi de los
+                                <pb n="45v"/>pueblos de Vtopia, como de los Eſtrangeros, lo qual les viene a mi
                                 ver, de que quando llegan al hecho de armas, los Sacerdotes eſtan
                                 ſeparados de las eſquadras, hincados de rodillas, i rebeſtidos con
                                 las manos levantadas al cielo<anchor n="206" xml:id="note-9-42"
@@ -601,7 +602,7 @@
                                     <lem>Alli ſe ven</lem>
                                     <rdg wit="1790">Se ven</rdg>
                                     <rdg wit="1805">Se ven</rdg>
-                                </app> excelentes templos, no ſolo de grandeza en la obra, ſino por
+                            </app> excelentes templos, no ſolo de grandeza en la <pb n="46r"/>obra, ſino por
                                 la capacidad neceſſaria, por ſer pocos los que ai, para que quepa en
                                 ellos el innumerable pueblo, q̃ tienen.<anchor n="211"
                                     xml:id="note-9-47"/></s>
@@ -645,7 +646,7 @@
                                 pueda cada uno dezillas, ſin ofenſa de ſu opiniõ.</s>
                         </seg>
                         <seg n="9.64" type="sentence">
-                            <s xml:id="es-9-60-1" n="es 9.60"><app>
+                            <s xml:id="es-9-60-1" n="es 9.60"><pb n="46v"/><app>
                                     <lem>Todos acudẽ a los tẽplos a las tardes de las fieſtas,
                                         ayunos a dar gracias a Dios</lem>
                                     <rdg wit="1790">Todos acuden ayunos á los Templos á dar gracias
@@ -693,7 +694,7 @@
                         </seg>
                         <seg n="9.68" type="sentence">
                             <s xml:id="es-9-64-1" n="es 9.64">Deſta ſuerte ſe tiene gran cuenta con
-                                todas las acciones, biſajes, i meneos, que ſeã compueſtos en lo
+                                todas las acciones, biſajes, <pb n="47r"/>i meneos, que ſeã compueſtos en lo
                                 eſterior por la autoridad, i diciplina de aquellos que los goviernan
                                 en ſu familia: i tambien tienen <app>
                                     <lem>en eſto gran cuidado, que el mas moço acompaña</lem>
@@ -737,7 +738,7 @@
                                 ornamento es admirable en la hechura, i forma, aſsi miſmo de
                                 precioſa materia, no bordado de oro, ni ſembrado de piedras
                                 precioſas, antes matizado con diverſas plumas de aves de diferentes
-                                colores, labradas tan elegantemente, con tanto primor, i artificio,
+                                colores, labra<pb n="47v"/>das tan elegantemente, con tanto primor, i artificio,
                                 que ninguna materia por mui precioſa, que ſea pueda igualarſe al
                                     arte.<anchor n="218" xml:id="note-9-54"/></s>
                         </seg>
@@ -756,7 +757,7 @@
                             <s xml:id="es-9-69-1" n="es 9.69">Luego que el Sacerdote, aſsi adornado,
                                 ſale de la ſacriſtia al templo, todos inſtantaneamente ſe dejan caer
                                 en tierra, haziẽdole veneracion con tã profundo ſilencio en todas
-                                partes, que lo aparen te del caſo pone terror, i aſſombro, como ſi
+                                partes, que lo aparente del caſo pone terror, i aſſombro, como ſi
                                 vieran preſente alguna deidad.<anchor n="220" xml:id="note-9-56"
                                 /></s>
                         </seg>
@@ -768,7 +769,7 @@
                                 </app> eſtado por algun tiempo poſtrados en tierra, haziendo ſeñal
                                 el Sacerdote ſe levantan, i luego cantan alabanças a Dios, las
                                 quales van diſtinguiendo con inſtrumentos muſicos en otra forma, i
-                                manera di ferente, q̃ en nueſtra patria ſe uſa.</s>
+                                manera diferente, q̃ en nueſtra patria ſe uſa.</s>
                         </seg>
                         <seg n="9.75" type="sentence">
                             <s xml:id="es-9-71-1" n="es 9.71"><app>
@@ -791,7 +792,7 @@
                                     <lem>no ſe exceden mucho, que toda</lem>
                                     <rdg wit="1790">excede mucho toda</rdg>
                                     <rdg wit="1805">excede mucho toda</rdg>
-                                </app> ſu muſica, aſsi la que ſe haze por inſtrumentos, como la que
+                                </app> ſu muſica, aſsi la que ſe haze por <pb n="48r"/>inſtrumentos, como la que
                                 ſe canta por vozes de los hombres, de tal ſuerte imita, i declara
                                 los afeƈtos naturales, <app>
                                     <lem>i que el ſonido ſe acomode</lem>
@@ -838,7 +839,7 @@
                                 otra Religion mas verdadera, i que mas agrade a Dios, ſe lo
                                 manifieſte, porque eſtan prontos, para ſeguir aquello, a que le
                                 encaminare; pero ſi la forma deſta Republica es la mejor, i ſu
-                                religion, la mas reƈta, que le dè conſtancia para perſeverar en
+                                religion, la mas reƈta, que le dè conſtancia para perſeverar <pb n="48v"/>en
                                 ella, i que traia a todos los demas hombres a aquel inſtituto de
                                 vivir, i a que ſientan de la miſma ſuerte de Dios, ſino es que
                                 tambien le agrade a ſu ineſcrutable voluntad, que aya eſta variedad
@@ -934,7 +935,7 @@
                                     <lem>porque</lem>
                                     <rdg wit="1790">y</rdg>
                                     <rdg wit="1805">y</rdg>
-                                </app> vienen <app>
+                                </app> <pb n="49r"/>vienen <app>
                                     <lem>a ſer todos</lem>
                                     <rdg wit="1790">todos á ser</rdg>
                                     <rdg wit="1805">todos á ser</rdg>
@@ -990,7 +991,7 @@
                                 </app> aquella Republica, que deſperdicia grãdes dadivas, i
                                 caudales, en los que llaman nobles, con los artifices de coſas
                                 vanas, con los bufones, con los inventores de ſuperfluos deleites, i
-                                con otros muchos deſte genero, no mirando con benignidad <app>
+                                con otros muchos deſte genero, no mirando con benignidad<pb n="49v"/> <app>
                                     <lem>por el contrario, por</lem>
                                     <rdg wit="1790">, como debieran, á</rdg>
                                     <rdg wit="1805">, como debieran, á</rdg>
@@ -1040,24 +1041,21 @@
                                     <lem>lo era</lem>
                                     <rdg wit="1790">era</rdg>
                                     <rdg wit="1805">era</rdg>
-                                </app> no dar recompenſa de agradecimiento a los que avian
-                                hecho algun bien, i ſervido a la Republica: eſta ingratitud, i
-                                perverſion, aun la coloran, i califican cõ nombre de juſticia,
-                                eſtableciendo lei nueva. Eſtas invenciones de los ricos, ſo color de
-                                Republica, ſe convierten en leyes.<anchor n="235" xml:id="note-9-71"
-                                /></s>
+                                </app> no dar recompenſa de agradecimiento a los que avian hecho
+                                algun bien, i ſervido a la Republica: eſta ingratitud, i perverſion,
+                                aun la coloran, i califican cõ nombre de juſticia, eſtableciendo lei
+                                nueva. Eſtas invenciones de los ricos, ſo color de Republica, ſe
+                                convierten en leyes.<anchor n="235" xml:id="note-9-71"/></s>
                         </seg>
                         <seg n="9.98" type="untranslatedSegment"/>
                         <seg n="9.99" type="sentence">
                             <s xml:id="es-9-91-1" n="es 9.91"><app>
-                                <lem>Mas</lem>
-                                <rdg wit="1790">y</rdg>
-                            </app> los hombres dañinos, con <app>
-                                <lem>la
-                                inſaciable cudicia, aviẽdo repartido</lem>
-                                <rdg wit="1790">insaciable codicia, reparten</rdg>
-                            </app> entre ellos las coſas, que
-                                <app>
+                                    <lem>Mas</lem>
+                                    <rdg wit="1790">y</rdg>
+                                </app> los hombres dañinos, con <app>
+                                    <lem>la inſaciable cudicia, aviẽdo repartido</lem>
+                                    <rdg wit="1790">insaciable codicia, reparten</rdg>
+                                </app> entre ellos las coſas, que <app>
                                     <lem>tenian</lem>
                                     <rdg wit="1790">debian</rdg>
                                     <rdg wit="1805">debian</rdg>
@@ -1067,31 +1065,33 @@
                         </seg>
                         <seg n="9.100" type="sentence">
                             <s xml:id="es-9-92-1" n="es 9.92"><app>
-                                <lem>De la qual aviendo deſterrado</lem>
-                                <rdg wit="1790">En ésta han desterrado</rdg>
-                                <rdg wit="1805">En ésta han desterrado</rdg>
-                            </app> de todo
-                                punto la codicia del dinero, <app>
-                                    <lem>con el uſo del, quan gran maquina de
-                                peſadumbres ſe eſcuſa, i quan grande materia de maldades ſe arranca
-                                de raiz?</lem>
-                                    <rdg wit="1790">no usando de él; y así evitan muchas pesadumbres, y arracan de raíz las maldades.</rdg>
-                                    <rdg wit="1805">no usando de él; y así evitan muchas pesadumbres, y arracan de raíz las maldades.</rdg>
+                                    <lem>De la qual aviendo deſterrado</lem>
+                                    <rdg wit="1790">En ésta han desterrado</rdg>
+                                    <rdg wit="1805">En ésta han desterrado</rdg>
+                                </app> de todo punto la codicia del dinero, <app>
+                                    <lem>con el uſo del, quan gran maquina de peſadumbres ſe eſcuſa,
+                                        i quan grande materia de maldades ſe arranca de raiz?</lem>
+                                    <rdg wit="1790">no usando de él; y así evitan muchas
+                                        pesadumbres, y arracan de raíz las maldades.</rdg>
+                                    <rdg wit="1805">no usando de él; y así evitan muchas
+                                        pesadumbres, y arracan de raíz las maldades.</rdg>
                                 </app><anchor n="237" xml:id="note-9-73"/></s>
                         </seg>
                         <seg n="9.101" type="sentence">
                             <s xml:id="es-9-93-1" n="es 9.93">Porque quien no ſabe, que los engaños,
-                                hurtos, robos, tumultos, alborotos, enemiſtades, motines, muertes,
+                                hurtos, robos, tumul<pb n="50r"/>tos, alborotos, enemiſtades, motines, muertes,
                                 traiciones, venenos (que cada dia ſe renuevã mas <app>
-                                    <lem>porque antes ſe
-                                caſtigan, que ſe refrenan con el ſuplicio) i con el deſpreciar el
-                                dinero ſe deſvanecen, i</lem>
-                                    <rdg wit="1790">porque el castigo del suplicio no basta á refrenarlos) se desvanecen despreciando el dinero; y que</rdg>
-                                    <rdg wit="1805">porque el castigo del suplicio no basta á refrenarlos) se desvanecen despreciando el dinero; y que</rdg>
-                                </app> la ſolicitud, penſamientos, fatigas, i
-                                deſvelos, que ſe traen con el dinero, i ſe ahuyenta la pobreça, la
-                                qual ſola parece que neceſsita de la riqueza.<anchor n="238"
-                                    xml:id="note-9-74"/></s>
+                                    <lem>porque antes ſe caſtigan, que ſe refrenan con el ſuplicio)
+                                        i con el deſpreciar el dinero ſe deſvanecen, i</lem>
+                                    <rdg wit="1790">porque el castigo del suplicio no basta á
+                                        refrenarlos) se desvanecen despreciando el dinero; y
+                                        que</rdg>
+                                    <rdg wit="1805">porque el castigo del suplicio no basta á
+                                        refrenarlos) se desvanecen despreciando el dinero; y
+                                        que</rdg>
+                                </app> la ſolicitud, penſamientos, fatigas, i deſvelos, que ſe traen
+                                con el dinero, i ſe ahuyenta la pobreça, la qual ſola parece que
+                                neceſsita de la riqueza.<anchor n="238" xml:id="note-9-74"/></s>
                         </seg>
                         <seg n="9.102" type="sentence">
                             <s xml:id="es-9-94-1" n="es 9.94">Para que eſto os conſte mas claro,
@@ -1107,9 +1107,9 @@
                         <seg n="9.103" type="sentence">
                             <s xml:id="es-9-95-1" n="es 9.95">I con facilidad pudiera averſe
                                 proveido el ſuſtento, ſi aquel dinero, que con tanta excelencia fue
-                                hallado, e inventado, para que con ſu ayuda ſe nos a briera la
-                                puerta al remedio, i ſuſtento nueſtro, no uviera ſido ſolo, el que
-                                nos cerro el camino, i eſtorbo el remedio.<anchor n="240"
+                                hallado, e inventado, para que con ſu ayuda ſe nos abriera la puerta
+                                al remedio, i ſuſtento nueſtro, no uviera ſido ſolo, el que nos
+                                cerro el camino, i eſtorbo el remedio.<anchor n="240"
                                     xml:id="note-9-76"/></s>
                         </seg>
                         <seg n="9.104" type="sentence">
@@ -1121,7 +1121,7 @@
                                 riquezas.</s>
                         </seg>
                         <seg n="9.105" type="sentence">
-                            <s xml:id="es-9-97-1" n="es 9.97">Yo tengo por cierto, que el verdadero
+                            <s xml:id="es-9-97-1" n="es 9.97"><pb n="50v"/>Yo tengo por cierto, que el verdadero
                                 reſpeƈto de la commodidad, o la auƈtoridad de Chriſto Salvador, el
                                 qual con ſu ſabiduria, i bondad pudo aconſejar aquello, que era
                                 mejor, uviera reducido todo el mundo debajo deſtas leyes, ſino ſe
@@ -1146,17 +1146,18 @@
                             <s xml:id="es-9-100-1" n="es 9.100">Eſta ſerpiente venenoſa, eſtragando
                                 los pechos de los hombres, como ſi fuera el pez remora los detiene,
                                 i haze bolver para tras, eſtorbando que no ſigan el mejor camino de
-                                la vida, <app><lem>la qual ſoberbia por eſtar arraigada</lem>
-                                <rdg wit="1790">por estar arraygada</rdg>
-                                <rdg wit="1805">por estar arraygada</rdg>
-                                </app> en los hombres, de
-                                ſuerte que no puede con facilidad arrancarſe, me contento de que
-                                eſta forma de Republica (que yo quiſiera la tuvieran todos) al menos
-                                les aya cabido en ſuerte a los Vtopianos, que han ſeguido tal
-                                inſtituto de vida, con que plantaron tales fundamentos de Republica,
-                                que no ſolo tiene de durar feliciſsimamente, pero (quanto le puede
-                                alcançar por conjetura humana) ha de permanecer para ſiempre.<anchor
-                                    n="243" xml:id="note-9-79"/></s>
+                                la vida, <app>
+                                    <lem>la qual ſoberbia por eſtar arraigada</lem>
+                                    <rdg wit="1790">por estar arraygada</rdg>
+                                    <rdg wit="1805">por estar arraygada</rdg>
+                                </app> en los hombres, de ſuerte que no puede con facilidad
+                                arrancarſe, me contento de que eſta forma de Republica (que yo
+                                quiſiera la tuvieran todos) al menos les aya cabido en ſuerte a los
+                                Vtopianos, que han ſeguido tal inſtituto de vida, con que plantaron
+                                tales fundamentos de Republica, que no ſolo tiene de durar
+                                feliciſsimamente, pero (quanto le puede alcançar por conjetura
+                                humana) ha de permanecer para <pb n="51r"/>ſiempre.<anchor n="243"
+                                    xml:id="note-9-79"/></s>
                         </seg>
                         <seg n="9.109" type="sentence">
                             <s xml:id="es-9-101-1" n="es 9.101">Porque ſiendo entre ellos eſtirpados
@@ -1176,21 +1177,21 @@
                                     <lem>pero</lem>
                                     <rdg wit="1790">sino</rdg>
                                     <rdg wit="1805">sino</rdg>
-                                </app> tambien
-                                <app>
+                                </app> tambien <app>
                                     <lem>en lo que</lem>
                                     <rdg wit="1790">sobre</rdg>
                                     <rdg wit="1805">sobre</rdg>
-                                </app> el principal fundamento de toda ſu inſtitucion: eſto es de
-                                ſu modo de vivir, del ſuſtento comun, ſin comercio de dinero, <app>
-                                    <lem>con
-                                quien principalmente toda la nobleza, i eſplendor, ſegun la comun
-                                opinion, es verdadero ornamento de la Republica, de todo punto ſe
-                                deſtruye, i aniquila?</lem>
-                                    <rdg wit="1790">por el qual (aunque segun la comun opinion es verdadero
-                                    ornamento de la República) toda la nobleza y esplendor enteramente se destruye, y aniquila</rdg>
-                                    <rdg wit="1805">por el qual (aunque segun la comun opinion es verdadero
-                                        ornamento de la República) toda la nobleza y esplendor enteramente se destruye, y aniquila</rdg>
+                                </app> el principal fundamento de toda ſu inſtitucion: eſto es de ſu
+                                modo de vivir, del ſuſtento comun, ſin comercio de dinero, <app>
+                                    <lem>con quien principalmente toda la nobleza, i eſplendor,
+                                        ſegun la comun opinion, es verdadero ornamento de la
+                                        Republica, de todo punto ſe deſtruye, i aniquila?</lem>
+                                    <rdg wit="1790">por el qual (aunque segun la comun opinion es
+                                        verdadero ornamento de la República) toda la nobleza y
+                                        esplendor enteramente se destruye, y aniquila</rdg>
+                                    <rdg wit="1805">por el qual (aunque segun la comun opinion es
+                                        verdadero ornamento de la República) toda la nobleza y
+                                        esplendor enteramente se destruye, y aniquila</rdg>
                                 </app><anchor n="245" xml:id="note-9-81"/></s>
                         </seg>
                         <seg n="9.111" type="sentence">
@@ -1200,7 +1201,7 @@
                                 que algunos avian ſido reprehendidos del: por eſſo alabando la
                                 inſtitucion de los Vtopianos, i lo que avia referido, trabandole de
                                 la mano, le entre a cenar conmigo, diziendole primero que en otra
-                                ocaſion, deſpues de avello mas bien penſado, aviamos de hablar, i
+                                ocaſion, deſpues de avello mas bien <pb n="51v"/>penſado, aviamos de hablar, i
                                 conferir mas largamente eſtas materias.<anchor n="246"
                                     xml:id="note-9-82"/></s>
                         </seg>
@@ -1482,7 +1483,7 @@
                                 sacerdotes de vida santísima, mas solamente treinta por todas las
                                 ciudades, según el número de los templos.</seg>
                             <seg xml:id="em-9-37-2" n="em 9.56" corresp="#es-9-37-1">Mas cuando van
-                                a la guerra no conducen consigo más de siete de aquellos ni crían
+                                a la guerra no conducen consigo más de siete de aquellos ni crean
                                 otros siete en lugar suyo hasta que vuelven de la jornada.</seg>
                             <seg xml:id="em-9-37-3" n="em 9.57" corresp="#es-9-37-1">Y en aquella
                                 sazón, los últimos acompañan al pontífice sin que por muerte de los
@@ -3875,241 +3876,240 @@
                 <note n="165" xml:id="n-9-1" target="#note-9-1">The first imprecision in Medinilla's
                     translation is the rendering into Spanish of the title. As Cárdenas and
                     Cabanillas appoints, the Spaniard opts to translate the Latin title "De
-                    Religionibus Utopiensium" as "De la Religión" [About religion], changing the
+                    Religionibus Utopiensium" as "De la Religión" (About religion), changing the
                     number of the noun <hi>religionibus</hi> from plural to singular (Davenport and
                     Cabanillas 2008, 119). The inquisitorial censorship could have caused it and
-                    Medinilla justifies his decision on "Nota to Chapter Nono" [Note to Chapter
-                    Nine]. Medinilla omits the Latin section "non pro deo tantum, sed pro summo
-                    etiam deo suspicitur" ["not only as god but even as the supreme god" (More 1965,
-                    217, line 11)]. Besides, when Medinilla acknowledges "el origen, el aumento y la
-                    mudanza y el fin de todas las cosas" , he is omitting <hi>progressus</hi> from
-                    the element list in Latin Origines, auctus, progressus, uices, finesque rerum
-                    omnium" ["the beginnings, the growth, the increase, the changes and the ends of
-                    all things" (More 1965, 217, lines 15-16)]. Finally, the Spanish translator
-                    chooses <hi>criador</hi> [breeder] to render the pair <hi>opificium et
-                        prouidentia</hi> in Latin ["the creation and providential government of the
-                    whole world" (More 1965, 217, line 26)]. This Spanish word equals
-                        <hi>creador</hi> [creator]. The Diccionario de Autoridades indicates that
-                        <hi>criador</hi> is "atributo que solo se da a Dios como hacedor de todas
-                    las cosas" (RAE 1729) [an attribute that is only given to God, as the maker of
-                    all things]. <hi>Mythra</hi>, according to Logan, makes reference to "the spirit
-                    of light" in ancient Persian religion (More 1989, 98, note 119).></note>
+                    Medinilla justifies his decision on "Nota to Chapter Nono" (Note to Chapter
+                    Nine). Medinilla omits the Latin section "non pro deo tantum, sed pro summo
+                    etiam deo suspicitur" ("not only as god but even as the supreme god" (More 1965,
+                    217, line 11)). Besides, when Medinilla acknowledges "el origen, el aumento y la
+                    mudanza y el fin de todas las cosas," he is omitting <hi>progressus</hi> from
+                    the Latin element list "Origines, auctus, progressus, uices, finesque rerum
+                    omnium" ("the beginnings, the growth, the increase, the changes and the ends of
+                    all things" (217, lines 15-16)). Finally, the Spanish translator
+                    chooses <hi>criador</hi> (breeder) to render the Latin pair of words
+                        <hi>opificium et prouidentia</hi> ("the creation and providential government
+                    of the whole world" (217, line 26)). This Spanish word signifies the
+                    same as <hi>creador</hi> (creator). The <hi>Diccionario de Autoridades</hi>
+                    reveals that <hi>criador</hi> is "el atributo que solo se da a Dios como hacedor
+                    de todas las cosas" (RAE 1729) (an attribute that is only given to God, as the
+                    maker of all things). <hi>Mythra</hi>, according to Logan, makes reference to
+                    "the spirit of light" in ancient Persian religion (More 1989, 98n119).</note>
                 <note n="166" xml:id="n-9-2" target="#note-9-2">Medinilla renders the Latin
-                    "naturam" as "esencia" [essence] to talk about God. As far as linguistic aspects
-                    are concerned, he uses the verb "ser" with the meaning of "tener" in combination
-                    with "esencia". However, in the Spanish text the translator seems to establish a
-                    difference between God and other gods even though the Latin declares all main
-                    divines figures followed by the population share the same nature. Besides, the
-                    Latin text reads "omnium consensu gentium tribuitur" ["by the common consent of
-                    all people" (M"ore 1965, 217, line 26)] and Medinilla goes over it by simply
-                    introducing the verb form "afirman" [they affirm], in an impersonal and vague
-                    way. In the sentence "que con más razón y evidencia se prueban" [they are proven
-                    with more reason and evidence], the noun "evidencia" [evidence] is actually
-                    added by Medinilla. The Spanish translator omits part of "Neque
-                    dubium...euanuissent". Overall, Medinilla is not very precise in his
-                    rendering.</note>
+                        <hi>naturam</hi> as <hi>esencia</hi> (essence) to talk about God. As far as
+                    linguistic aspects are concerned, he uses the verb <hi>ser</hi> (to be) with the
+                    meaning of <hi>tener</hi> (to have) in combination with <hi>esencia</hi>.
+                    However, in the Spanish text the translator seems to establish a difference
+                    between God and other gods, even though the Latin text declares all main divines
+                    figures followed by the population share the same nature. Besides, the Latin
+                    text reads "omnium consensu gentium tribuitur" ("by the common consent of all
+                    people" (More 1965, 217, line 26)) and Medinilla goes over it by simply
+                    introducing the verb form afirman (they affirm), in an impersonal and vague way.
+                    In the sentence "que con más razón y evidencia se prueban" (they are proven with
+                    more reason and evidence), the noun <hi>evidencia</hi> (evidence) is actually
+                    added by Medinilla. The Spanish translator omits part of "[n]eque dubium. .
+                    .euanuissent." Overall, Medinilla is not very precise in his rendering.</note>
                 <note n="167" xml:id="n-9-3" target="#note-9-3">Medinilla omits the Latin word
-                        <hi>mores</hi> ["character" (More 1965, 217, line 37)] and simplifies "non
-                    credas quam pronis in eam affectibus etiam ipsi concesserint" ["you would not
-                    believe how readily disposed they, too, were to join it" (More 1965, 219, lines
-                    1-2.)]. The translation of the Latin word <hi>mores</hi> is not an easy task.
-                    The most obvious rendering would be customs, habits, behaviour. The Yale edition
-                    gives <hi>character</hi>, including the previous words and context. Robinson,
-                    however, uses "lawes". Medinilla prefers thus not to position himself.</note>
+                        <hi>mores</hi> ("character" (More 1965, 217, line 37)) and simplifies "non
+                    credas quam pronis in eam affectibus etiam ipsi concesserint" ("you would not
+                    believe how readily disposed they, too, were to join it" (219, lines
+                    1-2)). The translation of the Latin word <hi>mores</hi> is not an easy task. The
+                    most obvious alternative renderings would be customs, habits, behavior. The Yale
+                    edition gives character, including the previous words and context. Robinson,
+                    however, uses "lawes." Medinilla prefers thus not to position himself.</note>
                 <note n="168" xml:id="n-9-4" target="#note-9-4">This passage is risky and Medinilla
                     avoids being specific about the issue of private property and how Christ's
-                    disciples shared everything "communem suorum victum". He has no problem, unlike
-                    Robinson, with translating <hi>conventus</hi> as <hi>conventos</hi> [convents].
-                    As Lupton argues, "The marginal note in the Latin [coenobia] points the allusion
-                    to monasteries" (More 1895, 269, note 2).</note>
+                    disciples shared everything "communem suorum victum." He has no problem, unlike
+                    Robinson, with translating <hi>conventus</hi> as <hi>conventos</hi> (convents).
+                    As Lupton argues, "[t]he marginal note in the Latin [coenobia] points the
+                    allusion to monasteries" (More 1895, 269n2).</note>
                 <note n="169" xml:id="n-9-5" target="#note-9-5">Medinilla does not keep the round
                     brackets here, even though he maintains part of its content in this segment.
-                    Only "totidem enim duntaxat supereramus" ["for that was all that was left"
-                    (1965: 219 l. 12)] is removed. Both Robinson and Medinilla render "fatis
-                    concesserant" as "to die". </note>
+                    Only "totidem enim duntaxat supereramus" ("for that was all that was left" (More
+                    1965, 219, line 12)) is removed. Both Robinson and Medinilla render "fatis
+                    concesserant" as with the sense of to die.</note>
                 <note n="170" xml:id="n-9-6" target="#note-9-6">The translation of this segment and
                     the following one are not precise. The Catholic doctrine of the Seven Sacraments
                     is here taken for granted, and it is to be assumed that Hythloday and the other
-                    three administered baptism to these Utopians. As the Yale edition puts it:
-                    "Priests are the ordinary ministers of the eucharist, penance, and extreme
+                    three administered baptism to these Utopians. As the Yale edition puts it,
+                    "[p]riests are the ordinary ministers of the eucharist, penance, and extreme
                     unction; bishops, of confirmation and holy orders. The ministers of matrimony
                     are the contracting parties. In case of need, any person may baptize, provided
-                    he has the right intention" (More 1965, 519). Furthermore, the passage also
-                    deals with the question of the consecration of a man into priesthood, which can
-                    only be carried out by a bishop in union with Rome. Thomas More obviously knew
-                    that, unless a bishop was sent, there would be no ordination. This would surely
-                    clash with the willingness of the Utopians to chose a priest among
-                    themselves.</note>
+                    he has the right intention" (More 1965, 519n218/12-13). Furthermore, the
+                    passage also deals with the question of the consecration of a man into
+                    priesthood, which can only be carried out by a bishop in union with Rome. Thomas
+                    More obviously knew that, unless a bishop was sent, there would be no
+                    ordination. This would surely clash with the willingness of the Utopians to
+                    choose a priest among themselves.</note>
                 <note n="171" xml:id="n-9-7" target="#note-9-7">In More's words, Utopians who do not
                     convert to Christianity neither try to dissuade those willing to do so, nor
-                    speake against them. The Spanish translator significantly omits the last part,
+                    speak against them. The Spanish translator significantly omits the last part,
                     Hythloday's anecdote: "nisi quod unus e nostro coetu me praesente cohecitus est"
-                    ["Only one of our company, while I was there, was interfered with" (More 1965,
-                    219, lines 23-24)]. More's words: Utopians who do not convert to Christianity
-                    neither try to dissuade those willing to do so, nor speake against them. </note>
+                    ("[o]nly one of our company, while I was there, was interfered with" (More 1965,
+                    219, lines 23-24)).</note>
                 <note n="172" xml:id="n-9-8" target="#note-9-8">Medinilla excludes <hi>prophana</hi>
-                    and <hi>sacrilego</hi> (in English, "profane" and "sacrilegious"). Robinson, in
-                    contrast, chooses "prophane" and "devilish" to translate these, and "wicked" for
-                    the Latin <hi>impios</hi>. The Spanish translator inserts the <hi>Santissima
-                        Trinidad</hi> (the Trinity). </note>
+                    and <hi>sacrilege</hi> (profane and sacrilegious). Robinson, in contrast,
+                    chooses "prophane" and "devilish" to translate these, and "wicked" for the Latin
+                        <hi>impios</hi>. The Spanish translator inserts the <hi>Santissima
+                        Trinidad</hi> (the Trinity).</note>
                 <note n="173" xml:id="n-9-9" target="#note-9-9">Medinilla omits "damnatum exilio
-                    mulctant" ["His sentence after the verdict of guilty was exile" (More 1965, 219,
-                    lines 33-34)]. Also, he summarizes the beginning of this segment and the
-                    following. </note>
+                    mulctant" ("[h]is sentence after the verdict of guilty was exile" (More 1965,
+                    219, lines 33-34)). Also, he summarizes the beginning of this segment and the
+                    following.</note>
                 <note n="174" xml:id="n-9-10" target="#note-9-10">Medinilla does not make reference
                     to King Utopos, but to Utopians. He also omits the translation of "quod in
-                    commune dissidentes singulae pro patria sectae pugnabant". Robinson puts it as
+                    commune dissidentes singulae pro patria sectae pugnabant." Robinson puts it as
                     "perceyuing also that this common dissention, whyles euerye seuerall secte tooke
-                    seuerall partes in fyghting for theire countrey". The Yale edition as "He had
+                    seuerall partes in fyghting for theire countrey." The Yale edition as "[h]e had
                     made the observation that the universal dissensions between the individual sects
                     who were fighting for their country" (1965, 219, lines 38-39 - 221, lines 1-2).
                     In other words, the different sects fought for their country, but not
                     together.</note>
                 <note n="175" xml:id="n-9-11" target="#note-9-11">Medinilla does not literally
                     translate these segments. At the beginning, he chooses <hi>los Utopienses</hi>
-                    [the Utopian people] instead of mentioning king Utopus. He omits "ipsius etiam
-                    religionis interesse: de qua nihil est ausus temere definire" ["in the interest
+                    (the Utopian people) instead of mentioning king Utopus. He omits "ipsius etiam
+                    religionis interesse: de qua nihil est ausus temere definire" ("in the interest
                     of religion itself. On religion he did not venture rashly to dogmatize" (More
-                    1965, 221, lines 13-14)] and "uelut incertum habens" ["he was uncertain whether
-                    [...]" (More 1965, 221, line 14)].</note>
+                    1965, 221, lines 13-14)) and "uelut incertum habens" ("he was uncertain whether.
+                    . ." (221, line 14)).</note>
                 <note n="176" xml:id="n-9-12" target="#note-9-12">The Spanish translator mixes the
                     content in brackets with the rest of the text, although he omits the noun
-                        <hi>ratione</hi> [reason]. Medinilla translates "pessimi quique maxime
-                    peruicaces" ["the most unyielding" (More 1965, 221, line 24)] as
-                        <hi>obstinados</hi> [obstinate]. Robinson similarly opts for "obstynate and
-                    stubbume". The Tesoro de la Lengua defines <hi>obstinado</hi> as "el porfiado en
-                    el mal" ["persistent in evil"] (Covarrubias 1611, 567r). Besides, he uses
-                        <hi>abrojos</hi> to translate <hi>frutices</hi> ["underbrush" (More 1965,
-                    221, line 26)]. Abrojo is "el fruto que da la planta llamada Tribulo" (RAE 1726)
-                    [a specific type of fruit that the plant Tribulus produces]. Furthermore,
-                    Medinilla provides this sentence with biblical overtones: it reminds us of Math.
-                    13, 22; Mark 4:7, 18-19; Luke 8:7, 14. and Heb. 6, 8. See also the Yale edition
-                    (1965, 522). Lupton makes an interesting and long comment on the issue of
-                    religious tolerance as practiced in Utopia and More's personal views (1895,
-                    272-274, note 1). </note>
-                <note n="177" xml:id="n-9-13" target="#note-9-13">Medinillas translation retains the
-                    basic ideas: the existence of an inmortal soul and that God's providence governs
-                    the world. The transition to the next idea (reward or punishment for good or bad
-                    actions after death) comes in <hi>queriendo</hi>, which has to be understood as
-                    "believing".</note>
+                        <hi>ratione</hi> (reason). Medinilla translates "pessimi quique maxime
+                    peruicaces" ("the most unyielding" (More 1965, 221, line 24)) as
+                        <hi>obstinados</hi> (obstinate). Robinson similarly opts for "obstynate and
+                    stubbume." The <hi>Tesoro de la Lengua</hi> defines <hi>obstinado</hi> as "el
+                    porfiado en el mal" (Covarrubias 1611, 1:567r) (the one persistent in evil).
+                    Besides, he uses <hi>abrojos</hi> to translate <hi>frutices</hi> ("underbrush"
+                    (More 1965, 221, line 26)). <hi>Abrojo</hi> is "el fruto que da la planta
+                    llamada Tribulo" (RAE 1726) (a specific type of fruit that the plant Tribulus
+                    produces). Furthermore, Medinilla provides this sentence with biblical
+                    overtones, see also the Yale edition (1965, 522n220/16-17). Lupton makes an
+                    interesting and long comment on the issue of religious tolerance as practiced in
+                    Utopia and More's personal views (1895, 272-274n1).</note>
+                <note n="177" xml:id="n-9-13" target="#note-9-13">Medinilla's translation retains
+                    the basic ideas: the existence of an immortal soul and that God's providence
+                    governs the world. The transition to the next idea (reward or punishment for
+                    good or bad actions after death) comes in queriendo, which needs to be
+                    understood as "believing."</note>
                 <note n="178" xml:id="n-9-14" target="#note-9-14">The Spanish translator integrates
                     the content in brackets inside the text. Medinilla curiously renders "si per
-                    metum liceat" ["if it were not for fear" (More 1965, 221, line 39)] as "que no
-                    siendo enfrenados del temor" [not being restrained by fear"]. The Spaniard
+                    metum liceat" ("if it were not for fear" (More 1965, 221, line 39)) as "que no
+                    siendo enfrenados del temor" (not being restrained by fear). The Spaniard
                     chooses the verb <hi>enfrenar</hi>, which is mainly used in horse riding with
-                    the meaning "to halt a horse". The Diccionario de Autoridades gathers this
-                    metaphorical sense, thus signifying "contener, reducir a la razón, atajar y
-                    poner freno a los desórdenes" (RAE 1732) [contain, reduce to reason, solve and
-                    stop disorders]. </note>
+                    the meaning of "to halt a horse." The <hi>Diccionario de Autoridades</hi>
+                    gathers this metaphorical sense, thus signifying "contener, reducir a la razón,
+                    atajar y poner freno a los desórdenes" (RAE 1732) (to contain, to reduce to
+                    reason, to solve and to stop disorders).</note>
                 <note n="179" xml:id="n-9-15" target="#note-9-15">Medinilla renders <hi>priuatim
-                        cupiditati</hi> ["private desires" (More 1965, 223, line 2)] as
-                        <hi>apetito</hi> [appetite]. </note>
+                        cupiditati</hi> ("private desires" (More 1965, 223, line 2)) as
+                        <hi>apetito</hi> (appetite).</note>
                 <note n="180" xml:id="n-9-16" target="#note-9-16">Medinilla summarizes here. "[N]i
-                    les dan puestos" [they don't offer them positions] brings together "nullus
-                    magistratus committitur" and "nullo publico muneri praeficitur" ["[an
+                    les dan puestos" (they don't offer them positions) brings together the segments
+                    "nullus magistratus committitur" and "nullo publico muneri praeficitur" ("[an
                     individual] is entrusted with no office" and "is put in charge of no function"
-                    (More 1965, 223, line 5)]. When Medinilla describes Utopians' reasons for not
+                    (More 1965, 223, line 5)). When Medinilla describes Utopians' reasons for not
                     punishing disbelief, his words offer some ambiguity: does he mean that those who
-                    do not believe might one day do, or rather -as in the Latin original- that they
+                    do not believe might one day do, or rather, as in the Latin original, that they
                     are not to be blamed for their disbelief? That is, belief does not depend on
                     will, which is also an interesting debate.</note>
-                <note n="181" xml:id="n-9-17" target="#note-9-17">"Al que le agrada" [The one who is
-                    pleased with his disbelief] refers to the type of person described in the
-                    previous sentence. Medinilla does not translate the second part of the Latin
-                    sentence. </note>
+                <note n="181" xml:id="n-9-17" target="#note-9-17">"Al que le agrada" (the one who is
+                    pleased by that) refers to the type of person described in the previous sentence.
+                    Medinilla does not translate the second part of the Latin sentence.</note>
                 <note n="182" xml:id="n-9-18" target="#note-9-18">Medinilla claims that Utopian
                     authorities encourage priests to dispute religious views with the dissident. The
-                    Latin text and Robinson argues that dissidents are encouraged to contrast their
+                    Latin text and Robinson argue that dissidents are encouraged to contrast their
                     views with those of priests.</note>
                 <note n="183" xml:id="n-9-19" target="#note-9-19">The Spanish translator excludes
                     part of the sentence in Latin. These dissidents hold some reasonable views and
-                    are neither wicked nor evil, Medinilla is likely to be reluctant to make
-                    reference to this kind of heretics.</note>
-                <note n="184" xml:id="n-9-20" target="#note-9-20"><hi>Aguero</hi> ["omen" in
-                    English] is the word used by Medinilla to render <hi>augurio</hi> ["omen" (More
-                    1965, 223, line 25)]. Covarrubias defines it as "género de adivinanza por el
-                    vuelo de las aves y por su canto o por el modo de picar los granos o migajas que
-                    les echaban para conjeturar los augures buenos o malos sucesos [...]. Todo se
-                    entiende entre gentiles y bárbaros y no entre cristianos" (1611, 22r) [a kind of
-                    riddle based on the flight of birds and their song or on the way they peck the
-                    grains and crumbs that were thrown to them to predict good or bad events [...].
-                    This is used among gentiles and barbarians and not among Christians"]. The fact
-                    that this term is mainly used to refer to other believes outside Catholicism
-                    reveals Medinilla's view on Utopian religions.</note>
+                    are neither wicked nor evil, Medinilla is likely to be reluctant to refer to
+                    this kind of heretics.</note>
+                <note n="184" xml:id="n-9-20" target="#note-9-20"><hi>Aguero</hi> (omen) is the word
+                    used by Medinilla to render <hi>augurio</hi> ("omen" (More 1965, 223, line 25)).
+                    Covarrubias defines it as "género de adivinanza por el vuelo de las aves y por
+                    su canto o por el modo de picar los granos o migajas que les echaban para
+                    conjeturar los augures buenos o malos sucesos. . . . Todo se entiende entre
+                    gentiles y bárbaros y no entre cristianos" (1611, 1:22r) (a kind of riddle based
+                    on the flight of birds and their song or on the way they peck the grains and
+                    crumbs that were thrown to them to predict good or bad events. . . . This is
+                    used among gentiles and barbarians and not among Christians). The fact that this
+                    term is mainly used to refer to other believes outside Catholicism reveals
+                    Medinilla's view on Utopian religions.</note>
                 <note n="185" xml:id="n-9-21" target="#note-9-21">The Spanish translator renders
-                        <hi>ac silentes</hi> [in silence] as <hi>sin pompa</hi> [without
-                    obstentation]. Covarrubias defines pompa as "el acompañamiento suntuoso de gran
-                    aparato, ora sea de regocijo o de tristeza" (1611, 592r) [the sumptuous,
-                    numerous and grand accompaniment, whether of joy or sadness]. Medinilla seems to
-                    censor this section, omitting some details and "terra cadauer obruunt" ["they
-                    cover the corpse with earth" (More 1965, 223, line 33)]. This opens the question
+                        <hi>ac silentes</hi> (in silence) as <hi>sin pompa</hi> (without
+                    obstentation). Covarrubias defines <hi>pompa</hi> as "el acompañamiento suntuoso
+                    de gran aparato, ora sea de regocijo o de tristeza" (1611, 1:592r) (the sumptuous,
+                    numerous and grand accompaniment, whether of joy or sadness). Medinilla seems to
+                    censor this section, omitting some details and "terra cadauer obruunt" ("they
+                    cover the corpse with earth" (More 1965, 223, line 33)). This opens the question
                     whether Medinilla is not including the reference to inhumation among the
                     Utopians as the burial for those with a restless mind because inhumation is the
                     general practice among Christians.</note>
                 <note n="186" xml:id="n-9-22" target="#note-9-22">Medinilla might feel uncomfortable
-                    with this. Cremation was, in general terms, not practised in Christian churches
-                    for its pagan implications. So inhumation is for the bad, and cremation for the
+                    with this. Cremation was, in general terms, not practiced in Christian churches
+                    for its pagan implications: inhumation is for the bad, and cremation for the
                     good.</note>
                 <note n="187" xml:id="n-9-23" target="#note-9-23">Medinilla summarizes the content
                     here. </note>
                 <note n="188" xml:id="n-9-24" target="#note-9-24">Medinilla simplifies the syntax of
                     the Latin text. Again, he mixes the content in brackets with the text.</note>
                 <note n="189" xml:id="n-9-25" target="#note-9-25">Robinson utilizes the nouns
-                    "conuersaunte" and "conuersacion" with an obsolete sense, according to the OED,
-                    "conversant" means "Dwelling habitually or frequently, accustomed to live or
-                    abide, passing much of one's time, in [sic] a place" and "conversation", ""The
+                    "conuersaunte" and "conuersacion" with an obsolete sense, according to the OED (2024):
+                    "conversant" means "[d]welling habitually or frequently, accustomed to live or
+                    abide, passing much of one's time, in [sic] a place" and "conversation," "The
                     action of living or having one's being in a place or among persons. Also
-                    figurative of one's spiritual being".</note>
+                    figurative of one's spiritual being."</note>
                 <note n="190" xml:id="n-9-26" target="#note-9-26">Medinilla omits the reference to
-                    the high frecuency of miracles, "qualia et ibi fre­quenter extare ferunt" ["In
-                    their country, too, they say, miracles often occur" (More 1965, 225, line 22)].
+                    the high frequency of miracles, "qualia et ibi frequenter extare ferunt" ("[i]n
+                    their country, too, they say, miracles often occur" (More 1965, 225, line 22)).
                     Furthermore, Medinilla seems to misinterpret the meaning of the last sentence:
                     the Spanish text makes reference to prayers to appease God, whereas the Latin
                     text and Robinson makes reference to petition prayers.</note>
                 <note n="191" xml:id="n-9-27" target="#note-9-27">Opposite to the previous segment,
-                    he now renders <hi>deo</hi> [to God] as <hi>cielo</hi> [heaven].</note>
-                <note n="192" xml:id="n-9-28" target="#note-9-28"><hi>Grosero</hi> [rude] is
+                    he now renders <hi>deo</hi> (to God) as <hi>cielo</hi> (heaven).</note>
+                <note n="192" xml:id="n-9-28" target="#note-9-28"><hi>Grosero</hi> (rude) is
                     Medinilla's choice for the combination of Latin adjectives "asperum, difficile,
-                    dordidurn" ["rough, hard, and filthy" (More 1965, 225, line 36)]. Covarrubias
+                    dordidurn" ("rough, hard, and filthy" (More 1965, 225, line 36)). Covarrubias
                     defines it as "todo aquello que está hecho sin pulicia, talle, ni arte" (1611,
-                    450) [everything that is made without polish, carving or art]. Also, he omits
-                    "fasdium, desperatio" ["digust, and despair" (More 1965, 225, line 37)]. This is
-                    another example of content simplification. </note>
+                    1:450) (everything that is made without polish, carving or art). Also, he omits
+                        <hi>fastidium</hi> and <hi>desperatio</hi> ("disgust, and despair" (225,
+                    line 37)). This is another example of content simplification.</note>
                 <note n="193" xml:id="n-9-29" target="#note-9-29">Medinilla again summarizes.</note>
                 <note n="194" xml:id="n-9-30" target="#note-9-30">The Spanish translator selects
-                        <hi>sabios</hi> [wise] to translate <hi>sanctiores</hi> ["the holier" (More
-                    1965, 227, line 17)].</note>
-                <note n="195" xml:id="n-9-31" target="#note-9-31">It is really interesting how
-                    Medinilla completely alters the definition of <hi>Buthrescas</hi>. Instead of
-                    "quod uerbum latine religiosos licet interpretari" ["a word which may be
-                    translated as 'religious par excellence'" (More 1965, 227, lines 24-25)], he
-                    defines them as <hi>supersticiosos</hi> [supersticious]. This completely changes
-                    the idea of the original sentence. It is likely that he thinks that
-                        <hi>Buthrescae</hi> is a reference to those who choose celibacy and
-                    austerity, but not because of religion. Therefore, he is forced to alter the
-                    meaning.</note>
+                        <hi>sabios</hi> (wise) to translate <hi>sanctiores</hi> ("the holier" (More
+                    1965, 227, line 17)).</note>
+                <note n="195" xml:id="n-9-31" target="#note-9-31">Medinilla seems to completely
+                    alter the definition of <hi>Buthrescas</hi> in accordance with the source text.
+                    Instead of "quod uerbum latine religiosos licet interpretari" ("a word which may
+                    be translated as 'religious par excellence'" (More 1965, 227, lines 24-25)), he
+                    defines them as <hi>supersticiosos</hi> (supersticious). This changes the idea
+                    of the original sentence. It is likely that he believes <hi>Buthrescae</hi> is a
+                    reference to those who choose celibacy and austerity, but not because of
+                    religion. Therefore, he is forced to alter the meaning.</note>
                 <note n="196" xml:id="n-9-32" target="#note-9-32">Medinilla renders
-                        <hi>tredecim</hi> as "thirty" instead of "thirteen". Besides, Medinilla does
-                    not understand the process: the original Latin text states (with Robinson) that
-                    while seven priests are away in warfare, they are substituted by other seven.
-                    When the former return, they are sent back to their places. The Spanish
+                        <hi>tredecim</hi> as "thirty" instead of "thirteen." Besides, Medinilla
+                    seems not to understand the depicted process: the original Latin text states
+                    that while seven priests are away in warfare, they are substituted by other
+                    seven. When the former return, they are sent back to their places, but Medinilla
+                    indicates they are not substituted in the meantime, "ni crean a otros siete en
+                    lugar suyo" (they do not put seven others in their place). Later, the Spanish
                     translator does not translate the following sentence.</note>
                 <note n="197" xml:id="n-9-33" target="#note-9-33">Lupton claims here there is one
                     line omitted in the 1551 edition: it starts in the first syllable of "aouydinge"
-                    and ends with "they be consecrate", in Latin it corresponds to "ad studia
-                    uitanda". The 1556 edition supplies it with "uoyding of strife. After their
-                    election". The Yale edition reads in English "avoid party spirit" (More 1965,
-                    227, line 35). Medinilla translates it as "porque no nazca odio entre ellos" [so
-                    that hatred does not arise between them].</note>
+                    and ends with "they be consecrate," in Latin it corresponds to "ad studia
+                    uitanda." The 1556 edition supplies it with "uoyding of strife. After their
+                    election." The Yale edition reads in English "avoid party spirit" (More 1965,
+                    227, line 35). Medinilla translates it as "porque no nazca odio entre ellos" (so
+                    that hatred does not arise between them).</note>
                 <note n="198" xml:id="n-9-34" target="#note-9-34">Medinilla summarizes these
-                    sentences and removes part of its content: "magnoque pudori ducitur ab hiis
-                    quen­quam, tanquam uitae parum probatae, accersi compellariue" ["It is counted a
-                    great disgrace for a man to be summoned or rebuked by them as not being of
-                    upright life" (More 1965, 227, lines 38-39)]. This section talks about priests
+                    sentences and removes the following passage "magnoque pudori ducitur ab hiis
+                    quen-quam, tanquam uitae parum probatae, accersi compellariue" ("[i]t is counted
+                    a great disgrace for a man to be summoned or rebuked by them as not being of
+                    upright life" (More 1965, 227, lines 38-39)). This section talks about priests,
                     and it is likely that the Spanish translator censored his own text to avoid
-                    disputes with the Inquisition. </note>
+                    disputes with the Inquisition.</note>
                 <note n="199" xml:id="n-9-35" target="#note-9-35">Medinilla directly transfers the
-                    meaning of <hi>Senatui</hi> [Senate] to <hi>magistrados</hi> [magistrates]. </note>
+                    meaning of <hi>Senatui</hi> (Senate) to <hi>magistrados</hi>
+                    (magistrates).</note>
                 <note n="200" xml:id="n-9-36" target="#note-9-36">Medinilla slightly alters the
                     meaning of the Latin excerpt. He says the priests are more concerned with moral
                     instruction than with teaching the kids humane learning. Robinson gets it right:
@@ -4117,352 +4117,358 @@
                 <note n="201" xml:id="n-9-37" target="#note-9-37">Medinilla incorrectly claims the
                     republic will decay not only because of vice, but because of evil ideas in
                     contrast to the Latin "qui non nisi uitiis dilabitur, quae ex peruersis
-                    nascuntur opinionibus". The sense is rightly expressed in Robinson. The Yale
-                    edition reads "The latter never decays except through vices which arise from
-                    wrong attitudes" (1965, 229, lines 17-18).</note>
+                    nascuntur opinionibus" ("[t]he latter never decays except through vices which
+                    arise from wrong attitudes" (More 1965, 229, lines 17-18)). The sense is rightly
+                    expressed in Robinson.</note>
                 <note n="202" xml:id="n-9-38" target="#note-9-38">The Spanish translator reorders
                     the elements of the sentence, again integrating the texts contained in brackets
                     with the main text. Medinilla adds extra information indicating that
-                        <hi>matronas</hi> [mothers, married women] are made <hi>sacerdotisas</hi>
-                    [priestesses]. Covarrubias indicates that matrona means "madre" (1611, 543r)
-                    [mother]. Medinilla also avoids translating "ni foeminae sint, nam neque ille
-                    sexus excluditur" ["the feminine sex is not debarred from the priesthood" (More
-                    1965, 229, lines 19-20)].</note>
-                <note n="203" xml:id="n-9-39" target="#note-9-39">"[Q]uantumuis scelestum" ["however
-                    guilty" (More 1965, 229, line 26)] is not translated by Medinilla.</note>
-                <note n="204" xml:id="n-9-40" target="#note-9-40">Medinilla removes
-                        <hi>corruptelam</hi> ["corruption" (More 1965, 229, line 33)], only leaving
-                        <hi>uitium</hi> ["wickedness" (More 1965, 229, line 33)]. He thus slightly
-                    changes the meaning of the Latin.</note>
+                        <hi>matronas</hi> (mothers, married women) are made <hi>sacerdotisas</hi>
+                    (priestesses). Covarrubias indicates that <hi>matrona</hi> means "madre" (1611,
+                    1:543r) (mother). Medinilla also avoids translating "ni foeminae sint, nam neque
+                    ille sexus excluditur" ("the feminine sex is not debarred from the priesthood"
+                    (More 1965, 229, lines 19-20)).</note>
+                <note n="203" xml:id="n-9-39" target="#note-9-39">"[Q]uantumuis scelestum" ("however
+                    guilty" (More 1965, 229, line 26)) is not translated by Medinilla.</note>
+                <note n="204" xml:id="n-9-40" target="#note-9-40">Medinilla removes corruptelam
+                    ("corruption" (More 1965, 229, line 33)), only leaving uitium ("wickedness"
+                    (229, line 33)). He thus slightly changes the meaning of the
+                    Latin.</note>
                 <note n="205" xml:id="n-9-41" target="#note-9-41">The Spanish translator simplifies
                     the original idea.</note>
                 <note n="206" xml:id="n-9-42" target="#note-9-42">Medinilla does not literally
                     render these segments.</note>
                 <note n="207" xml:id="n-9-43" target="#note-9-43">Medinilla partially translates
-                    this segment: he drops out "uidisse tantum atque appellasse praesentes ad uitam
-                    satis" ["[m]erely to see and to appeal to them suffices to save one's life"
-                    (More 1965, 231, lines 14-15)].</note>
+                    this segment. He drops out "uidisse tantum atque appellasse praesentes ad uitam
+                    satis" ("[m]erely to see and to appeal to them suffices to save one's life"
+                    (More 1965, 231, lines 14-15)).</note>
                 <note n="208" xml:id="n-9-44" target="#note-9-44">The Spanish translator incorrectly
-                    translates the Latin "diffiuentium contactus uestium reliquas quoque fortunas ab
-                    omni bellorum iniuria defendit" ["to touch their flowing garments protects one's
-                    remaining goods from every harm arising from war" (More 1965, 231, lines
-                    16-17)]. He rather puts "[t]anta reverencia dan a estos que no se atreven a
-                    tocarles las vestiduras" [they give such reverence to these that they do not
-                    dare to touch their garments].</note>
-                <note n="209" xml:id="n-9-45" target="#note-9-45">Medinilla paraphrases the ideas in
+                    translates the Latin passage "diffiuentium contactus uestium reliquas quoque
+                    fortunas ab omni bellorum iniuria defendit" ("to touch their flowing garments
+                    protects one's remaining goods from every harm arising from war" (More 1965,
+                    231, lines 16-17)). He rather puts "[t]anta reverencia dan a estos que no se
+                    atreven a tocarles las vestiduras" (they give such reverence to these that they
+                    do not dare to touch their garments).</note>
+                <note n="209" xml:id="n-9-45" target="#note-9-45">Medinilla paraphrases the ideas of
                     the Latin text.</note>
                 <note n="210" xml:id="n-9-46" target="#note-9-46">The Yale edition provides a
-                    complete analysis of the nouns Cynemernos and Trapemernos (1965, 549, note
-                    230/27). Robinson changes the expected spelling of the word: "Lynemernes"
-                    instead of "Cynemernes". Lupton claims the basis of this decision is not clear,
-                    offering the hypothesis that Robinson introduced the letter l for <hi>luna</hi>
-                    (1895, 289, n. 1). Other editors have suggested a typo in Robinson's original
-                    edition. See page 228 in J. Rawson Lumby's edition (1902) <hi>Sir Thomas More.
-                        Utopia.</hi></note>
+                    complete analysis of the nouns <hi>Cynemernos</hi> and <hi>Trapemernos</hi>
+                    (More 1965, 549n230/27). Robinson changes the expected spelling of the word,
+                    "Lynemernes" instead of "Cynemernes." Lupton claims the basis of this decision
+                    is not clear, offering the hypothesis that Robinson introduced the letter
+                        <hi>l</hi> for <hi>luna</hi> (moon) (1895, 289n1). Other editors have
+                    suggested a typo in Robinson's original edition. See page 228 in J. Rawson
+                    Lumby's edition (1922) <hi>Sir Thomas More. Utopia</hi> for more
+                    information.</note>
                 <note n="211" xml:id="n-9-47" target="#note-9-47">Medinilla seems more precise than
                     Robinson in the translation of this Latin segment.</note>
                 <note n="212" xml:id="n-9-48" target="#note-9-48">Robinson gives the doublet
-                    "religion and deuocion" for <hi>religionem</hi>. </note>
+                    "religion and deuocion" for <hi>religionem</hi>.</note>
                 <note n="213" xml:id="n-9-49" target="#note-9-49">Medinilla is fairly accurate, if
                     only the reader must understand that <hi>cosas públicas</hi> makes reference to
                     public religious ceremonies for all.</note>
-                <note n="214" xml:id="n-9-50" target="#note-9-50">This typo is present also in
+                <note n="214" xml:id="n-9-50" target="#note-9-50">This typo, "the the" is present in
                     Robinson's original edition.</note>
                 <note n="215" xml:id="n-9-51" target="#note-9-51">There are some interesting words
                     introduced by the Spanish translator. The Latin word <hi>gestus</hi> is
-                    translated as "acciones, visajes y meneos" in the Spanish version [actions,
-                    grimace and wags] whereas the English one presents "gestures and behauiours".
-                    Covarrubias defines visaje as "la mudanza del rostro que se pone y se quita
-                    mensajera de la pasión que está detrás del alma" (1611, 76r) [the change of the
-                    face that comes and goes, messenger of the passion of the soul]. Also,
-                        <hi>meneo</hi> is "el movimiento del cuerpo con donaire o sin él" (1611,
-                    546r) [the movement of the body with or without grace]. <hi>[M]ozo</hi> and
+                    translated as "acciones, visajes y meneos" in the Spanish version (actions,
+                    grimace and wags) whereas the English one presents "gestures and behauiours."
+                    Covarrubias defines <hi>visaje</hi> as "la mudanza del rostro que se pone y se
+                    quita mensajera de la pasión que está detrás del alma" (1611, 1:76r) (the change
+                    of the face that comes and goes, messenger of the passion of the soul). Also,
+                        <hi>meneo</hi> is "el movimiento del cuerpo con donaire o sin él" (1:546r)
+                    (the movement of the body with or without grace). <hi>Mozo</hi> and
                         <hi>muchacho</hi> are used indistinctively with the meaning of "la edad
-                    juvenil" (Covarrubias 1611, 551v) [youth age]. In relation to this, niñería
-                    makes reference to "todo lo que es de niños y de poca consideración" (1611,
-                    564r) [everything that is childish and of little consideration"]. Finally,
-                    Medinilla opts for <hi>aguijón</hi> [sting] to translate <hi>incitamentum</hi>
-                    ["stimulus" (1965, 235, line 8)]. This metaphorically means "toda la pena que
-                    aflige, o de aquello que estimula, obliga y fuerza" (RAE, 1726) [all the pain
-                    that afflicts, or stimulates, obliges and forces]. Furthermore, Medinilla avoids
-                    translating "erga superos" ["towards the gods" (More 1965, 235, line 7)] towards
-                    those up in the skies, the gods, as can be seen in "en el cual principalmente
-                    deben aprender el temor religioso" [in which they must mainly learn religious
-                    fear]. Robinson uses the singular "god" to translate it and seems to render
-                        <hi>religiosum</hi> as "religious and devout", like he did before (see note
-                    **).</note>
+                    juvenil" (551v) (youth age). In relation to this, <hi>niñería</hi> refers to
+                    "todo lo que es de niños y de poca consideración" (1:564r) (everything that is
+                    childish and of little consideration). Finally, Medinilla opts for
+                        <hi>aguijón</hi> (sting) to translate <hi>incitamentum</hi> ("stimulus"
+                    (More 1965, 235, line 8)). This metaphorically means "toda la pena que aflige, o
+                    de aquello que estimula, obliga y fuerza" (RAE, 1726) (all the pain that
+                    afflicts, or stimulates, obliges and forces), according to the <hi>Diccionario
+                        de Autoridades</hi>. Furthermore, Medinilla avoids translating "erga
+                    superos" ("towards the gods" (235, line 7)), as can be seen in "en el cual
+                    principalmente deben aprender el temor religioso" (in which they must mainly
+                    learn religious fear). Robinson uses the singular form "god" to translate it and
+                    seems to render <hi>religiosum</hi> as "religious and devout," like he did
+                    before (see note 212 in this chapter).</note>
                 <note n="216" xml:id="n-9-52" target="#note-9-52">Medinilla opts for <hi>hostias
-                        cruentas</hi> [bloody sacrifices] to translate <hi>sanguine</hi>. Robinson
-                    once agains uses a pair of words, which is "bloud and slaughter". The Tesoro de
-                    la Lengua reveals that <hi>hostia</hi> refers to "la res que se sacrificaba
-                    antes de emprender alguna guerra o dar alguna batalla" (1611, 480v) [the cattle
-                    that was sacrificed before starting a war or a battle"]. <hi>[C]ruenta</hi> does
-                    not appear in the Tesoro de la Lengua nor the Diccionario de Autoridades; the
-                    DRAE (2023) defines it as "sangriento" [bloody]. Finally, the Spanish translator
-                    translates "ut uiuerent" ["that they might enjoy life" (More 1965, 235, 11)]
-                    with the nuance of enjoying life. </note>
+                        cruentas</hi> (bloody sacrifices) to translate <hi>sanguine</hi>. Robinson
+                    once again uses a pair of words, "bloud and slaughter." The <hi>Tesoro de la
+                        Lengua</hi> reveals that <hi>hostia</hi> refers to "la res que se
+                    sacrificaba antes de emprender alguna guerra o dar alguna batalla" (Covarrubias
+                    1611, 1:480v) (the cattle that was sacrificed before starting a war or a battle).
+                        <hi>Cruenta</hi>, however, does not appear in the <hi>Tesoro de la
+                        Lengua</hi> nor the <hi>Diccionario de Autoridades</hi>; the DRAE (2023)
+                    defines it as "sangriento" (bloody). Finally, the Spanish governor translates
+                    "ut uiuerent" ("that they might enjoy life" (More 1965, 235, 11)) with the
+                    nuance of enjoying life.</note>
                 <note n="217" xml:id="n-9-53" target="#note-9-53">For the meaning of
-                        <hi>antorcha</hi>, see previous note **. This term is Medinilla's choice to
-                    translate <hi>cereos</hi>. Robinson uses "candelles and tapers", adding thus the
-                    noun "tapers". Lupton offers an explanation of its meaning (see page 294, note
-                    1). The idea in the Latin text is, as the Yale edition puts it, "that these
-                    things add nothing to the divine nature, any more than do human prayers" (235,
-                    lines 13-15), which implies that there is nothing the man can do that may
-                    enlarge God's nature. While Medinilla certainly gets this sense right, Robinson
-                    provides "auaylable to the divine nature". "[A]uaylable could have the meaning
-                    of "advantageous, benefitial, useful, profitable" (OED, 2024). Besides,
-                        <hi>innoxium</hi> describes something or someone that does not cause harm,
-                    damage, or injury (Lewis and Short, 1879). The Yale edition puts "sed et
-                    innoxium colendi genus placet" as "but they like this harmless kind of worship"
-                    (1965, 235, line 15). Medinilla correspondingly uses inculpable with the sense
-                    of "que no tiene culpa o es incapaz de ella" [that is not guilty or is incapable
-                    of it].</note>
-                <note n="218" xml:id="n-9-54" target="#note-9-54">Robinson gives "churche", and
+                        <hi>antorcha</hi>, see previous note 140 on chapter seven. This term is
+                    Medinilla's choice to render <hi>cereos</hi>. Robinson uses "candelles and
+                    tapers," adding thus the noun "tapers." Lupton (1895) explains its meaning on
+                    page 294, note 1. The idea in the Latin text is, as the Yale edition puts it,
+                    "that these things add nothing to the divine nature, any more than do human
+                    prayers" (More 1965, 235, lines 13-15), which implies that there is nothing the
+                    man can do that may enlarge God's nature. While Medinilla certainly gets this
+                    sense right, Robinson provides "auaylable to the divine nature." "The adjective
+                    "auaylable" could have the meaning of "advantageous, benefitial, useful,
+                    profitable" (OED, 2024). Besides, <hi>innoxium</hi> describes something or
+                    someone that does not cause harm, damage, or injury (Lewis and Short 1879). The
+                    Yale edition puts "sed et innoxium colendi genus placet" as "but they like this
+                    harmless kind of worship" (More 1965, 235, line 15). Medinilla correspondingly
+                    uses <hi>inculpable</hi> with the sense of "que no tiene culpa o es incapaz de
+                    ella" (that is not guilty or is incapable of it).</note>
+                <note n="218" xml:id="n-9-54" target="#note-9-54">Robinson gives "churche," and
                     Medinilla provides <hi>templos</hi> for the singular Latin noun <hi>templo</hi>,
                     thus reminding readers of the fact that Utopians are heathen after all.</note>
                 <note n="219" xml:id="n-9-55" target="#note-9-55">Medinilla uses the verb
-                        <hi>decir</hi> with the meaning of "orar y predicar" (RAE 1732) [pray and
-                    preach] in "quae per sacrificos diligenter traditur" ["[b]y knowing the meaning
-                    as it is carefully handed down by the priests" (More 1965, 235, lines 27 and
-                    28)].</note>
+                        <hi>decir</hi> (to say) with the meaning of "orar y predicar" (RAE 1732)
+                    (pray and preach) in "quae per sacrificos diligenter traditor" ("[b]y knowing
+                    the meaning as it is carefully handed down by the priests" (More 1965, 235,
+                    lines 27-28)).</note>
                 <note n="220" xml:id="n-9-56" target="#note-9-56">The Spanish translator chooses
-                        <hi>sacristía</hi> ["sacristy" in English] to render the Latin word
-                        <hi>Adyto</hi>. Lewis and Short defines this term as "the innermost part of
-                    a temple, the sanctuary, which none but priests could enter, and from which
-                    oracles were delivered" (1879), which does not have a particular Christian or
-                    specifically Catholic connotation. However, Covarrubias depicts it as "el lugar
-                    donde se guardan los ornamentos y plata de la Iglesia dentro de la cual suele
-                    estar el espacio que llaman Sagrario" (1611, II: 17v) [the place where the
-                    church's ornaments and silver are kept, within which is usually the space called
-                    the sanctuary]. In the translation of the sentence "tam alto ab omni parte
-                    silentio, ut ipsa rei facies terrorem quendam uelut praesentis cuius­piam
-                    numinis incutiat" ["the very appearance of the congregation strikes one with awe
-                    as if some divine power were really present" (More 1965, 235, lines 32-34)],
-                    Robinson implies the Utopians themselves are frightened by the action "into
-                    them" whereas the original implies that if anyone was to witness this, he would
-                    be frightened. Medinilla is closer to the Yale translation.</note>
+                        <hi>sacristía</hi> (sacristy) to render the Latin word <hi>Adyto</hi>. Lewis
+                    and Short (1879) defines the later as "the innermost part of a temple, the
+                    sanctuary, which none but priests could enter, and from which oracles were
+                    delivered," which does not have a particular Christian or specifically Catholic
+                    connotation. However, Covarrubias depicts <hi>sacristía</hi> as "el lugar donde
+                    se guardan los ornamentos y plata de la Iglesia dentro de la cual suele estar el
+                    espacio que llaman Sagrario" (1611, 2:17v) (the place where the church's
+                    ornaments and silver are kept, within which is usually the space called the
+                    sanctuary). In the translation of the sentence "tam alto ab omni parte silentio,
+                    ut ipsa rei facies terrorem quendam uelut praesentis cuiuspiam numinis incutiat"
+                    ("the very appearance of the congregation strikes one with awe as if some divine
+                    power were really present" (More 1965, 235, lines 32-34)), Robinson implies the
+                    Utopians themselves are frightened by the action "into them" whereas the
+                    original implies that if anyone was to witness this, he would be frightened.
+                    Medinilla is closer to the Yale translation.</note>
                 <note n="221" xml:id="n-9-57" target="#note-9-57">For Medinilla, European musicians
                     stand no chance when compared to Utopians, being the later sweeter. Robinson
                     makes a different statement: European musicians might be sweeter than Utopians,
                     but some of their musicians are better than ours. The Yale edition coincides
-                    with that of Medinilla: "Very many of them surpass in sweetness those in use
-                    with us but some are not even comparable with ours" (1965, 237, lines
+                    with that of Medinilla: "[v]ery many of them surpass in sweetness those in use
+                    with us but some are not even comparable with ours" (More 1965, 237, lines
                     1-2).</note>
                 <note n="222" xml:id="n-9-58" target="#note-9-58">Medinilla is not precise at the
                     beginning of the segment "[v]erum una in re haud dubie longo nos interuallo
-                    praecellunt" ["[b]ut in one respect undoubtly they are far ahead of us" (More
-                    1965, 237, lines 2-3)]. His translation, however, reads "[y] principalmente, sin
-                    género de duda, no se exceden mucho" [and above all, without a doubt, they do
-                    not go too far]. Moreover, at the end of the segment, the Spanish translator
-                    does not render <hi>irata</hi> ["angry" (More 1965, 237, line 7)].</note>
+                    praecellunt" ("[b]ut in one respect undoubtly they are far ahead of us" (More
+                    1965, 237, lines 2-3)). His translation, however, reads "[y] principalmente, sin
+                    género de duda, no se exceden mucho" (and above all, without a doubt, they do
+                    not go too far). Moreover, at the end of the segment, the Spanish translator
+                    does not render <hi>irata</hi> ("angry" (More 1965, 237, line 7)).</note>
                 <note n="223" xml:id="n-9-59" target="#note-9-59">Medinilla wrongly translates "ita
-                    compositas ut" ["so drawn up" (More 1965, 237, line 12)], as "tan bien
-                    compuestas y ordenadas que" [so very well composed and ordered that]. It should
-                    be "compuestas [y ordenadas] de tal forma que" [composed and ordered so that],
+                    compositas ut" ("so drawn up" (More 1965, 237, line 12)), as "tan bien
+                    compuestas y ordenadas que" (so very well composed and ordered that). It should
+                    be "compuestas [y ordenadas] de tal forma que" (composed and ordered so that),
                     as Robinson and the Yale edition do.</note>
                 <note n="224" xml:id="n-9-60" target="#note-9-60">"[U]t facile defunctum exitu ad se
                     recipiat" would apparently present no difficulty, but neither Medinilla nor
                     Robinson get it entirely right. The Yale edition reads "[f]inally, he prays that
                     God will take him to Himself by an easy death, how soon or late he does not
-                    venture to determine." (1965, 237, lines 27-28). Medinilla puts "y que esta no
-                    sea cruel ni extraña" [and that this was not cruel or strange], therefore
+                    venture to determine" (1965, 237, lines 27-28). Medinilla puts "y que esta no
+                    sea cruel ni extraña" (and that this was not cruel or strange), therefore
                     wishing a not painful death without reference to its time. In Robinson's, it is
                     the other way round. Medinilla does not translate the following Latin
                     sentence.</note>
                 <note n="225" xml:id="n-9-61" target="#note-9-61">It is interesting that Robinson
-                    translates the Latin "exercitio militaris disciplinae" ["exercises of military
-                    training" (More 1965, 237, lines 25-26)] as "chivalry".</note>
+                    translates the Latin "exercitio militaris disciplinae" ("exercises of military
+                    training" (More 1965, 237, lines 25-26)) as "chivalry."</note>
                 <note n="226" xml:id="n-9-62" target="#note-9-62">Medinilla consistently uses
                         <hi>república</hi> to translate the Latin <hi>reipublicae</hi>. Robinson
                     opts for "common wealthe" or "publique weale" as synonyms of state or the common
                     good though. The OED (2024) declares on its etymology that the use of
-                    commonwealth and common weal with the meaning of "republic" was common in the
-                    sixteenth century. Moreover, the Spanish translator inserts here a new content
-                    block. Up to here, all Book II was contained in one single text block or
-                    paragraph. There were no paragraphs -even though the 1790 and 1805 would use
-                    them. </note>
+                    commonwealth and common weal with the meaning of republic was common in the
+                    sixteenth century. Apart from this, the Spanish translator inserts here a new
+                    content block. Up to here, all Book II was contained in one single text block or
+                    paragraph. There were no paragraphs in this 1637 edition, even though the 1790
+                    and 1805 would use them.</note>
                 <note n="227" xml:id="n-9-63" target="#note-9-63">Medinilla does not explicitly says
                     that in Utopia there is no private property, as the Latin "hic ubi nihil priuati
-                    est" ["[i]n Utopia, where nothing is private" (More 1965, 239, line 2)]. "[D]e
-                    todas maneras" is likely to be his interpretation on <hi>utrobique</hi>, which
-                    makes reference to two situations (Lewis and Short, 1879). Hence, this
-                    translation blurrs part of its original meaning in the following segment.</note>
+                    est" ("[i]n Utopia, where nothing is private" (More 1965, 239, line 2)). <hi>De
+                        todas maneras</hi> (anyhow) is likely to be his interpretation on
+                        <hi>utrobique</hi>, which originally made reference to two specific
+                    situations (Lewis and Short 1879). Hence, this translation blurs part of its
+                    original meaning and affects the upcoming segment.s</note>
                 <note n="228" xml:id="n-9-64" target="#note-9-64">As previously mentioned, the
                     original sense does not correspond to what More puts in Utopia. Medinilla gets
                     it wrong: "nadie teme el morirse por hambre, mas procuran sin duda sus cómodos
-                    particulares" [nobody fears dying of hunger, but they certainly seek their own
-                    comforts], which means that people store food for themselves, even if starvation
-                    does not frightens them rather than the original meaning "how many are there who
-                    do not realize that, unless they make some separate provision for themselves
-                    [...] they will themselves starve?" (More 1965, 239, lines 4-7).</note>
+                    particulares" (nobody fears dying of hunger, but they certainly seek their own
+                    comforts), which means that people store food for themselves, even if starvation
+                    does not frighten them rather than the original meaning. The Yale edition puts
+                    "how many are there who do not realize that, unless they make some separate
+                    provision for themselves. . . they will themselves starve?" (More 1965, 239,
+                    lines 4-7).</note>
                 <note n="229" xml:id="n-9-65" target="#note-9-65">Medinilla clearly states that no
-                    man is afraid of dying as a consecuence of lack of stored food. The reference to
-                    death now is not in the Latin text and takes us back to previous segments.
-                    Besides, Medinilla does not translate <hi>mendicus</hi> [beggar], only
-                        <hi>inops</hi> as <hi>pobre</hi> [poor man]. In this occassion, Medinilla
-                    does not omit the reference to the absence of private property in Utopia, as can
-                    be read in "ni posee nadie cosa en particular, porque vienen a ser todos ricos
-                    en común" [nor does anyone possess anything in particular, because they all
-                    become rich in common]. After this segment, the Spanish translator omits a big
-                    chunk of text. </note>
+                    man is afraid of dying because of lack of stored food. The reference to death
+                    now is not in the Latin text and takes us back to previous segments. Besides,
+                    Medinilla does not translate <hi>mendicus</hi> (beggar), only <hi>inops</hi> as
+                        <hi>pobre</hi> (a poor man). In this occasion, Medinilla does not omit the
+                    reference to the absence of private property in Utopia, as can be read in "ni
+                    posee nadie cosa en particular, porque vienen a ser todos ricos en común" (nor
+                    does anyone possess anything in particular, because they all become rich in
+                    common). After this segment, the Spanish translator omits a big chunk of
+                    text.</note>
                 <note n="230" xml:id="n-9-66" target="#note-9-66">Medinilla is not very literal in
-                    this section. He omits <hi>aurifex</hi> ["goldsmith-banker" (More 1965, 239,
-                    line 30)], <hi>iustitiae</hi> ["justice" (More 1965, 239, line 28)] and, a few
-                    lines later, <hi>auriga</hi> ["carter" (More 1965, 239, line 34)] and
-                        <hi>faber</hi> ["carpenter" (More 1965, 239, line 35)]. Medinilla's omission
-                    of <hi>aurifex</hi> is extremely relevant. He could have chosen
-                    <hi>platero</hi>, the person who works the silver (Covarrubias 1611, 590v), or
-                        <hi>artifice</hi> as he does a few lines above. To criticise this sector
-                    might be deemed inappropriate in a city like Córdoba. Instead, he uses "plebeyo
-                    que sea usurero", meaning someone who is neither a knight, nobleman nor a
-                    citizen and practices usury (Covarrubias 1611, 590v). Besides, the Spanish
-                    translator does not translate <hi>nam</hi> [for] in "[n]am quae haec iustitia
-                    est" ["What brand of justice" (More 1965, 239, line 29)] and it would have been
+                    this section. He omits <hi>aurifex</hi> ("goldsmith-banker" (More 1965, 239,
+                    line 30)), <hi>iustitiae</hi> ("justice" (239, line 28)) and a few lines later,
+                        <hi>auriga</hi> ("carter" (239, line 34)) and <hi>faber</hi> ("carpenter"
+                    (239, line 35)). Medinilla's omission of <hi>aurifex</hi> is extremely relevant.
+                    He could have chosen <hi>platero</hi>, the person who works the silver,
+                    according to Covarrubias (1611, 1:590v), or <hi>artifice</hi> as he does a few
+                    lines above. To criticize this sector might be deemed inappropriate in a city
+                    like Córdoba. Instead, he uses "plebeyo que sea usurero" (1:590v) (someone who
+                    is neither a knight, nobleman nor a citizen and practices usury). Besides, the
+                    Spanish translator does not translate <hi>nam</hi> (for) in "[n]am quae haec
+                    iustitia est" ("[w]hat brand of justice" (239, line 29)) and it would have been
                     very useful to introduce the long question opened by <hi>quae</hi>. Medinilla
-                    summarises the ending.</note>
+                    summarizes the ending.</note>
                 <note n="231" xml:id="n-9-67" target="#note-9-67">Similarly to the previous instance
-                    where <hi>aguijón</hi> was used (see note *), the Spanish translator chooses the
-                    verb <hi>aguijonear</hi> [to sting] for the Latin verb form stimulat ["toil and
-                    suffer" (More 1965, 241, lines 3-4)]. In this case, the meaning gets closer to
-                    that of "goad" than to "sting" as, according to the Diccionario de Autoridades,
-                    there is a metaphorical use like "estimular, precisar y obligar" (RAE 1726)
-                    [stimulate, determine and oblige].</note>
+                    where <hi>aguijón</hi> was used (see note 215 in this chapter), the Spanish
+                    translator chooses the verb <hi>aguijonear</hi> (to sting) for the Latin verb
+                    form <hi>stimulat</hi> ("toil and suffer" (More 1965, 241, lines 3-4)). In this
+                    case, the meaning gets closer to that of the word "goad" than to "sting" as,
+                    according to the <hi>Diccionario de Autoridades</hi>, there is a metaphorical
+                    use like "estimular, precisar y obligar" (RAE 1726) (stimulate, determine and
+                    oblige).</note>
                 <note n="232" xml:id="n-9-68" target="#note-9-68">Again, Medinilla simplifies part
-                    of the content, like work positions in this case. The Spanish translator renders
-                        <hi>aurifex</hi>, a "goldsmith" according to Lewis and Short (1879), as
-                        <hi>artifices</hi> [artificer], blurring the original sense and even
-                    localizing it. Also, he adds <hi>bufones</hi>, which is not in the original (see
-                    note **). However, he chooses a pair of words to translate only one word, the
-                    Latin <hi>munera</hi> ["rewards" (1965, 241, line 9)]. The Spaniard selects
-                        <hi>dádivas</hi> and <hi>caudales</hi> [presents and wealth]. The former is
-                    defined in the Diccionario de Autoridades as "el don, alhaja o cosa que se da y
-                    entrega graciosamente a otro" (RAE 1732)[the gift, jewel, or thing that is
-                    graciously given and delivered to another]. Very similarly, Robinson uses the
-                    pair "fees" and "rewardes". </note>
-                <note n="233" xml:id="n-9-69" target="#note-9-69">In contrast with Robison's
+                    of the content, work positions in this case. The Spanish translator renders
+                        <hi>aurifex</hi>, a goldsmith according to Lewis and Short (1879), as
+                        <hi>artifices</hi> (artificer), blurring the original sense and localizing
+                    it. Also, he adds <hi>bufones</hi>, which is not in the original (see note 88 in
+                    chapter five and note 137 in chapter chapter seven). Apart from this, he chooses
+                    a pair of words to translate the Latin <hi>munera</hi> ("rewards" (More 1965,
+                    241, line 9)). The Spaniard selects <hi>dádivas</hi> and <hi>caudales</hi>
+                    (presents and wealth), the former being defined in the <hi>Diccionario de
+                        Autoridades</hi> as "el don, alhaja o cosa que se da y entrega graciosamente
+                    a otro" (RAE 1732) (the gift, jewel, or thing that is graciously given and
+                    delivered to another). Very similarly, Robinson uses the pair "fees" and
+                    "rewardes."</note>
+                <note n="233" xml:id="n-9-69" target="#note-9-69">In contrast with Robinson's
                     translation, Medinilla transforms the present sentences into interrogative
                     statements. Also, he simplifies the Latin text.</note>
                 <note n="234" xml:id="n-9-70" target="#note-9-70">Medinilla simplifies the content
-                    and even transforms the statement into a question.</note>
+                    and transforms the statement into a question once again.</note>
                 <note n="235" xml:id="n-9-71" target="#note-9-71">Medinilla removes the two
-                    following Latin sentences. Inside these, Robinson's use "way" with the sense of
-                    "weigh, ponder on", according to Lumby (1888, 230).</note>
+                    following Latin sentences. Inside these, Robinson uses "way" with the sense of
+                    "weigh, ponder on," according to Lumby (1922, 230).</note>
                 <note n="236" xml:id="n-9-72" target="#note-9-72">With <hi>hombres dañinos</hi>
-                    [harmful men], Medinilla does not make clear to whom he refers; the original
-                    addresses the rich. As he omits the previous sentences, the reader might not be
-                    well aware of this fact from the original work. Hence, this omission suggests he
-                    does not support this view. The Spaniard does not use question marks for the
-                    second part of the sentence.</note>
+                    (harmful men), Medinilla does not obscure the reference to whom he refers, as
+                    the original text clearly addresses the rich. As he omits the previous
+                    sentences, the reader might not be well aware of this fact from the Latin
+                        <hi>Utopia</hi>, and this omission could suggest he does not support this
+                    view. The Spaniard does not use question marks for the second part of the
+                    sentence.</note>
                 <note n="237" xml:id="n-9-73" target="#note-9-73">The Spanish translator renders
-                        <hi>moles</hi> as <hi>máquina</hi>, whereas Robinson opts for "heap".
+                        <hi>moles</hi> as <hi>máquina</hi>, whereas Robinson opts for "heap."
                     Covarrubias does not index the meaning <hi>máquina</hi> has here, but the
-                    Diccionario de Autoridades does: "copia y abundancia de alguna cosa" [a copious
-                    quantity and abundance of something] (1734). </note>
+                        <hi>Diccionario de Autoridades</hi> does: "copia y abundancia de alguna
+                    cosa" (RAE 1734) (a copious quantity and abundance of something).</note>
                 <note n="238" xml:id="n-9-74" target="#note-9-74">Medinilla introduces some text in
-                    round brackets that originally did not appear with that format: "cotidianis
-                    uindicata potius quam refrenata suppliciis" ["which are avenged rather than
-                    restrained by daily executions" (More 1965, 243, lines 4-5)]. The Spaniard
-                    chooses castigar [to punish] to translate uindicata [to revenge] and Robinson
-                    selects "revenge". Both meanings are possible, but quite different in their
-                    connotations. In Book I, Hythlodeus uses a similar argument "[e]st enim ad
-                    uindicanda furta nimis atrox, nece tamen ad refrenanda sufficiens" (More 1965,
-                    60, lines 15-16) ["[i]t is too harsh a penalty for theft and yet is not a
-                    sufficient deterrent" (More 1965, 61, lines 18-19)].</note>
+                    round brackets that originally did not appear in that format: "cotidianis
+                    uindicata potius quam refrenata suppliciis" ("which are avenged rather than
+                    restrained by daily executions" (More 1965, 243, lines 4-5)). The Spaniard
+                    chooses <hi>castigar</hi> (to punish) to translate <hi>uindicata</hi> (to
+                    revenge) and Robinson selects "revenge." Both meanings are possible, but they
+                    have different connotations. In Book I, Hythloday uses a similar argument:
+                    "[e]st enim ad uindicanda furta nimis atrox, nece tamen ad refrenanda
+                    sufficiens" (60, lines 15-16) ("[i]t is too harsh a penalty for theft and yet is
+                    not a sufficient deterrent" (61, lines 18-19)).</note>
                 <note n="239" xml:id="n-9-75" target="#note-9-75">The Spanish translator simplifies:
-                        <hi>tabes</hi> ["disease" (More 1965, 243, line 16)] and <hi>caeli</hi>
-                    ["climate" (More 1965, 243, line 18)].</note>
+                        <hi>tabes</hi> ("disease" (More 1965, 243, line 16)) and <hi>caeli</hi>
+                    ("climate" (243, line 18)).</note>
                 <note n="240" xml:id="n-9-76" target="#note-9-76">Medinilla sounds more moderate
-                    when translating "beata illa pecunia" ["that blessed money" (More 1965, 243,
-                    line 19)], but although he misses <hi>beata</hi> [blessed, bringing happiness].
-                    Robinson gives an ironical personification of money, which exceeds what More
-                    originally wrote (see Lupton 1895, 305, n. 1); later on he gives "goddes". The
-                    complete fragment from the Yale edition presents: "So easily might men get the
-                    necessities of life if that blessed money, supposedly a grand invention to ease
-                    access to those necessities, was not in fact the only barrier to our getting
-                    what we need" (1965, 243, lines 18-21).</note>
-                <note n="241" xml:id="n-9-77" target="#note-9-77">Medinilla omits that the laws
-                    particularly belong to the Republic, as seen in <hi>Reipublicae leges</hi> ["the
-                    laws of the Utopian commonwealth" (More 1965, 243, line 30)]. Also, he misses
-                    the characterisation of <hi>superbia</hi> as a beast.</note>
-                <note n="242" xml:id="n-9-78" target="#note-9-78">Medinilla does not translates
-                    "haec ne Dea quidem fieri uellet" ["[p]ride would not consent to be made even a
-                    goddess" (More 1965, 243, line 35)] properly -contrary to Robinson. Medinilla
-                    says "[e]sta aun quisiera ser tenida por diosa" [this one would still like to be
-                    considered a goddess], which implies Pride would still accept deification, even
+                    when translating "beata illa pecunia" ("that blessed money" (More 1965, 243,
+                    line 19)), although he misses the adjective <hi>beata</hi> (blessed, bringing
+                    happiness). Robinson gives an ironical personification of money, which exceeds
+                    what More originally wrote (see Lupton 1895, 305n1); later he gives "goddes."
+                    The complete fragment from the Yale edition presents: "[s]o easily might men get
+                    the necessities of life if that blessed money, supposedly a grand invention to
+                    ease access to those necessities, was not in fact the only barrier to our
+                    getting what we need" (243, lines 18-21).</note>
+                <note n="241" xml:id="n-9-77" target="#note-9-77">Medinilla omits that those laws
+                    particularly belonged to the Republic, as seen in <hi>Reipublicae leges</hi>
+                    ("the laws of the Utopian commonwealth" (More 1965, 243, line 30)). Also, he
+                    misses the characterization of <hi>superbia</hi> as a beast.</note>
+                <note n="242" xml:id="n-9-78" target="#note-9-78">Medinilla does not properly
+                    translates "haec ne Dea quidem fieri uellet" ("[p]ride would not consent to be
+                    made even a goddess" (More 1965, 243, line 35)), contrary to Robinson. Medinilla
+                    says "[e]sta aun quisiera ser tenida por diosa" (this one would still like to be
+                    considered a goddess), which implies Pride would still accept deification, even
                     if there were no men to be ruled. However, the original reads that Pride would
                     not accept being made a goddess, if there were no men she could govern.</note>
                 <note n="243" xml:id="n-9-79" target="#note-9-79">Medinilla substitutes
-                        <hi>auerni</hi> ["from hell" (More 1965, 243, line 39)] with
-                        <hi>venenosa</hi> [poisonous]. Round brackets in this segment are added by
-                    the Spanish translator. Also, he inserts the noun <hi>soberbia</hi> [pride,
-                    arrogance] to identify the snake. Surprisingly, Robinson substitutes the reptile
-                    for a hound and uses feminine forms. According to the OED, the hound of hell
-                    usually refers to Cerberus, the hound of Hades (2024). Clearly, serpens is
-                    better translated as serpiente than as hound, and it is loaded with biblical
+                        <hi>auerni</hi> ("from hell" (More 1965, 243, line 39)) with
+                        <hi>venenosa</hi> (poisonous). Round brackets in this segment are added by
+                    the Spanish translator. Also, he inserts the noun <hi>soberbia</hi> (pride,
+                    arrogance) to identify the snake. Surprisingly, Robinson substitutes the reptile
+                    for a hound and uses feminine forms. According to the OED (2024), the hound of
+                    hell usually refers to Cerberus, the hound of Hades. Clearly, <hi>serpens</hi>
+                    is better translated as serpent than as "hound," and it is loaded with biblical
                     connotations from chapter 3 in the Book of Genesis. Robinson is somehow
-                    inconsistent, for he unnecesarily translates <hi>pererrans</hi> as "to creep",
-                    which would better suit serpent than hound. Robinson also misses the reference
-                    to <hi>remora</hi> [suckfish]. Medinilla gives <hi>pez remora</hi>, "pez
-                    pequeño, cubierto de espinas y conchas, de quien se dice tener tanta fuerza que
-                    detiene el curso de un navío en el mar" (RAE, 1737) [a small fish, covered in
-                    spines and shells, which is said to be so strong that it could stop a ship in
-                    the sea].</note>
+                    inconsistent, for he unnecessarily translates <hi>pererrans</hi> as "to creep,"
+                    which would better suit a "serpent" than a hound. Robinson also misses the
+                    reference to <hi>remora</hi> (suckfish). Medinilla gives <hi>pez remora</hi>,
+                    "pez pequeño, cubierto de espinas y conchas, de quien se dice tener tanta fuerza
+                    que detiene el curso de un navío en el mar" (RAE, 1737) (a small fish, covered
+                    in spines and shells, which is said to be so strong that it could stop a ship in
+                    the sea).</note>
                 <note n="244" xml:id="n-9-80" target="#note-9-80">The Spanish translator uses
-                        <hi>sectas y parcialidades</hi> [sects and partialities] to add extra
-                    information about the <hi>uitiis</hi> [vices]. <hi>Sectas</hi> means "la
+                        <hi>sectas</hi> and <hi>parcialidades</hi> (sects and partialities) to add
+                    extra information about the <hi>uitiis</hi> (vices). <hi>Sectas</hi> means "la
                     doctrina que alguno sigue como hubo entre los filósofos diversas sectas y
-                    opiniones, las cuales seguían sus discípulos" (Covarrubias 1611, 27v) [the
+                    opiniones, las cuales seguían sus discípulos" (Covarrubias 1611, 2:27v) (the
                     doctrine that some people follow, as disciples followed the sects and opinions
-                    of the philosophers]. Nevertheless, the Diccionario de Autoridades adds an extra
-                    definition which could be relevant for the study of the translation: "se llama
-                    asimismo al error o falsa religión, diversa o separada de la verdadera y
+                    of the philosophers). Nevertheless, the <hi>Diccionario de Autoridades</hi> adds
+                    an extra definition that could be relevant for the study of the translation: "se
+                    llama asimismo al error o falsa religión, diversa o separada de la verdadera y
                     Católica Cristiana enseñanza por algún Maestro famoso: como la secta de Lutero,
-                    Calvino, Mahoma, etc." (RAE 1739) [it is also called the error or false
+                    Calvino, Mahoma, etc." (RAE 1739) (it is also called the error or false
                     religion, different or separated from the true and Catholic Christian teaching
-                    by some famous Master like the sect of Luther, Calvin, Muhammad, among others].
-                    Besides, <hi>parcialidad</hi> [partiality] could refer to "la unión de algunos,
+                    by some famous Master like the sect of Luther, Calvin, Muhammad, among others).
+                    Besides, <hi>parcialidad</hi> (partiality) could refer to "la unión de algunos,
                     confederándose a algún fin, separándose del común y formando cuerpo aparte" (RAE
-                    1737) [the union of some people confederating for some purpose, separating from
-                    the common and forming a separated body]. Medinilla sends a very specific
+                    1737) (the union of some people confederating for some purpose, separating from
+                    the common and forming a separated body). Medinilla sends a very specific
                     message with his word choice, again introducing some biased description of the
-                    religions of the Utopians. Medinilla does not translate <hi>domestico</hi> [at
-                    home, inner] and renders <hi>invidia</hi> as <hi>emulación</hi>. This word is
-                    defined as "en los que obran bien imitando la virtud y hechos heroicos de otros,
-                    es una imitación de la virtud; y en los que envidiosos todo lo murmuran y echan
-                    a mala parte, es en rigor una maligna envidia" [in those who act well by
-                    imitating the virtue and heroic deeds of others, it is an imitation of virtue;
-                    and in those who, out of envy, gossip and cast everything in a bad light, it is,
-                    in fact, a malignant envy.]. The ending is very much simplified in
+                    religions of the Utopians. Medinilla does not translate <hi>domestico</hi> (at
+                    home, inner) and renders <hi>invidia</hi> as <hi>emulación</hi> (emulation).
+                    This word is defined as "en los que obran bien imitando la virtud y hechos
+                    heroicos de otros, es una imitación de la virtud; y en los que envidiosos todo
+                    lo murmuran y echan a mala parte, es en rigor una maligna envidia" (in those who
+                    act well by imitating the virtue and heroic deeds of others, it is an imitation
+                    of virtue; and in those who, out of envy, gossip and cast everything in a bad
+                    light, it is, in fact, a malignant envy). The ending is very much simplified in
                     Medinilla.</note>
                 <note n="245" xml:id="n-9-81" target="#note-9-81">Medinilla removes the adverb
-                        <hi>absurde</hi> ["absurdly" (More 1965, 245, line 18)]. This is actually a
+                        <hi>absurde</hi> ("absurdly" (More 1965, 245, line 18)). This is actually a
                     relevant remark, since this could be related to the practicality Medinilla saw
                     in the book. Also, he misses elements like <hi>magnificentia</hi> and
-                        <hi>maiestas</hi> ["magnificency" and "majesty" (More 1965, 245, line 24)].
+                        <hi>maiestas</hi> ("magnificency" and "majesty" (245, line 24)).
                     Medinilla omits the narrator's criticism about the lack of foundation of some of
-                    the rules, especially the absence of money, even though the topic is actually
-                    negatively assessed by the narrator. Leaving aside More's opinion about money,
-                    whether it is closer to the narrator (More) or to Hythlodeus, this translation
-                    of the final part of the segment seems difficult to understand. I remove the
-                    final question mark because I do not see the point of Medinilla's introduction
-                    of a question here.</note>
+                    the rules, especially the absence of money, even though the topic is negatively
+                    assessed by the narrator. Leaving aside More's opinion about money, whether it
+                    is closer to the narrator (More) or to Hythloday, this translation of the final
+                    part of the segment seems difficult to understand. I remove the final question
+                    mark in the modernization because I do not see the point of Medinilla's
+                    introduction of a question here.</note>
                 <note n="246" xml:id="n-9-82" target="#note-9-82">Medinilla removes the main idea in
-                    "quasi uererentur ne non satis putarentur sapere" ["of their fear that they
-                    might not appear to be wise enough" (More 1965, 245, lines 29-30)], meaning that
-                    if you do not criticise, at least, something, then you are not wise. Medinilla
-                    does not seem to support this satement.</note>
+                    "quasi uererentur ne non satis putarentur sapere" ("of their fear that they
+                    might not appear to be wise enough" (More 1965, 245, lines 29-30)), meaning that
+                    if you do not criticize, at least, something, then you are not wise. Medinilla
+                    does not seem to support this statement.</note>
                 <note n="247" xml:id="n-9-83" target="#note-9-83">Medinilla translates the verb
-                    tense wrongly in <hi>hubiera habido</hi>. The original is not subjunctive
-                    pluperfect, but subjuntive imperfect. Therefore, it is not <hi>hubiera
-                        habido</hi>, but <hi>hubiese</hi>, not eliminating the possibility -as
-                    rendered by Robinson.</note>
+                    tense wrongly in <hi>hubiera habido</hi> (would have been). The original is not
+                    subjunctive pluperfect, but subjunctive imperfect. Therefore, it is not
+                        <hi>hubiera habido</hi>, but <hi>hubiese</hi> (would be), not eliminating
+                    the possibility (as rendered by Robinson).</note>
                 <note n="248" xml:id="n-9-84" target="#note-9-84">This part is also confusing.
-                    Medinilla seems to omit "quemadmodum haud" ["though in" (More 1965, 245, line
-                    37)], avoiding subordination. Also, he renders <hi>assentiri</hi> [to agree]
-                    with the verb <hi>conformar</hi>, which means "convenir con otro, seguirle y ser
-                    de su misma opinión y dictamen" (RAE 1729) ["to agree with another, to follow
-                    him and to be of the same opinion and judgment"]. The Spanish translator does
-                    not include the closure paragraph of Utopia.</note>
+                    Medinilla seems to omit "quemadmodum haud" ("though in" (More 1965, 245, line
+                    37)), avoiding subordination. Also, he renders <hi>assentiri</hi> (to agree) with the
+                    verb <hi>conformar</hi>, which means "convenir con otro, seguirle y ser de su misma
+                    opinión y dictamen" (RAE 1729) (to agree with another, to follow him and to be
+                    of the same opinion and judgment). The Spanish translator does not include the
+                    closure paragraph of <hi>Utopia</hi>.</note>
             </div>
         </body>
     </text>

@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title> Chapter 5. Del comercio</title>
+                <title>5. Chapter 5. Del comercio</title>
                 <funder>This work has been developed thanks to a doctoral fellowship granted in 2020
                     by the Spanish Ministry of Universities</funder>
                 <respStmt>
@@ -44,38 +44,44 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        
+
         <encodingDesc>
             <projectDesc>
                 <p>This edition was developed as part of my thesis dissertation titled "A Digital
-                    Edition of the 1637 Spanish translation of Thomas More's Utopia". The processes
+                    Edition of the 1637 Spanish translation of Thomas More's Utopia." The processes
                     of data modeling, encoding and publishing the edition was done during a research
-                    visit to the Digital Scholarship Group and the Women Writers Project at Northeastern University (Boston, USA).</p>
+                    visit to the Digital Scholarship Group and the Women Writers Project at
+                    Northeastern University (Boston, USA).</p>
             </projectDesc>
             <samplingDecl>
-                <p>The aim of this edition is to offer a side-by-side edition of the first printed translation of Thomas More's <hi>Utopia</hi>
-                    into Spanish plus three accompanying texts: a modernization of Gerónimo de Medinilla's 1637 rendering, the Latin text taken from
-                    the 1518 March edition and the 1551 English translation by Ralph Robinson.</p>
+                <p>The aim of this edition is to offer a side-by-side edition of the first printed
+                    translation of Thomas More's <hi>Utopia</hi> into Spanish plus three
+                    accompanying texts: a modernization of Gerónimo de Medinilla's 1637 rendering,
+                    the Latin text taken from the 1518 March edition and the 1551 English
+                    translation by Ralph Robinson.</p>
             </samplingDecl>
             <editorialDecl>
                 <normalization>
-                    <p>For the modernization of the Spanish translation, graphs, punctuation and accentuation have been adapted to 
-                        today's orthographical norms as established by the Real Academia de la Lengua Española in its <hi>Diccionario</hi> (2023)
-                        and <hi>Ortografía de la Lengua Española</hi> (2010).</p>
-                </normalization>                
+                    <p>For the modernization of the Spanish translation, graphs, punctuation and
+                        accentuation have been adapted to today's orthographical norms as
+                        established by the Real Academia de la Lengua Española in its
+                            <hi>Diccionario</hi> (2023) and <hi>Ortografía de la Lengua
+                            Española</hi> (2010).</p>
+                </normalization>
                 <segmentation>
-                    <p>The texts have been segmented into sentences to facilitate alignment. In the framework of the present edition,
-                        a sentence is defined as the text between two periods, disregarding other linguistic conventions.</p>
+                    <p>The texts have been segmented into sentences to facilitate alignment. In the
+                        framework of the present edition, a sentence is defined as the text between
+                        two periods, disregarding other linguistic conventions.</p>
                 </segmentation>
             </editorialDecl>
             <refsDecl>
-                <p>Identifiers are made up by concatenating the language reference code,
-                    chapter number, segment number and segment order in the sentence.
-                    Sentences are connected by <att>corresp</att>. A previous <att>type</att>
-                    indicates whether the segment has been translated or not by Medinilla. Thus, if
-                    a segment is untranslated, it will not carry the <att>corresp</att>.
-                    The <att>n</att> of segment is also key in the alignment process</p>
-            </refsDecl>           
+                <p>Identifiers are made up by concatenating the language reference code, chapter
+                    number, segment number and segment order in the sentence. Sentences are
+                    connected by <att>corresp</att>. A previous <att>type</att> indicates whether
+                    the segment has been translated or not by Medinilla. Thus, if a segment is
+                    untranslated, it will not carry the <att>corresp</att>. The <att>n</att> of
+                    segment is also key in the alignment process</p>
+            </refsDecl>
             <schemaSpec ident="TEI"/>
         </encodingDesc>
         <profileDesc>
@@ -143,10 +149,10 @@
                         </seg><seg n="5.8" type="sentence">
                             <s xml:id="es-5-8-1" n="es 5.8">Aviendoſe juntado con los que acetan
                                 facilmente ſe conformã en las coſtumbres, i leyes, <app>
-                                    <lem>con conveniencia que mira al bien de ambos pueblos</lem>
-                                    <rdg wit="1790">con utilidad de ambos pueblos</rdg>
-                                    <rdg wit="1805">con utilidad de ambos pueblos</rdg>
-                                </app>.</s>
+                                    <lem>con conveniencia que mira al bien de ambos pueblos.</lem>
+                                    <rdg wit="1790">con utilidad de ambos pueblos.</rdg>
+                                    <rdg wit="1805">con utilidad de ambos pueblos.</rdg>
+                                </app></s>
                         </seg><seg n="5.9" type="sentence">
                             <s xml:id="es-5-9-1" n="es 5.9">Deſta suerte hazen con ſus buenas
                                 ordenanças, que ſe fertilize la tierra, que antes era eſteril, i
@@ -155,12 +161,12 @@
                             <s xml:id="es-5-10-1" n="es 5.10">A los que no conforman con ſus
                                 inſtitutos, los echan de los terminos, que han ſeñalado para ſi, <app>
                                     <lem>i a los que ſe reſiſten les hazen guerra, teniendola por
-                                        juſta</lem>
+                                        juſta.</lem>
                                     <rdg wit="1790">haciendo guerra a los que se resisten, la que
-                                        tienen por justa</rdg>
+                                        tienen por justa.</rdg>
                                     <rdg wit="1805">haciendo guerra a los que se resisten, la que
-                                        tienen por justa</rdg>
-                                </app>.</s>
+                                        tienen por justa.</rdg>
+                                </app></s>
                         </seg><seg n="5.11" type="sentence">
                             <s xml:id="es-5-11-1" n="es 5.11">Quãdo algun pueblo prohibe al otro el
                                 uſo, i <pb n="11r"/>poſſeſsion, <app>
@@ -243,7 +249,7 @@
                                 inumanos; i temen que el afeƈto de la piedad natural ſe ha de ir
                                 perdiendo poco a poco) i prohiben que ninguna coſa inmunda, ſucia, i
                                 aſqueroſa entre ẽ el lugar (cuya putrefacciõ corrompa el aire, i
-                                aſsi inficionado cauſe enfermades.)<anchor n="68" xml:id="note-5-10"
+                                aſsi inficionado cauſe enfermades).<anchor n="68" xml:id="note-5-10"
                                 /></s>
                         </seg><seg n="5.24" type="sentence">
                             <s xml:id="es-5-24-1" n="es 5.24">Cada barrio tiene ciertas Aulas
@@ -257,7 +263,7 @@
                                 en ellas.<anchor n="69" xml:id="note-5-11"/></s>
                         </seg><seg n="5.25" type="sentence">
                             <s xml:id="es-5-25-1" n="es 5.25">Los deſ<pb n="12r"/>penſeros deſtas
-                                falas, ſe juntan a oras ſeñaladas en la plaça, para pedir proviſiõ,
+                                ſalas, ſe juntan a oras ſeñaladas en la plaça, para pedir proviſiõ,
                                 conforme al numero de ſus familias.</s>
                         </seg><seg n="5.26" type="sentence">
                             <s xml:id="es-5-26-1" n="es 5.26">Pero primero ſe atiende al regalo de
@@ -1426,29 +1432,29 @@
                     135, lines 26-27). Medinilla could also use the verb <hi>comerciar</hi> with the
                     idea of interpersonal relations, but it is not clear. Besides, one of the
                     entries in the <hi>Diccionario de Autoridades</hi> for the Spanish noun
-                        <hi>correspondencia</hi> reads that "entre Mercaderes y Tratanes, es el
-                    trato de remitirse unos a otros el dinero, mercaderías y otros géneros" (RAE
-                    1729) ["between merchants and traders, it is the deal to send money, merchandise
-                    and other goods to each other"], which strictly deals with commerce. However,
-                    the other entry indicates that <hi>correspondencia</hi> is "el trato recíproco, la
-                    retribución de una cosa con otra" (RAE 1729) ["reciprocal treatment, the
-                    compensation of one thing with another"], which can make reference to reciprocal
+                    correspondencia reads that "entre Mercaderes y Tratanes, es el trato de
+                    remitirse unos a otros el dinero, mercaderías y otros géneros" (RAE 1729)
+                    (between merchants and traders, it is the deal to send money, merchandise and
+                    other goods to each other), which strictly deals with commerce. However, the
+                    other entry indicates that correspondencia is "el trato recíproco, la
+                    retribución de una cosa con otra" (RAE 1729) (reciprocal treatment, the
+                    compensation of one thing with another), which can make reference to reciprocal
                     behavior among people.</note>
-                <note n="60" xml:id="n-5-2" target="#note-5-2">Medinilla omits <hi>excepto
-                        conuentu</hi>, ["apart from its surrounding territory" (More 1965, 137, line
-                    1)], where Robinson puts it as "besydes them of the contrey". Medinilla renders
+                <note n="60" xml:id="n-5-2" target="#note-5-2">Medinilla omits <hi>except
+                        conuentu</hi>, ("apart from its surrounding territory" (More 1965, 137, line
+                    1)), where Robinson puts it as "besydes them of the contrey." Medinilla renders
                         <hi>puberes</hi> as <hi>mancebos</hi>. According to the <hi>Tesoro de la
                         Lengua</hi>, a <hi>mancebo</hi> is "el moço que está en la edad que en Latin
-                    llamamos 'adolescens'" (Covarrubias 1611, 535v-536r) ["the boy who is at the age
-                    that in Latin we call 'adulescens'"]. According to Lewis and Short (1879), it
+                    llamamos 'adolescens'" (Covarrubias 1611, 1:535v-536r) (the boy who is at the age
+                    that in Latin we call "adulescens"). According to Lewis and Short (1879), it
                     refers to "one who has not yet attained maturity" and the period of age varies
                     depending on author and places (generally "from the 15th or 17th until past the
                     30th year, often even until near the 40th"). Nonetheless, Robinson translates it
-                    as "chyldren". The OED (2024) displays an entry of "child" which says "A young
-                    man; a youth, an adolescent". This use is obsolete (rare after 16th century
+                    as "chyldren." The OED (2024) displays an entry of "child" which says "[a] young
+                    man; a youth, an adolescent." This use is obsolete (rare after 16th century
                     except in biblical use).</note>
                 <note n="61" xml:id="n-5-3" target="#note-5-3"><hi>Impuberum</hi> is here translated
-                    as <hi>adultos</hi> [adults] by Medinilla. This translation is not correct,
+                    as <hi>adultos</hi> (adults) by Medinilla. This translation is not correct,
                     since the Latin word <hi>impuberum</hi> implies "under the age of puberty"
                     (Lewis and Short 1879).</note>
                 <note n="62" xml:id="n-5-4" target="#note-5-4">The Spanish translator uses
@@ -1457,28 +1463,28 @@
                         <hi>pueblo</hi> (see note 18 in chapter 2). The <hi>Tesoro de la Lengua</hi>
                     defines it as "pueblo o término de tierra que se ha poblado de gente extranjera,
                     sacada de la ciudad, que es señora de aquel territorio o llevada a otra parte"
-                    ["a town or term of land that has been populated by foreign people, taken from
-                    the city, who are owners of that territory or taken to another part"]. The term
-                        <hi>colonia</hi> could make sense here, although there could be a imperialist
-                    nuance.</note>
+                    (a town or term of land that has been populated by foreign people, taken from
+                    the city, who are owners of that territory or taken to another part) (Covarrubias 1611, 1:224v). The term
+                        <hi>colonia</hi> could make sense here, although there could be an
+                    imperialist nuance.</note>
                 <note n="63" xml:id="n-5-5" target="#note-5-5">Medinilla passes over
-                        <hi>utrisque</hi> ["for both" (More 1965, 137, line 16)] maybe because this
-                    can be inferred from the previous sentence "idque utrisque populi bono",
-                    translated by Medinilla by "que mira al bien de ambos pueblos" ["that looks for
-                    the good of both peoples"]. Robinson makes a less literal translation
+                        <hi>utrisque</hi> ("for both" (More 1965, 137, line 16)) maybe because this
+                    can be inferred from the previous sentence "idque utrisque populi bono,"
+                    translated by Medinilla by "que mira al bien de ambos pueblos" (that looks for
+                    the good of both peoples). Robinson makes a less literal translation
                     here.</note>
                 <note n="64" xml:id="n-5-6" target="#note-5-6">Medinilla uses the specific term
                         <hi>colaciones</hi> to render the Latin plural noun <hi>partes</hi>. By
                     selecting these words, among others, the translator seems to locate the island
                     of Utopia under the Spanish territorial organization. The <hi>Diccionario de
                         Autoridades</hi> defines it as "algunas veces el territorio, término,
-                    distrito y parte del vecindario de alguna villa o ciudad" (RAE 1729) ["the
+                    distrito y parte del vecindario de alguna villa o ciudad" (RAE 1729) (the
                     territory, term, district and part of the neighborhood of some villa or city,
-                    located in some parish"].</note>
+                    located in some parish).</note>
                 <note n="65" xml:id="n-5-7" target="#note-5-7">Similarly, the translator opts for
                         <hi>alhoríes</hi> as a translation of <hi>horrea</hi>. According to the
                         <hi>Tesoro de la Lengua</hi>, it is "el granero público donde se recoge el
-                    trigo y la cebada" ["the public granary where wheat and barley are collected"].
+                    trigo y la cebada" (the public granary where wheat and barley are collected) (Covarrubias 1611, 1:47v).
                     Other forms for this word are <hi>alforí</hi> and <hi>alholí</hi>.</note>
                 <note n="66" xml:id="n-5-8" target="#note-5-8">Medinilla softens the original idea
                     of this segment by simplifying the content and introducing part of it in
@@ -1486,51 +1492,57 @@
                 <note n="67" xml:id="n-5-9" target="#note-5-9">Robinson makes a reference to meat
                     although the Latin 1518 edition does not. This proves that the English
                     translator used as a base text a 1516 edition, as the critical apparatus in the
-                    Yale edition indicates the phrase "carnesque et extra" was excluded in later
-                    editions (More 1965, 138). Medinilla does not mention meat at the beginning of
-                    the segment.The Spanish translator also chooses <hi>inmundicias</hi> to
-                    render the Latin word <hi>sordes</hi> as a synonym of <hi>suciedad</hi>
-                    [dirtiness]. The <hi>Tesoro de la Lengua</hi> indexes this noun with the
-                    definition "la suciedad, la basura" ["dirtiness, rubbish"] (Covarrubias 1611,
-                    505r).</note>
+                    Yale edition indicates the phrase <hi>carnesque et extra</hi> was excluded in
+                    later editions (More 1965, 138). Thus, Medinilla does not mention meat at the
+                    beginning of the segment. The Spanish translator also chooses
+                        <hi>inmundicias</hi> to render the Latin word <hi>sordes</hi> as a synonym
+                    of <hi>suciedad</hi> (dirtiness). The <hi>Tesoro de la Lengua</hi> indexes this
+                    noun with the definition "la suciedad, la basura" (Covarrubias 1611, 1:505r)
+                    (dirtiness, rubbish).</note>
                 <note n="68" xml:id="n-5-10" target="#note-5-10">Medinilla expands the meaning of
-                    the Latin term <hi>patiuntur</hi> ["butchering" (More 1965, 139, line 18)
-                    by introducing "degollar, desollar ni cortar los animales"
-                    ["slitting the throat, skinning or cutting the animals"].</note>
-                <note n="69" xml:id="n-5-11" target="#note-5-11">Robinson omits <hi>cibum ibi
-                    sumpturae</hi>. Medinilla translates the Latin noun <hi>uicus</hi> as <hi>barrio</hi> ["neighbourhood"]. 
-                    The <hi>Tesoro de la Lengua</hi> offers some information about
-                    the origin of the word (Covarrubias 1611, 124r); the <hi>Diccionario de Autoridades</hi> reads "el distrito, o parte de alguna ciudad, o lugar,
-                    que con nombre particular se distingue de lo demás de la ciudad" ["The district, part of
-                    some City, or place, which with a particular name is distinguished from the rest
-                    of the City]" (RAE 1726).</note>
-                <note n="70" xml:id="n-5-12" target="#note-5-12">The expression <hi>también</hi> is not
-                    correct in the Spanish original and should be substituted by <hi>tan bien</hi>. I apply
-                    this change in the modernization, as it seems an isolated mistake.</note>
+                    the Latin term <hi>patiuntur</hi> ("butchering" (More 1965, 139, line 18)) by
+                    introducing "degollar, desollar ni cortar los animals" (slitting the throat,
+                    skinning or cutting the animals).</note>
+                <note n="69" xml:id="n-5-11" target="#note-5-11">Robinson omits "cibum ibi
+                    sumpturae." Medinilla translates the Latin noun <hi>uicus</hi> as
+                        <hi>barrio</hi> (neighbourhood). The <hi>Tesoro de la Lengua</hi> offers
+                    some information about the origin of the word (Covarrubias 1611, 2:124r); the
+                        <hi>Diccionario de Autoridades</hi> reads "el distrito, o parte de alguna
+                    ciudad, o lugar, que con nombre particular se distingue de lo demás de la
+                    ciudad" (RAE 1726) (the district, part of some City, or place, which with a
+                    particular name is distinguished from the rest of the city).</note>
+                <note n="70" xml:id="n-5-12" target="#note-5-12">The expression <hi>también</hi>
+                    (too) is not correct in the Spanish original and should be substituted by
+                        <hi>tan bien</hi> (so good). There are other contrary cases in the text
+                    where <hi>tan bien</hi> acts with the meaning of <hi>también</hi>.</note>
                 <note n="71" xml:id="n-5-13" target="#note-5-13">Medinilla translates the first
-                    instance of <hi>cibos</hi> as <hi>cosas necesarias</hi> [necessary things],
-                    whereas Robinson opts for "meates". According to the OED (2024), "meat" could be used
-                    in two senses. On the one hand, as a general word for food and, on the other hand, as a specific reference to flesh.
-                    It is likely that Robinson referred here to the former. This might explain
-                    the introduction of meat in previous notes. Moreover, Medinilla incorrectly
-                    translates "nisi quod principis, pontificis, et Tranibororum respectus habetur"
-                    ["except that special regard is paid to governor, the high priest, and the tranibors" (More 1965, 141, lines 15-16)],
-                    offering "si ya no se tiene respecto" ["if there is no longer
-                    respect]. This alters the original meaning of the segment. Also, Medinilla
+                    instance of <hi>cibos</hi> as <hi>cosas necesarias</hi> (necessary things),
+                    whereas Robinson opts for "meates." According to the OED (2024), "meat" could be
+                    used in two different senses. On the one hand, as a general word for food and,
+                    on the other hand, as a specific reference to flesh. It is likely that Robinson
+                    referred here to the former. This might explain the introduction of meat in
+                    previous notes (see note 67 in chapter five). Moreover, Medinilla incorrectly translates "nisi quod
+                    principis, pontificis, et Tranibororum respectus habetur" ("except that special
+                    regard is paid to governor, the high priest, and the tranibors" (More 1965, 141,
+                    lines 15-16)), offering "si ya no se tiene respeto" (if there is no longer
+                    respect). This alters the original meaning of the segment. Also, Medinilla
                     misses part of the final sentence and translate the Latin segment "ac legatorum
-                    etiam, et exterorum omnium" as "embajadores extranjeros" ["foreign
-                    ambasadors"]. Also, he renders <hi>pontificis</hi> as <hi>prelados</hi>, when in
-                    previous and later instances he opts for <hi>pontífice</hi>. Covarrubias reveals that the <hi>prelado</hi>
-                    equals a "bishop or superior figure in religions" (1611, 595r).</note>
-                <note n="72" xml:id="n-5-14" target="#note-5-14">Medinilla omits <hi>cum silentio</hi> in
-                    "atque id summo cum silentio".</note>
+                    etiam, et exterorum omnium" as <hi>embajadores extranjeros</hi> (foreign
+                    ambassadors). Also, he renders <hi>pontificis</hi> as <hi>prelados</hi>, when in
+                    previous and later instances he opts for <hi>pontífice</hi> (see note 143 in chapter seven).
+                    Covarrubias reveals that the <hi>prelado</hi> equals a "bishop or superior
+                    figure in religions" (1611, 595r).</note>
+                <note n="72" xml:id="n-5-14" target="#note-5-14">Medinilla omits cum silentio in
+                    "atque id summo cum silentio."</note>
                 <note n="73" xml:id="n-5-15" target="#note-5-15">Robinson introduces the negative
                     particle "no" at the end of the segment, which seems to alter the original
-                    sense. </note>
-                <note n="74" xml:id="n-5-16" target="#note-5-16">Medinilla translates <hi>bellariis</hi> as
-                    <hi>frutas secas</hi>. </note>
+                    sense.</note>
+                <note n="74" xml:id="n-5-16" target="#note-5-16">Medinilla translates
+                        <hi>bellariis</hi> as <hi>frutas secas</hi>.</note>
                 <note n="75" xml:id="n-5-17" target="#note-5-17">The Spanish translator leaves out
-                    "qui longious ab sese dissiti sunt", simplifying the translation.</note>
+                    "qui longious ab sese dissiti sunt" ("since they are rather far removed from
+                    their neighbors" (More 1965, 145, lines 28-29)), simplifying the
+                    translation.</note>
             </div>
         </body>
     </text>

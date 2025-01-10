@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Chapter 8. De la milicia</title>
+                <title>8. Chapter 8. De la milicia</title>
                 <funder>This work has been developed thanks to a doctoral fellowship granted in 2020
                     by the Spanish Ministry of Universities</funder>
                 <respStmt>
@@ -43,38 +43,44 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        
+
         <encodingDesc>
             <projectDesc>
                 <p>This edition was developed as part of my thesis dissertation titled "A Digital
-                    Edition of the 1637 Spanish translation of Thomas More's Utopia". The processes
+                    Edition of the 1637 Spanish translation of Thomas More's Utopia." The processes
                     of data modeling, encoding and publishing the edition was done during a research
-                    visit to the Digital Scholarship Group and the Women Writers Project at Northeastern University (Boston, USA).</p>
+                    visit to the Digital Scholarship Group and the Women Writers Project at
+                    Northeastern University (Boston, USA).</p>
             </projectDesc>
             <samplingDecl>
-                <p>The aim of this edition is to offer a side-by-side edition of the first printed translation of Thomas More's <hi>Utopia</hi>
-                    into Spanish plus three accompanying texts: a modernization of Gerónimo de Medinilla's 1637 rendering, the Latin text taken from
-                    the 1518 March edition and the 1551 English translation by Ralph Robinson.</p>
+                <p>The aim of this edition is to offer a side-by-side edition of the first printed
+                    translation of Thomas More's <hi>Utopia</hi> into Spanish plus three
+                    accompanying texts: a modernization of Gerónimo de Medinilla's 1637 rendering,
+                    the Latin text taken from the 1518 March edition and the 1551 English
+                    translation by Ralph Robinson.</p>
             </samplingDecl>
             <editorialDecl>
                 <normalization>
-                    <p>For the modernization of the Spanish translation, graphs, punctuation and accentuation have been adapted to 
-                        today's orthographical norms as established by the Real Academia de la Lengua Española in its <hi>Diccionario</hi> (2023)
-                        and <hi>Ortografía de la Lengua Española</hi> (2010).</p>
-                </normalization>                
+                    <p>For the modernization of the Spanish translation, graphs, punctuation and
+                        accentuation have been adapted to today's orthographical norms as
+                        established by the Real Academia de la Lengua Española in its
+                            <hi>Diccionario</hi> (2023) and <hi>Ortografía de la Lengua
+                            Española</hi> (2010).</p>
+                </normalization>
                 <segmentation>
-                    <p>The texts have been segmented into sentences to facilitate alignment. In the framework of the present edition,
-                        a sentence is defined as the text between two periods, disregarding other linguistic conventions.</p>
+                    <p>The texts have been segmented into sentences to facilitate alignment. In the
+                        framework of the present edition, a sentence is defined as the text between
+                        two periods, disregarding other linguistic conventions.</p>
                 </segmentation>
             </editorialDecl>
             <refsDecl>
-                <p>Identifiers are made up by concatenating the language reference code,
-                    chapter number, segment number and segment order in the sentence.
-                    Sentences are connected by <att>corresp</att>. A previous <att>type</att>
-                    indicates whether the segment has been translated or not by Medinilla. Thus, if
-                    a segment is untranslated, it will not carry the <att>corresp</att>.
-                    The <att>n</att> of segment is also key in the alignment process</p>
-            </refsDecl>           
+                <p>Identifiers are made up by concatenating the language reference code, chapter
+                    number, segment number and segment order in the sentence. Sentences are
+                    connected by <att>corresp</att>. A previous <att>type</att> indicates whether
+                    the segment has been translated or not by Medinilla. Thus, if a segment is
+                    untranslated, it will not carry the <att>corresp</att>. The <att>n</att> of
+                    segment is also key in the alignment process</p>
+            </refsDecl>
             <schemaSpec ident="TEI"/>
         </encodingDesc>
         <profileDesc>
@@ -93,6 +99,7 @@
         <body>
             <div type="base" xml:lang="es">
                 <div type="chapter" n="8">
+                    <pb n="33v"/>
                     <head type="chapter">De la Milicia. Cap. VIII.</head>
                     <ab>
                         <seg n="8.1" type="sentence">
@@ -122,7 +129,7 @@
                                     <rdg wit="1805">y en este caso</rdg>
                                 </app> no la emprenden inconſideradamẽte, ſino por defender ſus
                                 confines, o por ahuyentar los enemigos de ſus pueblos; de ſus
-                                aliados, i amigos, o por librar algun pueblo de la ſervidumbre (lo
+                                aliados, i amigos, <pb n="34r"/>o por librar algun pueblo de la ſervidumbre (lo
                                 qual hazen movidos de compaſion, no por otro fin q̃ por no faltar a
                                 la humanidad) i por ponellos en libertad.<anchor n="145"
                                     xml:id="note-8-1"/></s>
@@ -157,7 +164,7 @@
                                 propias fuerças, i odio las de las gentes comarcanas, i ſu caudal,
                                 los dejaron quebrantados, i deſtroçados: de ſuerte que la
                                 eſclavitud, i rendimiento de los Aleopolitas diò fin a los males,
-                                que unos de otros ſe avian originado; con lo qual ſe rindieron al
+                                que unos de otros ſe avian originado; <pb n="34v"/>con lo qual ſe rindieron al
                                 poder de los Nofologetas (porque no peleavan contra ellos en nombre
                                 de los Vtopianos) i creciendo la grandeza de los Alaopolitas: de
                                 ſuerte que los que oi fueron vencedores (con la ayuda de los
@@ -185,7 +192,7 @@
                                     <rdg wit="1805">pero</rdg>
                                 </app> ſus Ciudadanos, como la perdida es del comun, i no les falta
                                 nada, de lo que tienen abundancia en ſu caſa, i aquello que les
-                                faltò era de lo que parecia teniã ſobrado, por que a no ſer aſsi no
+                                faltò era de lo que parecia teniã ſobrado, porque a no ſer aſsi no
                                 lo embiaran <app>
                                     <lem>fuera: de donde ſucede, que el daño,</lem>
                                     <rdg wit="1790">fuera, el daño,</rdg>
@@ -197,7 +204,7 @@
                                 dura, i cruel reparar ſemejante daño con muerte de muchos.</s>
                         </seg>
                         <seg n="8.9" type="sentence">
-                            <s xml:id="es-8-9-1" n="es 8.9">Siendo aſsi que aquella perdida ninguno
+                            <s xml:id="es-8-9-1" n="es 8.9">Siendo aſsi que <pb n="35r"/>aquella perdida ninguno
                                 dellos la ſiente, ni le ha de ſer incomodidad ẽ ſu vida, ni
                                 ſuſtẽto.</s>
                         </seg>
@@ -215,7 +222,7 @@
                         <seg n="8.12" type="sentence">
                             <s xml:id="es-8-12-1" n="es 8.12">Afrentanſe de alcançar viƈtoria
                                 ſangrienta, pareciendoles aver comprado mui caro la mercancia, aun
-                                que fueſſe digna deprecio.</s>
+                                que fueſſe digna de precio.</s>
                         </seg>
                         <seg n="8.13" type="sentence">
                             <s xml:id="es-8-13-1" n="es 8.13"><app>
@@ -237,7 +244,7 @@
                             <s xml:id="es-8-14-1" n="es 8.14">En el mover la guerra atienden a
                                 conſeguir el intento, que aviendolo alcançado no la intentaran; i ſi
                                 alguno lo reſiſte toman ſevera vengança de aquellos que han ſido
-                                eſtorbo de ſu ſoſiego, para que el terror los aſſombre, de manera;
+                                eſtorbo de ſu ſoſiego, para que el <pb n="35v"/>terror los aſſombre, de manera;
                                 que no ſe atrevan a oponerſeles.</s>
                         </seg>
                         <seg n="8.15" type="sentence">
@@ -249,7 +256,7 @@
                             <s xml:id="es-8-16-1" n="es 8.16">Deſta ſuerte pues luego que ſe publica
                                 la guerra, ordenan ſecretamente ſe fijen muchos carteles,
                                 autorizados con ſus firmas, todos a un tiempo en lugares publicos, i
-                                ſeñalados en la tierra del enemigo: por los quales prometen gran des
+                                ſeñalados en la tierra del enemigo: por los quales prometen grandes
                                 premios, ſi alguno diere muerte al Principe contrario: deſpues
                                 ſeñalan otros menores, aunque valioſos, i honroſos por las cabeças
                                 de cada uno de aquellos, cuyos nombres tambien ſe eſcriben en los
@@ -268,7 +275,7 @@
                         </seg>
                         <seg n="8.17" type="sentence">
                             <s xml:id="es-8-17-1" n="es 8.17">Con tanta facilidad las dadivas abren
-                                puerta a qualquiera maldad, i eſtas dan los Vtopianos ſin eſcaſeza:
+                                <pb n="36r"/>puerta a qualquiera maldad, i eſtas dan los Vtopianos ſin eſcaſeza:
                                 i advirtiendo <app>
                                     <lem>al gran rieſgo que</lem>
                                     <rdg wit="1790">el gran riesgo á que</rdg>
@@ -310,7 +317,7 @@
                                 ſolicitã Principes eſtraños, refreſcãdoles antiguas pretẽſiones,
                                 quales nunca faltan entre Reyes, i les ofrecen ſocorros, i ſu
                                 aſiſtencia, dandoles largamente dineros, pero no gentes; porque aman
-                                con tal afeƈto a los ſuyos, que no trocaran el menor por el Principe
+                                con tal afeƈto a <pb n="36v"/>los ſuyos, que no trocaran el menor por el Principe
                                 de los enemigos.</s>
                         </seg>
                         <seg n="8.21" type="sentence">
@@ -353,7 +360,7 @@
                         </seg>
                         <seg n="8.25" type="sentence">
                             <s xml:id="es-8-25-1" n="es 8.25">No ſe obligan por tiempo largo, ſino
-                                con tal paƈto van a qualquier parte, que ſi el ultimo dia del
+                                <pb n="37r"/>con tal paƈto van a qualquier parte, que ſi el ultimo dia del
                                 concierto, los enemigos (de aquellos por quien toman las armas) les
                                 ofrecieſſen mayor paga ſe pueden ir a ſu ſueldo: i deſpues ſi ellos
                                 les convidan <app>
@@ -396,7 +403,7 @@
                                     <lem>Que</lem>
                                     <rdg wit="1790">pues</rdg>
                                     <rdg wit="1805">pues</rdg>
-                                </app> aſsi como los Vtopianos buſcan a los mejores para amigos, i
+                            </app> <pb n="37v"/>aſsi como los Vtopianos buſcan a los mejores para amigos, i
                                 buenas correſpondencias, aſsi ſolicitan a los peores, para ayudarſe
                                 dellos en ocaſiones, a los quales quando la neceſsidad lo pide
                                 obligan con grandes promeſas, i los ponen a grãdes peligros, de a
@@ -432,7 +439,7 @@
                                     <lem>eſcriben</lem>
                                     <rdg wit="1790">alistan</rdg>
                                     <rdg wit="1805">alistan</rdg>
-                                </app> ſoldados voluntarios, i a ninguno involuntariamente le
+                            </app> ſoldados voluntarios, i a ninguno involunta<pb n="38r"/>riamente le
                                 obligan a ſeguir la guerra, teniendo por coſa cierta, que el hombre
                                 cobarde, fuera de no governarſe en la ocaſion valeroſamente, pondra
                                 temor a los que le acompañan.</s>
@@ -468,7 +475,7 @@
                                     <rdg wit="1805">y tienen</rdg>
                                 </app> por mui grande afrenta que el marido buelva ſin la muger, o
                                 eſta ſin el marido, o el hijo aviendo perdido al padre, de donde
-                                ſucede que (ſi eſta en ſu mano) perſeverando los enemigos en la
+                                ſucede que (ſi eſta en ſu mano) <pb n="38v"/>perſeverando los enemigos en la
                                 batalla tomen reſolucion de aſsiſtir a ella en prolija, i lamentable
                                 pelea haſta la muerte.</s>
                         </seg>
@@ -502,7 +509,7 @@
                                 la aventuren, la quieran conſervar avarienta, i torpemente.</s>
                         </seg>
                         <seg n="8.39" type="sentence">
-                            <s xml:id="es-8-39-1" n="es 8.39">Quando anda mas recia la batalla,
+                            <s xml:id="es-8-39-1" n="es 8.39">Quando anda mas <pb n="39v"/>recia la batalla,
                                 algunos mancebos conjurados, atienden al Principe, o Caudillo
                                 enemigo, i deſcubiertamente le acometen, i tambien acechandole le
                                 embiſten, o de cerca, o de lejos le combaten, rodeandole muchos por
@@ -516,10 +523,10 @@
                                 haziendo eſtrago, i con muertes: antes de mejor gana travajan por
                                 prender a los que huyen, que matarlos, procurando conſervar un
                                 eſquadron bien ordenado en guarda de las banderas: de <app>
-                                    <lem>condicion</lem>
+                                    <lem>condicion,</lem>
                                     <rdg wit="1790">modo</rdg>
                                     <rdg wit="1805">modo</rdg>
-                                </app>, que ſino es aviendo vencido todas las demas partes del
+                                </app>que ſino es aviendo vencido todas las demas partes del
                                 exercito contrario, i con la ultima del ſuyo alcançado la viƈtoria,
                                 antes permiten que los enemigos ſe eſcapen huyendo, que conſientan
                                 ir dandoles alcance a los que ſe <app>
@@ -543,7 +550,7 @@
                                     <rdg wit="1805">acometiendo</rdg>
                                 </app> de repente a los que ivan ſin orden, derramados por todas
                                 partes, no haziendo caſo del peligro, imaginandoſe mui ſeguros, ſe
-                                les trocò el ſuceſſo de toda la batalla, i cayendoſeles de la mano
+                                les <pb n="39v"/>trocò el ſuceſſo de toda la batalla, i cayendoſeles de la mano
                                 la viƈtoria, que tenian por <app>
                                     <lem>cierta, ſin duda, trocandoſe</lem>
                                     <rdg wit="1790">cierta, trocandose</rdg>
@@ -573,7 +580,7 @@
                                 </app> aquellos, que ſe quedan a la guardia de las trincheas, para
                                 los caſos repentinos: aſsi travajando tantos con tanta fidelidad, i
                                 cuidado, ponen fin en poco tiempo a mui grandes ſitios mui
-                                fortalecidos, i reparados.<anchor n="161" xml:id="note-8-17"/></s>
+                                fortalecidos, i repara<pb n="40r"/>dos.<anchor n="161" xml:id="note-8-17"/></s>
                         </seg>
                         <seg n="8.42" type="sentence">
                             <s xml:id="es-8-42-1" n="es 8.42">Valenſe de armas firmes para reparar
@@ -625,7 +632,7 @@
                         </seg>
                         <seg n="8.49" type="sentence">
                             <s xml:id="es-8-49-1" n="es 8.49">Amparan las Ciudades que ſe le rinden,
-                                i no ſaquean las que conquiſta, ſino ſolas las <app>
+                                i no ſaquean <pb n="40v"/>las que conquiſta, ſino ſolas las <app>
                                     <lem>coſas</lem>
                                     <rdg wit="1790">casas</rdg>
                                     <rdg wit="1805">casas</rdg>
@@ -1223,7 +1230,7 @@
                         </seg>
                         <seg n="8.53" type="singleSentence">
                             <seg xml:id="em-8-53-1" n="em 8.100" corresp="#es-8-53-1">De estas
-                                heredades señalan una parte para aquellos que a contemplación suya
+                                heredades señalan una <pb n="41r"/>parte para aquellos que a contemplación suya
                                 le pusieron a tanto riesgo y peligro, como ya declaré.</seg>
                         </seg>
                         <seg n="8.54" type="singleSentence">
@@ -2384,134 +2391,132 @@
                 <note n="145" xml:id="n-8-1" target="#note-8-1">Medinilla omits the idea that other
                     people were oppressed by tyrants. </note>
                 <note n="146" xml:id="n-8-2" target="#note-8-2">Medinilla uses in many cases the
-                    expression <hi>so color</hi> with the sense of "under pretext". Moreover, the
+                    expression <hi>so color</hi> with the sense of "under pretext." Moreover, the
                     Spanish translator uses pairs of synonyms once again. In the Latin clause
-                    "quoties hostili incursu abacta est praeda" ["not only when a hostile inroad has
-                    carried off booty" (More 1965, 201, lines 15-16)], he renders <hi>abacta
-                        est</hi> as <hi>infestado</hi> and <hi>saqueado</hi> [infected and
-                    plundered) and <hi>incursu</hi> as <hi>entradas</hi> and <hi>correrías</hi>
-                    [entrances and runs]. The <hi>Diccionario de Autoridades</hi> defined
-                        <hi>correría</hi> as "hostilidad y daño que hace la gente de guerra,
-                    entrando y corriendo en el país enemigo" (RAE 1729). ["hostility and damage done
-                    by people of war, entering and running into the enemy country"]. </note>
+                    "quoties hostili incursu abacta est praeda" ("not only when a hostile inroad has
+                    carried off booty" (More 1965, 201, lines 15-16)), he renders <hi>abacta</hi> as
+                        <hi>infestado</hi> and <hi>saqueado</hi> (infected and plundered) and
+                        <hi>incursu</hi> as <hi>entradas</hi> and <hi>correrías</hi> (entrances and
+                    runs). The <hi>Diccionario de Autoridades</hi> defined <hi>correría</hi> as
+                    "hostilidad y daño que hace la gente de guerra, entrando y corriendo en el país
+                    enemigo" (RAE 1729) (hostility and damage done by people of war, entering and
+                    running into the enemy country).</note>
                 <note n="147" xml:id="n-8-3" target="#note-8-3">Medinilla is not precise in the
-                    translation and the original idea seems blurred, since he removes the idea that
+                    translation and the original sense seems blurred, since he removes the idea that
                     Utopians do not enslave Alaopolitans because the former weren't involved in that
                     war on their own account. According to Lupton, the name <hi>Nephelogetis</hi>
-                    comes from the Greek word <hi>Νεφελόγεταs</hi>, meaning "Cloudlanders", and
-                        <hi>Alaopolitas</hi>, from the Greek <hi>Άλαοπολίταs</hi>, meaning "men of
-                    Blindville"(More 1985, 244, note 2). In contrast, Logan suggests different
-                    meanings: the former, defined as "people born from the clouds" and the latter as
-                    "citizens of a country without people" (More 1989, 91, note 111). Hexter and
-                    Surtz agree with Logan and deepen on Lucian's influence (More 1965, 500).
-                    Medinilla applies Spanish spelling rules to <hi>Nephelogetis</hi> and renders it
-                    as <hi>nefologetas</hi>. The spelling <hi>nofologetas</hi> and
-                        <hi>aleopolitas</hi> appear as this in the text. </note>
+                    comes from the Greek word Νεφελόγεταs, meaning "Cloudlanders," and
+                        <hi>Alaopolitas</hi>, from the Greek Άλαοπολίταs, meaning "men of
+                    Blindville" (More 1985, 244n2). In contrast, Logan alternatively suggests that
+                    the former is defined as "people born from the clouds," whereas the latter as
+                    "citizens of a country without people" (More 1989, 91n111). Hexter and Surtz
+                    agree with Logan and deepen on Lucian's influence (More 1965, 500). Medinilla
+                    applies to these names the Spanish orthographical rules and slightly alters
+                    their spelling.</note>
                 <note n="148" xml:id="n-8-4" target="#note-8-4">The Spanish translator does not
-                    transmit the same idea than More does in the original in the sentence "modo
-                    corporibus absit uis, hactenus irascuntur uti" ["but without personal violence,
-                    their anger goes no further" (More 1965, 201, lines 36-37)]. Medinilla renders
-                    it as "no faltándoles fuerzas corporales, de tal suerte se embravecen" ["not
-                    giving them bodily strength, in such a way they become enraged"].</note>
+                    transmit the same idea than Hythloday does in the sentence "modo corporibus
+                    absit uis, hactenus irascuntur uti" ("but without personal violence, their anger
+                    goes no further" (More 1965, 201, lines 36-37)). Medinilla renders it as "no
+                    faltándoles fuerzas corporales, de tal suerte se embravecen" (not giving them
+                    bodily strength, in such a way they become enraged).</note>
                 <note n="149" xml:id="n-8-5" target="#note-8-5">Neither Medinilla nor Robinson makes
                     a literal translation of this segment. Especially, when it comes to the Latin
                     sentence "quicquid percussori praefiniunt, hoc geminant ei qui uiuum e
                     pro­scriptis aliquem ad se perduxerint, quum ipsos quoque proscriptos praemiis
-                    iisdem, addita etiam impunitate, contra socios inuitant" ["whatever reward they
+                    iisdem, addita etiam impunitate, contra socios inuitant" ("whatever reward they
                     fix for an assassin, they double for the man who brings any of the denounced
                     parties alive to them. They actually offer the same rewards, with a guarantee of
                     personal safety, to the persons proscribed, if they will turn against their
-                    fellows" (More 1965, 205, lines 5-9)]. The Spanish translator writes "y
+                    fellows" (More 1965, 205, lines 5-9)). The Spanish translator writes "y
                     cualquier premio que prometen al que así diere muerte le señalan doblado para
                     aque que trujere vivo o preso algunos de los bandido, y aún ellos mismos les
                     premian con las mismas honras, asegurándoles las vidas si se presentan,
-                    convidándolos con esto contra sus amigos" ["and any reward they promise to
-                    anyone who kills them in this way is doubled for those who bring back alive or
-                    prisoner some of the bandits, and they themselves reward them with the same
-                    honors, assuring their lives if they show up, inviting them with this against
-                    their friends"]. The 1551 English text says "what soeuer is prescribed vnto him
-                    that killeth any of the proclamed persons, that is dobled to him that bringeth
-                    any of the same to them aliue: yea, and to the proclamed persones them selfes,
-                    if they wil chaunge their mindes and come into them, takinge their partes, they
-                    profer the same greate rewardes with pardon, and suerty of their liues",
-                    deviating from the original idea.</note>
+                    convidándolos con esto contra sus amigos" (and any reward they promise to anyone
+                    who kills them in this way is doubled for those who bring back alive or prisoner
+                    some of the bandits, and they themselves reward them with the same honors,
+                    assuring their lives if they show up, inviting them with this against their
+                    friends). The 1551 English text reads "what soeuer is prescribed vnto him that
+                    killeth any of the proclamed persons, that is dobled to him that bringeth any of
+                    the same to them aliue: yea, and to the proclamed persones them selfes, if they
+                    wil chaunge their mindes and come into them, takinge their partes, they profer
+                    the same greate rewardes with pardon, and suerty of their liues," deviating thus
+                    from the original idea.</note>
                 <note n="150" xml:id="n-8-6" target="#note-8-6">The phrase <hi>cum fide</hi> is
-                    rendered by Medinilla as <hi>con toda fidelidad y firmeza</hi> ["full of
-                    fidelity and steadiness"].</note>
+                    rendered by Medinilla as <hi>con toda fidelidad y firmeza</hi> (full of fidelity
+                    and steadiness).</note>
                 <note n="151" xml:id="n-8-7" target="#note-8-7">The Spanish translator selects the
                     verb <hi>almonedear</hi> to render the Latin word <hi>mercandi</hi>. The
                         <hi>Tesoro de la Lengua</hi> defines the noun <hi>almoneda</hi> as "la venta
                     de las cosas públicas que se hace con intervención de la justicia y ante
                     escribano y con ministro público, dicho pregonero, porque en altavoz propone la
                     cosa que vende y el precio que dan por ella y porque van pujando unos y otros y
-                    acrecentando el precio" (Covarrubias 1611, 56v) ["the sale of public things that
+                    acrecentando el precio" (Covarrubias 1611, 1:56v) (the sale of public things that
                     is made with the intervention of justice and before notary and a public
                     minister, called crier, because speaking aloud he proposes the thing he is
                     selling and the price they give for it and because they bid each other and
-                    increase the price..."]. This significantly alters the original meaning of the
-                    sentence, as the translator adds his particular reimagination of market
-                    scenarios. </note>
+                    increase the price). This significantly alters the original meaning of the
+                    sentence, as the translator adds his particular reimagination of the market
+                    scenario.</note>
                 <note n="152" xml:id="n-8-8" target="#note-8-8">The name <hi>Zapoletis</hi> derives
-                    from the Greek <hi>ζα-</hi> and <hi>πολίτηs</hi>, meaning "busy sellers" (More
-                    1965, 504, note 206/8).</note>
+                    from the Greek ζα- and πολίτηs, meaning "busy sellers" (More 1965, 504n206/8).</note>
                 <note n="153" xml:id="n-8-9" target="#note-8-9">This is another instance where
-                    Medinilla mistranslates numbers. Instead of "five hundred miles", he introduces
-                        <hi>cincuenta</hi> [fifty]. </note>
+                    Medinilla mistranslates numbers. Instead of "five hundred miles," he introduces
+                        <hi>cincuenta</hi> (fifty).</note>
                 <note n="154" xml:id="n-8-10" target="#note-8-10">Medinilla inserts the noun
-                        <hi>mercenarios</hi> as a reference to the Zapoletas although it is not
-                    mentioned in the Latin <hi>Utopia</hi>. This word does not appear in the
-                        <hi>Tesoro de la Lengua</hi> nor the <hi>Diccionario de Autoridades</hi>,
+                        <hi>mercenarios</hi> as a reference to the Zapoletas, although this specific
+                    is not mentioned in the original <hi>Utopia</hi>. This word does not appear in
+                    the <hi>Tesoro de la Lengua</hi> nor the <hi>Diccionario de Autoridades</hi>,
                     but it is defined in the <hi>Diccionario de la Lengua Española</hi> (2023) as
                     "dicho de un soldado o de una tropa: que por estipendio sirve en la guerra a un
-                    poder extranjero" ["a soldier or a troop who serves a foreign power in war as a
-                    stipend"]. According to Hexter and Surtz, the 1518 editions omitted a note on
-                    the Swiss deemed as mercenaries (More 1965, 504, note 206/8) Also, in contrast
-                    to chapter six, Medinilla translates the Latin word <hi>assis</hi> as
+                    poder extranjero" (a soldier or a troop who serves a foreign power in war for a
+                    stipend). According to Hexter and Surtz, the 1518 editions omitted a note on the
+                    Swiss deemed as mercenaries (More 1965, 504n206/8) Also, in contrast to
+                    chapter six, Medinilla now translates the Latin word <hi>assis</hi> as
                         <hi>cornado</hi> instead of <hi>blanca</hi>. This is defined in the
                         <hi>Tesoro de la Lengua</hi> as "antiguamente una moneda muy baja de ley"
-                    (Covarrubias 1611, 239r) ["formerly a very low grade coin"]. The value of the
+                    (Covarrubias 1611, 1:239r) (formerly a very low grade coin). The value of the
                         <hi>cornado</hi> is lower than a <hi>blanca</hi>, according to the
                         <hi>Diccionario de Autoridades</hi> (RAE 1729). Similarly, Robinson uses
-                    "halfpenye" instead of "farthing". The OED (2024) explains "halfpenye" was "a
+                    "halfpenye" instead of "farthing." The OED (2024) explains "halfpenye" was "a
                     coin of the English (later British) currency of half the value of a penny; the
-                    amount represented by this, a sum equivalent to two farthings". See note 85 in
+                    amount represented by this, a sum equivalent to two farthings." See note 85 in
                     chapter six for further information. </note>
                 <note n="155" xml:id="n-8-11" target="#note-8-11">The Spanish governor alters the
-                    last Latin segment "e quibus aliquem uirtutis probatae uirum totius exercitus
-                    summae praeficiunt" ["they appoint some man of tried valor to command the whole
-                    army" (More 1965, 209, line 19)] by adding a position existing in the Spanish
-                    army: "Capitán General". The <hi>Diccionario de Autoridades</hi> establishes
-                    that the <hi>capitán general</hi> is the one "el que manda un ejército de
-                    tierra, o una armada de mar, con autoridad inmediata al Rey y al Consejo" (RAE
-                    1729) ["who commands an army of land, or a navy of sea, with immediate authority
-                    to the King and the Council"], which makes sense with the delegated task
-                    described in <hi>Utopia</hi>.</note>
+                    sense of the last Latin segment, "e quibus aliquem uirtutis probatae uirum
+                    totius exercitus summae praeficiunt" ("they appoint some man of tried valor to
+                    command the whole army" (More 1965, 209, line 19)) by making reference to the
+                    Spanish army position <hi>Capitán General</hi>. The <hi>Diccionario de
+                        Autoridades</hi> establishes that the <hi>capitán general</hi> is "el que
+                    manda un ejército de tierra, o una armada de mar, con autoridad inmediata al Rey
+                    y al Consejo" (RAE 1729) (the one who commands an army of land, or a navy of
+                    sea, with immediate authority to the King and the Council), which coincides with
+                    the according delegated task described in <hi>Utopia</hi>.</note>
                 <note n="156" xml:id="n-8-12" target="#note-8-12">Medinilla renders
-                        <hi>substituunt</hi> as <hi>substituyen</hi> [they substitute] and it blurs
+                        <hi>substituunt</hi> as <hi>substituyen</hi> (they substitute) and it blurs
                     the original sense of the verb. In this case, the verb means "to appoint a
-                    substitution", as is rendered in the Yale edition: "for him they have two
+                    substitution," as is rendered in the Yale edition: "for him they have two
                     substitutes" (More 1965, 209, line 20). Also, he opts for <hi>caudillo</hi> to
-                    translate <hi>duce</hi>, which means "el guiador de la hueste, cuasi caudillo
-                    […], de donde también se dijo capitán" ["guide to the army [...], also meaning
-                    captain"] according to the <hi>Tesoro de la Lengua</hi> (Covarrubias 1611,
-                    212v).</note>
+                    translate <hi>duce</hi>, which means "el guiador de la hueste, cuasi caudillo. .
+                    ., de donde también se dijo capitán" (guide to the army. . ., also meaning
+                    captain") according to the <hi>Tesoro de la Lengua</hi> (Covarrubias 1611,
+                    1:212v).</note>
                 <note n="157" xml:id="n-8-13" target="#note-8-13">It is interesting that Medinilla
-                    adds <hi>cuñados</hi> [brother-in-law] to expand the meaning of <hi>affines</hi>
-                    [relatives].</note>
+                    adds <hi>cuñados</hi> (brother-in-law) to expand the meaning of <hi>affines</hi>
+                    (relatives).</note>
                 <note n="158" xml:id="n-8-14" target="#note-8-14">The Spanish governor chooses the
                     expression <hi>en prolija</hi> to match the Latin adjectives <hi>longo et
-                        lugubri</hi> ["long and anguished" (More 1964, 211, line 8)]. This means
-                    "largo, dilatado y extendido con excesso" ["long, dilated and excessively
-                    extended"] according to the <hi>Diccionario de Autoridades</hi> (RAE
+                        lugubri</hi> ("long and anguished" (More 1964, 211, line 8)). This means
+                    "largo, dilatado y extendido con excess" (long, dilated and excessively
+                    extended), according to the <hi>Diccionario de Autoridades</hi> (RAE
                     1737).</note>
                 <note n="159" xml:id="n-8-15" target="#note-8-15">The beginning part of this
-                    sentence in Medinilla's translation opposes what is actually stated in the Latin
-                    clauses "quippe uictus ilia securitas, quae cuique domi est, ademptaque de
-                    posteris anxia cogitandi cura". The translator writes "finalmente privados de
+                    sentence in Medinilla's translation opposes what is originally intended in the
+                    Latin clauses "quippe uictus ilia securitas, quae cuique domi est, ademptaque de
+                    posteris anxia cogitandi cura." The translator writes "finalmente privados de
                     aquella quietud y seguridad que cada uno tenía en su casa y de aquel ansioso
-                    cuidado de sus descendientes" ["finally deprived of that quiet and security that
-                    each one had in their home and that anxious care of their descendants"], whereas
-                    the original says "the absence of anxiety about livelihood at home, as well as
+                    cuidado de sus descendientes" (finally deprived of that quiet and security that
+                    each one had in their home and that anxious care of their descendants), whereas
+                    the original reads "the absence of anxiety about livelihood at home, as well as
                     the removal of that worry which troubles men about the future of their families"
                     (More 1965, 211, lines 18-20).</note>
                 <note n="160" xml:id="n-8-16" target="#note-8-16">The Spanish translator renders
@@ -2522,42 +2527,44 @@
                         de la lengua</hi>, it refers to "en el ejército se dicen gastadores la gente
                     que trabaja con la pala y el azadón y traen piedra y fagina y lo demás que es
                     menester para hacer fosos, trincheas, revellines, caballeros, plataformas y todo
-                    lo demás; porque gastan aquellos materiales" (Covarrubias 1611, 430v) ["in the army,
-                    the people who work with the shovel and the hoe and bring stone and clay and the
-                    rest that is necessary to make ditches, trenches, fortifications, platforms and
-                    everything else, because they use those materials"]. Robinson alternatively
-                    prefers "slaves". The original Latin word implies service or drudgery (Lewis and
-                    Short 1879), which does not specifically coincide in sense with Medinilla's
-                    choice.</note>
+                    lo demás; porque gastan aquellos materiales" (Covarrubias 1611, 1:430v) (in the
+                    army, the people who work with the shovel and the hoe and bring stone and clay
+                    and the rest that is necessary to make ditches, trenches, fortifications,
+                    platforms and everything else, because they use those materials). Robinson
+                    alternatively prefers "slaves." The original Latin word implies service or
+                    drudgery (Lewis and Short 1879), which does not specifically coincide in sense
+                    with Medinilla's choice.</note>
                 <note n="162" xml:id="n-8-18" target="#note-8-18">The Spanish translator uses the
-                    word <hi>arma</hi> with the sense of <hi>armadura</hi> [armor]. According to
-                    the <hi>Tesoro de la Lengua</hi>, the word "arma", which also means "weapon", in plural
-                    also means "harness or corselet" (Covarrubias 1611, 88r). Interestingly, Medinilla adds that
-                    "es de los primeros ejercicios del arte militar" ["one of the first
-                    military exercises learnt in military training"], which could imply it was the
-                    case of Spanish army. The original reads "nam armati natare inter militaris
-                    disciplinae rudimenta consuescunt" ["for they practice swimming under arms as
-                    part of their apprenticeship in military discipline" (More 1965, 213, lines
-                    36-38)].</note>
+                    word <hi>arma</hi> with the sense of <hi>armadura</hi> (armor). According to the
+                        <hi>Tesoro de la Lengua</hi>, the word <hi>arma</hi>, which also means
+                    weapon, in plural corresponds to the noun harness or corselet (Covarrubias 1611,
+                    1:88r). Interestingly, Medinilla adds that "es de los primeros ejercicios del arte
+                    military" (one of the first military exercises learnt in military training),
+                    which could be specifically referencing the case of the Spanish army. The
+                    original reads "nam armati natare inter militaris disciplinae rudimenta
+                    consuescunt" ("for they practice swimming under arms as part of their
+                    apprenticeship in military discipline" (More 1965, 213, lines 36-38)).</note>
                 <note n="163" xml:id="n-8-19" target="#note-8-19">The Spanish translator renders
-                    <hi>praedia</hi> ["estates" (More 1965, 215, line 28)] as <hi>heredades</hi>
-                    [inheritances]. This is defined in the <hi>Tesoro de la Lengua</hi> as "la posesión en el campo de tierras, viñas y árboles, y por ser bienes raíces y que están asidas y pegadas a la tierra se llamaron heredades" (Covarrubias 1611, 466v) ["the possession
-                    in the countryside of land, vineyards and trees"]. </note>
+                        <hi>praedia</hi> ("estates" (More 1965, 215, line 28)) as <hi>heredades</hi>
+                    (inheritances). This is defined in the <hi>Tesoro de la Lengua</hi> as "la
+                    posesión en el campo de tierras, viñas y árboles, y por ser bienes raíces y que
+                    están asidas y pegadas a la tierra se llamaron heredades" (Covarrubias 1611,
+                    1:466v) (the possession in the countryside of land, vineyards and tres).</note>
                 <note n="164" xml:id="n-8-20" target="#note-8-20">Medinilla freely translates the
                     part "in quos e suis ciuibus aliquos emittunt quaestorum nomine, qui magnifice
-                    uiuant, personamque magnatum illic prae se ferant" ["to these states
-                    they dispatch some of their own citizens under the title of Financial Agents to
-                    live there in great style and to play the part of magnates" (More 1965, 215,
-                    lines 31-33)]. However, the Spanish governor presents "a cuya cobranza envían
-                    algunos de sus ciudadanos con nombre de tesoreros, representando con
-                    obstentación la grandeza de su persona en aquellas partes" ["to
-                    whose collection they send some of their citizens under the name of treasurers,
-                    obstinately representing the greatness of their person in those parts"]. Also,
-                    while Robinson chooses "Lieutenauntes" for <hi>quaestorum</hi>, Medinilla opts for
-                    <hi>tesoreros</hi> [treasurers]. Medinilla's term fits more appropriately
-                    to the meaning of that Latin term, since Robinson's choice does not have that
-                    financial sense. The OED (2024) defines it as "usually an officer civil or military
-                    who acts for a superior". </note>
+                    uiuant, personamque magnatum illic prae se ferant" ("to these states they
+                    dispatch some of their own citizens under the title of Financial Agents to live
+                    there in great style and to play the part of magnates" (More 1965, 215, lines
+                    31-33)). However, the Spanish governor presents "a cuya cobranza envían algunos
+                    de sus ciudadanos con nombre de tesoreros, representando con obstentación la
+                    grandeza de su persona en aquellas partes" (to whose collection they send some
+                    of their citizens under the name of treasurers, obstinately representing the
+                    greatness of their person in those parts). Also, while Robinson chooses
+                    "Lieutenauntes" for <hi>quaestorum</hi>, Medinilla opts for <hi>tesoreros</hi> (treasurers).
+                    Medinilla's term fits more appropriately to the meaning of that Latin term,
+                    since Robinson's choice does not contain that financial idea. The OED (2024)
+                    defines it as "usually an officer civil or military who acts for a
+                    superior."</note>
             </div>
         </body>
     </text>

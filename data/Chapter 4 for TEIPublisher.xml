@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Chapter 4. Ocupación, artes y ejercicios</title>
+                <title>4. Chapter 4. Ocupación, artes y ejercicios</title>
                 <funder>This work has been developed thanks to a doctoral fellowship granted in 2020
                     by the Spanish Ministry of Universities</funder>
                 <respStmt>
@@ -44,38 +44,44 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        
+
         <encodingDesc>
             <projectDesc>
                 <p>This edition was developed as part of my thesis dissertation titled "A Digital
-                    Edition of the 1637 Spanish translation of Thomas More's Utopia". The processes
+                    Edition of the 1637 Spanish translation of Thomas More's Utopia." The processes
                     of data modeling, encoding and publishing the edition was done during a research
-                    visit to the Digital Scholarship Group and the Women Writers Project at Northeastern University (Boston, USA).</p>
+                    visit to the Digital Scholarship Group and the Women Writers Project at
+                    Northeastern University (Boston, USA).</p>
             </projectDesc>
             <samplingDecl>
-                <p>The aim of this edition is to offer a side-by-side edition of the first printed translation of Thomas More's <hi>Utopia</hi>
-                    into Spanish plus three accompanying texts: a modernization of Gerónimo de Medinilla's 1637 rendering, the Latin text taken from
-                    the 1518 March edition and the 1551 English translation by Ralph Robinson.</p>
+                <p>The aim of this edition is to offer a side-by-side edition of the first printed
+                    translation of Thomas More's <hi>Utopia</hi> into Spanish plus three
+                    accompanying texts: a modernization of Gerónimo de Medinilla's 1637 rendering,
+                    the Latin text taken from the 1518 March edition and the 1551 English
+                    translation by Ralph Robinson.</p>
             </samplingDecl>
             <editorialDecl>
                 <normalization>
-                    <p>For the modernization of the Spanish translation, graphs, punctuation and accentuation have been adapted to 
-                        today's orthographical norms as established by the Real Academia de la Lengua Española in its <hi>Diccionario</hi> (2023)
-                        and <hi>Ortografía de la Lengua Española</hi> (2010).</p>
-                </normalization>                
+                    <p>For the modernization of the Spanish translation, graphs, punctuation and
+                        accentuation have been adapted to today's orthographical norms as
+                        established by the Real Academia de la Lengua Española in its
+                            <hi>Diccionario</hi> (2023) and <hi>Ortografía de la Lengua
+                            Española</hi> (2010).</p>
+                </normalization>
                 <segmentation>
-                    <p>The texts have been segmented into sentences to facilitate alignment. In the framework of the present edition,
-                        a sentence is defined as the text between two periods, disregarding other linguistic conventions.</p>
+                    <p>The texts have been segmented into sentences to facilitate alignment. In the
+                        framework of the present edition, a sentence is defined as the text between
+                        two periods, disregarding other linguistic conventions.</p>
                 </segmentation>
             </editorialDecl>
             <refsDecl>
-                <p>Identifiers are made up by concatenating the language reference code,
-                    chapter number, segment number and segment order in the sentence.
-                    Sentences are connected by <att>corresp</att>. A previous <att>type</att>
-                    indicates whether the segment has been translated or not by Medinilla. Thus, if
-                    a segment is untranslated, it will not carry the <att>corresp</att>.
-                    The <att>n</att> of segment is also key in the alignment process</p>
-            </refsDecl>           
+                <p>Identifiers are made up by concatenating the language reference code, chapter
+                    number, segment number and segment order in the sentence. Sentences are
+                    connected by <att>corresp</att>. A previous <att>type</att> indicates whether
+                    the segment has been translated or not by Medinilla. Thus, if a segment is
+                    untranslated, it will not carry the <att>corresp</att>. The <att>n</att> of
+                    segment is also key in the alignment process</p>
+            </refsDecl>
             <schemaSpec ident="TEI"/>
         </encodingDesc>
         <profileDesc>
@@ -110,7 +116,7 @@
                         </seg>
                         <seg n="4.3" type="sentence">
                             <s xml:id="es-4-3-1" n="es 4.3">Fuera de la Agricultura (que como he
-                                dicho es comun atodos ) cada qual inſtruido en algun otro oficio
+                                dicho es comun a todos) cada qual inſtruido en algun otro oficio
                                 diſtinto, como labrar lana, lino, canteria, herreria, carpinteria, u
                                 otro arte de manos.<anchor n="37" xml:id="note-4-2"/></s>
                         </seg>
@@ -1131,8 +1137,8 @@
                             <seg xml:id="la-4-35-1" n="la 4.33" corresp="#es-4-34-1">ad haec,
                                 sacer­dotum ac religiosorum, quos uocant, quanta quamque ociosa
                                 turba. </seg><seg xml:id="la-4-35-2" n="la 4.34" type="partial"
-                                part="I" next="#la-4-36-1" corresp="#es-4-34-1">adiice diuites omnes,
-                                maxime praediorum dominos, quos uulgo generosos appellant, ac
+                                part="I" next="#la-4-36-1" corresp="#es-4-34-1">adiice diuites
+                                omnes, maxime praediorum dominos, quos uulgo generosos appellant, ac
                                 nobiles: </seg>
                         </seg>
                         <seg n="4.36" type="multisentence" subtype="translated">
@@ -1747,95 +1753,104 @@
             </div>
             <div type="notes">
                 <note n="36" xml:id="n-4-1" target="#note-4-1">"Hysbandry" is the word Robinson
-                    chooses to translate the Latin word <hi>Agriculture</hi>. It is interesting
-                    that, despite the implicit gender differentiation between the words "Husbandy"
-                    and "Housewifery", he opts for this one when the Latin original says both men
+                    chooses to translate the Latin word <hi>agriculture</hi>. It is interesting
+                    that, despite the implicit gender differentiation between the words "husbandry"
+                    and "housewifery," he opts for this one when the Latin original says both men
                     and women are equally expert in this type of work.</note>
                 <note n="37" xml:id="n-4-2" target="#note-4-2">Medinilla could have opted to
-                    translate lanificium" as <hi>lanificio</hi>. The Diccionario de Autoridades defines
-                        <hi>lanificio</hi> as the art of working with wool, "la manufactura y arte
-                    de labrar la lana" (RAE 1734).</note>
+                    translate <hi>lanificium</hi> as <hi>lanificio</hi>. The <hi>Diccionario de
+                        Autoridades</hi> defines <hi>lanificio</hi> as the art of working with wool,
+                    "la manufactura y arte de labrar la lana" (RAE 1734).</note>
                 <note n="38" xml:id="n-4-3" target="#note-4-3">The meaning of <hi>artes</hi> here
                     refers to the ability or capacity to do something. The <hi>Diccionario de
-                    Autoridades</hi> defines it as "la maña, destreza, sagacidad y astucia de alguna
-                    persona, y la habilidad con que dispone las cosas" (RAE 1724) ["the skill,
+                        Autoridades</hi> reads it is "la maña, destreza, sagacidad y astucia de
+                    alguna persona, y la habilidad con que dispone las cosas" (RAE 1724) (the skill,
                     dexterity, sagacity and cunning of some person, and the skill to arrange
-                    things"].</note>
-                <note n="39" xml:id="n-4-4" target="#note-4-4">Medinilla omits <hi>uelut imbecilliores</hi>
-                    (More 1965, 126, line 10), meaning "as the weaker sex" (More 1965, 127, line
+                    things).</note>
+                <note n="39" xml:id="n-4-4" target="#note-4-4">Medinilla omits <hi>uelut
+                        imbecilliores</hi>, meaning "as the weaker sex" (More 1965, 127, line
                     10).</note>
-                <note n="40" xml:id="n-4-5" target="#note-4-5"><hi>Magistratibus</hi> is rendered by Medinilla
-                    in singular rather than plural.</note>
+                <note n="40" xml:id="n-4-5" target="#note-4-5"><hi>Magistratibus</hi> is rendered by
+                    Medinilla in singular rather than plural.</note>
                 <note n="41" xml:id="n-4-6" target="#note-4-6">The Spanish translator does not
                     literally translate the first part of the sentence. For instance, he removes
-                    "praecipuum ac prope unicum" (More 1965, 126, line 20) ["chief and almost the
-                    only" (More 1965, 127, line 23)]. <hi>Vagabundo</hi> is the term selected to
-                    render "ne quisquam desideat ociosus" (More 1965, 126, line 21) ["no one sit
-                    idle" (More 1965, 127, line 21)].</note>
+                    "praecipuum ac prope unicum" (More 1965, 126, line 20) ("chief and almost the
+                    only" (127, line 23)). <hi>Vagabundo</hi> is the term selected to render "ne
+                    quisquam desideat ociosus" (126, line 21) ("no one sit idle" (127, line 21)). </note>
                 <note n="42" xml:id="n-4-7" target="#note-4-7">Medinilla freely translates "nam ea
                     plusquam seruilis erumna est; quae tamen ubique fere opificium uita est,
-                    exceptis Vtopiensibus" (More 1965, 126, line 25). Medinilla translates <hi>seruilis</hi> as
-                        <hi>esclavos</hi>; Robinson, as "bondemen". Darcy Kern already addresses the
-                    topic of slavery in Spanish translations (2024, 227).</note>
+                    exceptis Vtopiensibus" (More 1965, 126, line 25). Medinilla translates
+                        <hi>seruilis</hi> as <hi>esclavos</hi>; Robinson, as "bondemen." Darcy Kern
+                    already addresses the topic of slavery in Spanish translations (2024,
+                    227).</note>
                 <note n="43" xml:id="n-4-8" target="#note-4-8">Medinilla makes a straightforward
-                   translation of this sentence, whereas Robison flourishes the fragment by
+                    translation of this sentence, whereas Robison flourishes the fragment by
                     altering the order of elements and introducing round brackets.</note>
                 <note n="44" xml:id="n-4-9" target="#note-4-9">In this segment, Medinilla introduces
                         <hi>horas privilegiadas</hi> as translation of the Latin pronoun
-                        <hi>has</hi>. Robinson omits "has intercapedines plerique impedunt literis".
-                    Furthermore, the Spanish governor translates <hi>dumtaxat adiguntur</hi> ["who
-                    have been specially chosen" (More 1965, 129, line 5)] as "asisten de necesidad
-                    solamente" ["necessarily uniquely attend"], obscuring the original meaning.</note>
+                        <hi>has</hi>. Robinson omits "has intercapedines plerique impedunt literis."
+                    Furthermore, the Spanish governor translates "dumtaxat adiguntur" ("who have
+                    been specially chosen" (More 1965, 129, line 5)) as "asisten de necesidad
+                    solamente" ([they] uniquely necessarily attend), obscuring the original
+                    meaning.</note>
                 <note n="45" xml:id="n-4-10" target="#note-4-10">The last part of the Latin segment
-                    "prout cuiusque fert natura" is translated in a less literally way by Medinilla. Instead
-                    of the sense of "according to their natural inclination" (More 1965, 129, line 8),
-                    Medinilla indicates "según su afición y lo que profesan" ["according
-                    to their interest and what they profess"], leaving behind the nuances of nature
-                    and feelings".</note>
-                <note n="46" xml:id="n-4-11" target="#note-4-11">Robison adds "in honeste and
-                    holsome" to the translation of "aut se sermone recreant".</note>
+                    "prout cuiusque fert natura" is translated in a less literally way by Medinilla.
+                    Instead of the sense of "according to their natural inclination" (More 1965,
+                    129, line 8), Medinilla indicates "según su afición y lo que profesan"
+                    (according to their interest and what they profess), leaving behind the nuances
+                    of nature and feelings.</note>
+                <note n="46" xml:id="n-4-11" target="#note-4-11">Robinson adds "in honeste and
+                    holsome" to the translation of "aut se sermone recreant" ("or entertain
+                    themselves with communication" (More 1965, 129, line 16).</note>
                 <note n="47" xml:id="n-4-12" target="#note-4-12">The Spanish translator adds "ni los
-                    tratan" [they don't use them] to complement the translation of the verb <hi>cognosco</hi>, rendered as "ni los entienden"
-                    ["they are not acquainted with" (More 1965, 129, line 18)].</note>
+                    tratan" (they do not use them) to complement the translation of the verb
+                        <hi>cognosco</hi>, rendered as "ni los entienden" ("and they are not
+                    acquainted with [them]" (More 1965, 129, line 18)).</note>
                 <note n="48" xml:id="n-4-13" target="#note-4-13">Medinilla translates <hi>non
-                    dissimiles</hi> as <hi>parecidos</hi> [in English, "similar"]. The translator seems to
-                    simplify the double negative meaning of the negative particle <hi>non</hi> and the prefix <hi>di-</hi>.
-                    Robinson maintains it in "not...unlike". Both Robinson and Medinilla translate
-                    <hi>latrunculorum ludo</hi> as "chess", <hi>ajedrez</hi> in Spanish). </note>
-                <note n="49" xml:id="n-4-14" target="#note-4-14">Medinilla renders <hi>numerorum</hi> as
-                    <hi>tantos de tantos</hi>. He does not preserve the title of the game "batlle of
-                    numbers" and the original meaning gets blurred. The English translation is much
-                    more literal.</note>
+                        dissimiles</hi> as <hi>parecidos</hi> (similar). The translator seems to
+                    simplify the double negative meaning of the negative particle <hi>non</hi> and
+                    the prefix <hi>di-</hi>. Robinson maintains it in "not. . . unlike." Both
+                    Robinson and Medinilla translate <hi>latrunculorum</hi> ludo as "chess,"
+                        <hi>ajedrez</hi> in Spanish. </note>
+                <note n="49" xml:id="n-4-14" target="#note-4-14">Medinilla renders
+                        <hi>numerorum</hi> as <hi>tantos de tantos</hi> (from so many ones to so
+                    many others). He does not preserve the title of the game "batlle of numbers" and
+                    the original meaning gets blurred. The English translation is more
+                    literal.</note>
                 <note n="50" xml:id="n-4-15" target="#note-4-15">Robinson amplifies the Latin
-                    sentence adding "as it were in battell array, or a set fyld".</note>
+                    sentence adding "as it were in battell array, or a set fyld."</note>
                 <note n="51" xml:id="n-4-16" target="#note-4-16">Untranslated segments. Please,
                     complete with the Latin and English texts.</note>
                 <note n="52" xml:id="n-4-17" target="#note-4-17">This segment loses part of its
                     sense after removing the previous sentence.</note>
                 <note n="53" xml:id="n-4-18" target="#note-4-18">Medinilla does not make a literal
-                    translation of this fragment. He omits <hi>quos vocant</hi> ["so-called" (More 1965, 131 line 2)]
-                    and removes the negative comment on priests and religious men. </note>
-                <note n="54" xml:id="n-4-19" target="#note-4-19">"The translator chooses <hi>caterva</hi>
-                    to render the Latin word <hi>nebulonum</hi>, defined by the <hi>Diccionario de
-                        Autoridades</hi> as "multitud de personas que concurren juntas en algún parage, sin orden, ni concierto" ["crowd of people who gather together in some place, without
-                    order or concert"] (RAE. Although <hi>nebulis</hi> means "an idle fellow", Robinson
-                    associates it with "seruauntes".</note>
+                    translation of this fragment. He omits "quos vocant" ("so-called" (More 1965,
+                    131, line 2)) and removes the negative comment on priests and religious men. </note>
+                <note n="54" xml:id="n-4-19" target="#note-4-19">The translator chooses
+                        <hi>caterva</hi> to render the Latin word <hi>nebulonum</hi>, defined by the
+                        <hi>Diccionario de Autoridades</hi> as "multitud de personas que concurren
+                    juntas en algún parage, sin orden, ni concierto" ("crowd of people who gather
+                    together in some place, without order or concert") (RAE 1729). Although
+                        <hi>nebulis</hi> means "an idle fellow," Robinson associates this term with
+                    "seruauntes."</note>
                 <note n="55" xml:id="n-4-20" target="#note-4-20">Medinilla translates
-                    <hi>syphograntorum</hi> as <hi>magistrados</hi> [magistrates]. </note>
+                        <hi>syphograntorum</hi> as <hi>magistrados</hi> (magistrates).</note>
                 <note n="56" xml:id="n-4-21" target="#note-4-21">The translator adds
-                    <hi>magistrados</hi>.</note>
-                <note n="57" xml:id="n-4-22" target="#note-4-22">The name <hi>azuela</hi> belongs to the
-                    semantic field of carpentry. The Diccionario de Autoridades defines it as "Instrumento corto, no muy grande, hecho de madera, que tiene en el extremo un hierro doble, extendido, acerado y afilado, que sirve para labrar y desbastar la madera" ["Short
-                    instrument, not very large, made of wood, which has at the end a double iron,
-                    extended, steely and sharp, used for carving and grinding wood"]. Medinilla
-                    renders <hi>materiam</hi> as <hi>cepillos y azuelas</hi>, then broadening the meaning
-                    of the Latin original. </note>
+                        <hi>magistrados</hi>.</note>
+                <note n="57" xml:id="n-4-22" target="#note-4-22">The name <hi>azuela</hi> belongs to
+                    the semantic field of carpentry. The <hi>Diccionario de Autoridades</hi> defines
+                    it as "instrumento corto, no muy grande, hecho de madera, que tiene en el
+                    extremo un hierro doble, extendido, acerado y afilado, que sirve para labrar y
+                    desbastar la madera" (short instrument, not very large, made of wood, which has
+                    at the end a double iron, extended, steely and sharp, used for carving and
+                    grinding wood) (RAE 1726). Medinilla renders <hi>materiam</hi> as <hi>cepillos y
+                        azuelas</hi>, therefore broadening the meaning of the Latin original.</note>
                 <note n="58" xml:id="n-4-23" target="#note-4-23">Medinilla selects the verb <hi>ocupar</hi>
-                    to translate <hi>exerceo</hi>. Robinson interestingly modifies the meaning of
-                    "exercise" with "againste theire willes", which implies a consideration for the
-                    citizens' wellfare. According to the <hi>Diccionario de Autoridades</hi>, <hi>ocupar</hi> was
-                    used with the meaning of "dar que hacer, o en que trabajar, especialmente en
-                    algún oficio o arte" ["give something to do, or work on"] (RAE 1737).</note>
+                    to translate <hi>exerceo</hi>. Robinson interestingly completes the meaning of "exercise"
+                    with "againste theire willes," which could imply a consideration for the
+                    citizens' welfare. According to the <hi>Diccionario de Autoridades</hi>, <hi>ocupar</hi> was used
+                    with the meaning of "dar que hacer, o en que trabajar, especialmente en algún
+                    oficio o arte" (RAE 1737) (give something to do, or work on)</note>
             </div>
         </body>
     </text>

@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Chapter 2. De las ciudades, especialmente de Amauroto</title>
+                <title>2. Chapter 2. De las ciudades, especialmente de Amauroto</title>
                 <funder>This work has been developed thanks to a doctoral fellowship granted in 2020
                     by the Spanish Ministry of Universities</funder>
                 <respStmt>
@@ -43,38 +43,44 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        
+
         <encodingDesc>
             <projectDesc>
                 <p>This edition was developed as part of my thesis dissertation titled "A Digital
-                    Edition of the 1637 Spanish translation of Thomas More's Utopia". The processes
+                    Edition of the 1637 Spanish translation of Thomas More's Utopia." The processes
                     of data modeling, encoding and publishing the edition was done during a research
-                    visit to the Digital Scholarship Group and the Women Writers Project at Northeastern University (Boston, USA).</p>
+                    visit to the Digital Scholarship Group and the Women Writers Project at
+                    Northeastern University (Boston, USA).</p>
             </projectDesc>
             <samplingDecl>
-                <p>The aim of this edition is to offer a side-by-side edition of the first printed translation of Thomas More's <hi>Utopia</hi>
-                    into Spanish plus three accompanying texts: a modernization of Gerónimo de Medinilla's 1637 rendering, the Latin text taken from
-                    the 1518 March edition and the 1551 English translation by Ralph Robinson.</p>
+                <p>The aim of this edition is to offer a side-by-side edition of the first printed
+                    translation of Thomas More's <hi>Utopia</hi> into Spanish plus three
+                    accompanying texts: a modernization of Gerónimo de Medinilla's 1637 rendering,
+                    the Latin text taken from the 1518 March edition and the 1551 English
+                    translation by Ralph Robinson.</p>
             </samplingDecl>
             <editorialDecl>
                 <normalization>
-                    <p>For the modernization of the Spanish translation, graphs, punctuation and accentuation have been adapted to 
-                        today's orthographical norms as established by the Real Academia de la Lengua Española in its <hi>Diccionario</hi> (2023)
-                        and <hi>Ortografía de la Lengua Española</hi> (2010).</p>
-                </normalization>                
+                    <p>For the modernization of the Spanish translation, graphs, punctuation and
+                        accentuation have been adapted to today's orthographical norms as
+                        established by the Real Academia de la Lengua Española in its
+                            <hi>Diccionario</hi> (2023) and <hi>Ortografía de la Lengua
+                            Española</hi> (2010).</p>
+                </normalization>
                 <segmentation>
-                    <p>The texts have been segmented into sentences to facilitate alignment. In the framework of the present edition,
-                        a sentence is defined as the text between two periods, disregarding other linguistic conventions.</p>
+                    <p>The texts have been segmented into sentences to facilitate alignment. In the
+                        framework of the present edition, a sentence is defined as the text between
+                        two periods, disregarding other linguistic conventions.</p>
                 </segmentation>
             </editorialDecl>
             <refsDecl>
-                <p>Identifiers are made up by concatenating the language reference code,
-                    chapter number, segment number and segment order in the sentence.
-                    Sentences are connected by <att>corresp</att>. A previous <att>type</att>
-                    indicates whether the segment has been translated or not by Medinilla. Thus, if
-                    a segment is untranslated, it will not carry the <att>corresp</att>.
-                    The <att>n</att> of segment is also key in the alignment process</p>
-            </refsDecl>           
+                <p>Identifiers are made up by concatenating the language reference code, chapter
+                    number, segment number and segment order in the sentence. Sentences are
+                    connected by <att>corresp</att>. A previous <att>type</att> indicates whether
+                    the segment has been translated or not by Medinilla. Thus, if a segment is
+                    untranslated, it will not carry the <att>corresp</att>. The <att>n</att> of
+                    segment is also key in the alignment process</p>
+            </refsDecl>
             <schemaSpec ident="TEI"/>
         </encodingDesc>
         <profileDesc>
@@ -140,9 +146,9 @@
                         </seg><seg n="2.7" type="sentence">
                             <s xml:id="es-2-7-1" n="es 2.7">Correſpondeſe la Ciudad a la ribera
                                 enfrente, no con barcos, ni otros inſtrumentos de madera, fino con
-                                una inſigne puente arqueada deſilleria, aſſentada hazia la parte mas
-                                remota del mar: porque las naves puedã arribar ſin daño aquel lado
-                                de la Ciudad.<anchor n="23" xml:id="note-2-5"/></s>
+                                una inſigne puente arqueada de ſilleria, aſſentada hazia la parte
+                                mas remota del mar: porque las naves puedã arribar ſin daño aquel
+                                lado de la Ciudad.<anchor n="23" xml:id="note-2-5"/></s>
                         </seg><seg n="2.8" type="sentence">
                             <s xml:id="es-2-8-1" n="es 2.8">Tienen otro rio no grande, mas manſo, i
                                 apacible; nace en el miſmo monte, en que eſta fundado el Lugar, i
@@ -198,12 +204,12 @@
                         </seg><seg n="2.19" type="sentence">
                             <s xml:id="es-2-19-1" n="es 2.19">I es cierto que no ſe hallara en toda
                                 la Ciudad otra ninguna coſa mas acomodada, ora ſea para prouecho,
-                                ora para deleite de los hombres: por que parece, que el que la
-                                fundò, en ninguna puſo mas cuidado, que en eſtos Iardines: i aun es
-                                fama, que Vtopo, deſde ſus primeros principios dejò el entero
-                                modelo, i traça deſta Ciudad, pero en quanto al adorno; i policia
-                                concediò a los venideros, que pudieſſen reformar lo que convinieſſe
-                                advirtiendo que para eſto no baſtava la edad ſola de un hombre.</s>
+                                ora para deleite de los hombres: porque parece, que el que la fundò,
+                                en ninguna puſo mas cuidado, que en eſtos Iardines: i aun es fama,
+                                que Vtopo, deſde ſus primeros principios dejò el entero modelo, i
+                                traça deſta Ciudad, pero en quanto al adorno; i policia concediò a
+                                los venideros, que pudieſſen reformar lo que convinieſſe advirtiendo
+                                que para eſto no baſtava la edad ſola de un hombre.</s>
                         </seg><seg n="2.20" type="sentence">
                             <s xml:id="es-2-20-1" n="es 2.20">Aſsi lo refierẽ <app>
                                     <lem>ſus</lem>
@@ -740,101 +746,102 @@
             </div>
             <div type="notes">
                 <note n="19" xml:id="n-2-1" target="#note-2-1">Medinilla does not correctly
-                    translate “Nam latitude eius paulo infra collis incoepta uerticem, millibus
-                    passuum duobus ad flumen Anydrum pertinet, secundum ripam aliquanto longior”
+                    translate "[n]am latitude eius paulo infra collis incoepta uerticem, millibus
+                    passuum duobus ad flumen Anydrum pertinet, secundum ripam aliquanto longior"
                     (More 1965, 116-118, lines 29-1). He mistranslates it as "su latitud poco a poco
-                    se extiende desde la cima de un collado" ["its latitude little by little extends
-                    from the top of the hill"] instead of "Its breadth is about two miles starting
-                    just below the crest of the hill" (More 1965, 117, lines 34-35), omitting
-                        <hi>infra</hi>. Looking at distance measure, the English translator opts to
-                    adapt the Utopian measure system to English, whereas Medinilla does not locate
-                    it: <hi>millibus passuum</hi> equals to two miles in English according to
-                    Robinson, and to <hi>dos mil pasos</hi> [two thousand steps] in Spanish.</note>
+                    se extiende desde la cima de un collado" (its latitude little by little extends
+                    from the top of the hill) instead of "[i]ts breadth is about two miles starting
+                    just below the crest of the hill" (117, lines 34-35), omitting <hi>infra</hi>.
+                    As far as distance measure is concerned, the English translator opts to adapt
+                    the Utopian measure system to English, whereas Medinilla does not locate it:
+                        <hi>millibus passuum</hi> equals two miles in English according to Robinson,
+                    and <hi>dos mil pasos</hi> (two thousand steps) in Spanish.</note>
                 <note n="20" xml:id="n-2-2" target="#note-2-2">Medinilla seems to obscure the
-                    translation. He introduces the expressions <hi>hacia el nacimiento</hi> [towards
-                    the source of the river] and <hi>hace regolfos</hi> [the water flows backwards].
-                    There is no equivalent to these in the Latin text.</note>
+                    translation. He introduces the expressions "hacia el nacimiento" (towards the
+                    source of the river) and "hace regolfos" (the water flows backwards). There is
+                    no equivalent to these in the Latin text.</note>
                 <note n="21" xml:id="n-2-3" target="#note-2-3">In this segment, Medinilla makes a
-                    rather disorganized translation too. Instead of "When the sea comes in, it fills
-                    the whole bed of the Anydrus with its water for a distance of thirty miles,
-                    driving the river back" (More 1965, 119, lines 10-13), Hythlodays says "When it
-                    enters the sea for a distance of thirty thousand steps, its current is
+                    rather disorganized translation too. Instead of "[w]hen the sea comes in, it
+                    fills the whole bed of the Anydrus with its water for a distance of thirty
+                    miles, driving the river back" (More 1965, 119, lines 10-13), Hythloday says
+                    "when it enters the sea for a distance of thirty thousand steps, its current is
                     distinguishable, the waters of the Anydrus flow back when meeting those of the
-                    sea".</note>
+                    sea."</note>
                 <note n="22" xml:id="n-2-4" target="#note-2-4">Medinilla interestingly translates
-                        <hi>salsugine corrumpit</hi> using the verb form <hi>salobran</hi> [to
-                    salt]. The verb <hi>salobrar</hi> does not appear in any dictionaries. However,
-                    the same-root word <hi>salobre</hi>, which could be related in meaning, does
-                    appear in the <hi>Tesoro de la Lengua</hi>, which means "lo que tiene sabor de
-                    sal, como agua salobre" (Covarrubias 1611, 19v) ["what has a salt flavour, like
-                    salty water"].</note>
+                        <hi>salsugine</hi> corrumpit using the verb form <hi>salobran</hi> (they
+                    salt). The verb <hi>salobrar</hi> (to salt) does not appear in any dictionaries.
+                    However, the same-root word <hi>salobre</hi>, which could be related in meaning,
+                    is included in the <hi>Tesoro de la Lengua</hi>, which means "lo que tiene sabor
+                    de sal, como agua salobre" (Covarrubias 1611, 2:19v) (what has a salty taste, like
+                    salty water).</note>
                 <note n="23" xml:id="n-2-5" target="#note-2-5">Again, the Spanish translation
-                    contains several inaccuracies, especially when translating "Vrbs aduersae
+                    contains several inaccuracies, especially when translating "[u]rbs aduersae
                     fluminis ripae, non pilis ac sublicibus ligneis sed ex opere lapideo egregie
-                    arcuato ponte, commissa est". The materials of the bridge are originally of
-                    stone, <hi>lapideo</hi>, which Medinilla correctly renders as <hi>silleria</hi>
-                    [stone]. Nonetheless, the previous sentence, which clarifies that the bridge was
-                    not "built on wooden pillars or piles" (More 1965, 119, lines 19-20), is
-                    rendered as "no con barcos ni otros instrumentos de madera" ["not with boats or
-                    other wood instruments"]. Besides, the translator describes <hi>arcuato</hi> as
-                        <hi>arqueado</hi> [arched], whereas Robinson indicates the bridge featured
-                    "substanciall archeis", as if the bridge contained several archs.</note>
+                    arcuato ponte, commissa est." The materials of the bridge are originally of
+                    stone, lapideo, which Medinilla correctly renders as <hi>sillería</hi>.
+                    Nonetheless, the previous sentence, which clarifies that the bridge was not
+                    "built on wooden pillars or piles" (More 1965, 119, lines 19-20), is rendered as
+                    "no con barcos ni otros instrumentos de madera" (not with boats or other wood
+                    instruments). Besides, the translator renders <hi>arcuato</hi> as
+                        <hi>arqueado</hi> (arched), whereas Robinson indicates the bridge featured
+                    "substanciall," as if the bridge contained several archs.</note>
                 <note n="24" xml:id="n-2-6" target="#note-2-6">The translation of "haud magnum
-                    quidem ilium" (More 1965, 118, line 19) ["not very large" [More 1965, 119, line
-                    24] slightly varies.</note>
+                    quidem ilium" (More 1965, 118, line 19) ("not very large" (119, line 24))
+                    slightly varies.</note>
                 <note n="25" xml:id="n-2-7" target="#note-2-7">This sentence contains some examples
-                    of local words, as is <hi>baluartes y pertrechos</hi> for the Latin word
+                    of local words, as are <hi>baluartes y pertrechos</hi> for the Latin word
                         <hi>munimentis</hi> and <hi>arcaduces</hi> for <hi>canalibus</hi>. Both
                         <hi>baluartes</hi> and <hi>pertrechos</hi> appeared defined in Covarrubias'
-                    Tesoro de la lengua as defensive war elements (1611, 118r; 1611, 586r).
-                    Interestingly, Robinson translates <hi>munimentis</hi> with the pair "fences and
-                    bulwarkes", similar to Medinilla. The OED defines "bulwark" as "a substantial
-                    defensive work of earth, or other material; a rampant, a fortification" (2024).
+                        <hi>Tesoro de la lengua</hi> as defensive war elements (1611, 1:118r, 1:586r).
+                    Interestingly, Robinson translates munimentis with the pair "fences and
+                    bulwarkes," similar to Medinilla. The OED (2024) defines "bulwark" as "a substantial
+                    defensive work of earth, or other material; a rampant, a fortification".
                     In the case of <hi>arcaduces</hi>, Covarrubias doubts about the origin of this
                     word, which could be originated in the Latin term <hi>aquaedux</hi> or the
-                    Arabic <hi>caiduz</hi> (1611, 84r).</note>
-                <note n="26" xml:id="n-2-8" target="#note-2-8">Medinilla do not include <hi>collecta
-                        pluuia</hi> in his translation. The fact that it is rainwater what is
-                    collected needs to be inferred here. Medinilla chooses <hi>alberca</hi> for
-                    translating <hi>cisternis</hi>. Covarrubias defines <hi>alberca</hi> as a
-                    "estanque pequeño donde recogen el agua para regar las huertas" ["small pond
-                    where water is collected to water gardens"] (1611, 32v). The translator could
+                    Arabic <hi>caiduz</hi> (1:84r).</note>
+                <note n="26" xml:id="n-2-8" target="#note-2-8">Medinilla does not include
+                        <hi>collecta pluuia</hi> in his translation. The fact that it is rainwater
+                    what is collected needs to be inferred here. Medinilla chooses <hi>alberca</hi>
+                    for translating <hi>cisternis</hi>. Covarrubias defines <hi>alberca</hi> as a
+                    "estanque pequeño donde recogen el agua para regar las huertas" (1611, 1:32v)
+                    (small pond where water is collected to water gardens). The translator could
                     have opted for <hi>cisterna</hi>, also meaning "el algibe donde se recoge el
                     agua llovediza de los tejados, guiada por canales y cebratanas con curiosidad y
-                    limpieza" (Covarrubias 1611, 287v) ["cistern where the rainwater from the roofs
-                    is collected"].</note>
-                <note n="27" xml:id="n-2-9" target="#note-2-9">The Spanish translation lacks a main
-                    verb, which suggests the translator forgot to translate it, <hi>cingit</hi>.
-                    Medinilla renders <hi>propugnaculis</hi> as <hi>parapetos</hi>. Robinson, in
-                    this case, repeats the term "bulwarkes", previously used for rendering
-                    "munimentis". These examples prove the wide variety of military vocabulary of
-                    the translator, maybe influenced by his participation in the Crown
-                    Equerry.</note>
-                <note n="28" xml:id="n-2-10" target="#note-2-10">Medinilla renders <hi>ueprium</hi>
-                    with the pair <hi>zarzas y cambroneras</hi>. According to the <hi>Tesoro de la
+                    limpieza" (1:287v) (cistern where the rainwater from the roofs is
+                    collected).</note>
+                <note n="27" xml:id="n-2-9" target="#note-2-9">The Spanish translation lacks the
+                    main verb <hi>cingit</hi> (it surrounded), which suggests the translator forgot
+                    to translate it. Medinilla renders <hi>propugnaculis</hi> as <hi>parapetos</hi>,
+                    defined as "término militar de que usan los ingenieros en las fortificaciones
+                    (military term used by engineers in forts) (Covarrubias 1611, 1:578r). Robinson, in this case, repeats the
+                    term "bulwarkes," previously used for rendering <hi>munimentis</hi>. These
+                    examples prove the wide variety of military vocabulary of the translator, maybe
+                    influenced by his participation in the Crown Equerry.</note>
+                <note n="28" xml:id="n-2-10" target="#note-2-10">Medinilla renders ueprium with the
+                    pair <hi>zarzas</hi> and <hi>cambroneras</hi>. According to the <hi>Tesoro de la
                         Lengua</hi>, <hi>cambroneras</hi> (or <hi>cambrón</hi>) is a kind of
-                        <hi>zarza</hi>, so both could be translated in English as "bramble". The
+                        <hi>zarza</hi> (Covarrubias 1611, 1:180r), so both could be translated in English as "bramble." The
                     CORDE displays instances of the use of these nouns by Cervantes in his works
-                    (RAE 2024). Robinson also takes a poetic license and translates <hi>ueprium</hi>
-                    as "busshes, briers, and thornes".</note>
+                    (RAE 2024). Robinson also takes a poetic license and translates ueprium as
+                    "busshes, briers, and thornes."</note>
                 <note n="29" xml:id="n-2-11" target="#note-2-11">This sentence is another example of
-                    how Medinilla introduces words possibly present in his reality. That is the case
-                    of <hi>cabañas</hi>, <hi>chozas</hi>, <hi>tapia</hi>, <hi>carrizos</hi>,
-                        <hi>retamas</hi> and <hi>matas</hi>. The translator chooses <hi>cabañas</hi>
-                    and <hi>chozas</hi> for the Latin <hi>casas</hi> and <hi>tuguria</hi>. As for
-                        <hi>tapia</hi>, Medinilla selects this term to transfer the meaning of a
-                    wall of mud, <hi>parietes luto</hi>. <hi>Carrizos</hi>, <hi>retamas</hi> and
-                        <hi>matas</hi> is the translation offered for <hi>fastigiata</hi>. These are
-                    all bush varieties, as they are defined in the Tesoro de la Lengua by
-                    Covarrubias (1611, 83v, 205r, 10v, 542r).</note>
+                    how Medinilla introduces words possibly present in seventeenth-century Spain.
+                    That is the case of <hi>cabañas</hi>, <hi>chozas</hi>, <hi>tapia</hi>,
+                        <hi>carrizos</hi>, <hi>retamas</hi> and <hi>matas</hi>. The translator
+                    chooses <hi>cabañas</hi> and <hi>chozas</hi> for the Latin <hi>casas</hi> and
+                        <hi>tuguria</hi>. As for <hi>tapia</hi>, Medinilla selects this term to
+                    transfer the meaning of a wall of mud, <hi>parietes luto</hi> (Covarrubias 1611, 2:83v).
+                    <hi>Carrizos</hi>, <hi>retamas</hi> and <hi>matas</hi> is the translation
+                    offered for <hi>fastigiata</hi>. These are all bush varieties, as they are
+                    defined in the <hi>Tesoro de la Lengua</hi> by Covarrubias (1:205r,
+                    2:10v, 1:542r).</note>
                 <note n="30" xml:id="n-2-12" target="#note-2-12">From this sentence, I highlight the
-                    choice of <hi>argamasa</hi> for <hi>rudere</hi>. Covarrubias defines
-                        <hi>argamasa</hi> as "masa de la tierra arcilla que como tenemos dicho en su
-                    lugar es una tierra blanquecina...y el barro de ella es pegajoso y tenaz" ["a
-                    whitish mud sticky and tenacious"] (1611, 86v). Also, <hi>tecta</hi> is rendered
-                    as <hi>terrados</hi>. A <hi>terrado</hi> is, according to Covarrubias, a earthy
-                    rooftop, "el sobrado en la casa, está descubierto por otro nombre dicho azotea,
-                    porque el suelo es terrizo" (1611, 42v).</note>
+                    choice of <hi>argamasa</hi> for <hi>rudere</hi>. Covarrubias defines <hi>argamasa</hi> as "masa de la
+                    tierra arcilla que como tenemos dicho en su lugar es una tierra blanquecina. . .
+                    y el barro de ella es pegajoso y tenaz" (1611, 1:86v) (a whitish mud sticky and
+                    tenacious). Also, <hi>tecta</hi> is rendered as <hi>terrados</hi>. A <hi>terrado</hi> is, according to
+                    Covarrubias, an earthy rooftop, "el sobrado en la casa, está descubierto por
+                    otro nombre dicho azotea, porque el suelo es terrizo" (2:42v).</note>
             </div>
         </body>
     </text>

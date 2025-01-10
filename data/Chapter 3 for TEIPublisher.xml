@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Chapter 3. De los magistrados</title>
+                <title>3. Chapter 3. De los magistrados</title>
                 <funder>This work has been developed thanks to a doctoral fellowship granted in 2020
                     by the Spanish Ministry of Universities</funder>
                 <respStmt>
@@ -44,38 +44,44 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        
+
         <encodingDesc>
             <projectDesc>
                 <p>This edition was developed as part of my thesis dissertation titled "A Digital
-                    Edition of the 1637 Spanish translation of Thomas More's Utopia". The processes
+                    Edition of the 1637 Spanish translation of Thomas More's Utopia." The processes
                     of data modeling, encoding and publishing the edition was done during a research
-                    visit to the Digital Scholarship Group and the Women Writers Project at Northeastern University (Boston, USA).</p>
+                    visit to the Digital Scholarship Group and the Women Writers Project at
+                    Northeastern University (Boston, USA).</p>
             </projectDesc>
             <samplingDecl>
-                <p>The aim of this edition is to offer a side-by-side edition of the first printed translation of Thomas More's <hi>Utopia</hi>
-                    into Spanish plus three accompanying texts: a modernization of Gerónimo de Medinilla's 1637 rendering, the Latin text taken from
-                    the 1518 March edition and the 1551 English translation by Ralph Robinson.</p>
+                <p>The aim of this edition is to offer a side-by-side edition of the first printed
+                    translation of Thomas More's <hi>Utopia</hi> into Spanish plus three
+                    accompanying texts: a modernization of Gerónimo de Medinilla's 1637 rendering,
+                    the Latin text taken from the 1518 March edition and the 1551 English
+                    translation by Ralph Robinson.</p>
             </samplingDecl>
             <editorialDecl>
                 <normalization>
-                    <p>For the modernization of the Spanish translation, graphs, punctuation and accentuation have been adapted to 
-                        today's orthographical norms as established by the Real Academia de la Lengua Española in its <hi>Diccionario</hi> (2023)
-                        and <hi>Ortografía de la Lengua Española</hi> (2010).</p>
-                </normalization>                
+                    <p>For the modernization of the Spanish translation, graphs, punctuation and
+                        accentuation have been adapted to today's orthographical norms as
+                        established by the Real Academia de la Lengua Española in its
+                            <hi>Diccionario</hi> (2023) and <hi>Ortografía de la Lengua
+                            Española</hi> (2010).</p>
+                </normalization>
                 <segmentation>
-                    <p>The texts have been segmented into sentences to facilitate alignment. In the framework of the present edition,
-                        a sentence is defined as the text between two periods, disregarding other linguistic conventions.</p>
+                    <p>The texts have been segmented into sentences to facilitate alignment. In the
+                        framework of the present edition, a sentence is defined as the text between
+                        two periods, disregarding other linguistic conventions.</p>
                 </segmentation>
             </editorialDecl>
             <refsDecl>
-                <p>Identifiers are made up by concatenating the language reference code,
-                    chapter number, segment number and segment order in the sentence.
-                    Sentences are connected by <att>corresp</att>. A previous <att>type</att>
-                    indicates whether the segment has been translated or not by Medinilla. Thus, if
-                    a segment is untranslated, it will not carry the <att>corresp</att>.
-                    The <att>n</att> of segment is also key in the alignment process</p>
-            </refsDecl>           
+                <p>Identifiers are made up by concatenating the language reference code, chapter
+                    number, segment number and segment order in the sentence. Sentences are
+                    connected by <att>corresp</att>. A previous <att>type</att> indicates whether
+                    the segment has been translated or not by Medinilla. Thus, if a segment is
+                    untranslated, it will not carry the <att>corresp</att>. The <att>n</att> of
+                    segment is also key in the alignment process</p>
+            </refsDecl>
             <schemaSpec ident="TEI"/>
         </encodingDesc>
         <profileDesc>
@@ -175,7 +181,7 @@
                                     <rdg wit="1790">sino que</rdg>
                                     <rdg wit="1805">sino que</rdg>
                                 </app> ſe difiera para el Ayuntamiento ſiguiente, <app>
-                                    <lem>por que ninguno a caſo, ſin</lem>
+                                    <lem>porque ninguno a caſo, ſin</lem>
                                     <rdg wit="1790">porque ninguno sin</rdg>
                                     <rdg wit="1805">porque ninguno sin</rdg>
                                 </app> precedente conſideracion, diga arrojadamente lo primero, que
@@ -482,31 +488,29 @@
             </div>
             <div type="notes">
                 <note n="31" xml:id="n-3-1" target="#note-3-1">Robinson introduces the number three
-                    hundreds (300) before "families" when the Latin original does not mention it.
+                    hundreds, 300, before "families" when the Latin original does not mention it.
                     This might refer to the sum of families under the control of ten
                     syphogrants.</note>
                 <note n="32" xml:id="n-3-2" target="#note-3-2">Medinilla obscures the meaning of the
                     segment, making it less clear. The translator introduces <hi>cabeza</hi> and
                         <hi>príncipe</hi> as synonyms to translate the Latin term
                     <hi>principem</hi>. He also alternates the order of elements appearing in the
-                    original, leaving "quem maxime censent utilem" (More 1965, 122, line 15) ["whom
-                    they judge the most useful" (More 1965, 123, lines 14-15)], in Spanish "al que
-                    tuvieren por más conveniente" almost at the end.</note>
+                    original, leaving "quem maxime censent utilem" (More 1965, 122, line 15) ("whom
+                    they judge the most useful" (123, lines 14-15)), in Spanish "al que tuvieren por
+                    más conveniente", almost at the end.</note>
                 <note n="33" xml:id="n-3-3" target="#note-3-3">Again, the translator blurs the
-                    original meaning of the sentence. What the original text says is that
-                    trannibores are elected every year, not, as Medinilla indicates, that their
-                    governments last one single year: "Los traniboros los señalan solo por un
-                    año".</note>
+                    original meaning of the sentence. What the original text says is that traniboros
+                    are elected every year, not, as Medinilla indicates, that their governments last
+                    one single year: "[l]os traniboros los señalan solo por un año."</note>
                 <note n="34" xml:id="n-3-4" target="#note-3-4">Medinilla does not capture the nuance
-                    of the Latin term <hi>mature</hi>, which means "quickly, briefly". Robinson
-                    grasps it in "by and by".</note>
-                <note n="35" xml:id="n-3-5" target="#note-3-4">Medinilla chooses
-                        <hi>ayuntamiento</hi> for the translation of the second instance of
-                        <hi>senatum</hi>, previously rendered as <hi>senado</hi>.
-                        <hi>Ayuntamiento</hi> derives from the verb <hi>ayuntar</hi>, meaning
-                    "quando dos cosas distintas se allegan la una con la otra" ["when two things
-                    are assembled"] (Covarrubias 1611, 27v). By 1637, <hi>ayuntamiento</hi> was already
-                    used to refer to the "council" or the group of people governing an area.</note>
+                    of the Latin term <hi>mature</hi>, which means "quickly, briefly." Robinson
+                    grasps it in "by and by."</note>
+                <note n="35" xml:id="n-3-5" target="#note-3-4">Medinilla chooses <hi>ayuntamiento</hi> for
+                    the translation of the second instance of <hi>senatum</hi>, previously rendered as
+                    <hi>senado</hi>. <hi>Ayuntamiento</hi> derives from the verb <hi>ayuntar</hi>, meaning "quando dos cosas
+                    distintas se allegan la una con la otra" (Covarrubias 1611, 1:27v) (when two
+                    things are assembled). By 1637, <hi>ayuntamiento</hi> was already used to refer to the
+                    "council" or the group of people governing an area.</note>
             </div>
         </body>
     </text>

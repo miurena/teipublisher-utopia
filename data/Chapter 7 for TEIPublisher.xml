@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Chapter 7. De los esclavos</title>
+                <title>7. Chapter 7. De los esclavos</title>
                 <funder>This work has been developed thanks to a doctoral fellowship granted in 2020
                     by the Spanish Ministry of Universities</funder>
                 <respStmt>
@@ -42,38 +42,44 @@
                     <pubPlace>Oxford</pubPlace>
                 </bibl>
             </sourceDesc>
-        </fileDesc>     
+        </fileDesc>
         <encodingDesc>
             <projectDesc>
                 <p>This edition was developed as part of my thesis dissertation titled "A Digital
-                    Edition of the 1637 Spanish translation of Thomas More's Utopia". The processes
+                    Edition of the 1637 Spanish translation of Thomas More's Utopia." The processes
                     of data modeling, encoding and publishing the edition was done during a research
-                    visit to the Digital Scholarship Group and the Women Writers Project at Northeastern University (Boston, USA).</p>
+                    visit to the Digital Scholarship Group and the Women Writers Project at
+                    Northeastern University (Boston, USA).</p>
             </projectDesc>
             <samplingDecl>
-                <p>The aim of this edition is to offer a side-by-side edition of the first printed translation of Thomas More's <hi>Utopia</hi>
-                    into Spanish plus three accompanying texts: a modernization of Gerónimo de Medinilla's 1637 rendering, the Latin text taken from
-                    the 1518 March edition and the 1551 English translation by Ralph Robinson.</p>
+                <p>The aim of this edition is to offer a side-by-side edition of the first printed
+                    translation of Thomas More's <hi>Utopia</hi> into Spanish plus three
+                    accompanying texts: a modernization of Gerónimo de Medinilla's 1637 rendering,
+                    the Latin text taken from the 1518 March edition and the 1551 English
+                    translation by Ralph Robinson.</p>
             </samplingDecl>
             <editorialDecl>
                 <normalization>
-                    <p>For the modernization of the Spanish translation, graphs, punctuation and accentuation have been adapted to 
-                        today's orthographical norms as established by the Real Academia de la Lengua Española in its <hi>Diccionario</hi> (2023)
-                        and <hi>Ortografía de la Lengua Española</hi> (2010).</p>
-                </normalization>                
+                    <p>For the modernization of the Spanish translation, graphs, punctuation and
+                        accentuation have been adapted to today's orthographical norms as
+                        established by the Real Academia de la Lengua Española in its
+                            <hi>Diccionario</hi> (2023) and <hi>Ortografía de la Lengua
+                            Española</hi> (2010).</p>
+                </normalization>
                 <segmentation>
-                    <p>The texts have been segmented into sentences to facilitate alignment. In the framework of the present edition,
-                        a sentence is defined as the text between two periods, disregarding other linguistic conventions.</p>
+                    <p>The texts have been segmented into sentences to facilitate alignment. In the
+                        framework of the present edition, a sentence is defined as the text between
+                        two periods, disregarding other linguistic conventions.</p>
                 </segmentation>
             </editorialDecl>
             <refsDecl>
-                <p>Identifiers are made up by concatenating the language reference code,
-                    chapter number, segment number and segment order in the sentence.
-                    Sentences are connected by <att>corresp</att>. A previous <att>type</att>
-                    indicates whether the segment has been translated or not by Medinilla. Thus, if
-                    a segment is untranslated, it will not carry the <att>corresp</att>.
-                    The <att>n</att> of segment is also key in the alignment process</p>
-            </refsDecl>           
+                <p>Identifiers are made up by concatenating the language reference code, chapter
+                    number, segment number and segment order in the sentence. Sentences are
+                    connected by <att>corresp</att>. A previous <att>type</att> indicates whether
+                    the segment has been translated or not by Medinilla. Thus, if a segment is
+                    untranslated, it will not carry the <att>corresp</att>. The <att>n</att> of
+                    segment is also key in the alignment process</p>
+            </refsDecl>
             <schemaSpec ident="TEI"/>
         </encodingDesc>
         <profileDesc>
@@ -92,33 +98,37 @@
         <body>
             <div type="base" xml:lang="es">
                 <div type="chapter" n="7">
+                    <pb n="29r"/>
                     <head type="chapter">De los Eſclavos. Cap. VII.</head>
                     <ab>
                         <seg n="7.1" type="sentence">
                             <s xml:id="es-7-1-1" n="es 7.1">NO tienen por <app>
                                     <lem>eſclavos, los</lem>
                                     <rdg wit="1790">esclavos á los</rdg>
-                                    <rdg wit="1805">esclavos á los</rdg></app> que en la guerra
-                                hazen priſioneros, aun de aquellos que la començaron, ni a los hijos
-                                de los eſclavos, ni a otro alguno, que eſte en ſervidumbre a cerca
-                                de otras naciones, aunque los puedan comprar: <app>
+                                    <rdg wit="1805">esclavos á los</rdg>
+                                </app> que en la guerra hazen priſioneros, aun de aquellos que la
+                                començaron, ni a los hijos de los eſclavos, ni a otro alguno, que
+                                eſte en ſervidumbre a cerca de otras naciones, aunque los puedan
+                                comprar: <app>
                                     <lem>mas a ſolos</lem>
                                     <rdg wit="1790">sí [sic] solo á</rdg>
-                                    <rdg wit="1805">sí solo á</rdg></app> aquellos que han ſido
-                                condenados por algun delito a eſclavitud, o los de otras naciones,
-                                que eſtan entregados a tal ſuplicio, por exceſo que ayan cometido
-                                qual ſuce de ordinariamente; i aſsi tienen muchos por bajo
-                                    precio.<anchor n="123" xml:id="note-7-1"/></s>
+                                    <rdg wit="1805">sí solo á</rdg>
+                                </app> aquellos que han ſido condenados por algun delito a
+                                eſclavitud, o los de otras naciones, que eſtan entregados a tal
+                                ſuplicio, por exceſo que ayan cometido qual ſuce de ordinariamente;
+                                i aſsi tienen muchos por bajo precio.<anchor n="123"
+                                    xml:id="note-7-1"/></s>
                         </seg>
                         <seg n="7.2" type="sentence">
                             <s xml:id="es-7-2-1" n="es 7.2">Traen ocupados ſiempre a eſtos eſclavos,
                                 i en priſiones, <app>
                                     <lem>mas tratan los propios</lem>
                                     <rdg wit="1790">tratandoles</rdg>
-                                    <rdg wit="1805">tratandoles</rdg></app> riguroſamente, juzgando
-                                que ſon incorregibles, i merecedores de mas graves caſtigos; pues
-                                que ſiendo educados tan egregiamente en la virtud, no ſe hã podido
-                                abſtener del vicio.<anchor n="124" xml:id="note-7-2"/></s>
+                                    <rdg wit="1805">tratandoles</rdg>
+                                </app> riguroſamente, juzgando que ſon incorregibles, i merecedores
+                                de mas graves caſtigos; pues que ſiendo educados tan egregiamente en
+                                la virtud, no ſe hã podido abſtener del vicio.<anchor n="124"
+                                    xml:id="note-7-2"/></s>
                         </seg>
                         <seg n="7.3" type="sentence">
                             <s xml:id="es-7-3-1" n="es 7.3">Hallaſe alli otra ſuerte de ſervidumbre,
@@ -132,17 +142,19 @@
                                 menos que a Ciudadanos, <app>
                                     <lem>ſi</lem>
                                     <rdg wit="1790">pero</rdg>
-                                    <rdg wit="1805">pero</rdg></app> alguno ſe quiere deſpedir (que
-                                ſucede raras vezes) no lo detienen contra ſu voluntad, ni los embian
-                                ſin galardon.</s>
+                                    <rdg wit="1805">pero</rdg>
+                                </app> alguno ſe quiere deſpedir (que ſucede raras vezes) no lo
+                                detienen contra ſu voluntad, ni los embian ſin galardon.<anchor
+                                    n="126" xml:id="note-7-4"/></s>
                         </seg>
                         <seg n="7.5" type="sentence">
-                            <s xml:id="es-7-5-1" n="es 7.5">A los enfermos aſiſten con gran caridad,
-                                no dexando atras ningũ medicamento, i gobierno de vivir, que le <app>
+                            <s xml:id="es-7-5-1" n="es 7.5">A los enfermos <pb n="29v"/>aſiſten con
+                                gran caridad, no dexando atras ningũ medicamento, i gobierno de
+                                vivir, que le <app>
                                     <lem>importe a reſtituir</lem>
                                     <rdg wit="1790">importe restituir</rdg>
-                                    <rdg wit="1805">importe restituir</rdg></app> la ſalud, al que
-                                le falta.<anchor n="126" xml:id="note-7-4"/></s>
+                                    <rdg wit="1805">importe restituir</rdg>
+                                </app> la ſalud, al que le falta.</s>
                         </seg>
                         <seg n="7.6" type="sentence">
                             <s xml:id="es-7-6-1" n="es 7.6">Si alguno padece enfermedad prolija, le
@@ -151,27 +163,29 @@
                                 el Magiſtrado lo confortan, <app>
                                     <lem>que</lem>
                                     <rdg wit="1790">persuadiendole que</rdg>
-                                    <rdg wit="1805">persuadiendole que</rdg></app> hallandoſe ya
-                                inepto a los oficios de la vida, moleſto a los otros, i peſado aſsi
-                                miſmo, que no quiera ſobrepujar a la propia muerte, alimentando la
-                                maligna enfermedad, i que ſiendo la vida un tormento, no dude el
-                                morir, antes tenga eſperança de ſalir de tan acervo eſtado, o
-                                quitandoſe el propio la vida, o dejandoſe matar: pues dejara
-                                muriendo aquella miſeria, i no comodidades.</s>
+                                    <rdg wit="1805">persuadiendole que</rdg>
+                                </app> hallandoſe ya inepto a los oficios de la vida, moleſto a los
+                                otros, i peſado aſsi miſmo, que no quiera ſobrepujar a la propia
+                                muerte, alimentando la maligna enfermedad, i que ſiendo la vida un
+                                tormento, no dude el morir, antes tenga eſperança de ſalir de tan
+                                acervo eſtado, o quitandoſe el propio la vida, o dejandoſe matar:
+                                pues dejara muriendo aquella miſeria, i no comodidades.</s>
                         </seg>
                         <seg n="7.7" type="sentence">
                             <s xml:id="es-7-7-1" n="es 7.7"><app>
                                     <lem>Vltra deſto</lem>
                                     <rdg wit="1790">Además de esto</rdg>
-                                    <rdg wit="1805">Además de esto</rdg></app> ſiguiendo el conſejo
-                                de los Sacerdotes, interpretes de la voluntad de Dios executaran una
-                                obra ſanta i pia, los que ſe dejan perſuadir, <app>
+                                    <rdg wit="1805">Además de esto</rdg>
+                                </app> ſiguiendo el conſejo de los Sacerdotes, interpretes de la
+                                voluntad de Dios executaran una obra ſanta i pia, los que ſe dejan
+                                perſuadir, <app>
                                     <lem>o</lem>
                                     <rdg wit="1790">y</rdg>
-                                    <rdg wit="1805">y</rdg></app> con abſtinencia fenecen la vida, o
-                                durmiendo ſe dejan matar, mas no hazen morir a alguno contra ſu
-                                voluntad, ni faltan a adminiſtrarlos en la enfermedad,
-                                pareciendoles, que eſta ſea una honeſta ocupacion.</s>
+                                    <rdg wit="1805">y</rdg>
+                                </app> con abſtinencia fenecen la vida, o durmiendo ſe dejan matar,
+                                mas no hazen morir a alguno contra ſu voluntad, ni faltan a
+                                adminiſtrarlos en la enfermedad, pareciendoles, que eſta ſea una
+                                honeſta ocupacion.</s>
                         </seg>
                         <seg n="7.8" type="sentence">
                             <s xml:id="es-7-8-1" n="es 7.8">Mas ſi alguno ſe mata ſin el
@@ -183,12 +197,13 @@
                             <s xml:id="es-7-9-1" n="es 7.9">No ſe caſan las mugeres haſta los doze
                                 años, ni los hombres haſta los diez i ſeis: i ſi antes del
                                 matrimonio ſon aprehendidos en aƈto de deſoneſtidad ſon caſtigados
-                                gravemente, i privados perpetuamente del matrimonio, ſi el Principe
-                                movido de piedad, no les perdona el yerro, caſtigãdo eſta culpa
-                                atrozmente, previniẽdo que pocos ſe caſarian voluntariamente,
-                                obligandoſe a cohabitar con una ſola muger, i tolerar las moleſtias
-                                del matrimonio, ſi una vez ſe acoſtumbraſſen a comunicar, aora eſta,
-                                aora aquella.<anchor n="128" xml:id="note-7-6"/></s>
+                                gravemente, i privados per<pb n="30r"/>petuamente del matrimonio, ſi
+                                el Principe movido de piedad, no les perdona el yerro, caſtigãdo
+                                eſta culpa atrozmente, previniẽdo que pocos ſe caſarian
+                                voluntariamente, obligandoſe a cohabitar con una ſola muger, i
+                                tolerar las moleſtias del matrimonio, ſi una vez ſe acoſtumbraſſen a
+                                comunicar, aora eſta, aora aquella.<anchor n="128" xml:id="note-7-6"
+                                /></s>
                         </seg>
                         <seg n="7.10" type="sentence">
                             <s xml:id="es-7-10-1" n="es 7.10">En el elegir muger tienen un modo a mi
@@ -210,22 +225,23 @@
                             <s xml:id="es-7-12-1" n="es 7.12">I en el elegir la muger, que puede <app>
                                     <lem>dar, o ſolaz</lem>
                                     <rdg wit="1790">dar soláz</rdg>
-                                    <rdg wit="1805">dar soláz</rdg></app>, o deſplacer, mientras,
-                                que dura la vida, ſon tan negligentes, que ſe contentã de verla toda
-                                cubierta, i embuelta, ſin reconocer mas que el roſtro: i toda via
-                                podria eſconder algun defeƈto, por el qual le deſcontentaria de
-                                averla eligido.<anchor n="131" xml:id="note-7-9"/></s>
+                                    <rdg wit="1805">dar soláz</rdg>
+                                </app>, o deſplacer, mientras, que dura la vida, ſon tan
+                                negligentes, que ſe contentã de verla toda cubierta, i embuelta, ſin
+                                reconocer mas que el roſtro: i toda via podria eſconder algun
+                                defeƈto, por el qual le deſcontentaria de averla eligido.<anchor
+                                    n="131" xml:id="note-7-9"/></s>
                         </seg>
                         <seg n="7.13" type="sentence">
                             <s xml:id="es-7-13-1" n="es 7.13">No todos ſon de tanta ſabiduria, que
                                 atiendan ſolamente a las coſtumbres, antes en los matrimonios de los
                                 mas reſavidos, los dotes del cuerpo hazen mas gratos los del animo:
                                 verdaderamente tal imperfeccion podria eſconderſe debajo de los
-                                atavios, que la muger ſiempre fueſſe odioſa al marido: i eſto ſe
-                                deve prevenir por las leyes, para que no ſuceda el engaño, porq̃
-                                ellos ſolos entre las demas naciones ſe contentan con unas ſolas
-                                bodas, ni diſuelven el matrimonio, ſino es por el adulterio, o por
-                                otra intolerable moleſtia, o defeƈto.</s>
+                                atavios, que la <pb n="30v"/>muger ſiempre fueſſe odioſa al marido:
+                                i eſto ſe deve prevenir por las leyes, para que no ſuceda el engaño,
+                                porq̃ ellos ſolos entre las demas naciones ſe contentan con unas
+                                ſolas bodas, ni diſuelven el matrimonio, ſino es por el adulterio, o
+                                por otra intolerable moleſtia, o defeƈto.</s>
                         </seg>
                         <seg n="7.14" type="sentence">
                             <s xml:id="es-7-14-1" n="es 7.14">En tal caſo el Senado concede al
@@ -244,24 +260,24 @@
                             <s xml:id="es-7-16-1" n="es 7.16">Sucede <app>
                                     <lem>a las</lem>
                                     <rdg wit="1790">algunas</rdg>
-                                    <rdg wit="1805">algunas</rdg></app> vezes, que no conformandoſe
-                                en las coſtumbres, i hallando entrambos a dos con quien eſperan
-                                vivir mas ſuavemente ſe ſeparan, i contraen entre ſi con la
-                                autoridad del Senado, que no admite el divorcio, ſi primero no
-                                conocẽ las cauſas del, i aun las inquieren de la propia muger; i ſe
-                                rinden con dificultad a eſto, porque no ſe eſpere facilmente mudar
-                                el matrimonio.</s>
+                                    <rdg wit="1805">algunas</rdg>
+                                </app> vezes, que no conformandoſe en las coſtumbres, i hallando
+                                entrambos a dos con quien eſperan vivir mas ſuavemente ſe ſeparan, i
+                                contraen entre ſi con la autoridad del Senado, que no admite el
+                                divorcio, ſi primero no conocẽ las cauſas del, i aun las inquieren
+                                de la propia muger; i ſe rinden con dificultad a eſto, porque no ſe
+                                eſpere facilmente mudar el matrimonio.</s>
                         </seg>
                         <seg n="7.17" type="sentence">
                             <s xml:id="es-7-17-1" n="es 7.17">Caſtigan cõ duriſsima ſervidumbre los
                                 adulteros, i ſi entrambos a dos lo ſon, ſe concede, que dexando el
                                 adulterio ſe caſen entrambos, o por lo menos con otro; mas ſi aquel
                                 que es ofendido ama tanto al ofenſor, que no quiere hazer divorcio,
-                                no le eſtorban prevalecer en el matrimonio, porque quiera ſeguir en
-                                la obra al condenado; i ordinariamente a ſucedido, que el ſolicito
-                                ſufrimiento del inocente ha obtenido la libertad del culpado: mas el
-                                q̃ adultera deſpues deſte perdon, es caſtigado con pena
-                                    capital.<anchor n="132" xml:id="note-7-10"/></s>
+                                no le eſtorban prevalecer en el matrimonio, porque quiera <pb
+                                    n="31r"/>ſeguir en la obra al condenado; i ordinariamente a
+                                ſucedido, que el ſolicito ſufrimiento del inocente ha obtenido la
+                                libertad del culpado: mas el q̃ adultera deſpues deſte perdon, es
+                                caſtigado con pena capital.<anchor n="132" xml:id="note-7-10"/></s>
                         </seg>
                         <seg n="7.18" type="sentence">
                             <s xml:id="es-7-18-1" n="es 7.18">A las otras culpas no han ſeñalado
@@ -311,29 +327,31 @@
                                 a efeƈto,<app>
                                     <lem>ſea</lem>
                                     <rdg wit="1790">es</rdg>
-                                    <rdg wit="1805">es</rdg></app> merecedora del miſmo
-                                    caſtigo.<anchor n="136" xml:id="note-7-14"/></s>
+                                    <rdg wit="1805">es</rdg>
+                                </app> merecedora del miſmo caſtigo.<anchor n="136"
+                                    xml:id="note-7-14"/></s>
                         </seg>
                         <seg n="7.24" type="sentence">
                             <s xml:id="es-7-24-1" n="es 7.24">Deleitanſe con los ſimples naturales,
-                                mas no le es licito hazerles injuria, ni ſe los dan a cargo, a quien
-                                no guſta de ſus donaires, temiendo que los traten mal: no ſe permite
-                                eſcarnecer a alguno que ſea ſimple, o falto, pareciendo no pueſto en
-                                razon burlar, o mofar aquel vicio, que viene ſobre el hombre, ſin
-                                culpa ſuya. <anchor n="137" xml:id="note-7-15"/></s>
+                                mas no le es licito hazerles injuria, ni ſe los dan a cargo, a <pb
+                                    n="31v"/>quien no guſta de ſus donaires, temiendo que los traten
+                                mal: no ſe permite eſcarnecer a alguno que ſea ſimple, o falto,
+                                pareciendo no pueſto en razon burlar, o mofar aquel vicio, que viene
+                                ſobre el hombre, ſin culpa ſuya. <anchor n="137" xml:id="note-7-15"
+                                /></s>
                         </seg>
                         <seg n="7.25" type="sentence">
                             <s xml:id="es-7-25-1" n="es 7.25">Aſsi como tienen por deſcaecimiento el
                                 no cuidar de conſerbar la hermoſura natural, <app>
                                     <lem>aſsi</lem>
                                     <rdg wit="1790">igualmente</rdg>
-                                    <rdg wit="1805">igualmente</rdg></app> condenan al que con
-                                afeites, i adereços procura de aumentarla: teniendo por cierto, que
-                                la bondad de las coſtumbres haze mas grata la muger al marido, que
-                                ninguna otra velleza corporal.<anchor n="138" xml:id="note-7-16"
-                                /></s>
+                                    <rdg wit="1805">igualmente</rdg>
+                                </app> condenan al que con afeites, i adereços procura de
+                                aumentarla: teniendo por cierto, que la bondad de las coſtumbres
+                                haze mas grata la muger al marido, que ninguna otra velleza
+                                    corporal.<anchor n="138" xml:id="note-7-16"/></s>
                         </seg>
-                        <seg n="7.26" type="untranslatedSegment"/>                            
+                        <seg n="7.26" type="untranslatedSegment"/>
                         <seg n="7.27" type="sentence">
                             <s xml:id="es-7-26-1" n="es 7.26">No ſolamente ſe apartan de las
                                 maldades, por temor del caſtigo, <app>
@@ -358,8 +376,8 @@
                                 porque los Magiſtrados no ſe hazen <app>
                                     <lem>terribles, i ſe llaman padres, i ſe</lem>
                                     <rdg wit="1790">terribles, se llaman padres, se</rdg>
-                                    <rdg wit="1805">terribles, se llaman padres, se</rdg></app>
-                                portan como tales, i los pueblos los reſpetã con guſto.</s>
+                                    <rdg wit="1805">terribles, se llaman padres, se</rdg>
+                                </app> portan como tales, i los pueblos los reſpetã con guſto.</s>
                         </seg>
                         <seg n="7.31" type="sentence">
                             <s xml:id="es-7-30-1" n="es 7.30">El Principe no ſe diferencia de los
@@ -371,18 +389,21 @@
                             <s xml:id="es-7-31-1" n="es 7.31">Tienen pocas <app>
                                     <lem>leyes, abominan</lem>
                                     <rdg wit="1790">leyes, y abominan</rdg>
-                                    <rdg wit="1805">leyes, y abominan</rdg></app> los otros pueblos
-                                que llenan de gloſas, e interpretaciones deſmeſurados volumenes.</s>
+                                    <rdg wit="1805">leyes, y abominan</rdg>
+                                </app> los otros pueblos que llenan de gloſas, e interpretaciones
+                                deſmeſurados volumenes.</s>
                         </seg>
                         <seg n="7.33" type="sentence">
                             <s xml:id="es-7-32-1" n="es 7.32"><app>
                                     <lem>Pareceles que ſea</lem>
                                     <rdg wit="1790">pareciéndoles que es</rdg>
-                                    <rdg wit="1805">pareciéndoles que es</rdg></app> iniquidad <app>
+                                    <rdg wit="1805">pareciéndoles que es</rdg>
+                                </app> iniquidad <app>
                                     <lem>obligar los</lem>
                                     <rdg wit="1790">obligar á los</rdg>
-                                    <rdg wit="1805">obligar á los</rdg></app> hombres a tãtas leyes,
-                                que no ſe puedan leer, i tan obſcuras, que no ſon inteligibles.</s>
+                                    <rdg wit="1805">obligar á los</rdg>
+                                </app> hombres a tãtas leyes, <pb n="32r"/>que no ſe puedan leer, i
+                                tan obſcuras, que no ſon inteligibles.</s>
                         </seg>
                         <seg n="7.34" type="sentence">
                             <s xml:id="es-7-33-1" n="es 7.33">No admiten Abogados.</s>
@@ -392,10 +413,10 @@
                                 diga ſu razon; porque de tal manera ſe habla menos, i <app>
                                     <lem>mejor ſe ſaca</lem>
                                     <rdg wit="1790">se saca mejor</rdg>
-                                    <rdg wit="1805">se saca mejor</rdg></app> la verdad, quando ſe
-                                halla ſin adorno de palabras; los juezes con ſolicitud deſpachan las
-                                cauſas, i favorecen los ingenios ſencillos, contra los malignos, i
-                                aſtutos.</s>
+                                    <rdg wit="1805">se saca mejor</rdg>
+                                </app> la verdad, quando ſe halla ſin adorno de palabras; los juezes
+                                con ſolicitud deſpachan las cauſas, i favorecen los ingenios
+                                ſencillos, contra los malignos, i aſtutos.</s>
                         </seg>
                         <seg n="7.36" type="sentence">
                             <s xml:id="es-7-35-1" n="es 7.35">Porque con grande fatiga ſe puede
@@ -406,7 +427,7 @@
                                 interpretacion de las leyes, las quales ſe dan para que ſean a todos
                                     manifieſtas.<anchor n="141" xml:id="note-7-19"/></s>
                         </seg>
-                        <seg n="7.37" type="untranslatedSegment"/>                            
+                        <seg n="7.37" type="untranslatedSegment"/>
                         <seg n="7.38" type="sentence">
                             <s xml:id="es-7-36-1" n="es 7.36">Los pueblos vezinos, q̃ viven
                                 libremente, porque muchos han ſufrido la tirania, movidos deſta
@@ -424,23 +445,24 @@
                                 a la patria, no tienen ocaſion de hazer injuſticias.</s>
                         </seg>
                         <seg n="7.40" type="sentence">
-                            <s xml:id="es-7-38-1" n="es 7.38">Principalmente que no conociendo a los
-                                que goviernan, no <app>
+                            <s xml:id="es-7-38-1" n="es 7.38">Principalmente que no conociendo <pb
+                                    n="32v"/>a los que goviernan, no <app>
                                     <lem>pueden de alguno facilmente</lem>
                                     <rdg wit="1790">pueden facilmente</rdg>
-                                    <rdg wit="1805">pueden facilmente</rdg></app> ſer perſuadidos de
-                                contravenir a la razon.</s>
+                                    <rdg wit="1805">pueden facilmente</rdg>
+                                </app> ſer perſuadidos de contravenir a la razon.</s>
                         </seg>
                         <seg n="7.41" type="sentence">
                             <s xml:id="es-7-39-1" n="es 7.39"><app>
                                     <lem>Que</lem>
                                     <rdg wit="1790">porque</rdg>
-                                    <rdg wit="1805">porque</rdg></app> eſtos dos males de paſsion, i
-                                avaricia quãdo ſe apoderan de los juezes, previerten lo <app>
+                                    <rdg wit="1805">porque</rdg>
+                                </app> eſtos dos males de paſsion, i avaricia quãdo ſe apoderan de
+                                los juezes, previerten lo <app>
                                     <lem>juſto, enflaquezen todo nervio</lem>
                                     <rdg wit="1790">justo, y enflaquecen todo el nervio</rdg>
-                                    <rdg wit="1805">justo, y enflaquecen todo el nervio</rdg></app>
-                                de la Republica.</s>
+                                    <rdg wit="1805">justo, y enflaquecen todo el nervio</rdg>
+                                </app> de la Republica.</s>
                         </seg>
                         <seg n="7.42" type="sentence">
                             <s xml:id="es-7-40-1" n="es 7.40">Los Vtopianos tienen por ſocios
@@ -473,21 +495,22 @@
                             <s xml:id="es-7-43-1" n="es 7.43"><app>
                                     <lem>Mas</lem>
                                     <rdg wit="1790">a más que</rdg>
-                                    <rdg wit="1805">a más que</rdg></app> porque los aſsientos, i
-                                tratos de paz entre los Principes de aquella Provincia ſe obſervan
-                                poco fielmente.</s>
+                                    <rdg wit="1805">a más que</rdg>
+                                </app> porque los aſsientos, i tratos de paz entre los Principes de
+                                aquella Provincia ſe obſervan poco fielmente.</s>
                         </seg>
                         <seg n="7.46" type="sentence">
                             <s xml:id="es-7-44-1" n="es 7.44">En Europa eſpecialmente por reinar la
                                 Fè de Chriſto ſe guardan inviolablemente las confederaciones, parte
                                 por la juſtificaciõ, i bondad de los Principes, parte por la
                                 reverencia, i temor de los Sumos Pontifices, porque ſi cometen <app>
-                                    <lem>coſa alguna</lem>
-                                    <rdg wit="1790">alguna cosa</rdg>
-                                    <rdg wit="1805">alguna cosa</rdg></app>, que contravenga a la
-                                Religion, ordenan a los otros Principes mantengan ſu palabra; i con
-                                la ſeveridad de las cenſuras, obligan a los contumazes a guardar la
-                                    fè.<anchor n="143" xml:id="note-7-21"/></s>
+                                    <lem>coſa alguna,</lem>
+                                    <rdg wit="1790">alguna cosa,</rdg>
+                                    <rdg wit="1805">alguna cosa,</rdg>
+                                </app>que contravenga a la Religion, ordenan a los otros Principes
+                                mantengan ſu palabra; i con la ſeveridad de las cenſuras, obligan a
+                                los contumazes a guardar la fè.<anchor n="143" xml:id="note-7-21"
+                                /></s>
                         </seg>
                         <seg n="7.47" type="sentence">
                             <s xml:id="es-7-45-1" n="es 7.45">I tienen por deſprecio vituperable,
@@ -498,13 +521,14 @@
                             <s xml:id="es-7-46-1" n="es 7.46"><app>
                                     <lem>Mas</lem>
                                     <rdg wit="1790">Pero</rdg>
-                                    <rdg wit="1805">Pero</rdg></app> en aquel nuevo mundo tan
-                                diſtante del nueſtro, quanto ſon verdaderamente deſemejantes las
-                                coſtumbres, no ſe aſſeguran de alianças, quando no ſe pueden hazer
-                                con tantas ceremonias, i ſacramentos, que no ſe hallè en las
-                                palabras alguna ambiguedad, expueſta al artificio, e interpretaciõ;
-                                i aſsi no ſe puede hazer cõfederaciõ alguna q̃ no eſte cerca de
-                                poderſe romper.</s>
+                                    <rdg wit="1805">Pero</rdg>
+                                </app> en aquel nuevo mundo tan diſtante del nueſtro, quanto ſon
+                                verdaderamente <pb n="33r"/>deſemejantes las coſtumbres, no ſe
+                                aſſeguran de alianças, quando no ſe pueden hazer con tantas
+                                ceremonias, i ſacramentos, que no ſe hallè en las palabras alguna
+                                ambiguedad, expueſta al artificio, e interpretaciõ; i aſsi no ſe
+                                puede hazer cõfederaciõ alguna q̃ no eſte cerca de poderſe
+                                romper.</s>
                         </seg>
                         <seg n="7.49" type="sentence">
                             <s xml:id="es-7-47-1" n="es 7.47">Mas ſi hallã los Principes ſemejantes
@@ -522,36 +546,41 @@
                                 ſer <app>
                                     <lem>diſuelta: la</lem>
                                     <rdg wit="1790">disuelta; y la</rdg>
-                                    <rdg wit="1805">disuelta; y la</rdg></app> otra de los Principes
-                                alta, i magnifica, a la qual tanto le ſea licito, quanto a ellos les
-                                agrade.</s>
+                                    <rdg wit="1805">disuelta; y la</rdg>
+                                </app> otra de los Principes alta, i magnifica, a la qual tanto le
+                                ſea licito, quanto a ellos les agrade.</s>
                         </seg>
                         <seg n="7.51" type="sentence">
                             <s xml:id="es-7-49-1" n="es 7.49">Yo me perſuado, a que los Vtopienſes
                                 no hazen alguna confederacion, porque los Principes de aquel Pais, <app>
                                     <lem>ſon</lem>
                                     <rdg wit="1790">sean</rdg>
-                                    <rdg wit="1805">sean</rdg></app> poco obſervantes de la palabra,
-                                <app>
+                                    <rdg wit="1805">sean</rdg>
+                                </app> poco obſervantes de la palabra, <app>
                                     <lem>i toda via ſi vivieſſen en eſte Emisferio, mudarian de
-                                    propoſito</lem>
-                                    <rdg wit="1790">(y todavía si viviesen en este emisferio mudarían de propósito)</rdg>
-                                    <rdg wit="1805">(y todavía si viviesen en este emisferio mudarían de propósito)</rdg></app>.<anchor n="144" xml:id="note-7-22"/></s>
+                                        propoſito</lem>
+                                    <rdg wit="1790">(y todavía si viviesen en este emisferio
+                                        mudarían de propósito)</rdg>
+                                    <rdg wit="1805">(y todavía si viviesen en este emisferio
+                                        mudarían de propósito)</rdg>
+                                </app>.<anchor n="144" xml:id="note-7-22"/></s>
                         </seg>
                         <seg n="7.52" type="sentence">
                             <s xml:id="es-7-50-1" n="es 7.50"><app>
-                                <lem>Bien ellos</lem>
-                                <rdg wit="1790">sino porque</rdg>
-                                <rdg wit="1805">sino porque</rdg></app> juzgan que aunque fueſſen
-                                obſervadas las confederaciones con toda puntualidad, que no es bien
-                                hazerlas, porque ſe podrian tener por enemigos, aquellos pueblos,
-                                que ſon divididos con vn rio, o con un monte, no aviendo entre ellos
-                                tal ſeñal de diviſion, i por eſta guerrean entre ſi, antes que
-                                hechas las confederaciones, no ſe eſtrecha la amiſtad, i queda la
-                                licencia deſ ſaco, i del robo, no <app>
+                                    <lem>Bien ellos</lem>
+                                    <rdg wit="1790">sino porque</rdg>
+                                    <rdg wit="1805">sino porque</rdg>
+                                </app> juzgan que aunque fueſſen obſervadas las confederaciones con
+                                toda puntualidad, que no es bien hazerlas, porque ſe podrian tener
+                                por enemigos, aquellos pueblos, que ſon divididos con vn rio, o con
+                                un monte, no aviendo entre ellos tal ſeñal de <pb n="33v"/>diviſion,
+                                i por eſta guerrean entre ſi, antes que hechas las confederaciones,
+                                no ſe eſtrecha la amiſtad, i queda la licencia deſ ſaco, i del robo,
+                                no <app>
                                     <lem>ſe aviendo por imprudencia podido cautelar</lem>
                                     <rdg wit="1790">habiendose podido cautelar</rdg>
-                                    <rdg wit="1805">habiendose podido cautelar</rdg></app> ſuficientemente en la confederacion el rebatir la
+                                    <rdg wit="1805">habiendose podido cautelar</rdg>
+                                </app> ſuficientemente en la confederacion el rebatir la
                                 injuria.</s>
                         </seg>
                         <seg n="7.53" type="sentence">
@@ -779,7 +808,7 @@
                                 la mujer al marido que ninguna otra belleza corporal.</seg>
                         </seg>
                         <!-- untranslated segment -->
-                        <seg n="7.26" type="untranslatedSegment"/>                           
+                        <seg n="7.26" type="untranslatedSegment"/>
                         <seg n="7.27" type="singleSentence">
                             <seg xml:id="em-7-26-1" n="em 7.38" corresp="#es-7-26-1">No solamente se
                                 apartan de las maldades por temor del castigo, mas son incitados a
@@ -842,7 +871,7 @@
                                 contra a interpretación de las leyes, las cuales se dan para que
                                 sean a todos manifiestas.</seg>
                         </seg>
-                        <seg n="7.37" type="untranslatedSegment"/>                            
+                        <seg n="7.37" type="untranslatedSegment"/>
                         <seg n="7.38" type="multisentence">
                             <seg xml:id="em-7-36-1" n="em 7.51" corresp="#es-7-36-1">Los pueblos
                                 vecinos, que viven libremente porque muchos han sufrido la tiranía,
@@ -859,9 +888,8 @@
                                 de los magistrados.</seg>
                             <seg xml:id="em-7-37-2" n="em 7.54" corresp="#es-7-37-1"> Y no pueden
                                 hacer elección más acertada por ser los utopienses, de tal
-                                constancia que n
-                                o se doblan con ningún interés y, habiendo de volver
-                                a la patria, no tienen ocasión de hacer injusticias.</seg>
+                                constancia que n o se doblan con ningún interés y, habiendo de
+                                volver a la patria, no tienen ocasión de hacer injusticias.</seg>
                         </seg>
                         <seg n="7.40" type="singleSentence">
                             <seg xml:id="em-7-38-1" n="em 7.55" corresp="#es-7-38-1">Principalmente,
@@ -1210,9 +1238,8 @@
                                 probitas et reuerentia, commendet maritis.</seg>
                         </seg>
                         <seg n="7.26" type="singleSentence" subtype="untranslated">
-                            <seg xml:id="la-7-26-1" n="la 7.49">Nam ut forma
-                                nonnulli sola capiuntur, ita nemo nisi uirtute atque obsequio
-                                retinetur.</seg>
+                            <seg xml:id="la-7-26-1" n="la 7.49">Nam ut forma nonnulli sola
+                                capiuntur, ita nemo nisi uirtute atque obsequio retinetur.</seg>
                         </seg>
                         <seg n="7.27" type="singleSentence" subtype="translated">
                             <seg xml:id="la-7-27-1" n="la 7.50" corresp="#es-7-26-1">Non poenis
@@ -1289,13 +1316,13 @@
                                 ac magis obuius legum sensus omnibus in aperto sit.</seg>
                         </seg>
                         <seg n="7.37" type="singleSentence" subtype="untranslated">
-                            <seg xml:id="la-7-37-1" n="la 7.67">alioquin, quod
-                                ad uulgus attinet, cuius et maximus est numerus et maxime eget
-                                admonitu, quid referat utrum legem omnino non condas, an conditam in
-                                talem interpreteris sententiam, quam nisi magno ingenio et longa
-                                disputatione nemo possit eruere, ad quam inuestigandam neque crassum
-                                uulgi iudicium queat attingere, neque uita in com­parando uictu
-                                occupata sufficere.</seg>
+                            <seg xml:id="la-7-37-1" n="la 7.67">alioquin, quod ad uulgus attinet,
+                                cuius et maximus est numerus et maxime eget admonitu, quid referat
+                                utrum legem omnino non condas, an conditam in talem interpreteris
+                                sententiam, quam nisi magno ingenio et longa disputatione nemo
+                                possit eruere, ad quam inuestigandam neque crassum uulgi iudicium
+                                queat attingere, neque uita in com­parando uictu occupata
+                                sufficere.</seg>
                         </seg>
                         <seg n="7.38" type="singleSentence" subtype="translated">
                             <seg xml:id="la-7-38-1" n="la 7.68" corresp="#es-7-36-1">Hiis eorum
@@ -1727,9 +1754,9 @@
                                 as honest conditions and lowlines.</seg>
                         </seg>
                         <seg n="7.26" type="singleSentence" subtype="untranslated">
-                            <seg xml:id="en-7-26-1" n="en 7.63">For as loue is
-                                oftentimes wonne with bewtie, so it is not kept, preserued, and
-                                continued, but by vertue and obedience.</seg>
+                            <seg xml:id="en-7-26-1" n="en 7.63">For as loue is oftentimes wonne with
+                                bewtie, so it is not kept, preserued, and continued, but by vertue
+                                and obedience.</seg>
                         </seg>
                         <seg n="7.27" type="singleSentence" subtype="translated">
                             <seg xml:id="en-7-27-1" n="en 7.64" corresp="#es-7-26-1">They do not
@@ -1822,16 +1849,16 @@
                                 euerye man.</seg>
                         </seg>
                         <seg n="7.37" type="multisentence" subtype="untranslated">
-                            <seg xml:id="en-7-37-1" n="en 7.85">Els as
-                                touchynge the vulgare sorte of the people, whiche be bothe moste in
-                                numbre, and haue moste neade to knowe theire dewties, were it not as
-                                good for them that no lawe were made at all, as, when it is made, to
-                                brynge so blynde an interpretacion vpon it, that without greate
-                                witte and longe arguynge no man can discusse it?</seg>
-                            <seg xml:id="en-7-37-2" n="en 7.86"> to the
-                                findinge out whereof nother the grosse iudgement of the people can
-                                attayne, nother the hole lyfe of them that be occupied in woorkynge
-                                for theire lyuynges can suffyse therto.</seg>
+                            <seg xml:id="en-7-37-1" n="en 7.85">Els as touchynge the vulgare sorte
+                                of the people, whiche be bothe moste in numbre, and haue moste neade
+                                to knowe theire dewties, were it not as good for them that no lawe
+                                were made at all, as, when it is made, to brynge so blynde an
+                                interpretacion vpon it, that without greate witte and longe arguynge
+                                no man can discusse it?</seg>
+                            <seg xml:id="en-7-37-2" n="en 7.86"> to the findinge out whereof nother
+                                the grosse iudgement of the people can attayne, nother the hole lyfe
+                                of them that be occupied in woorkynge for theire lyuynges can
+                                suffyse therto.</seg>
                         </seg>
                         <seg n="7.38" type="multisentence" subtype="translated">
                             <seg xml:id="en-7-38-1" n="en 7.87" corresp="#es-7-36-1">Thies vertues
@@ -1987,133 +2014,149 @@
             </div>
             <div type="notes">
                 <note>
-                    <note n="123" xml:id="n-7-1" target="#note-7-1">Medinilla blurs the main idea of the
-                        first sentence by not translating "nisi ab ipsis gesto"
-                        ["unless captured in wars fought by the Utopians itself" (More 1965, 185,
-                        lines 16-18)]. The translator writes "aun de ellos que la comenzaron"
-                        ["even though they started it"]. The sense missed here is that Utopians
-                        enslave prisoners captured in wars they themselves fight and it does not matter who begins it.
-                        Moreover, the <hi>apud se</hi> appearing few lines later seems to be
-                        omitted as well. This omission removes the idea that those enslaved are
-                        those who have committed a crime inside the island of Utopia. Also, Medinilla misses
+                    <note n="123" xml:id="n-7-1" target="#note-7-1">Medinilla blurs the main idea of
+                        the first sentence by not translating "nisi ab ipsis gesto" ("unless
+                        captured in wars fought by the Utopians itself" (More 1965, 185, lines
+                        16-18)). The translator writes "aun de ellos que la comenzaron" (even though
+                        they started it). The sense missed here is that Utopians enslave prisoners
+                        captured in wars they themselves fight and it does not matter who begins it.
+                        Moreover, the <hi>apud se</hi> appearing few lines later seems to be omitted
+                        as well. This omission removes the idea that those enslaved are those who
+                        have committed a crime inside the island of Utopia. Also, Medinilla misses
                         mentioning that those enslaved foreigners were those already condemned to
                         death in other countries.</note>
                     <note n="124" xml:id="n-7-2" target="#note-7-2">Medinilla translated <hi>in
-                        uinculis</hi> ["in chains" (More 1965, 185, line 26)] as <hi>en
-                        prisiones</hi> [in prison].</note>
+                            uinculis</hi> ("in chains" (More 1965, 185, line 26)) as <hi>en
+                            prisiones</hi> (in chains). While the <hi>Tesoro de la Lengua</hi> and
+                        the <hi>Diccionario de Autoridades</hi> do not associate <hi>prisión</hi>
+                        with the sense of "chain," the <hi>Diccionario de la Real Academia</hi>
+                        (2023) acknowledges this usage. In fact, the CORDE offers parallel examples
+                        of this word in its plural form with this meaning in the seventeenth
+                        century.</note>
                     <note n="125" xml:id="n-7-3" target="#note-7-3">The Spanish translator uses
-                        synonyms to render <hi>pauper</hi> [poor]. In this case, he opts for <hi>pobre</hi> and
-                        <hi>baja condición</hi> [poor and low class]. </note>
+                        synonyms to render <hi>pauper</hi> (poor). In this case, he opts for
+                            <hi>pobre</hi> and <hi>baja condición</hi> (poor and low class).</note>
                     <note n="126" xml:id="n-7-4" target="#note-7-4">Medinilla selects the expression
-                        <hi>sin galardón</hi> [without award] to translate the Latin term <hi>inanem</hi>
-                        ["empty-handed" (More 1965, 185, line 37)].</note>
+                            <hi>sin galardón</hi> (without award) to translate the Latin term
+                            <hi>inanem</hi> ("empty-handed" (More 1965, 185, line 37)).</note>
                     <note n="127" xml:id="n-7-5" target="#note-7-5">Robinson adds the adjective
-                        "stinkyng" to "marrish" (in today's English, "marsh"), maybe introducing his
-                        own thought on the matter. Alternatively, Medinilla translates <hi>paludem</hi> as
-                        <hi>laguna</hi> [lagoon], which does not accurately represent the sense of
-                        "swamp". Maybe a more precise option would have been <hi>pantano</hi> [swamp]. The
-                        <hi>Tesoro de la Lengua</hi> defines <hi>laguna</hi> as "fosa grande que ha recogido en sí el agua de las vertientes"
-                        (Covarrubias 1611, 513r) ["large pit collecting the water from
-                        the springs"], whereas <hi>pantano</hi> as "agua encenegada de laguna baja o de charco grande" (Covarrubias 1611, 576v) ["muddied water from a low
-                        lagoon or large puddle"]. Moreover, Medinilla is
-                        brief and avoids deepening into the funerary topic.</note>
-                    <note n="128" xml:id="n-7-6" target="#note-7-6">The Spanish governor modifies the
-                        marriage age of both women and men. The original says eighteen for women and
-                        twenty-two, four years later, for men, but Medinilla establishes twelve for
-                        women and, therefore, sixteen for men. This mistake could be
-                        related to Medinilla's rendering skills with numbers, as there are some
-                        instances of mistranslated quantities. Furthermore, the translator does not
-                        make a literal translation in the following lines. He omits the fact that
-                        the father and the mother of those committing dishonest actions are punished
-                        as well and renders "nisi a uago concubitu diligenter arceantur" 
-                        ["all the troubles incidental to it must be patiently borne" (More 1965, 187,
-                        lines 37-38)] as "si una vez se acostumbrasen a comunicar, ahora esta, ahora aquella" ["if once they got used to communicating, now this one, now that
-                        one"], sounding quite vague. Interestingly, Medinilla translates <hi>uno</hi> in the
-                        final segment as "una sola mujer" [one single woman] when the Latin text
-                        does not specify any gender.</note>
+                        "stinking" to "marrish" (in today's English, "marsh"), maybe introducing his
+                        own thought on the matter. Alternatively, Medinilla translates
+                            <hi>paludem</hi> as <hi>laguna</hi> (lagoon), which does not accurately
+                        represent the sense of "swamp." Maybe a more precise option would have been
+                        the Spanish noun <hi>pantano</hi> (swamp). The <hi>Tesoro de la Lengua</hi>
+                        defines laguna as "fosa grande que ha recogido en sí el agua de las
+                        vertientes" (Covarrubias 1611, 1:513r) (large pit that collects the water
+                        from the springs), whereas <hi>pantano</hi> as "agua encenegada de laguna
+                        baja o de charco grande" (1:576v) (muddy water from a low lagoon or large
+                        puddle). Moreover, Medinilla is brief and avoids deepening into the funerary
+                        topic.</note>
+                    <note n="128" xml:id="n-7-6" target="#note-7-6">The Spanish governor modifies
+                        the marriage age of both women and men. The original says eighteen for women
+                        and twenty-two, four years later, for men, but Medinilla establishes twelve
+                        for women and, therefore, sixteen for men. This mistake could be related to
+                        Medinilla's skills in rendering numbers, as there are instances of
+                        mistranslated quantities (see notes 1 and 11 in chapter one and note 153 in
+                        chapter eight). Furthermore, the translator does not make a literal
+                        translation of the following lines. He omits the fact that the father and
+                        the mother of those committing dishonest actions are punished too, and
+                        renders "nisi a uago concubitu diligenter arceantur" ("all the troubles
+                        incidental to it must be patiently borne" (More 1965, 187, lines 37-38)) as
+                        "si una vez se acostumbrasen a comunicar, ahora esta, ahora aquella" (if
+                        they once got used to communicating, now this one, now that one), sounding
+                        quite vague. Interestingly, Medinilla translates <hi>uno</hi> in the final
+                        segment as "una sola mujer" (one single woman) when the Latin text does not
+                        specify any gender.</note>
                     <note n="129" xml:id="n-7-7" target="#note-7-7">Again, Medinilla's briefness
-                        cuts one of the adjectives defining the matron: <hi>gravis</hi>, defined in the Yale edition as 
-                        "worthy" (More 1965, 189, line 3).</note>
+                        cuts one of the adjectives defining the matron: <hi>gravis</hi>, defined in
+                        the Yale edition as "worthy" (More 1965, 189, line 3).</note>
                     <note n="130" xml:id="n-7-8" target="#note-7-8">Medinilla is brief here too in
-                        his translation. He renders <hi>hulcus</hi> ["sore" (Lewis and Short 1879)] 
-                        as <hi>matadura</hi>, defined in the <hi>Diccionario de Autoridades</hi> as 
+                        his translation. He renders <hi>hulcus</hi> ("sore" (Lewis and Short 1879))
+                        as <hi>matadura</hi>, defined in the <hi>Diccionario de Autoridades</hi> as
                         "a llaga o herida que se le hace a la bestia de ludir el aparejo" (RAE 1734)
-                        ["the sore or wound that the beast gets from wearing the tackle"]. Also, he uses the first
-                        person singular to narrate this fragment instead of the
-                        first-person plural, as seen in the Latin verb <hi>improbaremus</hi>.</note>
+                        (the sore or wound that the beast gets from wearing the tackle). Also, he
+                        uses the first-person singular (<hi>yo</hi>) to narrate this fragment
+                        instead of the first-person plural, as seen in the Latin verb
+                            <hi>improbaremus</hi>.</note>
                     <note n="131" xml:id="n-7-9" target="#note-7-9">Medinilla does not detail much
                         of the process.</note>
                     <note n="132" xml:id="n-7-10" target="#note-7-10">Medinilla slightly modifies
                         this segment: "si neuter erat caelebs, iniuram passi (uelint modo)
                         repudiatis adulteris coniugio inter se ipsi iunguntur; alioquin quibus
-                        uibeditur" ["if both parties are married, the injured parties, provided they
+                        uibeditur" ("if both parties are married, the injured parties, provided they
                         consent, are divorced from their adulterous mates and couple together, or
-                        else are allowed to marry whom they like" (More 1965, 191, lines 11-13)]. Contrary to
-                        what the Latin says, Medinilla suggests "si entrambos a dos lo son, se
-                        concede que dejando el adulterio se casen entrambos, o por lo menos con
-                        otro" ["if both of them are [adulteros], it is granted that
-                        leaving adultery they both marry, or at least with another"], omitting that
+                        else are allowed to marry whom they like" (More 1965, 191, lines 11-13)).
+                        Contrary to what the Latin says, Medinilla suggests "si entrambos a dos lo
+                        son [adulteros], se concede que dejando el adulterio se casen entrambos, o
+                        por lo menos con otro" (if both of them are [adulterous], it is granted that
+                        leaving adultery they both marry, or at least with another), omitting that
                         what is stated occurs to "the injured parties" instead of the adulterers
                         themselves.</note>
                     <note n="133" xml:id="n-7-11" target="#note-7-11">The translation Medinilla
-                        proposes for "id siquidem et sceleratis non minus triste" ["no
-                        less formidable to the criminal" (More 1965, 191, line 30)] is "lo cual no es menos
-                        proporcionado a la maldad ["which is no less proportionate to the evil"].
-                        The translation does not seem correct, as choosing <hi>maldad</hi> for the Latin
-                        <hi>sceleratis</hi> and <hi>propocionado</hi> for <hi>triste</hi> blurs the original idea. </note>
+                        proposes for "id siquidem et sceleratis non minus triste" ("no less
+                        formidable to the criminal" (More 1965, 191, line 30)) is "lo cual no es
+                        menos proporcionado a la maldad" (which is no less proportionate to the
+                        evil). The translation does not seem correct, as choosing <hi>maldad</hi>
+                        (wickedness) for the Latin <hi>sceleratis</hi> and <hi>proporcionado</hi>
+                        (well-proportioned) for <hi>triste</hi> blurs the original idea.</note>
                     <note n="134" xml:id="n-7-12" target="#note-7-12">The last part of the segment
-                        in Latin, "quos cohercere career et catena non potest, trucidantur" 
-                        ["that cannot be restrained by prison or chain" (More 1965, 191, line 36)],
-                        is not translated by Medinilla.</note>
+                        in Latin, "quos cohercere career et catena non potest, trucidantur" ("that
+                        cannot be restrained by prison or chain" (More 1965, 191, line 36)), is not
+                        translated by Medinilla.</note>
                     <note n="135" xml:id="n-7-13" target="#note-7-13">When the Spanish translator
                         renders the Latin clause "quippe longis domiti malis si eam poenitentiam
                         prae se ferant, quae peccatum testetur magis eis displicere quam poenam"
-                        ["if they show such repentance as testifies that they are more sorry
-                        for their sin than for their punishment" (More 1965, 191, line 39)] as "en mostrando
-                        que les desagrada más el pecado que el arrepentimiento" ["that they dislike
-                        sin more than repentance"]. Medinilla simplifies the section and omits that
-                        inhabitants should show remorse.</note>
+                        ("if they show such repentance as testifies that they are more sorry for
+                        their sin than for their punishment" (More 1965, 191, line 39)) as "en
+                        mostrando que les desagrada más el pecado que el arrepentimiento" (that they
+                        dislike sin more than repentance). Medinilla simplifies the section and
+                        omits that inhabitants should show remorse.</note>
                     <note n="136" xml:id="n-7-14" target="#note-7-14">Medinilla summarizes the
                         context.</note>
                     <note n="137" xml:id="n-7-15" target="#note-7-15">Again, the Spanish translator
-                        does not recognize the Latin noun <hi>moriones</hi>, translating it as <hi>simples
-                        naturales</hi> [the simple-minded ones] instead of the noun <hi>bufon</hi>
-                        [fool].</note>
+                        does not recognize the Latin noun <hi>moriones</hi>, translating it as
+                            <hi>simples naturales</hi> (the simple-minded ones) instead of the noun
+                            <hi>bufon</hi> (fool). See previous note 88 in chapter six and note 232 in chapter nine.</note>
                     <note n="138" xml:id="n-7-16" target="#note-7-16">The Spanish translator renders
-                        the Latin <hi>fucis</hi> with the pair <hi>afeites</hi> and <hi>aderezos</hi> 
-                        [shave and dressing]. <hi>Afeites</hi> is defined in the <hi>Tesoro de
-                            la Lengua</hi> as "se pone a alguna cosa para que parezca bien" (Covarrubias 1611, 17r) ["the dressing that is put on something to make it look good"],
-                        whereas <hi>aderezos</hi>, very similarly as "adorno, compostura" (Covarrubias 1611, 15r) ["adornment, composure"].
-                        Robinson uses the word "payntinges". Medinilla then omits a
-                        sentence.</note>
+                        the Latin <hi>fucis</hi> with the pair <hi>afeites</hi> and
+                            <hi>aderezos</hi> (shave and dressing). <hi>Afeites</hi> is defined in
+                        the <hi>Tesoro de la Lengua</hi> as "se pone a alguna cosa para que parezca
+                        bien" (Covarrubias 1611, 1:17r) (the dressing that is put on something to make
+                        it look good), whereas <hi>aderezos</hi>, very similarly as "adorno,
+                        compostura" (1:15r) (adornment, composure). Robinson uses the word
+                        "payntinges." Medinilla then omits a sentence.</note>
                     <note n="139" xml:id="n-7-17" target="#note-7-17">Robinson ornaments the
-                        translation of this segment. In the Spanish edition, the sentences are translated less
-                        literally, the general ideas present in the
-                        Latin original are preserved, although Medinilla does not deepen into all
-                        aspects.</note>
-                    <note n="140" xml:id="n-7-18" target="#note-7-18">Medinilla selects <hi>antorcha</hi>
-                        for the Latin <hi>cereus</hi>. The <hi>Diccionario de la Lengua</hi> defines it as 
-                        "el hacha o blandón de cera encendida" (Covarrubias 1611, 74v) ["the lit
-                        wax candle"]. Moreover, he chooses <hi>manojuelo</hi> for <hi>gestatus</hi> ["handful" (More1965, 195, line 6)].
-                        <hi>Manojuelo</hi> derives from <hi>manojo</hi>,
-                        meaning "el hacecito que se puede ceñir con la mano" (Covarrubias 1611, 537v) ["the little bundle that can be wrapped around the hand"] in the
-                        <hi>Tesoro de la Lengua</hi>. </note>
+                        translation of this segment. In the Spanish edition, these sentences are
+                        translated in less literal way. Even though the general ideas present in the
+                        Latin original are preserved, Medinilla does not render all the content
+                        precisely.</note>
+                    <note n="140" xml:id="n-7-18" target="#note-7-18">Medinilla selects
+                            <hi>antorcha</hi> for the Latin <hi>cereus</hi>. The <hi>Diccionario de
+                            la Lengua</hi> defines it as "el hacha o blandón de cera encendida"
+                        (Covarrubias 1611, 1:74v) (the lit wax candle). Moreover, he chooses
+                            <hi>manojuelo</hi> for <hi>gestatus</hi> ("handful" (More 1965, 195,
+                        line 6)). <hi>Manojuelo</hi> derives from <hi>manojo</hi>, meaning "el
+                        hacecito que se puede ceñir con la mano" (the little bundle that can be
+                        wrapped around the hand) in the <hi>Tesoro de la Lengua</hi> (1611,
+                        537v).</note>
                     <note n="141" xml:id="n-7-19" target="#note-7-19">The second Latin sentence is
-                        much simplified by Medinilla and he misses a segment later.</note>
+                        much simplified by Medinilla, and he misses a complete sentence
+                        later.</note>
                     <note n="142" xml:id="n-7-20" target="#note-7-20">Medinilla integrates the
-                        content in brackets "multos enim ipsi iam olim tyrannide liberauerunt" 
-                        ["who are free and independent since many of them were long ago
-                        delivered from tyrants by the Utopians" (More 1965, 197, lines 1-3)] within the text
-                        as "porque muchos han sufrido la tiranía" ["as many of them have suffered
-                        tyranny"].</note>
-                    <note n="143" xml:id="n-7-21" target="#note-7-21">Robinson renders <hi>summorum...
-                        pontificium</hi> as "great byshoppes", rather than "supreme or great pontiff".
-                        This could have a religious connotation and questions whether Robinson was
-                        Catholic or not. </note>
+                        original content in brackets "multos enim ipsi iam olim tyrannide
+                        liberauerunt" ("who are free and independent since many of them were long
+                        ago delivered from tyrants by the Utopians" (More 1965, 197, lines 1-3))
+                        inside the text as "porque muchos han sufrido la tiranía" (as many of them
+                        have suffered tyranny).</note>
+                    <note n="143" xml:id="n-7-21" target="#note-7-21">Robinson renders <hi>summorum.
+                            . . pontificium</hi> as "great byshoppes," rather than "supreme or great
+                        pontiff." This could have a religious connotation and questions whether
+                        Robinson was Catholic or not.</note>
                     <note n="144" xml:id="n-7-22" target="#note-7-22">Medinilla translates
-                        <hi>principum illic</hi> ["of rulers there" (More 1965, 199, line 18)] as "los príncipes de aquel
-                        país" ["the princes of that country"], which could confusingly refer either
-                        to the princes of Europe or the princes of the island.</note>
+                            <hi>principum illic</hi> ("of rulers there" (More 1965, 199, line 18))
+                        as "los príncipes de aquel país" (the princes of that country), which could
+                        confusingly refer either to European princes or princes of the
+                        island.</note>
                 </note>
             </div>
         </body>
