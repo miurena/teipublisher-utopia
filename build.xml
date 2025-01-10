@@ -1,4 +1,4 @@
-<project name="Utopia de Thomas Moro - Digital Edition with variants" default="xar">
+<project name="Utopia de Thomas Moro - Digital Edition with accompanying texts" default="xar">
     <xmlproperty file="expath-pkg.xml"/>
     <!-- Adjust path below to match location of your npm binary -->
     <property name="npm" value="npm"/>

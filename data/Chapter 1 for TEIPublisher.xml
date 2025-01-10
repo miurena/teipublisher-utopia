@@ -4,8 +4,8 @@
       <fileDesc>
          <titleStmt>
             <title>Chapter 1. Descripción de la isla</title>
-            <funder>This work has been developed thanks to a doctoral fellowship granted in 2020
-               by the Spanish Ministry of Universities</funder>
+            <funder>This work has been developed thanks to a doctoral fellowship granted in 2020 by
+               the Spanish Ministry of Universities</funder>
             <respStmt>
                <name>Inmaculada Ureña Asensio</name>
                <resp>transcription and encoding</resp>
@@ -19,10 +19,10 @@
          <sourceDesc>
             <bibl>
                <title>Utopia de Thomas Moro, traducida de latin en Caſtellano por Don Geronimo
-                  Antonio de Medinilla i Porres, Cauallero de la Orden de Santiago,
-                  Cavallerizo de ſu Mageſtad, Señor de las Villas de Bocos, Rozas, i Remolino,
-                  Corregidor, i Iuſticia mayor de la Ciudad de Cordova, i ſu tierra. </title>
-               <author role="writer" xml:id="person-1">Thomas More (1478-1535)</author>
+                  Antonio de Medinilla i Porres, Cauallero de la Orden de Santiago, Cavallerizo de
+                  ſu Mageſtad, Señor de las Villas de Bocos, Rozas, i Remolino, Corregidor, i
+                  Iuſticia mayor de la Ciudad de Cordova, i ſu tierra. </title>
+               <author role="writer" xml:id="person-1">Thomas More (1478–1535)</author>
                <author role="translator" xml:id="person-2">Gerónimo de Medinilla y Porres
                   (1590-c.1642)</author>
                <publisher>por Salvador de Cea Tesa</publisher>
@@ -30,12 +30,11 @@
                <pubPlace>Córdoba</pubPlace>
             </bibl>
             <bibl>
-               <title>The Utopia of Thomas More, in Latin from the edition of March 1518, and
-                  in English from the first edition of Ralph Robinson's translation in
-                  1551</title>
+               <title>The Utopia of Thomas More, in Latin from the edition of March 1518, and in
+                  English from the first edition of Ralph Robinson's translation in 1551</title>
                <title/>
-               <author role="writer" ref="#person-1">Thomas More (1478-1535)</author>
-               <author role="translator" xml:id="person-3">Ralph Robinson (1520-1577)</author>
+               <author role="writer" ref="#person-1">Thomas More (1478–1535)</author>
+               <author role="translator" xml:id="person-3">Ralph Robinson (1520–1577)</author>
                <editor>L. H. Lupton</editor>
                <publisher>Clarendon Press</publisher>
                <date>1895</date>
@@ -43,38 +42,43 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      
+
       <encodingDesc>
          <projectDesc>
             <p>This edition was developed as part of my thesis dissertation titled "A Digital
-               Edition of the 1637 Spanish translation of Thomas More's Utopia". The processes
-               of data modeling, encoding and publishing the edition was done during a research
-               visit to the Digital Scholarship Group and the Women Writers Project at Northeastern University (Boston, USA).</p>
+               Edition of the 1637 Spanish translation of Thomas More's Utopia." The processes of
+               data modeling, encoding and publishing the edition was done during a research visit
+               to the Digital Scholarship Group and the Women Writers Project at Northeastern
+               University (Boston, USA).</p>
          </projectDesc>
          <samplingDecl>
-            <p>The aim of this edition is to offer a side-by-side edition of the first printed translation of Thomas More's <hi>Utopia</hi>
-               into Spanish plus three accompanying texts: a modernization of Gerónimo de Medinilla's 1637 rendering, the Latin text taken from
-               the 1518 March edition and the 1551 English translation by Ralph Robinson.</p>
+            <p>The aim of this edition is to offer a side-by-side edition of the first printed
+               translation of Thomas More's <hi>Utopia</hi> into Spanish plus three accompanying
+               texts: a modernization of Gerónimo de Medinilla's 1637 rendering, the Latin text
+               taken from the 1518 March edition and the 1551 English translation by Ralph
+               Robinson.</p>
          </samplingDecl>
          <editorialDecl>
             <normalization>
-               <p>For the modernization of the Spanish translation, graphs, punctuation and accentuation have been adapted to 
-                  today's orthographical norms as established by the Real Academia de la Lengua Española in its <hi>Diccionario</hi> (2023)
-                  and <hi>Ortografía de la Lengua Española</hi> (2010).</p>
-            </normalization>                
+               <p>For the modernization of the Spanish translation, graphs, punctuation and
+                  accentuation have been adapted to today's orthographical norms as established by
+                  the Real Academia de la Lengua Española in its <hi>Diccionario</hi> (2023) and
+                     <hi>Ortografía de la Lengua Española</hi> (2010).</p>
+            </normalization>
             <segmentation>
-               <p>The texts have been segmented into sentences to facilitate alignment. In the framework of the present edition,
-                  a sentence is defined as the text between two periods, disregarding other linguistic conventions.</p>
+               <p>The texts have been segmented into sentences to facilitate alignment. In the
+                  framework of the present edition, a sentence is defined as the text between two
+                  periods, disregarding other linguistic conventions.</p>
             </segmentation>
          </editorialDecl>
          <refsDecl>
-            <p>Identifiers are made up by concatenating the language reference code,
-               chapter number, segment number and segment order in the sentence.
-               Sentences are connected by <att>corresp</att>. A previous <att>type</att>
-               indicates whether the segment has been translated or not by Medinilla. Thus, if
-               a segment is untranslated, it will not carry the <att>corresp</att>.
-               The <att>n</att> of segment is also key in the alignment process</p>
-         </refsDecl>           
+            <p>Identifiers are made up by concatenating the language reference code, chapter number,
+               segment number and segment order in the sentence. Sentences are connected by
+                  <att>corresp</att>. A previous <att>type</att> indicates whether the segment has
+               been translated or not by Medinilla. Thus, if a segment is untranslated, it will not
+               carry the <att>corresp</att>. The <att>n</att> of segment is also key in the
+               alignment process</p>
+         </refsDecl>
          <schemaSpec ident="TEI"/>
       </encodingDesc>
       <profileDesc>
@@ -93,9 +97,9 @@
       <body>
          <div type="base" xml:lang="es">
             <pb n="1r"/>
-            <head type="work">RELACION, QVE HIZO Rafael Hithlodeo, excelẽte varõ, del felice
-               eſtado de la republica de VTOPIA, ordenada por Thomas Moro, Vizcõde, Ciudadano de la
-               inſigne Ciudad de Londres en Inglaterra. </head>
+            <head type="work">RELACION, QVE HIZO Rafael Hithlodeo, excelẽte varõ, del felice eſtado
+               de la republica de VTOPIA, ordenada por Thomas Moro, Vizcõde, Ciudadano de la inſigne
+               Ciudad de Londres en Inglaterra. </head>
             <div type="chapter" n="1">
                <head type="chapter">DESCRIPCION DE LA ISLA. Cap. I.</head>
                <ab>
@@ -107,9 +111,9 @@
                         forma de Luna nueva.<anchor n="1" xml:id="note-1-1"/></s>
                   </seg>
                   <seg n="1.2" type="sentence">
-                     <s xml:id="es-1-02-1" n="es 1.2">Eſtas extremidades <pb n="1v"/>convatidas del mar ſe
-                        hallan diſtantes la una dela otra otros onze mil; i el mar defendido de los
-                        vientos.</s>
+                     <s xml:id="es-1-02-1" n="es 1.2">Eſtas extremidades <pb n="1v"/>convatidas del
+                        mar ſe hallan diſtantes la una de la otra otros onze mil; i el mar defendido
+                        de los vientos.</s>
                   </seg>
                   <seg n="1.3" type="sentence">
                      <s xml:id="es-1-03-1" n="es 1.3">Entre eſtos braços forma un apacible lago,
@@ -131,7 +135,7 @@
                         eſto dañoſos: ellos ſolamente tienen conocimiento de aquellos canales: de
                         donde procede que raras vezes el eſtrangero, que no ſea aviſado de alguno de
                         la Vtopia, pueda penetrallos, i quando con afan entre ſin rieſgo, no
-                        governandoſe por ciertasguias pueſtas en la ribera, vendra qualquiera grãde
+                        governandoſe por ciertas guias pueſtas en la ribera, vendra qualquiera grãde
                         enemiga armada a dar al trabes.</s>
                   </seg>
                   <seg n="1.7" type="sentence">
@@ -147,12 +151,13 @@
                   </seg>
                   <seg n="1.9" type="sentence">
                      <s xml:id="es-1-09-1" n="es 1.9">Mas Vtopo, de quien tomò nombre la Isla, por
-                        averla conquiſtado (porque primero ſe llamava Abraxa) reduxo aquella 
-                        muche<pb n="2r"/>dumbre ruſtica, i groſſera a eſta manera de vivir humana, i civil, qual
-                        ſigue todo el linaje de los hõbres.<anchor n="5" xml:id="note-1-5"/></s>
+                        averla conquiſtado (porque primero ſe llamava Abraxa) reduxo aquella
+                           muche<pb n="2r"/>dumbre ruſtica, i groſſera a eſta manera de vivir
+                        humana, i civil, qual ſigue todo el linaje de los hõbres.<anchor n="5"
+                           xml:id="note-1-5"/></s>
                   </seg>
                   <seg n="1.10" type="sentence">
-                     <s xml:id="es-1-10-1" n="es 1.10">Cortò un Iſthmo de diez mil paſſos, porel
+                     <s xml:id="es-1-10-1" n="es 1.10">Cortò un Iſthmo de diez mil paſſos, por el
                         qual eſtava Vtopia continente con la tierra firme, con que quedò hecha
                            Isla.<anchor n="6" xml:id="note-1-6"/></s>
                   </seg>
@@ -165,7 +170,7 @@
                   </seg>
                   <seg n="1.12" type="sentence">
                      <s xml:id="es-1-12-1" n="es 1.12">Ai en eſta Isla cinquenta i quatro Ciudades,
-                        conformes en lengua, inſtitutos,i leyes, i caſi a un modelo fabricadas, en
+                        conformes en lengua, inſtitutos, i leyes, i caſi a un modelo fabricadas, en
                         quanto el ſitio lo permite.<anchor n="8" xml:id="note-1-8"/></s>
                   </seg>
                   <seg n="1.13" type="sentence">
@@ -192,9 +197,9 @@
                         ſeñores dellos.<anchor n="11" xml:id="note-1-11"/></s>
                   </seg>
                   <seg n="1.16" type="sentence">
-                     <s xml:id="es-1-16-1" n="es 1.16">Tienen alquerias mui prevenidas <pb n="2v"/>de todos los
-                        inſtrumentos para la labor, i agricultura; i a eſtos cortijos van a poblar
-                        los Ciudadanos.<anchor n="12" xml:id="note-1-12"/></s>
+                     <s xml:id="es-1-16-1" n="es 1.16">Tienen alquerias mui prevenidas <pb n="2v"
+                        />de todos los inſtrumentos para la labor, i agricultura; i a eſtos cortijos
+                        van a poblar los Ciudadanos.<anchor n="12" xml:id="note-1-12"/></s>
                   </seg>
                   <seg n="1.17" type="sentence">
                      <s xml:id="es-1-17-1" n="es 1.17">Ninguna familia ruſtica deſtas tiene menos de
@@ -218,14 +223,14 @@
                            <rdg wit="1790">con el fin de</rdg>
                            <rdg wit="1805">con el fin de</rdg>
                         </app> que no falte en todos la experiẽcia de la labranca; para que al
-                        tiempo de recogerlos frutos ſe hallen abiles.<anchor n="15"
+                        tiempo de recoger los frutos ſe hallen abiles.<anchor n="15"
                            xml:id="note-1-15"/></s>
                   </seg>
                   <seg n="1.21" type="sentence">
-                     <s xml:id="es-1-21-1" n="es 1.21">I aunque eſta manerade renovar la agricultura
-                        ſe acoſtumbra; porqueninguno ſe halle obligado a continuar la vida ruſtica
-                        mas tiempo, no por eſto muchos que ſe deleitaſſen en la agricultura dejaſſen
-                        de eſtar alli mas años.</s>
+                     <s xml:id="es-1-21-1" n="es 1.21">I aunque eſta manera de renovar la
+                        agricultura ſe acoſtumbra; porque ninguno ſe halle obligado a continuar la
+                        vida ruſtica mas tiempo, no por eſto muchos que ſe deleitaſſen en la
+                        agricultura dejaſſen de eſtar alli mas años.</s>
                   </seg>
                   <seg n="1.22" type="sentence">
                      <s xml:id="es-1-22-1" n="es 1.22">Los labradores cultivan el terreno, ſuſtentan
@@ -240,11 +245,11 @@
                   </seg>
                   <seg n="1.24" type="sentence">
                      <s xml:id="es-1-24-1" n="es 1.24">Suſtentan pocos Cavallos, i ferozes, de los
-                        quales ſe ſirben ſolamente en las empreſas de <pb n="3r"/>guerra: porque las demas
-                        labores de cultivar, i conduzir, las executan con los bueyes, los quales
-                        bien que ſean mas lentos, que los cauallos, toda via en el exercicio ſon mas
-                        ſufridos, i menos ſujetos a enfermedades, fuera de que ſon de menos gaſto: i
-                        quando no ſe puede por la vejez uſar dellos ſe pueden comer.</s>
+                        quales ſe ſirben ſolamente en las empreſas de <pb n="3r"/>guerra: porque las
+                        demas labores de cultivar, i conduzir, las executan con los bueyes, los
+                        quales bien que ſean mas lentos, que los cauallos, toda via en el exercicio
+                        ſon mas ſufridos, i menos ſujetos a enfermedades, fuera de que ſon de menos
+                        gaſto: i quando no ſe puede por la vejez uſar dellos ſe pueden comer.</s>
                   </seg>
                   <seg n="1.25" type="sentence">
                      <s xml:id="es-1-25-1" n="es 1.25">Siembran ſolamente trigo, beben vino de ubas,
@@ -258,7 +263,7 @@
                   </seg>
                   <seg n="1.27" type="sentence">
                      <s xml:id="es-1-27-1" n="es 1.27">Todo inſtrumento de la labrança, ſe toma de
-                        la Ciudad, por mano del Magiſtrado, ſincoſta alguna: i muchos concurren
+                        la Ciudad, por mano del Magiſtrado, ſin coſta alguna: i muchos concurren
                         todos los meſes en los pueblos a las fieſtas ſolemnes: quando es tiempo de
                         ſegar los panes, los que gobiernan la labrança aviſan a los Magiſtrados,
                         quanto numero de Ciudadanos deban embiar a la ſiega; i concurriendo todos
@@ -270,8 +275,8 @@
          </div>
          <div type="modernization" xml:lang="es">
             <pb n="1r"/>
-            <head type="work"> Relación que hizo Rafael Hithlodeo, excelente varón, del feliz
-               estado de la república de Utopia, ordenada por Thomas Moro, vizconde, ciudadano de la
+            <head type="work"> Relación que hizo Rafael Hithlodeo, excelente varón, del feliz estado
+               de la república de Utopia, ordenada por Thomas Moro, vizconde, ciudadano de la
                insigne ciudad de Londres en Inglaterra.</head>
             <div type="chapter" n="1">
                <head type="chapter">Descripción de la isla. Capítulo 1.</head>
@@ -284,9 +289,9 @@
                         dejan la Isla en forma de Luna nueva.</seg>
                   </seg>
                   <seg n="1.2" type="singleSentence">
-                     <seg xml:id="em-1-02-01" n="em 1.2" corresp="#es-1-02-1">Estas extremidades
-                        <pb n="1v"/>combatidas del mar se hallan distantes la una de la otra otros once mil y el
-                        mar defendido de los vientos.</seg>
+                     <seg xml:id="em-1-02-01" n="em 1.2" corresp="#es-1-02-1">Estas extremidades <pb
+                           n="1v"/>combatidas del mar se hallan distantes la una de la otra otros
+                        once mil y el mar defendido de los vientos.</seg>
                   </seg>
                   <seg n="1.3" type="singleSentence">
                      <seg xml:id="em-1-03-1" n="em 1.3" corresp="#es-1-03-1">Entre estos brazos
@@ -327,8 +332,9 @@
                   <seg n="1.9" type="singleSentence">
                      <seg xml:id="em-1-09-1" n="em 1.10" corresp="#es-1-9-1">Mas Utopo, de quien
                         tomó nombre la Isla por haberla conquistado (porque primero se llamaba
-                        Abraxa), redujo aquella muche<pb n="2r"/>dumbre rústica y grosera a esta manera de vivir
-                        humana y civil, cual sigue todo el linaje de los hombres.</seg>
+                        Abraxa), redujo aquella muche<pb n="2r"/>dumbre rústica y grosera a esta
+                        manera de vivir humana y civil, cual sigue todo el linaje de los
+                        hombres.</seg>
                   </seg>
                   <seg n="1.10" type="singleSentence">
                      <seg xml:id="em-1-10-1" n="em 1.11" corresp="#es-1-10-1">Cortó un istmo de diez
@@ -370,8 +376,8 @@
                   </seg>
                   <seg n="1.16" type="singleSentence">
                      <seg xml:id="em-1-16-1" n="em 1.19" corresp="#es-1-16-1">Tienen alquerías muy
-                        prevenidas <pb n="2v"/>de todos los instrumentos para la labor y agricultura; y a estos
-                        cortijos van a poblar los ciudadanos.</seg></seg>
+                        prevenidas <pb n="2v"/>de todos los instrumentos para la labor y
+                        agricultura; y a estos cortijos van a poblar los ciudadanos.</seg></seg>
                   <seg n="1.17" type="singleSentence">
                      <seg xml:id="em-1-17-1" n="em 1.20" corresp="#es-1-17-1">Ninguna familia
                         rústica destas tiene menos de cuarenta personas, excepto dos hombres del
@@ -413,12 +419,12 @@
                   </seg>
                   <seg n="1.24" type="singleSentence">
                      <seg xml:id="em-1-24-1" n="em 1.27" corresp="#es-1-24-1">Sustentan pocos
-                        caballos y feroces, de los cuales se sirven solamente en las empresas de
-                        <pb n="3r"/>guerra, porque las demás labores de cultivar y conducir las ejecutan con los
-                        bueyes, los cuales bien que sean más lentos que los caballos todavía en el
-                        ejercicio son más sufridos y menos sujetos a enfermedades fuera de que son
-                        de menos gasto y, cuando no se puede por la vejez usar dellos, se pueden
-                        comer.</seg>
+                        caballos y feroces, de los cuales se sirven solamente en las empresas de <pb
+                           n="3r"/>guerra, porque las demás labores de cultivar y conducir las
+                        ejecutan con los bueyes, los cuales bien que sean más lentos que los
+                        caballos todavía en el ejercicio son más sufridos y menos sujetos a
+                        enfermedades fuera de que son de menos gasto y, cuando no se puede por la
+                        vejez usar dellos, se pueden comer.</seg>
                   </seg>
                   <seg n="1.25" type="singleSentence">
                      <seg xml:id="em-1-25-1" n="em 1.28" corresp="#es-1-25-1">Siembran solamente
@@ -642,10 +648,10 @@
             </div>
          </div>
          <div type="translation" xml:lang="en">
-            <head type="work">The second Boke of the communication of Raphael Hythlodaye,
-               concernyng the best state of a common wealthe: conteynyng the discription of Vtopia,
-               with a large declaration of the Godly gouernement, and of all the good lawes and
-               orders of the same Ilande.</head>
+            <head type="work">The second Boke of the communication of Raphael Hythlodaye, concernyng
+               the best state of a common wealthe: conteynyng the discription of Vtopia, with a
+               large declaration of the Godly gouernement, and of all the good lawes and orders of
+               the same Ilande.</head>
             <div type="chapter" n="1">
                <head type="chapter"/>
                <ab>
@@ -887,95 +893,112 @@
                         fayre daye dispatcheth all the haruest woorke.</seg>
                   </seg>
                </ab>
-            </div>        
+            </div>
          </div>
          <div type="notes">
-            <note n="1" xml:id="n-1-1" target="#note-1-1">Medinilla translates <hi>quingentorum</hi> into Spanish as
-               <hi>cincuenta</hi> [fifty] instead of <hi>quinientos</hi> [five hundreds]. López Estrada
-               already mentioned Medinilla's mistranslations of numbers (1965, 308).</note>
+            <note n="1" xml:id="n-1-1" target="#note-1-1">Medinilla translates <hi>quingentorum</hi>
+               into Spanish as <hi>cincuenta</hi> (fifty) instead of <hi>quinientos</hi> (five
+               hundreds). López Estrada already mentioned Medinilla's mistranslations of numbers
+               (1965, 308).</note>
             <note n="2" xml:id="n-1-2" target="#note-1-2">Medinilla translates the Latin word
-               <hi>praesidium</hi> as <hi>presidio</hi> [garrison]. According to Covarrubias, this is the
-               place where soldiers keep guard (1611, 595v). In today's Spanish this word refers to a
+                  <hi>praesidium</hi> as <hi>presidio</hi> (garrison). According to Covarrubias,
+               this is the "el castillo o fuerza donde hay gente de guarnición" (1611, 1:595v) (the
+               place where soldiers keep guard). In today's Spanish this word refers to a
                penitentiary institution (RAE 2023).</note>
             <note n="3" xml:id="n-1-3" target="#note-1-3">Medinilla seems to miss the agreement
-               between the Latin adjective <hi>infrequentes</hi> and the fourth-declension noun <hi>portus</hi>.
-               That is why he translates the Latin "ab altera parte non infrequentes portus" (More 1965, 110, line 27) as "on the other side, there is a frequently visited
-               harbor" instead of something like "on the outer side of the island, harbors are many" (More 1965, 111, line 31). Also, Thomas
-               More indicates that some harbors are fortified by nature, <hi>natura</hi> in Latin, and other by works, <hi>arte</hi>,
-               and Medinilla, on the contrary, renders it as if ports are fortified by both ("por arte i
-               naturaleza" [in English, "by art and nature"]).</note>
+               between the Latin adjective <hi>infrequentes</hi> and the fourth-declension noun
+                  <hi>portus</hi>. That is why he translates the Latin "ab altera parte non
+               infrequentes portus" (More 1965, 110, line 27) as "on the other side, there is a
+               frequently visited harbor" instead of something like "on the outer side of the
+               island, harbors are many" (111, line 31). Also, Thomas More indicates that some
+               harbors are fortified by nature, <hi>natura</hi> in Latin, and other by works,
+                  <hi>arte</hi>, and Medinilla, on the contrary, renders it as if ports are
+               fortified by both, "por arte i naturaleza" (by art and nature).</note>
             <note n="4" xml:id="n-1-4" target="#note-1-4">This is one of the examples where
-               Medinilla uses the verb <hi>haber</hi> instead of <hi>tener</hi>. Besides, the translator makes an
-               incorrect translation of "ea tellus olim non ambiebatur mari" (More 1965, 112, line 1). Medinilla opts for
-               "aquella tierra en lo antiguo estaba rodeada del mar" ["that land was surrounded by the sea in ancient
-               times"] instead of "the island once was not surrounded by sea" (More 1965, 113, line 2).</note>
-            <note n="5" xml:id="n-1-5" target="#note-1-5">He translates <hi>perduxit</hi> into <hi>redujo</hi>.
-               The Latin verb <hi>perduco</hi> means "conduct, guide", whereas the Spanish <hi>reducir</hi>
-               implies some control or power, forcing someone into doing something. Darcy Kern agrees on this, as she comments on the
-               Tacitist influence of this decision (2024, 226).</note>
+               Medinilla uses the verb <hi>haber</hi> instead of <hi>tener</hi>. Besides, the
+               translator makes an incorrect translation of "ea tellus olim non ambiebatur mari"
+               (More 1965, 112, line 1). Medinilla opts for "aquella tierra en lo antiguo estaba
+               rodeada del mar" ("that land was surrounded by the sea in ancient times") instead of
+               "the island once was not surrounded by sea" (113, line 2).</note>
+            <note n="5" xml:id="n-1-5" target="#note-1-5">He translates <hi>perduxit</hi> into
+                  <hi>redujo</hi>. The Latin verb <hi>perduco</hi> means "conduct, guide", whereas
+               the Spanish <hi>reducir</hi> implies some control or power, forcing someone into
+               doing something. Darcy Kern agrees on this, as she comments on the Tacitist influence
+               of this decision (2024, 226).</note>
             <note n="6" xml:id="n-1-6" target="#note-1-6">Medinilla does not translate "primo
-               protinus appulsu uictoria potitus" (More 1965, 112, line 5) ["gained a victory at his very first landing" (More 1965, 113, lines 7-8)]. It is likely that he found this information
-               redundant with what has previously been said.</note>
+               protinus appulsu uictoria potitus" (More 1965, 112, line 5) ("gained a victory at his
+               very first landing" (113, lines 7-8)). It is likely that he found this information
+               redundant with what has been previously said.</note>
             <note n="7" xml:id="n-1-7" target="#note-1-7">Medinilla translates "ne contumeliae loco
-               laboren ducerent" (More 1965, 112, line 10) very freely and in a different sense: "por no causar afrenta a
-               aquellos" ["so as not to make them feel dishonoured"]. The English
-               translation in Yale reads "to prevent them from thinking the labor a disgrace" (More 1965,
-               113, line 15). Also, the translator misses the fear overtone at the end, presented in
-               Latin as <hi>terrore</hi>.</note>
+               laboren ducerent" (More 1965, 112, line 10) very freely and in a different sense:
+               "por no causar afrenta a aquellos" (so as not to make them feel dishonoured). The
+               English translation in Yale edition reads "to prevent them from thinking the labor a
+               disgrace" (113, line 15). Also, the translator misses the fear overtone at the end,
+               presented in Latin as <hi>terrore</hi>.</note>
             <note n="8" xml:id="n-1-8" target="#note-1-8">Medinilla omits "spatiosas omnes ac
-               magnificas" (More 1965, 112, line 16) ["all spacious and magnificent" (More 1965, 113, lines 19-20)]. Also, he removes <hi>moribus</hi> [traditions] from the list of elements.</note>
-            <note n="9" xml:id="n-1-9" target="#note-1-9">Medinilla introduces the word <hi>peón</hi> to
-               refer to the person who walks certain distance on foot, which coincides with the definition of this term in the <hi>Tesoro de la Lengua</hi>,
+               magnificas" ("all spacious and magnificent" (More 1965, 113, lines 19-20)). Also, he
+               removes <hi>moribus</hi> (traditions) from the list of elements.</note>
+            <note n="9" xml:id="n-1-9" target="#note-1-9">Medinilla introduces the word
+                  <hi>peón</hi> to refer to the person who walks certain distance on foot, which
+               coincides with the definition of this term in the <hi>Tesoro de la Lengua</hi>,
                defining it as "el que camina a pie, el que en las obras mercenarias trabaja por su
-               jornal... " ["the person who walks or goes on foot, the person engaged who works
-               to receive a daily wage"] (Covarrubias 1611, 584r).</note>
-            <note n="10" xml:id="n-1-10" target="#note-1-10">Medinilla does not translate <hi>legatis</hi>,
-               which appears as "embassadours" in Robinson's translation (More 1895, 120) and "representatives" in the Yale
-               edition (More 1965, 112, line 25).</note>
+               jornal. . ." (Covarrubias 1611, 1:584r) (the person who walks or goes on foot, the
+               person engaged who works to receive a daily wage).</note>
+            <note n="10" xml:id="n-1-10" target="#note-1-10">Medinilla does not translate
+                  <hi>legatis</hi>, which appears as "embassadours" in Robinson's translation (More
+               1895, 120) and "representatives" in the Yale edition (112, line
+               25).</note>
             <note n="11" xml:id="n-1-11" target="#note-1-11">Medinilla translates <hi>XX passuum
-               millia</hi> [twenty miles] as <hi>veinte</hi> [twenty]. This implies he used a 1518 edition of Utopia, since in
-               the 1516 and 1517 editions the number is <hi>duodecim</hi> [twelve].</note>
-            <note n="12" xml:id="n-1-12" target="#note-1-12">The Spanish translator choses the pair <hi>alquería y cortijos</hi> to render
-               <hi>domos</hi>. <hi>Alqueria</hi> appears in the <hi>Tesoro de la lengua</hi> with the meaning of "es la casa sola en el campo donde el labrador del,
-               se recoge con su gente y hato de labrança, por estar lejos de poblado, 
-               y que el dia se le fuera en ir y venir, no habitando en la misma tierra que labra, y asi vale tanto como casa de labranza,
-               y donde hay muchas destas casas, apartadas unas de otras"
-               ["it is the single house in the field where the farmer gathers with his people and farm equipment,
-               because it is far from town, and the day would be spent coming and going,
-               not living on the same land where he farms, and so it is worth as much as a farmhouse,
-               and where there are many of these houses, separated from each other"] (Covarrubias 1611, 81v). Besides, according to
-               the <hi>Diccionario de Autoridades</hi>, <hi>cortijo</hi> means the same but was commonly used in areas of Castille and
-               Andalusia (RAE 1729). Medinilla, possibly following Jiménez Patón's theory, uses local words, which set the
-               translation into a local context. López Estrada already discussed the introduction of dialectal expressions in this translation (1965, 306).</note>
+                  millia</hi> (twenty miles) as <hi>veinte</hi> (twenty). This implies he used a
+               1518 edition of Utopia, since in the 1516 and 1517 editions the number is
+                  <hi>duodecim</hi> (twelve).</note>
+            <note n="12" xml:id="n-1-12" target="#note-1-12">The Spanish translator chooses the pair
+                  <hi>alquería</hi> and <hi>cortijos</hi> to render <hi>domos</hi> (houses).
+                  <hi>Alquería</hi> appears in the <hi>Tesoro de la lengua</hi> with the meaning of
+               "es la casa sola en el campo donde el labrador del, se recoge con su gente y hato de
+               labrança, por estar lejos de poblado, y que el dia se le fuera en ir y venir, no
+               habitando en la misma tierra que labra, y asi vale tanto como casa de labranza, y
+               donde hay muchas destas casas, apartadas unas de otras" (Covarrubias 1611, 1:81v) (it
+               is the single house in the field where the farmer gathers with his people and farm
+               equipment, because it is far from town, and the day would be spent coming and going,
+               not living on the same land where he farms, and so it is worth as much as a
+               farmhouse, and where there are many of these houses, separated from each other).
+               Besides, according to the <hi>Diccionario de Autoridades</hi>, <hi>cortijo</hi> means
+               the same, but especially refers to those in areas of Castille and Andalusia (RAE
+               1729). Medinilla, possibly following Jiménez Patón's theory: he inserts local words,
+               which set the translation into a local context. López Estrada already discussed the
+               introduction of dialectal expressions in this translation (1965, 306).</note>
             <note n="13" xml:id="n-1-13" target="#note-1-13">The 1637 translation preserves the
-               expression <hi>familia rústica</hi> for the Latin <hi>familia rustica</hi>. Robinson opts for
-               "howsholde or ferme in the countrey". Medinilla translates <hi>praeter</hi> as <hi>excepto</hi>
-               [except]. This removes the sense of addition <hi>praeter</hi> originally conveys.</note>
+               expression <hi>familia rústica</hi> for the Latin <hi>familia rustica</hi>. Robinson
+               opts for "howsholde or ferme in the country." Medinilla translates <hi>praeter</hi>
+               as <hi>excepto</hi> (except). This removes the sense of addition <hi>praeter</hi>
+               originally conveys.</note>
             <note n="14" xml:id="n-1-14" target="#note-1-14">Whereas Medinilla finds the Spanish
-               word <hi>cabeza</hi> [head] for the Latin <hi>philarchus</hi>, Robinson transfers the Latin word
-               (originally in Greek <hi>φύλαρχος</hi>) into English with his choice "Phylarche". This is the first
-               time, according to the OED, this word is used in this language. Hexter and Surtz
-               comment on the ironic connection between the Greek terms <hi>φύλαρχος</hi> and <hi>φ́ιλαρχος</hi>, the
-               first meaning "the head of a tribe" and the second, "fond of rule and power" (More 1965, 389, note 114/7).
-               The introduction of this neologism in Robinson's requests an explicative
-               sentence later ("being as it were a hed baylyffe"), which does not appear in the
-               original Latin.</note>
-            <note n="15" xml:id="n-1-15" target="#note-1-15">There is an ellipsis of the word <hi>año</hi>
-               [year] at the end the sentence.</note>
+               word <hi>cabeza</hi> (head) for the Latin <hi>philarchus</hi>, Robinson transfers the
+               Latin word (originally in Greek φύλαρχος) into English with his choice "phylarche."
+               This is the first time, according to the OED (2024), this word is used in this language.
+               Hexter and Surtz comment on the ironic connection between the Greek terms
+               φύλαρχος and φ́ιλαρχος, the first meaning "the head of a tribe" and the second, "fond
+               of rule and power" (More 1965, 389n114/7). The introduction of this neologism in
+               Robinson's rendering requests an explicative sentence later ("being as it were a hed
+               baylyffe"), which does not appear in the original Latin.</note>
+            <note n="15" xml:id="n-1-15" target="#note-1-15">There is an ellipsis of the word
+                  <hi>año</hi> (year) at the end the sentence.</note>
             <note n="16" xml:id="n-1-16" target="#note-1-16">The translator does not keep the
-               humorous idea that chickens follow men as if they were hens as in "homines uice matrum
-               comitantur et agnoscunt" (More 1965, 114, line 23) ["the chick follows and acknowledge humans as their mothers" (More 1965, 115, lines 30-31)].</note>
+               humorous idea that chickens follow men as if they were hens as in "homines uice
+               matrum comitantur et agnoscunt" ("the chick follows and acknowledge humans as their
+               mothers" (More 1965, 115, lines 30-31))</note>
             <note n="17" xml:id="n-1-17" target="#note-1-17">Medinilla seems to summarize the
                content, omitting ideas like "tamen multo amplius et sementis faciunt et peducum
-               educant" (More 1965, 116, lines 8-9) ["they produce far more grain and cattle than they require for their own
-               use" (More 1965, 117, lines 10-11)].</note>
+               educant" ("they produce far more grain and cattle than they require for their own
+               use" (More 1965, 117, lines 10-11)).</note>
             <note n="18" xml:id="n-1-18" target="#note-1-18">Medinilla opts to render <hi>urbs</hi> once as
-               <hi>ciudad</hi> [city] and another as <hi>pueblo</hi> [town] in this segment. It seems he establishes a
+               <hi>ciudad</hi> (city) and another as <hi>pueblo</hi> (town) in this segment. It seems he establishes a
                difference between the city, which is the main town, and the rest of them. This could
                lead to confusion, as <hi>pueblos</hi> are today deemed as cities with smaller number of
                inhabitants and services available and, as seen in later examples, the translator
-               generally uses <hi>pueblo</hi> to translate the Latin word <hi>populus</hi>. There is another
-               relevant example in Chapter VI. This displays a sense of locality and adjustment to
+               generally uses <hi>pueblo</hi> to translate the Latin word <hi>populus</hi>. There is another relevant
+               example in Chapter V (see note 62). This displays a sense of locality and adjustment to
                the reality in Spain.</note>
          </div>
       </body>

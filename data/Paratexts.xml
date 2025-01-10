@@ -1,45 +1,38 @@
+<?xml-model href="../../ODD/out/Utopia.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <!-- updated to 21/5/2024-->
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Paratexts of Utopia de Thomas Moro</title>
-            <funder>This work has been developed thanks to a doctoral fellowship granted in 2020 by the Spanish Ministry of Universities</funder>
+            <title>Chapter 0. Paratexts of Utopia de Thomas Moro</title>
+            <funder>This work has been developed thanks to a doctoral fellowship granted in 2020
+               by the Spanish Ministry of Universities</funder>
             <respStmt>
                <name>Inmaculada Ureña Asensio</name>
                <resp>transcription and encoding</resp>
             </respStmt>
          </titleStmt>
-         <editionStmt>
-            <edition n="1">
-               First edition
-               <date>March 2024</date>
-            </edition>
-         </editionStmt>
          <publicationStmt>
             <publisher>TEIPublisher</publisher>
-            <pubPlace>
-               <ref>
-                  <!--  URL? -->
-               </ref>
-            </pubPlace>
+            <pubPlace><ref>http://utopiadethomasmoro-digitaledition.com/</ref></pubPlace>
             <date>2024</date>
          </publicationStmt>
-         <notesStmt>
-            <note>I especially want to thank the DSG at NU for the support during my research visit at Northeastern University in 2023.</note>
-            <note>Thanks to my thesis supervisor...</note>
-         </notesStmt>
          <sourceDesc>
             <bibl>
-               <title>Utopia de Thomas Moro, traducida de latin en Caſtellano por Don Geronimo Antonio de Medinilla i Porres, Cauallero de la Orden de Santiago, Cavallerizo de ſu Mageſtad, Señor de las Villas de Bocos, Rozas, i Remolino, Corregidor, i Iuſticia mayor de la Ciudad de Cordova, i ſu tierra. </title>
+               <title>Utopia de Thomas Moro, traducida de latin en Caſtellano por Don Geronimo
+                  Antonio de Medinilla i Porres, Cauallero de la Orden de Santiago,
+                  Cavallerizo de ſu Mageſtad, Señor de las Villas de Bocos, Rozas, i Remolino,
+                  Corregidor, i Iuſticia mayor de la Ciudad de Cordova, i ſu tierra. </title>
                <author role="writer" xml:id="person-1">Thomas More (1478-1535)</author>
-               <author role="translator" xml:id="person-2">Gerónimo de Medinilla y Porres (1590-c.1642)</author>
+               <author role="translator" xml:id="person-2">Gerónimo de Medinilla y Porres
+                  (1590-c.1642)</author>
                <publisher>por Salvador de Cea Tesa</publisher>
                <date>1637</date>
                <pubPlace>Córdoba</pubPlace>
             </bibl>
             <bibl>
-               <title>The Utopia of Thomas More, in Latin from the edition of March 1518, and in English from the first edition of Ralph Robinson's translation in 1551</title>
+               <title>The Utopia of Thomas More, in Latin from the edition of March 1518, and
+                  in English from the first edition of Ralph Robinson's translation in
+                  1551</title>
                <title/>
                <author role="writer" ref="#person-1">Thomas More (1478-1535)</author>
                <author role="translator" xml:id="person-3">Ralph Robinson (1520-1577)</author>
@@ -48,63 +41,40 @@
                <date>1895</date>
                <pubPlace>Oxford</pubPlace>
             </bibl>
-            <!--  lists  -->
          </sourceDesc>
       </fileDesc>
+      
       <encodingDesc>
          <projectDesc>
-            <p>This edition was developed as part of my thesis dissertation titled "A Digital Edition of the 1637 Spanish translation of Thomas More's Utopia". The processes of data modeling, encoding and publishing the edition was done during a research visit at Northeastern University.</p>
+            <p>This edition was developed as part of my thesis dissertation titled "A Digital
+               Edition of the 1637 Spanish translation of Thomas More's Utopia". The processes
+               of data modeling, encoding and publishing the edition was done during a research
+               visit to the Digital Scholarship Group and the Women Writers Project at Northeastern University (Boston, USA).</p>
          </projectDesc>
          <samplingDecl>
-            <p>section to describe the rationale of the edition</p>
+            <p>The aim of this edition is to offer a side-by-side edition of the first printed translation of Thomas More's <hi>Utopia</hi>
+               into Spanish plus three accompanying texts: a modernization of Gerónimo de Medinilla's 1637 rendering, the Latin text taken from
+               the 1518 March edition and the 1551 English translation by Ralph Robinson.</p>
          </samplingDecl>
          <editorialDecl>
             <normalization>
-               <p>
-                  The only text modernized is the translation. The elements modernized are the following:
-                  <list>
-                     <item/>
-                  </list>
-               </p>
-            </normalization>
-            <punctuation>
-               <p>The original punctuation system has been preserved in the 1637 Spanish translation, the 1551 English translation and the Latin original. The modifications concerning punctuation in the modernized version of the Spanish text have already been specified in the previous section.</p>
-            </punctuation>
+               <p>For the modernization of the Spanish translation, graphs, punctuation and accentuation have been adapted to 
+                  today's orthographical norms as established by the Real Academia de la Lengua Española in its <hi>Diccionario</hi> (2023)
+                  and <hi>Ortografía de la Lengua Española</hi> (2010).</p>
+            </normalization>                
             <segmentation>
-               <p>The texts have been segmented into sentences to facilitate alignment. The principle followed... </p>
+               <p>The texts have been segmented into sentences to facilitate alignment. In the framework of the present edition,
+                  a sentence is defined as the text between two periods, disregarding other linguistic conventions.</p>
             </segmentation>
          </editorialDecl>
          <refsDecl>
-            <p> Explain here the reference system (linking?) use gi to refer to elements and attr to refer to attributes</p>
-         </refsDecl>
-         <classDecl>
-            <taxonomy>
-               <desc/>
-            </taxonomy>
-            <!--  Place names and identifiers 
-              
-              #place-1 -> London
-              #place-2 -> Amauroto
-              
-              People names and identifiers
-              
-              #person-1 -> Thomas More
-              #person-2 -> Raphael Hythloday
-              #person-3 -> Utopo
-              
-              (work?) positions list
-              #position-1 -> labrador
-              #position-2 -> magistrado
-              
-              Geographical names
-              #geogr-1 -> Isla de los Utopienses/Utopia (Abraxa)
-              #geogr-2 -> Utopia continente
-              
-              Numbers (maybe for the future)
-              #quant-1 -> 
-              
-               -->
-         </classDecl>
+            <p>Identifiers are made up by concatenating the language reference code,
+               chapter number, segment number and segment order in the sentence.
+               Sentences are connected by <att>corresp</att>. A previous <att>type</att>
+               indicates whether the segment has been translated or not by Medinilla. Thus, if
+               a segment is untranslated, it will not carry the <att>corresp</att>.
+               The <att>n</att> of segment is also key in the alignment process</p>
+         </refsDecl>           
          <schemaSpec ident="TEI"/>
       </encodingDesc>
       <profileDesc>
@@ -115,43 +85,44 @@
             <language ident="en">sixteenth-century English</language>
          </langUsage>
       </profileDesc>
-      <!--  copy of Spanish Library (ref) and where I took the copy from Lupton  -->
       <revisionDesc>
-         <change when="2024-03-04">
-            Version 1.0
-            <!--  example  -->
-         </change>
+         <change when="2024-10-31">Version 1.0</change>
       </revisionDesc>
    </teiHeader>
    <text>
+      <front>
+         <titlePage>
+            <docTitle>
+            <titlePart>
+            <title type="main">VTOPIA De THOMAS MORO</title>
+            <title type="sub">TRADVCIDA DE LATIN en en Castellano por Don Geronimo
+               Antonio de Medinilla i Porres, Cauallero de la Orden de Santiago,
+               Cavallerizo de ʃu Mageʃtad, Señor de las Villas de Bocos, Rozas, i Remolino,
+               Corregidor, i Iuʃticia mayor de la Ciudad de Cordova, i ʃu tierra. A D. IVAN
+               DE CHAVES I MENDOZA Cavallero de la Orden de Santiago, Preʃidente del Real
+               Conʃejo de las Ordenes, del Conʃejo, i Camara de ʃu Mageʃtad, Conde de S.
+               Cruz, i Señor de la Calçada, &amp;c. </title>
+            </titlePart>
+            </docTitle>
+            <docAuthor>Geronimo de Medinilla</docAuthor>
+            <docImprint>
+               <emph>CON PRIVILEGIO</emph>
+               <publisher>Por Salvador de Cea</publisher>
+               <pubPlace>Cordova</pubPlace>
+            </docImprint>
+            <docDate>1637</docDate>
+            <figure>
+               <p>Dileƈta ex his, &amp; coñʃtituta Reipublicę forma, laudari facilius, quàm
+                  evenire, vel ʃi evenit, haut diuturna eʃʃe poteʃt. C. Corn. T. Ann. lib. 4.
+               </p>
+            </figure>
+         </titlePage>
+      </front>
       <body>
          <div type="base" xml:lang="es">
             <pb n="I"/>
-            <div type="titlepage">
-                  <!-- update data -->
-                  <docTitle>
-                     <titlePart type="main">VTOPIA De THOMAS MORO</titlePart>
-                     <titlePart type="sub">TRADVCIDA DE LATIN en en Castellano por Don Geronimo
-                        Antonio de Medinilla i Porres, Cauallero de la Orden de Santiago,
-                        Cavallerizo de ʃu Mageʃtad, Señor de las Villas de Bocos, Rozas, i Remolino,
-                        Corregidor, i Iuʃticia mayor de la Ciudad de Cordova, i ʃu tierra. A D. IVAN
-                        DE CHAVES I MENDOZA Cavallero de la Orden de Santiago, Preʃidente del Real
-                        Conʃejo de las Ordenes, del Conʃejo, i Camara de ʃu Mageʃtad, Conde de S.
-                        Cruz, i Señor de la Calçada, &amp;c. </titlePart>
-                  </docTitle>
-                  <docAuthor>Geronimo de Medinilla</docAuthor>
-                  <docImprint>
-                     <p>CON PRIVILEGIO</p>
-                     <publisher>Por Salvador de Cea</publisher>
-                     <pubPlace>Cordova</pubPlace>
-                  </docImprint>
-                  <docDate>1637</docDate>
-                  <figure>
-                     <p>Dileƈta ex his, &amp; coñʃtituta Reipublicę forma, laudari facilius, quàm
-                        evenire, vel ʃi evenit, haut diuturna eʃʃe poteʃt. C. Corn. T. Ann. lib. 4.
-                     </p>
-                  </figure>
-            </div>
+            <div type="titlepage" n="0">
+
             <div type="acknowledgement" n="1">
                <pb n="IIr"/>
                <head>A D. IVAN DE CHAVES i Mendoça, Cauallero de la Orden de Sanƈtiago, Preʃidente
@@ -388,7 +359,7 @@
                   ʃingular deʃte mi ʃentir, la varia de Caʃiodoro 49. lib. I. a las traduciones de
                   Euclydes, Nicomaʃtro, Ariʃtoteles, i Pytagoras por el generoʃo Heroe, e inclyto
                   Patricio Boecio. <hi rend="italic">Quos tanta</hi> (dize el Sena- dor) <hi
-                     type="italic">verborum luculentia</hi>: (poco antes <hi rend="italic">
+                     rend="italic">verborum luculentia</hi>: (poco antes <hi rend="italic">
                      Translationibus tuis) reddidiʃti claros, tanta linguae proprietate conʃpicuos,
                      ut putuiʃʃent &amp; illi opus tuum proferre ʃi utrumque didiciʃsent</hi>.
                   Gloria, que no aʃi facil ʃe alcança por ʃer lo dificil, i mucho, la corriente de
@@ -412,7 +383,7 @@
                   Lyrico, <hi rend="italic">Quin etiam lex Poenaque diƈta malo, quae nollect carmine
                      quenquã Deʃcribi. uertere modum formidine ʃuʃtis, Ad benedicendum,
                      deleƈtandumque redaƈti</hi>. Britanico a las Satyras de Iuvenal <hi
-                     type="italic">lege lata per Alcibiadem ʃiluerunt</hi>. I el Bado con mas
+                     rend="italic">lege lata per Alcibiadem ʃiluerunt</hi>. I el Bado con mas
                   claridad a las Satyras Perʃianas, <hi rend="italic">Prooemio, cumque boneʃtae
                      perʃonae foedius notarentur, lata Romae lex, ut ʃiquis malum carmen, in
                      quemquam ʃeripʃiʃʃet, eius rei ius, iuditiumque eʃʃet, ita meta paenae ʃcenici
@@ -422,7 +393,7 @@
                   grandes vozes pedian atrozes reprehenʃiones, echaron velo de eʃtrangeras vozes al
                   vituperio de ʃus exorbitancias. <pb n="XIIIr"/>Del mas erudito Romano Marco Varron
                   me diò noticia en ʃus Adverʃarios lib. 18. cap. 28. Alexãdro Turnebo <hi
-                     type="italic">εωs ωετεπugιωμ, ideʃt liber detem poribus</hi>, de los tiempos de
+                     rend="italic">εωs ωετεπugιωμ, ideʃt liber detem poribus</hi>, de los tiempos de
                   aora <hi rend="italic">τυgε μεyuπo</hi>, i deʃt <hi rend="italic">de
                      ʃepultura</hi>, titulos Griegos, retiravan de la viʃta los aviʃos libres, que
                   encerravan en ʃus libros. Tulio con nombre de ʃueños promulgò ʃeis libros de ʃu
@@ -827,31 +798,6 @@
             </div>
          </div>
          <div type="original" xml:lang="es">
-            <div type="titlepage">
-                  <!-- update data -->
-                  <docTitle>
-                     <titlePart type="main">VTOPIA De THOMAS MORO</titlePart>
-                     <titlePart type="sub">TRADUCIDA DE LATÍN en Castellano por Don Gerónimo Antonio
-                        de Medinilla y Porres, Caballero de la Orden de Santiago, Caballerizo de su
-                        Majestad, Señor de las Villas de Bocos, Rozas, y Remolino, Corregidor, y
-                        Justicia mayor de la Ciudad de Cordoba, y su tierra. A D. IVAN DE CHAVES Y
-                        MENDOZA Caballero de la Orden de Santiago, Presidente del Real Consejo de
-                        las Órdenes, del Consejo, y Cámara de su Majestad, Conde de S. Cruz, y Señor
-                        de la Calzada, &amp;c. </titlePart>
-                  </docTitle>
-                  <docAuthor>Geronimo de Medinilla</docAuthor>
-                  <docImprint>
-                     <p>CON PRIVILEGIO</p>
-                     <publisher>Por Salvador de Cea</publisher>
-                     <pubPlace>Córdoba</pubPlace>
-                  </docImprint>
-                  <docDate>1637</docDate>
-                  <figure>
-                     <p>Dilecta ex his, &amp; constituta Reipublicae forma, laudari facilius, quam
-                        evenire, vel si evenit, haut diuturna esse potest. C. Corn. T. Ann. lib. 4.
-                     </p>
-                  </figure>               
-            </div>
             <div type="acknowledgement" n="1">
                <pb n="IIr"/>
                <head>A D. IVAN DE CHAVES y Mendoza, Caballero de la Orden de Santiago, Presidente
@@ -1107,7 +1053,7 @@
                   la santidad de sus vidas con no poca gracia lo tocaba el Lírico, <hi rend="italic"
                      >Quin etiam lex Poenaque dicta malo, quae nollect carmine quenquan Describi.
                      uertere modum formidine sustis, Ad benedicendum, delectandumque redacti </hi>.
-                  Britanico a las Sátiras de Juvenal <hi type="italic">lege lata per Alcibiadem
+                  Britanico a las Sátiras de Juvenal <hi rend="italic">lege lata per Alcibiadem
                      siluerunt</hi>. Y el Bado con más claridad a las Sátiras Persianas, <hi
                      rend="italic">Prooemio, cumque bonestae personae foedius notarentur, lata Romae
                      lex, ut siquis malum carmen, in quemquam seripsisset, eius rei ius, iuditiumque
@@ -1521,7 +1467,7 @@
                <ab>FIN.</ab>
             </div>
          </div>
+         </div>
       </body>
-
    </text>
 </TEI>
