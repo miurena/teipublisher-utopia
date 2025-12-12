@@ -1,5 +1,5 @@
 # START STAGE 1
-FROM openjdk:8-jdk-slim as builder
+FROM eclipse-temurin:8-jdk as builder
 
 USER root
 
