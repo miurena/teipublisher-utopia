@@ -94,8 +94,8 @@
         </profileDesc>
         <revisionDesc>
             <change when="2024-10-31">Version 1.0</change>
-        </revisionDesc>
-    </teiHeader>
+            <change when="2026-05-10">Version 1.1</change>
+        </revisionDesc>    </teiHeader>
     <text>
         <body>
             <div type="base" xml:lang="es">
@@ -2940,7 +2940,7 @@
                         </seg>
                         <seg n="6.29" type="singleSentence" subtype="translated">
                             <seg xml:id="la-6-29-1" n="la 6.39" type="partial" part="I"
-                                next="#la-30-1" corresp="#es-6-29-1">Nam quum in fictilibus e terra
+                                next="#la-6-30-1" corresp="#es-6-29-1">Nam quum in fictilibus e terra
                                 uitroque, elegantissimis quidem illis sed uilibus tamen, edant
                                 bibantque, </seg>
                         </seg>
@@ -2972,7 +2972,7 @@
                                 efferri, nemo sibi iacturam unius fecisse assis uideretur.</seg>
                         </seg>
                         <seg n="6.34" type="singleSentence" subtype="translated">
-                            <seg xml:id="la-6-34-1" n="la 6.33" corresp="#es-6-34-1">Margaritas
+                            <seg xml:id="la-6-34-1" n="la 6.43" corresp="#es-6-34-1">Margaritas
                                 praeterea legunt in littoribus; quin in rupibus quibus­dam adamantes
                                 ac pyropos quoque: neque tamen quaerunt, sed oblatos casu
                                 perpoliunt.</seg>
@@ -3238,11 +3238,10 @@
                             <seg xml:id="la-6-67-1" n="la 6.82" type="partial" part="I"
                                 next="#la-6-68-1" corresp="#es-6-67-1">Nam uirtutem asperam ac
                                 difficilem sequi, ac non abigere modo suauitatem uitae, sed dolorem
-                                etiam sponte perpeti, cuius nullum expectes fructum […] id uero
-                                dementissimum ferunt.</seg>
+                                etiam sponte perpeti, cuius nullum expectes fructum</seg>
                         </seg>
                         <seg n="6.68" type="singleSentence" subtype="translated">
-                            <seg xml:id="la-6-68-1" n="la 6.82" type="partial" part="I"
+                            <seg xml:id="la-6-68-1" n="la 6.82" type="partial" part="M"
                                 prev="#la-6-67-1" next="#la-6-67-2" corresp="#es-6-68-1">(quis enim
                                 potest esse fructus si post mortem nihil assequeris, quum hanc uitam
                                 totam insuauiter, hoc est, misere traduxeris)</seg>
@@ -3873,7 +3872,7 @@
                                 nihil erat in lingua quod requirerent; </seg>
                         </seg>
                         <seg n="6.153" type="singleSentence" subtype="translated">
-                            <seg xml:id="la-6-153-1" n="la 6.194" type="partial" part="I"
+                            <seg xml:id="la-6-153-1" n="la 6.194" type="partial" part="F"
                                 prev="#la-6-152-2" corresp="#es-6-146-1">bonos autores, nisi obstet
                                 libri menda, inoffense perlegerent.</seg>
                         </seg>
@@ -3951,7 +3950,7 @@
                         </seg>
                         <seg n="6.164" type="singleSentence" subtype="translated">
                             <seg xml:id="la-6-164-1" n="la 6.203" type="partial" part="M"
-                                prev="#la-6-163-1" next="#6-165-1" corresp="#es-6-157-1">uel eo ipso
+                                prev="#la-6-163-1" next="#la-6-165-1" corresp="#es-6-157-1">uel eo ipso
                                 quod eius cognitionem numerant inter pulcherrimas atque utilissimas
                                 partes philosophiae; cuius ope philo­sophiae dum naturae secreta
                                 scrutantur, uidentur sibi non solum admirabilem inde uoluptatem
@@ -4090,7 +4089,8 @@
                                 lawe and con­dition, he may go whether he well within the boundes of
                                 his owne citie.</seg>
                             <seg xml:id="en-6-8-2" n="en 6.13" corresp="#es-6-8-1">For he shalbe no
-                                les profitable to the citie, then if he were within it. For he
+                                les profitable to the citie, then if he were within it.</seg>
+                            <seg xml:id="en-6-8-3" n="en 6.14" corresp="#es-6-8-1">For he
                                 shalbe no les profitable to the citie, then if he were within
                                 it.</seg>
                         </seg>

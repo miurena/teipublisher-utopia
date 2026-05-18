@@ -94,6 +94,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2024-10-31">Version 1.0</change>
+            <change when="2026-05-10">Version 1.1</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -1389,14 +1390,14 @@
                                 selfe.</seg>
                         </seg>
                         <seg n="5.43" type="singleSentence" subtype="translated">
-                            <seg xml:id="en-5-43-1" n="en 5.75" corresp="#es-5-43-1">Theire dyners
+                            <seg xml:id="en-5-43-1" n="en 5.74" corresp="#es-5-43-1">Theire dyners
                                 be verye short; but there suppers be sumwhat longer; be­cause that
                                 after dynner followeth laboure; after supper sleape and naturall
                                 reste; whiche they thynke to be of no more strengthe and efficacy to
                                 holsome and healthfull digestion.</seg>
                         </seg>
                         <seg n="5.44" type="multisentence" subtype="translated">
-                            <seg xml:id="en-5-44-1" n="en 5.76" corresp="#es-5-44-1">No supper is
+                            <seg xml:id="en-5-44-1" n="en 5.75" corresp="#es-5-44-1">No supper is
                                 passed without musicke; nor their bankettes lacke no conceytes nor
                                 ionckettes.</seg>
                             <seg xml:id="en-5-44-2" n="en 5.76" corresp="#es-5-44-1">They burne
@@ -1408,11 +1409,13 @@
                                 forbidden, wherof cummeth no harme.</seg>
                         </seg>
                         <seg n="5.45" type="singleSentence" subtype="translated">
-                            <seg xml:id="en-5-45-1" n="en 5.78" corresp="#es-5-45-1">Thus therfore
+                            <seg xml:id="en-5-45-1" n="en 5.78" type="partial" part="I"
+                                next="#en-5-4-1" corresp="#es-5-45-1">Thus therfore
                                 and after this sorte they lyue togethers in the citie;</seg>
                         </seg>
                         <seg n="5.46" type="multisentence" subtype="translated">
-                            <seg xml:id="en-5-46-1" n="en 5.78" corresp="#es-5-46-1"> but in the
+                            <seg xml:id="en-5-46-1" n="en 5.78" type="partial" part="F"
+                                prev="#en-5-45-1" corresp="#es-5-46-1"> but in the
                                 contrey they that dwell alone, farre from anye neyghbours, do dyne
                                 and suppe at home in their own houses.</seg>
                             <seg xml:id="en-5-46-2" n="en 5.79" corresp="#es-5-46-1">For no famelie
